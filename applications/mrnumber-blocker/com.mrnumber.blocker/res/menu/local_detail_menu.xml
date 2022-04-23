@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/saveAsContactButton" android:title="@string/lc_detail_save_as_contact" app:showAsAction="never" />
+    <item android:id="@id/shareButton" android:title="@string/lc_detail_share" app:showAsAction="never" />
+</menu>

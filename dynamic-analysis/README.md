@@ -23,3 +23,7 @@ dynamic:
 
 1. (Optional) Run `adb logcat -c` to clear log first.
 2. Run `adb logcat` to follow emulator logs.
+
+### Interacting with emulator
+
+Use `adb shell input text [STRING]` to paste into emulator.

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/ad_full_screen_round_cover_bg" android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iab_guide_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/iap_result_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+    <ImageView android:id="@id/iab_guide_arrow" android:layout_width="7.0dip" android:layout_height="12.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/iab_guide_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+    <TextView android:textSize="16.0sp" android:textColor="#ff2d2d2d" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/iab_guide_title" android:layout_toLeftOf="@id/iab_guide_arrow" android:layout_toRightOf="@id/iab_guide_icon" />
+</RelativeLayout>

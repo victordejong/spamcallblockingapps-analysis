@@ -1,0 +1,103 @@
+package com.birbit.android.jobqueue;
+/* renamed from: com.birbit.android.jobqueue.R */
+/* loaded from: classes-dex2jar.jar:com/birbit/android/jobqueue/R.class */
+public final class C0932R {
+
+    /* renamed from: com.birbit.android.jobqueue.R$attr */
+    /* loaded from: classes-dex2jar.jar:com/birbit/android/jobqueue/R$attr.class */
+    public static final class C0933attr {
+        public static final int buttonSize = 2130968756;
+        public static final int circleCrop = 2130968802;
+        public static final int colorScheme = 2130968837;
+        public static final int imageAspectRatio = 2130969110;
+        public static final int imageAspectRatioAdjust = 2130969111;
+        public static final int scopeUris = 2130969379;
+    }
+
+    /* renamed from: com.birbit.android.jobqueue.R$color */
+    /* loaded from: classes-dex2jar.jar:com/birbit/android/jobqueue/R$color.class */
+    public static final class color {
+        public static final int common_google_signin_btn_text_dark = 2131099777;
+        public static final int common_google_signin_btn_text_dark_default = 2131099778;
+        public static final int common_google_signin_btn_text_dark_disabled = 2131099779;
+        public static final int common_google_signin_btn_text_dark_focused = 2131099780;
+        public static final int common_google_signin_btn_text_dark_pressed = 2131099781;
+        public static final int common_google_signin_btn_text_light = 2131099782;
+        public static final int common_google_signin_btn_text_light_default = 2131099783;
+        public static final int common_google_signin_btn_text_light_disabled = 2131099784;
+        public static final int common_google_signin_btn_text_light_focused = 2131099785;
+        public static final int common_google_signin_btn_text_light_pressed = 2131099786;
+    }
+
+    /* renamed from: com.birbit.android.jobqueue.R$drawable */
+    /* loaded from: classes-dex2jar.jar:com/birbit/android/jobqueue/R$drawable.class */
+    public static final class C0934drawable {
+        public static final int common_full_open_on_phone = 2131230937;
+        public static final int common_google_signin_btn_icon_dark = 2131230938;
+        public static final int common_google_signin_btn_icon_dark_focused = 2131230939;
+        public static final int common_google_signin_btn_icon_dark_normal = 2131230940;
+        public static final int common_google_signin_btn_icon_light = 2131230943;
+        public static final int common_google_signin_btn_icon_light_focused = 2131230944;
+        public static final int common_google_signin_btn_icon_light_normal = 2131230945;
+        public static final int common_google_signin_btn_text_dark = 2131230947;
+        public static final int common_google_signin_btn_text_dark_focused = 2131230948;
+        public static final int common_google_signin_btn_text_dark_normal = 2131230949;
+        public static final int common_google_signin_btn_text_light = 2131230952;
+        public static final int common_google_signin_btn_text_light_focused = 2131230953;
+        public static final int common_google_signin_btn_text_light_normal = 2131230954;
+    }
+
+    /* renamed from: com.birbit.android.jobqueue.R$id */
+    /* loaded from: classes-dex2jar.jar:com/birbit/android/jobqueue/R$id.class */
+    public static final class C0935id {
+        public static final int adjust_height = 2131296342;
+        public static final int adjust_width = 2131296343;
+        public static final int auto = 2131296415;
+        public static final int dark = 2131296606;
+        public static final int icon_only = 2131296793;
+        public static final int light = 2131296862;
+        public static final int none = 2131296973;
+        public static final int standard = 2131297287;
+        public static final int wide = 2131297431;
+    }
+
+    /* renamed from: com.birbit.android.jobqueue.R$integer */
+    /* loaded from: classes-dex2jar.jar:com/birbit/android/jobqueue/R$integer.class */
+    public static final class integer {
+        public static final int google_play_services_version = 2131361831;
+    }
+
+    /* renamed from: com.birbit.android.jobqueue.R$string */
+    /* loaded from: classes-dex2jar.jar:com/birbit/android/jobqueue/R$string.class */
+    public static final class string {
+        public static final int common_google_play_services_enable_button = 2131755410;
+        public static final int common_google_play_services_enable_text = 2131755411;
+        public static final int common_google_play_services_enable_title = 2131755412;
+        public static final int common_google_play_services_install_button = 2131755413;
+        public static final int common_google_play_services_install_title = 2131755415;
+        public static final int common_google_play_services_notification_ticker = 2131755417;
+        public static final int common_google_play_services_unknown_issue = 2131755418;
+        public static final int common_google_play_services_unsupported_text = 2131755419;
+        public static final int common_google_play_services_update_button = 2131755420;
+        public static final int common_google_play_services_update_text = 2131755421;
+        public static final int common_google_play_services_update_title = 2131755422;
+        public static final int common_google_play_services_updating_text = 2131755423;
+        public static final int common_google_play_services_wear_update_text = 2131755424;
+        public static final int common_open_on_phone = 2131755425;
+        public static final int common_signin_button_text = 2131755426;
+        public static final int common_signin_button_text_long = 2131755427;
+    }
+
+    /* renamed from: com.birbit.android.jobqueue.R$styleable */
+    /* loaded from: classes-dex2jar.jar:com/birbit/android/jobqueue/R$styleable.class */
+    public static final class styleable {
+        public static final int LoadingImageView_circleCrop = 0;
+        public static final int LoadingImageView_imageAspectRatio = 1;
+        public static final int LoadingImageView_imageAspectRatioAdjust = 2;
+        public static final int SignInButton_buttonSize = 0;
+        public static final int SignInButton_colorScheme = 1;
+        public static final int SignInButton_scopeUris = 2;
+        public static final int[] LoadingImageView = {2130968802, 2130969110, 2130969111};
+        public static final int[] SignInButton = {2130968756, 2130968837, 2130969379};
+    }
+}

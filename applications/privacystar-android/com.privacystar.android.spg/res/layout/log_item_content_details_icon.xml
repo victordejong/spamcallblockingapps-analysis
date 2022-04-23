@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/log_item_contact_rl" android:layout_width="42.0dip" android:layout_height="40.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_weight="0.0" android:layout_marginStart="8.0dip" android:layout_marginEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <de.hdodenhof.circleimageview.CircleImageView android:id="@id/log_item_contact_image" android:visibility="invisible" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" app:civ_border_width="0.0dip" />
+    <ImageView android:id="@id/log_item_contact_icon" android:visibility="visible" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerVertical="true" />
+    <ImageView android:layout_gravity="center" android:id="@id/log_item_contact_icon_secondary_background" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="2.0dip" android:tint="@color/ps3_white" android:layout_alignParentBottom="true" android:layout_marginStart="2.0dip" android:layout_alignParentEnd="true" app:srcCompat="@drawable/circle" />
+    <LinearLayout android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="2.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="2.0dip" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/log_item_contact_icon_secondary" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginTop="2.0dip" android:layout_marginStart="2.0dip" />
+    </LinearLayout>
+</RelativeLayout>

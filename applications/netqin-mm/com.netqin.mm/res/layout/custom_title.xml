@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/title_rl" android:background="@color/nq_3f51b5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/navi_go_up" android:background="@drawable/title_btn_background" android:layout_width="63.0dip" android:layout_height="fill_parent" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/ic_go_up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nq_margin_16dip" android:src="@drawable/icon_titlebar_return" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/ic_action_overflow" android:background="@drawable/title_btn_background" android:paddingLeft="27.0dip" android:paddingRight="27.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/ic_action_image_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_overflow" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/ic_action_image_id_icon" android:background="@drawable/ic_action_overflow_notify" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_toRightOf="@id/ic_action_image_id" />
+    </RelativeLayout>
+    <TextView android:textColor="@color/nq_ffffff" android:id="@id/activity_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="aaa" android:layout_toLeftOf="@id/ic_action_overflow" android:layout_toRightOf="@id/navi_go_up" android:layout_centerVertical="true" style="@style/title_size" />
+    <ImageView android:id="@id/activity_name_en" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/titlebar_title_en" android:layout_toRightOf="@id/navi_go_up" android:layout_centerVertical="true" />
+</RelativeLayout>

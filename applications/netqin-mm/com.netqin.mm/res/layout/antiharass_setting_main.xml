@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/nq_page_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/setting_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/nq_title_72px" layout="@layout/custom_single_title" />
+    <ScrollView android:background="@color/nq_transport" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/ad_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/antiharass_setting_black_rl" android:background="@drawable/list_selector_other" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:paddingLeft="@dimen/nq_margin_16dip" android:paddingRight="@dimen/nq_margin_16dip" android:layout_width="fill_parent" android:layout_height="@dimen/antiharass_list_height">
+                    <ImageView android:id="@id/list_arrow_one" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/antiharass_setting_black" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/nq_545454" android:ellipsize="end" android:id="@id/black_size" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/antiharass_setting_black" android:singleLine="true" android:layout_toLeftOf="@id/list_arrow_one" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/antiharas_list_text_one" />
+                </RelativeLayout>
+                <View android:background="@color/nq_list_divider" android:layout_width="fill_parent" android:layout_height="@dimen/nq_divider_height" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/antiharass_settting_white_rl" android:background="@drawable/list_selector_other" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:paddingLeft="@dimen/nq_margin_16dip" android:paddingRight="@dimen/nq_margin_16dip" android:layout_width="fill_parent" android:layout_height="@dimen/antiharass_list_height">
+                    <ImageView android:id="@id/list_arrow_two" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/antiharass_setting_white" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/nq_545454" android:ellipsize="end" android:id="@id/white_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/antiharass_setting_white" android:singleLine="true" android:layout_toLeftOf="@id/list_arrow_two" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/antiharas_list_text_one" />
+                </RelativeLayout>
+                <View android:background="@color/nq_list_divider" android:layout_width="fill_parent" android:layout_height="@dimen/nq_divider_height" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/antiharass_setting_mute_rl" android:background="@drawable/list_selector_other" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:paddingLeft="@dimen/nq_margin_16dip" android:paddingRight="@dimen/nq_margin_16dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/antiharass_list_height">
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+                        <TextView android:textSize="16.0sp" android:textColor="@color/nq_545454" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/antiharass_block_mode" android:singleLine="true" style="@style/antiharas_list_text_one" />
+                        <TextView android:id="@id/intercept_model_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/antiharas_list_text_two" />
+                    </LinearLayout>
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/antiharass_setting_black" />
+                </RelativeLayout>
+                <View android:background="@color/nq_list_divider" android:layout_width="fill_parent" android:layout_height="@dimen/nq_divider_height" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

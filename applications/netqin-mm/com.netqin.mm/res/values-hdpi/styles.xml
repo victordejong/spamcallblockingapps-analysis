@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle" parent="@style/Base.Widget.AppCompat.DrawerArrowToggle.Common">
+        <item name="barLength">18.659973dip</item>
+        <item name="drawableSize">24.0dip</item>
+        <item name="gapBetweenBars">3.3299866dip</item>
+    </style>
+    <style name="antiharas_list_text_one">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/nq_333333</item>
+    </style>
+    <style name="antiharas_list_text_two">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/nq_999999</item>
+    </style>
+    <style name="dialog_btn">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/nq_706587</item>
+    </style>
+    <style name="dialog_style" parent="@android:style/Theme.Dialog">
+        <item name="android:backgroundDimAmount">0.45</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="dialog_title">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/nq_000000</item>
+    </style>
+</resources>

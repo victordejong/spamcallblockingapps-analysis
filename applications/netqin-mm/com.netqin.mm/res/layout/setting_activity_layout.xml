@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/nq_page_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/setting_title" android:layout_width="fill_parent" android:layout_height="@dimen/nq_title_72px" layout="@layout/custom_single_title" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/antiharass_setting_intercept_reject_ll" android:background="@drawable/list_selector_other" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:paddingLeft="@dimen/nq_margin_16dip" android:paddingRight="@dimen/nq_margin_16dip" android:layout_width="fill_parent" android:layout_height="@dimen/antiharass_list_height">
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                        <TextView android:id="@id/intercept_echo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/antiharass_reject_way" style="@style/list_item_font_left_top" />
+                        <TextView android:id="@id/intercept_echo_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reject_way_direct_hang_up" style="@style/list_item_font_left_bottom" />
+                    </LinearLayout>
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/common_app_name" />
+                </RelativeLayout>
+                <View android:background="@color/nq_dcdcdc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/nq_divider_height" />
+            </LinearLayout>
+            <TextView android:id="@id/blocker_call_one_ring" style="@style/SettingsCheckboxStyle" />
+            <TextView android:id="@id/notification" style="@style/SettingsCheckboxStyle" />
+            <com.libaray.gdpr.GdprSettingsItem android:id="@id/gdpr_setting" android:text="@string/gdpr_settings_item" style="@style/SettingsCheckboxStyle" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/setting_check_update_ll" android:background="@drawable/list_selector_other" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/antiharass_list_height">
+                <TextView android:id="@id/setting_check_update" android:paddingLeft="@dimen/nq_margin_16dip" android:paddingRight="@dimen/nq_margin_16dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_check_update" style="@style/list_item_font_left_top" />
+                <View android:background="@color/nq_dcdcdc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/nq_divider_height" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/setting_about_ll" android:background="@drawable/list_selector_other" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/antiharass_list_height">
+                <TextView android:id="@id/setting_about" android:paddingLeft="@dimen/nq_margin_16dip" android:paddingRight="@dimen/nq_margin_16dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_about" style="@style/list_item_font_left_top" />
+                <View android:background="@color/nq_dcdcdc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/nq_divider_height" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

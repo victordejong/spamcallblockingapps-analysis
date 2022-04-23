@@ -1,0 +1,274 @@
+package com.facebook.ads;
+
+import android.content.Context;
+import android.view.View;
+import androidx.annotation.Keep;
+import com.facebook.ads.internal.api.NativeAdBaseApi;
+import com.facebook.ads.internal.api.NativeAdImageApi;
+import com.facebook.ads.internal.api.NativeAdRatingApi;
+import com.facebook.ads.internal.dynamicloading.DynamicLoaderFactory;
+import org.json.JSONObject;
+@Keep
+/* loaded from: classes-dex2jar.jar:com/facebook/ads/NativeAdBase.class */
+public abstract class NativeAdBase implements AbstractC7079Ad {
+    public final NativeAdBaseApi mNativeAdBaseApi;
+
+    @Keep
+    /* loaded from: classes-dex2jar.jar:com/facebook/ads/NativeAdBase$Image.class */
+    public static class Image {
+        public final NativeAdImageApi mNativeAdImageApi;
+
+        public Image(NativeAdImageApi nativeAdImageApi) {
+            this.mNativeAdImageApi = nativeAdImageApi;
+        }
+
+        public static Image fromJSONObject(JSONObject jSONObject) {
+            NativeAdImageApi createNativeAdImageApi = DynamicLoaderFactory.makeLoaderUnsafe().createNativeAdImageApi(jSONObject);
+            return createNativeAdImageApi == null ? null : new Image(createNativeAdImageApi);
+        }
+
+        public int getHeight() {
+            return this.mNativeAdImageApi.getHeight();
+        }
+
+        public int getWidth() {
+            return this.mNativeAdImageApi.getWidth();
+        }
+    }
+
+    @Keep
+    /* loaded from: classes-dex2jar.jar:com/facebook/ads/NativeAdBase$MediaCacheFlag.class */
+    public enum MediaCacheFlag {
+        NONE,
+        ALL
+    }
+
+    @Keep
+    /* loaded from: classes-dex2jar.jar:com/facebook/ads/NativeAdBase$NativeAdLoadConfigBuilder.class */
+    public interface NativeAdLoadConfigBuilder {
+        public static final int UNKNOWN_IMAGE_SIZE = -1;
+
+        void loadAd();
+
+        NativeAdLoadConfigBuilder withBid(String str);
+
+        NativeAdLoadConfigBuilder withMediaCacheFlag(MediaCacheFlag mediaCacheFlag);
+
+        NativeAdLoadConfigBuilder withPreloadedIconView(int i, int i2);
+    }
+
+    @Keep
+    /* loaded from: classes-dex2jar.jar:com/facebook/ads/NativeAdBase$NativeComponentTag.class */
+    public enum NativeComponentTag {
+        AD_ICON,
+        AD_TITLE,
+        AD_COVER_IMAGE,
+        AD_SUBTITLE,
+        AD_BODY,
+        AD_CALL_TO_ACTION,
+        AD_SOCIAL_CONTEXT,
+        AD_CHOICES_ICON,
+        AD_OPTIONS_VIEW,
+        AD_MEDIA;
+
+        public static void tagView(View view, NativeComponentTag nativeComponentTag) {
+            DynamicLoaderFactory.makeLoader(view.getContext()).createNativeComponentTagApi().tagView(view, nativeComponentTag);
+        }
+    }
+
+    @Keep
+    /* loaded from: classes-dex2jar.jar:com/facebook/ads/NativeAdBase$Rating.class */
+    public static class Rating {
+        public final NativeAdRatingApi mNativeAdRatingApi;
+
+        public Rating(NativeAdRatingApi nativeAdRatingApi) {
+            this.mNativeAdRatingApi = nativeAdRatingApi;
+        }
+
+        public static Rating fromJSONObject(JSONObject jSONObject) {
+            NativeAdRatingApi createNativeAdRatingApi = DynamicLoaderFactory.makeLoaderUnsafe().createNativeAdRatingApi(jSONObject);
+            return createNativeAdRatingApi == null ? null : new Rating(createNativeAdRatingApi);
+        }
+
+        public double getScale() {
+            return this.mNativeAdRatingApi.getScale();
+        }
+
+        public double getValue() {
+            return this.mNativeAdRatingApi.getValue();
+        }
+    }
+
+    public NativeAdBase(Context context, NativeAdBase nativeAdBase) {
+        this.mNativeAdBaseApi = DynamicLoaderFactory.makeLoader(context).createNativeAdBaseApi(nativeAdBase.mNativeAdBaseApi);
+    }
+
+    public NativeAdBase(Context context, String str) {
+        this.mNativeAdBaseApi = DynamicLoaderFactory.makeLoader(context).createNativeAdBaseApi(context, str);
+    }
+
+    public NativeAdBase(NativeAdBaseApi nativeAdBaseApi) {
+        this.mNativeAdBaseApi = nativeAdBaseApi;
+    }
+
+    public static NativeAdBase fromBidPayload(Context context, String str, String str2) throws Exception {
+        return DynamicLoaderFactory.makeLoader(context).createNativeAdBaseFromBidPayload(context, str, str2);
+    }
+
+    public NativeAdLoadConfigBuilder buildLoadAdConfig() {
+        return this.mNativeAdBaseApi.buildLoadAdConfig();
+    }
+
+    @Override // com.facebook.ads.AbstractC7079Ad
+    public void destroy() {
+        this.mNativeAdBaseApi.destroy();
+    }
+
+    public void downloadMedia() {
+        this.mNativeAdBaseApi.downloadMedia();
+    }
+
+    public String getAdBodyText() {
+        return this.mNativeAdBaseApi.getAdBodyText();
+    }
+
+    public String getAdCallToAction() {
+        return this.mNativeAdBaseApi.getAdCallToAction();
+    }
+
+    public Image getAdChoicesIcon() {
+        return this.mNativeAdBaseApi.getAdChoicesIcon() == null ? null : new Image(this.mNativeAdBaseApi.getAdChoicesIcon());
+    }
+
+    public String getAdChoicesImageUrl() {
+        return this.mNativeAdBaseApi.getAdChoicesImageUrl();
+    }
+
+    public String getAdChoicesLinkUrl() {
+        return this.mNativeAdBaseApi.getAdChoicesLinkUrl();
+    }
+
+    public String getAdChoicesText() {
+        return this.mNativeAdBaseApi.getAdChoicesText();
+    }
+
+    public Image getAdCoverImage() {
+        return this.mNativeAdBaseApi.getAdCoverImage() == null ? null : new Image(this.mNativeAdBaseApi.getAdCoverImage());
+    }
+
+    public String getAdHeadline() {
+        return this.mNativeAdBaseApi.getAdHeadline();
+    }
+
+    public Image getAdIcon() {
+        return this.mNativeAdBaseApi.getAdIcon() == null ? null : new Image(this.mNativeAdBaseApi.getAdIcon());
+    }
+
+    public String getAdLinkDescription() {
+        return this.mNativeAdBaseApi.getAdLinkDescription();
+    }
+
+    public String getAdSocialContext() {
+        return this.mNativeAdBaseApi.getAdSocialContext();
+    }
+
+    @Deprecated
+    public Rating getAdStarRating() {
+        return this.mNativeAdBaseApi.getAdStarRating() == null ? null : new Rating(this.mNativeAdBaseApi.getAdStarRating());
+    }
+
+    public String getAdTranslation() {
+        return this.mNativeAdBaseApi.getAdTranslation();
+    }
+
+    public String getAdUntrimmedBodyText() {
+        return this.mNativeAdBaseApi.getAdUntrimmedBodyText();
+    }
+
+    @Deprecated
+    public NativeAdViewAttributes getAdViewAttributes() {
+        return new NativeAdViewAttributes();
+    }
+
+    public String getAdvertiserName() {
+        return this.mNativeAdBaseApi.getAdvertiserName();
+    }
+
+    public String getId() {
+        return this.mNativeAdBaseApi.getId();
+    }
+
+    public NativeAdBaseApi getInternalNativeAd() {
+        return this.mNativeAdBaseApi;
+    }
+
+    @Override // com.facebook.ads.AbstractC7079Ad
+    public String getPlacementId() {
+        return this.mNativeAdBaseApi.getPlacementId();
+    }
+
+    public String getPromotedTranslation() {
+        return this.mNativeAdBaseApi.getPromotedTranslation();
+    }
+
+    public String getSponsoredTranslation() {
+        return this.mNativeAdBaseApi.getSponsoredTranslation();
+    }
+
+    public boolean hasCallToAction() {
+        return this.mNativeAdBaseApi.hasCallToAction();
+    }
+
+    @Override // com.facebook.ads.AbstractC7079Ad
+    public boolean isAdInvalidated() {
+        return this.mNativeAdBaseApi.isAdInvalidated();
+    }
+
+    public boolean isAdLoaded() {
+        return this.mNativeAdBaseApi.isAdLoaded();
+    }
+
+    @Deprecated
+    public boolean isNativeConfigEnabled() {
+        return false;
+    }
+
+    @Override // com.facebook.ads.AbstractC7079Ad
+    public void loadAd() {
+        this.mNativeAdBaseApi.loadAd();
+    }
+
+    public void loadAd(MediaCacheFlag mediaCacheFlag) {
+        this.mNativeAdBaseApi.loadAd(mediaCacheFlag);
+    }
+
+    @Override // com.facebook.ads.AbstractC7079Ad
+    public void loadAdFromBid(String str) {
+        this.mNativeAdBaseApi.loadAdFromBid(str);
+    }
+
+    public void loadAdFromBid(String str, MediaCacheFlag mediaCacheFlag) {
+        this.mNativeAdBaseApi.loadAdFromBid(str, mediaCacheFlag);
+    }
+
+    public void onCtaBroadcast() {
+        this.mNativeAdBaseApi.onCtaBroadcast();
+    }
+
+    public void setAdListener(NativeAdListener nativeAdListener) {
+        this.mNativeAdBaseApi.setAdListener(nativeAdListener, this);
+    }
+
+    @Override // com.facebook.ads.AbstractC7079Ad
+    public void setExtraHints(ExtraHints extraHints) {
+        this.mNativeAdBaseApi.setExtraHints(extraHints);
+    }
+
+    public void setOnTouchListener(View.OnTouchListener onTouchListener) {
+        this.mNativeAdBaseApi.setOnTouchListener(onTouchListener);
+    }
+
+    public void unregisterView() {
+        this.mNativeAdBaseApi.unregisterView();
+    }
+}

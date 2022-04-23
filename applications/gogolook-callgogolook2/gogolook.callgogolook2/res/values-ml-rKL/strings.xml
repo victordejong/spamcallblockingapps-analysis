@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="copy_email">ഇമെയിൽ വിലാസം പകർത്തുക</string>
+    <string name="copy_number">ഫോൺ നമ്പർ പകർത്തുക</string>
+    <string name="failed">ചിത്രം ലോഡുചെയ്യാനായില്ല</string>
+    <string name="more_string">%1$d എണ്ണം കൂടി</string>
+    <string name="photo_view_count" formatted="false">%d / %d</string>
+    <string name="retry">വീണ്ടും ശ്രമിക്കുക</string>
+</resources>

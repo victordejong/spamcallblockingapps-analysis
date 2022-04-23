@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_btn_height">45.0dip</dimen>
+    <dimen name="nq_dialog_item_height">64.0dip</dimen>
+    <item type="dimen" name="triggerad_type_call_left">0.37</item>
+    <item type="dimen" name="triggerad_type_call_right">0.41</item>
+    <item type="dimen" name="triggerad_type_sms_left">0.43</item>
+    <item type="dimen" name="triggerad_type_sms_right">0.36</item>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/overlayTitle" android:layout_marginBottom="2.0dip" style="@style/OverlayTitleText" />
+    <TextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/overlayBodyFirst" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" style="@style/OverlayBodyTextFirst" />
+    <TextView android:gravity="center_horizontal" android:id="@id/overlayBodySecond" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" style="@style/OverlayBodyTextSecond" />
+</merge>

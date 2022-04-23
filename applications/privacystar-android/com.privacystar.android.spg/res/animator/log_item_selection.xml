@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_activated="true">
+        <objectAnimator android:interpolator="@android:interpolator/fast_out_slow_in" android:duration="@android:integer/config_shortAnimTime" android:valueTo="0.0dip" android:propertyName="translationZ" />
+    </item>
+    <item>
+        <objectAnimator android:interpolator="@android:interpolator/fast_out_slow_in" android:duration="@android:integer/config_shortAnimTime" android:valueTo="0.0dip" android:propertyName="translationZ" />
+    </item>
+</selector>

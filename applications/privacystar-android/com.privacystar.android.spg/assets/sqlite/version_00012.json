@@ -1,0 +1,6 @@
+﻿[
+	{
+        "id": "00012_01", 
+	    "sql": "INSERT INTO 'ccMaxExclusions' (make, model, os) VALUES ('', '', '6.0');"
+	}
+]

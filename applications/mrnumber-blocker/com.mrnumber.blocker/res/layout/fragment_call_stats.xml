@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/local_app_bar" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include android:id="@id/callsBlockedTitle" layout="@layout/local_section" />
+                <com.hiya.stingray.ui.stats.CallsStatsGraph android:id="@id/blockedGraph" android:layout_width="fill_parent" android:layout_height="160.0dip" android:layout_marginLeft="@dimen/list_item_margin_left_right" android:layout_marginRight="@dimen/list_item_margin_left_right" />
+                <include android:id="@id/callsTypeTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" layout="@layout/local_section" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.hiya.stingray.ui.stats.CallsStatsPie android:id="@id/typeChart" android:layout_width="190.0dip" android:layout_height="190.0dip" android:layout_marginLeft="@dimen/list_item_margin_left_right" android:layout_marginRight="@dimen/list_item_margin_left_right" />
+                    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="13.0sp" android:textColor="@color/call_stats_graph_values_color" android:id="@id/spamCallCount" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:drawableLeft="@drawable/call_stats_legend_circle_spam" android:drawablePadding="6.0dip" android:fontFamily="sans-serif" />
+                        <TextView android:textSize="13.0sp" android:textColor="@color/call_stats_graph_values_color" android:id="@id/fraudCallCount" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:drawableLeft="@drawable/call_stats_legend_circle_fraud" android:drawablePadding="6.0dip" android:fontFamily="sans-serif" />
+                        <TextView android:textSize="13.0sp" android:textColor="@color/call_stats_graph_values_color" android:id="@id/blockListCallCount" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:drawableLeft="@drawable/call_stats_legend_circle_black_list" android:drawablePadding="6.0dip" android:fontFamily="sans-serif" />
+                        <TextView android:textSize="13.0sp" android:textColor="@color/call_stats_graph_values_color" android:id="@id/privateCallCount" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableLeft="@drawable/call_stats_legend_circle_private" android:drawablePadding="6.0dip" android:fontFamily="sans-serif" />
+                    </LinearLayout>
+                </LinearLayout>
+                <include android:id="@id/recentlyBlockedTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" layout="@layout/local_section" />
+                <com.hiya.stingray.ui.stats.FullHeightListView android:id="@id/recentlyBlockedList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/list_item_margin_left_right" android:listSelector="@android:color/transparent" android:divider="@null" />
+            </LinearLayout>
+        </ScrollView>
+        <View android:id="@id/shadow" android:background="@drawable/bottom_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/shadow_size" />
+        <FrameLayout android:id="@id/loadingView" android:background="@color/white" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

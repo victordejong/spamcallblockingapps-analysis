@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="other">%d lampiran sedia untuk dihantar</item>
+        <item quantity="one">Satu lampiran sedia untuk dihantar</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="other">Buang lampiran</item>
+        <item quantity="one">Buang lampiran</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="other">Hantar lampiran</item>
+        <item quantity="one">Hantar lampiran</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="other">Hantar kad kenalan</item>
+        <item quantity="one">Hantar kad kenalan</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d bulan</item>
+        <item quantity="one">sebulan</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="other">%d mesej baharu</item>
+        <item quantity="one">Mesej baharu</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d hari</item>
+        <item quantity="one">%d hari</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d jam</item>
+        <item quantity="one">%d jam</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="other">%d kenalan</item>
+        <item quantity="one">%d kenalan</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="other">%d peserta</item>
+        <item quantity="one">%d peserta</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d minggu</item>
+        <item quantity="one">seminggu</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d tahun</item>
+        <item quantity="one">setahun</item>
+    </plurals>
+</resources>

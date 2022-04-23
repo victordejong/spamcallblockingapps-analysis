@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/kapianshi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/btn_call_announcer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/ll_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/icic" android:layout_width="57.0dip" android:layout_height="71.0dip" android:src="@drawable/ic_fenfa" />
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_weight="1.0" android:layout_marginStart="4.0dip">
+                    <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fenfa_title" />
+                    <TextView android:textSize="12.0sp" android:textColor="?color_666666" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/fenfa_content" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="16.0dip" android:layout_marginStart="4.0dip" android:layout_marginEnd="16.0dip">
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="8.0dip" android:layout_height="8.0dip" android:src="@drawable/honhqiu" />
+                    <ImageView android:layout_width="16.0dip" android:layout_height="24.0dip" android:layout_marginLeft="4.0dip" android:src="@drawable/ic_navigate_next_black_24dp" android:layout_marginStart="4.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="10.0sp" android:textColor="?color_999999" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip" android:text="@string/ad" android:layout_alignParentRight="true" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

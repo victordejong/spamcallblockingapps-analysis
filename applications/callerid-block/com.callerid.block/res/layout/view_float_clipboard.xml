@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:material="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/float_bg1" android:background="?bg_block_set" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip">
+        <RelativeLayout android:id="@id/rl_float_top" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/rl_icon" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:layout_centerVertical="true">
+                <ImageView android:id="@id/photo_view" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="?touxiang_gray" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/icon" android:layout_toRightOf="@id/rl_icon" android:layout_centerVertical="true">
+                <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:ellipsize="end" android:gravity="center" android:id="@id/tv_number_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:lines="1" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+                    <TextView android:textSize="12.0sp" android:textColor="?color_666666" android:id="@id/tv_location" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:layout_weight="1.0" />
+                    <TextView android:textSize="12.0sp" android:textColor="?color_666666" android:ellipsize="end" android:id="@id/tv_type" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:lines="1" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:id="@id/icon" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:src="@mipmap/ic_launcher" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.callerid.block.customview.LImageButton android:id="@id/btn_call" android:padding="8.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="72.0dip" android:src="@drawable/ic_missed_call" android:tint="?icon_color_blue" android:layout_centerVertical="true" material:widget_animColor="?colorTabIndicator" />
+            <com.callerid.block.customview.LImageButton android:id="@id/btn_sms" android:padding="8.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_sms" android:tint="?icon_color_blue" android:layout_toRightOf="@id/btn_call" android:layout_centerVertical="true" material:widget_animColor="?colorTabIndicator" />
+            <com.callerid.block.customview.LImageButton android:id="@id/btn_more" android:padding="8.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_cip_more" android:tint="?icon_color_blue" android:layout_toRightOf="@id/btn_sms" android:layout_centerVertical="true" material:widget_animColor="?colorTabIndicator" />
+            <com.rey.material.widget.TextView android:textSize="14.0sp" android:textColor="#ffa7abb2" android:id="@id/tv_dimiss" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="@string/dimiss" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/Material.Drawable.Ripple.Wave.Light" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/click_bg" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/antiharass_list_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/text_name" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\ 111111111111111111111" android:singleLine="true" android:marqueeRepeatLimit="0" style="@style/list_item_font_left_top" />
+    <TextView android:layout_gravity="center_vertical" android:id="@id/text_address" android:paddingLeft="16.0dip" android:paddingTop="2.0dip" android:paddingRight="16.0dip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\ 2222222222222222222222" style="@style/list_item_font_left_bottom" />
+</LinearLayout>

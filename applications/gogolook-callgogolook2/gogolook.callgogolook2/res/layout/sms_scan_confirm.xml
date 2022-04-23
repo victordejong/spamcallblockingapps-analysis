@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <gogolook.callgogolook2.view.SizedTextView android:textSize="16.0sp" android:textColor="#ff333333" android:id="@id/tv_content1" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <CheckBox android:textColor="#ff333333" android:id="@id/cb_understand" android:text="@string/urlscan_dialog_first_notshow" style="@style/whoscall_checkbox" />
+        <gogolook.callgogolook2.view.SizedTextView android:textSize="14.0sp" android:textColor="#ff999999" android:id="@id/tv_content2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

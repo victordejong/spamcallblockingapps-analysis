@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/nq_page_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/activity_title" android:layout_width="fill_parent" android:layout_height="@dimen/nq_title_72px" android:layout_alignParentTop="true" layout="@layout/black_white_title" />
+    <FrameLayout android:id="@id/no_content_fl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/layout_bottom" android:layout_below="@id/activity_title" android:layout_centerVertical="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_no_black_white_history" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/text_no_black_white_history" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" style="@style/list_font_no_content" />
+        </LinearLayout>
+        <TextView android:layout_gravity="center" android:id="@id/text_no_content" android:padding="@dimen/nq_margin_16dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/list_font_no_content" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/black_white_list_ll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/activity_title">
+        <ListView android:id="@id/lv_black_white_list" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/nq_00000000" android:divider="@color/nq_list_divider" android:dividerHeight="@dimen/nq_divider_height" />
+        <View android:id="@id/line" android:background="@color/nq_list_divider" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/nq_divider_height" />
+    </LinearLayout>
+</RelativeLayout>

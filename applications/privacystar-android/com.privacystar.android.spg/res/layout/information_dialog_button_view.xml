@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextButton" android:layout_gravity="center" android:id="@id/information_dialog_button_tv" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/blocked_type_dialog_default_button" android:maxLines="1" android:textAllCaps="true" />
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.netqin.cm.antiharass.ui.views.CheckedTextViewRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/antiharass_list_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="23.0sp" android:textColor="#ffffca28" android:id="@id/contacts_alphabet" android:layout_width="19.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nq_margin_16dip" android:text="A" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <CheckedTextView android:gravity="center" android:id="@id/checked_add" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="16.0dip" android:checkMark="@drawable/checkbox_checked_style" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nq_margin_28dip" android:layout_marginRight="@dimen/nq_margin_16dip" android:layout_toLeftOf="@id/checked_add" android:layout_toRightOf="@id/contacts_alphabet" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/nq_textsize_16sp" android:textColor="@color/nq_545454" android:ellipsize="marquee" android:id="@id/text_contacts_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nq_margin_3dip" android:singleLine="true" android:marqueeRepeatLimit="0" />
+        <TextView android:textSize="@dimen/nq_textsize_12sp" android:textColor="@color/nq_999999" android:ellipsize="marquee" android:id="@id/text_contacts_address" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/nq_margin_3dip" android:singleLine="true" android:marqueeRepeatLimit="0" />
+    </LinearLayout>
+</com.netqin.cm.antiharass.ui.views.CheckedTextViewRelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="triggerad_type_call_left">0.42</item>
+    <item type="dimen" name="triggerad_type_call_right">0.46</item>
+    <item type="dimen" name="triggerad_type_sms_left">0.48</item>
+    <item type="dimen" name="triggerad_type_sms_right">0.41</item>
+</resources>

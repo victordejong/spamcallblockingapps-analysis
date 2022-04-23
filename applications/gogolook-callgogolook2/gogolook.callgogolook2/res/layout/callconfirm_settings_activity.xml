@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrlv_whole" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/lnrlayout_setting_dialog_mode" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <gogolook.callgogolook2.view.SizedTextView android:text="@string/setting_call_confirm_mode_title" style="@style/setting_sec_title" />
+                <LinearLayout android:id="@id/lnrlayout_dialog_mode_inapp" style="@style/setting_item_linearlayout">
+                    <gogolook.callgogolook2.view.SizedTextView android:text="@string/setting_call_confirm_mode_whoscall" style="@style/setting_tv_item_left_text" />
+                    <gogolook.callgogolook2.view.SizedTextView android:id="@id/txv_dialog_mode_inapp_choose" android:layout_width="wrap_content" style="@style/setting_tv_item_right_text" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/lnrlayout_dialog_mode_outapp" style="@style/setting_item_linearlayout">
+                    <gogolook.callgogolook2.view.SizedTextView android:text="@string/setting_call_confirm_mode_native" style="@style/setting_tv_item_left_text" />
+                    <gogolook.callgogolook2.view.SizedTextView android:id="@id/txv_dialog_mode_outapp_choose" android:layout_width="wrap_content" style="@style/setting_tv_item_right_text" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/lnrlayout_setting_popup_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <gogolook.callgogolook2.view.SizedTextView android:text="@string/setting_call_confirm_who_title" style="@style/setting_sec_title" />
+                <gogolook.callgogolook2.view.SizedCheckedTextView android:id="@id/cktxv_stranger_popup_dialog" android:text="@string/setting_call_confirm_who_stranger" style="@style/setting_checktextview" />
+                <gogolook.callgogolook2.view.SizedCheckedTextView android:id="@id/cktxv_contact_popup_dialog" android:text="@string/setting_call_confirm_who_contact" style="@style/setting_checktextview" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

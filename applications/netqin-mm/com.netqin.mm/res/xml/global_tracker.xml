@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ga_sampleFrequency">100.0</string>
+    <bool name="ga_autoActivityTracking">true</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+    <integer name="ga_sessionTimeout">-1</integer>
+    <string name="ga_trackingId">UA-51585927-4</string>
+    <screenName name="com.netqin.ps.privacy.PrivacyGuidePage"> ShowWelcomePage </screenName>
+    <screenName name="com.netqin.ps.privacy.PrivacyFeature"> ShowVipIntroPage </screenName>
+</resources>

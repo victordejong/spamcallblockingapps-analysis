@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/rl_ll_parent_for_ads_when_quit_app" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_delete_line" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/ic_del_ads_for_quit_app" android:background="@drawable/ic_del_ads" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/iv_line_below_delete" android:background="@color/quit_app_ad_bg" android:layout_width="2.0dip" android:layout_height="150.0dip" android:layout_below="@id/ic_del_ads_for_quit_app" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_quit_app_ad_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:orientation="vertical" android:id="@id/ll_parent_for_ads_when_quit_app" android:background="@drawable/btn_blue_grey6_bg" android:padding="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:layout_marginBottom="5.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_parent_for_bt_quit_app_ad" android:background="@drawable/btn_blue_grey6_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:layout_below="@id/ll_parent_for_ads_when_quit_app">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/btn_white_corner_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip">
+                <TextView android:textStyle="bold" android:gravity="start" android:id="@id/tv_title_for_show_open_finger" android:layout_marginTop="24.0dip" android:text="@string/tv_title_for_quit_app_ad" style="@style/dialog_content_for_new_version" />
+                <RelativeLayout android:gravity="end" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tv_content_for_remove_ads_upgrade_a" android:layout_alignParentEnd="true">
+                    <ripple.RippleView android:gravity="center" android:id="@id/rp_tv_cancel_for_show_quit_app_ad" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" app:rv_color="@color/rp_btn_no_rp_color">
+                        <TextView android:textSize="@dimen/tv_get_it_for_dialog_share_text_size" android:textColor="@color/tv_get_it_for_dialog_share_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_cancel_for_show_open_finger" android:layout_width="wrap_content" android:layout_height="@dimen/tv_get_it_for_dialog_share_height" android:text="@string/common_cancel" android:fontFamily="sans-serif" android:paddingStart="@dimen/tv_get_it_for_dialog_share_padding_left" android:paddingEnd="@dimen/tv_get_it_for_dialog_share_padding_right" />
+                    </ripple.RippleView>
+                    <ripple.RippleView android:gravity="center" android:id="@id/rp_tv_ok_for_show_quit_app_ad" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" android:layout_toEndOf="@id/rp_tv_cancel_for_show_quit_app_ad" app:rv_color="@color/rp_btn_no_rp_color">
+                        <TextView android:textSize="@dimen/tv_get_it_for_dialog_share_text_size" android:textColor="@color/tv_get_it_for_dialog_share_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_ok_for_show_open_finger" android:layout_width="wrap_content" android:layout_height="@dimen/tv_get_it_for_dialog_share_height" android:text="@string/confirm_quit" android:fontFamily="sans-serif" android:paddingStart="@dimen/tv_get_it_for_dialog_share_padding_left" android:paddingEnd="@dimen/tv_get_it_for_dialog_share_padding_right" />
+                    </ripple.RippleView>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

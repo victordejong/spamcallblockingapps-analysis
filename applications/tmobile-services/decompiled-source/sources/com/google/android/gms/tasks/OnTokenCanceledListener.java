@@ -1,0 +1,6 @@
+package com.google.android.gms.tasks;
+/* loaded from: classes-dex2jar.jar:com/google/android/gms/tasks/OnTokenCanceledListener.class */
+public interface OnTokenCanceledListener {
+    /* renamed from: a */
+    void mo10796a();
+}

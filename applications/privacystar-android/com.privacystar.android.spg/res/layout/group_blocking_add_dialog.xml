@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/About.Title" android:layout_gravity="center_horizontal" android:id="@id/information_dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:text="@string/group_blocking_dialog_title" />
+    <EditText android:textAppearance="@style/LookupHint" android:textColorHighlight="@color/ps3_black" android:layout_gravity="center_horizontal" android:id="@id/group_blocking_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:minWidth="250.0dip" android:hint="@string/group_blocking_dialog_hint" android:inputType="number" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" style="@style/LookupHint" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="42.0dip" android:layout_marginBottom="18.0dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip">
+        <Button android:id="@id/group_blocking_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip" android:text="@string/group_blocking_dialog_cancel_button" android:textAllCaps="true" style="@style/DefaultButtonBorderless" />
+        <Button android:theme="@style/DefaultButton" android:id="@id/group_blocking_okay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip" android:text="@string/group_blocking_dialog_okay_button" />
+    </LinearLayout>
+</LinearLayout>

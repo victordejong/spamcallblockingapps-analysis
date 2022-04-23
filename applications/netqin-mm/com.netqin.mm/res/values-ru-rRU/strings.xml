@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="antiharass_accept_white_list">Принимать только из белого списка</string>
+    <string name="antiharass_accept_white_list_contacts">Принимать только из белого списка и списка контактов</string>
+    <string name="antiharass_add_black_list">Добавить в Черный список</string>
+    <string name="antiharass_add_black_list_message">Номера, которые вы добавляете, из вашего белого списка. Добавить их в ваш черный список?</string>
+    <string name="antiharass_add_black_success">Номер был добавлен в ваш черный список.</string>
+    <string name="antiharass_add_from_calllog">Из журнала вызовов</string>
+    <string name="antiharass_add_from_contacts">Из контактов</string>
+    <string name="antiharass_add_manually">Вручную</string>
+    <string name="antiharass_add_white_list">Добавить в Белый список</string>
+    <string name="antiharass_add_white_list_message">Номера, которые вы добавляете, из вашего черного списка. Добавить их в ваш белый список?</string>
+    <string name="antiharass_alert_msg_delete_one">Хотите удалить его?</string>
+    <string name="antiharass_black_list">Черный список</string>
+    <string name="antiharass_block_black_list">Блокировать все из черного списка</string>
+    <string name="antiharass_block_mode">Режим блокировки</string>
+    <string name="antiharass_blocked_list_add">Добавить его в черный список</string>
+    <string name="antiharass_blocked_list_call">Позвонить на этот номер</string>
+    <string name="antiharass_blocked_list_delete">Удалить</string>
+    <string name="antiharass_clear_all">Стереть все записи</string>
+    <string name="antiharass_edit">Редактировать</string>
+    <string name="antiharass_edit_dialog_number">Нумерованный:</string>
+    <string name="antiharass_empty_all_message">Вы действительно хотите очистить все записи?</string>
+    <string name="antiharass_mode_prank_call">Однокольцевое мошенничество</string>
+    <string name="antiharass_no_calllog">Ваш журнал вызовов пуст.</string>
+    <string name="antiharass_no_calllog_history">"Заблокированные звонки будут перечислены здесь.
+Наслаждайтесь своей спокойной жизнью."</string>
+    <string name="antiharass_no_contacts">Ваш список контактов пуст.</string>
+    <string name="antiharass_notification_CheatCall_title">Обнаружен мошеннический звонок</string>
+    <string name="antiharass_notification_content_block_calls">Подробнее</string>
+    <string name="antiharass_notification_content_block_one_cheatcall_no_location">%1$s</string>
+    <string name="antiharass_notification_title">%s звонков было заблокировано</string>
+    <string name="antiharass_reject_way">Как заблокировать звонки</string>
+    <string name="antiharass_setting_black">Черный список (%d)</string>
+    <string name="antiharass_setting_close">Принимать все</string>
+    <string name="antiharass_setting_white">Белый список (%d)</string>
+    <string name="antiharass_unread_count">%s</string>
+    <string name="antiharass_vault_hidden">"К сожалению, эта функция не доступна.
+Возможные причины:
+1. Вы еще не установили Vault.
+2. Режим Невидимка включен в Vault."</string>
+    <string name="antiharass_white_list">Белый список</string>
+    <string name="blocker_call_notification">Показать уведомления после блокировки звонков</string>
+    <string name="blocker_one_ring_call">Заблокировать мошеннический звонок</string>
+    <string name="calllog_call_duration">Продолжительность звонка: %s</string>
+    <string name="calllog_not_connected">Непринятые звонки</string>
+    <string name="common_add">Добавить</string>
+    <string name="common_app_name">Call Blocker</string>
+    <string name="common_cancel">Отмена</string>
+    <string name="common_delete">Удалить</string>
+    <string name="common_ok">ОК</string>
+    <string name="common_settings">Настройки</string>
+    <string name="common_tips">Советы</string>
+    <string name="common_today">Сегодня</string>
+    <string name="common_yesterday">Вчера</string>
+    <string name="enable">Включить</string>
+    <string name="feedback_describe">Опишите свою проблему, мы ответим при первой возможности.</string>
+    <string name="iab_detail_card_title">Подпишись сейчас</string>
+    <string name="iab_detail_description">Там не будет никакого перерыва на свой опыт приложения на всех.</string>
+    <string name="iab_detail_month">месяц</string>
+    <string name="iab_detail_months">месяцы</string>
+    <string name="iab_detail_title">Удалить все объявления для вас</string>
+    <string name="iab_detail_year">год</string>
+    <string name="iab_guide_dialog_title">Ограниченное по времени предложение</string>
+    <string name="iab_guide_title">Удалить рекламу</string>
+    <string name="icon_not_migrated_tv">Необходимо передать ваши данные с Private Space</string>
+    <string name="launch_alert_btn_rate_cancel">Не сейчас</string>
+    <string name="launch_alert_btn_rate_ok">5 звезд</string>
+    <string name="launch_alert_btn_vault_transfer_success_ok">Проверка данных</string>
+    <string name="launch_alert_msg_gp_install">Мы предлагаем вам установить Google Play до загрузки Vault.</string>
+    <string name="launch_alert_msg_rate">Если вам понравилось это приложение, оцените нас на 5 звезд на Google Play.</string>
+    <string name="launch_alert_msg_vault_install">"Private Space, в качестве опции Call Blocker, стал отдельной программой - Vault для лучшей защиты конфиденциальности. Около 50 миллионов пользователей установили Vault как самостоятельное приложение.
+Устанавливая его, ваши услуги версии Pro и данные Private Space передаются в Vault."</string>
+    <string name="launch_alert_msg_vault_password">Введите пароль для Private Space:</string>
+    <string name="launch_alert_msg_vault_transfer">Private Space, в качестве опции Call Blocker, стал отдельной программой - Vault. Вы хотите передать прочие конфиденциальные данные Vault?</string>
+    <string name="launch_alert_msg_vault_transfer_ok">Перенаправление</string>
+    <string name="launch_alert_msg_vault_transfer_success">Данные Private Space были переданы Vault. Вы хотите проверить свои данные Vault?</string>
+    <string name="launch_alert_title_rate">Оценить это приложение</string>
+    <string name="launch_alert_title_vault">Vault</string>
+    <string name="launch_alert_title_vault_transfer">Передать данные от Private Space</string>
+    <string name="launch_alert_title_vault_transfer_input">Передать данные от Private Space</string>
+    <string name="launch_install">Установить</string>
+    <string name="launch_toast_msg_vault_migrate_fail">Не удалось передать ваши данные с Private Space. Повторите попытку.</string>
+    <string name="main_recommend_sms_body">Call Blocker помогает вам заблокировать нежелательные звонки. Загрузить:</string>
+    <string name="main_set_about_version_build">"Call Blocker
+Версия: %1$s
+Сборка: %2$s
+
+Copyright © 2020
+CXZH Inc.
+
+Эл. почта:
+cs.cxzh.ltd@gmail.com"</string>
+    <string name="main_set_more">Больше</string>
+    <string name="main_set_notify_share_title">Поделиться</string>
+    <string name="more_ATF">Не содержит вирусов</string>
+    <string name="more_alert_msg_contacts_backup_msg">Загрузите Antivirus Free, чтобы сохранить ваш телефон в безопасности. Мобильное необходимое приложение, быстрое и профессиональное обнаружение вирусов.</string>
+    <string name="more_alert_msg_install_vault">Хотите содержать свои данные в конфиденциальности? Загрузите Vault, чтобы спрятать все свои секреты на телефоне.</string>
+    <string name="more_alert_msg_vault_transfer_msg">Private Space, в качестве опции Call Blocker, стал отдельной программой - Vault. Установите или обновите Vault до передачи своих данных.</string>
+    <string name="more_download">Загрузить</string>
+    <string name="more_feedback_problem_report">Сообщить о проблеме (Версия: %1$s, Системная версия: %2$s, Модель телефона: %3$s, ID пользователя: %4$s)</string>
+    <string name="more_menu_feedback">Отзыв</string>
+    <string name="more_share">Рекомендовать Call Blocker</string>
+    <string name="no_blacklist">Будут заблокированы звонки с номеров из черного списка.</string>
+    <string name="no_network">Не удалось подключиться к Интернету</string>
+    <string name="no_whitelist">Вы можете добавить важные телефонные номера в ваш белый список.</string>
+    <string name="note_optional">Примечания ( По выбору)</string>
+    <string name="numbers_to_write">Нумерованный (Необходимо)</string>
+    <string name="privacyNumber">Private number</string>
+    <string name="private_space">Private Space</string>
+    <string name="reject_way_direct_hang_up">Разъединить</string>
+    <string name="score">Оценить</string>
+    <string name="self_ad_card_desc_boost">Чувствуете, что подключение к Интернету происходит слишком медленно? Всего лишь один кран, чтобы ускорить работу вашей сети!</string>
+    <string name="self_card_btn">Попробуй</string>
+    <string name="setting_about">О программе</string>
+    <string name="setting_check_update">Проверить наличие обновлений</string>
+    <string name="silent_but_not_hang_up">Отключить звук без разъединения</string>
+    <string name="stranger">Unknown number</string>
+    <string name="subs_free_one_month">"3 дня бесплатной пробной версии
+затем %s / месяц"</string>
+    <string name="subs_free_one_year">"3 дня бесплатной пробной версии
+затем %s / год"</string>
+    <string name="subs_free_three_month">"3 дня бесплатной пробной версии
+затем %s / 3 месяца"</string>
+    <string name="subscribe_text_tip">Периодическое выставление счетов. Отменить в любое время.</string>
+    <string name="usage_stats_guide_action">Найдите и включите Call Blocker</string>
+    <string name="wrong_password">Неправильный пароль.</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="259.29688dip" android:src="@drawable/bg_guide" android:scaleType="fitXY" />
+    <ImageView android:id="@id/landViewPagerImag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/phone1" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/iv_spam" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="102.0dip" android:src="@drawable/p1_card" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="102.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="29.0sp" android:textColor="#ff333333" android:gravity="center" android:id="@id/guide_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/guide_tip3" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff666666" android:gravity="center" android:id="@id/guide_tips2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="16.0dip" android:text="@string/guide_des_tip3" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+</RelativeLayout>

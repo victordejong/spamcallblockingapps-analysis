@@ -19,6 +19,14 @@ dynamic:
 1. Create parent directory with the APK file in it.
 2. Run `apktool d --no-src <apk name>`.
 3. Run `dex2jar [APK DIRECTORY]/classes*.dex`
+4. Run `jadx --deobf -d decompiled-source classes*.jar`
+
+## TODO
+
+Decompilation failed for:
+
+- mrnumber
+- webascender
 
 ## Sources
 

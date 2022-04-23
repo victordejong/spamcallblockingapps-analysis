@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/subscription_fragment_ll" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/subscription_status_fl" android:background="@drawable/cardview_border_highlight_green" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+                <TextView android:textColor="@color/ps3_green_300" android:layout_gravity="center" android:id="@id/subscription_status_tv" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/IntroBody1Text" />
+            </FrameLayout>
+            <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/subscription_monthly_premium_container" android:padding="16.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="18.0dip">
+                    <TextView android:id="@id/upgrade_monthly_premium_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/subscription_monthly_premium_title" style="@style/SubscriptionItemHeader" />
+                    <TextView android:id="@id/upgrade_monthly_premium_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/subscription_monthly_premium_subtitle" style="@style/BodyText" />
+                    <TextView android:id="@id/upgrade_monthly_premium_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/subscription_monthly_premium_price" style="@style/SubscriptionPrice" />
+                </LinearLayout>
+                <com.rey.material.widget.RadioButton android:layout_gravity="center_vertical" android:id="@id/subscription_monthly_premium_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/subscription_monthly_premium_title" app:rbd_height="20.0dip" app:rbd_innerRadius="5.0dip" app:rbd_radius="9.0dip" app:rbd_strokeColor="@color/radio_colors" app:rbd_width="20.0dip" style="@style/Material.Drawable.RadioButton" />
+            </LinearLayout>
+            <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/subscription_annual_premium_container" android:padding="16.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="18.0dip">
+                    <TextView android:id="@id/upgrade_annual_premium_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/subscription_annual_premium_title" style="@style/SubscriptionItemHeader" />
+                    <TextView android:id="@id/upgrade_annual_premium_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/subscription_annual_premium_subtitle" style="@style/BodyText" />
+                    <TextView android:id="@id/upgrade_annual_premium_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/subscription_annual_premium_price" style="@style/SubscriptionPrice" />
+                </LinearLayout>
+                <com.rey.material.widget.RadioButton android:layout_gravity="center_vertical" android:id="@id/subscription_annual_premium_radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/subscription_annual_premium_title" app:rbd_height="20.0dip" app:rbd_innerRadius="5.0dip" app:rbd_radius="9.0dip" app:rbd_strokeColor="@color/radio_colors" app:rbd_width="20.0dip" style="@style/Material.Drawable.RadioButton" />
+            </LinearLayout>
+            <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <Button android:textColor="@android:color/black" android:layout_gravity="center" android:id="@id/subscription_fragment_log_current" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Log current purchases" />
+            <Button android:textColor="@android:color/black" android:layout_gravity="center" android:id="@id/subscription_fragment_sub_cancel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cancel Test Subscriptions" />
+        </LinearLayout>
+    </ScrollView>
+    <android.support.v7.widget.CardView android:layout_gravity="bottom" android:id="@id/subscription_upgrade_cv" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginBottom="18.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:cardBackgroundColor="@color/ps3_grey_250" app:cardCornerRadius="2.0dip">
+        <TextView android:layout_gravity="center" android:id="@id/subscription_upgrade_tv" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/subscription_upgrade_button" android:textAllCaps="true" style="@style/EulaButtonText" />
+    </android.support.v7.widget.CardView>
+</android.support.design.widget.CoordinatorLayout>

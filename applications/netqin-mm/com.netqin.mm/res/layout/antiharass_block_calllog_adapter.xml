@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layout_calllog_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_centerVertical="true">
+        <ImageView android:id="@id/image_calllog_read_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/new_blocker_hitory_icon" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/call_log_ll" android:layout_width="fill_parent" android:layout_height="@dimen/antiharass_list_height" android:layout_marginLeft="8.0dip" android:layout_marginRight="16.0dip" android:layout_toRightOf="@id/layout_calllog_type" android:layout_centerVertical="true">
+        <RelativeLayout android:id="@id/call_log_rl" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/text_calllog_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\ 2222222222222" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/list_item_font_right_top" />
+            <TextView android:ellipsize="marquee" android:id="@id/text_calllog_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\ 11111111111" android:singleLine="true" android:marqueeRepeatLimit="0" style="@style/list_item_font_left_top" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/text_calllog_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\ 9999999999" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/list_item_font_right_bottom" />
+            <TextView android:ellipsize="marquee" android:id="@id/text_calllog_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\ 444444444444444" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:marqueeRepeatLimit="0" style="@style/list_item_font_left_bottom" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/nq_989898" android:ellipsize="end" android:id="@id/text_calllog_type" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nq_margin_13dip" android:text="\ 3333333333333333" android:singleLine="true" android:layout_toRightOf="@id/text_calllog_address" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

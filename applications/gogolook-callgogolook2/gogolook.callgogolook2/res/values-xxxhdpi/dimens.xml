@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keypad_back_margin_right">95.5dip</dimen>
+    <item type="dimen" name="standard_icon_size">@dimen/standard_icon_size_xxxhdpi</item>
+    <dimen name="search_list_result_width">388.0dip</dimen>
+    <dimen name="search_map_item_width">382.0dip</dimen>
+</resources>

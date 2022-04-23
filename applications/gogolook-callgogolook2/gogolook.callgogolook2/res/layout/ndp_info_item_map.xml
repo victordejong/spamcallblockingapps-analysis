@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.maps.MapView android:id="@id/map_view" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cameraZoom="13.0" app:liteMode="true" app:mapType="normal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/app_compose_default_app_promote_background" android:layout_width="fill_parent" android:layout_height="62.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="19.0dip" android:paddingRight="19.0dip" android:paddingBottom="2.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="19.0dip" android:paddingEnd="19.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/new_message_setdefault" android:fontFamily="sans-serif-regular" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff888888" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/new_message_setdefault_sub" android:fontFamily="sans-serif-regular" />
+    </LinearLayout>
+    <View android:background="#ff666666" android:layout_width="1.0px" android:layout_height="34.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/default_app_button" android:paddingLeft="19.0dip" android:paddingRight="17.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/new_message_setdefault_button" android:fontFamily="sans-serif-regular" android:paddingStart="19.0dip" android:paddingEnd="17.0dip" />
+</LinearLayout>

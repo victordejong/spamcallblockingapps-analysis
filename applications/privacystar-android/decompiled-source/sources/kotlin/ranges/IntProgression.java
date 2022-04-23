@@ -1,0 +1,152 @@
+package kotlin.ranges;
+
+import java.util.Iterator;
+import kotlin.Metadata;
+import kotlin.internal.ProgressionUtilKt;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+import kotlin.jvm.internal.markers.KMappedMarker;
+import org.jetbrains.annotations.NotNull;
+@Metadata(m256bv = {1, 0, 3}, m255d1 = {"��,\n\u0002\u0018\u0002\n\u0002\u0010\u001c\n\u0002\u0010\b\n\u0002\b\u000b\n\u0002\u0010\u000b\n��\n\u0002\u0010��\n\u0002\b\u0003\n\u0002\u0018\u0002\n��\n\u0002\u0010\u000e\n\u0002\b\u0002\b\u0016\u0018�� \u00172\b\u0012\u0004\u0012\u00020\u00020\u0001:\u0001\u0017B\u001f\b��\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u0012\u0006\u0010\u0004\u001a\u00020\u0002\u0012\u0006\u0010\u0005\u001a\u00020\u0002¢\u0006\u0002\u0010\u0006J\u0013\u0010\r\u001a\u00020\u000e2\b\u0010\u000f\u001a\u0004\u0018\u00010\u0010H\u0096\u0002J\b\u0010\u0011\u001a\u00020\u0002H\u0016J\b\u0010\u0012\u001a\u00020\u000eH\u0016J\t\u0010\u0013\u001a\u00020\u0014H\u0096\u0002J\b\u0010\u0015\u001a\u00020\u0016H\u0016R\u0011\u0010\u0007\u001a\u00020\u0002¢\u0006\b\n��\u001a\u0004\b\b\u0010\tR\u0011\u0010\n\u001a\u00020\u0002¢\u0006\b\n��\u001a\u0004\b\u000b\u0010\tR\u0011\u0010\u0005\u001a\u00020\u0002¢\u0006\b\n��\u001a\u0004\b\f\u0010\t¨\u0006\u0018"}, m254d2 = {"Lkotlin/ranges/IntProgression;", "", "", "start", "endInclusive", "step", "(III)V", "first", "getFirst", "()I", "last", "getLast", "getStep", "equals", "", "other", "", "hashCode", "isEmpty", "iterator", "Lkotlin/collections/IntIterator;", "toString", "", "Companion", "kotlin-stdlib"}, m253k = 1, m252mv = {1, 1, 13})
+/* loaded from: classes2-dex2jar.jar:kotlin/ranges/IntProgression.class */
+public class IntProgression implements Iterable<Integer>, KMappedMarker {
+    public static final Companion Companion = new Companion(null);
+    private final int first;
+    private final int last;
+    private final int step;
+
+    @Metadata(m256bv = {1, 0, 3}, m255d1 = {"��\u001a\n\u0002\u0018\u0002\n\u0002\u0010��\n\u0002\b\u0002\n\u0002\u0018\u0002\n��\n\u0002\u0010\b\n\u0002\b\u0003\b\u0086\u0003\u0018��2\u00020\u0001B\u0007\b\u0002¢\u0006\u0002\u0010\u0002J\u001e\u0010\u0003\u001a\u00020\u00042\u0006\u0010\u0005\u001a\u00020\u00062\u0006\u0010\u0007\u001a\u00020\u00062\u0006\u0010\b\u001a\u00020\u0006¨\u0006\t"}, m254d2 = {"Lkotlin/ranges/IntProgression$Companion;", "", "()V", "fromClosedRange", "Lkotlin/ranges/IntProgression;", "rangeStart", "", "rangeEnd", "step", "kotlin-stdlib"}, m253k = 1, m252mv = {1, 1, 13})
+    /* loaded from: classes2-dex2jar.jar:kotlin/ranges/IntProgression$Companion.class */
+    public static final class Companion {
+        private Companion() {
+        }
+
+        public /* synthetic */ Companion(DefaultConstructorMarker defaultConstructorMarker) {
+            this();
+        }
+
+        @NotNull
+        public final IntProgression fromClosedRange(int i, int i2, int i3) {
+            return new IntProgression(i, i2, i3);
+        }
+    }
+
+    public IntProgression(int i, int i2, int i3) {
+        if (i3 == 0) {
+            throw new IllegalArgumentException("Step must be non-zero.");
+        } else if (i3 == Integer.MIN_VALUE) {
+            throw new IllegalArgumentException("Step must be greater than Int.MIN_VALUE to avoid overflow on negation.");
+        } else {
+            this.first = i;
+            this.last = ProgressionUtilKt.getProgressionLastElement(i, i2, i3);
+            this.step = i3;
+        }
+    }
+
+    /* JADX WARN: Code restructure failed: missing block: B:13:0x003d, code lost:
+        if (r3.step == r0.step) goto L_0x0040;
+     */
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct add '--show-bad-code' argument
+    */
+    public boolean equals(@org.jetbrains.annotations.Nullable java.lang.Object r4) {
+        /*
+            r3 = this;
+            r0 = r4
+            boolean r0 = r0 instanceof kotlin.ranges.IntProgression
+            if (r0 == 0) goto L_0x0045
+            r0 = r3
+            boolean r0 = r0.isEmpty()
+            if (r0 == 0) goto L_0x0018
+            r0 = r4
+            kotlin.ranges.IntProgression r0 = (kotlin.ranges.IntProgression) r0
+            boolean r0 = r0.isEmpty()
+            if (r0 != 0) goto L_0x0040
+        L_0x0018:
+            r0 = r3
+            int r0 = r0.first
+            r5 = r0
+            r0 = r4
+            kotlin.ranges.IntProgression r0 = (kotlin.ranges.IntProgression) r0
+            r4 = r0
+            r0 = r5
+            r1 = r4
+            int r1 = r1.first
+            if (r0 != r1) goto L_0x0045
+            r0 = r3
+            int r0 = r0.last
+            r1 = r4
+            int r1 = r1.last
+            if (r0 != r1) goto L_0x0045
+            r0 = r3
+            int r0 = r0.step
+            r1 = r4
+            int r1 = r1.step
+            if (r0 != r1) goto L_0x0045
+        L_0x0040:
+            r0 = 1
+            r6 = r0
+            goto L_0x0047
+        L_0x0045:
+            r0 = 0
+            r6 = r0
+        L_0x0047:
+            r0 = r6
+            return r0
+        */
+        throw new UnsupportedOperationException("Method not decompiled: kotlin.ranges.IntProgression.equals(java.lang.Object):boolean");
+    }
+
+    public final int getFirst() {
+        return this.first;
+    }
+
+    public final int getLast() {
+        return this.last;
+    }
+
+    public final int getStep() {
+        return this.step;
+    }
+
+    public int hashCode() {
+        return isEmpty() ? -1 : (((this.first * 31) + this.last) * 31) + this.step;
+    }
+
+    public boolean isEmpty() {
+        boolean z = false;
+        if (this.step <= 0 ? this.first < this.last : this.first > this.last) {
+            z = true;
+        }
+        return z;
+    }
+
+    @Override // java.lang.Iterable
+    @NotNull
+    public Iterator<Integer> iterator() {
+        return new IntProgressionIterator(this.first, this.last, this.step);
+    }
+
+    @NotNull
+    public String toString() {
+        StringBuilder sb;
+        int i;
+        if (this.step > 0) {
+            sb = new StringBuilder();
+            sb.append(this.first);
+            sb.append("..");
+            sb.append(this.last);
+            sb.append(" step ");
+            i = this.step;
+        } else {
+            sb = new StringBuilder();
+            sb.append(this.first);
+            sb.append(" downTo ");
+            sb.append(this.last);
+            sb.append(" step ");
+            i = -this.step;
+        }
+        sb.append(i);
+        return sb.toString();
+    }
+}

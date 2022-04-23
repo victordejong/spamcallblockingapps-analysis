@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:id="@id/blockallow_appbar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:id="@id/blockallow_toolbar" android:background="@color/ps3_white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:titleTextAppearance="@style/TopBarHeader" app:titleTextColor="@color/ps3_black" />
+        <android.support.design.widget.TabLayout android:id="@id/blockallow_tabs" android:background="@color/ps3_white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabIndicatorColor="@color/ps3_blue_300" app:tabIndicatorHeight="3.0dip" app:tabTextColor="@color/ps3_black">
+            <android.support.design.widget.TabItem android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Block" />
+            <android.support.design.widget.TabItem android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Allow" />
+        </android.support.design.widget.TabLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.view.ViewPager android:id="@id/blockallow_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:padding="20.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+        <include android:visibility="visible" layout="@layout/hiya_overlay_contents" />
+        <com.hiya.client.callerid.ui.overlay.RippleLayout android:id="@id/rippleView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="@dimen/default_elevation" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:tag="@string/view_tag_avatar" android:background="@drawable/o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:tag="@string/view_tag_avatar" android:background="@drawable/icon_bg" android:layout_width="@dimen/overlay_image_shadow_dp" android:layout_height="@dimen/overlay_image_shadow_dp" android:layout_marginTop="20.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/overlayImage" android:tag="@string/view_tag_avatar" android:layout_width="@dimen/overlay_image_dp" android:layout_height="@dimen/overlay_image_dp" android:src="@drawable/ic_avatar_identified_80" android:contentDescription="@string/hiya_overlay_image_cd" android:elevation="@dimen/default_elevation" />
+    </FrameLayout>
+</FrameLayout>

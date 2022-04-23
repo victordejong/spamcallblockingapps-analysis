@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="antiharass_accept_white_list">Nur von Whitelist akzeptieren</string>
+    <string name="antiharass_accept_white_list_contacts">Nur von Whitelist und Kontakten akzeptieren</string>
+    <string name="antiharass_add_black_list">Zu Blacklist hinzufügen</string>
+    <string name="antiharass_add_black_list_message">Die Rufnummern, die Sie hinzufügen möchten sind von Ihrer Whitelist. Möchten Sie diese wirklich auf Ihre Blacklist setzen?</string>
+    <string name="antiharass_add_black_success">Die Rufnummer wurde auf Ihre Blacklist besetzt.</string>
+    <string name="antiharass_add_from_calllog">Von Anrufliste</string>
+    <string name="antiharass_add_from_contacts">Von Kontakten</string>
+    <string name="antiharass_add_manually">Manuell</string>
+    <string name="antiharass_add_white_list">Zu Whitelist hinzufügen</string>
+    <string name="antiharass_add_white_list_message">Die Rufnummern, die Sie hinzufügen möchten sind von Ihrer Blacklist. Möchten Sie diese wirklich auf Ihre Whitelist setzen?</string>
+    <string name="antiharass_alert_msg_delete_one">Möchten Sie diesen Eintrag wirklich löschen?</string>
+    <string name="antiharass_black_list">Blacklist</string>
+    <string name="antiharass_block_black_list">Alles von Blacklist blockieren</string>
+    <string name="antiharass_block_mode">Blockiermodus</string>
+    <string name="antiharass_blocked_list_add">Auf Blacklist setzen</string>
+    <string name="antiharass_blocked_list_call">Diese Nummer anrufen</string>
+    <string name="antiharass_blocked_list_delete">Löschen</string>
+    <string name="antiharass_clear_all">Alle Einträge löschen</string>
+    <string name="antiharass_edit">Bearbeiten</string>
+    <string name="antiharass_edit_dialog_number">Rufnummern:</string>
+    <string name="antiharass_empty_all_message">Möchten Sie wirklich alle Einträge löschen?</string>
+    <string name="antiharass_mode_prank_call">Ping-Anrufe</string>
+    <string name="antiharass_no_calllog">Keine Anrufe wurden verzeichnet.</string>
+    <string name="antiharass_no_calllog_history">Unerwünschte Anrufe werden hier aufgelistet.</string>
+    <string name="antiharass_no_contacts">Keine Kontakte vorhanden.</string>
+    <string name="antiharass_notification_CheatCall_title">Ping-Anruf wurde ermittelt</string>
+    <string name="antiharass_notification_content_block_calls">Details anzeigen</string>
+    <string name="antiharass_notification_content_block_one_cheatcall_no_location">%1$s</string>
+    <string name="antiharass_notification_title">%s Anruf(e) wurden blockiert</string>
+    <string name="antiharass_reject_way">Anrufe blockieren</string>
+    <string name="antiharass_setting_black">Blacklist (%d)</string>
+    <string name="antiharass_setting_close">Alle akzeptieren</string>
+    <string name="antiharass_setting_white">Whitelist (%d)</string>
+    <string name="antiharass_unread_count">%s</string>
+    <string name="antiharass_vault_hidden">"Diese Funktion ist nicht verfügbar.Mögliche Gründe:
+1. Vault ist nicht installiert.
+2. Stealth-Modus ist in Vault aktiviert."</string>
+    <string name="antiharass_white_list">Whitelist</string>
+    <string name="blocker_call_notification">Benachrichtigungen anzeigen nachdem Anrufe blockiert wurden</string>
+    <string name="blocker_one_ring_call">Ping-Anrufe blockieren</string>
+    <string name="calllog_call_duration">Anrufdauer: %s</string>
+    <string name="calllog_not_connected">Abgewiesene Anrufe</string>
+    <string name="common_add">Hinzufügen</string>
+    <string name="common_app_name">Call Blocker</string>
+    <string name="common_cancel">Abbrechen</string>
+    <string name="common_delete">Löschen</string>
+    <string name="common_ok">OK</string>
+    <string name="common_settings">Einstellungen</string>
+    <string name="common_tips">Tipps</string>
+    <string name="common_today">Heute</string>
+    <string name="common_yesterday">Gestern</string>
+    <string name="enable">Jetzt aktivieren</string>
+    <string name="feedback_describe">Bitte beschreiben Sie das Problem. Wir werden uns schnellstmöglich darum kümmern.</string>
+    <string name="iab_detail_card_title">Abonniere jetzt</string>
+    <string name="iab_detail_description">Ihre App-Erfahrung wird überhaupt nicht unterbrochen.</string>
+    <string name="iab_detail_month">Monat</string>
+    <string name="iab_detail_months">Monats</string>
+    <string name="iab_detail_title">Entfernen Sie alle Anzeigen für Sie</string>
+    <string name="iab_detail_year">Jahr</string>
+    <string name="iab_guide_dialog_title">Zeitlich begrenztes Angebot</string>
+    <string name="iab_guide_title">Anzeigen entfernen</string>
+    <string name="icon_not_migrated_tv">Übertragen Sie Ihre Daten aus Private Space.</string>
+    <string name="launch_alert_btn_rate_cancel">Jetzt nicht</string>
+    <string name="launch_alert_btn_rate_ok">5 Sterne</string>
+    <string name="launch_alert_btn_vault_transfer_success_ok">Daten überprüfen</string>
+    <string name="launch_alert_msg_gp_install">Installieren Sie Google Play bevor Sie Vault herunterladen.</string>
+    <string name="launch_alert_msg_rate">Wenn Ihnen diese App gefällt, bewerten Sie sie mit 5 Sternen auf Google Play.</string>
+    <string name="launch_alert_msg_vault_install">"Private Space, als Teilfunkion von Call Blocker, ist jetzt eine eigenständige App - Vault, damit Ihre Privatsphäre auch weiterhin bestens geschützt wird. Über 50 Millionen Menschen verwenden Vault bereits auf ihren Mobilgeräten.
+Wenn Sie Vault installieren werden Premium-Dienste und -Daten von Private Space übertragen."</string>
+    <string name="launch_alert_msg_vault_password">Geben Sie ein Passwort für Private Space ein:</string>
+    <string name="launch_alert_msg_vault_transfer">Private Space, als Teilfunkion von Call Blocker, ist jetzt eine eigenständige App - Vault. Möchten Sie private Daten zu Vault übertragen?</string>
+    <string name="launch_alert_msg_vault_transfer_ok">Übertragen</string>
+    <string name="launch_alert_msg_vault_transfer_success">Private Daten aus Private Space wurden zu Vault übertragen. Möchten Sie Ihre Daten überprüfen?</string>
+    <string name="launch_alert_title_rate">Diese App bewerten</string>
+    <string name="launch_alert_title_vault">Vault</string>
+    <string name="launch_alert_title_vault_transfer">Übertragen Sie Daten aus Private Space</string>
+    <string name="launch_alert_title_vault_transfer_input">Übertragen Sie Daten aus Private Space</string>
+    <string name="launch_install">Installieren</string>
+    <string name="launch_toast_msg_vault_migrate_fail">Daten konnten aus Private Space nicht übertragen werden. Bitte versuchen Sie es erneut.</string>
+    <string name="main_recommend_sms_body">Mit Call Blocker können Sie unerwünschte Anrufe blockieren. Download:</string>
+    <string name="main_set_about_version_build">"Call Blocker
+Version: %1$s
+Build: %2$s
+
+Copyright © 2020
+
+CXZH Inc.
+
+E-Mail:
+cs.cxzh.ltd@gmail.com"</string>
+    <string name="main_set_more">Mehr</string>
+    <string name="main_set_notify_share_title">Teilen</string>
+    <string name="more_ATF">Anti-Virus frei</string>
+    <string name="more_alert_msg_contacts_backup_msg">Laden Sie Antivirus Free herunter, um die Sicherheit Ihres Telefons zu gewährleisten. Mobile Essential App - Schnelle und professionelle Virenerkennung.</string>
+    <string name="more_alert_msg_install_vault">"Sie möchten Ihre Daten geschützt halten?
+Laden Sie Vault herunter und verstecken Sie private Daten in Ihrem Mobiltelefon."</string>
+    <string name="more_alert_msg_vault_transfer_msg">Private Space, als Teilfunkion von Call Blocker, ist jetzt eine eigenständige App - Vault. Bitte installieren oder aktualisieren Sie Vault bevor Sie Ihre Daten übertragen.</string>
+    <string name="more_download">Download</string>
+    <string name="more_feedback_problem_report">Ein Problem berichten (Version: %1$s, System Version: %2$s, Gerätemodel: %3$s, UID: %4$s)</string>
+    <string name="more_menu_feedback">Feedback</string>
+    <string name="more_share">Call Blocker weiterempfehlen</string>
+    <string name="no_blacklist">Anrufe von Rufnummern auf der Blacklist werden blockiert.</string>
+    <string name="no_network">Verbindung mit dem Internet fehlgeschlagen</string>
+    <string name="no_whitelist">Sie können wichtige Rufnummern auf Ihre Whitelist setzen.</string>
+    <string name="note_optional">Notizen (Optional)</string>
+    <string name="numbers_to_write">Rufnummern (Erforderlich)</string>
+    <string name="privacyNumber">Private number</string>
+    <string name="private_space">Private Space</string>
+    <string name="reject_way_direct_hang_up">Auflegen</string>
+    <string name="score">Bewerten</string>
+    <string name="self_ad_card_desc_boost">Fühlen Sie Internet-Konnektivität ist zu langsam? Nur ein Tipp, um dein Netzwerk zu beschleunigen!</string>
+    <string name="self_card_btn">Versuche es jetzt</string>
+    <string name="setting_about">Über</string>
+    <string name="setting_check_update">Auf Updates prüfen</string>
+    <string name="silent_but_not_hang_up">Stumm schalten ohne aufzulegen</string>
+    <string name="stranger">Unknown number</string>
+    <string name="subs_free_one_month">3 Tage kostenlose Testversion, dann %s/Monat</string>
+    <string name="subs_free_one_year">3 Tage kostenlose Testversion, dann %s/Jahr</string>
+    <string name="subs_free_three_month">3 Tage kostenlose Testversion, dann %s/3 Monate</string>
+    <string name="subscribe_text_tip">Wiederkehrende Abrechnung. Jederzeit abbrechen.</string>
+    <string name="usage_stats_guide_action">Zoek en activeer Call Blocker</string>
+    <string name="wrong_password">Falsches Passwort.</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_carrier_id_show_when_all" android:title="@string/setting_carrier_id_show_when_all" />
+    <item android:id="@id/menu_carrier_id_show_when_stranger_only" android:title="@string/setting_carrier_id_show_when_strange_only" />
+    <item android:id="@id/menu_carrier_id_show_when_contact_only" android:title="@string/setting_carrier_id_show_when_contact_only" />
+</menu>

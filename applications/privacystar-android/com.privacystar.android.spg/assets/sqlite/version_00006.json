@@ -1,0 +1,10 @@
+﻿[
+	{
+        "id": "00006_01", 
+	    "sql": "CREATE TABLE IF NOT EXISTS 'offenders' (phoneNumber VARCHAR(50) CONSTRAINT phoneNumber UNIQUE, bitValue INTEGER);"
+	},
+	{
+        "id": "00006_21", 
+	    "sql": "INSERT INTO 'blockingOptions' (optionType, checked, offline) VALUES ('scammer', 1, 1) ;"
+	}
+]

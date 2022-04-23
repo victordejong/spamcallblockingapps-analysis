@@ -1,0 +1,43 @@
+package com.apptentive.android.sdk;
+/* loaded from: classes-dex2jar.jar:com/apptentive/android/sdk/ApptentiveNotifications.class */
+public class ApptentiveNotifications {
+    public static final String NOTIFICATION_ACTIVITY_RESUMED = "ACTIVITY_RESUMED";
+    public static final String NOTIFICATION_ACTIVITY_STARTED = "ACTIVITY_STARTED";
+    public static final String NOTIFICATION_ACTIVITY_STOPPED = "ACTIVITY_STOPPED";
+    public static final String NOTIFICATION_ADVERTISER_ID_DID_RESOLVE = "ADVERTISER_ID_DID_RESOLVE";
+    public static final String NOTIFICATION_APP_ENTERED_BACKGROUND = "APP_ENTERED_BACKGROUND";
+    public static final String NOTIFICATION_APP_ENTERED_FOREGROUND = "APP_ENTERED_FOREGROUND";
+    public static final String NOTIFICATION_AUTHENTICATION_FAILED = "AUTHENTICATION_FAILED";
+    public static final String NOTIFICATION_CONFIGURATION_FETCH_DID_FINISH = "CONFIGURATION_FETCH_DID_FINISH";
+    public static final String NOTIFICATION_CONVERSATION_DATA_DID_CHANGE = "CONVERSATION_DATA_DID_CHANGE";
+    public static final String NOTIFICATION_CONVERSATION_LOAD_DID_FINISH = "CONVERSATION_LOAD_DID_FINISH";
+    public static final String NOTIFICATION_CONVERSATION_STATE_DID_CHANGE = "CONVERSATION_STATE_DID_CHANGE";
+    public static final String NOTIFICATION_CONVERSATION_TOKEN_DID_FETCH = "CONVERSATION_TOKEN_DID_FETCH";
+    public static final String NOTIFICATION_CONVERSATION_TOKEN_WILL_FETCH = "CONVERSATION_TOKEN_WILL_FETCH";
+    public static final String NOTIFICATION_CONVERSATION_WILL_LOGOUT = "CONVERSATION_WILL_LOGOUT";
+    public static final String NOTIFICATION_EVENT_GENERATED = "EVENT_GENERATED";
+    public static final String NOTIFICATION_INTERACTIONS_DID_FETCH = "INTERACTIONS_DID_FETCH";
+    public static final String NOTIFICATION_INTERACTIONS_SHOULD_DISMISS = "INTERACTIONS_SHOULD_DISMISS";
+    public static final String NOTIFICATION_INTERACTION_MANIFEST_FETCHED = "INTERACTION_MANIFEST_FETCHED";
+    public static final String NOTIFICATION_KEY_ACTIVITY = "activity";
+    public static final String NOTIFICATION_KEY_ADVERTISER_CLIENT_INFO = "clientInfo";
+    public static final String NOTIFICATION_KEY_AUTHENTICATION_FAILED_REASON = "authenticationFailedReason";
+    public static final String NOTIFICATION_KEY_CONFIGURATION = "configuration";
+    public static final String NOTIFICATION_KEY_CONVERSATION = "conversation";
+    public static final String NOTIFICATION_KEY_CONVERSATION_ID = "conversationId";
+    public static final String NOTIFICATION_KEY_EVENT = "event";
+    public static final String NOTIFICATION_KEY_INTERVAL = "interval";
+    public static final String NOTIFICATION_KEY_MANIFEST = "manifest";
+    public static final String NOTIFICATION_KEY_MESSAGE_STORE = "messageStore";
+    public static final String NOTIFICATION_KEY_PAYLOAD = "payload";
+    public static final String NOTIFICATION_KEY_RESPONSE_CODE = "responseCode";
+    public static final String NOTIFICATION_KEY_RESPONSE_DATA = "responseData";
+    public static final String NOTIFICATION_KEY_SUCCESSFUL = "successful";
+    public static final String NOTIFICATION_LOG_MONITOR_STARTED = "LOG_MONITOR_STARTED";
+    public static final String NOTIFICATION_LOG_MONITOR_STOPPED = "LOG_MONITOR_STOPPED";
+    public static final String NOTIFICATION_MESSAGES_STARTED_POLLING = "MESSAGES_STARTED_POLLING";
+    public static final String NOTIFICATION_MESSAGES_STOPPED_POLLING = "MESSAGES_STOPPED_POLLING";
+    public static final String NOTIFICATION_MESSAGE_STORE_DID_CHANGE = "MESSAGE_STORE_DID_CHANGE";
+    public static final String NOTIFICATION_PAYLOAD_DID_FINISH_SEND = "PAYLOAD_DID_FINISH_SEND";
+    public static final String NOTIFICATION_PAYLOAD_WILL_START_SEND = "PAYLOAD_WILL_START_SEND";
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/ad_full_screen_round_cover_bg" android:layout_width="fill_parent" android:layout_height="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:text="@string/iab_guide_title" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="center" android:layout_width="7.0dip" android:layout_height="12.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/iab_guide_arrow" android:contentDescription="@null" />
+</LinearLayout>

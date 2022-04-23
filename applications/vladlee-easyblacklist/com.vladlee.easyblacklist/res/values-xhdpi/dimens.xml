@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="appbar_text_size">14.0sp</dimen>
+    <dimen name="dialog_add_item_text">16.0sp</dimen>
+    <dimen name="tab_text_size">12.0sp</dimen>
+</resources>

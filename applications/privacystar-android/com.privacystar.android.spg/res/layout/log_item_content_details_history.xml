@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end|center" android:layout_gravity="end|center" android:orientation="vertical" android:id="@id/log_item_end_rl" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/ActivityLogDate" android:ellipsize="end" android:id="@id/log_item_time_elapsed" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="8.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/log_item_call_icon_1" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+        <ImageView android:id="@id/log_item_call_icon_2" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginStart="4.0dip" />
+        <ImageView android:id="@id/log_item_call_icon_3" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+</LinearLayout>

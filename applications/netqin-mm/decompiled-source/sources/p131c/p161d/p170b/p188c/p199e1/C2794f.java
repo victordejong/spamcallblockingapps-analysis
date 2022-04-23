@@ -1,0 +1,56 @@
+package p131c.p161d.p170b.p188c.p199e1;
+/* renamed from: c.d.b.c.e1.f */
+/* loaded from: classes-dex2jar.jar:c/d/b/c/e1/f.class */
+public final class C2794f {
+    public static final int exo_controls_fastforward = 2131165364;
+    public static final int exo_controls_fullscreen_enter = 2131165365;
+    public static final int exo_controls_fullscreen_exit = 2131165366;
+    public static final int exo_controls_next = 2131165367;
+    public static final int exo_controls_pause = 2131165368;
+    public static final int exo_controls_play = 2131165369;
+    public static final int exo_controls_previous = 2131165370;
+    public static final int exo_controls_repeat_all = 2131165371;
+    public static final int exo_controls_repeat_off = 2131165372;
+    public static final int exo_controls_repeat_one = 2131165373;
+    public static final int exo_controls_rewind = 2131165374;
+    public static final int exo_controls_shuffle_off = 2131165375;
+    public static final int exo_controls_shuffle_on = 2131165376;
+    public static final int exo_controls_vr = 2131165377;
+    public static final int exo_edit_mode_logo = 2131165378;
+    public static final int exo_icon_circular_play = 2131165379;
+    public static final int exo_icon_fastforward = 2131165380;
+    public static final int exo_icon_fullscreen_enter = 2131165381;
+    public static final int exo_icon_fullscreen_exit = 2131165382;
+    public static final int exo_icon_next = 2131165383;
+    public static final int exo_icon_pause = 2131165384;
+    public static final int exo_icon_play = 2131165385;
+    public static final int exo_icon_previous = 2131165386;
+    public static final int exo_icon_repeat_all = 2131165387;
+    public static final int exo_icon_repeat_off = 2131165388;
+    public static final int exo_icon_repeat_one = 2131165389;
+    public static final int exo_icon_rewind = 2131165390;
+    public static final int exo_icon_shuffle_off = 2131165391;
+    public static final int exo_icon_shuffle_on = 2131165392;
+    public static final int exo_icon_stop = 2131165393;
+    public static final int exo_icon_vr = 2131165394;
+    public static final int exo_notification_fastforward = 2131165395;
+    public static final int exo_notification_next = 2131165396;
+    public static final int exo_notification_pause = 2131165397;
+    public static final int exo_notification_play = 2131165398;
+    public static final int exo_notification_previous = 2131165399;
+    public static final int exo_notification_rewind = 2131165400;
+    public static final int exo_notification_small_icon = 2131165401;
+    public static final int exo_notification_stop = 2131165402;
+    public static final int notification_action_background = 2131165502;
+    public static final int notification_bg = 2131165503;
+    public static final int notification_bg_low = 2131165504;
+    public static final int notification_bg_low_normal = 2131165505;
+    public static final int notification_bg_low_pressed = 2131165506;
+    public static final int notification_bg_normal = 2131165507;
+    public static final int notification_bg_normal_pressed = 2131165508;
+    public static final int notification_icon_background = 2131165509;
+    public static final int notification_template_icon_bg = 2131165511;
+    public static final int notification_template_icon_low_bg = 2131165512;
+    public static final int notification_tile_bg = 2131165513;
+    public static final int notify_panel_notification_icon_bg = 2131165514;
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/call_picker_layout" android:paddingLeft="20.0dip" android:paddingTop="8.0dip" android:paddingRight="150.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/phone_number_tv" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Text.Title" />
+    <TextView android:id="@id/phone_type_tv" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Text.Small.Stonegrey" />
+</LinearLayout>

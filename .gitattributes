@@ -1,2 +1,10 @@
 /applications/asus-callblock/com.asus.contacts.apk filter=lfs diff=lfs merge=lfs -text
 /applications/callapp-contacts/com.callapp.contacts.apk filter=lfs diff=lfs merge=lfs -text
+/applications/gogolook-callgogolook2/classes-dex2jar.jar filter=lfs diff=lfs merge=lfs -text
+/applications/gogolook-callgogolook2/classes2-dex2jar.jar filter=lfs diff=lfs merge=lfs -text
+/applications/gogolook-callgogolook2/gogolook.callgogolook2.apk filter=lfs diff=lfs merge=lfs -text
+/applications/mrnumber-blocker/com.mrnumber.blocker.apk filter=lfs diff=lfs merge=lfs -text
+/applications/privacystar-android/com.privacystar.android.spg.apk filter=lfs diff=lfs merge=lfs -text
+/applications/tmobile-services/classes-dex2jar.jar filter=lfs diff=lfs merge=lfs -text
+/applications/tmobile-services/com.tmobile.services.nameid.apk filter=lfs diff=lfs merge=lfs -text
+/applications/webascender-callerid/com.webascender.callerid.apk filter=lfs diff=lfs merge=lfs -text

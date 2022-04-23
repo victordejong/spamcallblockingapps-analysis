@@ -1,0 +1,16 @@
+package p131c.p161d.p170b.p224d.p252g.p253a;
+
+import com.google.android.gms.internal.ads.zzdmc;
+/* renamed from: c.d.b.d.g.a.lf */
+/* loaded from: classes-dex2jar.jar:c/d/b/d/g/a/lf.class */
+public final /* synthetic */ class C3766lf implements AbstractC3951qf {
+
+    /* renamed from: a */
+    public static final AbstractC3951qf f13965a = new C3766lf();
+
+    @Override // p131c.p161d.p170b.p224d.p252g.p253a.AbstractC3951qf
+    /* renamed from: a */
+    public final void mo26007a(Object obj) {
+        ((zzdmc) obj).mo13511H();
+    }
+}

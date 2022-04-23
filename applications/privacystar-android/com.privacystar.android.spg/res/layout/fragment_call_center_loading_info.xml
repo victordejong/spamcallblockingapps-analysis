@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.github.rahatarmanahmed.cpv.CircularProgressView android:id="@id/call_center_info_progress_bar" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_centerVertical="true" app:cpv_animAutostart="true" app:cpv_color="@color/ps3_white" app:cpv_indeterminate="true" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <TextView android:textColor="#ffffffff" android:gravity="end" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/call_center_loading" android:layout_toLeftOf="@id/call_center_info_progress_bar" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:layout_toEndOf="@id/call_center_info_progress_bar" />
+</RelativeLayout>

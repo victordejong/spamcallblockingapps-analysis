@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:material="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <com.callerid.block.customview.LImageButton android:layout_gravity="center_vertical" android:id="@id/header_left_about" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_back" android:contentDescription="@string/back" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" material:widget_animColor="?colorTabIndicator" />
+        <TextView android:id="@id/tv_title_language" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/language" android:layout_marginStart="8.0dip" style="@style/headerbar_text_style" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:background="?color_ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:id="@id/ib_english" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_en" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="English" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_english" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/ib_hi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_hi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="हिन्दी" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_hi" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/fl_ta" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_ta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="தமிழ்" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_ta" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/fl_te" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_te" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="বతెలుగు" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_te" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/fl_kn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_kn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="ಕನ್ನಡ" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_kn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/fl_gu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_gu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="ગુજરાતી" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_gu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/fl_mr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_mr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="मराठी" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_mr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/fl_ml" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_ml" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="മലയാളം" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_ml" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/fl_pa" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_pa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="ਪੰਜਾਬੀ" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_pa" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/ib_in" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_in" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="Indonesia" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_in" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/ib_alabo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_alabo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="العربية" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_alabo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/ib_french" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_fr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="Français" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_french" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/ib_vi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_vi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="Tiếng Việt" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_vi" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/fl_ru" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_ru" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="Русский язык" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_ru" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/fl_it" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_it" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="lingua italiana" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_it" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/fl_pt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_pt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="Português" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_pt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/fl_es" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_es" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="Español" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_es" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/fl_de" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_de" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="Deutsche Sprache" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_de" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/fl_ur" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_ur" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="اردو" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_ur" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/fl_bn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_bn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="বাংলা ভাষা" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_bn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/fl_iw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_iw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="עִבְרִית" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_iw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/fl_cs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_cs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="čeština" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_cs" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/fl_ms" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_ms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="Melayu" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_ms" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/fl_th" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_th" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="ภาษาไทย" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_th" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/fl_tr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_tr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="Türk" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_tr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+                <FrameLayout android:id="@id/fl_am" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="64.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_am" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="አማርኛ" android:layout_marginStart="16.0dip" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_am" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/switchlanguage_gou" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+            </LinearLayout>
+        </ScrollView>
+        <View android:background="@drawable/main_shade" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+    </RelativeLayout>
+</LinearLayout>

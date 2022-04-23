@@ -1,0 +1,40 @@
+package com.google.android.flexbox;
+/* loaded from: classes2-dex2jar.jar:com/google/android/flexbox/R$styleable.class */
+public final class R$styleable {
+    public static final int FlexboxLayout_Layout_layout_alignSelf = 0;
+    public static final int FlexboxLayout_Layout_layout_flexBasisPercent = 1;
+    public static final int FlexboxLayout_Layout_layout_flexGrow = 2;
+    public static final int FlexboxLayout_Layout_layout_flexShrink = 3;
+    public static final int FlexboxLayout_Layout_layout_maxHeight = 4;
+    public static final int FlexboxLayout_Layout_layout_maxWidth = 5;
+    public static final int FlexboxLayout_Layout_layout_minHeight = 6;
+    public static final int FlexboxLayout_Layout_layout_minWidth = 7;
+    public static final int FlexboxLayout_Layout_layout_order = 8;
+    public static final int FlexboxLayout_Layout_layout_wrapBefore = 9;
+    public static final int FlexboxLayout_alignContent = 0;
+    public static final int FlexboxLayout_alignItems = 1;
+    public static final int FlexboxLayout_dividerDrawable = 2;
+    public static final int FlexboxLayout_dividerDrawableHorizontal = 3;
+    public static final int FlexboxLayout_dividerDrawableVertical = 4;
+    public static final int FlexboxLayout_flexDirection = 5;
+    public static final int FlexboxLayout_flexWrap = 6;
+    public static final int FlexboxLayout_justifyContent = 7;
+    public static final int FlexboxLayout_showDivider = 8;
+    public static final int FlexboxLayout_showDividerHorizontal = 9;
+    public static final int FlexboxLayout_showDividerVertical = 10;
+    public static final int RecyclerView_android_clipToPadding = 1;
+    public static final int RecyclerView_android_descendantFocusability = 2;
+    public static final int RecyclerView_android_orientation = 0;
+    public static final int RecyclerView_fastScrollEnabled = 3;
+    public static final int RecyclerView_fastScrollHorizontalThumbDrawable = 4;
+    public static final int RecyclerView_fastScrollHorizontalTrackDrawable = 5;
+    public static final int RecyclerView_fastScrollVerticalThumbDrawable = 6;
+    public static final int RecyclerView_fastScrollVerticalTrackDrawable = 7;
+    public static final int RecyclerView_layoutManager = 8;
+    public static final int RecyclerView_reverseLayout = 9;
+    public static final int RecyclerView_spanCount = 10;
+    public static final int RecyclerView_stackFromEnd = 11;
+    public static final int[] FlexboxLayout = {2130968618, 2130968619, 2130968814, 2130968815, 2130968816, 2130968872, 2130968873, 2130968950, 2130969183, 2130969184, 2130969185};
+    public static final int[] FlexboxLayout_Layout = {2130968962, 2130969013, 2130969014, 2130969015, 2130969032, 2130969033, 2130969034, 2130969035, 2130969037, 2130969041};
+    public static final int[] RecyclerView = {16842948, 16842987, 16842993, 2130968863, 2130968864, 2130968865, 2130968866, 2130968867, 2130968960, 2130969153, 2130969206, 2130969213};
+}

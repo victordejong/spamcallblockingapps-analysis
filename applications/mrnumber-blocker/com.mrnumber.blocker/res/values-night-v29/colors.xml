@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="basic_plan_basic_back">#ff434343</color>
+    <color name="basic_plan_checkmark">#ffcbcbcb</color>
+    <color name="basic_plan_premium_bavk">#ff1a1846</color>
+    <color name="basic_plan_ribbon_color">#ff168fb0</color>
+    <color name="c_background">#ff1b1b1b</color>
+    <color name="c_light_button_text_color">#ffffffff</color>
+    <color name="call_log_call_button_tint">@color/blue</color>
+    <color name="hiya_normal_call_background">@color/hiya_dark_grey</color>
+    <color name="hiya_ripple">@color/hiya_transparent_white</color>
+    <color name="hiya_standard_title_dark_grey_color">@color/hiya_white</color>
+    <color name="keypad_dialer_digit">#ffffffff</color>
+    <color name="keypad_lookup_button_icon">#ffffffff</color>
+    <color name="keypad_loookup_button_bg">@color/devils_grey</color>
+    <color name="keypad_phone_number_text">#ffffffff</color>
+    <color name="overlay_default_bg">#ff434343</color>
+    <color name="overlay_default_text">#ffffffff</color>
+    <color name="purple">#ffbe99ff</color>
+    <color name="search_bar_hint">#ffcccccc</color>
+    <color name="search_bar_text">#ffffffff</color>
+    <color name="splash_background">@color/c_background</color>
+</resources>

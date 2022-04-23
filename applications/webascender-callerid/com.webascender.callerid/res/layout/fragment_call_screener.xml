@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/local_app_bar" />
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="84.0dip" android:layout_height="84.0dip" android:layout_marginTop="64.0dip" android:src="@drawable/ic_settings_call_screener" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="29.0dip" android:layout_marginTop="54.0dip" android:layout_marginRight="24.0dip">
+            <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/screener_title" android:layout_weight="1.0" style="@style/Text.Title" />
+            <Switch android:id="@id/screenerSwitch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:background="@color/borderline_grey" android:layout_width="fill_parent" android:layout_height="0.6dip" android:layout_marginLeft="29.0dip" android:layout_marginTop="8.0dip" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="29.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="24.0dip" android:text="@string/screener_dsc" style="@style/Text.Desc" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/text_search_container" android:background="#fff6f6f6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/bottom_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <gogolook.callgogolook2.search.views.view.SearchBar android:id="@id/search_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:id="@id/rl_history" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/search_bar">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_search_history" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:cacheColorHint="#00000000" android:dividerHeight="0.0dip" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_search_result" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/search_bar">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_search_result" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:cacheColorHint="#00000000" android:dividerHeight="0.0dip" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <Button android:id="@id/btn_my_location" android:background="@drawable/ic_default_location" android:visibility="gone" android:layout_width="@dimen/my_location_width" android:layout_height="@dimen/my_location_height" android:layout_marginRight="@dimen/my_location_margin_right" android:layout_marginBottom="@dimen/my_location_margin_bottom" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <Button android:textSize="14.0sp" android:textColor="#ff1cbd3a" android:gravity="center" android:id="@id/btn_search_area" android:background="@drawable/btn_search_area_selector" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/search_area_height" android:layout_marginTop="@dimen/search_area_margin_top" android:minWidth="@dimen/search_area_width" android:text="@string/search_mapview_refine_button" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:fontFamily="sans-serif-medium" />
+    <Button android:textSize="14.0sp" android:textColor="#ff1cbd3a" android:gravity="center" android:id="@id/btn_search_list_result" android:background="@drawable/btn_search_list_result_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/search_list_result_height" android:layout_marginLeft="@dimen/search_list_result_margin_left" android:layout_marginRight="@dimen/search_list_result_margin_right" android:text="@string/search_listview_button" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:fontFamily="sans-serif-medium" />
+</RelativeLayout>

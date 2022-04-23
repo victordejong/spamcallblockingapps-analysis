@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/loading_fragment_ll" android:background="@drawable/interstitial_background" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@android:color/transparent" android:paddingBottom="?actionBarSize" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/intro_padding_top" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center" android:id="@id/intro_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/intro_logo_description" android:elevation="2.0dip" app:srcCompat="@drawable/ic_app_logo" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.github.rahatarmanahmed.cpv.CircularProgressView android:layout_gravity="center" android:id="@id/loading_fragment_spinner" android:layout_width="32.0dip" android:layout_height="32.0dip" app:cpv_animAutostart="true" app:cpv_color="@color/ps3_white" app:cpv_indeterminate="true" app:cpv_thickness="3.0dip" xmlns:app="http://schemas.android.com/apk/res-auto" />
+        <TextView android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/loading_content_padding" android:text="@string/loading_fragment_loading" android:paddingStart="8.0dip" android:paddingEnd="0.0dip" style="@style/LoadingText" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/loading_fragment_unknown" android:textAlignment="center" style="@style/ContentWhite" />
+    </LinearLayout>
+</LinearLayout>

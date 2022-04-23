@@ -1,0 +1,13 @@
+package com.google.android.gms.internal.ads;
+
+import java.security.GeneralSecurityException;
+import java.security.Provider;
+import javax.crypto.KeyAgreement;
+/* loaded from: classes-dex2jar.jar:com/google/android/gms/internal/ads/zzehg.class */
+public final class zzehg implements zzehe<KeyAgreement> {
+    @Override // com.google.android.gms.internal.ads.zzehe
+    /* renamed from: a */
+    public final /* synthetic */ KeyAgreement mo12559a(String str, Provider provider) throws GeneralSecurityException {
+        return provider == null ? KeyAgreement.getInstance(str) : KeyAgreement.getInstance(str, provider);
+    }
+}

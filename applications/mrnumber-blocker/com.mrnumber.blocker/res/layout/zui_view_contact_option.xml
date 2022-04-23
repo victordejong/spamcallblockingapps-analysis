@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="?colorPrimary" android:gravity="center" android:id="@id/zui_contact_option_name" android:background="@drawable/zui_background_cell_articles_response_footer" android:paddingLeft="@dimen/zui_cell_contact_option_margin" android:paddingTop="@dimen/zui_cell_contact_option_margin" android:paddingRight="@dimen/zui_cell_contact_option_margin" android:paddingBottom="@dimen/zui_cell_contact_option_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="false" android:importantForAccessibility="no" style="@style/ZendeskSdkTheme.Light.Cell.Text.Response"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

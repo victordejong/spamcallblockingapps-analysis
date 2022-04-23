@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/dialog_margin_buttom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/delete" android:background="@drawable/list_selector" android:paddingLeft="@dimen/dialog_content_margin_left_right" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_item_height" android:text="delete" android:singleLine="true" style="@style/dialog_item" />
+    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/edit" android:background="@drawable/list_selector" android:paddingLeft="@dimen/dialog_content_margin_left_right" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_item_height" android:text="edit" android:singleLine="true" style="@style/dialog_item" />
+</LinearLayout>

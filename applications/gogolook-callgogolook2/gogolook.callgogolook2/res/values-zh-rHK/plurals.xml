@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="other">%d個附件正等待傳送</item>
+        <item quantity="one">一個附件正等待傳送</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="other">捨棄附件</item>
+        <item quantity="one">捨棄附件</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="other">傳送附件</item>
+        <item quantity="one">傳送附件</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="other">傳送聯絡資料</item>
+        <item quantity="one">傳送聯絡資料</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d個月</item>
+        <item quantity="one">一個月</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="other">%d 則新訊息</item>
+        <item quantity="one">新訊息</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d天</item>
+        <item quantity="one">%d天</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d小時</item>
+        <item quantity="one">%d小時</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d分鐘</item>
+        <item quantity="one">%d分鐘</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="other">%d 個聯絡人</item>
+        <item quantity="one">%d 個聯絡人</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="other">%d位參加者</item>
+        <item quantity="one">%d位參加者</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d個星期</item>
+        <item quantity="one">一個星期</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d年</item>
+        <item quantity="one">一年</item>
+    </plurals>
+</resources>

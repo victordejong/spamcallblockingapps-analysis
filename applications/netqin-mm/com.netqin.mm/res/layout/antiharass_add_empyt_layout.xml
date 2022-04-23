@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/nq_ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/activity_title" android:layout_width="fill_parent" android:layout_height="@dimen/nq_title_72px" layout="@layout/custom_single_title" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_bottom" android:background="@drawable/toolbar_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/nq_bottom_button" android:layout_alignParentBottom="true">
+        <Button android:textSize="14.0sp" android:textColor="@color/nq_545454" android:gravity="center" android:id="@id/btn_cancel" android:background="@drawable/cb_btn_bg" android:layout_width="fill_parent" android:layout_height="33.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:text="@string/common_cancel" android:layout_weight="1.0" />
+        <Button android:textSize="14.0sp" android:textColor="@color/nq_3f51b5" android:gravity="center" android:id="@id/btn_add" android:background="@drawable/cb_btn_bg" android:layout_width="fill_parent" android:layout_height="33.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:text="@string/common_add" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/empty_text_ll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/antiharass_list_margin_bottom_btn" android:layout_below="@id/activity_title">
+        <TextView android:id="@id/empty_text" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/list_font_no_content" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:material="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <com.callerid.block.customview.LImageButton android:layout_gravity="center_vertical" android:id="@id/header_left_about" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ic_back" android:contentDescription="@string/back" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" material:widget_animColor="?colorTabIndicator" />
+        <TextView android:id="@id/tv_title_about" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/setting_about" android:layout_marginStart="8.0dip" style="@style/headerbar_text_style" />
+    </LinearLayout>
+    <RelativeLayout android:background="?color_ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="@drawable/main_shade" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="130.0dip" android:layout_centerHorizontal="true">
+            <ImageView android:layout_width="80.0dip" android:layout_height="80.0dip" android:src="@mipmap/ic_launcher" />
+            <TextView android:textSize="20.0sp" android:textColor="?color_333333" android:id="@id/tv_app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/app_name" />
+            <TextView android:textSize="14.0sp" android:textColor="?color_666666" android:id="@id/version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="?color_666666" android:gravity="center" android:id="@id/tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="30.0dip" android:text="@string/about_tip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:lineSpacingExtra="5.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    </RelativeLayout>
+</LinearLayout>

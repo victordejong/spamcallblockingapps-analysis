@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/notification_call_event_ll" android:background="@color/ps3_white" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="top" android:padding="8.0dip" android:layout_width="@android:dimen/notification_large_icon_width" android:layout_height="@android:dimen/notification_large_icon_height">
+        <ImageView android:id="@id/notification_event_logo_iv" android:layout_width="44.0dip" android:layout_height="42.0dip" android:contentDescription="@string/cd_notification_icon" />
+    </FrameLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+        <TextView android:textSize="16.0sp" android:ellipsize="end" android:id="@id/notification_event_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" android:maxLines="1" android:layout_toStartOf="@id/notification_event_details_rl" android:layout_alignParentStart="true" />
+        <TextView android:textAppearance="@style/ActivityLogDate" android:ellipsize="end" android:id="@id/notification_event_description_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/notification_event_title_tv" android:layout_toStartOf="@id/notification_event_details_rl" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/mutelistLayout" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/listMutelist" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:divider="#00000000" android:dividerHeight="0.0px" />
+    </RelativeLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/buttonAdd" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:src="@drawable/ic_add" app:layout_anchor="@id/mutelistLayout" app:layout_anchorGravity="end|bottom|center" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

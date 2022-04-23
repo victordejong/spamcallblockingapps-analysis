@@ -1,0 +1,10 @@
+package io.reactivex;
+
+import io.reactivex.annotations.NonNull;
+import org.reactivestreams.Subscriber;
+import org.reactivestreams.Subscription;
+/* loaded from: classes-dex2jar.jar:io/reactivex/FlowableSubscriber.class */
+public interface FlowableSubscriber<T> extends Subscriber<T> {
+    @Override // org.reactivestreams.Subscriber
+    void onSubscribe(@NonNull Subscription subscription);
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/list_selector" android:paddingTop="@dimen/gap_1half" android:paddingBottom="@dimen/gap_1half" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <gogolook.callgogolook2.view.SizedTextView android:id="@id/tv_note_content" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/RANormalMidStyle" />
+        <gogolook.callgogolook2.view.SizedTextView android:id="@id/tv_note_date" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/RANormalSmallStyle" />
+    </LinearLayout>
+    <ImageView android:id="@id/iv_remove" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/btn_delete" />
+</LinearLayout>

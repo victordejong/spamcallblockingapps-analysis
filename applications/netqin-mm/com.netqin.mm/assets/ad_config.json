@@ -1,0 +1,233 @@
+{
+    "log": false,
+    "logSize": 0,
+    "logTime": 0,
+    "placeList": [
+        {
+            "adList": [
+                {
+                    "adType": 1,
+                    "cacheShowTime": 1,
+                    "cacheTime": 3600000,
+                    "clicks": -1,
+                    "layoutType": 0,
+                    "layouts": [
+                        1
+                    ],
+                    "priority": 1,
+                    "source": "AM",
+                    "timeout": 10000,
+                    "unitId": "ca-app-pub-7839839351978639/5806515471"
+                }
+            ],
+            "adSyId": "206",
+            "frequency": 0,
+            "model": 1,
+            "placeId": "3",
+            "show": true,
+            "testType": ""
+        },
+        {
+            "adList": [
+                {
+                    "adType": 1,
+                    "cacheShowTime": 1,
+                    "cacheTime": 3600000,
+                    "clicks": -1,
+                    "layoutType": 0,
+                    "layouts": [
+                        1
+                    ],
+                    "priority": 1,
+                    "source": "AM",
+                    "timeout": 10000,
+                    "unitId": "ca-app-pub-7839839351978639/1196352472"
+                }
+            ],
+            "adSyId": "205",
+            "frequency": 0,
+            "model": 1,
+            "placeId": "2",
+            "show": true,
+            "testType": ""
+        },
+        {
+            "adList": [
+                {
+                    "adType": 1,
+                    "cacheShowTime": 1,
+                    "cacheTime": 3600000,
+                    "clicks": -1,
+                    "layoutType": 0,
+                    "layouts": [
+                        1
+                    ],
+                    "priority": 1,
+                    "source": "AM",
+                    "timeout": 10000,
+                    "unitId": "ca-app-pub-7839839351978639/7530004142"
+                }
+            ],
+            "adSyId": "620",
+            "frequency": 0,
+            "model": 1,
+            "placeId": "10",
+            "show": true,
+            "testType": ""
+        },
+        {
+            "adList": [
+                {
+                    "adType": 1,
+                    "cacheShowTime": 1,
+                    "cacheTime": 3600000,
+                    "clicks": -1,
+                    "layoutType": 0,
+                    "layouts": [
+                        1
+                    ],
+                    "priority": 1,
+                    "source": "AM",
+                    "timeout": 10000,
+                    "unitId": "ca-app-pub-7839839351978639/7530004142"
+                }
+            ],
+            "adSyId": "204",
+            "frequency": 0,
+            "model": 1,
+            "placeId": "1",
+            "show": true,
+            "testType": ""
+        },
+        {
+            "adList": [
+                {
+                    "adType": 3,
+                    "cacheShowTime": 1,
+                    "cacheTime": 3600000,
+                    "clicks": -1,
+                    "layoutType": 0,
+                    "layouts": [
+                        1
+                    ],
+                    "priority": 2,
+                    "source": "AM",
+                    "timeout": 8000,
+                    "unitId": "ca-app-pub-7839839351978639/5478555876"
+                },
+                {
+                    "adType": 3,
+                    "cacheShowTime": 1,
+                    "cacheTime": 3600000,
+                    "clicks": -1,
+                    "layoutType": 0,
+                    "layouts": [
+                        1
+                    ],
+                    "priority": 4,
+                    "source": "AM",
+                    "timeout": 8000,
+                    "unitId": "ca-app-pub-7839839351978639/6433745901"
+                },
+                {
+                    "adType": 3,
+                    "cacheShowTime": 1,
+                    "cacheTime": 3600000,
+                    "clicks": -1,
+                    "layoutType": 0,
+                    "layouts": [
+                        1
+                    ],
+                    "priority": 3,
+                    "source": "AM",
+                    "timeout": 8000,
+                    "unitId": "ca-app-pub-7839839351978639/4856299725"
+                }
+            ],
+            "adSyId": "207",
+            "frequency": 0,
+            "model": 1,
+            "placeId": "5",
+            "show": true,
+            "testType": ""
+        },
+        {
+            "adList": [
+                {
+                    "adType": 1,
+                    "cacheShowTime": 1,
+                    "cacheTime": 3600000,
+                    "clicks": -1,
+                    "layoutType": 0,
+                    "layouts": [
+                        1
+                    ],
+                    "priority": 1,
+                    "source": "AM",
+                    "timeout": 10000,
+                    "unitId": "ca-app-pub-7839839351978639/7530004142"
+                },
+                {
+                    "adType": 1,
+                    "cacheShowTime": 1,
+                    "cacheTime": 3600000,
+                    "clicks": -1,
+                    "layoutType": 0,
+                    "layouts": [
+                        1
+                    ],
+                    "priority": 4,
+                    "source": "AM",
+                    "timeout": 10000,
+                    "unitId": "ca-app-pub-7839839351978639/2277677462"
+                },
+                {
+                    "adType": 1,
+                    "cacheShowTime": 1,
+                    "cacheTime": 3600000,
+                    "clicks": -1,
+                    "layoutType": 0,
+                    "layouts": [
+                        1
+                    ],
+                    "priority": 2,
+                    "source": "AM",
+                    "timeout": 10000,
+                    "unitId": "ca-app-pub-7839839351978639/6380574007"
+                }
+            ],
+            "adSyId": "208",
+            "frequency": 0,
+            "model": 1,
+            "placeId": "4",
+            "show": true,
+            "testType": ""
+        },
+        {
+            "adList": [
+                {
+                    "adType": 3,
+                    "cacheShowTime": 1,
+                    "cacheTime": 3600000,
+                    "clicks": -1,
+                    "layoutType": 0,
+                    "layouts": [
+                        1
+                    ],
+                    "priority": 1,
+                    "source": "MP",
+                    "timeout": 10000,
+                    "unitId": "88c2832c15d040cb93e61cda8aae91f5"
+                }
+            ],
+            "adSyId": "902",
+            "frequency": 0,
+            "model": 1,
+            "placeId": "13",
+            "show": true,
+            "testType": ""
+        }
+    ],
+    "result": true,
+    "update": 10800000
+}

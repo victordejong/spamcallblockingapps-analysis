@@ -1,0 +1,4 @@
+package com.apptentive.android.sdk.storage;
+/* loaded from: classes-dex2jar.jar:com/apptentive/android/sdk/storage/EventStore.class */
+public interface EventStore extends PayloadStore {
+}

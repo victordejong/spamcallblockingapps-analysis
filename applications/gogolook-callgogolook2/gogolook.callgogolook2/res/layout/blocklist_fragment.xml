@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_ad_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <RelativeLayout android:id="@id/rl_ad_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/v_ad_divider" android:background="@color/list_divider_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_whole" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ll_ad_layout">
+        <gogolook.support.v7.widget.extension.RecyclerView android:id="@id/rv_block_log" android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:divider="@null" android:splitMotionEvents="false" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <gogolook.callgogolook2.util.ProgressWheel android:layout_gravity="center" android:visibility="visible" android:layout_width="57.0dip" android:layout_height="57.0dip" android:layout_marginBottom="@dimen/gap" app:matProg_progressIndeterminate="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/btn_fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fab_left_right_margin" android:layout_marginBottom="@dimen/fab_bottom_margin" android:src="@drawable/ic_fab_contact" android:scaleType="center" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" app:backgroundTint="@color/whoscall_green" app:fabSize="normal" app:pressedTranslationZ="0.0dip" />
+</RelativeLayout>

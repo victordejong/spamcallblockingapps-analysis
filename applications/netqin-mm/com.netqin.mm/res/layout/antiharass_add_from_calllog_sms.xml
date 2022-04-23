@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/nq_page_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/activity_title" android:layout_width="fill_parent" android:layout_height="@dimen/nq_title_72px" layout="@layout/custom_single_title" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_bottom" android:background="@drawable/toolbar_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/nq_bottom_button" android:layout_alignParentBottom="true">
+        <Button android:textSize="14.0sp" android:textColor="@color/nq_545454" android:gravity="center" android:id="@id/btn_cancel" android:background="@drawable/cb_btn_bg" android:layout_width="fill_parent" android:layout_height="33.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:text="@string/common_cancel" android:layout_weight="1.0" />
+        <Button android:textSize="14.0sp" android:textColor="@color/nq_3f51b5" android:gravity="center" android:id="@id/btn_add" android:background="@drawable/cb_btn_bg" android:layout_width="fill_parent" android:layout_height="33.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:text="@string/common_add" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/calllog_sms_ll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/nq_bottom_button" android:layout_below="@id/activity_title">
+        <ListView android:id="@id/lv_calllog_sms" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/list_selector" android:cacheColorHint="@color/nq_00000000" android:divider="@color/nq_list_divider" android:dividerHeight="0.0dip" />
+        <View android:id="@id/line" android:background="@color/nq_list_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/nq_divider_height" />
+    </LinearLayout>
+</RelativeLayout>

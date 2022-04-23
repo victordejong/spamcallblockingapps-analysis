@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_whole" android:background="@color/tab_bar_color" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:divider="@null" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@android:id/empty" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:paddingBottom="48.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/iv_empty_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/img_noti_empty" android:scaleType="center" />
+            <gogolook.callgogolook2.view.SizedTextView android:textSize="13.0sp" android:textColor="#ff666666" android:gravity="center" android:id="@id/tv_empty_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/newscenter_empty" android:lineSpacingExtra="4.0dip" android:fontFamily="sans-serif-light" />
+        </LinearLayout>
+        <ProgressBar android:id="@id/pb_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:indeterminateTint="@color/whoscall_green" />
+    </RelativeLayout>
+</LinearLayout>

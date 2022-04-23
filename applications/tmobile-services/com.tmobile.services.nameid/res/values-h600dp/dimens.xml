@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="app_feat_guideline_pct">0.42</item>
+    <dimen name="app_feature_dots_height">125.0dip</dimen>
+    <dimen name="auth_fail_app_icon_top_margin">96.0dip</dimen>
+    <dimen name="eula_app_icon_top_margin">50.0dip</dimen>
+    <dimen name="eula_bottom_element_margin">30.0dip</dimen>
+    <dimen name="eula_header_width">275.0dip</dimen>
+    <item type="dimen" name="feature_display_guideline_pct">0.3</item>
+    <dimen name="feature_display_title_text_size">36.0sp</dimen>
+    <dimen name="illustration_height_app_feat">165.0dip</dimen>
+    <dimen name="illustration_width_app_feat">200.0dip</dimen>
+    <dimen name="oobe_button_margin_bottom">30.0dip</dimen>
+    <dimen name="oobe_logo_margin_bottom">30.0dip</dimen>
+    <item type="dimen" name="oobe_lower_guideline_pct">0.8</item>
+    <dimen name="shield_icon_height_startup">100.0dip</dimen>
+    <dimen name="spellout_height">144.0dip</dimen>
+    <dimen name="spellout_width">245.0dip</dimen>
+    <dimen name="tab_notification_badge_shim">0.0dip</dimen>
+    <dimen name="upgrade_eula_bottom_margin">30.0dip</dimen>
+    <item type="dimen" name="upgrade_eula_guideline_pct">0.35</item>
+    <dimen name="upgrade_modal_image_width">250.0dip</dimen>
+</resources>

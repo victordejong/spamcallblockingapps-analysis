@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_allow_stacked_button_bar">false</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="blockListSync">false</bool>
+    <bool name="commentsForAllNumbers">false</bool>
+    <bool name="config_materialPreferenceIconSpaceReserved">false</bool>
+    <bool name="enable_system_alarm_service_default">true</bool>
+    <bool name="enable_system_foreground_service_default">true</bool>
+    <bool name="enable_system_job_service_default">false</bool>
+    <bool name="forceDarkMode">false</bool>
+    <bool name="groupExperimentEligible">true</bool>
+    <bool name="hideDragToMove">true</bool>
+    <bool name="hiya_latency_tracking">true</bool>
+    <bool name="hiya_telephony_events">false</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+    <bool name="numberVerification">true</bool>
+    <bool name="payWall">false</bool>
+    <bool name="premiumGlobalAvailability">true</bool>
+    <bool name="priceIncEligible">true</bool>
+    <bool name="smsCallScreener">true</bool>
+    <bool name="softPayWall">true</bool>
+    <bool name="windowLightStatusBar">true</bool>
+    <bool name="workmanager_test_configuration">false</bool>
+    <bool name="zs_request_image_picker_full_screen">true</bool>
+</resources>

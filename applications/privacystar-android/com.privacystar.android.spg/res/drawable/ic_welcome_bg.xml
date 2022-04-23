@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="fill" android:drawable="@color/static_background_splash" />
+    <item android:gravity="top" android:drawable="@drawable/ic_welcome_doodle" android:top="30.0dip" />
+</layer-list>

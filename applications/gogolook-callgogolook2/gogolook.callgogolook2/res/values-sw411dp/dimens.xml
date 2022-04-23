@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keypad_back_margin_right">81.5dip</dimen>
+    <dimen name="dialer_empty_margin_top">80.0dip</dimen>
+</resources>

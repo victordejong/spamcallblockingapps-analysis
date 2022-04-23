@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/filter_list_button" android:layout_width="28.0dip" android:layout_height="28.0dip" android:tint="?colorPrimary" android:layout_centerVertical="true" android:contentDescription="@string/con_desc_activity_filter_button" android:layout_marginStart="0.0dip" android:layout_marginEnd="24.0dip" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_filter" />
+    <TextView android:textAppearance="@style/ActivityFilter" android:id="@id/filter_title_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/filter_list_button" android:layout_alignParentStart="true" />
+</RelativeLayout>

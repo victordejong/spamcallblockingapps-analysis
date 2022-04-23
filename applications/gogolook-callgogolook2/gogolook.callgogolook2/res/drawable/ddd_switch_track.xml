@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="-10.0dip">
+        <selector
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:state_checked="true" android:drawable="@drawable/switch_green_bar" />
+            <item android:state_checked="false" android:drawable="@drawable/switch_off_bar" />
+        </selector>
+    </item>
+</layer-list>

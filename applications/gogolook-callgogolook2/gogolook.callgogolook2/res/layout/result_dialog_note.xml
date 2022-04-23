@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EditText android:id="@id/ra_note_edit" android:hint="@string/ra_hint_memo" style="@style/whoscall_edittext"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

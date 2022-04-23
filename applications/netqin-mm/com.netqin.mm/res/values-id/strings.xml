@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="antiharass_accept_white_list">Terima hanya dari daftar putih</string>
+    <string name="antiharass_accept_white_list_contacts">Terima hanya dari daftar putih dan kontak</string>
+    <string name="antiharass_add_black_list">Tambahkan ke Daftar hitam</string>
+    <string name="antiharass_add_black_list_message">Nomor yang Anda tambahkan ada dalam daftar putih Anda. Anda yakin ingin menambahkannya ke daftar hitam?</string>
+    <string name="antiharass_add_black_success">Nomor ini telah ditambahkan ke daftar hitam Anda.</string>
+    <string name="antiharass_add_from_calllog">Dari log panggilan</string>
+    <string name="antiharass_add_from_contacts">Dari kontak</string>
+    <string name="antiharass_add_manually">Secara manual</string>
+    <string name="antiharass_add_white_list">Tambahkan ke Daftar putih</string>
+    <string name="antiharass_add_white_list_message">Nomor yang Anda tambahkan ada dalam daftar hitam Anda. Anda yakin ingin menambahkannya ke daftar putih?</string>
+    <string name="antiharass_alert_msg_delete_one">Anda benar-benar ingin menghapusnya?</string>
+    <string name="antiharass_black_list">Daftar hitam</string>
+    <string name="antiharass_block_black_list">Blokir semua dari daftar hitam</string>
+    <string name="antiharass_block_mode">Mode blokir</string>
+    <string name="antiharass_blocked_list_add">Tambahkan ke daftar hitam</string>
+    <string name="antiharass_blocked_list_call">Panggil nomor ini</string>
+    <string name="antiharass_blocked_list_delete">Hapus</string>
+    <string name="antiharass_clear_all">Hapus semua catatan</string>
+    <string name="antiharass_edit">Edit</string>
+    <string name="antiharass_edit_dialog_number">Nomor:</string>
+    <string name="antiharass_empty_all_message">Anda benar-benar ingin menghapus semua catatan?</string>
+    <string name="antiharass_mode_prank_call">Pengganggu telepon Sekali Dering</string>
+    <string name="antiharass_no_calllog">Log panggilan Anda kosong.</string>
+    <string name="antiharass_no_calllog_history">"Panggilan yang tidak diinginkan akan diblokir di sini.
+Nikmati ketenangan hidup Anda."</string>
+    <string name="antiharass_no_contacts">Daftar kontak Anda kosong.</string>
+    <string name="antiharass_notification_CheatCall_title">Terdeteksi panggilan Pengganggu Telepon Sekali Dering</string>
+    <string name="antiharass_notification_content_block_calls">Lihat rincian</string>
+    <string name="antiharass_notification_content_block_one_cheatcall_no_location">%1$s</string>
+    <string name="antiharass_notification_title">%s panggilan diblokir</string>
+    <string name="antiharass_reject_way">Cara memblokir panggilan</string>
+    <string name="antiharass_setting_black">Daftar hitam (%d)</string>
+    <string name="antiharass_setting_close">Terima semua</string>
+    <string name="antiharass_setting_white">Daftar putih (%d)</string>
+    <string name="antiharass_unread_count">%s</string>
+    <string name="antiharass_vault_hidden">"Maaf, fitur ini tidak tersedia.Alasan:
+1. Anda belum menginstal Vault.
+2. Mode Siluman diaktifkan dalam Vault."</string>
+    <string name="antiharass_white_list">Daftar putih</string>
+    <string name="blocker_call_notification">Tampilkan notifikasi setelah memblokir</string>
+    <string name="blocker_one_ring_call">Blokir pengganggu telepon sekali dering</string>
+    <string name="calllog_call_duration">Durasi Panggilan: %s</string>
+    <string name="calllog_not_connected">Panggilan Diabaikan</string>
+    <string name="common_add">Tambah</string>
+    <string name="common_app_name">Call Blocker</string>
+    <string name="common_cancel">Batal</string>
+    <string name="common_delete">Hapus</string>
+    <string name="common_ok">OK</string>
+    <string name="common_settings">Pengaturan</string>
+    <string name="common_tips">Tip</string>
+    <string name="common_today">Hari ini</string>
+    <string name="common_yesterday">Kemarin</string>
+    <string name="enable">Aktifkan sekarang</string>
+    <string name="feedback_describe">Jelaskan masalah Anda, kami akan menjawab secepat mungkin.</string>
+    <string name="iab_detail_card_title">Berlangganan sekarang</string>
+    <string name="iab_detail_description">Tidak akan ada gangguan pada pengalaman aplikasi Anda.</string>
+    <string name="iab_detail_month">bulan</string>
+    <string name="iab_detail_months">bulan</string>
+    <string name="iab_detail_title">Hapus semua iklan</string>
+    <string name="iab_detail_year">tahun</string>
+    <string name="iab_guide_dialog_title">Penawaran terbatas</string>
+    <string name="iab_guide_title">Hilangkan iklan</string>
+    <string name="icon_not_migrated_tv">Data Anda dari Ruang Privasi perlu ditransfer</string>
+    <string name="launch_alert_btn_rate_cancel">Tdak Sekarang</string>
+    <string name="launch_alert_btn_rate_ok">5-bintang</string>
+    <string name="launch_alert_btn_vault_transfer_success_ok">Periksa data</string>
+    <string name="launch_alert_msg_gp_install">Kami sarankan Anda menginstal Google Play sebelum mengunduh Vault.</string>
+    <string name="launch_alert_msg_rate">Jika Anda menyukai aplikasi ini, silakan beri kami 5 bintang di Google Play.</string>
+    <string name="launch_alert_msg_vault_install">"Ruang Privasi, satu fitur Call Blocker, menjadi produk terpisah - Vault, agar perlindungan privasi lebih baik. Lebih dari 50 juta pengguna telah menginstal Vault mandiri.
+Dengan menginstalnya, layanan dan data premium Ruang Privasi Anda akan ditransfer ke Vault."</string>
+    <string name="launch_alert_msg_vault_password">Masukkan sandi Ruang Privasi Anda:</string>
+    <string name="launch_alert_msg_vault_transfer">Ruang Privasi, satu fitur Call Blocker, menjadi produk terpisah - Vault. Anda ingin mentransfer data privasi ke Vault?</string>
+    <string name="launch_alert_msg_vault_transfer_ok">Transfer</string>
+    <string name="launch_alert_msg_vault_transfer_success">Data pada Ruang Privasi telah ditransfer ke Vault. Anda ingin memeriksa data Anda dalam Vault?</string>
+    <string name="launch_alert_title_rate">Beri nilai aplikasi ini</string>
+    <string name="launch_alert_title_vault">Vault</string>
+    <string name="launch_alert_title_vault_transfer">Transfer data dari Ruang Privasi</string>
+    <string name="launch_alert_title_vault_transfer_input">Transfer data dari Ruang Privasi ke Vault</string>
+    <string name="launch_install">Instal</string>
+    <string name="launch_toast_msg_vault_migrate_fail">Gagal mentransfer data Anda dari Ruang Privasi. Silakan coba lagi.</string>
+    <string name="main_recommend_sms_body">Call Blocker membantu Anda memblokir panggilan yang tidak diinginkan.Unduh:</string>
+    <string name="main_set_about_version_build">"Versi
+Call Blocker: %1$s
+Bentukan: %2$s
+
+Hak cipta © 2020 CXZH Inc.
+
+Email:
+cs.cxzh.ltd@gmail.com"</string>
+    <string name="main_set_more">Lainnya</string>
+    <string name="main_set_notify_share_title">Bagikan</string>
+    <string name="more_ATF">Bebas anti virus</string>
+    <string name="more_alert_msg_contacts_backup_msg">Baixe Antivirus Free para manter seu telefone seguro. App essencial móvel, detecção de vírus rápida e profissional.</string>
+    <string name="more_alert_msg_install_vault">Ingin menjaga data privasi? Unduhlah Vault untuk menyembunyikan rahasia dalam ponsel Anda.</string>
+    <string name="more_alert_msg_vault_transfer_msg">Ruang Privasi, satu fitur Call Blocker, menjadi produk terpisah - Vault. Instal atau perbarui Vault sebelum mentransfer data Anda.</string>
+    <string name="more_download">Unduh</string>
+    <string name="more_feedback_problem_report">Laporkan masalah (Versi: %1$s, Versi Sistem: %2$s, Model Ponsel: %3$s, UID: %4$s)</string>
+    <string name="more_menu_feedback">Umpan balik</string>
+    <string name="more_share">Sarankan Call Blocker</string>
+    <string name="no_blacklist">Panggilan dari nomor daftar hitam akan diblokir.</string>
+    <string name="no_network">Gagal dihubungkan ke jaringan</string>
+    <string name="no_whitelist">Anda bisa menambahkan nomor ponsel yang penting ke daftar putih.</string>
+    <string name="note_optional">Catatan (Opsional)</string>
+    <string name="numbers_to_write">Nomor (Harus)</string>
+    <string name="privacyNumber">Nomor pribadi</string>
+    <string name="private_space">Ruang Privasi</string>
+    <string name="reject_way_direct_hang_up">Tutup</string>
+    <string name="score">Beri Nilai</string>
+    <string name="self_ad_card_desc_boost">Merasa konektivitas internet terlalu lambat? Hanya satu ketuk untuk mempercepat jaringan Anda!</string>
+    <string name="self_card_btn">Coba sekarang</string>
+    <string name="setting_about">Tentang</string>
+    <string name="setting_check_update">Periksa pembaruan</string>
+    <string name="silent_but_not_hang_up">Bisukan tanpa menutup</string>
+    <string name="stranger">Nomor tidak dikenal</string>
+    <string name="subs_free_one_month">Uji coba gratis 3 hari, lalu %s/bulan</string>
+    <string name="subs_free_one_year">Uji coba gratis 3 hari, lalu %s/tahun</string>
+    <string name="subs_free_three_month">Uji coba gratis 3 hari, lalu %s/3 bulan</string>
+    <string name="subscribe_text_tip">Penagihan berulang. Batalkan kapan saja.</string>
+    <string name="usage_stats_guide_action">Silakan temukan dan aktifkan Call Blocker</string>
+    <string name="wrong_password">Sandi salah.</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_actionbar" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <ImageButton android:id="@id/mIbBack" android:background="@null" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/top_icon_previous_black" android:scaleType="centerInside" />
+            <gogolook.callgogolook2.view.SizedTextView android:textSize="18.0sp" android:textColor="#ff333333" android:id="@id/mTvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add From Call Logs" />
+        </LinearLayout>
+        <View android:background="#ffb2b2b2" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/mRvSelectionLogs" android:background="#fff3f3f4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:divider="@null" android:layout_above="@id/mTvOverFlow" android:layout_below="@id/ll_actionbar" android:splitMotionEvents="false" />
+    <gogolook.callgogolook2.view.SizedTextView android:textSize="15.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/mTvOverFlow" android:background="@drawable/list_selector" android:layout_width="fill_parent" android:layout_height="58.0dip" android:text="@string/delete" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+﻿[
+	{
+        "id": "00007_01", 
+	    "sql": "INSERT INTO 'ccMaxExclusions' (make, model, os) VALUES ('htc', '', '4.3');"
+	},
+	{
+        "id": "00007_02", 
+	    "sql": "INSERT INTO 'ccMaxExclusions' (make, model, os) VALUES ('htc', '', '4.4');"
+	}
+]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/self_ad_view" android:background="@color/nq_ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/self_ad_head_bg" android:background="@drawable/self_ad_bg_boost" android:layout_width="fill_parent" android:layout_height="298.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+    <LinearLayout android:gravity="center" android:id="@id/close_button" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+        <ImageView android:layout_gravity="center" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/icon_btn_close" android:contentDescription="@null" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/nq_000000" android:gravity="center_vertical" android:id="@id/self_ad_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/self_ad_card_desc_boost" android:layout_above="@id/ok_button" android:layout_below="@id/self_ad_head_bg" android:layout_centerInParent="true" />
+    <Button android:textSize="20.0sp" android:textColor="#ffffffff" android:id="@id/ok_button" android:background="@drawable/self_ad_dialog_btn_boost" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/nq_margin_14dip" android:layout_marginRight="@dimen/nq_margin_14dip" android:layout_marginBottom="18.0dip" android:text="@string/self_card_btn" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

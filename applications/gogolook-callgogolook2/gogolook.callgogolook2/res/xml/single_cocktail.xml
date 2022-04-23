@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cocktail-provider category="feeds" description="@string/samsung_edge_description" label="@string/samsung_edge_title" permitVisibilityChanged="true" previewImage="@drawable/bg_preview" updatePeriodMills="1800000"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

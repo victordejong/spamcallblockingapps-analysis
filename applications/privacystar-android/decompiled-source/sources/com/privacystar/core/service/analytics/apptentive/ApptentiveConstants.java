@@ -1,0 +1,47 @@
+package com.privacystar.core.service.analytics.apptentive;
+/* loaded from: classes2-dex2jar.jar:com/privacystar/core/service/analytics/apptentive/ApptentiveConstants.class */
+public class ApptentiveConstants {
+    public static final String ACTIVITY_LIST_VIEW_ENTERED = "Activity_List_View_Entered";
+    public static final String APPROVED_LIST_VIEW_ENTERED = "Approved_List_View_Entered";
+    public static final String APP_OPENED_FROM_INAPP_NOTIFICATION = "App_Opened_From_InApp_Notification";
+    public static final String APP_OPENED_FROM_XTIFY_NOTIFICATION = "App_Opened_From_Xtify_Notification";
+    public static final String APP_UI_STARTED = "App_UI_Started";
+    public static final String BLOCK_LIST_VIEW_ENTERED = "Block_List_View_Entered";
+    public static final String CALL_BLOCKED = "Call_Blocked";
+    public static final String COMPLAINT_FILED = "Complaint_Filed";
+    public static final String COMPLAINT_STARTED_FROM_DETAILS = "Complaint_Started_From_Details";
+    public static final String COMPLAINT_STARTED_FROM_HOME = "Complaint_Started_From_Home";
+    public static final String COMPLAINT_STARTED_FROM_OTHERS = "Complaint_Started_From_Others";
+    public static final String DETAILS_VIEW_ENTERED = "Details_View_Entered";
+    public static final String HELP_VIEW_ENTERED = "Help_View_Entered";
+    public static final String HOT_LIST_OFFENDER_CALLED = "Hot_List_Offender_Called";
+    public static final String INBOX_VIEW_ENTERED = "Inbox_View_Entered";
+    public static final String INITIATED_CALL = "Initiated_Call";
+    public static final String INITIATED_SMS = "Initiated_SMS";
+    public static final String LICENSE_ACTIVE_TO_EXPIRED = "License_Active_To_Expired";
+    public static final String MANUAL_NUMBER_LOOKUP = "Manual_Number_Lookup";
+    public static final String NUMBER_ADDED_TO_APPROVED_LIST = "Number_Added_To_Approved_List";
+    public static final String NUMBER_ADDED_TO_BLOCK_LIST = "Number_Added_To_Block_List";
+    public static final String ONBOARDING_SUBSCRIPTION = "Onboarding_Subscription";
+    public static final String ONBOARDING_SUBSCRIPTION_KEY = "Action";
+    public static final String ONBOARDING_SUBSCRIPTION_VALUE_ALREADY_PAID = "Already_Paid";
+    public static final String ONBOARDING_SUBSCRIPTION_VALUE_NOT_NOW = "Not_Now";
+    public static final String ONBOARDING_SUBSCRIPTION_VALUE_SUBSCRIBE = "Subscribe";
+    public static final String OPENED_CONTACTS = "Opened_Contacts";
+    public static final String SCAMMER_BLOCKED = "Scammer_Blocked";
+    public static final String SETTINGS_VIEW_ENTERED = "Settings_View_Entered";
+    public static final String SHARED_LINK_HIT = "Shared_Link_Hit";
+    public static final String SUBSCRIPTION_FLOW_COMPLETED = "Subscription_Flow_Completed";
+    public static final String SUBSCRIPTION_FLOW_STARTED = "Subscription_Flow_Started";
+    public static final String SUBSCRIPTION_SUCCESSFUL = "Subscription_Successful";
+    public static final String TIPS_VIEW_ENTERED = "Tips_View_Entered";
+    public static final String USER_NUMBER_BLOCKED = "User_Number_Blocked";
+    public static final String WALKTHROUGH_SKIP_ACTION = "Walkthrough_Skipped";
+    public static final String WALKTHROUGH_SKIP_KEY = "Page";
+    public static final String WALKTHROUGH_SKIP_VALUE_BLOCK = "Block";
+    public static final String WALKTHROUGH_SKIP_VALUE_IDENTIFY = "Identify";
+    public static final String WALKTHROUGH_SKIP_VALUE_INVALID = "INVALID_SELECTION";
+    public static final String WALKTHROUGH_SKIP_VALUE_LOOKUP = "Lookup";
+    public static final String WALKTHROUGH_SKIP_VALUE_REPORTING = "Reporting";
+    public static final String WALKTHROUGH_SKIP_VALUE_WELCOME = "Welcome";
+}

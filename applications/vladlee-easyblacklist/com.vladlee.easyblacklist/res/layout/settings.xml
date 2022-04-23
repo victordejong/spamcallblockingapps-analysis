@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fragment_container" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/layoutProButton" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/layoutProButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/buttonGetPRO" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/get_pro_version" android:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Colored" />
+        <Button android:textSize="12.0sp" android:textColor="#ffffffff" android:id="@id/buttonNoAds" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/get_no_ads" android:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Colored" />
+    </LinearLayout>
+</RelativeLayout>

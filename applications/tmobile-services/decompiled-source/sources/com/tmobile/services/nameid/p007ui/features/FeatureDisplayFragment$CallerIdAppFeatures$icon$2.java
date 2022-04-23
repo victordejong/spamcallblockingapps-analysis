@@ -1,0 +1,28 @@
+package com.tmobile.services.nameid.p007ui.features;
+
+import android.graphics.drawable.Drawable;
+import com.tmobile.services.C1517R;
+import com.tmobile.services.nameid.p007ui.features.FeatureDisplayFragment;
+import kotlin.Metadata;
+import kotlin.jvm.functions.Function0;
+import kotlin.jvm.internal.Lambda;
+@Metadata(bv = {1, 0, 3}, d1 = {"��\n\n��\n\u0002\u0018\u0002\n\u0002\b\u0002\u0010��\u001a\n \u0002*\u0004\u0018\u00010\u00010\u0001H\n¢\u0006\u0002\b\u0003"}, d2 = {"<anonymous>", "Landroid/graphics/drawable/Drawable;", "kotlin.jvm.PlatformType", "invoke"}, k = 3, mv = {1, 4, 0}, pn = "", xi = 0, xs = "")
+/* renamed from: com.tmobile.services.nameid.ui.features.FeatureDisplayFragment$CallerIdAppFeatures$icon$2 */
+/* loaded from: classes-dex2jar.jar:com/tmobile/services/nameid/ui/features/FeatureDisplayFragment$CallerIdAppFeatures$icon$2.class */
+final class FeatureDisplayFragment$CallerIdAppFeatures$icon$2 extends Lambda implements Function0<Drawable> {
+
+    /* renamed from: f */
+    final /* synthetic */ FeatureDisplayFragment.CallerIdAppFeatures f14102f;
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public FeatureDisplayFragment$CallerIdAppFeatures$icon$2(FeatureDisplayFragment.CallerIdAppFeatures callerIdAppFeatures) {
+        super(0);
+        this.f14102f = callerIdAppFeatures;
+    }
+
+    /* renamed from: b */
+    public final Drawable invoke() {
+        return this.f14102f.getResources().getDrawable(C1517R.C1519drawable.ic_illustrations_app_features_caller_id);
+    }
+}

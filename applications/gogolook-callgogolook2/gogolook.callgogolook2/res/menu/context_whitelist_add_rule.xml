@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/add_favorits_01number" android:id="@id/menu_insert" android:title="@string/blocklist_smart_exception_page_add_input" />
+    <item android:icon="@drawable/add_favorits_02history" android:id="@id/menu_recentcall" android:title="@string/blocklist_menu_recentcall" />
+    <item android:icon="@drawable/popupmenu_exception_block" android:id="@id/menu_blockhistory" android:title="@string/blocklist_smart_exception_page_add_history" />
+</menu>

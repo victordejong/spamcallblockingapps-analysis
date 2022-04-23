@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="end" android:id="@id/ll_number_ui_footer" android:background="@drawable/dialog_number_bottom_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="29.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_fourth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iv_bottom_end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/popup_logo" android:layout_centerVertical="true" android:layout_marginStart="5.0dip" android:layout_alignParentEnd="true" />
+    <LinearLayout android:gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/iv_bottom_end">
+        <ImageView android:id="@id/iv_bottom_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_dialog_offlinedb" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
+        <TextView android:textColor="@color/white" android:ellipsize="end" android:id="@id/tv_bottom_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calldialog_bottom_offlinedb" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

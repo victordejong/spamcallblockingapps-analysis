@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/notifications_root_container" android:background="@color/white_2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/trial_days_left_banner_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ScrollView android:id="@id/notifications_scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/notifications_linear_layout" android:background="@color/white_2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="#ff555555" android:id="@id/text_view_notifications_fragment_enable_notifications" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/notifications_settings_enable_notifications" android:lineSpacingExtra="6.0sp" style="@style/MediumWeightFont" />
+            <com.tmobile.services.nameid.utility.SwitchSettingItem android:id="@id/notifications_setting_scam_blocked" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.tmobile.services.nameid.utility.SwitchSettingItem android:id="@id/notifications_setting_block_list_blocked" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.tmobile.services.nameid.utility.SwitchSettingItem android:id="@id/notifications_setting_category_voicemail" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.tmobile.services.nameid.utility.SwitchSettingItem android:id="@id/notifications_setting_message_blocked" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

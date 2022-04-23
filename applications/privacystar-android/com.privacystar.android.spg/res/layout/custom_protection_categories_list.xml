@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.privacystar.core.ui.widgets.CategoryToggleView android:id="@id/custom_protection_spam" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CategoryToggleViewCard" />
+    <View android:background="@drawable/row_separator_light_grey" android:layout_width="fill_parent" android:layout_height="12.0dip" style="@style/CategoryToggleViewCard" />
+    <com.privacystar.core.ui.widgets.CategoryToggleView android:id="@id/custom_protection_nuisance" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CategoryToggleViewCard" />
+    <com.privacystar.core.ui.widgets.CategoryToggleView android:id="@id/custom_protection_telemarketing" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CategoryToggleViewCard" />
+    <com.privacystar.core.ui.widgets.CategoryToggleView android:id="@id/custom_protection_account_services" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CategoryToggleViewCard" />
+    <com.privacystar.core.ui.widgets.CategoryToggleView android:id="@id/custom_protection_political" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CategoryToggleViewCard" />
+    <com.privacystar.core.ui.widgets.CategoryToggleView android:id="@id/custom_protection_survey" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CategoryToggleViewCard" />
+    <com.privacystar.core.ui.widgets.CategoryToggleView android:id="@id/custom_protection_charity" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CategoryToggleViewCard" />
+    <com.privacystar.core.ui.widgets.CategoryToggleView android:id="@id/custom_protection_prison" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CategoryToggleViewCard" />
+</LinearLayout>

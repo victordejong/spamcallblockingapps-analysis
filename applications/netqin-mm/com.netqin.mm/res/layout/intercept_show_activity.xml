@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/nq_page_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/activity_title" android:background="@color/nq_3f51b5" android:layout_width="fill_parent" android:layout_height="@dimen/nq_margin_48dip">
+        <RelativeLayout android:id="@id/ic_action_overflow" android:background="@drawable/title_btn_background" android:paddingRight="2.0dip" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingEnd="2.0dip" android:layout_alignParentEnd="true">
+            <ImageView android:id="@id/ic_action_image_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_overflow" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/ic_action_image_id_icon" android:background="@drawable/ic_action_overflow_notify" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-2.0dip" android:layout_marginTop="8.0dip" android:layout_toRightOf="@id/ic_action_image_id" android:layout_marginStart="-2.0dip" android:layout_toEndOf="@id/ic_action_image_id" />
+        </RelativeLayout>
+        <ripple.RippleView android:layout_gravity="center" android:id="@id/main_billing_btn" android:layout_width="40.0dip" android:layout_height="48.0dip" android:layout_toLeftOf="@id/ic_action_overflow" android:layout_toStartOf="@id/ic_action_overflow">
+            <ImageView android:gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/iab_main_title" android:layout_centerVertical="true" android:contentDescription="@string/common_app_name" />
+        </ripple.RippleView>
+        <FrameLayout android:id="@id/trigger_layout" android:layout_width="70.0dip" android:layout_height="48.0dip" android:layout_centerVertical="true" android:layout_toStartOf="@id/main_billing_btn">
+            <com.netqin.cm.ad.triggerad.main.HollowEffect android:id="@id/trigger_btn" android:layout_width="60.0dip" android:layout_height="48.0dip" />
+            <TextView android:textSize="10.0sp" android:textColor="@color/nq_99ffffff" android:layout_gravity="center" android:id="@id/trigger_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="AD" android:layout_marginEnd="4.0dip" />
+        </FrameLayout>
+        <TextView android:textColor="@color/nq_ffffff" android:gravity="center_vertical" android:id="@id/activity_name" android:paddingLeft="18.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/common_app_name" android:layout_toRightOf="@id/navi_go_up" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:paddingStart="18.0dip" android:layout_alignParentStart="true" style="@style/title_size" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/framelayout" android:background="@color/nq_3f51b5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="48.0dip" android:baselineAligned="false">
+                <FrameLayout android:gravity="center" android:id="@id/tap1_call_fl" android:background="@drawable/main_tab_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:layout_gravity="center" android:id="@id/block_calllog_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/blocked_call_log_tap" android:contentDescription="@string/common_app_name" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/nq_ffffff" android:gravity="center" android:layout_gravity="end" android:id="@id/call_count" android:background="@drawable/new_call_num" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="36.0dip" android:layout_marginEnd="36.0dip" />
+                </FrameLayout>
+                <RelativeLayout android:gravity="center" android:id="@id/tap3_rl" android:background="@drawable/main_tab_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:id="@id/block_rule_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/blocked_rule_tap" android:contentDescription="@string/common_app_name" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/img_ll" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/cursor" android:background="@color/color_pager_cursor" android:layout_width="0.0dip" android:layout_height="@dimen/antiharass_tab_line_height" android:scaleType="matrix" android:layout_weight="1.0" android:contentDescription="@string/common_app_name" />
+                <View android:id="@id/tab_view_line_other" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+        </FrameLayout>
+        <androidx.viewpager.widget.ViewPager android:id="@id/vPager" android:background="@color/nq_fafafa" android:persistentDrawingCache="animation" android:layout_width="wrap_content" android:layout_height="fill_parent" android:flipInterval="30" android:layout_below="@id/framelayout" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ad_container_i" android:background="@color/nq_3f51b5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    </RelativeLayout>
+</LinearLayout>

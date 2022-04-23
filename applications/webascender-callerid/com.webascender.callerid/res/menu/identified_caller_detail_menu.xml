@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/action_save_contact" android:title="@string/save_as_contact" app:showAsAction="never" />
+    <item android:id="@id/action_share" android:visible="false" android:title="@string/share" app:showAsAction="never" />
+    <item android:id="@id/action_block" android:title="@string/block" app:showAsAction="never" />
+    <item android:id="@id/action_report_spam" android:title="@string/report_spam_toolbar" app:showAsAction="never" />
+    <item android:id="@id/action_wrong_name" android:title="@string/wrong_name" app:showAsAction="never" />
+</menu>

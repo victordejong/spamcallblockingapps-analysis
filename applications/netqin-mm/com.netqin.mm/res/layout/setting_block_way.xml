@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/dialog_margin_buttom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/direct_hangup_rl" android:background="@drawable/list_selector" android:paddingLeft="@dimen/dialog_content_margin_left_right" android:paddingRight="@dimen/dialog_content_margin_left_right" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_item_height">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/nq_margin_32dip" android:text="@string/reject_way_direct_hang_up" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/dialog_item" />
+        <ImageView android:id="@id/rejec_hang_up" android:background="@drawable/icon_radiobutton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/antiharass_setting_close" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/silent_not_hang_up_rl" android:background="@drawable/list_selector" android:paddingLeft="@dimen/dialog_content_margin_left_right" android:paddingRight="@dimen/dialog_content_margin_left_right" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_item_height">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/nq_margin_32dip" android:text="@string/silent_but_not_hang_up" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/dialog_item" />
+        <ImageView android:id="@id/silent_not_hang_up" android:background="@drawable/icon_radiobutton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/antiharass_accept_white_list" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="@dimen/dialog_btn_height" android:layout_marginTop="24.0dip">
+        <TextView android:gravity="center" android:id="@id/reject_way_cancel" android:background="@drawable/list_selector" android:layout_width="111.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/dialog_button_margin_left_right" android:text="@string/common_cancel" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/dialog_btn" />
+    </RelativeLayout>
+</LinearLayout>

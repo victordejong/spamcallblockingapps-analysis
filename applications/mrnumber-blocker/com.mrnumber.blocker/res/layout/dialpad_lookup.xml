@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/buttonsContainer" android:layout_height="wrap_content" style="@style/DialerContainerLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.hiya.stingray.ui.local.dialer.DialerButton app:character="1" app:digitColor="@color/black" style="@style/DialerButtonLookupLayout" />
+        <com.hiya.stingray.ui.local.dialer.DialerButton app:character="2" app:digitColor="@color/black" style="@style/DialerButtonLookupLayout" />
+        <com.hiya.stingray.ui.local.dialer.DialerButton app:character="3" app:digitColor="@color/black" style="@style/DialerButtonLookupLayout" />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.hiya.stingray.ui.local.dialer.DialerButton app:character="4" app:digitColor="@color/black" style="@style/DialerButtonLookupLayout" />
+        <com.hiya.stingray.ui.local.dialer.DialerButton app:character="5" app:digitColor="@color/black" style="@style/DialerButtonLookupLayout" />
+        <com.hiya.stingray.ui.local.dialer.DialerButton app:character="6" app:digitColor="@color/black" style="@style/DialerButtonLookupLayout" />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.hiya.stingray.ui.local.dialer.DialerButton app:character="7" app:digitColor="@color/black" style="@style/DialerButtonLookupLayout" />
+        <com.hiya.stingray.ui.local.dialer.DialerButton app:character="8" app:digitColor="@color/black" style="@style/DialerButtonLookupLayout" />
+        <com.hiya.stingray.ui.local.dialer.DialerButton app:character="9" app:digitColor="@color/black" style="@style/DialerButtonLookupLayout" />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/dismissButton" android:background="?android:selectableItemBackgroundBorderless" android:src="@drawable/ic_keypad_dismiss_24" android:scaleType="center" style="@style/DialerButtonLookupLayout" />
+        <com.hiya.stingray.ui.local.dialer.DialerButton app:character="0" app:digitColor="@color/black" app:secondaryCharacter="+" style="@style/DialerButtonLookupLayout" />
+        <ImageButton android:id="@id/eraseButton" android:background="?android:selectableItemBackgroundBorderless" android:src="@drawable/ic_backspace_24" android:scaleType="center" style="@style/DialerButtonLookupLayout" />
+    </TableRow>
+    <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Space style="@style/DialerButtonLookupLayout" />
+        <FrameLayout android:paddingTop="20.0dip" android:paddingBottom="10.0dip" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="center" android:id="@id/mainButton" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/dialer_call" android:contentDescription="@string/call" app:backgroundTint="@color/blue" />
+        </FrameLayout>
+        <Space style="@style/DialerButtonLookupLayout" />
+    </TableRow>
+</TableLayout>

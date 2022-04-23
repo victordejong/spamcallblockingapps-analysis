@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/relAdd" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <EditText android:id="@id/editNumberContacts" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:hint="@string/search_hint" android:maxLines="1" android:inputType="textFilter|textCapWords" android:imeOptions="actionDone" android:textDirection="locale" />
+        <ListView android:id="@id/listContacts" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="#00000000" android:divider="#ffcccccc" android:dividerHeight="1.0px" android:layout_above="@id/lineButtonsBottom" android:layout_below="@id/editNumberContacts" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/emojis_tab" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageButton android:id="@id/emojis_tab_0_recents" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/selector_emoji_recent" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/emojis_tab_1_people" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/selector_emoji_people" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/emojis_tab_2_nature" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/selector_emoji_nature" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/emojis_tab_3_food" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/selector_emoji_food" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/emojis_tab_4_sport" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/selector_emoji_activity" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/emojis_tab_5_cars" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/selector_emoji_travel" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/emojis_tab_6_elec" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/selector_emoji_objects" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/emojis_tab_7_sym" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/selector_emoji_symbols" android:scaleType="center" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/emojis_backspace" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/emoji_x" android:layout_weight="1.0" />
+    </LinearLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@id/emojis_pager" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="51.0dip" />
+    <View android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="50.0dip" />
+</FrameLayout>

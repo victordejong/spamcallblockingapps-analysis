@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MediaControlView_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="default_scene_mode">
+        <item>Block blacklist</item>
+        <item>Block non-contacts</item>
+        <item>Block non-whitelist</item>
+        <item>Block all</item>
+        <item>Accept all</item>
+    </string-array>
+    <string-array name="group_list">
+        <item>VIP</item>
+        <item>亲人</item>
+        <item>朋友</item>
+        <item>商务</item>
+    </string-array>
+    <string-array name="sms_reply">
+        <item>Busy now. I will call you later.</item>
+        <item>In a meeting. I will call you later.</item>
+        <item>Driving. I will call you later.</item>
+        <item>Sleeping. I will call you later.</item>
+    </string-array>
+    <integer-array name="speed_multiplied_by_100">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </integer-array>
+</resources>

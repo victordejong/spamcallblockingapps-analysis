@@ -1,0 +1,10 @@
+package com.google.android.gms.internal.ads;
+
+import android.os.IInterface;
+import android.os.RemoteException;
+import com.google.android.gms.dynamic.IObjectWrapper;
+/* loaded from: classes-dex2jar.jar:com/google/android/gms/internal/ads/zzbis.class */
+public interface zzbis extends IInterface {
+    /* renamed from: a */
+    void mo15433a(IObjectWrapper iObjectWrapper, zzbiq zzbiqVar) throws RemoteException;
+}

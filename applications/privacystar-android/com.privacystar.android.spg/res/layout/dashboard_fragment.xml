@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dashboard_fragment_ll" android:background="@color/ps3_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/dashboard_fragment_header_ll" android:background="@color/ps4_blue_700" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/dashboard_header_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/about_title_padding" android:layout_marginBottom="@dimen/about_title_padding" android:text="@string/dashboard_header_1" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/DashboardTitle" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/dashboard_header_callout" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DashboardCallout" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/dashboard_header_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/about_title_padding" android:layout_marginBottom="@dimen/about_title_padding" android:text="@string/dashboard_header_2" style="@style/DashboardTitle" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/dashboard_fragment_rv" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

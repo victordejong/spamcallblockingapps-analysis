@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="guardian_detail_empty_margin_bottom">110.0dip</dimen>
+    <dimen name="guardian_intro_title_margin_top">11.0dip</dimen>
+    <item type="dimen" name="standard_icon_size">@dimen/standard_icon_size_xhdpi</item>
+</resources>

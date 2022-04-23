@@ -1,0 +1,6 @@
+﻿[
+	{
+        "id": "00005_01", 
+	    "sql": "CREATE TABLE IF NOT EXISTS 'queue' (id INTEGER PRIMARY KEY AUTOINCREMENT, execution VARCHAR(250), options VARCHAR(1000), callBack VARCHAR(250), dependency VARCHAR(100));"
+	}
+]

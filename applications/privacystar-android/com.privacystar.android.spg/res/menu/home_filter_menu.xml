@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/home_filter_all_activity" android:visible="true" android:title="@string/home_filter_title_all" app:showAsAction="never" />
+    <item android:id="@id/home_filter_block_activity" android:visible="true" android:title="@string/home_filter_title_block" app:showAsAction="never" />
+</menu>

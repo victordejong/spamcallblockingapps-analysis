@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/dashboard_fragment_root" android:background="@color/ps3_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/dashboard_fragment_one_month_view" android:background="@color/ps3_blue_600" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/about_title_padding" android:layout_marginBottom="@dimen/about_title_padding" android:text="@string/dashboard_header_1" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/DashboardTitle" />
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/dashboard_fragment_one_month_callout" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/DashboardCallout" />
+            <TextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/about_title_padding" android:layout_marginBottom="@dimen/about_title_padding" android:text="@string/dashboard_header_2" style="@style/DashboardTitle" />
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <RelativeLayout android:orientation="horizontal" android:id="@id/dashboard_fragment_chart_no_block_view" android:background="@color/ps3_blue_600" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:layout_gravity="center" android:layout_width="38.0dip" android:layout_height="42.0dip" app:srcCompat="@drawable/ic_dashboard_frown" />
+                <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No blocks yet." android:fontFamily="sans-serif" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:id="@id/dashboard_fragment_chart_root" android:background="@color/ps3_blue_600" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.github.mikephil.charting.charts.LineChart android:id="@id/dashboard_fragment_chart" android:background="@color/ps3_blue_600" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:textColor="@color/ps3_white" android:id="@id/dashboard_fragment_month_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:fontFamily="sans-serif-medium" android:layout_marginEnd="10.0dip" />
+            <TextView android:textColor="@color/ps3_white" android:id="@id/dashboard_fragment_ymin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_marginStart="3.0dip" />
+            <TextView android:textColor="@color/ps3_white" android:id="@id/dashboard_fragment_ymid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="15" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="3.0dip" />
+            <TextView android:textColor="@color/ps3_white" android:id="@id/dashboard_fragment_ymax" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="30" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_marginStart="3.0dip" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.15">
+            <android.support.design.widget.TabLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@id/dashboard_fragment_tablayout" android:background="@color/ps3_white" android:layout_width="fill_parent" android:layout_height="58.0dip" />
+            <android.support.v4.view.ViewPager android:id="@id/dashboard_fragment_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@id/dashboard_fragment_lifetime_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dashboard_lifetime_blocks" android:fontFamily="sans-serif" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff000000" android:layout_gravity="center_vertical" android:id="@id/dashboard_fragment_lifetime_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100" android:fontFamily="sans-serif-medium" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

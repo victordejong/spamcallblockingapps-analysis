@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hiya.stingray.ui.local.common.NavigationTabBar android:orientation="horizontal" android:id="@id/tabBar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:itemDefaultTint="@color/local_main_tab_item_default" app:itemSelectedTint="@color/local_main_tab_item_selected" app:lineColor="@color/borderline_grey"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

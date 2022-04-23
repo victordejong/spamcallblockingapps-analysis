@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gogolook.callgogolook2.main.dialer.DialpadKeyButton style="@style/KpdButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <gogolook.callgogolook2.main.dialer.DialpadTextView android:id="@id/dialpad_key_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_number_pound" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/KpdPoundTextStyle" />
+</gogolook.callgogolook2.main.dialer.DialpadKeyButton>

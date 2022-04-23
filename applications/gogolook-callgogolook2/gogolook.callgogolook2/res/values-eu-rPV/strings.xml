@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="copy_email">Kopiatu helbide elektronikoa</string>
+    <string name="copy_number">Kopiatu telefono-zenbakia</string>
+    <string name="failed">Ezin izan da irudia kargatu</string>
+    <string name="more_string">+%1$d</string>
+    <string name="photo_view_count" formatted="false">%d/%d</string>
+    <string name="retry">Saiatu berriro</string>
+</resources>

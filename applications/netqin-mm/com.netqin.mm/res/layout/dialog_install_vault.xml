@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/number" android:paddingLeft="@dimen/dialog_content_margin_left_right" android:paddingRight="@dimen/dialog_content_margin_left_right" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_item_height">
+        <TextView android:id="@id/number_text" android:background="@drawable/migration_alert_lable" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/password_error_rl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/launch_alert_msg_vault_install" android:layout_alignParentLeft="true" style="@style/dialog_item" />
+    </RelativeLayout>
+</LinearLayout>

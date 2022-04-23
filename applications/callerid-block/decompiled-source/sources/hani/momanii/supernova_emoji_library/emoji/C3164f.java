@@ -1,0 +1,8 @@
+package hani.momanii.supernova_emoji_library.emoji;
+/* renamed from: hani.momanii.supernova_emoji_library.emoji.f */
+/* loaded from: classes2-dex2jar.jar:hani/momanii/supernova_emoji_library/emoji/f.class */
+public class C3164f {
+
+    /* renamed from: a */
+    public static final Emojicon[] f13028a = {Emojicon.m12a(9917), Emojicon.m10c(127936), Emojicon.m10c(127944), Emojicon.m12a(9918), Emojicon.m10c(127934), Emojicon.m10c(127952), Emojicon.m10c(127945), Emojicon.m10c(127921), Emojicon.m12a(9971), Emojicon.m10c(127948), Emojicon.m10c(127955), Emojicon.m10c(127992), Emojicon.m10c(127954), Emojicon.m10c(127953), Emojicon.m10c(127951), Emojicon.m10c(127935), Emojicon.m12a(9975), Emojicon.m10c(127938), Emojicon.m12a(9976), Emojicon.m10c(127993), Emojicon.m10c(127907), Emojicon.m10c(128675), Emojicon.m10c(127946), Emojicon.m10c(127940), Emojicon.m10c(128704), Emojicon.m12a(9977), Emojicon.m10c(127947), Emojicon.m10c(128692), Emojicon.m10c(128693), Emojicon.m10c(127943), Emojicon.m10c(128372), Emojicon.m10c(127942), Emojicon.m10c(127933), Emojicon.m10c(127941), Emojicon.m10c(127894), Emojicon.m10c(127895), Emojicon.m10c(127989), Emojicon.m12a(57637), Emojicon.m10c(127903), Emojicon.m10c(127917), Emojicon.m10c(127912), Emojicon.m10c(127914), Emojicon.m10c(127908), Emojicon.m10c(127911), Emojicon.m10c(127932), Emojicon.m10c(127929), Emojicon.m10c(127927), Emojicon.m10c(127930), Emojicon.m10c(127931), Emojicon.m10c(127928), Emojicon.m10c(127916), Emojicon.m10c(127918), Emojicon.m10c(128126), Emojicon.m10c(127919), Emojicon.m10c(127922), Emojicon.m10c(127920), Emojicon.m10c(127923)};
+}

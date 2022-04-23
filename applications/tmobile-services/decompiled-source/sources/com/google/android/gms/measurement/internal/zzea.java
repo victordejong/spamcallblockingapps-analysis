@@ -1,0 +1,19 @@
+package com.google.android.gms.measurement.internal;
+
+import com.google.android.gms.internal.measurement.zzlq;
+/* loaded from: classes-dex2jar.jar:com/google/android/gms/measurement/internal/zzea.class */
+final /* synthetic */ class zzea implements zzee {
+
+    /* renamed from: a */
+    static final zzee f9072a = new zzea();
+
+    private zzea() {
+    }
+
+    @Override // com.google.android.gms.measurement.internal.zzee
+    public final Object zza() {
+        Boolean valueOf;
+        valueOf = Boolean.valueOf(zzlq.m11971c());
+        return valueOf;
+    }
+}

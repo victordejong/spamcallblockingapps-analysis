@@ -1,0 +1,213 @@
+package io.reactivex.internal.operators.mixed;
+
+import io.reactivex.internal.disposables.DisposableHelper;
+import io.reactivex.internal.subscriptions.SubscriptionHelper;
+import io.reactivex.internal.util.AtomicThrowable;
+import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicLong;
+import java.util.concurrent.atomic.AtomicReference;
+import p530d.p541c.AbstractC9829h;
+import p530d.p541c.AbstractC9836k;
+import p530d.p541c.AbstractC9838m;
+import p530d.p541c.p542a0.AbstractC9645h;
+import p530d.p541c.p543b0.p545b.C9650a;
+import p530d.p541c.p543b0.p557i.C9800b;
+import p530d.p541c.p560e0.C9815a;
+import p530d.p541c.p568x.AbstractC9861b;
+import p530d.p541c.p569y.C9863a;
+import p611j.p612a.AbstractC10433c;
+import p611j.p612a.AbstractC10434d;
+/* loaded from: classes2-dex2jar.jar:io/reactivex/internal/operators/mixed/FlowableSwitchMapMaybe$SwitchMapMaybeSubscriber.class */
+public final class FlowableSwitchMapMaybe$SwitchMapMaybeSubscriber<T, R> extends AtomicInteger implements AbstractC9829h<T>, AbstractC10434d {
+    public static final SwitchMapMaybeObserver<Object> INNER_DISPOSED = new SwitchMapMaybeObserver<>(null);
+    public static final long serialVersionUID = -5402190102429853762L;
+    public volatile boolean cancelled;
+    public final boolean delayErrors;
+    public volatile boolean done;
+    public final AbstractC10433c<? super R> downstream;
+    public long emitted;
+    public final AbstractC9645h<? super T, ? extends AbstractC9838m<? extends R>> mapper;
+    public AbstractC10434d upstream;
+    public final AtomicThrowable errors = new AtomicThrowable();
+    public final AtomicLong requested = new AtomicLong();
+    public final AtomicReference<SwitchMapMaybeObserver<R>> inner = new AtomicReference<>();
+
+    /* loaded from: classes2-dex2jar.jar:io/reactivex/internal/operators/mixed/FlowableSwitchMapMaybe$SwitchMapMaybeSubscriber$SwitchMapMaybeObserver.class */
+    public static final class SwitchMapMaybeObserver<R> extends AtomicReference<AbstractC9861b> implements AbstractC9836k<R> {
+        public static final long serialVersionUID = 8042919737683345351L;
+        public volatile R item;
+        public final FlowableSwitchMapMaybe$SwitchMapMaybeSubscriber<?, R> parent;
+
+        public SwitchMapMaybeObserver(FlowableSwitchMapMaybe$SwitchMapMaybeSubscriber<?, R> flowableSwitchMapMaybe$SwitchMapMaybeSubscriber) {
+            this.parent = flowableSwitchMapMaybe$SwitchMapMaybeSubscriber;
+        }
+
+        public void dispose() {
+            DisposableHelper.dispose(this);
+        }
+
+        @Override // p530d.p541c.AbstractC9836k
+        public void onComplete() {
+            this.parent.innerComplete(this);
+        }
+
+        @Override // p530d.p541c.AbstractC9836k
+        public void onError(Throwable th) {
+            this.parent.innerError(this, th);
+        }
+
+        @Override // p530d.p541c.AbstractC9836k
+        public void onSubscribe(AbstractC9861b bVar) {
+            DisposableHelper.setOnce(this, bVar);
+        }
+
+        @Override // p530d.p541c.AbstractC9836k
+        public void onSuccess(R r) {
+            this.item = r;
+            this.parent.drain();
+        }
+    }
+
+    public FlowableSwitchMapMaybe$SwitchMapMaybeSubscriber(AbstractC10433c<? super R> cVar, AbstractC9645h<? super T, ? extends AbstractC9838m<? extends R>> hVar, boolean z) {
+        this.downstream = cVar;
+        this.mapper = hVar;
+        this.delayErrors = z;
+    }
+
+    @Override // p611j.p612a.AbstractC10434d
+    public void cancel() {
+        this.cancelled = true;
+        this.upstream.cancel();
+        disposeInner();
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    public void disposeInner() {
+        SwitchMapMaybeObserver<Object> switchMapMaybeObserver = (SwitchMapMaybeObserver) this.inner.getAndSet(INNER_DISPOSED);
+        if (switchMapMaybeObserver != null && switchMapMaybeObserver != INNER_DISPOSED) {
+            switchMapMaybeObserver.dispose();
+        }
+    }
+
+    public void drain() {
+        if (getAndIncrement() == 0) {
+            AbstractC10433c<? super R> cVar = this.downstream;
+            AtomicThrowable atomicThrowable = this.errors;
+            AtomicReference<SwitchMapMaybeObserver<R>> atomicReference = this.inner;
+            AtomicLong atomicLong = this.requested;
+            long j = this.emitted;
+            int i = 1;
+            while (!this.cancelled) {
+                if (atomicThrowable.get() == null || this.delayErrors) {
+                    boolean z = this.done;
+                    SwitchMapMaybeObserver<R> switchMapMaybeObserver = atomicReference.get();
+                    boolean z2 = switchMapMaybeObserver == null;
+                    if (z && z2) {
+                        Throwable terminate = atomicThrowable.terminate();
+                        if (terminate != null) {
+                            cVar.onError(terminate);
+                            return;
+                        } else {
+                            cVar.onComplete();
+                            return;
+                        }
+                    } else if (z2 || switchMapMaybeObserver.item == null || j == atomicLong.get()) {
+                        this.emitted = j;
+                        int addAndGet = addAndGet(-i);
+                        i = addAndGet;
+                        if (addAndGet == 0) {
+                            return;
+                        }
+                    } else {
+                        atomicReference.compareAndSet(switchMapMaybeObserver, null);
+                        cVar.onNext((R) switchMapMaybeObserver.item);
+                        j++;
+                    }
+                } else {
+                    cVar.onError(atomicThrowable.terminate());
+                    return;
+                }
+            }
+        }
+    }
+
+    public void innerComplete(SwitchMapMaybeObserver<R> switchMapMaybeObserver) {
+        if (this.inner.compareAndSet(switchMapMaybeObserver, null)) {
+            drain();
+        }
+    }
+
+    public void innerError(SwitchMapMaybeObserver<R> switchMapMaybeObserver, Throwable th) {
+        if (!this.inner.compareAndSet(switchMapMaybeObserver, null) || !this.errors.addThrowable(th)) {
+            C9815a.m1923b(th);
+            return;
+        }
+        if (!this.delayErrors) {
+            this.upstream.cancel();
+            disposeInner();
+        }
+        drain();
+    }
+
+    @Override // p611j.p612a.AbstractC10433c
+    public void onComplete() {
+        this.done = true;
+        drain();
+    }
+
+    @Override // p611j.p612a.AbstractC10433c
+    public void onError(Throwable th) {
+        if (this.errors.addThrowable(th)) {
+            if (!this.delayErrors) {
+                disposeInner();
+            }
+            this.done = true;
+            drain();
+            return;
+        }
+        C9815a.m1923b(th);
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    @Override // p611j.p612a.AbstractC10433c
+    public void onNext(T t) {
+        SwitchMapMaybeObserver<R> switchMapMaybeObserver;
+        SwitchMapMaybeObserver<R> switchMapMaybeObserver2 = this.inner.get();
+        if (switchMapMaybeObserver2 != null) {
+            switchMapMaybeObserver2.dispose();
+        }
+        try {
+            Object apply = this.mapper.apply(t);
+            C9650a.m2095a(apply, "The mapper returned a null MaybeSource");
+            AbstractC9838m mVar = (AbstractC9838m) apply;
+            SwitchMapMaybeObserver<R> switchMapMaybeObserver3 = new SwitchMapMaybeObserver<>(this);
+            do {
+                switchMapMaybeObserver = this.inner.get();
+                if (switchMapMaybeObserver == INNER_DISPOSED) {
+                    return;
+                }
+            } while (!this.inner.compareAndSet(switchMapMaybeObserver, switchMapMaybeObserver3));
+            mVar.mo1876a(switchMapMaybeObserver3);
+        } catch (Throwable th) {
+            C9863a.m1822b(th);
+            this.upstream.cancel();
+            this.inner.getAndSet(INNER_DISPOSED);
+            onError(th);
+        }
+    }
+
+    @Override // p530d.p541c.AbstractC9829h, p611j.p612a.AbstractC10433c
+    public void onSubscribe(AbstractC10434d dVar) {
+        if (SubscriptionHelper.validate(this.upstream, dVar)) {
+            this.upstream = dVar;
+            this.downstream.onSubscribe(this);
+            dVar.request(Long.MAX_VALUE);
+        }
+    }
+
+    @Override // p611j.p612a.AbstractC10434d
+    public void request(long j) {
+        C9800b.m2012a(this.requested, j);
+        drain();
+    }
+}

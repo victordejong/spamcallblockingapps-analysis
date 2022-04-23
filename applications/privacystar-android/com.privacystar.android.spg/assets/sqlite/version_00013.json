@@ -1,0 +1,18 @@
+﻿[
+    {
+        "id": "00013_00",
+        "sql": "CREATE TABLE IF NOT EXISTS EventControl (Priority INT, Label TEXT, MatchValue TEXT, EventCode INT, ActionCode INT, PRIMARY KEY (MatchValue, EventCode, ActionCode))"
+    },
+    {
+        "id": "00013_01",
+        "sql": "INSERT INTO 'blockingOptions' (optionType, checked, offline) VALUES ('robo', 1, 0);"
+    },
+    {
+        "id": "00013_02",
+        "sql": "DELETE FROM EventControl WHERE Label = 'ROBO';"
+    },
+    {
+        "id": "00013_03",
+        "sql": "INSERT OR REPLACE INTO EventControl (Priority, Label, MatchValue, EventCode, ActionCode) VALUES (5, 'ROBO', 'ROBO', 0, 3);"
+    }
+]

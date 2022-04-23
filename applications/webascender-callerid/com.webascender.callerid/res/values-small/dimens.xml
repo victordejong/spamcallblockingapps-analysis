@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialer_button_digit_text_size">14.0dip</dimen>
+    <dimen name="dialer_button_padding">0.0dip</dimen>
+    <dimen name="dialer_call_button_size">32.0dip</dimen>
+    <dimen name="keypad_lookup_button_padding">1.0dip</dimen>
+    <dimen name="keypad_lookup_button_text_size">8.0sp</dimen>
+    <dimen name="keypad_phone_number_text_size">14.0sp</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_bottom">24.0dip</dimen>
+    <dimen name="mtrl_alert_dialog_background_inset_top">24.0dip</dimen>
+</resources>

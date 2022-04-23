@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView android:layout_gravity="start" android:id="@id/navigation_drawer" android:background="@color/ps3_white" android:fitsSystemWindows="true" android:layout_width="@dimen/navigation_drawer_width" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+        <FrameLayout android:id="@id/navigation_drawer_subscription_fl" android:background="@drawable/cardview_border_highlight_green" android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_marginTop="22.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+            <TextView android:textAppearance="@style/NavigationSubscription" android:textColor="@color/ps3_green_300" android:layout_gravity="center" android:id="@id/navigation_drawer_subscription_tv" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/navigation_drawer_items_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" android:layout_marginStart="@dimen/navigation_drawer_menu_item_start_margin" android:layout_marginEnd="@dimen/navigation_drawer_menu_item_end_margin" />
+        </FrameLayout>
+        <TextView android:id="@id/navigation_drawer_app_version" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

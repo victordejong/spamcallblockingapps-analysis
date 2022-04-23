@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/close_rl" android:background="@drawable/list_selector" android:paddingLeft="@dimen/dialog_content_margin_left_right" android:paddingRight="@dimen/dialog_content_margin_left_right" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_item_height">
+        <ImageView android:id="@id/close" android:background="@drawable/icon_radiobutton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/antiharass_setting_close" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/antiharass_setting_close" android:layout_toLeftOf="@id/close" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/dialog_item" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/block_black_rl" android:background="@drawable/list_selector" android:paddingLeft="@dimen/dialog_content_margin_left_right" android:paddingRight="@dimen/dialog_content_margin_left_right" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_item_height">
+        <ImageView android:id="@id/block_black" android:background="@drawable/icon_radiobutton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/antiharass_setting_close" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/antiharass_block_black_list" android:layout_toLeftOf="@id/block_black" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/dialog_item" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/accept_white_rl" android:background="@drawable/list_selector" android:paddingLeft="@dimen/dialog_content_margin_left_right" android:paddingRight="@dimen/dialog_content_margin_left_right" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_item_height">
+        <ImageView android:id="@id/accept_white" android:background="@drawable/icon_radiobutton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/antiharass_accept_white_list" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/antiharass_accept_white_list" android:layout_toLeftOf="@id/accept_white" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/dialog_item" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/white_contacts_rl" android:background="@drawable/list_selector" android:paddingLeft="@dimen/dialog_content_margin_left_right" android:paddingRight="@dimen/dialog_content_margin_left_right" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_item_height">
+        <ImageView android:id="@id/white_contacts" android:background="@drawable/icon_radiobutton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/antiharass_accept_white_list_contacts" />
+        <TextView android:id="@id/white_contacts_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/antiharass_accept_white_list_contacts" android:layout_toLeftOf="@id/white_contacts" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/dialog_item" />
+    </RelativeLayout>
+</LinearLayout>
