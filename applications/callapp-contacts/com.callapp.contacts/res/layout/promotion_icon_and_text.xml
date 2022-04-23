@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center|right|top" android:id="@id/promotionContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:transitionName="@string/transition_promotion_container" android:elevation="3.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="left" android:id="@id/promotionIcon" android:visibility="gone" android:layout_width="@dimen/promotion_icon_width" android:layout_height="@dimen/promotion_icon_height" android:src="@drawable/ic_promotion" />
+    <TextView android:layout_gravity="left" android:id="@id/promotionText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/promotion_text_margin_right" android:layout_marginTop="@dimen/promotion_text_margin_top" style="@style/Body2.Promotion" />
+</FrameLayout>

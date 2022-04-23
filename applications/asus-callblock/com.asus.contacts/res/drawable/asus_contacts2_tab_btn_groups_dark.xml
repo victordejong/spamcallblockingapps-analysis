@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="false" android:state_selected="false" android:state_pressed="false">
+        <bitmap android:src="@drawable/asus_contacts2_ic_groups_n" android:tint="@color/tab_btn_normal_color_dark" />
+    </item>
+    <item android:state_focused="false" android:state_selected="true" android:state_pressed="false">
+        <bitmap android:src="@drawable/asus_contacts2_ic_groups_p" android:tint="@color/contact_detail_tab_select" />
+    </item>
+    <item android:state_focused="false" android:state_selected="false" android:state_pressed="true">
+        <bitmap android:src="@drawable/asus_contacts2_ic_groups_p" android:tint="@color/contact_detail_tab_select" />
+    </item>
+    <item android:state_focused="false" android:state_selected="true" android:state_pressed="true">
+        <bitmap android:src="@drawable/asus_contacts2_ic_groups_p" android:tint="@color/contact_detail_tab_select" />
+    </item>
+</selector>

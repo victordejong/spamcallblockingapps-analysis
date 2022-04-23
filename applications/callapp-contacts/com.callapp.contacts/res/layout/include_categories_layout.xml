@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/categoriesLayout" android:background="@drawable/ripple_or_holo" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ratingStarsLayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/ratingStar1" style="@style/RatingStar" />
+        <ImageView android:id="@id/ratingStar2" style="@style/RatingStar" />
+        <ImageView android:id="@id/ratingStar3" style="@style/RatingStar" />
+        <ImageView android:id="@id/ratingStar4" style="@style/RatingStar" />
+        <ImageView android:id="@id/ratingStar5" style="@style/RatingStar" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:ellipsize="end" android:layout_gravity="left" android:id="@id/categoriesTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" style="@style/Caption.Number_text" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/actionbarContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/about_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/actionbarContainer" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/actionbarContainer" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" layout="@layout/asus_contact_detail_cover" />
+    </RelativeLayout>
+</LinearLayout>

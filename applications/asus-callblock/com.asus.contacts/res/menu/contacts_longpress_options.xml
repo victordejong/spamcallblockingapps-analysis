@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/contact_dial_from_sim1" android:visible="false" android:orderInCategory="1" android:showAsAction="withText" />
+    <item android:id="@id/contact_dial_from_sim2" android:visible="false" android:orderInCategory="1" android:showAsAction="withText" />
+    <item android:id="@id/call" android:orderInCategory="1" android:title="@string/menu_call" android:showAsAction="withText" />
+    <item android:id="@id/send_message" android:orderInCategory="2" android:title="@string/menu_sendTextMessage" android:showAsAction="withText" />
+    <item android:id="@id/edit_contacts" android:orderInCategory="3" android:title="@string/menu_Edit_contact" android:showAsAction="withText" />
+    <item android:id="@id/delete_contacts" android:orderInCategory="4" android:title="@string/menu_Delete_contact" android:showAsAction="withText" />
+    <item android:id="@id/share_contacts" android:orderInCategory="5" android:title="@string/share_contact" android:showAsAction="withText" />
+    <item android:id="@id/link_contacts" android:orderInCategory="6" android:title="@string/menu_Link_contact" android:showAsAction="withText" />
+    <item android:id="@id/copy_contact" android:orderInCategory="7" android:title="@string/copy_single_contact" android:showAsAction="withText" />
+    <item android:id="@id/add_to_favorite" android:orderInCategory="8" android:title="@string/menu_addStar" android:showAsAction="withText" />
+    <item android:id="@id/remove_from_favorite" android:orderInCategory="9" android:title="@string/menu_Remove_from_favorites" android:showAsAction="withText" />
+    <item android:id="@id/block_caller" android:visible="false" android:orderInCategory="12" android:title="@string/menu_Block_caller" android:showAsAction="withText" />
+    <item android:id="@id/unblock" android:visible="false" android:orderInCategory="13" android:title="@string/menu_Unblock" android:showAsAction="withText" />
+</menu>

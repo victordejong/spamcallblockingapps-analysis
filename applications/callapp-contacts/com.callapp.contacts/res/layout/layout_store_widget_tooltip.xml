@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tooltip" android:layout_width="wrap_content" android:layout_height="@dimen/store_floating_widget_icon_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/left_circle" android:layout_width="@dimen/store_floating_widget_tooltip_under_icon_offset" android:layout_height="@dimen/store_floating_widget_tooltip_height" android:src="@drawable/circle_store_widget" />
+    <ImageView android:id="@id/left_space" android:layout_width="35.0dip" android:layout_height="@dimen/store_floating_widget_tooltip_height" android:src="@color/store_widget_tooltip_text_background" />
+    <TextView android:textColor="@color/white_callapp" android:gravity="center_vertical" android:id="@id/tooltip_text" android:background="@color/store_widget_tooltip_text_background" android:layout_width="150.0dip" android:layout_height="@dimen/store_floating_widget_tooltip_height" android:text="@string/store_widget_tooltip_text_unlock_whole" android:lines="2" android:textAlignment="center" />
+    <ImageView android:id="@id/right_space" android:layout_width="35.0dip" android:layout_height="@dimen/store_floating_widget_tooltip_height" android:src="@color/store_widget_tooltip_text_background" />
+    <ImageView android:id="@id/right_circle" android:layout_width="@dimen/store_floating_widget_tooltip_under_icon_offset" android:layout_height="@dimen/store_floating_widget_tooltip_height" android:src="@drawable/circle_store_widget" android:rotation="180.0" />
+</LinearLayout>

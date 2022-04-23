@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blocklist_add_select_dialog_items">
+        <item>Scegli dai contatti</item>
+        <item>Scegli da registro chiamate recenti</item>
+        <item>Inserisci un numero</item>
+        <item>Inserisci un numero SIP</item>
+    </string-array>
+    <string-array name="change_cover_options">
+        <item>Usa cop. Facebook</item>
+        <item>Usa cop. gruppo</item>
+        <item>Usa cop. predefinita</item>
+        <item>Personalizza cop.</item>
+    </string-array>
+    <string-array name="change_group_cover_options">
+        <item>Usa copertina gruppo predefinita</item>
+        <item>Personalizza copertina gruppo</item>
+    </string-array>
+    <string-array name="news_message">
+        <item>Nuovissimo stile per Contatti e Composizione ZenUI! Sottile e facile da usare!</item>
+        <item>Chiamare senza usare il registro chiamate! Non preoccuparti più di cancellare il registro!</item>
+    </string-array>
+    <string-array name="picture_from_options">
+        <item>Fotocamera</item>
+        <item>Galleria</item>
+    </string-array>
+    <string-array name="speed_entry_list">
+        <item>Rapido</item>
+        <item>Moderato</item>
+        <item>Lento</item>
+    </string-array>
+    <string-array name="speed_level_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="toolpanel_news_message">
+        <item>La nuova scheda Altri consente di trovare facilmente funzioni e impostazioni.</item>
+    </string-array>
+    <string-array name="whitelist_add_select_dialog_items">
+        <item>Scegli dai contatti</item>
+        <item>Scegli da registro chiamate recenti</item>
+        <item>Inserisci un numero</item>
+        <item>Inserisci un numero SIP</item>
+    </string-array>
+</resources>

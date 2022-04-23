@@ -1,0 +1,2 @@
+/applications/asus-callblock/com.asus.contacts.apk filter=lfs diff=lfs merge=lfs -text
+/applications/callapp-contacts/com.callapp.contacts.apk filter=lfs diff=lfs merge=lfs -text

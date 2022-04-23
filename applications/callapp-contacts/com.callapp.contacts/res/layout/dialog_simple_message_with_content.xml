@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/tv_header" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_header_height" android:layout_marginLeft="@dimen/dialog_side_margins" android:layout_marginRight="@dimen/dialog_side_margins" layout="@layout/include_dialog_header" />
+    <FrameLayout android:id="@id/simple_dialog_content_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/include_dialog_bottm_bar" />
+</LinearLayout>

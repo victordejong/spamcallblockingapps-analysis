@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/gallery_item_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/image" android:background="@drawable/ripple_or_holo_masked_rect" android:visibility="gone" android:layout_width="@dimen/social_image_item_size" android:layout_height="@dimen/social_image_item_size" android:scaleType="centerCrop" />
+    <View android:layout_gravity="bottom|center|left" android:id="@id/galley_item_shadow_strip" android:layout_width="@dimen/social_image_item_size" android:layout_height="36.0dip" />
+    <ImageView android:layout_gravity="bottom|center|left" android:id="@id/socialBadge" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginBottom="2.0dip" />
+</FrameLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/keypadPromotionView" android:layout_width="200.0dip" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="right" android:id="@id/close_promotion_keypad" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close_k" />
+        <include android:id="@id/keypad_promotion_widget" android:layout_width="200.0dip" android:layout_height="wrap_content" layout="@layout/layout_keypad_promotion_widget" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/keypad_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <RelativeLayout android:id="@id/keypad_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/shadow_top" android:background="@drawable/shadow_fade_up" android:layout_width="fill_parent" android:layout_height="@dimen/dialpad_shadow_length" android:layout_alignParentTop="true" />
+            <LinearLayout android:orientation="vertical" android:id="@id/keypad_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/shadow_top">
+                <include layout="@layout/include_keypad_searchbox" />
+                <include android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/dialpad_buttons" />
+                <FrameLayout android:id="@id/container_bottom_section" android:layout_width="fill_parent" android:layout_height="@dimen/callbar_height">
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <ImageView android:id="@id/keyboardButton" android:background="@drawable/ripple_or_holo" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/ic_keyboard" android:scaleType="center" />
+                        <ImageView android:id="@id/simIdKeypadImage" android:background="@drawable/ripple_or_holo" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dialpad_key_buttons_sim_card" android:layout_marginTop="8.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/ic_sim_question_mark" android:layout_toRightOf="@id/keyboardButton" />
+                    </RelativeLayout>
+                    <include android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/dialpad_dial_btn" />
+                    <ImageView android:layout_gravity="right" android:id="@id/closeButton" android:background="@drawable/ripple_or_holo" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="20.0dip" android:src="@drawable/ic_dialpad_arrow" android:scaleType="center" />
+                </FrameLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

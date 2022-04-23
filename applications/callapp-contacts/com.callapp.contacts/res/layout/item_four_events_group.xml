@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/actionIcon1" android:visibility="gone" android:layout="@layout/layout_contact_list_icon" android:inflatedId="@id/callActions" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/actionIcon2" android:visibility="gone" android:layout="@layout/layout_contact_list_icon" android:inflatedId="@id/callActions" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/actionIcon3" android:visibility="gone" android:layout="@layout/layout_contact_list_icon" android:inflatedId="@id/callActions" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/actionIcon4" android:visibility="gone" android:layout="@layout/layout_contact_list_icon" android:inflatedId="@id/callActions" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

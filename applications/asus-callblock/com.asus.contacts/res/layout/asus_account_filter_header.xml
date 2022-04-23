@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/asus_account_filter_header_container" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:id="@id/asus_account_filter_header" android:singleLine="true" android:layout_alignParentLeft="true" style="@style/AsusContactFilterStyle" />
+</RelativeLayout>

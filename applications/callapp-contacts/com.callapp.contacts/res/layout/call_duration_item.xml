@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_12_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/data_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.callapp.contacts.widget.ProfilePictureView android:id="@id/profilePictureProgressBarCallDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_marginEnd="28.0dip" app:presetSize="insight" />
+        <LinearLayout android:orientation="vertical" android:id="@id/linearLayout" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_toRightOf="@id/profilePictureProgressBarCallDuration">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/text_color" android:ellipsize="end" android:id="@id/leftText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="12.0sp" android:ellipsize="end" android:id="@id/contactPhone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textColor="@color/text_color" android:id="@id/no_data" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_12_dp" android:layout_alignParentRight="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/time_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_16_dp" android:layout_alignParentRight="true">
+            <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/text_color" android:id="@id/duration_day_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/secondary_text_color" android:id="@id/duration_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_4_dp" />
+            <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/text_color" android:id="@id/duration_hour_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/secondary_text_color" android:id="@id/duration_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_4_dp" />
+            <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/text_color" android:id="@id/duration_min_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/secondary_text_color" android:id="@id/duration_min" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_4_dp" />
+            <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/text_color" android:id="@id/duration_sec_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/secondary_text_color" android:id="@id/duration_sec" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/separatorFavorite" android:background="@color/divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/dimen_12_dp" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/speed_dial_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/speed_dial_background_color" android:paddingLeft="@dimen/speed_dial_padding_left" android:paddingTop="@dimen/speed_dial_padding_top" android:paddingRight="@dimen/speed_dial_padding_right" android:paddingBottom="@dimen/speed_dial_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <GridView android:id="@id/gridview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@color/speed_dial_background_color" android:numColumns="3" android:layout_weight="5.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/speed_dial_special_item" android:layout_width="fill_parent" android:layout_height="@dimen/speed_dial_special_item_row_height">
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:background="@drawable/speed_dial_special_item_background" android:layout_width="@dimen/speed_dial_item_coverview_width" android:layout_height="@dimen/speed_dial_item_coverview_height" android:layout_centerInParent="true" />
+                <ImageView android:background="@drawable/asus_speed_dailer_star_pound_n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:background="@drawable/speed_dial_special_item_background" android:layout_width="@dimen/speed_dial_item_coverview_width" android:layout_height="@dimen/speed_dial_item_coverview_height" android:layout_centerInParent="true" />
+                <TextView android:textSize="@dimen/speed_dial_button_text_size" android:textColor="@color/speed_dial_button_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_zero" android:layout_centerInParent="true" android:fontFamily="sans-serif" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:background="@drawable/speed_dial_special_item_background" android:layout_width="@dimen/speed_dial_item_coverview_width" android:layout_height="@dimen/speed_dial_item_coverview_height" android:layout_centerInParent="true" />
+                <ImageView android:background="@drawable/asus_speed_dailer_pound_n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:layout_width="@dimen/favorites_double_layout_width" android:layout_height="@dimen/favorites_double_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/bottom_layout" android:layout_width="wrap_content" android:layout_height="@dimen/favorites_double_layout_inner_height" android:layout_marginLeft="@dimen/favorites_double_layout_inner_margin" android:layout_marginTop="@dimen/dimen_2_dp" android:layout_marginRight="@dimen/favorites_double_layout_inner_margin" android:layout_marginBottom="@dimen/favorites_double_layout_inner_margin" android:layout_alignParentBottom="true" layout="@layout/view_favorite_item_bottom" />
+    <include android:id="@id/top_layout" android:layout_width="wrap_content" android:layout_height="@dimen/favorites_double_layout_inner_height" android:layout_marginLeft="@dimen/favorites_double_layout_inner_margin" android:layout_marginTop="@dimen/favorites_double_layout_inner_margin" android:layout_marginRight="@dimen/favorites_double_layout_inner_margin" android:layout_marginBottom="@dimen/dimen_2_dp" android:layout_alignParentTop="true" layout="@layout/view_favorite_item" />
+</RelativeLayout>

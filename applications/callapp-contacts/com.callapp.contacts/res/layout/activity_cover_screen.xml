@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.callapp.contacts.widget.horizontalHeader.HorizontalPagerHeader android:id="@id/horizontalHeader" android:layout_width="fill_parent" android:layout_height="@dimen/cover_screen_horizontal_pager_height" />
+        <com.callapp.contacts.widget.ProgressCardView android:id="@id/downloader_cardview_container" android:layout_width="fill_parent" android:layout_height="@dimen/progress_card_view_height" android:layout_margin="@dimen/progress_card_view_margin" app:cardElevation="2.0dip" />
+        <fragment android:name="com.callapp.contacts.activity.marketplace.CoverPreviewFragment" android:id="@id/coverPreview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <View android:layout_gravity="top" android:id="@id/statusBarView" android:background="@color/status_bar_transparency" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+    <FrameLayout android:id="@id/backpressIcon" android:background="@color/transparent" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_below="@id/statusBarView" android:layout_alignParentTop="true">
+        <ImageView android:background="@drawable/ripple_or_holo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_top_bar_back" />
+    </FrameLayout>
+</RelativeLayout>

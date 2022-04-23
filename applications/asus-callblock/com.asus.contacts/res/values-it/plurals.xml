@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d persone</item>
+        <item quantity="one">%1$d persona</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%,d contatti</item>
+        <item quantity="one">1 contatto</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d messaggi vocali</item>
+        <item quantity="one">Segreteria</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d trovati</item>
+        <item quantity="one">1 trovato</item>
+    </plurals>
+    <plurals name="uf_sdk_number_of_subscribers_format">
+        <item quantity="other">A %1$s piace questo argomento</item>
+        <item quantity="one">A %1$s piace questo argomento</item>
+    </plurals>
+    <plurals name="uf_sdk_topics">
+        <item quantity="other">argomenti</item>
+        <item quantity="one">argomento</item>
+    </plurals>
+    <plurals name="uv_articles">
+        <item quantity="other">articoli</item>
+        <item quantity="one">articolo</item>
+    </plurals>
+    <plurals name="uv_comments">
+        <item quantity="other">commenti</item>
+        <item quantity="one">commento</item>
+    </plurals>
+    <plurals name="uv_ideas">
+        <item quantity="other">idee</item>
+        <item quantity="one">idea</item>
+    </plurals>
+    <plurals name="uv_number_of_subscribers_format">
+        <item quantity="other">"%1$s vuole quest'idea"</item>
+        <item quantity="one">"%1$s vuole quest'idea"</item>
+    </plurals>
+    <plurals name="uv_people">
+        <item quantity="other">persone</item>
+        <item quantity="one">persona</item>
+    </plurals>
+    <plurals name="uv_subscribers">
+        <item quantity="other">registrati</item>
+        <item quantity="one">registrato</item>
+    </plurals>
+</resources>

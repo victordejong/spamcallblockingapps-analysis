@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleTextColor="@color/white_callapp" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:id="@id/who_viewd_my_profile_root" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/hintContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_profile_viewer_top_hint" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerview" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16_dp" />
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

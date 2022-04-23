@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="abc_dialog_fixed_width_major">50.0%</item>
+    <item type="dimen" name="abc_dialog_fixed_width_minor">70.00001%</item>
+    <item type="dimen" name="abc_dialog_min_width_major">45.000004%</item>
+    <item type="dimen" name="abc_dialog_min_width_minor">72.0%</item>
+    <dimen name="vas_ad_button_height">75.0dip</dimen>
+    <dimen name="vas_ad_button_padding_left">30.0dip</dimen>
+    <dimen name="vas_ad_button_width">75.0dip</dimen>
+    <dimen name="vas_adchoices_icon_height">30.0dip</dimen>
+    <dimen name="vas_control_button_height">60.0dip</dimen>
+    <dimen name="vas_control_button_margin">10.0dip</dimen>
+    <dimen name="vas_control_button_width">60.0dip</dimen>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d نفر</item>
+        <item quantity="one">%1$d نفر</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%,d مخاطب</item>
+        <item quantity="one">۱ مخاطب</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d پست صوتی</item>
+        <item quantity="one">پست صوتی</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d یافت شد</item>
+        <item quantity="one">1 مورد پیدا شد</item>
+    </plurals>
+</resources>

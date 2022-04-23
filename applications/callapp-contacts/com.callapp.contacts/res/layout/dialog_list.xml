@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/tv_header" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_header_height" android:layout_marginLeft="@dimen/dialog_side_margins" android:layout_marginRight="@dimen/dialog_side_margins" android:layout_weight="0.0" layout="@layout/include_dialog_header" />
+    <ListView android:id="@id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="@drawable/dialog_list_divider" android:dividerHeight="1.0dip" android:layout_weight="1.0" />
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/dialog_row_height" android:layout_weight="0.0" layout="@layout/include_dialog_bottm_bar" />
+</LinearLayout>

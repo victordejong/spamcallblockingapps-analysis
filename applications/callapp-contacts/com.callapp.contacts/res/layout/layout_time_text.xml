@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:ellipsize="end" android:gravity="center|left" android:id="@id/timeText" android:paddingRight="@dimen/contactItemIconToTextSpace" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/reminder_item_phone_text_height" android:maxLines="2" android:singleLine="true" style="@style/Caption.Number_text"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

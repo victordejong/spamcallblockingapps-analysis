@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/widgetItemContainer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/contact_browser_list_item_size">
+        <LinearLayout android:id="@id/deleteImg" android:paddingRight="@dimen/common_padding" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/miniwidget_checktextview_delete_selector" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/photo2" android:layout_width="@dimen/contact_browser_list_item_photo_size" android:layout_height="@dimen/contact_browser_list_item_photo_size" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/primary_text_size" android:textColor="@color/asus_primary_text_color" android:ellipsize="marquee" android:id="@id/name2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/text_color2" android:ellipsize="marquee" android:id="@id/default_action" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="@dimen/item_photo_height" android:layout_height="wrap_content" android:src="@drawable/asus_contacts2_rearrange" />
+    </LinearLayout>
+    <View android:id="@id/name_divider" android:background="@color/amax_filter_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

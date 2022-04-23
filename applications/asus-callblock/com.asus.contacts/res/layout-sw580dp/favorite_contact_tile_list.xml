@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/group_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:id="@id/listContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/asus_fragment_overlay_margin">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/group_detail_name_height" android:layout_marginLeft="@dimen/contact_tile_side_margin_left" android:layout_marginRight="@dimen/contact_tile_side_margin_right">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="25.0dip">
+                    <TextView android:ellipsize="end" android:gravity="bottom" android:id="@id/odm_favorite_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:singleLine="true" style="@style/AsusGroupDetailNameTextStyle" />
+                    <TextView android:ellipsize="end" android:gravity="bottom" android:id="@id/odm_favorite_size" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:singleLine="true" style="@style/AmaxGroupDetailMemberSizeTextStyle" />
+                </LinearLayout>
+                <include android:id="@id/spinner_container" android:layout_width="wrap_content" android:layout_height="20.0dip" layout="@layout/asus_group_filter_spinner" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/edit_cover" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/asus_group_edit_cover_select" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/group_source_view_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <ListView android:id="@id/contact_tile_list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/contact_tile_side_margin_left" android:layout_marginRight="@dimen/contact_tile_side_margin_right" android:cacheColorHint="@android:color/black" android:divider="@null" />
+        <include layout="@layout/group_detail_fragment_empty_view" />
+    </LinearLayout>
+</RelativeLayout>

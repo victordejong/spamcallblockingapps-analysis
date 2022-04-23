@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/video_ringtone_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/progress_card_view_margin" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ScrollView android:id="@id/scrollView2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/video_ringtone_container">
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_video_on_phone_preview" />
+        </ScrollView>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/enjoyBundleButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/scrollView2">
+            <TextView android:textStyle="bold" android:id="@id/enjoyBundleTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enjoy_nature" android:textAllCaps="true" />
+            <TextView android:gravity="center" android:id="@id/enjoyBundleSubTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_3_dp" android:text="@string/items_ready" />
+        </LinearLayout>
+        <RelativeLayout android:layout_gravity="center" android:id="@id/bundleSkuContainer" android:background="@drawable/purchase_box_premium_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/store_purchase_item_height_big" android:layout_marginLeft="@dimen/dimen_16_dp" android:layout_marginRight="@dimen/dimen_16_dp" android:layout_marginBottom="@dimen/dimen_8_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/scrollView2">
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/white_callapp" android:gravity="center" android:id="@id/bundleSkuText" android:background="@drawable/ripple_or_holo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

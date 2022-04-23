@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/itemTitleLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <TextView android:textSize="18.0dip" android:id="@id/title" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="2" android:layout_toRightOf="@id/icon" android:layout_alignParentTop="true" style="@style/Body2.Name_text.ContactListTextName" />
+    <com.callapp.contacts.widget.RetractableFrameLayout android:id="@id/moreTextWrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title" android:layout_alignLeft="@id/title">
+        <TextView android:textSize="@dimen/whatsNewTextSizeDP" android:gravity="center|left|top" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Caption.Number_text" />
+        <TextView android:textSize="@dimen/whatsNewTextSizeDP" android:ellipsize="end" android:gravity="center|left|top" android:id="@id/text_ellipsized" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" style="@style/Caption.Number_text" />
+    </com.callapp.contacts.widget.RetractableFrameLayout>
+    <ImageView android:id="@id/expandButton" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_expand_collapse" android:layout_below="@id/moreTextWrapper" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

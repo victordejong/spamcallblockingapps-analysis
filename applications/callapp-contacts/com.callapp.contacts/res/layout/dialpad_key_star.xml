@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.callapp.contacts.activity.contact.list.keypad.TwelveKeyDialerButton android:gravity="center" android:orientation="horizontal" android:id="@id/star" style="@style/DialpadKeyButtonStyle.Portrait"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.callapp.contacts.widget.DialpadTextView android:id="@id/tv_keyValue" android:layout_marginTop="5.0dip" android:layout_marginRight="8.0dip" android:text="*" style="@style/DialpadKeyStarStyle" />
+    <View android:layout_width="@dimen/dialpad_key_text_width" style="@style/DialpadKeyLettersStyle" />
+</com.callapp.contacts.activity.contact.list.keypad.TwelveKeyDialerButton>

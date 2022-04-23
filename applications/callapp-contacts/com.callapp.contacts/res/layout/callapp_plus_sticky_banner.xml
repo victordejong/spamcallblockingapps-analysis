@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_8_dp" android:layout_marginTop="@dimen/dimen_8_dp" android:layout_marginRight="@dimen/dimen_8_dp" android:layout_marginBottom="@dimen/dimen_8_dp">
+        <ImageView android:id="@id/call_app_sticky_banner_background" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_80_dp" android:scaleType="fitXY" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/img" android:layout_width="78.0dip" android:layout_height="78.0dip" android:layout_marginLeft="@dimen/dimen_12_dp" android:layout_marginRight="@dimen/dimen_12_dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_12_dp" android:layout_toLeftOf="@id/checkWrapper" android:layout_toRightOf="@id/img" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/dimen_14_dp" android:textStyle="bold" android:textColor="@color/white_callapp" android:ellipsize="end" android:id="@id/call_app_sticky_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" />
+            <TextView android:textSize="@dimen/dimen_14_dp" android:textColor="@color/white_callapp" android:ellipsize="end" android:id="@id/call_app_sticky_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/dimen_14_dp" android:textStyle="bold" android:textColor="@color/verify_icon" android:gravity="center" android:id="@id/checkWrapper" android:background="@drawable/ripple_or_holo" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_16_dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textAllCaps="true" />
+    </RelativeLayout>
+</merge>

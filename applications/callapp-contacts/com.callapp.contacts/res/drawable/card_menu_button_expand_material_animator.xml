@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:id="@id/pressed" android:drawable="@drawable/ic_expand_less_black_24dp" />
+    <item android:state_selected="true" android:id="@id/selected" android:drawable="@drawable/ic_expand_less_black_24dp" />
+    <item android:id="@id/normal" android:drawable="@drawable/ic_expand_more_grey600_24dp" />
+    <transition android:toId="@id/selected" android:fromId="@id/normal">
+        <animation-list>
+            <item android:duration="15" android:drawable="@drawable/ic_chevron_right_grey600_24dp" />
+            <item android:duration="15" android:drawable="@drawable/ic_expand_less_grey600_24dp" />
+        </animation-list>
+    </transition>
+    <transition android:toId="@id/normal" android:fromId="@id/selected">
+        <animation-list>
+            <item android:duration="15" android:drawable="@drawable/ic_expand_less_grey600_24dp" />
+            <item android:duration="15" android:drawable="@drawable/ic_chevron_right_grey600_24dp" />
+        </animation-list>
+    </transition>
+</animated-selector>

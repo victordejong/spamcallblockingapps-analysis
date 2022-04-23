@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:gravity="center" android:id="@id/mainContainer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/page1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="100.0dip">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/callman_img_recording_equlizer" />
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/page1EnsureTest" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/recorder_test_ensure" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" />
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white_callapp" android:gravity="center" android:layout_gravity="center" android:id="@id/page1EnsureButton" android:background="@drawable/video_assign_circle" android:padding="@dimen/dimen_10_dp" android:layout_width="200.0dip" android:layout_height="50.0dip" android:layout_marginTop="26.0dip" android:foreground="?android:selectableItemBackgroundBorderless" android:text="@string/recorder_test_ensure_quality" android:textAllCaps="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/page2" android:padding="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:id="@id/recorderQualityAssurance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recorder_quality_assurance" />
+            <LinearLayout android:orientation="vertical" android:id="@id/step1Container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dimen_20_dp">
+                <LinearLayout android:orientation="horizontal" android:id="@id/step1TextContainer" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="18.0sp" android:textStyle="bold" android:id="@id/step1Text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accessibility_service_dialog_step1" android:layout_marginEnd="@dimen/dimen_10_dp" />
+                    <ImageView android:layout_gravity="center" android:id="@id/arrowToggle" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_call_arrow" />
+                </LinearLayout>
+                <TextView android:textSize="15.0sp" android:id="@id/step1TextDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_20_dp" android:text="@string/recorder_quality_accessibility" />
+                <View android:id="@id/divider" android:background="@color/divider" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="@dimen/dimen_5_dp" android:minHeight="1.0dip" />
+                <LinearLayout android:orientation="vertical" android:id="@id/accessibilityPermissionContainer" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="10.0dip">
+                    <ImageView android:layout_gravity="center" android:id="@id/accessibilityGif" android:layout_width="250.0dip" android:layout_height="150.0dip" android:src="@drawable/accessibility_step_02_gif" android:scaleType="fitCenter" />
+                    <RelativeLayout android:gravity="center" android:id="@id/accessibilityButtons" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="15.0dip">
+                        <Button android:textSize="10.0sp" android:textStyle="bold" android:textColor="@color/white_callapp" android:gravity="center" android:layout_gravity="center" android:id="@id/accessibilityAllowButton" android:background="@drawable/video_assign_circle" android:padding="@dimen/dimen_10_dp" android:focusable="true" android:clickable="true" android:layout_width="140.0dip" android:layout_height="fill_parent" android:foreground="?android:selectableItemBackgroundBorderless" android:textAllCaps="true" android:layout_alignParentEnd="true" />
+                        <TextView android:gravity="center" android:id="@id/accessibilityDenyButton" android:layout_width="100.0dip" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_marginEnd="50.0dip" android:layout_toStartOf="@id/accessibilityAllowButton" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/step2Container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dimen_20_dp" android:layout_marginBottom="100.0dip">
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:id="@id/step2Text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accessibility_service_dialog_step2" android:layout_marginEnd="@dimen/dimen_10_dp" />
+                <TextView android:textSize="15.0sp" android:id="@id/step2TextDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_20_dp" android:text="@string/recorder_make_a_call" />
+                <RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/callman_img_clok" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/white_callapp" android:gravity="center_vertical" android:id="@id/performTestButton" android:background="@drawable/purchase_box_premium_background" android:padding="@dimen/dimen_10_dp" android:focusable="true" android:clickable="true" android:layout_width="180.0dip" android:layout_height="50.0dip" android:layout_marginTop="20.0dip" android:foreground="?android:selectableItemBackgroundBorderless" android:text="@string/recorder_test_perform" android:drawableLeft="@drawable/ic_phone_white" android:drawablePadding="10.0dip" android:layout_centerVertical="true" android:textAllCaps="true" android:layout_alignParentEnd="true" android:drawableTint="@color/white_callapp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

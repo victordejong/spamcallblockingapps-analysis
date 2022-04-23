@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/banner_layout" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img" android:layout_width="wrap_content" android:layout_height="280.0dip" android:src="@drawable/overlay_img_cut" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/data_layout" android:background="@drawable/keypad_promotion_dialog_background" android:padding="16.0dip" android:layout_width="304.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_36_dp" android:layout_marginRight="@dimen/dimen_36_dp" android:layout_below="@id/img" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/dimen_18_dp" android:textStyle="bold" android:textColor="@color/light_default_primary" android:id="@id/keypad_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_4_dp" />
+        <TextView android:textSize="@dimen/dimen_14_dp" android:textColor="@color/grey_semi_dark" android:gravity="center" android:id="@id/keypad_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_14_dp" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/dimen_12_dp" android:textColor="@color/grey_semi_light" android:id="@id/keypad_button_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_8_dp" android:text="@string/close" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:textAllCaps="true" android:layout_marginStart="@dimen/dimen_8_dp" android:layout_alignParentStart="true" />
+            <TextView android:textSize="@dimen/dimen_12_dp" android:textStyle="bold" android:textColor="@color/white_callapp" android:id="@id/keypad_get_it" android:background="@drawable/button_rounded_primary" android:paddingLeft="@dimen/dimen_14_dp" android:paddingTop="@dimen/dimen_5_dp" android:paddingRight="@dimen/dimen_14_dp" android:paddingBottom="@dimen/dimen_5_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/get_it_now" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textAllCaps="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/header_layout" android:layout_width="fill_parent" android:layout_height="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center|left" android:id="@id/card_header_inner_simple_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" style="@style/Caption.Number_text" />
+    <include android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="1.0dip" layout="@layout/include_divider" />
+</FrameLayout>

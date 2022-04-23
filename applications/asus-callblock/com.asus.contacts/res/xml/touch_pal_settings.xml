@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/touch_pal" android:key="block_and_callerid_checking_setting"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <PreferenceCategory android:title="@string/category_dial_inout_checking_title" android:key="callerid_check_setting_category">
+        <SwitchPreference android:title="@string/caller_checking_on_off_title" android:key="callerid_checking_on_off" android:defaultValue="true" />
+        <ListPreference android:entries="@array/touch_pal_display_checking_entries" android:title="@string/display_caller_checking_title" android:key="display_callerid_checking" android:summary="@string/callguard_display_item_all" android:entryValues="@array/touch_pal_display_checking_value" />
+        <CheckBoxPreference android:title="@string/caller_checking_function_title" android:key="callerid_checking_fuction" android:summary="@string/callguard_checking_item_offline" android:defaultValue="false" />
+        <ListPreference android:entries="@array/touch_pal_online_type" android:title="@string/online_type_title" android:key="online_type" android:summary="@string/online_type_wifi_only" android:entryValues="@array/touch_pal_callerid_checking_function_value" />
+        <Preference android:title="@string/off_line_title" android:key="offline_data_config" />
+        <com.android.contacts.asuscallerid.AboutCallGuardDialogPreference android:title="@string/callguard_about_dialog_title" android:key="callerid_about_dialog" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/category_block_rule_title" android:key="block_rule_setting_category">
+        <ListPreference android:entries="@array/touch_pal_block_mode" android:title="@string/block_mode_title" android:key="block_mode" android:summary="@string/block_mode_smart_block" android:entryValues="@array/touch_pal_block_mode_checking_function_value" />
+        <MultiSelectListPreference android:entries="@array/block_tagged_numbers_entries" android:title="@string/block_tag_numbers_title" android:key="block_tagged_numbers" android:defaultValue="@array/empty_array" android:entryValues="@array/block_tagged_numbers_values" />
+        <CheckBoxPreference android:title="@string/block_mode_not_stranger" android:key="block_mode_stranger" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/block_mode_private_call" android:key="block_mode_private_call" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/setting_call_displayed_notification" android:key="call_display_notification" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/category_sms_block_title" android:key="sms_block_setting_category">
+        <CheckBoxPreference android:title="@string/setting_block_spam_sms" android:key="block_spam_sms" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/setting_sms_displayed_notification" android:key="sms_display_notification" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

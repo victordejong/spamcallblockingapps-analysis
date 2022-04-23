@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/left_container" android:background="?contact_browser_background" android:layout_width="@dimen/asus_contacts_left_fragment_width" android:layout_height="fill_parent">
+        <ViewStub android:id="@id/search_view" android:layout="@layout/contacts_search_view" android:layout_width="fill_parent" android:layout_height="@dimen/asus_search_view_height" />
+        <RelativeLayout android:id="@id/asus_account_filter_header_container_layout" android:background="@drawable/asus_contacts2_split_ab_bg" android:layout_width="fill_parent" android:layout_height="@dimen/asus_filter_view_height">
+            <include android:id="@id/asus_account_filter_header_container" android:layout_alignParentLeft="true" layout="@layout/asus_account_filter_header" />
+        </RelativeLayout>
+        <View android:id="@id/filter_divider" android:background="@color/amax_filter_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <FrameLayout android:id="@id/contact_list_framelayout" android:background="@drawable/asus_contacts2_list_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <view android:id="@android:id/list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.0" android:fastScrollEnabled="false" class="com.android.contacts.widget.PinnedHeaderListView" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/search_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLarge" />
+        </FrameLayout>
+        <ViewStub android:id="@id/footer_stub" android:layout="@layout/footer_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:id="@id/center_divider" android:background="@drawable/asus_contact_menu_bar_line" android:layout_width="@dimen/dialpad_margin" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/call_detail_frame" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_alignParentRight="true">
+        <include android:id="@id/contact_detail_container" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/contact_detail_container" />
+        <fragment android:id="@id/asus_contact_detail_loader_fragment" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" class="com.android.contacts.detail.ContactLoaderFragment" />
+    </FrameLayout>
+    <include android:id="@id/asus_no_contact_account_container" android:visibility="gone" layout="@layout/asus_no_contact_account" />
+</LinearLayout>

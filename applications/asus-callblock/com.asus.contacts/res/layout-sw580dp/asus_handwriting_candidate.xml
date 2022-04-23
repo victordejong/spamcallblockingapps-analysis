@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.dialpad.AsusHandwritingCandidateContainer android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/asus_kb_candidate_down_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="72.0dip">
+        <com.android.contacts.dialpad.AsusHandwritingCandidate android:id="@id/candidates" android:background="@color/amax_common_bg_color" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/candidate_expanded_parent" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/candidate_expanded" android:background="@color/amax_common_bg_color" android:clickable="true" android:layout_width="72.0dip" android:layout_height="fill_parent" android:src="@drawable/asus_contacts2_pf_kb_cwa_icon" />
+        </LinearLayout>
+    </LinearLayout>
+</com.android.contacts.dialpad.AsusHandwritingCandidateContainer>

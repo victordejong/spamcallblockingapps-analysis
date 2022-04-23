@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Widget.AsusRes.ActionBar.Solid" parent="@android:style/Widget.Material.ActionBar.Solid">
+        <item name="android:titleTextStyle">@style/TextAppearance.AsusRes.Widget.ActionBar.Title</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.AsusRes.Widget.ActionBar.Subtitle</item>
+        <item name="android:elevation">@dimen/asusres_action_bar_elevation</item>
+        <item name="android:contentInsetStartWithNavigation">@dimen/asusres_actionbar_content_inset_with_nav</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.ActionBar.Solid" parent="@android:style/Widget.Material.Light.ActionBar.Solid">
+        <item name="android:titleTextStyle">@style/TextAppearance.AsusRes.Widget.ActionBar.Title</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.AsusRes.Widget.ActionBar.Subtitle</item>
+        <item name="android:elevation">@dimen/asusres_action_bar_elevation</item>
+        <item name="android:contentInsetStartWithNavigation">@dimen/asusres_actionbar_content_inset_with_nav</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.ActionBar.Solid.GradientBg" parent="@android:style/Widget.Material.Light.ActionBar.Solid">
+        <item name="android:titleTextStyle">@style/TextAppearance.AsusRes.Widget.ActionBar.Title</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.AsusRes.Widget.ActionBar.Subtitle.GradientBg</item>
+        <item name="android:elevation">@dimen/asusres_action_bar_elevation</item>
+        <item name="android:contentInsetStartWithNavigation">@dimen/asusres_actionbar_content_inset_with_nav</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Toolbar" parent="@android:style/Widget.Material.Toolbar">
+        <item name="android:contentInsetStartWithNavigation">@dimen/asusres_actionbar_content_inset_with_nav</item>
+    </style>
+    <style name="Platform.AsusRes" parent="@android:style/Theme.DeviceDefault" />
+    <style name="Platform.AsusRes.Dialog" parent="@android:style/Theme.DeviceDefault.Dialog" />
+    <style name="Platform.AsusRes.Dialog.Alert" parent="@android:style/Theme.DeviceDefault.Dialog.Alert" />
+    <style name="Platform.AsusRes.Light" parent="@android:style/Theme.DeviceDefault.Light" />
+    <style name="Platform.AsusRes.Light.Dialog" parent="@android:style/Theme.DeviceDefault.Light.Dialog" />
+    <style name="Platform.AsusRes.Light.Dialog.Alert" parent="@android:style/Theme.DeviceDefault.Light.Dialog.Alert" />
+</resources>

@@ -1,0 +1,553 @@
+package androidx.b;
+
+import java.util.ConcurrentModificationException;
+import java.util.Map;
+/* loaded from: classes-dex2jar.jar:androidx/b/g.class */
+public class g<K, V> {
+
+    /* renamed from: b  reason: collision with root package name */
+    static Object[] f1188b;
+
+    /* renamed from: c  reason: collision with root package name */
+    static int f1189c;
+
+    /* renamed from: d  reason: collision with root package name */
+    static Object[] f1190d;
+    static int e;
+    int[] f;
+    Object[] g;
+    int h;
+
+    public g() {
+        this.f = c.f1163a;
+        this.g = c.f1165c;
+        this.h = 0;
+    }
+
+    public g(int i) {
+        if (i == 0) {
+            this.f = c.f1163a;
+            this.g = c.f1165c;
+        } else {
+            e(i);
+        }
+        this.h = 0;
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    public g(g<K, V> gVar) {
+        this();
+        if (gVar != 0) {
+            a((g) gVar);
+        }
+    }
+
+    private int a() {
+        int i = this.h;
+        if (i == 0) {
+            return -1;
+        }
+        int a2 = a(this.f, i, 0);
+        if (a2 >= 0 && this.g[a2 << 1] != null) {
+            int i2 = a2 + 1;
+            while (i2 < i && this.f[i2] == 0) {
+                if (this.g[i2 << 1] == null) {
+                    return i2;
+                }
+                i2++;
+            }
+            while (true) {
+                a2--;
+                if (a2 < 0 || this.f[a2] != 0) {
+                    break;
+                } else if (this.g[a2 << 1] == null) {
+                    return a2;
+                }
+            }
+            return i2 ^ (-1);
+        }
+        return a2;
+    }
+
+    private int a(Object obj, int i) {
+        int i2 = this.h;
+        if (i2 == 0) {
+            return -1;
+        }
+        int a2 = a(this.f, i2, i);
+        if (a2 >= 0 && !obj.equals(this.g[a2 << 1])) {
+            int i3 = a2 + 1;
+            while (i3 < i2 && this.f[i3] == i) {
+                if (obj.equals(this.g[i3 << 1])) {
+                    return i3;
+                }
+                i3++;
+            }
+            for (int i4 = a2 - 1; i4 >= 0 && this.f[i4] == i; i4--) {
+                if (obj.equals(this.g[i4 << 1])) {
+                    return i4;
+                }
+            }
+            return i3 ^ (-1);
+        }
+        return a2;
+    }
+
+    private static int a(int[] iArr, int i, int i2) {
+        try {
+            return c.a(iArr, i, i2);
+        } catch (ArrayIndexOutOfBoundsException e2) {
+            throw new ConcurrentModificationException();
+        }
+    }
+
+    private static void a(int[] iArr, Object[] objArr, int i) {
+        if (iArr.length == 8) {
+            synchronized (g.class) {
+                try {
+                    if (e < 10) {
+                        objArr[0] = f1190d;
+                        objArr[1] = iArr;
+                        for (int i2 = (i << 1) - 1; i2 >= 2; i2--) {
+                            objArr[i2] = null;
+                        }
+                        f1190d = objArr;
+                        e++;
+                    }
+                } finally {
+                }
+            }
+        } else if (iArr.length == 4) {
+            synchronized (g.class) {
+                try {
+                    if (f1189c < 10) {
+                        objArr[0] = f1188b;
+                        objArr[1] = iArr;
+                        for (int i3 = (i << 1) - 1; i3 >= 2; i3--) {
+                            objArr[i3] = null;
+                        }
+                        f1188b = objArr;
+                        f1189c++;
+                    }
+                } finally {
+                }
+            }
+        }
+    }
+
+    private void e(int i) {
+        if (i == 8) {
+            synchronized (g.class) {
+                try {
+                    Object[] objArr = f1190d;
+                    if (objArr != null) {
+                        this.g = objArr;
+                        f1190d = (Object[]) objArr[0];
+                        this.f = (int[]) objArr[1];
+                        objArr[1] = null;
+                        objArr[0] = null;
+                        e--;
+                        return;
+                    }
+                } finally {
+                }
+            }
+        } else if (i == 4) {
+            synchronized (g.class) {
+                try {
+                    Object[] objArr2 = f1188b;
+                    if (objArr2 != null) {
+                        this.g = objArr2;
+                        f1188b = (Object[]) objArr2[0];
+                        this.f = (int[]) objArr2[1];
+                        objArr2[1] = null;
+                        objArr2[0] = null;
+                        f1189c--;
+                        return;
+                    }
+                } finally {
+                }
+            }
+        }
+        this.f = new int[i];
+        this.g = new Object[i << 1];
+    }
+
+    public final int a(Object obj) {
+        return obj == null ? a() : a(obj, obj.hashCode());
+    }
+
+    public V a(int i, V v) {
+        int i2 = (i << 1) + 1;
+        Object[] objArr = this.g;
+        V v2 = (V) objArr[i2];
+        objArr[i2] = v;
+        return v2;
+    }
+
+    public final void a(int i) {
+        int i2 = this.h;
+        int[] iArr = this.f;
+        if (iArr.length < i) {
+            Object[] objArr = this.g;
+            e(i);
+            if (this.h > 0) {
+                System.arraycopy(iArr, 0, this.f, 0, i2);
+                System.arraycopy(objArr, 0, this.g, 0, i2 << 1);
+            }
+            a(iArr, objArr, i2);
+        }
+        if (this.h != i2) {
+            throw new ConcurrentModificationException();
+        }
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    public void a(g<? extends K, ? extends V> gVar) {
+        int i = gVar.h;
+        a(this.h + i);
+        if (this.h != 0) {
+            for (int i2 = 0; i2 < i; i2++) {
+                put(gVar.b(i2), gVar.c(i2));
+            }
+        } else if (i > 0) {
+            System.arraycopy(gVar.f, 0, this.f, 0, i);
+            System.arraycopy(gVar.g, 0, this.g, 0, i << 1);
+            this.h = i;
+        }
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public final int b(Object obj) {
+        int i = this.h * 2;
+        Object[] objArr = this.g;
+        if (obj == null) {
+            for (int i2 = 1; i2 < i; i2 += 2) {
+                if (objArr[i2] == null) {
+                    return i2 >> 1;
+                }
+            }
+            return -1;
+        }
+        for (int i3 = 1; i3 < i; i3 += 2) {
+            if (obj.equals(objArr[i3])) {
+                return i3 >> 1;
+            }
+        }
+        return -1;
+    }
+
+    public final K b(int i) {
+        return (K) this.g[i << 1];
+    }
+
+    public final V c(int i) {
+        return (V) this.g[(i << 1) + 1];
+    }
+
+    public void clear() {
+        int i = this.h;
+        if (i > 0) {
+            int[] iArr = this.f;
+            Object[] objArr = this.g;
+            this.f = c.f1163a;
+            this.g = c.f1165c;
+            this.h = 0;
+            a(iArr, objArr, i);
+        }
+        if (this.h > 0) {
+            throw new ConcurrentModificationException();
+        }
+    }
+
+    public boolean containsKey(Object obj) {
+        return a(obj) >= 0;
+    }
+
+    public boolean containsValue(Object obj) {
+        return b(obj) >= 0;
+    }
+
+    public V d(int i) {
+        Object[] objArr = this.g;
+        int i2 = i << 1;
+        V v = (V) objArr[i2 + 1];
+        int i3 = this.h;
+        int i4 = 0;
+        if (i3 <= 1) {
+            a(this.f, objArr, i3);
+            this.f = c.f1163a;
+            this.g = c.f1165c;
+        } else {
+            int i5 = i3 - 1;
+            int[] iArr = this.f;
+            int i6 = 8;
+            if (iArr.length <= 8 || i3 >= iArr.length / 3) {
+                if (i < i5) {
+                    int i7 = i + 1;
+                    int i8 = i5 - i;
+                    System.arraycopy(iArr, i7, iArr, i, i8);
+                    Object[] objArr2 = this.g;
+                    System.arraycopy(objArr2, i7 << 1, objArr2, i2, i8 << 1);
+                }
+                Object[] objArr3 = this.g;
+                int i9 = i5 << 1;
+                objArr3[i9] = null;
+                objArr3[i9 + 1] = null;
+            } else {
+                if (i3 > 8) {
+                    i6 = i3 + (i3 >> 1);
+                }
+                e(i6);
+                if (i3 == this.h) {
+                    if (i > 0) {
+                        System.arraycopy(iArr, 0, this.f, 0, i);
+                        System.arraycopy(objArr, 0, this.g, 0, i2);
+                    }
+                    if (i < i5) {
+                        int i10 = i + 1;
+                        int i11 = i5 - i;
+                        System.arraycopy(iArr, i10, this.f, i, i11);
+                        System.arraycopy(objArr, i10 << 1, this.g, i2, i11 << 1);
+                    }
+                } else {
+                    throw new ConcurrentModificationException();
+                }
+            }
+            i4 = i5;
+        }
+        if (i3 == this.h) {
+            this.h = i4;
+            return v;
+        }
+        throw new ConcurrentModificationException();
+    }
+
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj instanceof g) {
+            g gVar = (g) obj;
+            if (size() != gVar.size()) {
+                return false;
+            }
+            for (int i = 0; i < this.h; i++) {
+                try {
+                    K b2 = b(i);
+                    V c2 = c(i);
+                    Object obj2 = gVar.get(b2);
+                    if (c2 == null) {
+                        if (obj2 != null || !gVar.containsKey(b2)) {
+                            return false;
+                        }
+                    } else if (!c2.equals(obj2)) {
+                        return false;
+                    }
+                } catch (ClassCastException | NullPointerException e2) {
+                    return false;
+                }
+            }
+            return true;
+        } else if (!(obj instanceof Map)) {
+            return false;
+        } else {
+            Map map = (Map) obj;
+            if (size() != map.size()) {
+                return false;
+            }
+            for (int i2 = 0; i2 < this.h; i2++) {
+                try {
+                    K b3 = b(i2);
+                    V c3 = c(i2);
+                    Object obj3 = map.get(b3);
+                    if (c3 == null) {
+                        if (obj3 != null || !map.containsKey(b3)) {
+                            return false;
+                        }
+                    } else if (!c3.equals(obj3)) {
+                        return false;
+                    }
+                } catch (ClassCastException | NullPointerException e3) {
+                    return false;
+                }
+            }
+            return true;
+        }
+    }
+
+    public V get(Object obj) {
+        return getOrDefault(obj, null);
+    }
+
+    public V getOrDefault(Object obj, V v) {
+        int a2 = a(obj);
+        return a2 >= 0 ? (V) this.g[(a2 << 1) + 1] : v;
+    }
+
+    public int hashCode() {
+        int[] iArr = this.f;
+        Object[] objArr = this.g;
+        int i = this.h;
+        int i2 = 1;
+        int i3 = 0;
+        int i4 = 0;
+        while (i3 < i) {
+            Object obj = objArr[i2];
+            i4 += (obj == null ? 0 : obj.hashCode()) ^ iArr[i3];
+            i3++;
+            i2 += 2;
+        }
+        return i4;
+    }
+
+    public boolean isEmpty() {
+        return this.h <= 0;
+    }
+
+    public V put(K k, V v) {
+        int i;
+        int i2;
+        int i3 = this.h;
+        if (k == null) {
+            i2 = a();
+            i = 0;
+        } else {
+            i = k.hashCode();
+            i2 = a(k, i);
+        }
+        if (i2 >= 0) {
+            int i4 = (i2 << 1) + 1;
+            Object[] objArr = this.g;
+            V v2 = (V) objArr[i4];
+            objArr[i4] = v;
+            return v2;
+        }
+        int i5 = i2 ^ (-1);
+        int[] iArr = this.f;
+        if (i3 >= iArr.length) {
+            int i6 = 4;
+            if (i3 >= 8) {
+                i6 = (i3 >> 1) + i3;
+            } else if (i3 >= 4) {
+                i6 = 8;
+            }
+            Object[] objArr2 = this.g;
+            e(i6);
+            if (i3 == this.h) {
+                int[] iArr2 = this.f;
+                if (iArr2.length > 0) {
+                    System.arraycopy(iArr, 0, iArr2, 0, iArr.length);
+                    System.arraycopy(objArr2, 0, this.g, 0, objArr2.length);
+                }
+                a(iArr, objArr2, i3);
+            } else {
+                throw new ConcurrentModificationException();
+            }
+        }
+        if (i5 < i3) {
+            int[] iArr3 = this.f;
+            int i7 = i5 + 1;
+            System.arraycopy(iArr3, i5, iArr3, i7, i3 - i5);
+            Object[] objArr3 = this.g;
+            System.arraycopy(objArr3, i5 << 1, objArr3, i7 << 1, (this.h - i5) << 1);
+        }
+        int i8 = this.h;
+        if (i3 == i8) {
+            int[] iArr4 = this.f;
+            if (i5 < iArr4.length) {
+                iArr4[i5] = i;
+                Object[] objArr4 = this.g;
+                int i9 = i5 << 1;
+                objArr4[i9] = k;
+                objArr4[i9 + 1] = v;
+                this.h = i8 + 1;
+                return null;
+            }
+        }
+        throw new ConcurrentModificationException();
+    }
+
+    public V putIfAbsent(K k, V v) {
+        V v2 = get(k);
+        V v3 = v2;
+        if (v2 == null) {
+            v3 = put(k, v);
+        }
+        return v3;
+    }
+
+    public V remove(Object obj) {
+        int a2 = a(obj);
+        if (a2 >= 0) {
+            return d(a2);
+        }
+        return null;
+    }
+
+    public boolean remove(Object obj, Object obj2) {
+        int a2 = a(obj);
+        if (a2 < 0) {
+            return false;
+        }
+        V c2 = c(a2);
+        if (obj2 != c2 && (obj2 == null || !obj2.equals(c2))) {
+            return false;
+        }
+        d(a2);
+        return true;
+    }
+
+    public V replace(K k, V v) {
+        int a2 = a(k);
+        if (a2 >= 0) {
+            return a(a2, (int) v);
+        }
+        return null;
+    }
+
+    public boolean replace(K k, V v, V v2) {
+        int a2 = a(k);
+        if (a2 < 0) {
+            return false;
+        }
+        V c2 = c(a2);
+        if (c2 != v && (v == null || !v.equals(c2))) {
+            return false;
+        }
+        a(a2, (int) v2);
+        return true;
+    }
+
+    public int size() {
+        return this.h;
+    }
+
+    public String toString() {
+        if (isEmpty()) {
+            return "{}";
+        }
+        StringBuilder sb = new StringBuilder(this.h * 28);
+        sb.append('{');
+        for (int i = 0; i < this.h; i++) {
+            if (i > 0) {
+                sb.append(", ");
+            }
+            K b2 = b(i);
+            if (b2 != this) {
+                sb.append(b2);
+            } else {
+                sb.append("(this Map)");
+            }
+            sb.append('=');
+            V c2 = c(i);
+            if (c2 != this) {
+                sb.append(c2);
+            } else {
+                sb.append("(this Map)");
+            }
+        }
+        sb.append('}');
+        return sb.toString();
+    }
+}

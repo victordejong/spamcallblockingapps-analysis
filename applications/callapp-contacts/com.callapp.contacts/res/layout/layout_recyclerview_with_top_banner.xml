@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/banner_image" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_80_dp" android:src="@drawable/call_screen_th_pr_banner_img" android:scaleType="fitXY" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerview" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom|center" android:id="@id/down_facing_arrow" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginBottom="@dimen/dimen_16_dp" android:elevation="16.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/dimen_28_dp" android:layout_height="@dimen/dimen_28_dp" android:src="@drawable/circle_white" android:elevation="16.0dip" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="16.0dip" app:srcCompat="@drawable/ic_blue_arrow" />
+    </FrameLayout>
+</FrameLayout>

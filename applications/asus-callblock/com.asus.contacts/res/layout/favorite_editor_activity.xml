@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/common_padding" android:paddingRight="@dimen/common_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:tlv="http://schemas.android.com/apk/res/com.asus.contacts">
+        <TextView android:textSize="22.0dip" android:gravity="center" android:id="@id/none_group_nember" android:padding="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/noFavorites" />
+        <com.android.contacts.list.TouchListView android:id="@id/favorite_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" tlv:expanded_height="@dimen/contact_browser_list_item_size_contain_divider2" tlv:grabber="@id/icon" tlv:normal_height="@dimen/contact_browser_list_item_size_contain_divider" tlv:remove_mode="slideLeft" />
+    </LinearLayout>
+</LinearLayout>

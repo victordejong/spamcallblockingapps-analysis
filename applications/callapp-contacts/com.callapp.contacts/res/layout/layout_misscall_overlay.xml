@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/root" android:background="@color/intro_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/visible_area_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/data_layout" android:paddingLeft="@dimen/dimen_16_dp" android:paddingTop="@dimen/dimen_16_dp" android:paddingRight="@dimen/dimen_16_dp" android:paddingBottom="@dimen/dimen_16_dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.callapp.contacts.widget.ProfilePictureView android:id="@id/profilePictureView" android:layout_width="@dimen/dimen_64_dp" android:layout_height="@dimen/dimen_64_dp" android:layout_marginLeft="@dimen/dimen_16_dp" android:layout_marginTop="@dimen/dimen_16_dp" android:layout_marginRight="@dimen/dimen_16_dp" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dimen_16_dp" android:layout_marginEnd="@dimen/dimen_16_dp" app:badgeIconSize="14.0dip" app:badgeRadius="9.0dip" app:badgeTint="@color/white_callapp" app:presetSize="overlay" />
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_18_dp" android:layout_toRightOf="@id/profilePictureView" android:layout_centerVertical="true">
+                    <TextView android:gravity="left" android:id="@id/nameText" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Overlay.Title" />
+                    <ViewStub android:gravity="left" android:id="@id/categoriesLayout" android:layout="@layout/include_categories_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <ImageView android:layout_gravity="right" android:id="@id/close_all" android:layout_width="@dimen/dimen_32_dp" android:layout_height="@dimen/dimen_32_dp" android:src="@drawable/ic_close_grey" android:tint="@color/white_callapp" android:layout_alignParentRight="true" />
+                <FrameLayout android:id="@id/open_menu_wrapper" android:padding="@dimen/dimen_8_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16_dp" android:layout_marginRight="@dimen/dimen_8_dp" android:layout_below="@id/close_all" android:layout_alignParentRight="true">
+                    <ImageView android:id="@id/open_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_top_bar_overflow" android:tint="@color/white_callapp" />
+                </FrameLayout>
+            </RelativeLayout>
+            <androidx.viewpager.widget.ViewPager android:id="@id/viewPager" android:background="@color/white_callapp" android:layout_width="fill_parent" android:layout_height="54.0dip" />
+            <View android:background="@color/grey_lighter" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="horizontal" android:id="@id/layout_what_to_do" android:paddingLeft="@dimen/dimen_18_dp" android:paddingTop="6.0dip" android:paddingRight="@dimen/dimen_18_dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/dimen_14_dp" android:textStyle="bold" android:id="@id/overlay_what_to_do" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_4_dp" android:layout_alignParentLeft="true" android:textAllCaps="true" />
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_callapp_blue" android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <LinearLayout android:id="@id/layout_actions" android:padding="@dimen/dimen_16_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="4.0">
+                    <ImageView android:id="@id/overlay_btn_close" android:layout_width="@dimen/dimen_44_dp" android:layout_height="@dimen/dimen_44_dp" android:src="@drawable/ic_over_close_new" android:layout_weight="1.0" />
+                    <ImageView android:id="@id/overlay_btn_call" android:layout_width="@dimen/dimen_44_dp" android:layout_height="@dimen/dimen_44_dp" android:src="@drawable/ic_over_call_new" android:layout_weight="1.0" />
+                    <ImageView android:id="@id/overlay_btn_sms" android:layout_width="@dimen/dimen_44_dp" android:layout_height="@dimen/dimen_44_dp" android:src="@drawable/ic_over_sms_new" android:layout_weight="1.0" />
+                    <ImageView android:id="@id/overlay_btn_reminder" android:layout_width="@dimen/dimen_44_dp" android:layout_height="@dimen/dimen_44_dp" android:src="@drawable/ic_over_remi_new" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.viewpagerindicator.CirclePageIndicator android:id="@id/indicator" android:paddingTop="@dimen/dimen_5_dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_18_dp" app:centered="true" app:radius="4.0dip" app:strokeColor="@android:color/transparent" app:strokeWidth="2.0dip" />
+            <View android:background="@color/grey_lighter" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <FrameLayout android:id="@id/adPlaceHolder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

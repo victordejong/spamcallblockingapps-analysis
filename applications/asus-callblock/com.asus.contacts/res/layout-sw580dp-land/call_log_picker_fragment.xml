@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/picker_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/voicemail_status" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip">
+        <include layout="@layout/call_log_voicemail_status" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@color/amax_common_bg_color" android:layout_width="768.0dip" android:layout_height="fill_parent">
+        <FrameLayout android:orientation="vertical" android:id="@id/all_container" android:visibility="visible" android:layout_width="768.0dip" android:layout_height="@dimen/asus_filter_view_height">
+            <CheckedTextView android:textSize="@dimen/asus_list_item_main_text_size" android:textColor="@color/group_list_item_title" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/itemChkImageInfo" android:background="@color/amax_common_bg_color" android:paddingLeft="@dimen/common_padding" android:paddingRight="@dimen/common_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/asus_filter_view_height" android:checkMark="?android:listChoiceIndicatorMultiple" android:text="@string/menu_select_all" />
+        </FrameLayout>
+        <View android:layout_gravity="center" android:id="@id/divider" android:background="@color/margin_color_divider" android:layout_width="768.0dip" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/common_padding" android:layout_marginRight="@dimen/common_padding" />
+        <FrameLayout android:layout_width="768.0dip" android:layout_height="fill_parent">
+            <ListView android:scrollbarStyle="outsideOverlay" android:id="@android:id/list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorSecondary" android:gravity="center" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/empty_message_top_margin" android:text="@string/recentCalls_empty" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

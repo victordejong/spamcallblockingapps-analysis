@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/asus_ic_cancel" android:id="@id/cancel" android:orderInCategory="100" android:title="@string/menu_doNotSave" android:showAsAction="always" />
+    <item android:icon="@drawable/asus_ic_done" android:id="@id/done" android:orderInCategory="100" android:title="@string/menu_done" android:showAsAction="always" />
+</menu>

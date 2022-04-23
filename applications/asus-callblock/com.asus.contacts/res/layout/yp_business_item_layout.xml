@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/asus_yp_list_business_item_margin_vertical_top" android:paddingBottom="@dimen/asus_yp_list_business_item_margin_vertical_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:gravity="center|left" android:id="@id/company_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/asus_yp_list_business_margin_bottom" style="@style/AsusYellowPageBusinessPrimaryTextStyle" />
+        <TextView android:gravity="center|left" android:id="@id/address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/asus_yp_list_business_margin_bottom" style="@style/AsusYellowPageBusinessSecondaryTextStyle" />
+        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:layout_gravity="center" android:id="@id/distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/asus_yp_list_business_item_margin_end" />
+            <RatingBar android:layout_gravity="center" android:id="@id/rating_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:numStars="5" android:rating="0.0" android:stepSize="0.25" android:isIndicator="true" style="@style/AsusYellowPageStarRatingBar" />
+        </TableRow>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/dial_action_container" android:background="?android:selectableItemBackground" android:layout_width="@dimen/asus_yp_list_item_height" android:layout_height="@dimen/asus_yp_list_item_height">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/asus_contacts2_ic_holo_contact_call" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/dial_spinner_container" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="@dimen/asus_yp_list_item_height" android:layout_height="@dimen/asus_yp_list_item_height">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/asus_contacts2_ic_holo_contact_call" />
+        <Spinner android:layout_gravity="center" android:id="@id/dial_spinner" android:background="@android:color/transparent" android:layout_width="@dimen/asus_yp_list_item_height" android:layout_height="@dimen/asus_yp_list_item_height" android:spinnerMode="dialog" />
+    </FrameLayout>
+</LinearLayout>

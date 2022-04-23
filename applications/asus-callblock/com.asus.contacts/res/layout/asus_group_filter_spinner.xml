@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/asus_account_filter_header_container" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/asus_group_filter_padding_left" android:paddingRight="@dimen/asus_group_filter_padding_right" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/asus_account_filter_header" style="@style/AsusGroupFilterTextStyle" />
+    <TextView android:id="@id/asus_account_filter_header2" android:paddingLeft="5.0dip" android:visibility="gone" android:maxWidth="@dimen/asus_group_filter_max_width" style="@style/AsusGroupFilterSmallTextStyle" />
+    <ImageView android:layout_gravity="center" android:id="@id/filter_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/asus_contacts2_group_fiter_spinner" android:tint="@color/asus_contacts2_statusbar_bg_color" />
+</LinearLayout>

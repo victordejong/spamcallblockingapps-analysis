@@ -1,0 +1,25 @@
+Language-Version: 1.0
+Language-Name: he-IL
+Configuration-Script:
+ AddResDir /system/usr/xt9/VO/resources/
+
+Name: text
+Input-Type: SINGLE_LINE_TEXT
+Result-Item-Type: WORD
+Use-User-Dictionary: true
+Configuration-Script:
+ AddResource he_IL/he_IL-ak-cur.lite.res
+ AddResource he_IL/he_IL-lk-text.lite.res
+ SetCharListSize 1
+ SetWordListSize 5
+ SetTextListSize 1
+
+Name: char
+Input-Type: SINGLE_CHARACTER
+Result-Item-Type: CHARACTER
+Use-User-Dictionary: false
+Configuration-Script:
+ AddResource he_IL/he_IL-ak-iso.lite.res
+ SetCharListSize 5
+ SetWordListSize 1
+ SetTextListSize 1

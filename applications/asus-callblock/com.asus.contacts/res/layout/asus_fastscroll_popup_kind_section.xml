@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.fastscroll.FastScrollKindItem android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/asus_chinese_popup_title_size" android:textColor="#ffffffff" android:ellipsize="marquee" android:gravity="center" android:id="@id/popup_title" android:layout_width="fill_parent" android:layout_height="@dimen/asus_chinese_popup_title_height" android:singleLine="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/popup_kind_items" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.android.contacts.fastscroll.FastScrollKindItem>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.callapp.contacts.widget.RetractableLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/btnUserCorrectedInfoWrapper" android:paddingLeft="16.0dip" android:paddingTop="@dimen/dimen_8_dp" android:paddingRight="@dimen/dimen_8_dp" android:paddingBottom="@dimen/dimen_8_dp" android:layout_width="fill_parent" android:layout_height="@dimen/user_corrected_info_widget_height" android:layout_alignParentBottom="true" android:paddingStart="16.0dip" android:paddingEnd="@dimen/dimen_8_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_is_it_spam" />
+    <TextView android:ellipsize="end" android:id="@id/btnUserCorrectedInfo" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_16_dp" android:maxLines="2" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" android:layout_marginStart="@dimen/dimen_16_dp" style="@style/Body3.White" />
+    <ImageView android:id="@id/userCorrectedInfoPositiveBtn" android:background="@drawable/ripple_or_holo_red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_is_it_spam_y" />
+    <ImageView android:id="@id/userCorrectedInfoNegativeBtn" android:background="@drawable/ripple_or_holo_red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/ic_is_it_spam_n" android:layout_marginStart="8.0dip" />
+</com.callapp.contacts.widget.RetractableLinearLayout>

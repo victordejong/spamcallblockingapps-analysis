@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_search_white_24" android:id="@id/action_search" android:title="" app:showAsAction="always|collapseActionView" />
+    <item android:icon="@drawable/ic_2_5_filter" android:id="@id/menu_filter_icon" android:title="" app:showAsAction="ifRoom" />
+</menu>

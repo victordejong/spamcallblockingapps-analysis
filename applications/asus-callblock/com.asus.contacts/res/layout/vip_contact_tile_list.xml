@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/asus_contacts2_list_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/listContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/vip_split_ab_container" android:layout_width="fill_parent" android:layout_height="51.0dip" layout="@layout/vip_split_ab" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@id/contact_tile_list" android:paddingLeft="@dimen/favorite_contact_tile_list_padding" android:paddingTop="@dimen/vip_contact_tile_list_padding_top" android:paddingRight="@dimen/favorite_contact_tile_list_padding" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+            <com.asus.contacts.materialui.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/fab_add" android:layout_width="@dimen/asus_fab_size" android:layout_height="@dimen/asus_fab_size" android:layout_marginRight="@dimen/asus_fab_marginRight" android:layout_marginBottom="@dimen/asus_fab_marginBottom" app:color="@color/asus_contacts2_fab_color" app:drawable="@drawable/asus_contacts2_ic_add" />
+        </FrameLayout>
+    </LinearLayout>
+    <include android:id="@id/contact_tile_list_empty" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/group_detail_fragment_empty_view" />
+</FrameLayout>

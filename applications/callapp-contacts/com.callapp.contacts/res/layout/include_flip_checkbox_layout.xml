@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.callapp.contacts.widget.DualCirclesCheckBox android:layout_gravity="center" android:id="@id/check_mark" android:padding="0.0dip" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:checked="true" android:button="@drawable/ic_match_list" android:scaleType="centerCrop" app:dc_outer_circle_color="@color/transparent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

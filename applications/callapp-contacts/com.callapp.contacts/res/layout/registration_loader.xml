@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_loader" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dimen_24_dp" android:textColor="@color/white_callapp" android:gravity="center" android:layout_gravity="center" android:id="@id/loader_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_76_dp" android:layout_centerHorizontal="true" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ProgressBar android:id="@id/loader_progress_bar" android:layout_width="@dimen/dimen_120_dp" android:layout_height="@dimen/dimen_120_dp" android:tint="@color/colorPrimary" />
+        <CheckBox android:enabled="false" android:id="@id/loaderCheckBox" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@drawable/toggle" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+    </FrameLayout>
+</RelativeLayout>

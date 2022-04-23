@@ -1,0 +1,2171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActionBarStyle" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid">
+        <item name="android:background">@color/actionbar_bg_color</item>
+        <item name="android:titleTextStyle">@style/AmaxTitleTextStyle</item>
+    </style>
+    <style name="ActionBarTitleTextStyle" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title.Inverse" />
+    <style name="ActionBarTwoColumnStyle" parent="@style/ActionBarStyle">
+        <item name="android:titleTextStyle">@style/AmaxTwoColumnTitleTextStyle</item>
+        <item name="android:subtitleTextStyle">@style/AmaxSubTitleTextStyle</item>
+    </style>
+    <style name="AddPickerStyle" parent="@style/ContactsWidgetTheme" />
+    <style name="AmaxActionMenuTextAppearance" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Menu">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/asus_contacts2_statusbar_bg_color</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="AmaxActionbarBaseTheme" parent="@style/BaseListAttributesTheme">
+        <item name="android:actionModeBackground">@android:color/transparent</item>
+    </style>
+    <style name="AmaxAsusActionButtonStyle" parent="@android:style/Widget.DeviceDefault.ActionButton">
+        <item name="android:padding">0.0dip</item>
+        <item name="android:minWidth">48.0dip</item>
+    </style>
+    <style name="AmaxAsusActionMenuTextAppearance">
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="AmaxAsusGroupEditorActivityTheme" parent="@style/AmaxEditorActivityTheme">
+        <item name="list_item_contacts_count_text_size">@dimen/asus_list_item_second_text_size</item>
+        <item name="list_item_contacts_name_text_size">@dimen/asus_list_item_main_text_size</item>
+    </style>
+    <style name="AmaxAsusMultiplePickerTheme" parent="@style/AmaxActionbarBaseTheme" />
+    <style name="AmaxCallDetailActivityTheme" parent="@style/AmaxActionbarBaseTheme">
+        <item name="call_log_header_color">#ff33b5e5</item>
+        <item name="call_log_primary_background_color">#ff000000</item>
+        <item name="call_log_primary_text_color">#ffffffff</item>
+        <item name="call_log_secondary_background_color">#ff333333</item>
+        <item name="call_log_secondary_text_color">#ffffffff</item>
+        <item name="call_log_voicemail_status_action_text_color">#ff33b5e5</item>
+        <item name="call_log_voicemail_status_background_color">#ff262626</item>
+        <item name="call_log_voicemail_status_height">48.0dip</item>
+        <item name="call_log_voicemail_status_text_color">#ff888888</item>
+    </style>
+    <style name="AmaxCallguardBlockActivity" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoDisplay">true</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    <style name="AmaxContactDetailCallogActivityTheme" parent="@style/AmaxActionbarBaseTheme">
+        <item name="android:actionBarStyle">@style/ActionBarTwoColumnStyle</item>
+    </style>
+    <style name="AmaxContactDetailTabTextStyle">
+        <item name="android:textSize">@dimen/contact_detail_tab_text_size</item>
+        <item name="android:textColor">@color/contact_detail_tab_selector</item>
+    </style>
+    <style name="AmaxContactDetailUpdatesTextStyle">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AmaxCustomBlackOverflow" parent="@android:style/Widget.DeviceDefault.ActionButton.Overflow">
+        <item name="android:padding">0.0dip</item>
+        <item name="android:src">@drawable/asus_contacts2_ic_menu_b</item>
+        <item name="android:tint">@color/asus_contacts2_statusbar_bg_color</item>
+        <item name="android:minWidth">48.0dip</item>
+    </style>
+    <style name="AmaxCustomOverflow" parent="@android:style/Widget.DeviceDefault.ActionButton.Overflow">
+        <item name="android:padding">0.0dip</item>
+        <item name="android:src">@drawable/asus_contacts2_ic_menu_b</item>
+        <item name="android:tint">@color/asus_contacts_white_icon_color</item>
+        <item name="android:minWidth">48.0dip</item>
+    </style>
+    <style name="AmaxCustomOverflowForDialtact" parent="@android:style/Widget.DeviceDefault.ActionButton.Overflow">
+        <item name="android:padding">0.0dip</item>
+        <item name="android:src">@drawable/asus_contacts2_ic_menu_b</item>
+        <item name="android:tint">@color/statusbar_bg_color</item>
+        <item name="android:minWidth">48.0dip</item>
+        <item name="android:contentDescription">@string/accessibility_overflow</item>
+    </style>
+    <style name="AmaxDetailActivityBlackTheme" parent="@style/AmaxActionbarBaseTheme">
+        <item name="android:actionBarStyle">@style/DetailActionBarStyle</item>
+        <item name="android:actionButtonStyle">@style/AmaxAsusActionButtonStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/AmaxCustomBlackOverflow</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="contact_browser_list_padding_left">0.0dip</item>
+    </style>
+    <style name="AmaxDetailActivityTheme" parent="@style/AmaxActionbarBaseTheme">
+        <item name="android:actionBarStyle">@style/DetailActionBarStyle</item>
+        <item name="android:actionButtonStyle">@style/AmaxAsusActionButtonStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/AmaxCustomOverflow</item>
+        <item name="android:actionMenuTextColor">#ffffffff</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="contact_browser_list_padding_left">0.0dip</item>
+    </style>
+    <style name="AmaxDialerActionBarTabBarStyle" parent="@android:style/Widget.ActionBar.TabBar">
+        <item name="android:divider">@null</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">12.0dip</item>
+    </style>
+    <style name="AmaxDialtactTitleTextStyle" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/actionbar_bg_color</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">0.0</item>
+    </style>
+    <style name="AmaxDialtactsActionBarStyle" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:displayOptions">showTitle</item>
+        <item name="android:titleTextStyle">@style/AmaxDialtactTitleTextStyle</item>
+        <item name="android:backgroundStacked">@null</item>
+        <item name="android:backgroundSplit">@null</item>
+    </style>
+    <style name="AmaxDialtactsActionBarStyleWithTabTitle" parent="@android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:height">@dimen/asus_dialtact_action_bar_height</item>
+        <item name="android:displayOptions">showTitle</item>
+        <item name="android:titleTextStyle">@style/AmaxDialtactTitleTextStyle</item>
+        <item name="android:backgroundStacked">@null</item>
+        <item name="android:backgroundSplit">@null</item>
+    </style>
+    <style name="AmaxDialtactsActionBarTabStyle" parent="@android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/AmaxTitleTextStyle</item>
+        <item name="android:backgroundStacked">@null</item>
+        <item name="android:backgroundSplit">@null</item>
+    </style>
+    <style name="AmaxDialtactsTheme" parent="@style/AmaxActionbarBaseTheme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDisablePreview">false</item>
+        <item name="android:actionBarStyle">@style/AmaxDialtactsActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:actionBarTabStyle">@style/AmaxDialtactsActionBarTabStyle</item>
+        <item name="android:actionBarTabBarStyle">@style/AmaxDialerActionBarTabBarStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/AmaxCustomOverflowForDialtact</item>
+        <item name="list_item_height">@dimen/contact_browser_list_item_size_for_contact_list</item>
+        <item name="list_item_padding_right">0.0dip</item>
+    </style>
+    <style name="AmaxDialtactsThemeWithTabTitle" parent="@style/AmaxActionbarBaseTheme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@style/AmaxDialtactsActionBarStyleWithTabTitle</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:actionBarTabStyle">@style/AmaxDialtactsActionBarTabStyle</item>
+        <item name="android:actionBarTabBarStyle">@style/AmaxDialerActionBarTabBarStyle</item>
+    </style>
+    <style name="AmaxEditorActivityTheme" parent="@style/AmaxActionbarBaseTheme">
+        <item name="android:actionModeBackground">@android:color/transparent</item>
+        <item name="android:actionOverflowButtonStyle">@style/AmaxCustomOverflowForDialtact</item>
+    </style>
+    <style name="AmaxEzDialtactsActionBarStyle" parent="@style/AmaxDialtactsActionBarStyle">
+        <item name="android:titleTextStyle">@style/AmaxTitleTextStyle</item>
+    </style>
+    <style name="AmaxEzDialtactsTheme" parent="@style/AmaxDialtactsTheme">
+        <item name="android:actionBarStyle">@style/AmaxEzDialtactsActionBarStyle</item>
+    </style>
+    <style name="AmaxGroupDetailMemberSizeTextStyle">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">@color/group_detail_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AmaxHeaderTextStyle">
+        <item name="android:textSize">@dimen/asus_list_item_header_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/asus_list_header_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">center|left</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="AmaxIpCallSettingActivityTheme" parent="@style/AmaxActionbarBaseTheme">
+        <item name="android:actionBarStyle">@style/AmaxSettingActionBarStyle</item>
+        <item name="android:actionModeBackground">@android:color/transparent</item>
+    </style>
+    <style name="AmaxLinkContactActivityTheme" parent="@style/AmaxActionbarBaseTheme">
+        <item name="contact_browser_background">@android:color/white</item>
+    </style>
+    <style name="AmaxListButtonTextStyle">
+        <item name="android:textSize">@dimen/separate_all_btn_text_size</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="AmaxListMainTextStyle">
+        <item name="android:textSize">@dimen/asus_list_item_main_text_size</item>
+        <item name="android:textColor">@color/asus_primary_text_color</item>
+    </style>
+    <style name="AmaxListSecondTextStyle">
+        <item name="android:textSize">@dimen/asus_list_item_second_text_size</item>
+        <item name="android:textColor">@color/asus_second_text_color_n</item>
+    </style>
+    <style name="AmaxOdmAsusActionButtonStyle" parent="@android:style/Widget.DeviceDefault.ActionButton">
+        <item name="android:padding">0.0dip</item>
+        <item name="android:minWidth">48.0dip</item>
+    </style>
+    <style name="AmaxOdmGroupDetailActivityTheme" parent="@style/AmaxActionbarBaseTheme">
+        <item name="android:actionButtonStyle">@style/AmaxOdmAsusActionButtonStyle</item>
+        <item name="android:actionMenuTextColor">@color/asus_contacts2_statusbar_bg_color</item>
+        <item name="contact_browser_list_padding_left">0.0dip</item>
+    </style>
+    <style name="AmaxPickerBaseTheme" parent="@style/PeopleTheme">
+        <item name="android:actionModeBackground">@android:color/transparent</item>
+    </style>
+    <style name="AmaxSettingActionBarStyle" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:titleTextStyle">@style/AmaxTitleTextStyle</item>
+    </style>
+    <style name="AmaxSubTitleTextStyle">
+        <item name="android:textColor">@color/asus_contacts2_statusbar_bg_color</item>
+    </style>
+    <style name="AmaxTitleTextStyle">
+        <item name="android:textSize">@dimen/amax_actionbar_title_size</item>
+        <item name="android:textColor">@color/asus_contacts2_statusbar_bg_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="AmaxTwoColumnTitleTextStyle" parent="@style/AmaxTitleTextStyle">
+        <item name="android:textSize">@dimen/amax_actionbar_two_column_title_size</item>
+    </style>
+    <style name="AsusActionButtonStyle" parent="@android:style/Widget.DeviceDefault.ActionButton">
+        <item name="android:padding">0.0dip</item>
+        <item name="android:minWidth">48.0dip</item>
+    </style>
+    <style name="AsusActionMenuTextAppearance" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Menu">
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="AsusBlockListFilterTextStyle" parent="@style/AsusGroupFilterTextStyle">
+        <item name="android:textSize">@dimen/block_list_spinner_text_size</item>
+        <item name="android:textColor">#ff505050</item>
+    </style>
+    <style name="AsusCallGuardTutorialActivityTheme" parent="@style/AmaxActionbarBaseTheme">
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+    </style>
+    <style name="AsusContactDetailItemDataTextViewStyle">
+        <item name="android:textSize">@dimen/asus_contact_detail_time_data_text_size</item>
+        <item name="android:textColor">@color/amax_split_section_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="AsusContactDetailItemHeaderTextViewStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff777777</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AsusContactDetailItemTypeTextViewStyle">
+        <item name="android:textSize">@dimen/asus_list_item_second_text_size</item>
+        <item name="android:textColor">@color/asus_second_text_color_n</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="AsusContactFilterStyle" parent="@android:style/Widget.DeviceDefault.Light.Spinner">
+        <item name="android:textSize">@dimen/asus_list_item_header_text_size</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:background">@drawable/asus_contacts2_spinner_default_light</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">6.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="AsusContactListFilerTextAppearance" parent="@android:style/TextAppearance" />
+    <style name="AsusContactListFilerTextAppearance.Medium" parent="@style/AsusContactListFilerTextAppearance">
+        <item name="android:textSize">@dimen/asus_list_item_main_text_size</item>
+    </style>
+    <style name="AsusContactListFilerTextAppearance.Small" parent="@style/AsusContactListFilerTextAppearance">
+        <item name="android:textSize">@dimen/asus_list_item_second_text_size</item>
+        <item name="android:textColor">@color/asus_second_text_color_n</item>
+    </style>
+    <style name="AsusContactListTextViewSmallStyle" parent="@style/AsusContactListTextViewStyle">
+        <item name="android:textSize">@dimen/asus_list_filter_small_text_size</item>
+    </style>
+    <style name="AsusContactListTextViewStyle">
+        <item name="android:textSize">@dimen/asus_list_filter_text_size</item>
+        <item name="android:textColor">@color/asus_primary_text_color</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/list_section_divider_min_height</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AsusContactPickerTheme" parent="@style/EditorActivityTheme">
+        <item name="contact_browser_background">@android:color/white</item>
+        <item name="contact_browser_list_padding_left">0.0dip</item>
+        <item name="contact_browser_list_padding_right">0.0dip</item>
+        <item name="list_item_call_button_padding">14.0dip</item>
+        <item name="list_item_contacts_count_text_color">@color/contact_count_text_color</item>
+        <item name="list_item_contacts_count_text_size">@dimen/asus_list_item_second_text_size</item>
+        <item name="list_item_divider">?android:listDivider</item>
+        <item name="list_item_gap_between_image_and_text">8.0dip</item>
+        <item name="list_item_gap_between_label_and_data">5.0dip</item>
+        <item name="list_item_header_height">@dimen/asus_header_height</item>
+        <item name="list_item_header_text_color">@color/people_app_theme_color</item>
+        <item name="list_item_header_text_indent">8.0dip</item>
+        <item name="list_item_header_text_size">14.0sp</item>
+        <item name="list_item_header_underline_color">@color/amax_header_divider_color</item>
+        <item name="list_item_header_underline_height">1.0dip</item>
+        <item name="list_item_height">@dimen/contact_browser_list_item_photo_size</item>
+        <item name="list_item_padding_bottom">0.0dip</item>
+        <item name="list_item_padding_left">0.0dip</item>
+        <item name="list_item_padding_right">0.0dip</item>
+        <item name="list_item_padding_top">0.0dip</item>
+        <item name="list_item_photo_size">@dimen/contact_browser_list_item_photo_size</item>
+        <item name="list_item_presence_icon_margin">4.0dip</item>
+        <item name="list_item_profile_photo_size">70.0dip</item>
+        <item name="list_item_text_indent">@dimen/contact_browser_list_item_text_indent</item>
+        <item name="section_header_background">@drawable/list_title_holo</item>
+    </style>
+    <style name="AsusContactTileNameTextStyle">
+        <item name="android:textSize">@dimen/asus_favorite_name_text_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AsusGroupEditorActivityTheme" parent="@style/AsusContactPickerTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:titleTextStyle">@style/AsusTitleTextStyle</item>
+        <item name="android:actionMenuTextAppearance">@style/AsusActionMenuTextAppearance</item>
+        <item name="list_item_contacts_count_text_size">@dimen/asus_list_item_second_text_size</item>
+        <item name="list_item_contacts_name_text_size">@dimen/asus_list_item_main_text_size</item>
+    </style>
+    <style name="AsusGroupFilterSmallTextStyle" parent="@style/AsusGroupFilterTextStyle">
+        <item name="android:textSize">@dimen/asus_group_filter_small_text_size</item>
+        <item name="android:textColor">@color/group_detail_text_color</item>
+    </style>
+    <style name="AsusGroupFilterStyle" parent="@android:style/Widget.DeviceDefault.Light.Spinner">
+        <item name="android:background">@drawable/asus_contacts2_group_fiter_spinner</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="AsusGroupFilterTextStyle">
+        <item name="android:textSize">@dimen/asus_group_filter_text_size</item>
+        <item name="android:textColor">@color/group_detail_text_color</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AsusGroupHeaderAccountNameTextViewStyle">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/asus_list_header_text_color</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AsusGroupHeaderTitleTextViewStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/asus_list_header_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.5</item>
+    </style>
+    <style name="AsusGroupListItemMembersTextViewStyle">
+        <item name="android:textSize">@dimen/asus_list_item_second_text_size</item>
+        <item name="android:textColor">@color/asus_contacts2_theme_second_text_color_n</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AsusGroupListItemTitleTextViewStyle">
+        <item name="android:textSize">@dimen/asus_list_item_main_text_size</item>
+        <item name="android:textColor">@color/asus_contacts2_theme_primary_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="AsusGroupListPageTitleTextViewStyle">
+        <item name="android:textSize">@dimen/asus_group_list_page_title_text_size</item>
+        <item name="android:textColor">@color/asus_contacts2_theme_primary_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">@color/group_list_action_text_shadow</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">0.0</item>
+    </style>
+    <style name="AsusHeaderTextViewStyle" parent="@style/AsusListHeaderText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/asus_list_header_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/asus_header_height</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="AsusListHeaderText">
+        <item name="android:textSize">@dimen/asus_list_item_header_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/asus_list_header_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">center|left</item>
+        <item name="android:paddingLeft">?list_item_text_indent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="AsusListHeaderText_Widget">
+        <item name="android:textSize">@dimen/asus_list_item_header_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/asus_list_header_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">center|left</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AsusManageContactTheme" parent="@style/AmaxActionbarBaseTheme">
+        <item name="android:actionButtonStyle">@style/AmaxAsusActionButtonStyle</item>
+    </style>
+    <style name="AsusMultiplePickerTheme" parent="@style/AmaxActionbarBaseTheme" />
+    <style name="AsusSendContactsTheme" parent="@style/AsusMultiplePickerTheme" />
+    <style name="AsusStreamItemAttributeTextStyle">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ff616161</item>
+    </style>
+    <style name="AsusStreamItemCommentTextStyle">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">#ff616161</item>
+    </style>
+    <style name="AsusStreamItemHtmlTextStyle">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="AsusTitleTextStyle" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">18.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">0.0</item>
+    </style>
+    <style name="AsusUpdateSdkTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:actionBarStyle">@style/ud_sdk_ActionBarStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ud_sdk_asus_ic_up</item>
+    </style>
+    <style name="AsusYellowPageAdsTheme" parent="@style/AmaxActionbarBaseTheme">
+        <item name="android:textColorSecondary">@color/dialtacts_secondary_text_color</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:actionOverflowButtonStyle">@style/AmaxCustomBlackOverflow</item>
+    </style>
+    <style name="AsusYellowPageBusinessPrimaryTextStyle">
+        <item name="android:textSize">@dimen/asus_yp_business_primary_text_size</item>
+        <item name="android:textColor">@color/asus_yp_list_primary_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AsusYellowPageBusinessSecondaryTextStyle">
+        <item name="android:textSize">@dimen/asus_yp_business_secondary_text_size</item>
+        <item name="android:textColor">@color/asus_yp_list_secondary_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AsusYellowPageBusinessSourceTextStyle">
+        <item name="android:textSize">@dimen/asus_yp_business_source_text_size</item>
+        <item name="android:textColor">@color/asus_yp_list_source_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AsusYellowPageCategoryTextStyle">
+        <item name="android:textSize">@dimen/asus_yp_category_text_size</item>
+        <item name="android:textColor">@color/asus_yp_category_text_color</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AsusYellowPageDetailActionTextStyle">
+        <item name="android:textSize">@dimen/asus_yp_detail_action_text_size</item>
+        <item name="android:textColor">@color/asus_yp_detail_action_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AsusYellowPageHorizontalLine">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">#ffe3e3e3</item>
+        <item name="android:layout_width">330.0dip</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+    <style name="AsusYellowPageListHeaderTextStyle">
+        <item name="android:textSize">@dimen/asus_yp_list_header_text_size</item>
+        <item name="android:textColor">@color/asus_yp_list_header_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="AsusYellowPageQuickSearchTextStyle">
+        <item name="android:textSize">@dimen/asus_yp_quick_search_text_size</item>
+        <item name="android:textColor">@color/asus_yp_quick_search_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+    </style>
+    <style name="AsusYellowPageSpinnerTextStyle">
+        <item name="android:textSize">@dimen/asus_list_item_header_text_size</item>
+        <item name="android:textColor">@color/asus_yp_spinner_text_color</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">6.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="AsusYellowPageStarRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:maxWidth">100.0dip</item>
+        <item name="android:maxHeight">11.0dip</item>
+        <item name="android:progressDrawable">@drawable/yp_ratingbar_selector</item>
+        <item name="android:minWidth">100.0dip</item>
+        <item name="android:minHeight">11.0dip</item>
+    </style>
+    <style name="AsusYellowPageTwoColumnItemTextStyle">
+        <item name="android:textSize">@dimen/asus_yp_two_item_text_size</item>
+        <item name="android:textColor">@color/asus_yp_list_primary_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="BackgroundOnlyTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+    <style name="Base.Preference.AsusRes" parent="">
+        <item name="android:layout">@layout/asusres_preference_material</item>
+    </style>
+    <style name="Base.Preference.AsusRes.Category" parent="@style/Base.Preference.AsusRes">
+        <item name="android:layout">@layout/asusres_preference_category_material</item>
+        <item name="android:selectable">false</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+    <style name="Base.Preference.AsusRes.Light" parent="@style/Base.Preference.AsusRes" />
+    <style name="Base.Preference.AsusRes.Light.Category" parent="@style/Base.Preference.AsusRes.Category" />
+    <style name="Base.TextAppearance.AsusRes.Medium" parent="@android:style/TextAppearance.Material.Subhead">
+        <item name="android:textSize">@dimen/asusres_text_size_medium</item>
+        <item name="android:fontFamily">@string/asusres_font_family_list</item>
+    </style>
+    <style name="Base.TextAppearance.AsusRes.Secondary" parent="@android:style/TextAppearance.Material.Body1">
+        <item name="android:textSize">@dimen/asusres_text_size_small</item>
+        <item name="android:textColor">?android:textColorTertiary</item>
+        <item name="android:fontFamily">@string/asusres_font_family_list</item>
+    </style>
+    <style name="Base.TextAppearance.AsusRes.Small" parent="@android:style/TextAppearance.Material.Subhead">
+        <item name="android:textSize">@dimen/asusres_text_size_medium</item>
+        <item name="android:fontFamily">@string/asusres_font_family_list</item>
+    </style>
+    <style name="Base.TextAppearance.AsusRes.Widget.ActionBar.Subtitle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle">
+        <item name="android:textSize">@dimen/asusres_actionbar_subtitle_text_size</item>
+        <item name="android:fontFamily">@string/asusres_font_family_subtitle</item>
+    </style>
+    <style name="Base.TextAppearance.AsusRes.Widget.ActionBar.Subtitle.GradientBg" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle">
+        <item name="android:textSize">@dimen/asusres_actionbar_subtitle_text_size</item>
+        <item name="android:textColor">?actionBarItemColor</item>
+        <item name="android:fontFamily">@string/asusres_font_family_subtitle</item>
+    </style>
+    <style name="Base.TextAppearance.AsusRes.Widget.ActionBar.Title" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/asusres_actionbar_title_text_size</item>
+        <item name="android:textColor">?actionBarItemColor</item>
+        <item name="android:fontFamily">@string/asusres_font_family_ab_title</item>
+    </style>
+    <style name="Base.TextAppearance.AsusRes.Widget.ActionBar.Title.Oneline" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/asusres_actionbar_title_text_size_oneline</item>
+        <item name="android:textColor">?actionBarItemColor</item>
+        <item name="android:fontFamily">@string/asusres_font_family_ab_title</item>
+    </style>
+    <style name="Base.TextAppearance.AsusRes.Widget.ActionMode.Subtitle" parent="@android:style/TextAppearance.Material.Widget.ActionMode.Subtitle">
+        <item name="android:textSize">@dimen/asusres_actionmode_subtitle_text_size</item>
+        <item name="android:fontFamily">@string/asusres_font_family_subtitle</item>
+    </style>
+    <style name="Base.TextAppearance.AsusRes.Widget.ActionMode.Subtitle.GradientBg" parent="@android:style/TextAppearance.Material.Widget.ActionMode.Subtitle">
+        <item name="android:textSize">@dimen/asusres_actionmode_subtitle_text_size</item>
+        <item name="android:textColor">?actionBarItemColor</item>
+        <item name="android:fontFamily">@string/asusres_font_family_subtitle</item>
+    </style>
+    <style name="Base.TextAppearance.AsusRes.Widget.ActionMode.Title" parent="@android:style/TextAppearance.Material.Widget.ActionMode.Title">
+        <item name="android:textSize">@dimen/asusres_actionmode_title_text_size</item>
+        <item name="android:fontFamily">@string/asusres_font_family_am_title</item>
+    </style>
+    <style name="Base.TextAppearance.AsusRes.Widget.Button" parent="@android:style/TextAppearance.Material.Widget.Button">
+        <item name="android:textSize">@dimen/asusres_button_text_size</item>
+        <item name="android:textColor">@color/asusres_button_textcolor_dark</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/asusres_font_family_button</item>
+    </style>
+    <style name="Base.TextAppearance.AsusRes.Widget.Button.Small" parent="@android:style/TextAppearance.Holo.Small">
+        <item name="android:textSize">@dimen/asusres_button_text_size</item>
+        <item name="android:textColor">@color/asusres_button_textcolor_dark</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/asusres_font_family_button</item>
+    </style>
+    <style name="Base.TextAppearance.AsusRes.Widget.Light.Button" parent="@android:style/TextAppearance.Material.Widget.Button">
+        <item name="android:textSize">@dimen/asusres_button_text_size</item>
+        <item name="android:textColor">@color/asusres_button_textcolor_light</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/asusres_font_family_button</item>
+    </style>
+    <style name="Base.TextAppearance.AsusRes.Widget.Light.Button.Small" parent="@android:style/TextAppearance.Holo.Small">
+        <item name="android:textSize">@dimen/asusres_button_text_size</item>
+        <item name="android:textColor">@color/asusres_button_textcolor_light</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/asusres_font_family_button</item>
+    </style>
+    <style name="Base.TextAppearance.AsusRes.Widget.PopupMenu.Large" parent="@android:style/TextAppearance.Material.Widget.PopupMenu.Large">
+        <item name="android:textColor">@color/asusres_primary_text_material_light</item>
+    </style>
+    <style name="Base.Theme.AsusRes" parent="@style/Base.V21.Theme.AsusRes" />
+    <style name="Base.Theme.AsusRes.Dialog" parent="@style/Base.V21.Theme.AsusRes.Dialog" />
+    <style name="Base.Theme.AsusRes.Dialog.Alert" parent="@style/Base.V21.Theme.AsusRes.Dialog.Alert" />
+    <style name="Base.Theme.AsusRes.Light" parent="@style/Base.V21.Theme.AsusRes.Light" />
+    <style name="Base.Theme.AsusRes.Light.DarkActionBar" parent="@style/Base.Theme.AsusRes.Light">
+        <item name="android:actionModeBackground">@color/asusres_window_bg_dark</item>
+        <item name="android:actionBarTheme">@style/ThemeOverlay.AsusRes.Dark.ActionBar</item>
+        <item name="android:colorPrimary">@color/asusres_window_bg_dark</item>
+        <item name="android:colorPrimaryDark">@color/asusres_window_bg_dark</item>
+        <item name="android:popupTheme">@android:style/ThemeOverlay.Material.Light</item>
+    </style>
+    <style name="Base.Theme.AsusRes.Light.Dialog" parent="@style/Base.V21.Theme.AsusRes.Light.Dialog" />
+    <style name="Base.Theme.AsusRes.Light.Dialog.Alert" parent="@style/Base.V21.Theme.AsusRes.Light.Dialog.Alert" />
+    <style name="Base.Theme.AsusRes.Light.GradientBg" parent="@style/Base.Theme.AsusRes.Light.DarkActionBar">
+        <item name="android:windowBackground">@drawable/asusres_gradient_bg_mtrl</item>
+        <item name="android:expandableListViewStyle">@style/Widget.AsusRes.Light.ExpandableListView.GradientBg</item>
+        <item name="android:listViewStyle">@style/Widget.AsusRes.Light.ListView.GradientBg</item>
+        <item name="android:scrollViewStyle">@style/Widget.AsusRes.Light.ScrollView.GradientBg</item>
+        <item name="android:actionBarStyle">@style/Widget.AsusRes.Light.ActionBar.Solid.GradientBg</item>
+        <item name="android:actionModeBackground">@android:color/transparent</item>
+        <item name="android:actionBarTabTextStyle">@style/Widget.AsusRes.Light.ActionBar.TabText</item>
+        <item name="android:actionModeStyle">@style/Widget.AsusRes.Light.ActionMode.GradientBg</item>
+        <item name="android:actionBarTheme">@style/ThemeOverlay.AsusRes.Dark.ActionBar.GradientBg</item>
+        <item name="android:colorPrimary">@android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
+    </style>
+    <style name="Base.ThemeOverlay.AsusRes.ActionBar" parent="@android:style/ThemeOverlay.Material.ActionBar">
+        <item name="android:spinnerItemStyle">@style/Widget.AsusRes.TextView.SpinnerItem.ActionBar</item>
+    </style>
+    <style name="Base.ThemeOverlay.AsusRes.Dark.ActionBar" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
+        <item name="android:colorBackground">@color/asusres_background_material_light</item>
+        <item name="android:spinnerDropDownItemStyle">@style/Widget.AsusRes.DropDownItem.Spinner</item>
+        <item name="android:spinnerItemStyle">@style/Widget.AsusRes.Light.TextView.SpinnerItem.ActionBar</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/TextAppearance.AsusRes.Widget.PopupMenu.Large</item>
+        <item name="android:colorControlHighlight">@color/asusres_ripple_material_light</item>
+    </style>
+    <style name="Base.ThemeOverlay.AsusRes.Dark.ActionBar.GradientBg" parent="@style/Base.ThemeOverlay.AsusRes.Dark.ActionBar">
+        <item name="actionBarItemColor">@android:color/white</item>
+    </style>
+    <style name="Base.ThemeOverlay.AsusRes.Light.ActionBar" parent="@android:style/ThemeOverlay.Material.ActionBar">
+        <item name="android:spinnerItemStyle">@style/Widget.AsusRes.Light.TextView.SpinnerItem.ActionBar</item>
+    </style>
+    <style name="Base.V11.Theme.AsusRes" parent="@style/Base.V7.Theme.AsusRes">
+        <item name="android:actionBarStyle">@style/Widget.AsusRes.ActionBar.Solid</item>
+        <item name="android:dropDownSpinnerStyle">@style/Widget.AsusRes.Spinner.DropDown</item>
+        <item name="android:actionDropDownStyle">@style/Widget.AsusRes.Spinner.DropDown.ActionBar</item>
+        <item name="android:actionModeBackground">@color/asusres_window_bg_dark</item>
+        <item name="android:actionModeCloseDrawable">@drawable/asusres_ic_ab_back_holo_dark</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.AsusRes.ActionButton.Overflow</item>
+        <item name="android:dialogTheme">@style/Theme.AsusRes.Dialog</item>
+        <item name="android:alertDialogTheme">@style/Theme.AsusRes.Dialog.Alert</item>
+        <item name="android:homeAsUpIndicator">@drawable/asusres_ic_ab_back_holo_dark</item>
+        <item name="android:actionModeCutDrawable">@drawable/asusres_ic_menu_cut_holo_dark</item>
+        <item name="android:actionModeCopyDrawable">@drawable/asusres_ic_menu_copy_holo_dark</item>
+        <item name="android:actionModePasteDrawable">@drawable/asusres_ic_menu_paste_holo_dark</item>
+    </style>
+    <style name="Base.V11.Theme.AsusRes.Dialog" parent="@style/Base.V7.Theme.AsusRes.Dialog">
+        <item name="android:actionBarStyle">@style/Widget.AsusRes.ActionBar.Solid</item>
+        <item name="android:dropDownSpinnerStyle">@style/Widget.AsusRes.Spinner.DropDown</item>
+        <item name="android:actionDropDownStyle">@style/Widget.AsusRes.Spinner.DropDown.ActionBar</item>
+        <item name="android:actionModeBackground">@color/asusres_window_bg_dark</item>
+        <item name="android:actionModeCloseDrawable">@drawable/asusres_ic_ab_back_holo_dark</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.AsusRes.ActionButton.Overflow</item>
+        <item name="android:dialogTheme">@style/Theme.AsusRes.Dialog</item>
+        <item name="android:alertDialogTheme">@style/Theme.AsusRes.Dialog.Alert</item>
+        <item name="android:homeAsUpIndicator">@drawable/asusres_ic_ab_back_holo_dark</item>
+        <item name="android:actionModeCutDrawable">@drawable/asusres_ic_menu_cut_holo_dark</item>
+        <item name="android:actionModeCopyDrawable">@drawable/asusres_ic_menu_copy_holo_dark</item>
+        <item name="android:actionModePasteDrawable">@drawable/asusres_ic_menu_paste_holo_dark</item>
+    </style>
+    <style name="Base.V11.Theme.AsusRes.Dialog.Alert" parent="@style/Base.V7.Theme.AsusRes.Dialog.Alert">
+        <item name="android:actionBarStyle">@style/Widget.AsusRes.ActionBar.Solid</item>
+        <item name="android:dropDownSpinnerStyle">@style/Widget.AsusRes.Spinner.DropDown</item>
+        <item name="android:actionDropDownStyle">@style/Widget.AsusRes.Spinner.DropDown.ActionBar</item>
+        <item name="android:actionModeBackground">@color/asusres_window_bg_dark</item>
+        <item name="android:actionModeCloseDrawable">@drawable/asusres_ic_ab_back_holo_dark</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.AsusRes.ActionButton.Overflow</item>
+        <item name="android:dialogTheme">@style/Theme.AsusRes.Dialog</item>
+        <item name="android:alertDialogTheme">@style/Theme.AsusRes.Dialog.Alert</item>
+        <item name="android:homeAsUpIndicator">@drawable/asusres_ic_ab_back_holo_dark</item>
+        <item name="android:actionModeCutDrawable">@drawable/asusres_ic_menu_cut_holo_dark</item>
+        <item name="android:actionModeCopyDrawable">@drawable/asusres_ic_menu_copy_holo_dark</item>
+        <item name="android:actionModePasteDrawable">@drawable/asusres_ic_menu_paste_holo_dark</item>
+    </style>
+    <style name="Base.V11.Theme.AsusRes.Light" parent="@style/Base.V7.Theme.AsusRes.Light">
+        <item name="android:actionBarStyle">@style/Widget.AsusRes.Light.ActionBar.Solid</item>
+        <item name="android:dropDownSpinnerStyle">@style/Widget.AsusRes.Light.Spinner.DropDown</item>
+        <item name="android:actionDropDownStyle">@style/Widget.AsusRes.Light.Spinner.DropDown.ActionBar</item>
+        <item name="android:actionModeBackground">@color/asusres_window_bg_light</item>
+        <item name="android:actionModeCloseDrawable">@drawable/asusres_ic_ab_back_holo_light</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.AsusRes.Light.ActionButton.Overflow</item>
+        <item name="android:dialogTheme">@style/Theme.AsusRes.Light.Dialog</item>
+        <item name="android:alertDialogTheme">@style/Theme.AsusRes.Light.Dialog.Alert</item>
+        <item name="android:homeAsUpIndicator">@drawable/asusres_ic_ab_back_holo_light</item>
+        <item name="android:actionModeCutDrawable">@drawable/asusres_ic_menu_cut_holo_light</item>
+        <item name="android:actionModeCopyDrawable">@drawable/asusres_ic_menu_copy_holo_light</item>
+        <item name="android:actionModePasteDrawable">@drawable/asusres_ic_menu_paste_holo_light</item>
+    </style>
+    <style name="Base.V11.Theme.AsusRes.Light.Dialog" parent="@style/Base.V7.Theme.AsusRes.Light.Dialog">
+        <item name="android:actionBarStyle">@style/Widget.AsusRes.Light.ActionBar.Solid</item>
+        <item name="android:dropDownSpinnerStyle">@style/Widget.AsusRes.Light.Spinner.DropDown</item>
+        <item name="android:actionDropDownStyle">@style/Widget.AsusRes.Light.Spinner.DropDown.ActionBar</item>
+        <item name="android:actionModeBackground">@color/asusres_window_bg_light</item>
+        <item name="android:actionModeCloseDrawable">@drawable/asusres_ic_ab_back_holo_light</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.AsusRes.Light.ActionButton.Overflow</item>
+        <item name="android:dialogTheme">@style/Theme.AsusRes.Dialog</item>
+        <item name="android:alertDialogTheme">@style/Theme.AsusRes.Light.Dialog.Alert</item>
+        <item name="android:homeAsUpIndicator">@drawable/asusres_ic_ab_back_holo_light</item>
+        <item name="android:actionModeCutDrawable">@drawable/asusres_ic_menu_cut_holo_light</item>
+        <item name="android:actionModeCopyDrawable">@drawable/asusres_ic_menu_copy_holo_light</item>
+        <item name="android:actionModePasteDrawable">@drawable/asusres_ic_menu_paste_holo_light</item>
+    </style>
+    <style name="Base.V11.Theme.AsusRes.Light.Dialog.Alert" parent="@style/Base.V7.Theme.AsusRes.Light.Dialog.Alert">
+        <item name="android:actionBarStyle">@style/Widget.AsusRes.Light.ActionBar.Solid</item>
+        <item name="android:dropDownSpinnerStyle">@style/Widget.AsusRes.Light.Spinner.DropDown</item>
+        <item name="android:actionDropDownStyle">@style/Widget.AsusRes.Light.Spinner.DropDown.ActionBar</item>
+        <item name="android:actionModeBackground">@color/asusres_window_bg_light</item>
+        <item name="android:actionModeCloseDrawable">@drawable/asusres_ic_ab_back_holo_light</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.AsusRes.Light.ActionButton.Overflow</item>
+        <item name="android:dialogTheme">@style/Theme.AsusRes.Dialog</item>
+        <item name="android:alertDialogTheme">@style/Theme.AsusRes.Light.Dialog.Alert</item>
+        <item name="android:homeAsUpIndicator">@drawable/asusres_ic_ab_back_holo_light</item>
+        <item name="android:actionModeCutDrawable">@drawable/asusres_ic_menu_cut_holo_light</item>
+        <item name="android:actionModeCopyDrawable">@drawable/asusres_ic_menu_copy_holo_light</item>
+        <item name="android:actionModePasteDrawable">@drawable/asusres_ic_menu_paste_holo_light</item>
+    </style>
+    <style name="Base.V14.Theme.AsusRes" parent="@style/Base.V11.Theme.AsusRes">
+        <item name="android:actionModeSelectAllDrawable">@drawable/asusres_ic_menu_selectall_holo_dark</item>
+        <item name="android:actionModeStyle">@style/Widget.AsusRes.ActionMode</item>
+        <item name="android:textAppearanceListItem">@style/TextAppearance.AsusRes.Medium</item>
+        <item name="android:textAppearanceListItemSmall">@style/TextAppearance.AsusRes.Small</item>
+    </style>
+    <style name="Base.V14.Theme.AsusRes.Dialog" parent="@style/Base.V11.Theme.AsusRes.Dialog">
+        <item name="android:actionModeSelectAllDrawable">@drawable/asusres_ic_menu_selectall_holo_dark</item>
+        <item name="android:actionModeStyle">@style/Widget.AsusRes.ActionMode</item>
+        <item name="android:textAppearanceListItem">@style/TextAppearance.AsusRes.Medium</item>
+        <item name="android:textAppearanceListItemSmall">@style/TextAppearance.AsusRes.Small</item>
+    </style>
+    <style name="Base.V14.Theme.AsusRes.Dialog.Alert" parent="@style/Base.V11.Theme.AsusRes.Dialog.Alert">
+        <item name="android:actionModeSelectAllDrawable">@drawable/asusres_ic_menu_selectall_holo_dark</item>
+        <item name="android:actionModeStyle">@style/Widget.AsusRes.ActionMode</item>
+        <item name="android:textAppearanceListItem">@style/TextAppearance.AsusRes.Medium</item>
+        <item name="android:textAppearanceListItemSmall">@style/TextAppearance.AsusRes.Small</item>
+    </style>
+    <style name="Base.V14.Theme.AsusRes.Light" parent="@style/Base.V11.Theme.AsusRes.Light">
+        <item name="android:actionModeSelectAllDrawable">@drawable/asusres_ic_menu_selectall_holo_light</item>
+        <item name="android:actionModeStyle">@style/Widget.AsusRes.Light.ActionMode</item>
+        <item name="android:textAppearanceListItem">@style/TextAppearance.AsusRes.Medium</item>
+        <item name="android:textAppearanceListItemSmall">@style/TextAppearance.AsusRes.Medium</item>
+    </style>
+    <style name="Base.V14.Theme.AsusRes.Light.Dialog" parent="@style/Base.V11.Theme.AsusRes.Light.Dialog">
+        <item name="android:actionModeSelectAllDrawable">@drawable/asusres_ic_menu_selectall_holo_light</item>
+        <item name="android:actionModeStyle">@style/Widget.AsusRes.Light.ActionMode</item>
+        <item name="android:textAppearanceListItem">@style/TextAppearance.AsusRes.Medium</item>
+        <item name="android:textAppearanceListItemSmall">@style/TextAppearance.AsusRes.Small</item>
+    </style>
+    <style name="Base.V14.Theme.AsusRes.Light.Dialog.Alert" parent="@style/Base.V11.Theme.AsusRes.Light.Dialog.Alert">
+        <item name="android:actionModeSelectAllDrawable">@drawable/asusres_ic_menu_selectall_holo_light</item>
+        <item name="android:actionModeStyle">@style/Widget.AsusRes.Light.ActionMode</item>
+        <item name="android:textAppearanceListItem">@style/TextAppearance.AsusRes.Medium</item>
+        <item name="android:textAppearanceListItemSmall">@style/TextAppearance.AsusRes.Small</item>
+    </style>
+    <style name="Base.V21.Theme.AsusRes" parent="@style/Base.V14.Theme.AsusRes">
+        <item name="android:listDivider">@drawable/asusres_list_divider_with_padding_material</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/asusres_btn_radio_material_anim_dark</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/asusres_btn_check_material_anim_dark</item>
+        <item name="android:actionModeCloseDrawable">@drawable/asusres_ic_ab_back_material</item>
+        <item name="android:dividerVertical">@drawable/asusres_list_divider_material</item>
+        <item name="android:homeAsUpIndicator">@drawable/asusres_ic_ab_back_material</item>
+        <item name="android:actionModeCutDrawable">@drawable/asusres_ic_menu_cut_material</item>
+        <item name="android:actionModeCopyDrawable">@drawable/asusres_ic_menu_copy_material</item>
+        <item name="android:actionModePasteDrawable">@drawable/asusres_ic_menu_paste_material</item>
+        <item name="android:dividerHorizontal">@drawable/asusres_list_divider_material</item>
+        <item name="android:editTextBackground">@drawable/asusres_edit_text_material_dark</item>
+        <item name="android:actionModeSelectAllDrawable">@drawable/asusres_ic_menu_selectall_material</item>
+        <item name="android:actionBarTheme">@style/ThemeOverlay.AsusRes.ActionBar</item>
+        <item name="android:textAppearanceListItemSecondary">@style/TextAppearance.AsusRes.Secondary</item>
+        <item name="android:colorPrimary">@color/asusres_window_bg_dark</item>
+        <item name="android:colorAccent">@color/asusres_accent_material_light</item>
+        <item name="android:switchStyle">@style/Widget.AsusRes.CompoundButton.Switch</item>
+        <item name="android:actionModeShareDrawable">@drawable/asusres_ic_menu_share_material</item>
+        <item name="android:actionModeWebSearchDrawable">@drawable/asusres_ic_menu_search_material</item>
+        <item name="android:searchViewStyle">@style/Widget.AsusRes.SearchView</item>
+        <item name="android:toolbarStyle">@style/Widget.AsusRes.Toolbar</item>
+        <item name="actionBarItemColor">?android:colorAccent</item>
+    </style>
+    <style name="Base.V21.Theme.AsusRes.Dialog" parent="@style/Base.V14.Theme.AsusRes.Dialog">
+        <item name="android:listDivider">@drawable/asusres_list_divider_with_padding_material</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/asusres_btn_radio_material_anim_dark</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/asusres_btn_check_material_anim_dark</item>
+        <item name="android:actionModeCloseDrawable">@drawable/asusres_ic_ab_back_material</item>
+        <item name="android:dividerVertical">@drawable/asusres_list_divider_material</item>
+        <item name="android:homeAsUpIndicator">@drawable/asusres_ic_ab_back_material</item>
+        <item name="android:actionModeCutDrawable">@drawable/asusres_ic_menu_cut_material</item>
+        <item name="android:actionModeCopyDrawable">@drawable/asusres_ic_menu_copy_material</item>
+        <item name="android:actionModePasteDrawable">@drawable/asusres_ic_menu_paste_material</item>
+        <item name="android:dividerHorizontal">@drawable/asusres_list_divider_material</item>
+        <item name="android:editTextBackground">@drawable/asusres_edit_text_material_dark</item>
+        <item name="android:actionModeSelectAllDrawable">@drawable/asusres_ic_menu_selectall_material</item>
+        <item name="android:textAppearanceListItemSecondary">@style/TextAppearance.AsusRes.Secondary</item>
+        <item name="android:colorAccent">@color/asusres_accent_material_light</item>
+        <item name="android:switchStyle">@style/Widget.AsusRes.CompoundButton.Switch</item>
+        <item name="android:actionModeShareDrawable">@drawable/asusres_ic_menu_share_material</item>
+        <item name="android:actionModeWebSearchDrawable">@drawable/asusres_ic_menu_search_material</item>
+        <item name="android:searchViewStyle">@style/Widget.AsusRes.SearchView</item>
+        <item name="android:toolbarStyle">@style/Widget.AsusRes.Toolbar</item>
+        <item name="actionBarItemColor">?android:colorAccent</item>
+    </style>
+    <style name="Base.V21.Theme.AsusRes.Dialog.Alert" parent="@style/Base.V14.Theme.AsusRes.Dialog.Alert">
+        <item name="android:listDivider">@drawable/asusres_list_divider_with_padding_material</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/asusres_btn_radio_material_anim_dark</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/asusres_btn_check_material_anim_dark</item>
+        <item name="android:actionModeCloseDrawable">@drawable/asusres_ic_ab_back_material</item>
+        <item name="android:dividerVertical">@drawable/asusres_list_divider_material</item>
+        <item name="android:homeAsUpIndicator">@drawable/asusres_ic_ab_back_material</item>
+        <item name="android:actionModeCutDrawable">@drawable/asusres_ic_menu_cut_material</item>
+        <item name="android:actionModeCopyDrawable">@drawable/asusres_ic_menu_copy_material</item>
+        <item name="android:actionModePasteDrawable">@drawable/asusres_ic_menu_paste_material</item>
+        <item name="android:dividerHorizontal">@drawable/asusres_list_divider_material</item>
+        <item name="android:editTextBackground">@drawable/asusres_edit_text_material_dark</item>
+        <item name="android:actionModeSelectAllDrawable">@drawable/asusres_ic_menu_selectall_material</item>
+        <item name="android:textAppearanceListItemSecondary">@style/TextAppearance.AsusRes.Secondary</item>
+        <item name="android:colorAccent">@color/asusres_accent_material_light</item>
+        <item name="android:switchStyle">@style/Widget.AsusRes.CompoundButton.Switch</item>
+        <item name="android:actionModeShareDrawable">@drawable/asusres_ic_menu_share_material</item>
+        <item name="android:actionModeWebSearchDrawable">@drawable/asusres_ic_menu_search_material</item>
+        <item name="android:searchViewStyle">@style/Widget.AsusRes.SearchView</item>
+        <item name="android:toolbarStyle">@style/Widget.AsusRes.Toolbar</item>
+        <item name="actionBarItemColor">?android:colorAccent</item>
+    </style>
+    <style name="Base.V21.Theme.AsusRes.Light" parent="@style/Base.V14.Theme.AsusRes.Light">
+        <item name="android:listDivider">@drawable/asusres_list_divider_with_padding_material</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/asusres_btn_radio_material_anim_light</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/asusres_btn_check_material_anim_light</item>
+        <item name="android:actionModeCloseDrawable">@drawable/asusres_ic_ab_back_material</item>
+        <item name="android:dividerVertical">@drawable/asusres_list_divider_material</item>
+        <item name="android:homeAsUpIndicator">@drawable/asusres_ic_ab_back_material</item>
+        <item name="android:actionModeCutDrawable">@drawable/asusres_ic_menu_cut_material</item>
+        <item name="android:actionModeCopyDrawable">@drawable/asusres_ic_menu_copy_material</item>
+        <item name="android:actionModePasteDrawable">@drawable/asusres_ic_menu_paste_material</item>
+        <item name="android:dividerHorizontal">@drawable/asusres_list_divider_material</item>
+        <item name="android:editTextBackground">@drawable/asusres_edit_text_material_light</item>
+        <item name="android:actionModeSelectAllDrawable">@drawable/asusres_ic_menu_selectall_material</item>
+        <item name="android:actionBarTheme">@style/ThemeOverlay.AsusRes.Light.ActionBar</item>
+        <item name="android:textAppearanceListItemSecondary">@style/TextAppearance.AsusRes.Secondary</item>
+        <item name="android:colorPrimary">@color/asusres_window_bg_light</item>
+        <item name="android:colorAccent">@color/asusres_accent_material_light</item>
+        <item name="android:switchStyle">@style/Widget.AsusRes.Light.CompoundButton.Switch</item>
+        <item name="android:actionModeShareDrawable">@drawable/asusres_ic_menu_share_material</item>
+        <item name="android:actionModeWebSearchDrawable">@drawable/asusres_ic_menu_search_material</item>
+        <item name="android:searchViewStyle">@style/Widget.AsusRes.Light.SearchView</item>
+        <item name="android:toolbarStyle">@style/Widget.AsusRes.Toolbar</item>
+        <item name="actionBarItemColor">?android:colorAccent</item>
+    </style>
+    <style name="Base.V21.Theme.AsusRes.Light.Dialog" parent="@style/Base.V14.Theme.AsusRes.Light.Dialog">
+        <item name="android:listDivider">@drawable/asusres_list_divider_with_padding_material</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/asusres_btn_radio_material_anim_light</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/asusres_btn_check_material_anim_light</item>
+        <item name="android:actionModeCloseDrawable">@drawable/asusres_ic_ab_back_material</item>
+        <item name="android:dividerVertical">@drawable/asusres_list_divider_material</item>
+        <item name="android:homeAsUpIndicator">@drawable/asusres_ic_ab_back_material</item>
+        <item name="android:actionModeCutDrawable">@drawable/asusres_ic_menu_cut_material</item>
+        <item name="android:actionModeCopyDrawable">@drawable/asusres_ic_menu_copy_material</item>
+        <item name="android:actionModePasteDrawable">@drawable/asusres_ic_menu_paste_material</item>
+        <item name="android:dividerHorizontal">@drawable/asusres_list_divider_material</item>
+        <item name="android:editTextBackground">@drawable/asusres_edit_text_material_light</item>
+        <item name="android:actionModeSelectAllDrawable">@drawable/asusres_ic_menu_selectall_material</item>
+        <item name="android:textAppearanceListItemSecondary">@style/TextAppearance.AsusRes.Secondary</item>
+        <item name="android:colorAccent">@color/asusres_accent_material_light</item>
+        <item name="android:switchStyle">@style/Widget.AsusRes.Light.CompoundButton.Switch</item>
+        <item name="android:actionModeShareDrawable">@drawable/asusres_ic_menu_share_material</item>
+        <item name="android:actionModeWebSearchDrawable">@drawable/asusres_ic_menu_search_material</item>
+        <item name="android:searchViewStyle">@style/Widget.AsusRes.Light.SearchView</item>
+        <item name="android:toolbarStyle">@style/Widget.AsusRes.Toolbar</item>
+        <item name="actionBarItemColor">?android:colorAccent</item>
+    </style>
+    <style name="Base.V21.Theme.AsusRes.Light.Dialog.Alert" parent="@style/Base.V14.Theme.AsusRes.Light.Dialog.Alert">
+        <item name="android:listDivider">@drawable/asusres_list_divider_with_padding_material</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/asusres_btn_radio_material_anim_light</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/asusres_btn_check_material_anim_light</item>
+        <item name="android:actionModeCloseDrawable">@drawable/asusres_ic_ab_back_material</item>
+        <item name="android:dividerVertical">@drawable/asusres_list_divider_material</item>
+        <item name="android:homeAsUpIndicator">@drawable/asusres_ic_ab_back_material</item>
+        <item name="android:actionModeCutDrawable">@drawable/asusres_ic_menu_cut_material</item>
+        <item name="android:actionModeCopyDrawable">@drawable/asusres_ic_menu_copy_material</item>
+        <item name="android:actionModePasteDrawable">@drawable/asusres_ic_menu_paste_material</item>
+        <item name="android:dividerHorizontal">@drawable/asusres_list_divider_material</item>
+        <item name="android:editTextBackground">@drawable/asusres_edit_text_material_light</item>
+        <item name="android:actionModeSelectAllDrawable">@drawable/asusres_ic_menu_selectall_material</item>
+        <item name="android:textAppearanceListItemSecondary">@style/TextAppearance.AsusRes.Secondary</item>
+        <item name="android:colorAccent">@color/asusres_accent_material_light</item>
+        <item name="android:switchStyle">@style/Widget.AsusRes.Light.CompoundButton.Switch</item>
+        <item name="android:actionModeShareDrawable">@drawable/asusres_ic_menu_share_material</item>
+        <item name="android:actionModeWebSearchDrawable">@drawable/asusres_ic_menu_search_material</item>
+        <item name="android:searchViewStyle">@style/Widget.AsusRes.Light.SearchView</item>
+        <item name="android:toolbarStyle">@style/Widget.AsusRes.Toolbar</item>
+        <item name="actionBarItemColor">?android:colorAccent</item>
+    </style>
+    <style name="Base.V7.Theme.AsusRes" parent="@style/Platform.AsusRes">
+        <item name="android:buttonStyle">@style/Widget.AsusRes.Button</item>
+        <item name="android:buttonStyleSmall">@style/Widget.AsusRes.Button.Small</item>
+        <item name="android:expandableListPreferredItemPaddingLeft">@dimen/asusres_expandable_list_item_padding_left</item>
+        <item name="android:windowBackground">@color/asusres_window_bg_dark</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:checkboxStyle">@style/Widget.AsusRes.CompoundButton.CheckBox</item>
+        <item name="android:editTextStyle">@style/Widget.AsusRes.EditText</item>
+        <item name="android:expandableListViewStyle">@style/Widget.AsusRes.ExpandableListView</item>
+        <item name="android:imageButtonStyle">@style/Widget.AsusRes.ImageButton</item>
+        <item name="android:listViewStyle">@style/Widget.AsusRes.ListView</item>
+        <item name="android:seekBarStyle">@style/Widget.AsusRes.SeekBar</item>
+        <item name="android:radioButtonStyle">@style/Widget.AsusRes.CompoundButton.RadioButton</item>
+        <item name="android:scrollViewStyle">@style/Widget.AsusRes.ScrollView</item>
+        <item name="android:spinnerItemStyle">@style/Widget.AsusRes.TextView.SpinnerItem</item>
+        <item name="android:preferenceCategoryStyle">@style/Preference.AsusRes.Category</item>
+        <item name="android:preferenceStyle">@style/Preference.AsusRes</item>
+        <item name="android:listSeparatorTextViewStyle">@style/Widget.AsusRes.TextView.ListSeparator</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/asusres_btn_radio_holo_dark</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/asusres_btn_check_holo_dark</item>
+        <item name="android:editTextBackground">@drawable/asusres_edit_text_holo_dark</item>
+    </style>
+    <style name="Base.V7.Theme.AsusRes.Dialog" parent="@style/Platform.AsusRes.Dialog">
+        <item name="android:buttonStyle">@style/Widget.AsusRes.Button</item>
+        <item name="android:buttonStyleSmall">@style/Widget.AsusRes.Button.Small</item>
+        <item name="android:expandableListPreferredItemPaddingLeft">@dimen/asusres_expandable_list_item_padding_left</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:checkboxStyle">@style/Widget.AsusRes.CompoundButton.CheckBox</item>
+        <item name="android:editTextStyle">@style/Widget.AsusRes.EditText</item>
+        <item name="android:expandableListViewStyle">@style/Widget.AsusRes.ExpandableListView</item>
+        <item name="android:imageButtonStyle">@style/Widget.AsusRes.ImageButton</item>
+        <item name="android:listViewStyle">@style/Widget.AsusRes.ListView</item>
+        <item name="android:seekBarStyle">@style/Widget.AsusRes.SeekBar</item>
+        <item name="android:radioButtonStyle">@style/Widget.AsusRes.CompoundButton.RadioButton</item>
+        <item name="android:scrollViewStyle">@style/Widget.AsusRes.ScrollView</item>
+        <item name="android:spinnerItemStyle">@style/Widget.AsusRes.TextView.SpinnerItem</item>
+        <item name="android:preferenceCategoryStyle">@style/Preference.AsusRes.Category</item>
+        <item name="android:preferenceStyle">@style/Preference.AsusRes</item>
+        <item name="android:listSeparatorTextViewStyle">@style/Widget.AsusRes.TextView.ListSeparator</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/asusres_btn_radio_holo_dark</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/asusres_btn_check_holo_dark</item>
+        <item name="android:editTextBackground">@drawable/asusres_edit_text_holo_dark</item>
+    </style>
+    <style name="Base.V7.Theme.AsusRes.Dialog.Alert" parent="@style/Platform.AsusRes.Dialog.Alert">
+        <item name="android:buttonStyle">@style/Widget.AsusRes.Button</item>
+        <item name="android:buttonStyleSmall">@style/Widget.AsusRes.Button.Small</item>
+        <item name="android:expandableListPreferredItemPaddingLeft">@dimen/asusres_expandable_list_item_padding_left</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:checkboxStyle">@style/Widget.AsusRes.CompoundButton.CheckBox</item>
+        <item name="android:editTextStyle">@style/Widget.AsusRes.EditText</item>
+        <item name="android:expandableListViewStyle">@style/Widget.AsusRes.ExpandableListView</item>
+        <item name="android:imageButtonStyle">@style/Widget.AsusRes.ImageButton</item>
+        <item name="android:listViewStyle">@style/Widget.AsusRes.ListView</item>
+        <item name="android:seekBarStyle">@style/Widget.AsusRes.SeekBar</item>
+        <item name="android:radioButtonStyle">@style/Widget.AsusRes.CompoundButton.RadioButton</item>
+        <item name="android:scrollViewStyle">@style/Widget.AsusRes.ScrollView</item>
+        <item name="android:spinnerItemStyle">@style/Widget.AsusRes.TextView.SpinnerItem</item>
+        <item name="android:preferenceCategoryStyle">@style/Preference.AsusRes.Category</item>
+        <item name="android:preferenceStyle">@style/Preference.AsusRes</item>
+        <item name="android:listSeparatorTextViewStyle">@style/Widget.AsusRes.TextView.ListSeparator</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/asusres_btn_radio_holo_dark</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/asusres_btn_check_holo_dark</item>
+        <item name="android:editTextBackground">@drawable/asusres_edit_text_holo_dark</item>
+    </style>
+    <style name="Base.V7.Theme.AsusRes.Light" parent="@style/Platform.AsusRes.Light">
+        <item name="android:buttonStyle">@style/Widget.AsusRes.Light.Button</item>
+        <item name="android:buttonStyleSmall">@style/Widget.AsusRes.Light.Button.Small</item>
+        <item name="android:expandableListPreferredItemPaddingLeft">@dimen/asusres_expandable_list_item_padding_left</item>
+        <item name="android:windowBackground">@color/asusres_window_bg_light</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:checkboxStyle">@style/Widget.AsusRes.Light.CompoundButton.CheckBox</item>
+        <item name="android:editTextStyle">@style/Widget.AsusRes.Light.EditText</item>
+        <item name="android:expandableListViewStyle">@style/Widget.AsusRes.Light.ExpandableListView</item>
+        <item name="android:imageButtonStyle">@style/Widget.AsusRes.Light.ImageButton</item>
+        <item name="android:listViewStyle">@style/Widget.AsusRes.ListView</item>
+        <item name="android:seekBarStyle">@style/Widget.AsusRes.Light.SeekBar</item>
+        <item name="android:radioButtonStyle">@style/Widget.AsusRes.Light.CompoundButton.RadioButton</item>
+        <item name="android:scrollViewStyle">@style/Widget.AsusRes.Light.ScrollView</item>
+        <item name="android:spinnerItemStyle">@style/Widget.AsusRes.Light.TextView.SpinnerItem</item>
+        <item name="android:preferenceCategoryStyle">@style/Preference.AsusRes.Light.Category</item>
+        <item name="android:preferenceStyle">@style/Preference.AsusRes.Light</item>
+        <item name="android:listSeparatorTextViewStyle">@style/Widget.AsusRes.Light.TextView.ListSeparator</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/asusres_btn_radio_holo_light</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/asusres_btn_check_holo_light</item>
+        <item name="android:editTextBackground">@drawable/asusres_edit_text_holo_light</item>
+    </style>
+    <style name="Base.V7.Theme.AsusRes.Light.Dialog" parent="@style/Platform.AsusRes.Light.Dialog">
+        <item name="android:buttonStyle">@style/Widget.AsusRes.Light.Button</item>
+        <item name="android:buttonStyleSmall">@style/Widget.AsusRes.Light.Button.Small</item>
+        <item name="android:expandableListPreferredItemPaddingLeft">@dimen/asusres_expandable_list_item_padding_left</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:checkboxStyle">@style/Widget.AsusRes.Light.CompoundButton.CheckBox</item>
+        <item name="android:editTextStyle">@style/Widget.AsusRes.Light.EditText</item>
+        <item name="android:expandableListViewStyle">@style/Widget.AsusRes.Light.ExpandableListView</item>
+        <item name="android:imageButtonStyle">@style/Widget.AsusRes.Light.ImageButton</item>
+        <item name="android:listViewStyle">@style/Widget.AsusRes.ListView</item>
+        <item name="android:seekBarStyle">@style/Widget.AsusRes.Light.SeekBar</item>
+        <item name="android:radioButtonStyle">@style/Widget.AsusRes.Light.CompoundButton.RadioButton</item>
+        <item name="android:scrollViewStyle">@style/Widget.AsusRes.Light.ScrollView</item>
+        <item name="android:spinnerItemStyle">@style/Widget.AsusRes.Light.TextView.SpinnerItem</item>
+        <item name="android:preferenceCategoryStyle">@style/Preference.AsusRes.Light.Category</item>
+        <item name="android:preferenceStyle">@style/Preference.AsusRes.Light</item>
+        <item name="android:listSeparatorTextViewStyle">@style/Widget.AsusRes.Light.TextView.ListSeparator</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/asusres_btn_radio_holo_light</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/asusres_btn_check_holo_light</item>
+        <item name="android:editTextBackground">@drawable/asusres_edit_text_holo_light</item>
+    </style>
+    <style name="Base.V7.Theme.AsusRes.Light.Dialog.Alert" parent="@style/Platform.AsusRes.Light.Dialog.Alert">
+        <item name="android:buttonStyle">@style/Widget.AsusRes.Light.Button</item>
+        <item name="android:buttonStyleSmall">@style/Widget.AsusRes.Light.Button.Small</item>
+        <item name="android:expandableListPreferredItemPaddingLeft">@dimen/asusres_expandable_list_item_padding_left</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:checkboxStyle">@style/Widget.AsusRes.Light.CompoundButton.CheckBox</item>
+        <item name="android:editTextStyle">@style/Widget.AsusRes.Light.EditText</item>
+        <item name="android:expandableListViewStyle">@style/Widget.AsusRes.Light.ExpandableListView</item>
+        <item name="android:imageButtonStyle">@style/Widget.AsusRes.Light.ImageButton</item>
+        <item name="android:listViewStyle">@style/Widget.AsusRes.ListView</item>
+        <item name="android:seekBarStyle">@style/Widget.AsusRes.Light.SeekBar</item>
+        <item name="android:radioButtonStyle">@style/Widget.AsusRes.Light.CompoundButton.RadioButton</item>
+        <item name="android:scrollViewStyle">@style/Widget.AsusRes.Light.ScrollView</item>
+        <item name="android:spinnerItemStyle">@style/Widget.AsusRes.Light.TextView.SpinnerItem</item>
+        <item name="android:preferenceCategoryStyle">@style/Preference.AsusRes.Light.Category</item>
+        <item name="android:preferenceStyle">@style/Preference.AsusRes.Light</item>
+        <item name="android:listSeparatorTextViewStyle">@style/Widget.AsusRes.Light.TextView.ListSeparator</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/asusres_btn_radio_holo_light</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/asusres_btn_check_holo_light</item>
+        <item name="android:editTextBackground">@drawable/asusres_edit_text_holo_light</item>
+    </style>
+    <style name="Base.Widget.AsusRes.ActionBar.Solid" parent="@android:style/Widget.Material.ActionBar.Solid">
+        <item name="android:titleTextStyle">@style/TextAppearance.AsusRes.Widget.ActionBar.Title</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.AsusRes.Widget.ActionBar.Subtitle</item>
+        <item name="android:elevation">@dimen/asusres_action_bar_elevation</item>
+    </style>
+    <style name="Base.Widget.AsusRes.ActionBar.Solid.Oneline" parent="@style/Base.Widget.AsusRes.ActionBar.Solid">
+        <item name="android:titleTextStyle">@style/TextAppearance.AsusRes.Widget.ActionBar.Title.Oneline</item>
+    </style>
+    <style name="Base.Widget.AsusRes.ActionButton.Overflow" parent="@android:style/Widget.Material.ActionButton.Overflow">
+        <item name="android:src">@drawable/asusres_ic_menu_moreoverflow_material</item>
+        <item name="android:minWidth">@dimen/asusres_action_button_min_width_overflow</item>
+        <item name="android:paddingEnd">@dimen/asusres_action_button_padding</item>
+    </style>
+    <style name="Base.Widget.AsusRes.ActionMode" parent="@android:style/Widget.Material.ActionMode">
+        <item name="android:titleTextStyle">@style/TextAppearance.AsusRes.Widget.ActionMode.Title</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.AsusRes.Widget.ActionMode.Subtitle</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Button" parent="@android:style/Widget.Material.Button">
+        <item name="android:textAppearance">@style/TextAppearance.AsusRes.Widget.Button</item>
+        <item name="android:background">@drawable/asusres_btn_default_material_dark</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Button.Small" parent="@android:style/Widget.Material.Button.Small">
+        <item name="android:textAppearance">@style/TextAppearance.AsusRes.Widget.Button</item>
+        <item name="android:background">@drawable/asusres_btn_default_material_dark</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+    <style name="Base.Widget.AsusRes.CompoundButton.CheckBox" parent="@android:style/Widget.Material.CompoundButton.CheckBox">
+        <item name="android:textSize">@dimen/asusres_checkbox_text_size</item>
+        <item name="android:paddingStart">@dimen/asusres_checkbox_text_left_padding</item>
+    </style>
+    <style name="Base.Widget.AsusRes.CompoundButton.RadioButton" parent="@android:style/Widget.Material.CompoundButton.RadioButton">
+        <item name="android:textSize">@dimen/asusres_radiobutton_text_size</item>
+        <item name="android:paddingStart">@dimen/asusres_radiobutton_text_left_padding</item>
+    </style>
+    <style name="Base.Widget.AsusRes.CompoundButton.Switch" parent="@android:style/Widget.CompoundButton">
+        <item name="android:background">@drawable/asusres_switch_control_background_material_dark</item>
+        <item name="android:thumb">@drawable/asusres_switch_inner_material_dark</item>
+        <item name="android:track">@drawable/asusres_switch_background_material_dark</item>
+        <item name="android:switchPadding">@dimen/asusres_switch_padding</item>
+        <item name="android:thumbTextPadding">6.0dip</item>
+        <item name="android:showText">false</item>
+    </style>
+    <style name="Base.Widget.AsusRes.DropDownItem.Spinner" parent="@android:style/Widget.Material.DropDownItem.Spinner">
+        <item name="android:textColor">@color/asusres_primary_text_material_light</item>
+    </style>
+    <style name="Base.Widget.AsusRes.EditText" parent="@android:style/Widget.Material.EditText">
+        <item name="android:textSize">@dimen/asusres_edittext_size</item>
+    </style>
+    <style name="Base.Widget.AsusRes.ExpandableListView" parent="@android:style/Widget.Material.ExpandableListView">
+        <item name="android:groupIndicator">@drawable/asusres_expander_group_material_dark</item>
+    </style>
+    <style name="Base.Widget.AsusRes.ImageButton" parent="@android:style/Widget.Material.ImageButton">
+        <item name="android:background">@drawable/asusres_btn_default_material_dark</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.ActionBar.Solid" parent="@android:style/Widget.Material.Light.ActionBar.Solid">
+        <item name="android:titleTextStyle">@style/TextAppearance.AsusRes.Widget.ActionBar.Title</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.AsusRes.Widget.ActionBar.Subtitle</item>
+        <item name="android:elevation">@dimen/asusres_action_bar_elevation</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.ActionBar.Solid.GradientBg" parent="@android:style/Widget.Material.Light.ActionBar.Solid">
+        <item name="android:titleTextStyle">@style/TextAppearance.AsusRes.Widget.ActionBar.Title</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.AsusRes.Widget.ActionBar.Subtitle.GradientBg</item>
+        <item name="android:elevation">@dimen/asusres_action_bar_elevation</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.ActionBar.Solid.GradientBg.Oneline" parent="@style/Base.Widget.AsusRes.Light.ActionBar.Solid.GradientBg">
+        <item name="android:titleTextStyle">@style/TextAppearance.AsusRes.Widget.ActionBar.Title.Oneline</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.ActionBar.Solid.Oneline" parent="@style/Base.Widget.AsusRes.Light.ActionBar.Solid">
+        <item name="android:titleTextStyle">@style/TextAppearance.AsusRes.Widget.ActionBar.Title.Oneline</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.ActionBar.TabText" parent="@android:style/Widget.Material.Light.ActionBar.TabText">
+        <item name="android:textColor">@color/asusres_tab_indicator_text_material</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.ActionButton.Overflow" parent="@style/Base.Widget.AsusRes.ActionButton.Overflow" />
+    <style name="Base.Widget.AsusRes.Light.ActionMode" parent="@android:style/Widget.Material.Light.ActionMode">
+        <item name="android:titleTextStyle">@style/TextAppearance.AsusRes.Widget.ActionMode.Title</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.AsusRes.Widget.ActionMode.Subtitle</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.ActionMode.GradientBg" parent="@android:style/Widget.Material.Light.ActionMode">
+        <item name="android:titleTextStyle">@style/TextAppearance.AsusRes.Widget.ActionMode.Title</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.AsusRes.Widget.ActionMode.Subtitle.GradientBg</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.Button" parent="@android:style/Widget.Material.Light.Button">
+        <item name="android:textAppearance">@style/TextAppearance.AsusRes.Widget.Light.Button</item>
+        <item name="android:background">@drawable/asusres_btn_default_material_light</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.Button.Small" parent="@android:style/Widget.Material.Button.Small">
+        <item name="android:textAppearance">@style/TextAppearance.AsusRes.Widget.Light.Button</item>
+        <item name="android:background">@drawable/asusres_btn_default_material_light</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.CompoundButton.CheckBox" parent="@android:style/Widget.Material.Light.CompoundButton.CheckBox">
+        <item name="android:textSize">@dimen/asusres_checkbox_text_size</item>
+        <item name="android:paddingStart">@dimen/asusres_checkbox_text_left_padding</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.CompoundButton.RadioButton" parent="@android:style/Widget.Material.Light.CompoundButton.RadioButton">
+        <item name="android:textSize">@dimen/asusres_radiobutton_text_size</item>
+        <item name="android:paddingStart">@dimen/asusres_radiobutton_text_left_padding</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.CompoundButton.Switch" parent="@android:style/Widget.CompoundButton">
+        <item name="android:background">@drawable/asusres_switch_control_background_material_light</item>
+        <item name="android:thumb">@drawable/asusres_switch_inner_material_light</item>
+        <item name="android:track">@drawable/asusres_switch_background_material_light</item>
+        <item name="android:switchPadding">@dimen/asusres_switch_padding</item>
+        <item name="android:thumbTextPadding">6.0dip</item>
+        <item name="android:showText">false</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.EditText" parent="@android:style/Widget.Material.Light.EditText">
+        <item name="android:textSize">@dimen/asusres_edittext_size</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.ExpandableListView" parent="@android:style/Widget.Material.Light.ExpandableListView">
+        <item name="android:groupIndicator">@drawable/asusres_expander_group_material_light</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.ExpandableListView.GradientBg" parent="@android:style/Widget.Material.Light.ExpandableListView">
+        <item name="android:groupIndicator">@drawable/asusres_expander_group_material_light</item>
+        <item name="android:requiresFadingEdge">vertical</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.ImageButton" parent="@android:style/Widget.Material.ImageButton">
+        <item name="android:background">@drawable/asusres_btn_default_material_light</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.ListView" parent="@android:style/Widget.Material.Light.ListView" />
+    <style name="Base.Widget.AsusRes.Light.ListView.GradientBg" parent="@android:style/Widget.Material.ListView">
+        <item name="android:requiresFadingEdge">vertical</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.ScrollView" parent="@style/Base.Widget.AsusRes.ScrollView" />
+    <style name="Base.Widget.AsusRes.Light.ScrollView.GradientBg" parent="@android:style/Widget.Material.ScrollView">
+        <item name="android:requiresFadingEdge">vertical</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.SearchView" parent="@android:style/Widget.Material.Light.SearchView">
+        <item name="android:closeIcon">@drawable/asusres_ic_clear_search_material</item>
+        <item name="android:goIcon">@drawable/asusres_ic_go_search_api_material</item>
+        <item name="android:searchIcon">@drawable/asusres_ic_search_api_material</item>
+        <item name="android:voiceIcon">@drawable/asusres_ic_voice_search_api_material</item>
+        <item name="android:commitIcon">@drawable/asusres_ic_commit_search_api_material</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.SeekBar" parent="@android:style/Widget.Material.Light.SeekBar">
+        <item name="android:background">@drawable/asusres_scrubber_bg_ripple_material</item>
+        <item name="android:progressDrawable">@drawable/asusres_scrubber_progress_horizontal_material_light</item>
+        <item name="android:thumb">@drawable/asusres_scrubber_control_selector_material_light</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.Spinner.DropDown" parent="@android:style/Widget.Material.Light.Spinner">
+        <item name="android:background">@drawable/asusres_spinner_background_material_light</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.Spinner.DropDown.ActionBar" parent="@android:style/Widget.Material.Light.Spinner">
+        <item name="android:background">@drawable/asusres_spinner_ab_background_material_light</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.TextView.ListSeparator" parent="@style/Base.Widget.AsusRes.TextView.ListSeparator" />
+    <style name="Base.Widget.AsusRes.Light.TextView.SpinnerItem" parent="@style/Base.Widget.AsusRes.TextView.SpinnerItem" />
+    <style name="Base.Widget.AsusRes.Light.TextView.SpinnerItem.ActionBar" parent="@style/Base.Widget.AsusRes.TextView.SpinnerItem.ActionBar" />
+    <style name="Base.Widget.AsusRes.ListView" parent="@android:style/Widget.Material.ListView" />
+    <style name="Base.Widget.AsusRes.ScrollView" parent="@android:style/Widget.Material.ScrollView" />
+    <style name="Base.Widget.AsusRes.SearchView" parent="@android:style/Widget.Material.SearchView">
+        <item name="android:closeIcon">@drawable/asusres_ic_clear_search_material</item>
+        <item name="android:goIcon">@drawable/asusres_ic_go_search_api_material</item>
+        <item name="android:searchIcon">@drawable/asusres_ic_search_api_material</item>
+        <item name="android:voiceIcon">@drawable/asusres_ic_voice_search_api_material</item>
+        <item name="android:commitIcon">@drawable/asusres_ic_commit_search_api_material</item>
+    </style>
+    <style name="Base.Widget.AsusRes.SeekBar" parent="@android:style/Widget.Material.SeekBar">
+        <item name="android:background">@drawable/asusres_scrubber_bg_ripple_material</item>
+        <item name="android:progressDrawable">@drawable/asusres_scrubber_progress_horizontal_material_dark</item>
+        <item name="android:thumb">@drawable/asusres_scrubber_control_selector_material_dark</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Spinner.DropDown" parent="@android:style/Widget.Material.Spinner">
+        <item name="android:background">@drawable/asusres_spinner_background_material_dark</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Spinner.DropDown.ActionBar" parent="@android:style/Widget.Material.Spinner">
+        <item name="android:background">@drawable/asusres_spinner_ab_background_material_dark</item>
+    </style>
+    <style name="Base.Widget.AsusRes.TextView.ListSeparator" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/asusres_list_header_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:colorControlActivated</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@string/asusres_font_family_list_header</item>
+    </style>
+    <style name="Base.Widget.AsusRes.TextView.SpinnerItem" parent="@android:style/Widget.Material.TextView.SpinnerItem">
+        <item name="android:textSize">@dimen/asusres_spinner_text_size</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:paddingStart">@dimen/asusres_spinner_text_padding</item>
+        <item name="android:paddingEnd">@dimen/asusres_spinner_text_padding</item>
+    </style>
+    <style name="Base.Widget.AsusRes.TextView.SpinnerItem.ActionBar" parent="@android:style/Widget.Material.TextView.SpinnerItem">
+        <item name="android:textSize">@dimen/asusres_spinner_text_size</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:paddingStart">@dimen/asusres_spinner_text_padding</item>
+        <item name="android:paddingEnd">@dimen/asusres_spinner_text_padding</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Toolbar" parent="@android:style/Widget.Material.Toolbar" />
+    <style name="BaseListAttributesTheme" parent="@style/Theme.AsusRes.Light">
+        <item name="android:textColorSecondary">@color/dialtacts_secondary_text_color</item>
+        <item name="android:windowBackground">@drawable/preview_background</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:textColorHint">#ffcccccc</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:titleTextStyle">@style/AmaxTitleTextStyle</item>
+        <item name="android:listPopupWindowStyle">@style/ListPopupWindowForL</item>
+        <item name="android:popupMenuStyle">@style/PopupMenuForL</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb</item>
+        <item name="android:actionMenuTextAppearance">@style/AmaxActionMenuTextAppearance</item>
+        <item name="android:actionMenuTextColor">@color/asus_menu_button_text_color</item>
+        <item name="android:colorPrimaryDark">@color/asus_contacts2_statusbar_bg_color</item>
+        <item name="android:colorAccent">?android:colorPrimaryDark</item>
+        <item name="activated_background">?android:selectableItemBackground</item>
+        <item name="activated_background_2">?android:selectableItemBackground</item>
+        <item name="call_log_header_color">#ff33b5e5</item>
+        <item name="call_log_primary_background_color">#ff000000</item>
+        <item name="call_log_primary_text_color">#ffffffff</item>
+        <item name="call_log_secondary_background_color">#ff333333</item>
+        <item name="call_log_secondary_text_color">#ff888888</item>
+        <item name="call_log_voicemail_status_action_text_color">#ff33b5e5</item>
+        <item name="call_log_voicemail_status_background_color">#ff262626</item>
+        <item name="call_log_voicemail_status_height">48.0dip</item>
+        <item name="call_log_voicemail_status_text_color">#ff888888</item>
+        <item name="contact_browser_background">@android:color/transparent</item>
+        <item name="contact_browser_list_padding_left">0.0dip</item>
+        <item name="contact_browser_list_padding_right">0.0dip</item>
+        <item name="favorites_padding_bottom">?android:actionBarSize</item>
+        <item name="label_view_padding_right">@dimen/asus_header_padding</item>
+        <item name="list_item_call_button_padding">14.0dip</item>
+        <item name="list_item_checkbox_width">@dimen/asus_contact_browser_list_item_checkbox_width</item>
+        <item name="list_item_contacts_count_text_color">@color/contact_count_text_color</item>
+        <item name="list_item_contacts_count_text_size">@dimen/asus_header_count_size</item>
+        <item name="list_item_contacts_name_text_size">@dimen/asus_list_item_main_text_size</item>
+        <item name="list_item_data_width_weight">5</item>
+        <item name="list_item_divider">?android:listDivider</item>
+        <item name="list_item_gap_between_image_and_text">@dimen/asus_list_item_gap_between_image_and_text</item>
+        <item name="list_item_gap_between_label_and_data">5.0dip</item>
+        <item name="list_item_header_height">@dimen/asus_header_height</item>
+        <item name="list_item_header_text_color">@color/asus_list_header_text_color</item>
+        <item name="list_item_header_text_indent">@dimen/asus_header_padding</item>
+        <item name="list_item_header_text_size">@dimen/asus_list_item_header_text_size</item>
+        <item name="list_item_header_underline_color">@color/amax_header_divider_color</item>
+        <item name="list_item_header_underline_height">2.0dip</item>
+        <item name="list_item_height">@dimen/contact_browser_list_item_size</item>
+        <item name="list_item_label_width_weight">3</item>
+        <item name="list_item_padding_bottom">0.0dip</item>
+        <item name="list_item_padding_left">@dimen/common_padding</item>
+        <item name="list_item_padding_right">@dimen/common_padding</item>
+        <item name="list_item_padding_top">0.0dip</item>
+        <item name="list_item_photo_size">@dimen/contact_browser_list_item_photo_size</item>
+        <item name="list_item_prefix_highlight_color">@color/asus_highlight_color</item>
+        <item name="list_item_presence_icon_margin">4.0dip</item>
+        <item name="list_item_presence_icon_size">16.0dip</item>
+        <item name="list_item_profile_photo_size">70.0dip</item>
+        <item name="list_item_text_indent">@dimen/asus_contact_browser_list_item_text_indent</item>
+        <item name="list_section_header_height">32.0dip</item>
+        <item name="photoBackground">?android:selectableItemBackground</item>
+        <item name="section_header_background">@drawable/list_title_holo</item>
+    </style>
+    <style name="BlockListAbTitleTextStyle" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="BlockListActionBarStyle" parent="@android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:background">@drawable/asus_bg_social_bar_top</item>
+        <item name="android:displayOptions">@null</item>
+        <item name="android:titleTextStyle">@style/BlockListAbTitleTextStyle</item>
+        <item name="android:backgroundStacked">@drawable/asus_bg_social_bar_top</item>
+        <item name="android:backgroundSplit">@color/ab_backgroundSplit</item>
+    </style>
+    <style name="BlockListActionBarTitleTextStyle" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textSize">18.0dip</item>
+    </style>
+    <style name="BlockListMenuTextStyle" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Menu">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="BlockListPickerTheme" parent="@style/AmaxActionbarBaseTheme">
+        <item name="android:textColorSecondary">@color/dialtacts_secondary_text_color</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:actionOverflowButtonStyle">@style/AmaxCustomOverflow</item>
+    </style>
+    <style name="BlockListTheme" parent="@style/BlockListPickerTheme" />
+    <style name="BlockListTitleTextStyle" parent="@style/DetailTitleTextStyle">
+        <item name="android:textSize">@dimen/block_list_title_text_size</item>
+        <item name="android:textColor">#ff00aba6</item>
+    </style>
+    <style name="BlockedNumbersButton">
+        <item name="android:textSize">@dimen/blocked_numbers_secondary_font_size</item>
+        <item name="android:textColor">@color/theme_color</item>
+    </style>
+    <style name="BlockedNumbersSecondaryText">
+        <item name="android:textSize">@dimen/blocked_numbers_secondary_font_size</item>
+        <item name="android:textColor">@color/blocked_numbers_secondary_text_color</item>
+    </style>
+    <style name="BlockedNumbersTitleText">
+        <item name="android:textSize">@dimen/blocked_numbers_font_size</item>
+        <item name="android:textColor">@color/blocked_numbers_title_text_color</item>
+    </style>
+    <style name="CallDetailActivityActionBarTabStyle" parent="@android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:background">@drawable/asus_bg_social_bar_top</item>
+        <item name="android:displayOptions">@null</item>
+        <item name="android:titleTextStyle">@style/AsusTitleTextStyle</item>
+        <item name="android:backgroundStacked">@drawable/tab_bg</item>
+        <item name="android:backgroundSplit">@null</item>
+    </style>
+    <style name="CallDetailActivityCustomOverflow" parent="@android:style/Widget.DeviceDefault.ActionButton.Overflow">
+        <item name="android:src">@drawable/asus_contacts2_ic_menu_b</item>
+    </style>
+    <style name="CallDetailActivityTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:gravity">top</item>
+        <item name="android:actionBarStyle">@style/CallDetailActivityActionBarTabStyle</item>
+        <item name="android:actionBarTabBarStyle">@style/DialerActionBarTabBarStyle</item>
+        <item name="android:titleTextStyle">@style/AsusTitleTextStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/asus_contacts2_ic_previous_web</item>
+        <item name="android:actionBarItemBackground">@drawable/asus_action_bar_item_background</item>
+        <item name="call_log_header_color">#ff33b5e5</item>
+        <item name="call_log_primary_background_color">#ff000000</item>
+        <item name="call_log_primary_text_color">#ffffffff</item>
+        <item name="call_log_secondary_background_color">#ff333333</item>
+        <item name="call_log_secondary_text_color">#ffffffff</item>
+        <item name="call_log_voicemail_status_action_text_color">#ff33b5e5</item>
+        <item name="call_log_voicemail_status_background_color">#ff262626</item>
+        <item name="call_log_voicemail_status_height">48.0dip</item>
+        <item name="call_log_voicemail_status_text_color">#ff888888</item>
+    </style>
+    <style name="CallLogHeaderTextViewStyle" parent="@style/AsusContactListTextViewStyle">
+        <item name="android:textColor">@color/asus_header_text</item>
+    </style>
+    <style name="CallLogMultiPickerActionButtonStyle" parent="@android:style/Widget.DeviceDefault.ActionButton">
+        <item name="android:paddingRight">10.0dip</item>
+    </style>
+    <style name="CallLogMultiPickerStyle" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/tab_bg</item>
+        <item name="android:titleTextStyle">@style/AsusTitleTextStyle</item>
+        <item name="android:backgroundStacked">@drawable/tab_bg</item>
+    </style>
+    <style name="CallLogMultiPickerTheme" parent="@style/AmaxActionbarBaseTheme" />
+    <style name="CallLogResotreDialog.NoDisplay" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoDisplay">true</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    <style name="CallLogRestoreTheme" parent="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+    <style name="ClingText">
+        <item name="android:textSize">@dimen/cling_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="ClingText2">
+        <item name="android:textSize">@dimen/cling_text_size</item>
+        <item name="android:textColor">#ff14b9d6</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="ClingText3">
+        <item name="android:textSize">@dimen/cling_text_size2</item>
+        <item name="android:textColor">#ff939697</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="ClingTitleText">
+        <item name="android:textSize">@dimen/cling_title_text_size</item>
+        <item name="android:textColor">#ff00c0fe</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="ConfirmAddDetailDialogTheme" parent="@android:style/Theme.DeviceDefault.Light.Dialog.MinWidth">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+    <style name="ConfirmAddDetailHeaderViewStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">150.0dip</item>
+    </style>
+    <style name="ConfirmAddDetailViewStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ContactDetailCallogActivityTheme" parent="@style/AsusMultiplePickerTheme">
+        <item name="android:actionBarStyle">@style/ContainSubTitleActionBarStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/asus_contacts2_ic_previous_web</item>
+    </style>
+    <style name="ContactDetailItemType">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="ContactEditorAccountsChangedActivityTheme" parent="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar.MinWidth">
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+    <style name="ContactEditorSetPrimaryActivityTheme" parent="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar.MinWidth">
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+    <style name="ContactListFilterTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+    </style>
+    <style name="ContactListSeparatorTextViewStyle">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/people_app_theme_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/list_section_divider_min_height</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="ContactPickerLayout" parent="@style/ContactPickerTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="ContactPickerTheme" parent="@style/AmaxPickerBaseTheme">
+        <item name="android:windowBackground">@color/amax_common_bg_color</item>
+        <item name="android:tabWidgetStyle">@style/ContactPickerTheme.TabWidget</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="list_item_contacts_name_text_size">@dimen/asus_list_item_main_text_size</item>
+        <item name="list_item_header_height">@dimen/asus_header_height</item>
+        <item name="list_item_header_text_color">@color/asus_list_header_text_color</item>
+    </style>
+    <style name="ContactPickerTheme.TabWidget" parent="@android:style/Widget.Holo.TabWidget">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:background">#ff1e1e1e</item>
+        <item name="android:divider">#ffff0000</item>
+        <item name="android:showDividers">none</item>
+    </style>
+    <style name="ContactsActionBarDropDownStyle" parent="@android:style/Widget.DeviceDefault.Light.Spinner" />
+    <style name="ContactsActionBarStyle" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/asus_bg_social_bar_top</item>
+        <item name="android:displayOptions">@null</item>
+        <item name="android:backgroundStacked">@drawable/tab_bg</item>
+        <item name="android:backgroundSplit">@drawable/asus_bg_social_bar_top</item>
+    </style>
+    <style name="ContactsActionBarStyleNew" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/tab_bg</item>
+        <item name="android:height">@dimen/asus_a68_action_bar_height</item>
+        <item name="android:displayOptions">@null</item>
+        <item name="android:backgroundStacked">@drawable/tab_bg</item>
+    </style>
+    <style name="ContactsActionBarTabBarStyle" parent="@android:style/Widget.ActionBar.TabBar">
+        <item name="android:divider">@color/phone_actionbat_tab_divider</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">12.0dip</item>
+    </style>
+    <style name="ContactsActionBarTabView" parent="@android:style/Widget.DeviceDefault.ActionBar.TabView">
+        <item name="android:background">@drawable/actionbar_tab_background</item>
+        <item name="android:backgroundStacked">@drawable/tab_bg</item>
+        <item name="android:backgroundSplit">@null</item>
+    </style>
+    <style name="ContactsActionBarTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:dropDownListViewStyle">@style/ListViewDropdownStyle</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorHint">#ffcccccc</item>
+        <item name="android:popupMenuStyle">@android:style/Widget.DeviceDefault.Light.PopupMenu</item>
+    </style>
+    <style name="ContactsDetailActionBarTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:dropDownListViewStyle">@style/ListViewDropdownStyle</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorHint">#ffcccccc</item>
+        <item name="android:popupMenuStyle">@android:style/Widget.DeviceDefault.Light.PopupMenu</item>
+    </style>
+    <style name="ContactsPreferencesTheme" parent="@style/AmaxActionbarBaseTheme">
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+    </style>
+    <style name="ContactsWidgetActionBarStyle" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleTextStyle</item>
+    </style>
+    <style name="ContactsWidgetActionBarTheme" parent="@android:style/Theme">
+        <item name="android:dropDownListViewStyle">@style/ListViewDropdownStyle</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textColorHint">#ffcccccc</item>
+        <item name="android:popupMenuStyle">@android:style/Widget.DeviceDefault.Light.PopupMenu</item>
+    </style>
+    <style name="ContactsWidgetTheme" parent="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/amax_common_bg_color</item>
+        <item name="android:actionBarStyle">@style/ContactsWidgetActionBarStyle</item>
+        <item name="android:actionModeBackground">@android:color/transparent</item>
+        <item name="android:actionMenuTextAppearance">@style/AsusActionMenuTextAppearance</item>
+        <item name="android:actionBarWidgetTheme">@style/ContactsWidgetActionBarTheme</item>
+        <item name="android:actionBarDivider">@null</item>
+    </style>
+    <style name="ContainSubTitleActionBarStyle" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/tab_bg</item>
+        <item name="android:titleTextStyle">@style/AsusTitleTextStyle</item>
+        <item name="android:backgroundStacked">@drawable/tab_bg</item>
+    </style>
+    <style name="CustomKey_Style_horizontal" parent="@style/DialtactsDialpadButtonStyle">
+        <item name="android:background">@null</item>
+        <item name="divider_color">@color/custom_twelvekey_divider_color</item>
+        <item name="divider_stroke_width">@dimen/custom_twelvekey_divider_stroke_width</item>
+        <item name="divider_width">@dimen/custom_twelvekey_divider_width</item>
+        <item name="icon_tint">@color/custom_twelvekey_alphabet_color</item>
+        <item name="number_text_color">@android:color/black</item>
+        <item name="number_text_size">@dimen/custom_style_2_number_text_size</item>
+        <item name="style_2_alphabet_horizontal_padding">@dimen/custom_style_2_alphabet_horizontal_padding</item>
+        <item name="style_2_alphabet_vertical_padding">@dimen/custom_style_2_alphabet_vertical_padding</item>
+        <item name="style_2_alphabets_text_1_color">@color/custom_twelvekey_alphabet_color</item>
+        <item name="style_2_alphabets_text_1_size">@dimen/custom_style_2_alphabets_text_1_size</item>
+        <item name="style_2_alphabets_text_2_color">@color/custom_twelvekey_alphabet_color</item>
+        <item name="style_2_alphabets_text_2_size">@dimen/custom_style_2_alphabets_text_2_size</item>
+        <item name="style_2_icon_padding_right">@dimen/custom_style_2_icon_padding_right</item>
+        <item name="style_num">2</item>
+    </style>
+    <style name="CustomKey_Style_vertical" parent="@style/DialtactsDialpadButtonStyle">
+        <item name="android:background">@null</item>
+        <item name="divider_color">@color/custom_twelvekey_divider_color</item>
+        <item name="divider_stroke_width">@dimen/custom_twelvekey_divider_stroke_width</item>
+        <item name="divider_width">@dimen/custom_twelvekey_divider_width</item>
+        <item name="icon_tint">@color/custom_twelvekey_alphabet_color</item>
+        <item name="number_text_color">@android:color/black</item>
+        <item name="number_text_size">@dimen/custom_style_1_number_text_size</item>
+        <item name="style_1_alphabet_padding">@dimen/custom_style_1_style_1_alphabet_padding</item>
+        <item name="style_1_alphabets_text_color">@color/custom_twelvekey_alphabet_color</item>
+        <item name="style_1_alphabets_text_size">@dimen/custom_style_1_style_1_alphabets_text_size</item>
+        <item name="style_num">1</item>
+    </style>
+    <style name="CustomKey_Style_vertical_big" parent="@style/CustomKey_Style_vertical">
+        <item name="android:background">@null</item>
+        <item name="number_text_size">@dimen/custom_style_1_number_text_size_big</item>
+        <item name="style_1_alphabet_padding">@dimen/custom_style_1_style_1_alphabet_padding_big</item>
+        <item name="style_1_alphabets_text_size">@dimen/custom_style_1_style_1_alphabets_text_size_big</item>
+    </style>
+    <style name="CustomKey_Style_vertical_ez" parent="@style/CustomKey_Style_vertical_big">
+        <item name="style_1_is_number_vertical_center">true</item>
+    </style>
+    <style name="DetailActionBarStyle" parent="@style/ActionBarStyle">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="DetailSubTitleTextStyle">
+        <item name="android:textSize">@dimen/amax_actionbar_sub_title_size</item>
+        <item name="android:textColor">#ffaedeed</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">0.0</item>
+    </style>
+    <style name="DetailTitleTextStyle">
+        <item name="android:textSize">@dimen/amax_actionbar_main_title_size</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">0.0</item>
+    </style>
+    <style name="DialerActionBarTabBarStyle" parent="@android:style/Widget.ActionBar.TabBar">
+        <item name="android:divider">@color/phone_actionbat_tab_divider</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">12.0dip</item>
+    </style>
+    <style name="DialtactsActionBarStyle" parent="@android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:background">@drawable/tab_bg</item>
+        <item name="android:height">@dimen/asus_a68_action_bar_height</item>
+        <item name="android:displayOptions">@null</item>
+        <item name="android:titleTextStyle">@style/AsusTitleTextStyle</item>
+        <item name="android:backgroundStacked">@drawable/tab_bg</item>
+        <item name="android:backgroundSplit">@null</item>
+    </style>
+    <style name="DialtactsActionBarTabStyle" parent="@android:style/Widget.DeviceDefault.ActionBar">
+        <item name="android:background">@drawable/actionbar_tab_background</item>
+        <item name="android:backgroundStacked">@drawable/tab_bg</item>
+        <item name="android:backgroundSplit">@null</item>
+    </style>
+    <style name="DialtactsDialpadButtonStyle">
+        <item name="android:background">@drawable/btn_dialpad_01</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="DialtactsDialpadButtonStyle01">
+        <item name="android:background">@drawable/btn_dialpad_01</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="DialtactsDialpadButtonStyle02">
+        <item name="android:background">@drawable/btn_dialpad_02</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="DialtactsDigitsTextAppearance">
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:editable">true</item>
+        <item name="android:freezesText">true</item>
+        <item name="android:layout_weight">0.0</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="DialtactsDigitsTextAppearanceInDaulPane">
+        <item name="android:textSize">@dimen/dialpad_digits_text_size_InDualPane</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:editable">true</item>
+        <item name="android:freezesText">true</item>
+        <item name="android:layout_weight">0.0</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="DialtactsDigitsTextAppearanceInPhoneUse">
+        <item name="android:textSize">@dimen/dialpad_digits_text_size_InPhoneUse</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:editable">true</item>
+        <item name="android:freezesText">true</item>
+        <item name="android:layout_weight">0.0</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="DialtactsDigitsTextAppearanceInPhoneUseDualPane">
+        <item name="android:textSize">@dimen/dialpad_digits_text_size_InPhoneUseDaulPane</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:editable">true</item>
+        <item name="android:freezesText">true</item>
+        <item name="android:layout_weight">0.0</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="DirectoryHeader" parent="@style/PeopleTheme" />
+    <style name="EditorActivityActionBarStyle" parent="@style/ContactsActionBarStyle">
+        <item name="android:background">@drawable/asus_bg_social_bar_top</item>
+        <item name="android:backgroundStacked">@drawable/asus_bg_social_bar_top</item>
+    </style>
+    <style name="EditorActivityTheme" parent="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:actionBarStyle">@style/EditorActivityActionBarStyle</item>
+        <item name="android:actionMenuTextAppearance">@style/AsusActionMenuTextAppearance</item>
+        <item name="android:actionBarWidgetTheme">@style/ContactsActionBarTheme</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="android:actionBarItemBackground">@drawable/asus_action_bar_item_background</item>
+        <item name="list_item_contacts_count_text_color">@color/group_list_item_title</item>
+        <item name="list_item_contacts_name_text_size">@dimen/asus_list_item_main_text_size</item>
+    </style>
+    <style name="FavoritePickerTheme" parent="@style/AmaxEditorActivityTheme">
+        <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="android:actionBarItemBackground">?android:selectableItemBackground</item>
+        <item name="list_item_contacts_count_text_size">@dimen/asus_list_item_second_text_size</item>
+        <item name="list_item_contacts_name_text_size">@dimen/asus_list_item_main_text_size</item>
+        <item name="list_item_header_height">@dimen/asus_header_height</item>
+        <item name="list_item_header_text_size">@dimen/asus_list_item_header_text_size</item>
+    </style>
+    <style name="FragmentActionBarPadding">
+        <item name="android:paddingBottom">?android:actionBarSize</item>
+    </style>
+    <style name="GroupMembershipSizeTextAppearance" parent="@android:style/TextAppearance.Small" />
+    <style name="LinkContactActivityTheme" parent="@style/AsusGroupEditorActivityTheme">
+        <item name="android:actionBarDivider">@null</item>
+        <item name="list_item_header_text_color">@color/asus_list_header_text_color</item>
+    </style>
+    <style name="ListPopupWindowForL" parent="@android:style/Widget.Material.Light.ListPopupWindow">
+        <item name="android:overlapAnchor">true</item>
+    </style>
+    <style name="ListViewDropdownStyle" parent="@android:style/Widget.ListView.DropDown">
+        <item name="android:listSelector">?android:listChoiceBackgroundIndicator</item>
+    </style>
+    <style name="ListViewStyle" parent="@android:style/Widget.DeviceDefault.Light.ListView">
+        <item name="android:overScrollMode">always</item>
+    </style>
+    <style name="NonPhoneActivityTheme" parent="@android:style/Theme.Translucent.NoTitleBar" />
+    <style name="NonPhoneDialogTheme" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="OdmDetailActionBarStyle" parent="@android:style/Widget.Material.ActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/AmaxTwoColumnTitleTextStyle</item>
+    </style>
+    <style name="OdmGroupDetailActivityOverflow" parent="@android:style/Widget.DeviceDefault.ActionButton.Overflow">
+        <item name="android:src">@drawable/asus_contacts2_ic_edit</item>
+        <item name="android:tint">@color/asus_contacts_icon_default_color</item>
+    </style>
+    <style name="OnlyDialog" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:colorAccent">?android:colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+    <style name="PeopleNavigationDropDownHeaderTextAppearance">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#cdffffff</item>
+    </style>
+    <style name="PeopleNavigationDropDownTextAppearance">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff333333</item>
+    </style>
+    <style name="PeopleTheme" parent="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:actionBarStyle">@style/ContactsActionBarStyle</item>
+        <item name="android:actionDropDownStyle">@style/ContactsActionBarDropDownStyle</item>
+        <item name="android:actionBarTabStyle">@style/ContactsActionBarTabView</item>
+        <item name="android:actionBarTabBarStyle">@style/ContactsActionBarTabBarStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/asus_contacts2_ic_previous_web</item>
+        <item name="android:actionBarWidgetTheme">@style/ContactsActionBarTheme</item>
+        <item name="android:actionBarItemBackground">@drawable/asus_action_bar_item_background</item>
+        <item name="activated_background">?android:selectableItemBackground</item>
+        <item name="activated_background_2">?android:selectableItemBackground</item>
+        <item name="contact_browser_background">@android:color/transparent</item>
+        <item name="contact_browser_list_padding_left">0.0dip</item>
+        <item name="contact_browser_list_padding_right">0.0dip</item>
+        <item name="favorites_padding_bottom">0.0dip</item>
+        <item name="list_item_checkbox_width">@dimen/asus_contact_browser_list_item_checkbox_width</item>
+        <item name="list_item_contacts_count_text_color">@color/contact_count_text_color</item>
+        <item name="list_item_contacts_count_text_size">@dimen/asus_list_item_second_text_size</item>
+        <item name="list_item_data_width_weight">5</item>
+        <item name="list_item_divider">?android:listDivider</item>
+        <item name="list_item_gap_between_image_and_text">8.0dip</item>
+        <item name="list_item_gap_between_label_and_data">5.0dip</item>
+        <item name="list_item_header_height">@dimen/asus_header_height</item>
+        <item name="list_item_header_text_color">@color/people_app_theme_color</item>
+        <item name="list_item_header_text_indent">8.0dip</item>
+        <item name="list_item_header_text_size">14.0sp</item>
+        <item name="list_item_header_underline_color">@color/amax_header_divider_color</item>
+        <item name="list_item_header_underline_height">1.0dip</item>
+        <item name="list_item_height">@dimen/contact_browser_list_item_photo_size</item>
+        <item name="list_item_label_width_weight">3</item>
+        <item name="list_item_padding_bottom">0.0dip</item>
+        <item name="list_item_padding_left">0.0dip</item>
+        <item name="list_item_padding_right">0.0dip</item>
+        <item name="list_item_padding_top">0.0dip</item>
+        <item name="list_item_photo_size">@dimen/contact_browser_list_item_photo_size</item>
+        <item name="list_item_prefix_highlight_color">@color/asus_highlight_color</item>
+        <item name="list_item_presence_icon_margin">4.0dip</item>
+        <item name="list_item_presence_icon_size">16.0dip</item>
+        <item name="list_item_profile_photo_size">70.0dip</item>
+        <item name="list_item_text_indent">@dimen/contact_browser_list_item_text_indent</item>
+        <item name="list_section_header_height">24.0dip</item>
+        <item name="section_header_background">@drawable/list_title_holo</item>
+    </style>
+    <style name="Platform.AsusRes" parent="@android:style/Theme.Material" />
+    <style name="Platform.AsusRes.Dialog" parent="@android:style/Theme.Material.Dialog" />
+    <style name="Platform.AsusRes.Dialog.Alert" parent="@android:style/Theme.Material.Dialog.Alert" />
+    <style name="Platform.AsusRes.Light" parent="@android:style/Theme.Material.Light" />
+    <style name="Platform.AsusRes.Light.Dialog" parent="@android:style/Theme.Material.Light.Dialog" />
+    <style name="Platform.AsusRes.Light.Dialog.Alert" parent="@android:style/Theme.Material.Light.Dialog.Alert" />
+    <style name="PopupMenuForL" parent="@android:style/Widget.Material.Light.PopupMenu">
+        <item name="android:overlapAnchor">true</item>
+    </style>
+    <style name="Preference.AsusRes" parent="@style/Base.Preference.AsusRes" />
+    <style name="Preference.AsusRes.Category" parent="@style/Base.Preference.AsusRes.Category" />
+    <style name="Preference.AsusRes.Light" parent="@style/Base.Preference.AsusRes.Light" />
+    <style name="Preference.AsusRes.Light.Category" parent="@style/Base.Preference.AsusRes.Light.Category" />
+    <style name="PrivatePinDialogTheme" parent="@style/AmaxActionbarBaseTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="QuickContactListBottomStyle">
+        <item name="android:background">@drawable/asus_dialer_popup_line_bottom</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">4.0dip</item>
+    </style>
+    <style name="QuickContactListItemStyle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/quick_action_width</item>
+    </style>
+    <style name="QuickContactListItemTextWrapperStyle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:paddingBottom">4.5dip</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="SectionDivider">
+        <item name="android:background">#ff7e7e87</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+    <style name="SecurityPreferenceButtonContainer">
+        <item name="android:paddingBottom">8.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">56.0dip</item>
+        <item name="android:weightSum">2.0</item>
+        <item name="android:dividerPadding">8.0dip</item>
+    </style>
+    <style name="TextAppearance.AsusRes.Medium" parent="@style/Base.TextAppearance.AsusRes.Medium" />
+    <style name="TextAppearance.AsusRes.Secondary" parent="@style/Base.TextAppearance.AsusRes.Secondary" />
+    <style name="TextAppearance.AsusRes.Small" parent="@style/Base.TextAppearance.AsusRes.Small" />
+    <style name="TextAppearance.AsusRes.Widget.ActionBar.Subtitle" parent="@style/Base.TextAppearance.AsusRes.Widget.ActionBar.Subtitle" />
+    <style name="TextAppearance.AsusRes.Widget.ActionBar.Subtitle.GradientBg" parent="@style/Base.TextAppearance.AsusRes.Widget.ActionBar.Subtitle.GradientBg" />
+    <style name="TextAppearance.AsusRes.Widget.ActionBar.Title" parent="@style/Base.TextAppearance.AsusRes.Widget.ActionBar.Title" />
+    <style name="TextAppearance.AsusRes.Widget.ActionBar.Title.Oneline" parent="@style/Base.TextAppearance.AsusRes.Widget.ActionBar.Title.Oneline" />
+    <style name="TextAppearance.AsusRes.Widget.ActionMode.Subtitle" parent="@style/Base.TextAppearance.AsusRes.Widget.ActionMode.Subtitle" />
+    <style name="TextAppearance.AsusRes.Widget.ActionMode.Subtitle.GradientBg" parent="@style/Base.TextAppearance.AsusRes.Widget.ActionMode.Subtitle.GradientBg" />
+    <style name="TextAppearance.AsusRes.Widget.ActionMode.Title" parent="@style/Base.TextAppearance.AsusRes.Widget.ActionMode.Title" />
+    <style name="TextAppearance.AsusRes.Widget.Button" parent="@style/Base.TextAppearance.AsusRes.Widget.Button" />
+    <style name="TextAppearance.AsusRes.Widget.Button.Small" parent="@style/Base.TextAppearance.AsusRes.Widget.Button.Small" />
+    <style name="TextAppearance.AsusRes.Widget.Light.Button" parent="@style/Base.TextAppearance.AsusRes.Widget.Light.Button" />
+    <style name="TextAppearance.AsusRes.Widget.Light.Button.Small" parent="@style/Base.TextAppearance.AsusRes.Widget.Light.Button.Small" />
+    <style name="TextAppearance.AsusRes.Widget.PopupMenu.Large" parent="@style/Base.TextAppearance.AsusRes.Widget.PopupMenu.Large" />
+    <style name="Theme" />
+    <style name="Theme.AsusRes" parent="@style/Base.Theme.AsusRes" />
+    <style name="Theme.AsusRes.Dialog" parent="@style/Base.Theme.AsusRes.Dialog" />
+    <style name="Theme.AsusRes.Dialog.Alert" parent="@style/Base.Theme.AsusRes.Dialog.Alert" />
+    <style name="Theme.AsusRes.Light" parent="@style/Base.Theme.AsusRes.Light" />
+    <style name="Theme.AsusRes.Light.DarkActionBar" parent="@style/Base.Theme.AsusRes.Light.DarkActionBar" />
+    <style name="Theme.AsusRes.Light.Dialog" parent="@style/Base.Theme.AsusRes.Light.Dialog" />
+    <style name="Theme.AsusRes.Light.Dialog.Alert" parent="@style/Base.Theme.AsusRes.Light.Dialog.Alert" />
+    <style name="Theme.AsusRes.Light.GradientBg" parent="@style/Base.Theme.AsusRes.Light.GradientBg" />
+    <style name="Theme.LauncherBase" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:typeface">sans</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="Theme.LauncherBase.Dialog" parent="@style/Theme.LauncherBase">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="Theme.PhotoSelector" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Theme.QuickContact" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="ThemeOverlay.AsusRes.ActionBar" parent="@style/Base.ThemeOverlay.AsusRes.ActionBar" />
+    <style name="ThemeOverlay.AsusRes.Dark.ActionBar" parent="@style/Base.ThemeOverlay.AsusRes.Dark.ActionBar" />
+    <style name="ThemeOverlay.AsusRes.Dark.ActionBar.GradientBg" parent="@style/Base.ThemeOverlay.AsusRes.Dark.ActionBar.GradientBg" />
+    <style name="ThemeOverlay.AsusRes.Light.ActionBar" parent="@style/Base.ThemeOverlay.AsusRes.Light.ActionBar" />
+    <style name="Translucent" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="TransparentDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="TutorialTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="UserVoiceSDKTheme" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:actionBarStyle">@style/uf_sdk_ActionBarStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/uf_sdk_tabtextcolor</item>
+        <item name="android:homeAsUpIndicator">@drawable/uf_sdk_ic_ab_back_light</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="UserVoiceSDKTheme_light" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:actionBarStyle">@style/uf_sdk_ActionBarStyle_light</item>
+        <item name="android:actionBarTabTextStyle">@style/uf_sdk_tabtextcolor</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="Widget.AsusRes.ActionBar.Solid" parent="@style/Base.Widget.AsusRes.ActionBar.Solid" />
+    <style name="Widget.AsusRes.ActionBar.Solid.Oneline" parent="@style/Base.Widget.AsusRes.ActionBar.Solid.Oneline" />
+    <style name="Widget.AsusRes.ActionButton.Overflow" parent="@style/Base.Widget.AsusRes.ActionButton.Overflow" />
+    <style name="Widget.AsusRes.ActionMode" parent="@style/Base.Widget.AsusRes.ActionMode" />
+    <style name="Widget.AsusRes.Button" parent="@style/Base.Widget.AsusRes.Button" />
+    <style name="Widget.AsusRes.Button.Small" parent="@style/Base.Widget.AsusRes.Button.Small" />
+    <style name="Widget.AsusRes.CompoundButton.CheckBox" parent="@style/Base.Widget.AsusRes.CompoundButton.CheckBox" />
+    <style name="Widget.AsusRes.CompoundButton.RadioButton" parent="@style/Base.Widget.AsusRes.CompoundButton.RadioButton" />
+    <style name="Widget.AsusRes.CompoundButton.Switch" parent="@style/Base.Widget.AsusRes.CompoundButton.Switch" />
+    <style name="Widget.AsusRes.DropDownItem.Spinner" parent="@style/Base.Widget.AsusRes.DropDownItem.Spinner" />
+    <style name="Widget.AsusRes.EditText" parent="@style/Base.Widget.AsusRes.EditText" />
+    <style name="Widget.AsusRes.ExpandableListView" parent="@style/Base.Widget.AsusRes.ExpandableListView" />
+    <style name="Widget.AsusRes.ImageButton" parent="@style/Base.Widget.AsusRes.Light.ImageButton" />
+    <style name="Widget.AsusRes.Light.ActionBar.Solid" parent="@style/Base.Widget.AsusRes.Light.ActionBar.Solid" />
+    <style name="Widget.AsusRes.Light.ActionBar.Solid.GradientBg" parent="@style/Base.Widget.AsusRes.Light.ActionBar.Solid.GradientBg" />
+    <style name="Widget.AsusRes.Light.ActionBar.Solid.GradientBg.Oneline" parent="@style/Base.Widget.AsusRes.Light.ActionBar.Solid.GradientBg.Oneline" />
+    <style name="Widget.AsusRes.Light.ActionBar.Solid.Oneline" parent="@style/Base.Widget.AsusRes.Light.ActionBar.Solid.Oneline" />
+    <style name="Widget.AsusRes.Light.ActionBar.TabText" parent="@style/Base.Widget.AsusRes.Light.ActionBar.TabText" />
+    <style name="Widget.AsusRes.Light.ActionButton.Overflow" parent="@style/Base.Widget.AsusRes.Light.ActionButton.Overflow" />
+    <style name="Widget.AsusRes.Light.ActionMode" parent="@style/Base.Widget.AsusRes.Light.ActionMode" />
+    <style name="Widget.AsusRes.Light.ActionMode.GradientBg" parent="@style/Base.Widget.AsusRes.Light.ActionMode.GradientBg" />
+    <style name="Widget.AsusRes.Light.Button" parent="@style/Base.Widget.AsusRes.Light.Button" />
+    <style name="Widget.AsusRes.Light.Button.Small" parent="@style/Base.Widget.AsusRes.Light.Button.Small" />
+    <style name="Widget.AsusRes.Light.CompoundButton.CheckBox" parent="@style/Base.Widget.AsusRes.Light.CompoundButton.CheckBox" />
+    <style name="Widget.AsusRes.Light.CompoundButton.RadioButton" parent="@style/Base.Widget.AsusRes.Light.CompoundButton.RadioButton" />
+    <style name="Widget.AsusRes.Light.CompoundButton.Switch" parent="@style/Base.Widget.AsusRes.Light.CompoundButton.Switch" />
+    <style name="Widget.AsusRes.Light.EditText" parent="@style/Base.Widget.AsusRes.Light.EditText" />
+    <style name="Widget.AsusRes.Light.ExpandableListView" parent="@style/Base.Widget.AsusRes.Light.ExpandableListView" />
+    <style name="Widget.AsusRes.Light.ExpandableListView.GradientBg" parent="@style/Base.Widget.AsusRes.Light.ExpandableListView.GradientBg" />
+    <style name="Widget.AsusRes.Light.ImageButton" parent="@style/Base.Widget.AsusRes.Light.ImageButton" />
+    <style name="Widget.AsusRes.Light.ListView" parent="@style/Base.Widget.AsusRes.Light.ListView" />
+    <style name="Widget.AsusRes.Light.ListView.GradientBg" parent="@style/Base.Widget.AsusRes.Light.ListView.GradientBg" />
+    <style name="Widget.AsusRes.Light.ScrollView" parent="@style/Base.Widget.AsusRes.Light.ScrollView" />
+    <style name="Widget.AsusRes.Light.ScrollView.GradientBg" parent="@style/Base.Widget.AsusRes.Light.ScrollView.GradientBg" />
+    <style name="Widget.AsusRes.Light.SearchView" parent="@style/Base.Widget.AsusRes.Light.SearchView" />
+    <style name="Widget.AsusRes.Light.SeekBar" parent="@style/Base.Widget.AsusRes.Light.SeekBar" />
+    <style name="Widget.AsusRes.Light.Spinner.DropDown" parent="@style/Base.Widget.AsusRes.Light.Spinner.DropDown" />
+    <style name="Widget.AsusRes.Light.Spinner.DropDown.ActionBar" parent="@style/Base.Widget.AsusRes.Light.Spinner.DropDown.ActionBar" />
+    <style name="Widget.AsusRes.Light.TextView.ListSeparator" parent="@style/Base.Widget.AsusRes.Light.TextView.ListSeparator" />
+    <style name="Widget.AsusRes.Light.TextView.SpinnerItem" parent="@style/Base.Widget.AsusRes.Light.TextView.SpinnerItem" />
+    <style name="Widget.AsusRes.Light.TextView.SpinnerItem.ActionBar" parent="@style/Base.Widget.AsusRes.Light.TextView.SpinnerItem.ActionBar" />
+    <style name="Widget.AsusRes.ListView" parent="@style/Base.Widget.AsusRes.ListView" />
+    <style name="Widget.AsusRes.ScrollView" parent="@style/Base.Widget.AsusRes.ScrollView" />
+    <style name="Widget.AsusRes.SearchView" parent="@style/Base.Widget.AsusRes.SearchView" />
+    <style name="Widget.AsusRes.SeekBar" parent="@style/Base.Widget.AsusRes.SeekBar" />
+    <style name="Widget.AsusRes.Spinner.DropDown" parent="@style/Base.Widget.AsusRes.Spinner.DropDown" />
+    <style name="Widget.AsusRes.Spinner.DropDown.ActionBar" parent="@style/Base.Widget.AsusRes.Spinner.DropDown.ActionBar" />
+    <style name="Widget.AsusRes.TextView.ListSeparator" parent="@style/Base.Widget.AsusRes.TextView.ListSeparator" />
+    <style name="Widget.AsusRes.TextView.SpinnerItem" parent="@style/Base.Widget.AsusRes.TextView.SpinnerItem" />
+    <style name="Widget.AsusRes.TextView.SpinnerItem.ActionBar" parent="@style/Base.Widget.AsusRes.TextView.SpinnerItem.ActionBar" />
+    <style name="Widget.AsusRes.Toolbar" parent="@style/Base.Widget.AsusRes.Toolbar" />
+    <style name="additional_icon_tint">
+        <item name="android:tint">#ff00b196</item>
+    </style>
+    <style name="call_detail_icon_tint">
+        <item name="android:tint">@color/asus_contacts_icon_default_color</item>
+    </style>
+    <style name="call_detail_type_icon_tint">
+        <item name="android:tint">#ff909090</item>
+    </style>
+    <style name="call_detail_video_icon_tint">
+        <item name="android:tint">#ff4f4f4f</item>
+    </style>
+    <style name="call_guard_option_icon_tint">
+        <item name="android:tint">#ffffffff</item>
+    </style>
+    <style name="checkbox_style" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:layout_width">66.0dip</item>
+        <item name="android:layout_height">66.0dip</item>
+        <item name="android:layout_marginRight">17.0dip</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="horizontal_section_divider">
+        <item name="android:background">?android:dividerHorizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0px</item>
+    </style>
+    <style name="imageview_style">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">64.0dip</item>
+        <item name="android:layout_height">64.0dip</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="listview_item_style">
+        <item name="android:descendantFocusability">blocksDescendants</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">66.0dip</item>
+    </style>
+    <style name="listview_style">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">insideInset</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scrollingCache">false</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:dividerHeight">0.0dip</item>
+        <item name="android:fastScrollAlwaysVisible">true</item>
+    </style>
+    <style name="none_text_style">
+        <item name="android:textSize">24.0dip</item>
+        <item name="android:textColor">#ff7d7d7d</item>
+    </style>
+    <style name="search_bar_icon_tint">
+        <item name="android:tint">#ff868585</item>
+    </style>
+    <style name="snap_call_call_log_icon_tint">
+        <item name="android:tint">#ff616161</item>
+    </style>
+    <style name="tabmargin_style">
+        <item name="android:layout_marginLeft">0.0dip</item>
+        <item name="android:layout_marginRight">0.0dip</item>
+    </style>
+    <style name="textview_detail_style">
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="twelve_key_icon_tint">
+        <item name="android:tint">@color/asus_contacts_icon_default_color</item>
+    </style>
+    <style name="ud_sdk_ActionBarStyle" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid">
+        <item name="android:displayOptions">homeAsUp|showTitle</item>
+        <item name="android:titleTextStyle">@style/ud_sdk_ActionBarTitleTextStyle</item>
+        <item name="android:backgroundStacked">@color/ud_sdk_background_white</item>
+    </style>
+    <style name="ud_sdk_ActionBarTitleTextStyle" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">@dimen/ud_sdk_action_bar_title_size</item>
+        <item name="android:textColor">@color/ud_sdk_action_bar_text_grey</item>
+    </style>
+    <style name="uf_sdk_ActionBarStyle" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid.Inverse">
+        <item name="android:titleTextStyle">@style/uf_sdk_ActionBarTitleTextStyle</item>
+        <item name="android:backgroundStacked">#ffeeeeee</item>
+    </style>
+    <style name="uf_sdk_ActionBarStyle_light" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid.Inverse">
+        <item name="android:titleTextStyle">@style/uf_sdk_ActionBarTitleTextStyle_light</item>
+        <item name="android:backgroundStacked">#ffeeeeee</item>
+    </style>
+    <style name="uf_sdk_ActionBarTitleTextStyle">
+        <item name="android:textSize">25.0dip</item>
+        <item name="android:textColor">#ff505050</item>
+    </style>
+    <style name="uf_sdk_ActionBarTitleTextStyle_light" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">25.0dip</item>
+        <item name="android:textColor">#ff565656</item>
+    </style>
+    <style name="uf_sdk_tabtextcolor" parent="@android:style/Widget.Holo.Light.ActionBar.TabText">
+        <item name="android:textColor">#ff565656</item>
+    </style>
+    <style name="uv_ListSeparator">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff3db5e1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:paddingBottom">4.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="uv_ListSeparatorLight" parent="@style/uv_ListSeparator">
+        <item name="android:textColor">#ff666666</item>
+    </style>
+    <style name="vertical_section_divider">
+        <item name="android:background">?android:dividerHorizontal</item>
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">66.0dip</item>
+        <item name="android:layout_marginRight">0.0dip</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="vertical_section_margin_divider">
+        <item name="android:background">?android:dividerHorizontal</item>
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:layout_marginBottom">10.0dip</item>
+    </style>
+</resources>

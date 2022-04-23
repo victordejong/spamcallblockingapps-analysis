@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.callapp.contacts.widget.ProfilePictureView android:id="@id/profilePictureView" app:presetSize="x_small" style="@style/PhotoGalleryItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

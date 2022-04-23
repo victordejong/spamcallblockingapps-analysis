@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/contact_list_icon_size" android:layout_height="@dimen/contact_list_icon_size" android:layout_marginLeft="@dimen/contact_list_item_add_to_list_single_left_margin" android:layout_marginTop="@dimen/contact_list_item_vertical_margin" android:layout_marginRight="@dimen/contact_list_item_horizontal_margin" android:layout_marginBottom="@dimen/contact_list_item_vertical_margin">
+        <com.pnikosis.materialishprogress.ProgressWheel android:layout_gravity="center" android:id="@id/progressWheel" android:layout_width="@dimen/contact_list_icon_size" android:layout_height="@dimen/contact_list_icon_size" wheel:matProg_fillRadius="false" wheel:matProg_linearProgress="true" wheel:matProg_progressIndeterminate="true" xmlns:wheel="http://schemas.android.com/apk/res-auto" />
+    </FrameLayout>
+    <TextView android:gravity="center|left" android:id="@id/loadingPlacesText" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Body2.Name_text.ContactListTextName" />
+</LinearLayout>

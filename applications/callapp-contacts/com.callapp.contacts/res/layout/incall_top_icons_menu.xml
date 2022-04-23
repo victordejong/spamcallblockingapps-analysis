@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/topBarContainer" android:layout_width="fill_parent" android:layout_height="@dimen/contact_details_bottom_action_bar_opened"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/horizontal_dropdown_icon_menu_items" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/mute_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/muteSmallIcon" android:visibility="invisible" android:layout_width="@dimen/contact_details_bottom_action_bar_small_icons_sizes" android:layout_height="@dimen/contact_details_bottom_action_bar_small_icons_sizes" android:src="@drawable/shape_oval" />
+            <ImageView android:id="@id/img_mute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_incall_mic" android:scaleType="fitXY" />
+        </FrameLayout>
+        <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/hold_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/holdSmallIcon" android:visibility="invisible" android:layout_width="@dimen/contact_details_bottom_action_bar_small_icons_sizes" android:layout_height="@dimen/contact_details_bottom_action_bar_small_icons_sizes" android:src="@drawable/shape_oval" />
+            <ImageView android:id="@id/img_hold" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_incall_pause" android:scaleType="fitXY" />
+            <ImageView android:id="@id/img_merge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_incall_merge" android:scaleType="fitXY" />
+        </FrameLayout>
+        <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/add_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/addSmallIcon" android:visibility="invisible" android:layout_width="@dimen/contact_details_bottom_action_bar_small_icons_sizes" android:layout_height="@dimen/contact_details_bottom_action_bar_small_icons_sizes" android:src="@drawable/shape_oval" />
+            <ImageView android:id="@id/img_add_call" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_incall_add_call" android:scaleType="fitXY" />
+            <ImageView android:id="@id/img_swap_call" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_incall_swap" android:scaleType="fitXY" />
+        </FrameLayout>
+        <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include android:layout_gravity="center" android:id="@id/layout_dialog_default_dialer" android:visibility="gone" android:layout_width="@dimen/contact_details_bottom_action_bar_default_banner_width" android:layout_height="@dimen/contact_details_bottom_action_bar_default_banner_height" layout="@layout/dialog_default_dialer" />
+</FrameLayout>

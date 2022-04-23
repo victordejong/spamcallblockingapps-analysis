@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/addToListItem" android:background="@drawable/ripple_or_holo_masked_rect" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/contact_list_icon_size" android:layout_height="@dimen/contact_list_icon_size" android:layout_marginLeft="@dimen/contact_list_item_add_to_list_single_left_margin" android:layout_marginTop="@dimen/contact_list_item_vertical_margin" android:layout_marginRight="@dimen/contact_list_item_horizontal_margin" android:layout_marginBottom="@dimen/contact_list_item_vertical_margin">
+        <ImageView android:layout_gravity="center" android:id="@id/buttonIcon" android:layout_width="@dimen/contact_list_icon_size" android:layout_height="@dimen/contact_list_icon_size" android:src="@drawable/contact_add_contact" android:scaleType="center" />
+    </FrameLayout>
+    <TextView android:gravity="center|left" android:id="@id/addText" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/centerAnchor" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/Body2.Name_text.ContactListTextName" />
+</LinearLayout>

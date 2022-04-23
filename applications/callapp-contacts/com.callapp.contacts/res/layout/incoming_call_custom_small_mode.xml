@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/contentLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/notificationImage" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_margin="12.0dip" android:src="@drawable/profile_pic_default" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/incomingCall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/notificationActions" android:layout_toRightOf="@id/notificationImage" android:layout_centerVertical="true">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/notificationName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+            <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:layout_gravity="center_vertical" android:id="@id/notificationAction" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/notificationActions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_6_dp" android:layout_marginRight="20.0dip" android:layout_below="@id/icon" android:layout_alignParentRight="true" android:layout_alignParentBottom="false" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/img_incall_hang" android:layout_width="@dimen/dimen_56_dp" android:layout_height="@dimen/dimen_56_dp" android:src="@drawable/ic_icc_notif_ec" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/img_incall_answer" android:background="@drawable/ripple_or_holo" android:layout_width="@dimen/dimen_56_dp" android:layout_height="@dimen/dimen_56_dp" android:layout_marginLeft="@dimen/dimen_4_dp" android:src="@drawable/ic_icc_notif_an" />
+        </LinearLayout>
+        <ImageView android:id="@id/callAppIcon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="@dimen/dimen_6_dp" android:layout_marginRight="@dimen/dimen_10_dp" android:src="@drawable/ic_status_ongoing_call" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

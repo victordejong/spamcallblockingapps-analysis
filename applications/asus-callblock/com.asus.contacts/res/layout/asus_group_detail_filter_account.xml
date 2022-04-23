@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingRight="?android:scrollbarSize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/account_indicator_container" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/account_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/asus_filter_account_point_margin_left" android:layout_marginRight="@dimen/asus_filter_account_point_margin_right" />
+    </LinearLayout>
+    <RelativeLayout android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/asus_filter_account_point_margin_right" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="5.0dip" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/AsusContactListFilerTextAppearance.Medium" android:textColor="@color/call_log_popup_window_text" android:ellipsize="marquee" android:id="@android:id/text1" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sans-serif-medium" />
+        <TextView android:textAppearance="@style/AsusContactListFilerTextAppearance.Small" android:ellipsize="marquee" android:id="@android:id/text2" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@android:id/text1" android:layout_alignLeft="@android:id/text1" android:fontFamily="sans-serif-medium" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center|right" android:id="@id/account_checkbox_container" android:layout_width="60.0dip" android:layout_height="fill_parent">
+        <RadioButton android:id="@id/account_checkbox" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

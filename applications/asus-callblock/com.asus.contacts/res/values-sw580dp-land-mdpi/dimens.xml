@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="asus_fastscroll_step_ch">11.5dip</dimen>
+    <dimen name="asus_fastscroll_step_ch_navi">11.199982dip</dimen>
+    <dimen name="asus_fastscroll_step_en">12.599976dip</dimen>
+    <dimen name="asus_fastscroll_step_en_navi">12.599976dip</dimen>
+    <dimen name="asus_index_size">13.0dip</dimen>
+    <dimen name="asus_index_size_f">13.0dip</dimen>
+    <dimen name="asus_max_window_height">370.0dip</dimen>
+    <dimen name="call_detail_histroy_margin_top">-5.0dip</dimen>
+    <dimen name="detail_contact_photo_size">192.0dip</dimen>
+    <dimen name="digits_container_height">85.0dip</dimen>
+    <dimen name="favorite_contact_tile_list_padding">9.0dip</dimen>
+    <dimen name="list_visible_scrollbar_padding">32.0dip</dimen>
+    <dimen name="asus_call_log_number_max_width">100.0dip</dimen>
+</resources>

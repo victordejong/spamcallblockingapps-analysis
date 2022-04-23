@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <color android:color="@color/transparent" />
+    </item>
+    <item>
+        <inset android:drawable="@drawable/dialog_light_rect" android:insetLeft="@dimen/dialog_horizontal_padding" android:insetRight="@dimen/dialog_horizontal_padding" android:insetTop="@dimen/dialog_horizontal_padding" android:insetBottom="@dimen/dialog_horizontal_padding" />
+    </item>
+</layer-list>

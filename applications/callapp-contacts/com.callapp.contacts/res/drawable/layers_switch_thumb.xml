@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/switch_shadow">
+        <bitmap android:src="@drawable/ic_toggle_btn_shadow" />
+    </item>
+    <item android:id="@id/switch_thumb">
+        <bitmap android:src="@drawable/ic_toggle_btn" />
+    </item>
+</layer-list>

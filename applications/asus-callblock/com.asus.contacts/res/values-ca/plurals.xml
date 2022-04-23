@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d persones</item>
+        <item quantity="one">%1$d persones</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%,d contactes</item>
+        <item quantity="one">1 contacte</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d missatges de veu</item>
+        <item quantity="one">Missatge de veu</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d contactes</item>
+        <item quantity="one">1 contacte</item>
+    </plurals>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/asus_old_ic_pen_b" android:id="@id/ez_edit_contact" android:visible="false" android:title="@string/menu_editContact" android:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/card"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/card_main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/card.main_layout">
+        <it.gmariotti.cardslib.library.view.component.CardHeaderView android:id="@id/card_header_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/card.header_outer_layout" />
+        <FrameLayout android:id="@id/card_main_content_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/card.content_outer_layout" />
+        <FrameLayout android:id="@id/card_overlap" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <it.gmariotti.cardslib.library.view.component.CardShadowView android:id="@id/card_shadow_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/card.shadow_outer_layout" />
+    <FrameLayout android:id="@id/card_content_expand_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/card.main_contentExpand" />
+</LinearLayout>

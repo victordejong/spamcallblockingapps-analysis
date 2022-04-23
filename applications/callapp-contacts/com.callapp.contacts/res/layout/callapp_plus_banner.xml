@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/callAppPlusBanner" android:background="@drawable/gradiant_call_app_plus_banner" android:paddingTop="@dimen/dimen_8_dp" android:paddingRight="@dimen/dimen_8_dp" android:paddingBottom="@dimen/dimen_8_dp" android:layout_width="fill_parent" android:layout_height="150.0dip" android:weightSum="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img" android:layout_width="wrap_content" android:layout_height="150.0dip" android:layout_weight="14.0" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/texts_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="86.0">
+        <TextView android:textSize="@dimen/dimen_14_dp" android:textColor="@color/white_callapp" android:ellipsize="end" android:gravity="center" android:id="@id/banner_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_16_dp" />
+        <TextView android:textSize="@dimen/dimen_14_dp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:gravity="center" android:layout_gravity="center" android:id="@id/cta" android:background="@drawable/plan_background" android:paddingLeft="@dimen/dimen_26_dp" android:paddingTop="@dimen/dimen_6_dp" android:paddingRight="@dimen/dimen_26_dp" android:paddingBottom="@dimen/dimen_6_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:backgroundTint="@color/white_callapp" />
+    </LinearLayout>
+</LinearLayout>

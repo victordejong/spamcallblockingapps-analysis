@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_browse_list_show_images">true</bool>
+    <bool name="config_use_two_panes_in_favorites">true</bool>
+    <bool name="is_seven_inch">false</bool>
+    <bool name="supprot_target_device">true</bool>
+</resources>

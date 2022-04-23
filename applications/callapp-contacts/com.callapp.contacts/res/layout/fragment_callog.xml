@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.callapp.contacts.activity.fastscroll.FastScrollRecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:bubbleTextColor="@color/white_callapp" app:handleColor="#ff999999" app:showTrack="false" app:trackColor="#ffbbbbbb" />
+    <LinearLayout android:orientation="vertical" android:id="@id/emptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/hintContainer">
+        <ImageView android:layout_gravity="center" android:id="@id/empty_view_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="128.0dip" />
+        <TextView android:gravity="center" android:id="@id/primary_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" style="@style/Title" />
+        <TextView android:gravity="center" android:id="@id/secondary_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16_dp" style="@style/Body2" />
+    </LinearLayout>
+    <ViewStub android:id="@id/firstTimeExperienceViewStub" android:layout="@layout/include_call_log_first_experience" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/full_screen_banner_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

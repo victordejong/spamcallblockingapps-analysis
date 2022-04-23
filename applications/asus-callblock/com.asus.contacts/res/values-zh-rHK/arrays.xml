@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blocklist_add_select_dialog_items">
+        <item>從連絡人選擇</item>
+        <item>從最近通話記錄選擇</item>
+        <item>輸入號碼</item>
+        <item>輸入SIP號碼</item>
+    </string-array>
+    <string-array name="change_cover_options">
+        <item>使用Facebook封面</item>
+        <item>使用群組封面</item>
+        <item>使用默認封面</item>
+        <item>自訂封面</item>
+    </string-array>
+    <string-array name="change_group_cover_options">
+        <item>使用默認群組封面</item>
+        <item>自訂群組封面</item>
+    </string-array>
+    <string-array name="news_message">
+        <item>ZenUI撥號器與聯絡人全新介面隆重登場！設計更輕盈，撥號更輕鬆！</item>
+        <item>無痕撥號新功能！讓您輕鬆撥打不會留下通話記錄的電話，不需要再費心刪除通話記錄了！</item>
+    </string-array>
+    <string-array name="picture_from_options">
+        <item>相機</item>
+        <item>圖片庫</item>
+    </string-array>
+    <string-array name="speed_entry_list">
+        <item>快速</item>
+        <item>中</item>
+        <item>慢速</item>
+    </string-array>
+    <string-array name="speed_level_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="toolpanel_news_message">
+        <item>新增其他頁籤，讓您尋找功能與設定更輕鬆！</item>
+    </string-array>
+    <string-array name="whitelist_add_select_dialog_items">
+        <item>從連絡人選擇</item>
+        <item>從最近通話記錄選擇</item>
+        <item>輸入號碼</item>
+        <item>輸入SIP號碼</item>
+    </string-array>
+</resources>

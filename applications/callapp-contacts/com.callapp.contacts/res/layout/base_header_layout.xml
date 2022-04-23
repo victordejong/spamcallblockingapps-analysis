@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/card.header_compound_view"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/card_header_inner_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/card_header_button_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/card.header_button_frame">
+        <ImageButton android:id="@id/card_header_button_overflow" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/card.header_button_base.overflow" />
+        <ImageButton android:id="@id/card_header_button_expand" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/card.header_button_base.expand" />
+        <ImageButton android:id="@id/card_header_button_other" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/card.header_button_base.other" />
+    </FrameLayout>
+</RelativeLayout>

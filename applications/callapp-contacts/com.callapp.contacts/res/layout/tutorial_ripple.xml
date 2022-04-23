@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.skyfishjy.library.RippleBackground android:layout_width="36.0dip" android:layout_height="36.0dip" android:alpha="0.85" app:rb_color="#9f0288d1" app:rb_duration="1000" app:rb_radius="8.0dip" app:rb_rippleAmount="2" app:rb_scale="3.0" app:rb_type="fillRipple"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

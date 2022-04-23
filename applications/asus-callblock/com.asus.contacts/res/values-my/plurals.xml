@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d ပုဂ္ဂိုလ်များ</item>
+        <item quantity="one">%1$d ပုဂ္ဂိုလ်</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%,d အဆက်အသွယ်များ။</item>
+        <item quantity="one">အဆက်အသွယ်တစ်ခုရှိသည်။</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d အသံမေးလ်</item>
+        <item quantity="one">အသံမေးလ်</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d ခု တွေ့သည်။</item>
+        <item quantity="one">၁ ခုတွေ့သည်။</item>
+    </plurals>
+    <plurals name="uf_sdk_number_of_subscribers_format">
+        <item quantity="other">%1$s သည် ဤအကြောင်းအရာကို နှစ်သက်သည်</item>
+        <item quantity="one">%1$s သည် ဤအကြောင်းအရာကို နှစ်သက်သည်</item>
+    </plurals>
+    <plurals name="uf_sdk_topics">
+        <item quantity="other">အကြောင်းအရာများ</item>
+        <item quantity="one">အကြောင်းအရာ</item>
+    </plurals>
+    <plurals name="uv_articles">
+        <item quantity="other">ဆောင်းပါးများ</item>
+        <item quantity="one">ဆောင်းပါး</item>
+    </plurals>
+    <plurals name="uv_comments">
+        <item quantity="other">မှတ်ချက်များ</item>
+        <item quantity="one">မှတ်ချက်</item>
+    </plurals>
+    <plurals name="uv_ideas">
+        <item quantity="other">စိတ်ကူးများ</item>
+        <item quantity="one">စိတ်ကူး</item>
+    </plurals>
+    <plurals name="uv_number_of_subscribers_format">
+        <item quantity="other">%1$s က ဤစိတ်ကူးကို လိုချင်သည်</item>
+        <item quantity="one">%1$s က ဤစိတ်ကူးကို လိုချင်သည်</item>
+    </plurals>
+    <plurals name="uv_people">
+        <item quantity="other">လူများ</item>
+        <item quantity="one">လူ</item>
+    </plurals>
+    <plurals name="uv_subscribers">
+        <item quantity="other">စာရင်းသွင်းသူများ</item>
+        <item quantity="one">စာရင်းသွင်းသူ</item>
+    </plurals>
+</resources>

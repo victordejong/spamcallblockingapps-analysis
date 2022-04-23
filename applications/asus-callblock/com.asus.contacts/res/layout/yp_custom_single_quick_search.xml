@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/single_container" android:paddingTop="@dimen/asus_yp_quick_search_margin_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img" android:layout_width="@dimen/asus_yp_quick_search_img_width" android:layout_height="@dimen/asus_yp_quick_search_img_width" android:layout_marginBottom="@dimen/asus_yp_quick_search_img_text_gap" />
+    <FrameLayout android:id="@id/text_container" android:layout_width="@dimen/asus_yp_quick_search_img_width" android:layout_height="@dimen/asus_yp_quick_search_text_height" android:layout_marginBottom="@dimen/asus_yp_quick_search_margin_bottom">
+        <TextView android:id="@id/custom_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AsusYellowPageQuickSearchTextStyle" />
+    </FrameLayout>
+</LinearLayout>

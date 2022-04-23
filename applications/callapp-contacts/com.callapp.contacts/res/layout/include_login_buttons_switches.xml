@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/setup_login_buttons_container" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="12.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white_callapp" android:id="@id/signUpWith" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_8_dp" android:textAllCaps="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.callapp.contacts.widget.login.PhoneLoginButton android:id="@id/setup_button_create_callapp_account" android:layout_width="fill_parent" android:layout_height="@dimen/sign_up_with_phone_number_button_height_a" android:layout_marginBottom="8.0dip" app:layoutType="center_regular" />
+        <com.callapp.contacts.widget.login.VKSocialLoginButton android:id="@id/vk_login_button" android:layout_width="fill_parent" android:layout_height="@dimen/sign_up_with_phone_number_button_height_a" android:layout_marginBottom="8.0dip" android:layout_below="@id/setup_button_create_callapp_account" app:layoutType="center_regular" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/digits_seperation" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/leftLine" android:background="@color/white_callapp" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white_callapp" android:layout_gravity="center_vertical" android:id="@id/or_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="-2.0dip" android:layout_marginRight="4.0dip" />
+        <View android:id="@id/rightLine" android:background="@color/white_callapp" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.callapp.contacts.widget.login.FacebookSocialLoginButton android:id="@id/facebook_login_button" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_wide_button" android:layout_marginTop="12.0dip" android:layout_marginBottom="9.0dip" app:layoutType="center_regular" />
+    <com.callapp.contacts.widget.login.GoogleSocialLoginButton android:id="@id/google_login_button" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_wide_button" android:layout_marginBottom="12.0dip" app:layoutType="center_regular" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/white_callapp" android:gravity="center_horizontal" android:id="@id/user_agreement_bottom_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

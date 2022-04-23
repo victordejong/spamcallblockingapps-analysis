@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blocklist_add_select_dialog_items">
+        <item>由聯絡人選擇</item>
+        <item>由通話記錄選擇</item>
+        <item>輸入號碼</item>
+        <item>輸入網路電話</item>
+    </string-array>
+    <string-array name="change_cover_options">
+        <item>使用Facebook封面</item>
+        <item>使用群組封面</item>
+        <item>使用預設封面</item>
+        <item>自訂封面</item>
+    </string-array>
+    <string-array name="change_group_cover_options">
+        <item>使用預設群組封面</item>
+        <item>自訂群組封面</item>
+    </string-array>
+    <string-array name="news_message">
+        <item>ZenUI撥號器與聯絡人全新介面隆重登場！設計更輕盈，撥號更輕鬆！</item>
+        <item>無痕撥號新功能！讓您輕鬆撥打不會留下通話記錄的電話，不需要再費心刪除通話記錄了！</item>
+    </string-array>
+    <string-array name="picture_from_options">
+        <item>相機</item>
+        <item>圖片庫</item>
+    </string-array>
+    <string-array name="prefersim_news_message">
+        <item>"為您的聯絡人指定預設SIM卡！
+設定預設SIM卡後，您從聯絡人清單中撥打電話至這支號碼時，都會透過指定的預設SIM卡進行。
+這個功能非常適合搭配網內免費/節費方案使用。"</item>
+    </string-array>
+    <string-array name="promote_entry_point_texts">
+        <item>生活黃頁提供非常豐富的商家資料哦！</item>
+        <item>來瞧瞧生活黃頁裡有什麼商家吧！</item>
+        <item>來找找生活黃頁裡有什麼好玩好吃的！</item>
+        <item>食衣住行通通有，快來生活黃頁裡挖寶！</item>
+        <item>生活黃頁裡也查得到快遞公司喔！</item>
+        <item>到生活黃頁看看附近的咖啡店吧！</item>
+    </string-array>
+    <string-array name="speed_entry_list">
+        <item>快</item>
+        <item>中等</item>
+        <item>慢</item>
+    </string-array>
+    <string-array name="toolpanel_news_message">
+        <item>新增其他頁籤，讓您尋找功能與設定更輕鬆！</item>
+    </string-array>
+    <string-array name="tw_location_array">
+        <item>請選擇所在城市</item>
+        <item>找附近</item>
+        <item>基隆市</item>
+        <item>臺北市</item>
+        <item>新北市</item>
+        <item>桃園市</item>
+        <item>新竹市</item>
+        <item>新竹縣</item>
+        <item>苗栗縣</item>
+        <item>臺中市</item>
+        <item>彰化縣</item>
+        <item>南投縣</item>
+        <item>雲林縣</item>
+        <item>嘉義市</item>
+        <item>嘉義縣</item>
+        <item>臺南市</item>
+        <item>高雄市</item>
+        <item>屏東縣</item>
+        <item>臺東縣</item>
+        <item>花蓮縣</item>
+        <item>宜蘭縣</item>
+        <item>澎湖縣</item>
+        <item>金門縣</item>
+        <item>連江縣</item>
+    </string-array>
+    <string-array name="whitelist_add_select_dialog_items">
+        <item>由聯絡人選擇</item>
+        <item>由通話記錄選擇</item>
+        <item>輸入號碼</item>
+        <item>輸入網路電話</item>
+    </string-array>
+</resources>

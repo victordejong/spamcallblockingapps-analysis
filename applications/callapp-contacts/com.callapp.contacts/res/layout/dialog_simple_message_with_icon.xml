@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/dimen_16_dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:paddingLeft="@dimen/dimen_24_dp" android:paddingRight="@dimen/dimen_24_dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <TextView android:gravity="start|center" android:id="@id/tv_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_16_dp" android:layout_toRightOf="@id/icon" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dimen_16_dp" style="@style/Title.Dialog_title" />
+    </RelativeLayout>
+    <TextView android:id="@id/tv_message" android:paddingLeft="@dimen/dimen_24_dp" android:paddingTop="@dimen/dimen_16_dp" android:paddingRight="@dimen/dimen_24_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Body2.Name_text" />
+    <include layout="@layout/include_dialog_bottm_bar" />
+</LinearLayout>

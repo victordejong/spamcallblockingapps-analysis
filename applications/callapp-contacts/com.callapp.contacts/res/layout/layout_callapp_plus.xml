@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/callapp_plus_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/hintContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_top_hint" />
+        <com.callapp.contacts.activity.callappplus.StickyPromotionCallAppPlus android:id="@id/top_sticky_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_8_dp" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/loadingProgressBar" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16_dp" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/emptyView" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/empty_view_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16_dp" />
+        <TextView android:gravity="center" android:id="@id/primary_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" style="@style/Title" />
+        <TextView android:gravity="center" android:id="@id/secondary_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16_dp" style="@style/Body2" />
+    </LinearLayout>
+</FrameLayout>

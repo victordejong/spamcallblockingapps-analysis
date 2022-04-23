@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/ripple_or_holo" android:paddingTop="@dimen/dimen_8_dp" android:paddingBottom="@dimen/dimen_8_dp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/leftContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/centerContainer" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <FrameLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/rightContainer" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </LinearLayout>
+</merge>

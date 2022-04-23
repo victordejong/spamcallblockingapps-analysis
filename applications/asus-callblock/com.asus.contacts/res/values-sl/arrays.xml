@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="news_message">
+        <item>Popolnoma nova oblika Klicalnika in Stikov za ZenUI! Intuitivno in enostavno!</item>
+        <item>Pokličite brez beleženja klicev! Ne skrbite več glede brisanja neželenih klicev!</item>
+    </string-array>
+    <string-array name="speed_entry_list">
+        <item>Hitro</item>
+        <item>Zmerno</item>
+        <item>Počasi</item>
+    </string-array>
+    <string-array name="speed_level_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="toolpanel_news_message">
+        <item>Na novem zavihku Ostalo lahko hitro najdete funkcije in nastavitve!</item>
+    </string-array>
+</resources>

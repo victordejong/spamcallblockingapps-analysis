@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="asus_big_dialpad_height_navigatiobar">310.0dip</dimen>
+    <dimen name="ez_asus_dialpad_height_navigatiobar">345.0dip</dimen>
+</resources>

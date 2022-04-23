@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/asus_ic_cancel" android:id="@id/menu_cancel" android:title="@string/menu_doNotSave" android:showAsAction="always" />
+    <item android:icon="@drawable/asus_ic_delete" android:id="@id/delete_duplicate" android:title="@string/menu_deleteContact" android:alphabeticShortcut="q" android:showAsAction="always" />
+</menu>

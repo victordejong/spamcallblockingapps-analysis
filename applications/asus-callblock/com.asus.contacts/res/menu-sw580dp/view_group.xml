@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/asus_contacts2_ic_action_add_to_group_b" android:id="@id/menu_add_to_group" android:title="@string/longpress_add_contact_to_group" android:showAsAction="always" />
+    <item android:id="@id/menu_edit_group" android:title="@string/longpress_edit_group" android:alphabeticShortcut="e" android:showAsAction="withText" />
+    <item android:id="@id/menu_delete_group" android:title="@string/longpress_delete_group" />
+    <item android:id="@id/menu_send_group" android:title="@string/menu_sendGroup" />
+    <item android:id="@id/menu_send_group_email" android:title="@string/menu_send_group_email" />
+    <item android:id="@id/menu_set_group_ringtone" android:title="@string/asus_set_group_ringtone" />
+    <item android:id="@id/menu_set_group_sms_ringtone" android:title="@string/menu_set_sms_group_sound" />
+    <item android:id="@id/menu_edit_groups" android:title="@string/menu_edit_global_groups" />
+    <item android:id="@id/menu_edit_favorite" android:title="@string/menu_edit_favorites" />
+</menu>

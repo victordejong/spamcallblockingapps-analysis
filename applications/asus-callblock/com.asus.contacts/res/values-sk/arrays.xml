@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blocklist_add_select_dialog_items">
+        <item>Zvoliť z kontaktov</item>
+        <item>Zvoliť z denník posledných volaní</item>
+        <item>Zadajte číslo</item>
+        <item>Zadajte číslo SIP</item>
+    </string-array>
+    <string-array name="change_cover_options">
+        <item>Použ.pokr. Facebook</item>
+        <item>Použ. pokr. skup.</item>
+        <item>Použ. štan. pokryt.</item>
+        <item>Upraviť pokrytie</item>
+    </string-array>
+    <string-array name="change_group_cover_options">
+        <item>Použiť predvolený skupinový obal</item>
+        <item>Upraviť skupinový obal</item>
+    </string-array>
+    <string-array name="news_message">
+        <item>Úplne nový štýl pre Voľbu čísla ZenUI a Kontakty! Prehľadné a ľahké na používanie!</item>
+        <item>Zavolajte bez histórie hovorov! Už vás nebude obťažovať odstránenie nežiaduceho záznamu v histórii hovorov!</item>
+    </string-array>
+    <string-array name="picture_from_options">
+        <item>Fotoaparát</item>
+        <item>Galéria</item>
+    </string-array>
+    <string-array name="speed_entry_list">
+        <item>Rýchlo</item>
+        <item>Mierne</item>
+        <item>Pomaly</item>
+    </string-array>
+    <string-array name="speed_level_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="toolpanel_news_message">
+        <item>Nová karta Iné vám umožňuje ľahko nájsť funkcie a nastavenia!</item>
+    </string-array>
+    <string-array name="whitelist_add_select_dialog_items">
+        <item>Zvoliť z kontaktov</item>
+        <item>Zvoliť z denník posledných volaní</item>
+        <item>Zadajte číslo</item>
+        <item>Zadajte číslo SIP</item>
+    </string-array>
+</resources>

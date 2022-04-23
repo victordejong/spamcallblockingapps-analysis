@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/asus_contacts2_ic_called_record_p" />
+    <item>
+        <bitmap android:src="@drawable/asus_contacts2_ic_called_record_n" android:tint="@color/tab_btn_normal_color_dark" />
+    </item>
+</selector>

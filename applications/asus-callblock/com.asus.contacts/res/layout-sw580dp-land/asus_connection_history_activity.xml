@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/asus_account_filter_header_container" layout="@layout/callog_account_filter_header" />
+    <ListView android:id="@id/all_history" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/common_padding" android:paddingEnd="@dimen/common_padding" />
+    <ListView android:id="@id/call_logs" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/common_padding" android:paddingEnd="@dimen/common_padding" />
+    <ListView android:id="@id/messages" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/common_padding" android:paddingEnd="@dimen/common_padding" />
+</LinearLayout>

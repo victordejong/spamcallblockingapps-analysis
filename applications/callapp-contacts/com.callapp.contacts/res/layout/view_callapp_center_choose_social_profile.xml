@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintVertical_chainStyle="packed"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/titleContainer" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/sure_unsuree_buttons" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:ellipsize="end" android:id="@id/socialMatchNameText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/Body2.Name_text" />
+        <TextView android:ellipsize="end" android:id="@id/socialMatchSubTitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/Caption.Number_text" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/sure_unsuree_buttons" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/titleContainer" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/titleContainer">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/socialMatchSetSure" android:background="@drawable/ripple_or_holo" android:paddingLeft="@dimen/socialMatchConfirmBtnPadding" android:paddingRight="@dimen/socialMatchConfirmBtnPadding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/socialMatchSetSureIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_match_list" />
+            <TextView android:ellipsize="end" android:id="@id/socialMatchSetSureText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/Button.Buttons" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/socialMatchSetNotHim" android:background="@drawable/ripple_or_holo" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/socialMatchSetNotHimIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_dismiss" />
+            <TextView android:ellipsize="end" android:id="@id/socialMatchSetNotHimText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/Button.Buttons" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

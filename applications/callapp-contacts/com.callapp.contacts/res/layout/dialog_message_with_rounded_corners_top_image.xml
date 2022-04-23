@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.callapp.contacts.widget.RoundedCornersImageView android:id="@id/top_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="center" />
+        <ImageView android:id="@id/badgeLeft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/badge_img_01" android:scaleType="center" />
+        <ImageView android:id="@id/badgeRight" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/badge_img_01" android:scaleType="center" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView android:textSize="24.0dip" android:gravity="center_vertical" android:id="@id/tv_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dialog_side_margins" android:layout_marginRight="@dimen/dialog_side_margins" android:layout_marginBottom="12.0dip" style="@style/Title.Dialog_title" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/dialog_side_margins" android:layout_marginRight="@dimen/dialog_side_margins" android:layout_marginBottom="12.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="18.0dip" android:gravity="center_vertical" android:id="@id/tv_message" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Body2.Name_text" />
+    </ScrollView>
+    <include android:id="@id/ctaLayout" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_row_height" android:layout_marginBottom="8.0dip" layout="@layout/include_dialog_bottm_bar" />
+</LinearLayout>

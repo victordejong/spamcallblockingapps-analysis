@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="BirthdayGreetingsCategories">
+        <item>@string/birthday_greetings_categories_classic</item>
+        <item>@string/birthday_greetings_categories_special</item>
+        <item>@string/birthday_greetings_categories_close_friend</item>
+        <item>@string/birthday_greetings_categories_funny</item>
+    </string-array>
+    <string-array name="BirthdayGreetingsCategory1">
+        <item>Have a peaceful and relaxing birthday :)</item>
+        <item>Today is not the end of another year, but the start of a new one. Happy Birthday.</item>
+        <item>I hope you have a beautiful day and get at least half of what you want! Happy Birthday!</item>
+        <item>Thinking about you on your birthday and wishing you much happiness.</item>
+        <item>Happy Birthday!! I hope this is the beginning of your greatest, most wonderful year ever!</item>
+        <item>Happy Birthday. Hope its one of the best ever!!!! A lovely birthday for a lovely person!</item>
+        <item>Forget the past, look forward to the future; the best things are yet to come.</item>
+        <item>Happy Birthday! May all your birthday wishes come true.</item>
+    </string-array>
+    <string-array name="BirthdayGreetingsCategory2">
+        <item>Happy Birthday. Continue climbing to greater heights. You are a star!</item>
+        <item>I wish you a happy birthday: health, happiness, success in everything you undertake, and more years to celebrate. Happy Birthday.</item>
+        <item>Hope your birthday is totally cool, really fantastic, wonderful, exciting, majorly awesome, rocking and HAPPY. Happy Birthday wishes.</item>
+        <item>On your birthday, I wish you abundant happiness and love. May all your dreams become a reality. But even more than that, may it bring you loads of true love and friendship. Have an amazing birthday!</item>
+        <item>Birthdays are a new start; fresh beginnings, a time to start new endeavours with new goals. Move forward with fresh confidence and courage. You are a special person, may you have an amazing today and year!</item>
+        <item>It’s your birthday today! You know what that means? It’s time to wear the hat, blow the candles and cut the cake. But don’t forget to think of all the wishes you want to make! Enjoy your day!</item>
+    </string-array>
+    <string-array name="BirthdayGreetingsCategory3">
+        <item>I wish that I could be the greatest friend in the world, but there is no way to be a better friend than you are. Happy Birthday.</item>
+        <item>A friend is someone who understands your past, believes in your future, and accepts you just the way you are - even if you are getting older. Happy Birthday.</item>
+        <item>"Happy Birthday, my great friend! Be proud of the wonderful life you've led so far and look forward to all the adventures yet to come your way."</item>
+        <item>You are my friend. You are always there for me, supporting me, encouraging me, listening to me and all those other things that friends do. Happy Birthday Friend.</item>
+        <item>"Well, you are another year older and you haven't changed a bit. That's great because you are perfect just the way you are. Happy Birthday."</item>
+    </string-array>
+    <string-array name="BirthdayGreetingsCategory4">
+        <item>May all your wishes come true but one, so you always have something to strive for. Happy Birthday!</item>
+        <item>May you live to be a hundred years, with one extra year to repent. Happy Birthday!</item>
+        <item>"Time to celebrate. You made the trip around the sun one more time. It's a birthday revolution."</item>
+        <item>Happy Birthday to a person that is charming, talented and witty and reminds me a lot of myself.</item>
+        <item>Friends may come and go, but birthdays accumulate.</item>
+    </string-array>
+    <string-array name="MediaControlView_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="android_wear_capabilities">
+        <item>watch_server</item>
+    </string-array>
+    <string-array name="dialog_debug_list">
+        <item>AccessibilityServiceDialog</item>
+        <item>ActionsPopup</item>
+        <item>AuthWebViewDialog</item>
+        <item>CallAppFirstTimeCallDialog</item>
+        <item>CallRecorderAdvancedSettingsDialog</item>
+        <item>CallRecordingUpdateDialog</item>
+        <item>ChooseImagePopup</item>
+        <item>ChooseImageSourceDialog</item>
+        <item>DefaultDialerDialogPopup</item>
+        <item>DialogBlockByNumber</item>
+        <item>DialogCallRecorderManualLowStorage</item>
+        <item>DialogCallRecorderPlayer</item>
+        <item>DialogCallRecorderWelcome</item>
+        <item>DialogCallRecorderWelcomeNoDefaultDialer</item>
+        <item>DialogChooseContactPhone</item>
+        <item>DialogConfirmProfile</item>
+        <item>DialogContactMultiNumber</item>
+        <item>DialogDateAndTime</item>
+        <item>DialogEditText</item>
+        <item>DialogMaxRecordsConfiguration</item>
+        <item>DialogMaxRecordsConfiguration</item>
+        <item>DialogMessageWithTopImageNew</item>
+        <item>DialogMultipleChoice</item>
+        <item>DialogSelectSingleChoice</item>
+        <item>DialogSelectSingleChoiceTabs</item>
+        <item>DialogSimpleMessage</item>
+        <item>DialogSimpleMessageWithIcon</item>
+        <item>DialogVerifyNumber</item>
+        <item>FollowCallAppPopup</item>
+        <item>IdentifyContactsDialog</item>
+        <item>phoneVerificationInPostCall</item>
+        <item>PhotoPopup</item>
+        <item>PrivacyConsentDialogPopup</item>
+        <item>QuickResponseDialogPopup</item>
+        <item>RatePopup</item>
+        <item>ReferAndEarnSectionOpenPopUp</item>
+        <item>SendInstagramInvitationPopup</item>
+        <item>ShareDialog</item>
+        <item>ShareVideoRingtonePopup</item>
+        <item>SimpleProgressDialog</item>
+        <item>TutorialPopup</item>
+        <item>VerticalSimpleProgressDialog</item>
+        <item>WebViewDialog</item>
+        <item>WhatsNewPopup</item>
+    </string-array>
+    <string-array name="discarded_email_suffixs">
+        <item>gmail.</item>
+        <item>hotmail.</item>
+        <item>live.</item>
+        <item>walla.</item>
+        <item>yahoo.</item>
+        <item>014.</item>
+        <item>bezeqint.</item>
+        <item>netvision.</item>
+        <item>mail.ru</item>
+        <item>facebook.</item>
+        <item>012.</item>
+        <item>013.</item>
+        <item>googlemail.</item>
+        <item>attglobal.</item>
+        <item>zahav.</item>
+        <item>yelp.</item>
+    </string-array>
+    <string-array name="exo_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>@string/exo_controls_playback_speed_normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <integer-array name="exo_speed_multiplied_by_100">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </integer-array>
+    <string-array name="inCallDurationValues">
+        <item>NEVER</item>
+        <item>AFTER_5_SEC</item>
+        <item>AFTER_10_SEC</item>
+        <item>AFTER_15_SEC</item>
+        <item>AFTER_20_SEC</item>
+        <item>AFTER_25_SEC</item>
+        <item>AFTER_30_SEC</item>
+    </string-array>
+    <array name="initialsColors">
+        <item>#ffb71c1c</item>
+        <item>#ff880e4f</item>
+        <item>#ff4a148c</item>
+        <item>#ff0d47a1</item>
+        <item>#ff004d40</item>
+        <item>#ff1b5e20</item>
+        <item>#ffe65100</item>
+        <item>#ff424242</item>
+    </array>
+    <string-array name="languageEntries">
+        <item>@string/menu_language_automatic</item>
+        <item>Afrikaans</item>
+        <item>Arabic</item>
+        <item>Chinese Simplified</item>
+        <item>Chinese Traditional</item>
+        <item>Dutch</item>
+        <item>English</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Hebrew</item>
+        <item>Hindi</item>
+        <item>Indonesian</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Malay</item>
+        <item>Norwegian</item>
+        <item>Polish</item>
+        <item>Portuguese (Brazil)</item>
+        <item>Portuguese (Portugal)</item>
+        <item>Romanian</item>
+        <item>Russian</item>
+        <item>Spanish</item>
+        <item>Thai</item>
+        <item>Turkish</item>
+        <item>Ukrainian</item>
+        <item>Zulu</item>
+    </string-array>
+    <string-array name="languageValues">
+        <item>system_locale</item>
+        <item>af</item>
+        <item>ar</item>
+        <item>zh_CN</item>
+        <item>zh_TW</item>
+        <item>nl</item>
+        <item>en</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>el</item>
+        <item>iw</item>
+        <item>hi</item>
+        <item>id</item>
+        <item>it</item>
+        <item>ja</item>
+        <item>ko</item>
+        <item>ms</item>
+        <item>nb</item>
+        <item>pl</item>
+        <item>pt_BR</item>
+        <item>pt_PT</item>
+        <item>ro</item>
+        <item>ru</item>
+        <item>es</item>
+        <item>th</item>
+        <item>tr</item>
+        <item>uk</item>
+        <item>zu</item>
+    </string-array>
+    <string-array name="lucky_patcher_packages">
+        <item>Y29tLmRpbW9udmlkZW8ubHVja3lwYXRjaGVy</item>
+        <item>Y29tLmNoZWxwdXMubGFja3lwYXRjaA==</item>
+        <item>Y29tLmFuZHJvaWQudmVuZGluZy5iaWxsaW5nLkluQXBwQmlsbGluZ1NlcnZpY2UuTEFDSw==</item>
+        <item>Y29tLmFuZHJvaWQudmVuZGluZy5iaWxsaW5nLkluQXBwQmlsbGluZ1NlcnZpY2UuTE9DSw==</item>
+    </string-array>
+    <integer-array name="media2_widget_speed_multiplied_by_100">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </integer-array>
+    <string-array name="postCallDurationValues">
+        <item>AFTER_2_SEC</item>
+        <item>AFTER_5_SEC</item>
+        <item>AFTER_10_SEC</item>
+        <item>AFTER_20_SEC</item>
+        <item>AFTER_30_SEC</item>
+    </string-array>
+    <array name="sample_progress_a">
+        <item>@color/progress_bar_graph_a_a</item>
+        <item>@color/progress_bar_graph_a_a</item>
+    </array>
+    <array name="sample_progress_b">
+        <item>@color/progress_bar_graph_b_a</item>
+        <item>@color/progress_bar_graph_b_a</item>
+    </array>
+    <array name="sample_progress_c">
+        <item>@color/progress_bar_graph_c_a</item>
+        <item>@color/progress_bar_graph_c_a</item>
+    </array>
+    <array name="sample_progress_empty">
+        <item>@color/grey_lighter</item>
+        <item>@color/grey_light</item>
+    </array>
+    <array name="sample_progress_gradient_left">
+        <item>@color/progress_bar_start_left</item>
+        <item>@color/progress_bar_center_left</item>
+    </array>
+    <array name="sample_progress_gradient_reverse">
+        <item>@color/progress_bar_center_right</item>
+        <item>@color/progress_bar_start_right</item>
+    </array>
+    <array name="sample_progress_gradient_right">
+        <item>@color/progress_bar_start_right</item>
+        <item>@color/progress_bar_center_right</item>
+    </array>
+    <array name="strip_widget_colors">
+        <item>#ffffac31</item>
+        <item>#ff22b573</item>
+        <item>#ff67b8e3</item>
+        <item>#fff06363</item>
+    </array>
+    <string-array name="t9LanguageEntries">
+        <item>Afrikaans</item>
+        <item>Arabic</item>
+        <item>Bulgarian</item>
+        <item>English</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Hebrew</item>
+        <item>Indonesian</item>
+        <item>Irish</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Russian</item>
+        <item>Spanish</item>
+        <item>Thai</item>
+        <item>Turkish</item>
+        <item>Ukrainian</item>
+        <item>Zulu</item>
+    </string-array>
+    <string-array name="t9LanguageValues">
+        <item>AFRIKAANS</item>
+        <item>ARABIC</item>
+        <item>BULGARIAN</item>
+        <item>ENGLISH</item>
+        <item>FRENCH</item>
+        <item>GERMAN</item>
+        <item>GREEK</item>
+        <item>HEBREW</item>
+        <item>INDONESIAN</item>
+        <item>IRISH</item>
+        <item>ITALIAN</item>
+        <item>JAPANESE</item>
+        <item>KOREAN</item>
+        <item>POLISH</item>
+        <item>PORTUGUESE</item>
+        <item>RUSSIAN</item>
+        <item>SPANISH</item>
+        <item>THAI</item>
+        <item>TURKISH</item>
+        <item>UKRAINIAN</item>
+        <item>ZULU</item>
+    </string-array>
+    <string-array name="t9_map">
+        <item>0</item>
+        <item>1</item>
+        <item>@string/t9_map_row_2</item>
+        <item>@string/t9_map_row_3</item>
+        <item>@string/t9_map_row_4</item>
+        <item>@string/t9_map_row_5</item>
+        <item>@string/t9_map_row_6</item>
+        <item>@string/t9_map_row_7</item>
+        <item>@string/t9_map_row_8</item>
+        <item>@string/t9_map_row_9</item>
+        <item>*</item>
+        <item>\#</item>
+        <item>+</item>
+    </string-array>
+    <string-array name="t9_map_arb">
+        <item>@string/t9_map_row_2_arb</item>
+        <item>@string/t9_map_row_3_arb</item>
+        <item>@string/t9_map_row_4_arb</item>
+        <item>@string/t9_map_row_5_arb</item>
+        <item>@string/t9_map_row_6_arb</item>
+        <item>@string/t9_map_row_7_arb</item>
+        <item>@string/t9_map_row_8_arb</item>
+        <item>@string/t9_map_row_9_arb</item>
+    </string-array>
+    <string-array name="t9_map_bg">
+        <item>@string/t9_map_row_2_bg</item>
+        <item>@string/t9_map_row_3_bg</item>
+        <item>@string/t9_map_row_4_bg</item>
+        <item>@string/t9_map_row_5_bg</item>
+        <item>@string/t9_map_row_6_bg</item>
+        <item>@string/t9_map_row_7_bg</item>
+        <item>@string/t9_map_row_8_bg</item>
+        <item>@string/t9_map_row_9_bg</item>
+    </string-array>
+    <string-array name="t9_map_grk">
+        <item>@string/t9_map_row_2_grk</item>
+        <item>@string/t9_map_row_3_grk</item>
+        <item>@string/t9_map_row_4_grk</item>
+        <item>@string/t9_map_row_5_grk</item>
+        <item>@string/t9_map_row_6_grk</item>
+        <item>@string/t9_map_row_7_grk</item>
+        <item>@string/t9_map_row_8_grk</item>
+        <item>@string/t9_map_row_9_grk</item>
+    </string-array>
+    <string-array name="t9_map_heb">
+        <item>@string/t9_map_row_2_heb</item>
+        <item>@string/t9_map_row_3_heb</item>
+        <item>@string/t9_map_row_4_heb</item>
+        <item>@string/t9_map_row_5_heb</item>
+        <item>@string/t9_map_row_6_heb</item>
+        <item>@string/t9_map_row_7_heb</item>
+        <item>@string/t9_map_row_8_heb</item>
+        <item>@string/t9_map_row_9_heb</item>
+    </string-array>
+    <string-array name="t9_map_ko">
+        <item>@string/t9_map_row_4_ko</item>
+        <item>@string/t9_map_row_5_ko</item>
+        <item>@string/t9_map_row_6_ko</item>
+        <item>@string/t9_map_row_7_ko</item>
+        <item>@string/t9_map_row_8_ko</item>
+        <item>@string/t9_map_row_9_ko</item>
+        <item>@string/t9_map_row_0_ko</item>
+    </string-array>
+    <string-array name="t9_map_rus">
+        <item>@string/t9_map_row_2_rus</item>
+        <item>@string/t9_map_row_3_rus</item>
+        <item>@string/t9_map_row_4_rus</item>
+        <item>@string/t9_map_row_5_rus</item>
+        <item>@string/t9_map_row_6_rus</item>
+        <item>@string/t9_map_row_7_rus</item>
+        <item>@string/t9_map_row_8_rus</item>
+        <item>@string/t9_map_row_9_rus</item>
+    </string-array>
+    <string-array name="t9_map_thai">
+        <item>@string/t9_map_row_1_thai</item>
+        <item>@string/t9_map_row_2_thai</item>
+        <item>@string/t9_map_row_3_thai</item>
+        <item>@string/t9_map_row_4_thai</item>
+        <item>@string/t9_map_row_5_thai</item>
+        <item>@string/t9_map_row_6_thai</item>
+        <item>@string/t9_map_row_7_thai</item>
+        <item>@string/t9_map_row_8_thai</item>
+        <item>@string/t9_map_row_9_thai</item>
+        <item>@string/t9_map_row_0_thai</item>
+    </string-array>
+    <string-array name="t9_map_ukr">
+        <item>@string/t9_map_row_2_ukr</item>
+        <item>@string/t9_map_row_3_ukr</item>
+        <item>@string/t9_map_row_4_ukr</item>
+        <item>@string/t9_map_row_5_ukr</item>
+        <item>@string/t9_map_row_6_ukr</item>
+        <item>@string/t9_map_row_7_ukr</item>
+        <item>@string/t9_map_row_8_ukr</item>
+        <item>@string/t9_map_row_9_ukr</item>
+    </string-array>
+</resources>

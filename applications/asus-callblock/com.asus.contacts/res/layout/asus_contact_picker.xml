@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:paddingLeft="@dimen/common_padding" android:paddingRight="@dimen/common_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="22.0dip" android:textColor="@color/text_color2" android:gravity="center" android:id="@id/no_contacts_text" android:padding="50.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/no_contact_in_widget" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/header_text_height">
+                <TextView android:id="@id/contacts_in_widget_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contacts_in_widget" style="@style/AsusListHeaderText_Widget" />
+                <View android:layout_gravity="bottom" android:background="@color/amax_header_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/asus_header_divider_height" android:layout_marginLeft="@dimen/asus_header_divider_margin_left" android:layout_marginBottom="@dimen/asus_header_divider_margin_bottom" />
+            </LinearLayout>
+            <com.android.contacts.list.TouchListView android:id="@id/widget_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="?android:selectableItemBackground" android:drawSelectorOnTop="false" tlv:expanded_height="@dimen/contact_browser_list_item_size_contain_divider2" tlv:grabber="@id/icon" tlv:normal_height="@dimen/contact_browser_list_item_size_contain_divider" tlv:remove_mode="slideLeft"
+              xmlns:tlv="http://schemas.android.com/apk/res/com.asus.contacts" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

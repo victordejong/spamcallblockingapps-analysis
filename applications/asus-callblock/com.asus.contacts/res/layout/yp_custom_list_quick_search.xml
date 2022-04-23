@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/item_container" android:paddingLeft="@dimen/asus_yp_margin_horizontal" android:paddingRight="@dimen/asus_yp_margin_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/first_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/yp_custom_single_quick_search" />
+    <include android:id="@id/second_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/yp_custom_single_quick_search" />
+    <include android:id="@id/third_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/yp_custom_single_quick_search" />
+    <include android:id="@id/fourth_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/yp_custom_single_quick_search" />
+</LinearLayout>

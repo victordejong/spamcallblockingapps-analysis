@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/fastscroll_bubble_textsize" android:gravity="center" android:layout_gravity="end" android:id="@id/fastscroll_bubble" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/fastscroll_scrollbar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/fastscroll_track" android:paddingLeft="@dimen/fastscroll_scrollbar_padding" android:paddingRight="@dimen/fastscroll_scrollbar_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/fastscroll_scrollbar_padding" android:paddingEnd="@dimen/fastscroll_scrollbar_padding" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/fastscroll_handle" android:paddingLeft="@dimen/fastscroll_scrollbar_padding" android:paddingRight="@dimen/fastscroll_scrollbar_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/fastscroll_scrollbar_padding" android:paddingEnd="@dimen/fastscroll_scrollbar_padding" />
+    </FrameLayout>
+</merge>

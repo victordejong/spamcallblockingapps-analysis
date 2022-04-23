@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/card.native"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card="http://schemas.android.com/apk/res-auto">
+    <it.gmariotti.cardslib.library.view.ForegroundLinearLayout android:orientation="vertical" android:id="@id/card_main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/card.native.main_layout_foreground">
+        <it.gmariotti.cardslib.library.view.component.CardHeaderView android:id="@id/card_header_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" card:card_header_layout_resourceID="@layout/native_base_header_layout" style="@style/card.native.header_outer_layout.nomargin" />
+        <FrameLayout android:id="@id/card_main_content_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/card.native.content_outer_layout.no_padding" />
+    </it.gmariotti.cardslib.library.view.ForegroundLinearLayout>
+    <FrameLayout android:id="@id/card_content_expand_layout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/card.native.main_contentExpand.no_padding" />
+    <FrameLayout android:id="@id/card_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

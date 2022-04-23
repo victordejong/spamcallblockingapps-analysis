@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/wrapper_layout" android:background="@drawable/button_rounded_white" android:paddingLeft="@dimen/dimen_18_dp" android:paddingTop="@dimen/dimen_26_dp" android:paddingRight="@dimen/dimen_18_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_26_dp" android:layout_marginRight="@dimen/dimen_26_dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_10_dp" android:src="@drawable/first_time_img" />
+            <TextView android:textSize="@dimen/dimen_18_dp" android:textStyle="bold" android:textColor="@color/text_color" android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="@dimen/dimen_16_dp" android:drawableBottom="@drawable/first_time_icons" android:drawablePadding="@dimen/dimen_8_dp" />
+            <TextView android:textSize="@dimen/dimen_14_dp" android:textColor="@color/text_color" android:gravity="center" android:id="@id/sub_title_first" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_6_dp" />
+            <TextView android:textSize="@dimen/dimen_14_dp" android:textColor="@color/text_color" android:gravity="center" android:id="@id/sub_title_second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_6_dp" />
+            <TextView android:textSize="@dimen/dimen_14_dp" android:textColor="@color/text_color" android:gravity="center" android:id="@id/sub_title_third" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_6_dp" />
+            <TextView android:textSize="@dimen/dimen_14_dp" android:textStyle="bold" android:textColor="@color/white_callapp" android:gravity="center" android:layout_gravity="center" android:id="@id/button" android:background="@drawable/button_rounded_primary" android:paddingLeft="@dimen/dimen_16_dp" android:paddingTop="@dimen/dimen_8_dp" android:paddingRight="@dimen/dimen_16_dp" android:paddingBottom="@dimen/dimen_8_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16_dp" android:layout_marginBottom="@dimen/dimen_24_dp" android:textAllCaps="true" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

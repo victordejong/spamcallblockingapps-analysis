@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/asus_contacts2_dial_highlight_wht" />
+    <item android:state_focused="true" android:drawable="@color/amax_common_bg_color" />
+    <item android:drawable="@color/amax_common_bg_color" />
+</selector>

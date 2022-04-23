@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/graphHeaderLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_12_dp" android:layout_marginBottom="8.0dip" android:paddingStart="@dimen/dimen_12_dp" android:paddingEnd="@dimen/dimen_12_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_12_dp">
+        <ImageView android:id="@id/imageHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_a_timeline" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/dimen_16_dp" android:textStyle="bold" android:textColor="@color/text_color" android:layout_gravity="center_vertical" android:id="@id/textHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/analytics_calls_timeline" android:layout_marginStart="12.0dip" />
+            <TextView android:textSize="@dimen/dimen_14_dp" android:textColor="@color/secondary_text_color" android:layout_gravity="center_vertical" android:id="@id/subTextHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/analytics_calls_timeline" android:layout_marginStart="12.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/separatorFavorite" android:background="@color/divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/dimen_4_dp" />
+</LinearLayout>

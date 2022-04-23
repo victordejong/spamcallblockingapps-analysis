@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/asus_list_item_main_text_size" android:textColor="@color/asus_primary_text_color" android:gravity="center|left" android:id="@id/favorite_prompt" android:paddingLeft="@dimen/asus_group_detail_vip_text_padding" android:paddingRight="@dimen/asus_group_detail_vip_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_to_favorite_prompt" />
+    <TextView android:textSize="@dimen/asus_list_item_main_text_size" android:textColor="@color/asus_primary_text_color" android:gravity="center|left" android:id="@id/text1_vip" android:paddingLeft="@dimen/asus_group_detail_vip_text_padding" android:paddingRight="@dimen/asus_group_detail_vip_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_vip_member_text1_1" />
+    <LinearLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/not_show_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/asus_group_detail_vip_text_padding" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/asus_group_detail_vip_text_padding">
+        <CheckBox android:id="@id/not_show" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:listChoiceIndicatorMultiple" />
+        <TextView android:textSize="@dimen/asus_list_item_main_text_size" android:textColor="@color/asus_primary_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_to_favorite_prompt_checkbox_text" />
+    </LinearLayout>
+</LinearLayout>

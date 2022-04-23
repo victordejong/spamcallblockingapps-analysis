@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/calllog_dial_from_sim1" android:orderInCategory="1" android:title="@string/longpress_call_with_sim1" android:showAsAction="withText" />
+    <item android:id="@id/calllog_dial_from_sim2" android:orderInCategory="1" android:title="@string/longpress_call_with_sim2" android:showAsAction="withText" />
+    <item android:id="@id/calllog_view_call_log" android:orderInCategory="1" android:title="@string/menu_view_calllog" android:showAsAction="withText" />
+    <item android:id="@id/calllog_do_it_later2" android:orderInCategory="1" android:title="@string/call_later" android:showAsAction="withText" />
+    <item android:id="@id/calllog_send_message" android:orderInCategory="2" android:title="@string/menu_sendTextMessage" android:showAsAction="withText" />
+    <item android:id="@id/calllog_view_contacts" android:orderInCategory="3" android:title="@string/viewContactDesription" android:showAsAction="withText" />
+    <item android:id="@id/calllog_add_contacts" android:orderInCategory="4" android:title="@string/recentCalls_addToContact" android:showAsAction="withText" />
+    <item android:id="@id/calllog_edit_number_before_call" android:orderInCategory="5" android:title="@string/recentCalls_editNumberBeforeCall" android:showAsAction="withText" />
+    <item android:id="@id/calllog_remove_from_call_log" android:orderInCategory="6" android:title="@string/menu_Delete_this_call_log" android:showAsAction="withText" />
+    <item android:id="@id/calllog_delete_all_record" android:orderInCategory="7" android:title="@string/menu_Delete_all_call_logs_from_contact" android:showAsAction="withText" />
+    <item android:id="@id/calllog_block_caller" android:visible="false" android:orderInCategory="8" android:title="@string/menu_Block_caller" android:showAsAction="withText" />
+    <item android:id="@id/calllog_unblock" android:visible="false" android:orderInCategory="9" android:title="@string/menu_Unblock" android:showAsAction="withText" />
+    <item android:id="@id/calllog_copy_number" android:orderInCategory="10" android:title="@string/menu_Copy_number" android:showAsAction="withText" />
+    <item android:id="@id/calllog_mark_number" android:orderInCategory="11" android:title="@string/menu_Mark_number" android:showAsAction="withText" />
+    <item android:id="@id/calllog_remark_number" android:orderInCategory="12" android:title="@string/menu_Mark_number_revise" android:showAsAction="withText" />
+</menu>

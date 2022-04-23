@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blocklist_add_select_dialog_items">
+        <item>انتخاب از بین مخاطبین</item>
+        <item>انتخاب از بین فهرست تماس های اخیر</item>
+        <item>شماره ای را وارد کنید</item>
+        <item>یک شماره SIP وارد کنید</item>
+    </string-array>
+    <string-array name="change_cover_options">
+        <item>استفاده از جلد فیسبوک</item>
+        <item>استفاده از جلد گروه</item>
+        <item>استفاده از جلد پیش فرض</item>
+        <item>سفارشی سازی جلد</item>
+    </string-array>
+    <string-array name="change_group_cover_options">
+        <item>استفاده از جلد پیش فرض گروه</item>
+        <item>سفارشی سازی جلد گروه</item>
+    </string-array>
+    <string-array name="news_message">
+        <item>سبکی با برند جدید برای شماره گیر و مخاطبین ZenUI! باریک و استفاده راحت!</item>
+        <item>برقراری تماس بدون سابقه تماس! دیگر لازم نیست سوابق تماسهای ناخواسته را حذف کنید!</item>
+    </string-array>
+    <string-array name="picture_from_options">
+        <item>دوربین</item>
+        <item>گالری</item>
+    </string-array>
+    <string-array name="speed_entry_list">
+        <item>سریع</item>
+        <item>متوسط</item>
+        <item>آهسته</item>
+    </string-array>
+    <string-array name="speed_level_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="toolpanel_news_message">
+        <item>زبانه جدید سایر موارد امکان یافتن آسان ویژگیها و تنظیمات را فراهم می کند!</item>
+    </string-array>
+    <string-array name="whitelist_add_select_dialog_items">
+        <item>انتخاب از بین مخاطبین</item>
+        <item>انتخاب از بین فهرست تماس های اخیر</item>
+        <item>شماره ای را وارد کنید</item>
+        <item>یک شماره SIP وارد کنید</item>
+    </string-array>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blocklist_add_select_dialog_items">
+        <item>الاختيار من جهات الاتصال</item>
+        <item>الاختيار من سجلات المكالمات الحديثة</item>
+        <item>إدخال رقم</item>
+        <item>إدخال رقم SIP</item>
+    </string-array>
+    <string-array name="change_cover_options">
+        <item>استخدام غطاء Facebook</item>
+        <item>استخدام غطاء مجموعة</item>
+        <item>استخدام الغطاء الافتراضي</item>
+        <item>تخصيص الغطاء</item>
+    </string-array>
+    <string-array name="change_group_cover_options">
+        <item>استخدام غلاف مجموعة إفتراضي</item>
+        <item>تخصيص غلاف مجموعة</item>
+    </string-array>
+    <string-array name="news_message">
+        <item>نمط جديد تمامًا لطالب وجهات اتصال ZenUI! خفيف وسهل الاستخدام!</item>
+        <item>قم بإجراء اتصال بدون سجل مكالمة! لا تتكبد عناء حذف سجل المكالمات غير المرغوبة بعد الآن!</item>
+    </string-array>
+    <string-array name="picture_from_options">
+        <item>كاميرا</item>
+        <item>معرض</item>
+    </string-array>
+    <string-array name="speed_entry_list">
+        <item>سريع</item>
+        <item>معتدلة</item>
+        <item>بطئ</item>
+    </string-array>
+    <string-array name="speed_level_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="toolpanel_news_message">
+        <item>علامة التبويب الجديدة أخرى تتيح لك العثور على الميزات والإعدادات بسهولة!</item>
+    </string-array>
+    <string-array name="whitelist_add_select_dialog_items">
+        <item>الاختيار من جهات الاتصال</item>
+        <item>الاختيار من سجلات المكالمات الحديثة</item>
+        <item>إدخال رقم</item>
+        <item>إدخال رقم SIP</item>
+    </string-array>
+</resources>

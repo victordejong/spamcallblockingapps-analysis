@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/duration_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="26.0dip" android:textStyle="bold" android:textColor="@color/white_callapp" android:id="@id/duration_day_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/white_callapp" android:id="@id/duration_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_4_dp" />
+    <TextView android:textSize="26.0dip" android:textStyle="bold" android:textColor="@color/white_callapp" android:id="@id/duration_hour_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/white_callapp" android:id="@id/duration_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_4_dp" />
+    <TextView android:textSize="26.0dip" android:textStyle="bold" android:textColor="@color/white_callapp" android:id="@id/duration_min_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/white_callapp" android:id="@id/duration_min" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_4_dp" />
+    <TextView android:textSize="26.0dip" android:textStyle="bold" android:textColor="@color/white_callapp" android:id="@id/duration_sec_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/white_callapp" android:id="@id/duration_sec" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

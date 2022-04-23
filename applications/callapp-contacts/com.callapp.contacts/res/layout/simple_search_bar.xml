@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/search_root_view" android:paddingRight="@dimen/dimen_6_dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/searchIcon" android:background="@drawable/ripple_or_holo" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ic_search" android:scaleType="center" />
+    <EditText android:id="@id/searchBox" android:background="@null" android:layout_width="fill_parent" android:layout_height="40.0dip" style="@style/SearchBox" />
+    <ImageView android:id="@id/keyboardVoiceSearch" android:background="@drawable/ripple_or_holo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/ic_voice" />
+    <ImageView android:id="@id/keyboardDelete" android:background="@drawable/ripple_or_holo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_top_bar_search_dismiss" />
+    <ImageView android:id="@id/btnOverflow" android:background="@drawable/ripple_or_holo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/ic_top_bar_overflow" />
+</LinearLayout>

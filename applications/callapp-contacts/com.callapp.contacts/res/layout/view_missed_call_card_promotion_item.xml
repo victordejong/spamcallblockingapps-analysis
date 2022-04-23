@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/promotion_card_layout" android:background="@color/white_callapp" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginLeft="@dimen/dimen_8_dp" android:layout_marginTop="@dimen/dimen_8_dp" app:cardCornerRadius="@dimen/dimen_8_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/close_promotions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close_s" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/promotion_card_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_12_dp" android:src="@drawable/img_note" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/promotion_action" android:layout_centerVertical="true" android:layout_toEndOf="@id/promotion_card_image">
+            <TextView android:textSize="@dimen/dimen_14_dp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/promotion_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" />
+            <TextView android:textSize="@dimen/dimen_14_dp" android:textColor="@color/black" android:id="@id/promotion_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/dimen_14_dp" android:textStyle="bold" android:textColor="@color/white_callapp" android:id="@id/promotion_action" android:paddingLeft="@dimen/dimen_20_dp" android:paddingTop="@dimen/dimen_8_dp" android:paddingRight="@dimen/dimen_20_dp" android:paddingBottom="@dimen/dimen_8_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_4_dp" android:layout_centerVertical="true" android:textAllCaps="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

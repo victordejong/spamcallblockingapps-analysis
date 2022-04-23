@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/edit_name_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/common_padding" android:paddingEnd="@dimen/common_padding">
+        <EditText android:id="@id/edit_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/private_custom_name" android:hint="@string/full_name" android:layout_weight="1.0" />
+        <ImageView android:id="@id/photo" android:background="?android:selectableItemBackground" android:layout_width="@dimen/private_list_height" android:layout_height="@dimen/private_list_height" android:scaleType="centerCrop" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="?list_item_header_height" android:paddingEnd="@dimen/common_padding">
+        <TextView android:id="@id/phone_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phoneLabelsGroup" style="@style/AsusListHeaderText" />
+        <View android:layout_gravity="bottom" android:background="@color/amax_header_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/asus_header_divider_height" android:layout_marginLeft="@dimen/asus_header_divider_margin_left" android:layout_marginBottom="@dimen/asus_header_divider_margin_bottom" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/edit_phone_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/common_padding" android:paddingEnd="@dimen/common_padding">
+        <EditText android:id="@id/edit_phone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/phoneLabelsGroup" android:hint="@string/phoneLabelsGroup" android:layout_weight="1.0" android:inputType="phone" />
+        <Spinner android:id="@id/category_spinner" android:layout_width="60.0dip" android:layout_height="@dimen/private_list_height" />
+    </LinearLayout>
+</LinearLayout>

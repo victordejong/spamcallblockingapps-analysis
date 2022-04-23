@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/nameText" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Body2.Name_text.ContactListTextName" />
+        <TextView android:id="@id/description" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" android:text="some description" style="@style/Body2.Name_text.ContactListTextName.description" />
+        <TextView android:textColor="@color/header_action_icon_color_white_theme" android:ellipsize="end" android:id="@id/phoneText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/Caption.Number_text" />
+    </LinearLayout>
+</merge>

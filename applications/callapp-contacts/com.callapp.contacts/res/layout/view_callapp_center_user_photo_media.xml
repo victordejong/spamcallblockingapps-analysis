@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:ellipsize="end" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" app:layout_constraintBottom_toTopOf="@id/dismissContainer" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" style="@style/Body2.Name_text" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/dismissContainer" android:background="@drawable/ripple_or_holo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_8_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/title">
+        <ImageView android:id="@id/dismissIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_dismiss" />
+        <TextView android:ellipsize="end" android:id="@id/dismissText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/Button.Buttons" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="add_contacts_list_name_min_width">460.0dip</dimen>
+    <dimen name="asus_contacts_left_fragment_width">359.0dip</dimen>
+    <dimen name="asus_detail_cake_icon_size">256.0dip</dimen>
+    <dimen name="asus_max_window_height">140.0dip</dimen>
+    <dimen name="call_log_list_item_height">60.0dip</dimen>
+    <dimen name="call_log_list_item_name_height">0.0dip</dimen>
+    <dimen name="call_log_list_item_photo_height">75.0dip</dimen>
+    <dimen name="editor_type_label_width">120.0dip</dimen>
+    <dimen name="favorite_picker_item_lableview_width">480.0dip</dimen>
+</resources>

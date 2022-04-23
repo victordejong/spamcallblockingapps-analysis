@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="13.0dip" android:focusable="false" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/send_sms_button_container" android:background="?android:selectableItemBackground" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center" android:id="@id/send_sms_button" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/asus_contacts2_ic_sms" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/call_area" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_toLeftOf="@id/send_sms_button_container" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true">
+        <ImageButton android:id="@id/call_button" android:background="@null" android:paddingRight="13.0dip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/asus_contacts2_ic_holo_contact_call" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/call_button" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <TextView android:id="@id/type_text" android:background="@null" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AsusContactDetailItemTypeTextViewStyle" />
+            <TextView android:id="@id/data_text" android:background="@null" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AsusContactDetailItemDataTextViewStyle" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

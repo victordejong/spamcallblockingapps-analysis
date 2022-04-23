@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <view android:id="@id/bubble" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_alignParentTop="true" class="com.android.contacts.MessageSubjectBubble" />
+    <TextView android:textSize="@dimen/action_bar_bubble_cursor_text_size" android:textColor="@android:color/white" android:id="@id/messageSubject" android:background="@color/message_subject_bubble_color" android:paddingLeft="@dimen/action_bar_bubble_cursor_text_padding" android:paddingTop="@dimen/action_bar_bubble_cursor_text_padding" android:paddingRight="@dimen/action_bar_bubble_cursor_text_padding" android:paddingBottom="@dimen/action_bar_bubble_cursor_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/bubble" />
+    <TextView android:textSize="@dimen/action_bar_bubble_cursor_text2_size" android:textColor="@android:color/white" android:id="@id/subMessageSubject" android:background="@color/message_subject_bubble_color" android:paddingLeft="@dimen/action_bar_bubble_cursor_text_padding" android:paddingRight="@dimen/action_bar_bubble_cursor_text_padding" android:paddingBottom="@dimen/action_bar_bubble_cursor_text_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/messageSubject" />
+</RelativeLayout>

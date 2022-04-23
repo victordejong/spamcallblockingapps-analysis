@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_5_dp" app:layout_constraintEnd_toStartOf="@id/imageView3" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_10_dp" android:src="@drawable/video_ringtone_card" />
+        <TextView android:textSize="17.0dip" android:gravity="center" android:id="@id/cardText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/video_ringtone_card_text" />
+    </LinearLayout>
+    <ImageView android:id="@id/imageView3" android:layout_width="170.0dip" android:layout_height="fill_parent" android:src="@drawable/pcs_img_cd_card" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/tryItButtonContainer" android:background="@drawable/ripple_or_holo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_5_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/imageView3" app:layout_constraintStart_toStartOf="parent">
+        <TextView android:textSize="16.0dip" android:textColor="@color/white_callapp" android:gravity="center" android:id="@id/tryItButton" android:layout_width="150.0dip" android:layout_height="32.0dip" android:text="@string/try_it" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

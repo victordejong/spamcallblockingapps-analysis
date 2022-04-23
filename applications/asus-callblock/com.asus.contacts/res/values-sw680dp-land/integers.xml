@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="asus_filter_height">8</integer>
+    <integer name="asus_pad_contact_detail_weight">2</integer>
+    <integer name="contact_tile_column_count">4</integer>
+    <integer name="contact_tile_column_count_in_favorites">7</integer>
+    <integer name="additional_button_weight">6</integer>
+</resources>

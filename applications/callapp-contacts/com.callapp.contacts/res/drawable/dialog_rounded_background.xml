@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <inset android:drawable="@drawable/dialog_background_rounded_corners" android:insetRight="@dimen/dimen_24_dp" android:insetTop="@dimen/dimen_24_dp" />
+    </item>
+</layer-list>

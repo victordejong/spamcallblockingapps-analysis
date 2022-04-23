@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/contact_detail_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:id="@id/loader_fragment" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" class="com.android.contacts.detail.ContactLoaderFragment" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:id="@id/cancel_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" style="@android:style/Widget.Holo.Button.Borderless" />
+        <View android:id="@id/vertical_divider" android:background="?android:dividerVertical" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/detail_vertical_divider_vertical_margin" android:layout_marginBottom="@dimen/detail_vertical_divider_vertical_margin" android:layout_weight="0.0" />
+        <Button android:id="@id/shared_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ok" android:layout_weight="1.0" style="@android:style/Widget.Holo.Button.Borderless" />
+    </LinearLayout>
+    <ListView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignTop="@id/bottom" android:layout_alignParentTop="true" android:layout_alignWithParentIfMissing="true" />
+</RelativeLayout>

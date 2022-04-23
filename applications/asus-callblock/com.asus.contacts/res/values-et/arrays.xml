@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blocklist_add_select_dialog_items">
+        <item>Valige kontaktidest</item>
+        <item>Valige viimatistest kõnelogidest</item>
+        <item>Sisestage number</item>
+        <item>Sisestage SIP number</item>
+    </string-array>
+    <string-array name="change_cover_options">
+        <item>Kas. Facebooki kaant</item>
+        <item>Kasuta rühma kaant</item>
+        <item>Kasuta vaikekaant</item>
+        <item>Muuda kaant</item>
+    </string-array>
+    <string-array name="change_group_cover_options">
+        <item>Kasuta rühma vaikekaant</item>
+        <item>Kohanda rühma kaant</item>
+    </string-array>
+    <string-array name="news_message">
+        <item>Täiesti uus ZenUI valija ja kontaktide stiil! Õhuke ja lihtne kasutada!</item>
+        <item>Tee kõne ilma kõne logita! Ära näe vaeva soovimatu kõnelogi kustutamisega!</item>
+    </string-array>
+    <string-array name="picture_from_options">
+        <item>Kaamera</item>
+        <item>Galerii</item>
+    </string-array>
+    <string-array name="speed_entry_list">
+        <item>Kiire</item>
+        <item>Keskmine</item>
+        <item>Aeglane</item>
+    </string-array>
+    <string-array name="speed_level_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="toolpanel_news_message">
+        <item>Uus vahekaart Teised võimaldab leida funktsioone ja sätteid kergesti!</item>
+    </string-array>
+    <string-array name="whitelist_add_select_dialog_items">
+        <item>Valige kontaktidest</item>
+        <item>Valige viimatistest kõnelogidest</item>
+        <item>Sisestage number</item>
+        <item>Sisestage SIP number</item>
+    </string-array>
+</resources>

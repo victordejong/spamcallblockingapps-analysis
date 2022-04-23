@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dialpad" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/dialpad_key_one" />
+        <include android:id="@id/two" layout="@layout/dialpad_key" />
+        <include android:id="@id/three" layout="@layout/dialpad_key" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/four" layout="@layout/dialpad_key" />
+        <include android:id="@id/five" layout="@layout/dialpad_key" />
+        <include android:id="@id/six" layout="@layout/dialpad_key" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/seven" layout="@layout/dialpad_key" />
+        <include android:id="@id/eight" layout="@layout/dialpad_key" />
+        <include android:id="@id/nine" layout="@layout/dialpad_key" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/star" layout="@layout/dialpad_key_star" />
+        <include android:id="@id/zero" layout="@layout/dialpad_key_zero" />
+        <include android:id="@id/pound" layout="@layout/dialpad_key_pound" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/top_section_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/progressbarContainerStub" android:paddingLeft="8.0dip" android:layout="@layout/include_download_container" android:inflatedId="@id/downloadContainer" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginBottom="6.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/buttons_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip">
+            <ViewStub android:layout_gravity="center|right" android:id="@id/left_text_view_stub" android:layout="@layout/cover_sale_textview" android:inflatedId="@id/sale_text" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginRight="9.0dip" android:layout_weight="1.0" />
+            <FrameLayout android:id="@id/button1Con" android:background="@drawable/download_cardview_shape_rounded_rect" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_weight="1.0">
+                <TextView android:gravity="center" android:id="@id/leftButton" android:background="@drawable/ripple_or_holo" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Button" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/button2Con" android:background="@drawable/download_cardview_shape_rounded_rect" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginLeft="4.0dip" android:layout_weight="1.0">
+                <TextView android:gravity="center" android:id="@id/rightButton" android:background="@drawable/ripple_or_holo" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Button" />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <ImageView android:id="@id/image" android:layout_width="58.0dip" android:layout_height="58.0dip" android:layout_marginLeft="8.0dip" android:scaleType="centerCrop" android:layout_below="@id/top_section_container" android:transitionName="@string/transition_img" />
+    <TextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="8.0dip" android:layout_toRightOf="@id/image" android:layout_below="@id/top_section_container" android:layout_alignTop="@id/image" style="@style/Body2.Name_text" />
+    <TextView android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="8.0dip" android:layout_toRightOf="@id/image" android:layout_below="@id/title" style="@style/Caption.Number_text" />
+</RelativeLayout>

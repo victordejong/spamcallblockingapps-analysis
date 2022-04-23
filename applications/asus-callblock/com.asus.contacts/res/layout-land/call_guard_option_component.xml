@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@null" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:id="@id/touchpal_option_check" android:background="@drawable/asus_bg_unknown_number_option_left" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:gravity="center" android:layout_gravity="center" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dialerpad_ic_check" android:contentDescription="@string/touchpad_option_addToContact" />
+            <TextView android:textSize="17.0dip" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/touchpad_option_check" android:singleLine="true" />
+        </LinearLayout>
+        <View android:gravity="center" android:layout_gravity="center" android:id="@id/unknownNumberButtonDivider" android:background="@color/amax_common_bg_color" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:id="@id/touchpal_option_add" android:background="@drawable/asus_bg_unknown_number_option_right" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:gravity="center" android:layout_gravity="center" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/asus_contacts2_ic_add_account" android:contentDescription="@string/touchpad_option_addToContact" />
+            <TextView android:textSize="17.0dip" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/touchpad_option_addToContact" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="18.0dip" android:textColor="@color/asus_contacts2_dialtact_edit_text_color" android:gravity="center" android:id="@id/touchpad_result" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="23.0dip" android:singleLine="true" />
+</LinearLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="pref_screen_key"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:persistent="false" android:key="general_settings">
+        <PreferenceCategory android:persistent="false" android:key="language">
+            <com.callapp.contacts.widget.CallAppListPreference android:entries="@array/languageEntries" android:key="menuLanguage" android:summary="%s" android:entryValues="@array/languageValues" />
+            <com.callapp.contacts.widget.T9Preference android:entries="@array/t9LanguageEntries" android:key="t9Language" android:entryValues="@array/t9LanguageValues" />
+        </PreferenceCategory>
+        <PreferenceCategory android:persistent="false" android:key="others">
+            <Preference android:persistent="false" android:key="linkedAccount" />
+            <Preference android:persistent="false" android:key="sendPurchases" />
+            <Preference android:persistent="false" android:key="callAppDualSim" />
+            <PreferenceScreen android:persistent="false" android:key="myAccount">
+                <Preference android:persistent="false" android:key="installDate" />
+                <Preference android:persistent="false" android:key="appVersion" />
+                <Preference android:persistent="false" android:key="premiumAccount" />
+                <Preference android:persistent="false" android:key="deactivateAccount" />
+            </PreferenceScreen>
+        </PreferenceCategory>
+        <PreferenceCategory android:persistent="false" android:key="shortcuts">
+            <Preference android:persistent="false" android:key="addCallLogShortcut" />
+            <Preference android:persistent="false" android:key="addFavoritesShortcut" />
+            <Preference android:persistent="false" android:key="addDialerShortcut" />
+        </PreferenceCategory>
+        <PreferenceCategory android:persistent="false" android:key="privateMode">
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:persistent="false" android:key="privateModeEnabled" android:defaultValue="true" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:key="callerid_settings">
+        <PreferenceCategory android:persistent="false" android:key="caller_id">
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="showCallAppOnIncoming" android:defaultValue="true" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="showCallAppOnOutgoing" android:defaultValue="true" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="fullScreenModeEnabled" android:defaultValue="true" />
+            <com.callapp.contacts.widget.CallAppListPreference android:key="inCallDuration" android:defaultValue="NEVER" />
+            <com.callapp.contacts.widget.MultipleTitleLinesSwitchPreference android:key="speakNameEnabled" android:defaultValue="false" android:summaryOn="" android:summaryOff="" />
+        </PreferenceCategory>
+        <PreferenceCategory android:persistent="false" android:key="in_call_services">
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="isDefaultPhoneApp" android:defaultValue="true" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="inCallFloatingWidgetEnabled" android:defaultValue="true" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="callFabEnabled" android:defaultValue="true" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="forcePhoneToRing" android:defaultValue="false" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="hasPhoneRang" android:defaultValue="false" />
+        </PreferenceCategory>
+        <PreferenceCategory android:persistent="false" android:key="call_answering_orientation">
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="requestVerticalAnsweringOrientation" android:defaultValue="true" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="requestHorizontalAnsweringOrientation" android:defaultValue="false" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:persistent="true" android:key="isInDriveMode" android:defaultValue="false" />
+            <CheckBoxPreference android:persistent="true" android:key="isInDriveModeIncoming" android:defaultValue="false" />
+            <CheckBoxPreference android:persistent="true" android:key="isInDriveModeOutgoing" android:defaultValue="false" />
+        </PreferenceCategory>
+        <PreferenceCategory android:persistent="false" android:key="post_call_screen">
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="postCallScreenEnabled" android:defaultValue="true" />
+            <com.callapp.contacts.widget.CallAppListPreference android:key="postCallDuration" android:defaultValue="AFTER_5_SEC" />
+            <Preference android:persistent="false" android:key="defaultImApp" />
+        </PreferenceCategory>
+        <PreferenceCategory android:persistent="false" android:key="sms_id">
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="incomingSmsEnabled" android:defaultValue="true" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:key="call_recorder_settings">
+        <PreferenceCategory android:persistent="true" android:key="recorder_title">
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:persistent="true" android:key="callRecorderManual" android:defaultValue="true" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:persistent="true" android:key="callRecorderAuto" android:defaultValue="false" />
+            <CheckBoxPreference android:persistent="true" android:key="callRecorderIncomingCallEnabled" android:defaultValue="false" />
+            <CheckBoxPreference android:persistent="true" android:key="callRecorderOutgoingCallEnabled" android:defaultValue="false" />
+        </PreferenceCategory>
+        <PreferenceCategory android:persistent="true" android:key="recorder_format_title">
+            <Preference android:persistent="false" android:key="recorderTest" />
+            <Preference android:persistent="false" android:key="accessibilityService" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:persistent="true" android:key="forceInCommunicationMode" />
+            <com.callapp.contacts.widget.SeekBarPreference android:persistent="true" android:max="4" android:key="callRecorderIncreaseVolume" android:defaultValue="3" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:persistent="true" android:key="callRecorderNormalizeSpeed" android:defaultValue="false" />
+            <Preference android:persistent="false" android:key="recording_advanced_mode" />
+        </PreferenceCategory>
+        <PreferenceCategory android:persistent="true" android:key="recorder_storage_title">
+            <Preference android:persistent="false" android:key="maxRecordsToSave" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:layout_height="fill_parent" android:key="backup_settings">
+        <Preference android:persistent="false" android:key="lastBackup" />
+        <PreferenceCategory android:persistent="true" android:key="where_to_backup_title">
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:persistent="true" android:key="backupByDropbox" android:defaultValue="false" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:persistent="true" android:key="backupByDrive" android:defaultValue="false" />
+        </PreferenceCategory>
+        <PreferenceCategory android:persistent="true" android:key="backup_files">
+            <CheckBoxPreference android:persistent="true" android:key="backupCallHistory" android:defaultValue="true" />
+            <CheckBoxPreference android:persistent="true" android:key="backupContacts" android:defaultValue="true" />
+            <CheckBoxPreference android:persistent="true" android:key="backupVideoRingTones" android:defaultValue="false" />
+            <CheckBoxPreference android:persistent="true" android:key="backupRecordings" android:defaultValue="false" />
+        </PreferenceCategory>
+        <PreferenceCategory android:persistent="true" android:key="period">
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:persistent="true" android:key="twoDays" android:defaultValue="false" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:persistent="true" android:key="twoWeeks" android:defaultValue="false" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:persistent="true" android:key="month" android:defaultValue="true" />
+        </PreferenceCategory>
+        <PreferenceCategory android:persistent="true" android:key="enableBackupTitle">
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:persistent="true" android:key="enableBackup" android:defaultValue="true" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:key="ads_settings">
+        <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="allow_tailored_ads" android:defaultValue="false" />
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:layout_height="fill_parent" android:key="customize_settings">
+        <PreferenceCategory android:persistent="false" android:key="appearance">
+            <Preference android:persistent="false" android:key="themes" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="overlayCover" android:defaultValue="true" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="preferPhotosFromDevice" android:defaultValue="false" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="contactListPageSwipeEnabled" android:defaultValue="true" />
+        </PreferenceCategory>
+        <PreferenceCategory android:persistent="false" android:key="customization">
+            <Preference android:persistent="false" android:key="SpeedDial" />
+            <PreferenceScreen android:persistent="false" android:key="quickSms">
+                <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="quickSmsEnabled" android:defaultValue="false" />
+                <Preference android:key="quickSms1" android:defaultValue="@string/defaultQuickSms1" android:dialogTitle="@string/quickSmsDialogTitle" />
+                <Preference android:key="quickSms2" android:defaultValue="@string/defaultQuickSms2" android:dialogTitle="@string/quickSmsDialogTitle" />
+                <Preference android:key="quickSms3" android:defaultValue="@string/defaultQuickSms3" android:dialogTitle="@string/quickSmsDialogTitle" />
+                <Preference android:key="quickSms4" android:defaultValue="@string/defaultQuickSms4" android:dialogTitle="@string/quickSmsDialogTitle" />
+            </PreferenceScreen>
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="dialTonesEnabled" android:defaultValue="true" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="vibrateOnClickEnabled" android:defaultValue="true" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:layout_height="fill_parent" android:key="super_skin_settings">
+        <PreferenceCategory android:persistent="false" android:key="super_skin_contact_details">
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="superSkinContactDetailsBackgroundImageEnabled" android:defaultValue="true" />
+        </PreferenceCategory>
+        <PreferenceCategory android:persistent="false" android:key="super_skin_main_screen">
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="superSkinMainScreenBackgroundImageEnabled" android:defaultValue="true" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="superSkinMainScreenTopBarImageEnabled" android:defaultValue="true" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="superSkinMainScreenAnimatedWizardEnabled" android:defaultValue="true" />
+        </PreferenceCategory>
+        <PreferenceCategory android:persistent="false" android:key="super_skin_app_menu">
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="superSkinAppMenuAnimatedWizardEnabled" android:defaultValue="true" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:key="notifications_settings">
+        <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="showCallAppIMNotification" android:defaultValue="true" />
+        <com.callapp.contacts.activity.settings.CustomSwitchPreference android:key="showCallAppSpamAndBlockNotification" android:defaultValue="true" />
+        <PreferenceCategory android:persistent="false" android:key="birthday">
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:persistent="false" android:key="birthdayReminderEnabled" android:defaultValue="true" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:persistent="true" android:key="birthdayReminderSoundEnabled" android:defaultValue="true" />
+        </PreferenceCategory>
+        <PreferenceCategory android:persistent="false" android:key="missed_call_title">
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:persistent="true" android:key="missedCallCardEnabled" android:defaultValue="true" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:persistent="true" android:key="notAnsweredCardEnabled" android:defaultValue="true" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:persistent="true" android:key="missedCallOverlayEnabled" android:defaultValue="true" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:persistent="true" android:key="notAnsweredOverlayEnabled" android:defaultValue="true" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:persistent="true" android:key="missedCallDailySummaryEnabled" android:defaultValue="true" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:persistent="true" android:key="notAnswerDailySummaryEnabled" android:defaultValue="true" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:persistent="true" android:key="notAnswerNotificationEnabled" android:defaultValue="true" />
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:persistent="true" android:key="missedCallNotificationEnabled" android:defaultValue="true" />
+        </PreferenceCategory>
+        <PreferenceCategory android:persistent="false" android:key="whoViewedMyProfile">
+            <com.callapp.contacts.activity.settings.CustomSwitchPreference android:persistent="false" android:key="whoViewedMyProfileEnabled" android:defaultValue="true" />
+            <Preference android:persistent="false" android:key="whoViewedMyProfileAdvanced" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/contact_detail_cover_namebar_textSize" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/contact_detail_cover_namebar_text_margin" android:layout_marginTop="8.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/contact_detail_cover_organization_textSize" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/organization_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/contact_detail_cover_namebar_text_margin" android:layout_marginBottom="5.0dip" android:singleLine="true" android:includeFontPadding="false" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/edit_favorite" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/asus_contacts2_add_to_normal" android:scaleType="center" />
+    <CheckBox android:layout_gravity="center_vertical" android:id="@id/edit_blocklist" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:button="@drawable/btn_block_holo_dark" android:contentDescription="@string/launch_blocklist" />
+</LinearLayout>

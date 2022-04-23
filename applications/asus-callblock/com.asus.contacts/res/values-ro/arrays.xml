@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blocklist_add_select_dialog_items">
+        <item>Alegere din contacte</item>
+        <item>Alegere din jurnalele de apeluri recente</item>
+        <item>Introduceţi un număr</item>
+        <item>Introduceţi un număr SIP</item>
+    </string-array>
+    <string-array name="change_cover_options">
+        <item>Util. cop. Facebook</item>
+        <item>Util. cop. grup</item>
+        <item>Util. cop. impl.</item>
+        <item>Particulariz. cop.</item>
+    </string-array>
+    <string-array name="change_group_cover_options">
+        <item>Se utilizează coperta de grup implicită</item>
+        <item>Personalizare copertă de grup</item>
+    </string-array>
+    <string-array name="news_message">
+        <item>Un nou stil pentru tastatura numerică ZenUI şi Contacte! Rapid şi uşor de folosit!</item>
+        <item>Efectuaţi un apel fără înregistrare în jurnal! Nu vă mai deranjaţi să ştergeţi intrările nedorite din jurnalul de apeluri!</item>
+    </string-array>
+    <string-array name="picture_from_options">
+        <item>Aparat foto</item>
+        <item>Galerie</item>
+    </string-array>
+    <string-array name="speed_entry_list">
+        <item>Rapid</item>
+        <item>Moderat</item>
+        <item>Lent</item>
+    </string-array>
+    <string-array name="speed_level_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="toolpanel_news_message">
+        <item>Fila nouă Altele vă permite să găsiţi caracteristici şi setări cu uşurinţă!</item>
+    </string-array>
+    <string-array name="whitelist_add_select_dialog_items">
+        <item>Alegere din contacte</item>
+        <item>Alegere din jurnalele de apeluri recente</item>
+        <item>Introduceţi un număr</item>
+        <item>Introduceţi un număr SIP</item>
+    </string-array>
+</resources>

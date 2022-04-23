@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/ip_code_item" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/common_padding" android:paddingTop="@dimen/common_padding" android:paddingRight="@dimen/common_padding" android:paddingBottom="@dimen/common_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/common_listview_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/common_listview_primary_text_size" android:textColor="@color/settings_list_main_text_color" android:gravity="center_vertical" android:id="@id/ip_code" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <RadioButton android:gravity="center_vertical" android:id="@id/radio_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</LinearLayout>

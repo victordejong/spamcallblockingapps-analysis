@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:gravity="center" android:id="@id/recorderTestTopTitle" android:paddingTop="@dimen/dimen_10_dp" android:paddingBottom="@dimen/dimen_10_dp" android:layout_width="fill_parent" android:layout_height="100.0dip" android:paddingStart="@dimen/dimen_5_dp" android:paddingEnd="@dimen/dimen_5_dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.callapp.contacts.widget.recyclerviewext.CardRecyclerView android:id="@id/recorderTestRecyclerView" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/recorderTestTopTitle" app:list_card_layout_resourceID="@layout/native_recyclerview_card_layout_callapp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

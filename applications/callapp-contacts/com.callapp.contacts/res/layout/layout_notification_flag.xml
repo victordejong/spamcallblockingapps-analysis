@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/bottom_action_bar_notification" android:layout_width="@dimen/dimen_16_dp" android:layout_height="@dimen/dimen_16_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/bottom_action_bar_notification_background" android:layout_width="fill_parent" android:layout_height="fill_parent" app:srcCompat="@drawable/shape_oval" />
+    <androidx.appcompat.widget.AppCompatImageView android:textSize="@dimen/dimen_10_dp" android:layout_gravity="center" android:id="@id/bottom_action_bar_notification_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" app:srcCompat="@drawable/ic_bb_store_flag" />
+</FrameLayout>

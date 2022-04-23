@@ -1,0 +1,34 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.asus.contacts.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- png
+- jpg
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '21'
+  targetSdkVersion: '24'
+  maxSdkVersion: '23'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  build-data.properties: '8'
+  com/asus/contacts/fonts/Font.aidl: '8'
+  com/asus/contacts/fonts/FontManagerServiceBinder.aidl: '8'
+  com/asus/contacts/fonts/FontManagerServiceCallback.aidl: '8'
+  com/asus/eabservice/IEABService.aidl: '8'
+  com/asus/eabservice/IEABServiceCallback.aidl: '8'
+  com/asus/eabservice/UserCapInfo.aidl: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.6.0
+versionInfo:
+  versionCode: '1520004135'
+  versionName: 2.0.4.24_180703
