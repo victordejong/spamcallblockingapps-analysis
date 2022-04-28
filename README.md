@@ -11,3 +11,9 @@ See here how: [applications/README.md](applications/README.md)
 ## Dynamic analysis
 
 See here how: [dynamic-analysis/README.md](dynamic-analysis/README.md)
+
+# Temp: unwanted applications
+
+- com.tmobile.services.nameid: carrier locked
+- com.vladlee.easyblacklist: manual blacklist
+- com.privacystar.android.spg: carrier locked
