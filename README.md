@@ -17,3 +17,7 @@ See here how: [dynamic-analysis/README.md](dynamic-analysis/README.md)
 - com.tmobile.services.nameid: carrier locked
 - com.vladlee.easyblacklist: manual blacklist
 - com.privacystar.android.spg: carrier locked
+
+## Replacement
+
+- truecaller

@@ -8,6 +8,8 @@ static:
 
 - `android-studio` Android emulator. Use package manager to install. Follow the steps to create a virtual device.
 - `android-tools` and `android-sdk-platform-tools` for use of `adb`. Use package manager to install.
+- `sqlitebrowser` SQLite GUI
+- `fiddler` Decrypt SSL traffic
 
 dynamic:
 
