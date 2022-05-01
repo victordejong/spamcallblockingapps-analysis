@@ -12,12 +12,14 @@ See here how: [applications/README.md](applications/README.md)
 
 See here how: [dynamic-analysis/README.md](dynamic-analysis/README.md)
 
-# Temp: unwanted applications
+# Unwanted applications
 
 - com.tmobile.services.nameid: carrier locked
 - com.vladlee.easyblacklist: manual blacklist
 - com.privacystar.android.spg: carrier locked
+- com.asus.contacts: crashes on startup?
 
-## Replacement
+## Possible replacements
 
-- truecaller
+- truecaller: https://play.google.com/store/apps/details?id=com.truecaller
+- shouldIanswer: https://play.google.com/store/apps/details?id=org.mistergroup.shouldianswer

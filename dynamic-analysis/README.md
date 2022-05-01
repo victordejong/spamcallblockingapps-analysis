@@ -29,3 +29,5 @@ dynamic:
 ### Interacting with emulator
 
 Use `adb shell input text [STRING]` to paste into emulator.
+Use `adb shell settings put global http_proxy 10.0.2.2:8888` to route traffic through your pc.
+Use `adb shell settings put global http_proxy :0` to undo proxy settings.
