@@ -9,7 +9,7 @@ static:
 - `android-studio` Android emulator. Use package manager to install. Follow the steps to create a virtual device.
 - `android-tools` and `android-sdk-platform-tools` for use of `adb`. Use package manager to install.
 - `sqlitebrowser` SQLite GUI
-- `fiddler` Decrypt SSL traffic
+- `mitmproxy` Decrypt SSL traffic
 
 dynamic:
 
@@ -29,5 +29,8 @@ dynamic:
 ### Interacting with emulator
 
 Use `adb shell input text [STRING]` to paste into emulator.
-Use `adb shell settings put global http_proxy 10.0.2.2:8888` to route traffic through your pc.
+Use `adb shell settings put global http_proxy 10.0.2.2:8080` to route traffic through your pc.
 Use `adb shell settings put global http_proxy :0` to undo proxy settings.
+
+Use `emulator -list-avds` to list available emulators
+Use `emulator -avd [EMULATOR_NAME] -writable-system -show-kernel` to start emulator with writable system, API <= 28 (https://docs.mitmproxy.org/stable/howto-install-system-trusted-ca-android/)
