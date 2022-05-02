@@ -17,7 +17,9 @@ See here how: [dynamic-analysis/README.md](dynamic-analysis/README.md)
 - com.tmobile.services.nameid: carrier locked
 - com.vladlee.easyblacklist: manual blacklist
 - com.privacystar.android.spg: carrier locked
-- com.asus.contacts: crashes on startup?
+- com.asus.contacts: crashes on startup, no advanced blocklist
+- gogolook.callgogolook2: Out of date does not function
+- com.mrnumber.blocker: Paid
 
 ## Possible replacements
 

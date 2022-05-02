@@ -14,6 +14,7 @@ static:
 dynamic:
 
 - The APK of the application.
+- Known spam caller: 00447868726250
 
 ### Install app on the emulator
 

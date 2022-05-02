@@ -1,0 +1,132 @@
+05-02 17:44:49.817  2800  3019 E CallApp.PopupManager: Got null as a context to popup manager
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: SSLPeerUnverifiedException
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: javax.net.ssl.SSLPeerUnverifiedException: Certificate pinning failure!
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils:   Peer certificate chain:
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils:     sha256/ucf461aSn4Qf9H7h6NXoalZ3LNOzXO9WxrDylCLf45o=: CN=s.callapp.com
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils:     sha256/ucf461aSn4Qf9H7h6NXoalZ3LNOzXO9WxrDylCLf45o=: O=mitmproxy,CN=mitmproxy
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils:   Pinned certificates for s.callapp.com:
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils:     sha256/Tzggqd6QHcDgu8Zwt0ZLaYZSLJvdNKJo+5B4eqFba+U=
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils:     sha256/8Rw90Ej3Ttt8RRkrg+WYDS9n7IS03bk5bjP/UXPtaY8=
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils:     sha256/Ko8tivDrEjiY90yGasP6ZpBU4jwXvHqVvQI0GS3GNdA=
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at okhttp3.CertificatePinner.check$okhttp(SourceFile:200)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.RealConnection.connectTls(SourceFile:410)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.RealConnection.establishProtocol(SourceFile:337)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.RealConnection.connect(SourceFile:209)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.ExchangeFinder.findConnection(SourceFile:226)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(SourceFile:106)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.ExchangeFinder.find(SourceFile:74)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.RealCall.initExchange$okhttp(SourceFile:255)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.ConnectInterceptor.intercept(SourceFile:32)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.RealInterceptorChain.proceed(SourceFile:109)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.cache.CacheInterceptor.intercept(SourceFile:95)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.RealInterceptorChain.proceed(SourceFile:109)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.BridgeInterceptor.intercept(SourceFile:83)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.RealInterceptorChain.proceed(SourceFile:109)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(SourceFile:76)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.RealInterceptorChain.proceed(SourceFile:109)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.util.http.HttpUtils$UserAgentInterceptor.intercept(SourceFile:172)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.RealInterceptorChain.proceed(SourceFile:109)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.util.http.HttpUtils$OkHttpExceptionInterceptor.intercept(SourceFile:143)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.RealInterceptorChain.proceed(SourceFile:109)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(SourceFile:201)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.RealCall.execute(SourceFile:154)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.util.http.HttpUtils.a(SourceFile:439)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.util.http.HttpUtils.c(SourceFile:534)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.util.http.HttpUtils.d(SourceFile:761)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.util.http.HttpRequest.a(SourceFile:52)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.util.http.HttpRequest$1.doTask(SourceFile:73)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.manager.task.Task.run(SourceFile:132)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at b.a$a$h.a(SourceFile:73)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at kotlin.c.b.a.a.b(SourceFile:33)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at kotlinx.coroutines.ax.run(SourceFile:106)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at kotlinx.coroutines.b.a.a(SourceFile:571)
+05-02 17:44:50.119  2800  3019 E CallApp.HttpUtils: 	at kotlinx.coroutines.b.a$b.run(SourceFile:2750)
+05-02 17:44:50.119  2800  3019 E CallApp.com.callapp.contacts.util.http.HttpRequest: Got status 0 while posting to https://s.callapp.com/callapp-server/uv
+05-02 17:44:50.121  2800  3019 E CallApp.PopupManager: Got null as a context to popup manager
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: SSLPeerUnverifiedException
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: javax.net.ssl.SSLPeerUnverifiedException: Certificate pinning failure!
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils:   Peer certificate chain:
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils:     sha256/ucf461aSn4Qf9H7h6NXoalZ3LNOzXO9WxrDylCLf45o=: CN=s.callapp.com
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils:     sha256/ucf461aSn4Qf9H7h6NXoalZ3LNOzXO9WxrDylCLf45o=: O=mitmproxy,CN=mitmproxy
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils:   Pinned certificates for s.callapp.com:
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils:     sha256/Tzggqd6QHcDgu8Zwt0ZLaYZSLJvdNKJo+5B4eqFba+U=
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils:     sha256/8Rw90Ej3Ttt8RRkrg+WYDS9n7IS03bk5bjP/UXPtaY8=
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils:     sha256/Ko8tivDrEjiY90yGasP6ZpBU4jwXvHqVvQI0GS3GNdA=
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at okhttp3.CertificatePinner.check$okhttp(SourceFile:200)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.RealConnection.connectTls(SourceFile:410)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.RealConnection.establishProtocol(SourceFile:337)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.RealConnection.connect(SourceFile:209)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.ExchangeFinder.findConnection(SourceFile:226)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(SourceFile:106)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.ExchangeFinder.find(SourceFile:74)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.RealCall.initExchange$okhttp(SourceFile:255)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.ConnectInterceptor.intercept(SourceFile:32)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.RealInterceptorChain.proceed(SourceFile:109)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.cache.CacheInterceptor.intercept(SourceFile:95)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.RealInterceptorChain.proceed(SourceFile:109)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.BridgeInterceptor.intercept(SourceFile:83)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.RealInterceptorChain.proceed(SourceFile:109)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(SourceFile:76)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.RealInterceptorChain.proceed(SourceFile:109)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.util.http.HttpUtils$UserAgentInterceptor.intercept(SourceFile:172)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.RealInterceptorChain.proceed(SourceFile:109)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.util.http.HttpUtils$OkHttpExceptionInterceptor.intercept(SourceFile:143)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.RealInterceptorChain.proceed(SourceFile:109)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(SourceFile:201)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.RealCall.execute(SourceFile:154)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.util.http.HttpUtils.a(SourceFile:439)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.util.http.HttpUtils.c(SourceFile:534)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.util.http.HttpUtils.d(SourceFile:761)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.util.http.HttpRequest.a(SourceFile:52)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.util.http.HttpRequest$1.doTask(SourceFile:73)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.manager.task.Task.run(SourceFile:132)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at b.a$a$h.a(SourceFile:73)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at kotlin.c.b.a.a.b(SourceFile:33)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at kotlinx.coroutines.ax.run(SourceFile:106)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at kotlinx.coroutines.b.a.a(SourceFile:571)
+05-02 17:44:50.419  2800  3019 E CallApp.HttpUtils: 	at kotlinx.coroutines.b.a$b.run(SourceFile:2750)
+05-02 17:44:50.419  2800  3019 E CallApp.com.callapp.contacts.util.http.HttpRequest: Got status 0 while posting to https://s.callapp.com/callapp-server/uv
+05-02 17:44:50.421  2800  3019 E CallApp.PopupManager: Got null as a context to popup manager
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: SSLPeerUnverifiedException
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: javax.net.ssl.SSLPeerUnverifiedException: Certificate pinning failure!
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils:   Peer certificate chain:
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils:     sha256/ucf461aSn4Qf9H7h6NXoalZ3LNOzXO9WxrDylCLf45o=: CN=s.callapp.com
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils:     sha256/ucf461aSn4Qf9H7h6NXoalZ3LNOzXO9WxrDylCLf45o=: O=mitmproxy,CN=mitmproxy
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils:   Pinned certificates for s.callapp.com:
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils:     sha256/Tzggqd6QHcDgu8Zwt0ZLaYZSLJvdNKJo+5B4eqFba+U=
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils:     sha256/8Rw90Ej3Ttt8RRkrg+WYDS9n7IS03bk5bjP/UXPtaY8=
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils:     sha256/Ko8tivDrEjiY90yGasP6ZpBU4jwXvHqVvQI0GS3GNdA=
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at okhttp3.CertificatePinner.check$okhttp(SourceFile:200)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.RealConnection.connectTls(SourceFile:410)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.RealConnection.establishProtocol(SourceFile:337)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.RealConnection.connect(SourceFile:209)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.ExchangeFinder.findConnection(SourceFile:226)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.ExchangeFinder.findHealthyConnection(SourceFile:106)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.ExchangeFinder.find(SourceFile:74)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.RealCall.initExchange$okhttp(SourceFile:255)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.ConnectInterceptor.intercept(SourceFile:32)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.RealInterceptorChain.proceed(SourceFile:109)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.cache.CacheInterceptor.intercept(SourceFile:95)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.RealInterceptorChain.proceed(SourceFile:109)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.BridgeInterceptor.intercept(SourceFile:83)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.RealInterceptorChain.proceed(SourceFile:109)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(SourceFile:76)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.RealInterceptorChain.proceed(SourceFile:109)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.util.http.HttpUtils$UserAgentInterceptor.intercept(SourceFile:172)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.RealInterceptorChain.proceed(SourceFile:109)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.util.http.HttpUtils$OkHttpExceptionInterceptor.intercept(SourceFile:143)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.http.RealInterceptorChain.proceed(SourceFile:109)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.RealCall.getResponseWithInterceptorChain$okhttp(SourceFile:201)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at okhttp3.internal.connection.RealCall.execute(SourceFile:154)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.util.http.HttpUtils.a(SourceFile:439)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.util.http.HttpUtils.c(SourceFile:534)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.util.http.HttpUtils.d(SourceFile:761)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.util.http.HttpRequest.a(SourceFile:52)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.util.http.HttpRequest$1.doTask(SourceFile:73)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at com.callapp.contacts.manager.task.Task.run(SourceFile:132)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at b.a$a$h.a(SourceFile:73)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at kotlin.c.b.a.a.b(SourceFile:33)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at kotlinx.coroutines.ax.run(SourceFile:106)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at kotlinx.coroutines.b.a.a(SourceFile:571)
+05-02 17:44:50.725  2800  3019 E CallApp.HttpUtils: 	at kotlinx.coroutines.b.a$b.run(SourceFile:2750)
+05-02 17:44:50.725  2800  3019 E CallApp.com.callapp.contacts.util.http.HttpRequest: Got status 0 while posting to https://s.callapp.com/callapp-server/uv
