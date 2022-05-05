@@ -8,3 +8,17 @@
 /applications/tmobile-services/classes-dex2jar.jar filter=lfs diff=lfs merge=lfs -text
 /applications/tmobile-services/com.tmobile.services.nameid.apk filter=lfs diff=lfs merge=lfs -text
 /applications/webascender-callerid/com.webascender.callerid.apk filter=lfs diff=lfs merge=lfs -text
+/applications/asus-callblock-DEPRECATED/com.asus.contacts.apk filter=lfs diff=lfs merge=lfs -text
+/applications/gogolook-callgogolook2-DEPRECATED/classes-dex2jar.jar filter=lfs diff=lfs merge=lfs -text
+/applications/gogolook-callgogolook2-DEPRECATED/classes2-dex2jar.jar filter=lfs diff=lfs merge=lfs -text
+/applications/gogolook-callgogolook2-DEPRECATED/gogolook.callgogolook2.apk filter=lfs diff=lfs merge=lfs -text
+/applications/mrnumber-blocker-DEPRECATED/com.mrnumber.blocker.apk filter=lfs diff=lfs merge=lfs -text
+/applications/privacystar-android-DEPRECATED/com.privacystar.android.spg.apk filter=lfs diff=lfs merge=lfs -text
+/applications/tmobile-services-DEPRECATED/classes-dex2jar.jar filter=lfs diff=lfs merge=lfs -text
+/applications/tmobile-services-DEPRECATED/com.tmobile.services.nameid.apk filter=lfs diff=lfs merge=lfs -text
+/candidate-apps/com.flexaspect.android.everycallcontrol.apk filter=lfs diff=lfs merge=lfs -text
+/candidate-apps/com.mglab.scm.apk filter=lfs diff=lfs merge=lfs -text
+/candidate-apps/com.telguarder.apk filter=lfs diff=lfs merge=lfs -text
+/candidate-apps/com.truecaller.apk filter=lfs diff=lfs merge=lfs -text
+/candidate-apps/com.unknownphone.callblocker.apk filter=lfs diff=lfs merge=lfs -text
+/candidate-apps/org.mistergroup.shouldianswer.apk filter=lfs diff=lfs merge=lfs -text
