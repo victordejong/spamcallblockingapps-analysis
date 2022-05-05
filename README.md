@@ -25,3 +25,7 @@ See here how: [dynamic-analysis/README.md](dynamic-analysis/README.md)
 
 - truecaller: https://play.google.com/store/apps/details?id=com.truecaller
 - shouldIanswer: https://play.google.com/store/apps/details?id=org.mistergroup.shouldianswer
+- Stop met mij te bellen: https://play.google.com/store/apps/details?id=com.mglab.scm
+- telGuarder: https://play.google.com/store/apps/details?id=com.telguarder
+- Call Blocker: https://play.google.com/store/apps/details?id=com.unknownphone.callblocker
+- Bel Control: https://play.google.com/store/apps/details?id=com.flexaspect.android.everycallcontrol
