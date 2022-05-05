@@ -33,9 +33,9 @@ Known spam caller: 00447868726250
 ### Interacting with emulator
 
 - Use `adb shell input text [STRING]` to paste into emulator.
-- Use `adb shell settings put global http_proxy 10.0.2.2:8080` to route traffic through your pc.
-- Use `adb shell settings put global http_proxy :0` to undo proxy settings.
 
 MITMproxy settings:
+- Use `adb shell settings put global http_proxy 10.0.2.2:8080` to route traffic through your pc.
+- Use `adb shell settings put global http_proxy :0` to undo proxy settings.
 - Use `emulator -list-avds` to list available emulators
 - Use `emulator -avd [EMULATOR_NAME] -writable-system -show-kernel` to start emulator with writable system, API <= 28 (https://docs.mitmproxy.org/stable/howto-install-system-trusted-ca-android/)
