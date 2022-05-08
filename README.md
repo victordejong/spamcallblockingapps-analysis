@@ -12,6 +12,27 @@ See here how: [applications/README.md](applications/README.md)
 
 See here how: [dynamic-analysis/README.md](dynamic-analysis/README.md)
 
+## Applications analysis structure
+
+```bash
+app-name/
+├─ com.app.name/
+├─ decompiled-source/
+├─ extracted-data/
+│  ├─ database/
+│  ├─ files/
+│  ├─ network/
+├─ classes*.jar
+├─ com.app.name.apk
+├─ README.md
+```
+
+- `com.app.name/`: decompiled apk data
+- `decompiled-source/`: Lossy readable java code
+- `extracted-data`: Data extracted dynamically (database on disk, files on disk, MITM network capture)
+- `com.app.name.apk`: Raw app apk (installable)
+- `README.md`: readme with app specific findings
+
 # Unwanted applications
 
 - com.tmobile.services.nameid: carrier locked
