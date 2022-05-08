@@ -38,3 +38,4 @@
 /archived-apps/privacystar-android-DEPRECATED/com.privacystar.android.spg.apk filter=lfs diff=lfs merge=lfs -text
 /archived-apps/tmobile-services-DEPRECATED/classes-dex2jar.jar filter=lfs diff=lfs merge=lfs -text
 /archived-apps/tmobile-services-DEPRECATED/com.tmobile.services.nameid.apk filter=lfs diff=lfs merge=lfs -text
+/applications/stopmijbellen/extracted-data/database/DBMain.db filter=lfs diff=lfs merge=lfs -text
