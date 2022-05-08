@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="asus_contacts2_handwriting_text_color">#ff000000</color>
-    <color name="asus_highlight_background_color">#ffffffff</color>
-    <color name="section_header_text_color">#ff000000</color>
-    <color name="statusbar_bg_color">#ff00aba6</color>
-    <color name="tab_btn_normal_color">#ffb3b3b3</color>
-</resources>

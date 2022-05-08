@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/theme_container_size_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/themeImageView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:tint="@color/dark_background_tint" android:contentDescription="@string/lc_themes_cd" />
-    <TextView android:textSize="@dimen/theme_title_text_size" android:textStyle="bold" android:textColor="@color/white" android:id="@id/titleTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
-</RelativeLayout>

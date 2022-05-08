@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@drawable/asus_contacts2_ic_add" android:id="@id/addblocklist_bundled" android:title="@string/actionbar_menu_add" android:showAsAction="always" />
-</menu>

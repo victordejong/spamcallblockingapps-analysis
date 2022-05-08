@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout android:id="@id/progress_dialog_spinner_root" android:background="@color/ps3_white" android:layout_width="309.0dip" android:layout_height="84.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ProgressBar android:id="@id/progress_dialog_spinner_indeterminate_bar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:indeterminate="true" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <TextView android:textSize="16.0sp" android:id="@id/progress_dialog_spinner_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/progress_dialog_spinner_indeterminate_bar" app:layout_constraintTop_toTopOf="parent" />
-</android.support.constraint.ConstraintLayout>

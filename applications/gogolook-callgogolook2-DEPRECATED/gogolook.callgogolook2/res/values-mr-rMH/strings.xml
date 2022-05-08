@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="copy_email">ईमेल पत्ता कॉपी करा</string>
-    <string name="copy_number">फोन नंबर कॉपी करा</string>
-    <string name="failed">प्रतिमा लोड करू शकलो नाही</string>
-    <string name="more_string">+%1$d</string>
-    <string name="photo_view_count" formatted="false">%d पैकी %d</string>
-    <string name="retry">पुन्हा प्रयत्न करा</string>
-</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckedTextView android:textSize="@dimen/icon_settings_font_style_panel_textsize" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/font_style" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/icon_settings_font_style_panel_margin_h" android:layout_marginRight="@dimen/icon_settings_font_style_panel_margin_h" android:minHeight="?android:listPreferredItemHeight" android:maxLines="1" android:drawableLeft="?android:listChoiceIndicatorSingle" android:layout_alignParentLeft="true" />
+</RelativeLayout>

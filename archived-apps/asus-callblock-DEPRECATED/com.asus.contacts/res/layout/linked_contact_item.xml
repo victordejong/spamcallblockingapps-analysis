@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/amax_common_bg_color" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/header_container" android:paddingLeft="0.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/contact_browser_list_item_size">
+        <ImageView android:layout_gravity="center" android:id="@id/main_photo" android:layout_width="@dimen/list_photo_width" android:layout_height="@dimen/list_photo_width" />
+        <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/main_name" android:paddingLeft="5.0dip" android:paddingTop="@dimen/list_padding_top" android:paddingRight="5.0dip" android:paddingBottom="@dimen/list_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:fontFamily="sans-serif-medium" style="@style/AmaxListMainTextStyle" />
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="@color/amax_filter_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/raw_container" android:paddingLeft="30.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/contact_browser_list_item_size">
+        <ImageView android:layout_gravity="center" android:id="@id/raw_photo" android:layout_width="@dimen/list_photo_width" android:layout_height="@dimen/list_photo_width" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/name_cotainer" android:paddingLeft="5.0dip" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:ellipsize="end" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sans-serif-medium" style="@style/AmaxListMainTextStyle" />
+            <TextView android:ellipsize="end" android:id="@id/account" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/AmaxListSecondTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/split_container" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/list_padding_top" android:paddingBottom="@dimen/list_padding_bottom" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:id="@id/split_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

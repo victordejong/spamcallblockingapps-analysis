@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/common_padding" android:paddingRight="@dimen/common_padding" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeightLarge" android:minWidth="196.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/info_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/common_padding" />
-    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-        <TextView android:textAppearance="?android:textAppearanceLargePopupMenu" android:textColor="@color/asus_contacts2_theme_primary_text_color" android:ellipsize="marquee" android:id="@id/options_title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
-    </LinearLayout>
-    <ImageView android:id="@id/red_point_icon" android:background="@drawable/asus_new_feature_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_padding" />" </LinearLayout>

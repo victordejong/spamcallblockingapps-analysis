@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="12.0sp" android:textColor="@color/text_gray" android:gravity="start" android:id="@id/tvSubscriptionNoticeTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ad_free_iap_notice_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <TextView android:textSize="12.0sp" android:textColor="@color/text_gray" android:gravity="start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="36.0dip" android:text="@string/ad_free_iap_notice_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvSubscriptionNoticeTitle" />
-</androidx.constraintlayout.widget.ConstraintLayout>

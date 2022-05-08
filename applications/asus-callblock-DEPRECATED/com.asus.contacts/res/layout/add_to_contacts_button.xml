@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:id="@id/add_to_contacts_button_keypad" android:background="@color/asus_contacts2_btn_add_contact" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/add_to_contacts_button_icon" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/asus_contacts2_ic_add_account" android:contentDescription="@string/recentCalls_addToContact" style="@style/call_guard_option_icon_tint" />
-    <TextView android:textSize="@dimen/asus_add_to_contacts_text_size" android:textColor="@color/asus_contacts2_btn_add_contact_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/add_to_contacts_button_text" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recentCalls_addToContact" android:singleLine="true" />
-</LinearLayout>

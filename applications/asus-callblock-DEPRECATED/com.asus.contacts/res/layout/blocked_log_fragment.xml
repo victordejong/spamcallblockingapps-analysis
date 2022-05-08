@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:orientation="vertical" android:background="@drawable/asus_contacts2_list_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:id="@id/listContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <View android:id="@id/filter_divider" android:background="@color/amax_filter_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/common_padding" android:layout_marginRight="@dimen/common_padding" />
-        <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/common_padding" android:layout_marginRight="@dimen/common_padding" />
-    </LinearLayout>
-    <TextView android:textSize="@dimen/asus_group_detail_vip_text_size" android:textColor="@color/asus_contacts2_theme_second_text_color_n" android:gravity="center" android:layout_gravity="center" android:id="@android:id/text1" android:paddingLeft="@dimen/asus_group_detail_vip_text_padding" android:paddingRight="@dimen/asus_group_detail_vip_text_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/blocked_log_empty_string" />
-</FrameLayout>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ListView android:id="@id/filter_list" android:paddingLeft="@dimen/asus_filter_list_margin_left" android:paddingTop="@dimen/asus_filter_list_margin_top" android:paddingRight="@dimen/asus_filter_list_margin_right" android:paddingBottom="@dimen/asus_filter_list_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="always" />
-</RelativeLayout>

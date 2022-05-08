@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="asus_fastscroll_step_ch">18.0dip</dimen>
+    <dimen name="asus_fastscroll_step_ch_navi">17.0dip</dimen>
+    <dimen name="asus_fastscroll_step_en">20.0dip</dimen>
+    <dimen name="asus_fastscroll_step_en_navi">18.0dip</dimen>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/log_item_primary_ll" android:layout_width="fill_parent" android:layout_height="56.0dip" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.privacystar.core.ui.widgets.caller_icon.CallerIconView android:gravity="center_vertical" android:id="@id/log_item_caller_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_weight="0.0" android:layout_marginStart="8.0dip" android:layout_marginEnd="10.0dip" />
+    <include layout="@layout/log_item_content_details_body" />
+    <include layout="@layout/log_item_content_details_history" />
+</LinearLayout>

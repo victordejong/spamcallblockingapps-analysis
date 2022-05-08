@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blocklist_add_select_dialog_items">
+        <item>Chọn từ danh bạ</item>
+        <item>Chọn từ nhật ký gọi gần đây</item>
+        <item>Nhập số</item>
+        <item>Nhập số SIP</item>
+    </string-array>
+    <string-array name="change_cover_options">
+        <item>Dùng ảnh bìa Facebook</item>
+        <item>Dùng ảnh bìa nhóm</item>
+        <item>Dùng ảnh bìa mặc định</item>
+        <item>Tùy chỉnh ảnh bìa</item>
+    </string-array>
+    <string-array name="change_group_cover_options">
+        <item>Dùng ảnh bìa nhóm mặc định</item>
+        <item>Tùy chỉnh ảnh bìa nhóm</item>
+    </string-array>
+    <string-array name="news_message">
+        <item>Phong cách hoàn toàn mới dành cho Trình quay số và Danh bạ ZenUI! Thanh mảnh và dễ sử dụng!</item>
+        <item>Thực hiện cuộc gọi mà không cần nhật ký cuộc gọi! Không còn khó chịu khi xóa nhật ký cuộc gọi không mong muốn nữa!</item>
+    </string-array>
+    <string-array name="picture_from_options">
+        <item>Camera</item>
+        <item>Thư viện</item>
+    </string-array>
+    <string-array name="speed_entry_list">
+        <item>Nhanh</item>
+        <item>Trung bình</item>
+        <item>Chậm</item>
+    </string-array>
+    <string-array name="speed_level_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="toolpanel_news_message">
+        <item>"Tab Khác  mới cho bạn tìm kiếm các tính năng và cài đặt dễ dàng!"</item>
+    </string-array>
+    <string-array name="whitelist_add_select_dialog_items">
+        <item>Chọn từ danh bạ</item>
+        <item>Chọn từ nhật ký gọi gần đây</item>
+        <item>Nhập số</item>
+        <item>Nhập số SIP</item>
+    </string-array>
+</resources>

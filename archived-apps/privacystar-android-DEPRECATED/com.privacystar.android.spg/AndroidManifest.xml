@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.privacystar.android.spg" platformBuildVersionCode="304020059" platformBuildVersionName="3.4.2.0059"> // For AF White label access <permission android:name="com.firstorion.android.roboshield.READ_WL" android:protectionLevel="signature"/>
+    <permission android:name="com.firstorion.android.roboshield.WRITE_WL" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.anchorfree.permission.READ_ELITE_AUTH"/> // Access to data for Calls / Contacts <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/> // Access live Call / SMS events <uses-permission android:name="android.permission.READ_PHONE_STATE"/> // Permission required for endCall() on Android 9.0 and above. <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES"/> // Overlay window that can be drawn over other apps <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/> // Network access <uses-permission android:name="android.permission.INTERNET"/> // See if network is available before attempting to use <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/> // Start background services before app is manually launched <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/> // Access running apps to see if our services are running <uses-permission android:name="android.permission.GET_TASKS"/> // Ensure our Call Center shows properly over lock screen <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/> // For methods of hanging up calls <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.VIBRATE"/> // For IAP <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:maxSdkVersion="18" android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <application android:allowBackup="false" android:appComponentFactory="android.support.v4.app.CoreComponentFactory" android:icon="@drawable/launcher_icon" android:label="@string/app_name" android:name="com.privacystar.core.PSApplication" android:resizeableActivity="false" android:supportsRtl="true" android:theme="@style/AppTheme.Default" android:usesCleartextTraffic="true">
+        <receiver android:name="com.privacystar.core.receiver.CallBroadcastReceiver">
+            <intent-filter android:priority="0x7FFFFFFF">
+                <action android:name="android.intent.action.PHONE_STATE"/>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL"/>
+                <action android:name="com.privacystar.android.updateBlockingCache"/>
+            </intent-filter>
+        </receiver>
+        <activity android:label="@string/app_name" android:name="com.privacystar.core.ui.SplashActivity" android:screenOrientation="portrait" android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:launchMode="singleTop" android:name="com.privacystar.core.ui.intro.intro_core.IntroActivity" android:parentActivityName="com.privacystar.core.ui.SplashActivity" android:screenOrientation="portrait" android:theme="@style/IntroTheme" android:windowSoftInputMode="adjustPan"> &gt; <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".ui.intro.intro_core.IntroActivity"/>
+        </activity>
+        <activity android:label="All Activity" android:launchMode="singleTop" android:name="com.privacystar.core.ui.home.HomeActivity" android:parentActivityName="com.privacystar.core.ui.intro.intro_core.IntroActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Default" android:windowSoftInputMode="adjustPan">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".ui.intro.intro_core.IntroActivity"/>
+        </activity>
+        <activity android:excludeFromRecents="true" android:label="CallCenterFragment" android:launchMode="singleInstance" android:name="com.privacystar.core.ui.call_center.CallCenterActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Translucent"/>
+        <activity android:label="@string/title_activity_debug_view" android:name="com.privacystar.core.ui.debug.DebugViewActivity" android:parentActivityName="com.privacystar.core.ui.home.HomeActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Default">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".ui.home.HomeActivity"/>
+        </activity>
+        <activity android:label="" android:name="com.privacystar.core.ui.detail_view.DetailActivity" android:parentActivityName="com.privacystar.core.ui.home.HomeActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Default">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".ui.home.HomeActivity"/>
+        </activity>
+        <activity android:label="@string/walkthrough_label" android:name="com.privacystar.core.ui.walkthrough.WalkthroughActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Default"/>
+        <activity android:label="PrivacyStar" android:name="com.privacystar.core.ui.webview.WebViewActivity" android:parentActivityName="com.privacystar.core.ui.home.HomeActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.HiddenActionBar">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".ui.home.HomeActivity"/>
+        </activity>
+        <activity android:label="PrivacyStar" android:name="com.privacystar.core.ui.report.GenericReportActivity" android:parentActivityName="com.privacystar.core.ui.home.HomeActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Default">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".ui.home.HomeActivity"/>
+        </activity>
+        <activity android:label="PrivacyStar" android:name="com.privacystar.core.ui.report.ReportThankYouActivity" android:parentActivityName="com.privacystar.core.ui.home.HomeActivity" android:screenOrientation="portrait" android:theme="@style/AppTheme.Default">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value=".ui.home.HomeActivity"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="PrivacyStar" android:name="com.privacystar.core.service.googleplay.v3.IABV3Activity" android:noHistory="true" android:screenOrientation="unspecified" android:theme="@style/TranslucentBillingTheme"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsService"/>
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService"/>
+        <receiver android:exported="true" android:name="com.google.android.gms.analytics.CampaignTrackingReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.privacystar.core.ui.debug.network.CustNetworkRequest" android:parentActivityName="com.privacystar.core.ui.debug.DebugViewActivity"/>
+        <receiver android:name="com.privacystar.core.service.blocking.CallBlockingReceiver">
+            <intent-filter android:priority="0x7FFFFFFF">
+                <action android:name="android.intent.action.PHONE_STATE"/>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL"/>
+                <action android:name="com.privacystar.android.updateBlockingCache"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.privacystar.core.receiver.GooglePlayReceiver">
+            <intent-filter>
+                <action android:name="com.privacystar.android.core.service.googleplay.IABConstants.iab_action"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.privacystar.core.receiver.NotificationReceiver">
+            <intent-filter>
+                <action android:name="com.privacystar.android.notificationPressedIntent"/>
+                <action android:name="com.privacystar.android.notificationDeletedIntent"/>
+                <action android:name="com.privacystar.android.notificationShouldBlock"/>
+                <action android:name="com.privacystar.android.notificationShouldReport"/>
+                <action android:name="com.privacystar.android.notificationMessageIntent"/>
+                <action android:name="com.privacystar.android.notificationNotRegisteredIntent"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.privacystar.core.receiver.SystemTimeChangeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.privacystar.core.receiver.CYDTokenRefreshReceiver">
+            <intent-filter>
+                <action android:name="cyd.token_refresh.result"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.privacystar.core.ui.call_center.CallCenterService"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <service android:name="com.privacystar.core.service.blocking.api21.BlockingOverlayService"/>
+        <service android:name="com.privacystar.core.service.jobs.JobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="true" android:name="com.privacystar.core.service.jobs.FcmJobService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.privacystar.core.service.ping.PingService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.privacystar.core.service.license_check.LicenseCheckService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.privacystar.core.service.firebase.PSMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:enabled="true" android:exported="true" android:name="com.privacystar.core.service.firebase.PSFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.firstorion.android.roboshield" android:exported="true" android:name="com.privacystar.core.data.providers.custom.whitelabel.WLProvider" android:readPermission="com.firstorion.android.roboshield.READ_WL" android:writePermission="com.firstorion.android.roboshield.WRITE_WL"/>
+        <provider android:authorities="com.privacystar.android.spg.log.file.provider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <service android:enabled="true" android:exported="false" android:name="com.privacystar.core.service.CallerIDService"/>
+        <meta-data android:name="firebase_crashlytics_collection_enabled" android:value="false"/>
+        <meta-data android:name="io.fabric.ApiKey" android:value="9b2d8bc91db71364cbf5539f47684a29e6f60dba"/>
+        <service android:name="com.firstorion.libcyd.FirebaseTokenService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.firstorion.libcyd.FirebaseMessageService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.firstorion.libcyd.PhoneStateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.privacystar.android.spg.ApptentiveAttachmentFileProvider" android:enabled="true" android:exported="false" android:grantUriPermissions="true" android:name="com.apptentive.android.sdk.debug.ApptentiveAttachmentFileProvider"/>
+        <activity android:name="com.apptentive.android.sdk.ApptentiveViewActivity" android:theme="@style/ApptentiveTheme.Base.Versioned"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.apptentive.android.sdk.debug.LogBroadcastReceiver"/>
+        <receiver android:exported="false" android:name="com.apptentive.android.sdk.module.engagement.notification.ApptentiveNotificationInteractionBroadcastReceiver"/>
+        <activity android:name="zendesk.support.request.RequestActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="orientation|screenSize" android:label="@string/zs_view_article_loading_title" android:name="zendesk.support.guide.ViewArticleActivity"/>
+        <activity android:label="@string/support_activity_title" android:name="zendesk.support.guide.HelpCenterActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="@string/request_list_activity_title" android:name="zendesk.support.requestlist.RequestListActivity"/>
+        <receiver android:exported="false" android:name="zendesk.support.DeepLinkingBroadcastReceiver">
+            <intent-filter>
+                <action android:name="zendesk.support"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.privacystar.android.spg.zendesk.support.SupportSdkStartupProvider" android:enabled="true" android:exported="false" android:name="zendesk.support.SupportSdkStartupProvider"/>
+        <activity android:name="com.mikepenz.aboutlibraries.ui.LibsActivity"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="true" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.privacystar.android.spg.firebaseinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.firebase.provider.FirebaseInitProvider"/>
+        <provider android:authorities="com.privacystar.android.spg.crashlyticsinitprovider" android:exported="false" android:initOrder="90" android:name="com.crashlytics.android.CrashlyticsInitProvider"/>
+        <provider android:authorities="com.privacystar.android.spg.workmanager-init" android:directBootAware="false" android:exported="false" android:multiprocess="true" android:name="androidx.work.impl.WorkManagerInitializer"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.privacystar.android.spg.lifecycle-trojan" android:exported="false" android:multiprocess="true" android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"/>
+        <provider android:authorities="com.privacystar.android.spg.belvedere2.attachments" android:exported="false" android:grantUriPermissions="true" android:name="zendesk.belvedere.BelvedereFileProvider" android:readPermission="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/belvedere_attachment_storage_v2"/>
+        </provider>
+    </application>
+</manifest>

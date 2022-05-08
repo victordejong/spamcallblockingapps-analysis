@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_actionbar_share" android:id="@id/menu_share" android:title="@string/ndp_action_share" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_actionbar_more" android:id="@id/menu_overflow" android:title="@string/title_more" app:showAsAction="always">
+        <menu>
+            <item android:id="@id/menu_community_report" android:visible="false" android:title="@string/ndp_overflow_report" />
+            <item android:id="@id/menu_add" android:visible="false" android:title="@string/ndp_overflow_add" />
+            <item android:id="@id/menu_remove" android:visible="false" android:title="@string/ndp_overflow_unadd" />
+            <item android:id="@id/menu_block" android:visible="false" android:title="@string/ndp_overflow_block" />
+            <item android:id="@id/menu_unblock" android:visible="false" android:title="@string/ndp_overflow_unblock" />
+            <item android:id="@id/menu_my_memo" android:title="@string/ndp_overflow_mymemo" />
+            <item android:id="@id/menu_tele_report" android:title="@string/ndp_action_reporttelcom" />
+            <item android:id="@id/menu_claim_owner" android:title="@string/ndp_claim_button_title" />
+            <item android:id="@id/menu_flag" android:title="@string/ndp_overflow_flag" />
+        </menu>
+    </item>
+</menu>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@drawable/asus_contacts2_ic_action_contact_link" android:id="@id/menu_add" android:title="@string/link_with_other_contacts" android:showAsAction="always" />
-    <item android:icon="@drawable/asus_contacts2_ic_add" android:id="@id/add_favorites_menu_item" android:title="@string/menu_add_to_favorites" android:showAsAction="always" />
-    <item android:icon="@drawable/asus_contacts2_ic_action_add_to_group_b" android:id="@id/menu_add_contact_to_group" android:title="@string/longpress_add_contact_to_group" android:alphabeticShortcut="q" android:showAsAction="always" />
-    <item android:icon="@drawable/asus_ic_cancel" android:id="@id/menu_cancel" android:title="@string/menu_doNotSave" android:showAsAction="always" />
-    <item android:icon="@drawable/asus_ic_done" android:id="@id/menu_done" android:title="@string/menu_done" android:showAsAction="always" />
-</menu>

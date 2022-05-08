@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="20.0sp" android:id="@id/editText" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:hint="@string/text" android:inputType="text" android:textDirection="locale" android:layout_marginStart="10.0dip">
+        <requestFocus />
+    </EditText>
+    <LinearLayout android:orientation="vertical" android:id="@id/cbLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <CheckBox android:id="@id/checkIgnoreCase" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ignore_case" />
+    </LinearLayout>
+    <TextView android:textColor="@color/secondary_text" android:id="@id/textFilterHint" android:paddingLeft="5.0dip" android:paddingTop="20.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/input_textfilter_hint" />
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:text="Device" style="@style/DebugMenuTitle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/deviceGroup" android:tag="group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/device" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DebugMenuInfo" />
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="App" style="@style/DebugMenuTitle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/appGroup" android:tag="group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/app" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DebugMenuInfo" />
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="User" style="@style/DebugMenuTitle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/userGroup" android:tag="group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/user" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DebugMenuInfo" />
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Firebase" style="@style/DebugMenuTitle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/firebaseGroup" android:tag="group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/firebase" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DebugMenuInfo" />
+                <Button android:id="@id/firebaseFetchRemoteConfig" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Fetch remote config" style="@style/DebugMenuButton" />
+                <androidx.core.widget.NestedScrollView android:background="#fff7f7f7" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginTop="10.0dip">
+                    <TextView android:textSize="12.0sp" android:id="@id/firebaseRemoteConfigValues" android:background="@color/transparent" android:padding="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DebugMenuInfo" />
+                </androidx.core.widget.NestedScrollView>
+                <EditText android:id="@id/firebaseRemoteConfigAddOverride" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="name=value" android:singleLine="true" android:inputType="text" android:imeOptions="actionDone" />
+                <TextView android:textSize="12.0sp" android:id="@id/firebaseRemoteConfigOverrides" android:background="@color/transparent" android:padding="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DebugMenuInfo" />
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Analytics" style="@style/DebugMenuTitle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/analyticsGroup" android:tag="group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/analytics" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DebugMenuInfo" />
+                <androidx.core.widget.NestedScrollView android:background="#fff7f7f7" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginTop="10.0dip">
+                    <TextView android:textSize="12.0sp" android:id="@id/analyticsEvents" android:background="@color/transparent" android:padding="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DebugMenuInfo" />
+                </androidx.core.widget.NestedScrollView>
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Premium" style="@style/DebugMenuTitle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/premiumGroup" android:tag="group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Switch android:id="@id/premiumDebugOverride" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Debug Override" style="@style/DebugMenuSwitch" />
+                <TextView android:id="@id/premium" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DebugMenuInfo" />
+                <Button android:id="@id/viewUpsell" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="view upsell" style="@style/DebugMenuButton" />
+                <Button android:id="@id/viewSoftPaywall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="view soft paywall" style="@style/DebugMenuButton" />
+                <Button android:id="@id/viewWinbackUpsell" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="view winback upsell" style="@style/DebugMenuButton" />
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Promo Premium" style="@style/DebugMenuTitle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/promoPremiumGroup" android:tag="group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Switch android:id="@id/promoPremiumDebugOverride" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Debug Override" style="@style/DebugMenuSwitch" />
+                <TextView android:id="@id/promoPremium" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DebugMenuInfo" />
+                <EditText android:id="@id/promoPremiumDuration" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Debug promo duration (default is 3 min)" android:inputType="numberDecimal" android:importantForAutofill="no" style="@style/DebugMenuEditText" />
+                <Button android:id="@id/promoPremiumSimulateNotification" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Simulate promo notification open" style="@style/DebugMenuButton" />
+                <Button android:id="@id/promoPremiumClear" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Clear promo state" style="@style/DebugMenuButton" />
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Select" style="@style/DebugMenuTitle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/selectGroup" android:tag="group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Switch android:id="@id/selectDebugOverride" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Debug Override" style="@style/DebugMenuSwitch" />
+                <TextView android:id="@id/select" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DebugMenuInfo" />
+                <Button android:id="@id/selectSimulateExpired" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Simulate expired event" style="@style/DebugMenuButton" />
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Experiments" style="@style/DebugMenuTitle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/experimentsGroup" android:tag="group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/experiment" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DebugMenuInfo" />
+                <LinearLayout android:orientation="vertical" android:id="@id/experiments" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Feedback" style="@style/DebugMenuTitle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/feedbackGroup" android:tag="group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/feedback" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DebugMenuInfo" />
+                <Button android:id="@id/viewFeedbackDialog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="View feedback dialog" style="@style/DebugMenuButton" />
+                <Button android:id="@id/viewSurveyDialog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="View survey dialog" style="@style/DebugMenuButton" />
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Deep Links" style="@style/DebugMenuTitle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/deepLinkGroup" android:tag="group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/deepLinkActionDial" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="tel://+12065550181" style="@style/DebugMenuButton" />
+                <Button android:id="@id/deepLinkPremiumInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="://main/premium_info" style="@style/DebugMenuButton" />
+                <Button android:id="@id/deepLinkUpsell" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="://main/upsell" style="@style/DebugMenuButton" />
+                <Button android:id="@id/deepLinkUpsellPromo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="://main/upsell_promo" style="@style/DebugMenuButton" />
+                <Button android:id="@id/deepLinkKeypad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="://main/keypad" style="@style/DebugMenuButton" />
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Phone Events" style="@style/DebugMenuTitle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/phoneEventsGroup" android:tag="group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/sendPhoneEvents" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Send Events" style="@style/DebugMenuButton" />
+                <TextView android:id="@id/phoneEvents" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DebugMenuInfo" />
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Call Log" style="@style/DebugMenuTitle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/callLogGroup" android:tag="group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/callLogMock" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Write Mock Call Logs" style="@style/DebugMenuButton" />
+                <Button android:id="@id/callLogDeleteTest" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Delete Call Logs with Test Numbers" style="@style/DebugMenuButton" />
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Newsletter" style="@style/DebugMenuTitle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/newsletterGroup" android:tag="group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/newsletterSend" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Send Notification" style="@style/DebugMenuButton" />
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Phone number infos" style="@style/DebugMenuTitle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/phoneNumberInfosGroup" android:tag="group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/phoneNumberInfos" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DebugMenuInfo" />
+                <Button android:id="@id/phoneNumberInfosDeleteAll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Delete All" style="@style/DebugMenuButton" />
+            </LinearLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Local Overrides" style="@style/DebugMenuTitle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/localOverridesGroup" android:tag="group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/allLocalOverrides" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DebugMenuInfo" />
+                <Button android:id="@id/localOverridesDeleteExpired" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Delete Expired" style="@style/DebugMenuButton" />
+                <Button android:id="@id/localOverridesDeleteAll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Delete All" style="@style/DebugMenuButton" />
+            </LinearLayout>
+            <Button android:textColor="@color/red" android:id="@id/crash" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="Crash" style="@style/DebugMenuButton" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

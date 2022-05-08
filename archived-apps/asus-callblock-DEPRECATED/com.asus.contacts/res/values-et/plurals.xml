@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d inimest</item>
+        <item quantity="one">%1$d isik</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%,d kontakti</item>
+        <item quantity="one">1 kontakt</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d kõnepostisõnumit</item>
+        <item quantity="one">Kõnepost</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d leitud</item>
+        <item quantity="one">1 leitud</item>
+    </plurals>
+    <plurals name="uf_sdk_number_of_subscribers_format">
+        <item quantity="other">%1$s meeldib see teema</item>
+        <item quantity="one">%1$s meeldib see teema</item>
+    </plurals>
+    <plurals name="uf_sdk_topics">
+        <item quantity="other">teemad</item>
+        <item quantity="one">teema</item>
+    </plurals>
+    <plurals name="uv_articles">
+        <item quantity="other">articles</item>
+        <item quantity="one">article</item>
+    </plurals>
+    <plurals name="uv_comments">
+        <item quantity="other">kommentaarid</item>
+        <item quantity="one">kommentaar</item>
+    </plurals>
+    <plurals name="uv_ideas">
+        <item quantity="other">ideas</item>
+        <item quantity="one">idea</item>
+    </plurals>
+    <plurals name="uv_number_of_subscribers_format">
+        <item quantity="other">%1$s tahavad seda ideed</item>
+        <item quantity="one">%1$s tahab seda ideed</item>
+    </plurals>
+    <plurals name="uv_people">
+        <item quantity="other">inimesed</item>
+        <item quantity="one">inimene</item>
+    </plurals>
+    <plurals name="uv_subscribers">
+        <item quantity="other">tellijad</item>
+        <item quantity="one">tellija</item>
+    </plurals>
+</resources>

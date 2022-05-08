@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/expanded_candidates" android:background="@color/amax_common_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="right" android:id="@id/hide_expanded_candidate_button" android:background="@color/asus_handwrite_candidate_button_color" android:layout_width="fill_parent" android:layout_height="41.0dip" android:src="@drawable/asus_contacts2_pf_kb_cwa1_icon" />
+    <ScrollView android:id="@id/extended_candidate_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <GridLayout android:layout_gravity="center|top" android:id="@id/expanded_candidate_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:columnCount="6" />
+    </ScrollView>
+</LinearLayout>

@@ -1,3 +1,0 @@
-# Findings
-
-- Paid subscription

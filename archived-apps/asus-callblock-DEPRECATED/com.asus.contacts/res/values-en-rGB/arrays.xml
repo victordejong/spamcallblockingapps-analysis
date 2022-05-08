@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blocklist_add_select_dialog_items">
+        <item>Choose from contacts</item>
+        <item>Choose from recent call logs</item>
+        <item>Enter a number</item>
+        <item>Enter a SIP number</item>
+    </string-array>
+    <string-array name="change_cover_options">
+        <item>Use Facebook cover</item>
+        <item>Use group cover</item>
+        <item>Use default cover</item>
+        <item>Customize cover</item>
+    </string-array>
+    <string-array name="change_group_cover_options">
+        <item>Use default group cover</item>
+        <item>Customize group cover</item>
+    </string-array>
+    <string-array name="news_message">
+        <item>A brand-new style for ZenUI Dialer and Contacts! Slim and easy to use!</item>
+        <item>"Make a call without call log! Don't bother to delete unwanted call log anymore!"</item>
+    </string-array>
+    <string-array name="picture_from_options">
+        <item>Camera</item>
+        <item>Gallery</item>
+    </string-array>
+    <string-array name="speed_entry_list">
+        <item>Fast</item>
+        <item>Moderate</item>
+        <item>Slow</item>
+    </string-array>
+    <string-array name="speed_level_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="toolpanel_news_message">
+        <item>New tab Others allows you to find features and settings easily!</item>
+    </string-array>
+    <string-array name="whitelist_add_select_dialog_items">
+        <item>Choose from contacts</item>
+        <item>Choose from recent call logs</item>
+        <item>Enter a number</item>
+        <item>Enter a SIP number</item>
+    </string-array>
+</resources>

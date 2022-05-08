@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <integer name="asus_uservoice_forumid_contacts">272098</integer>
-    <integer name="asus_uservoice_forumid_phone">272108</integer>
-    <integer name="asus_uservoice_topicid_contacts">63919</integer>
-    <integer name="asus_uservoice_topicid_phone">66732</integer>
-</resources>

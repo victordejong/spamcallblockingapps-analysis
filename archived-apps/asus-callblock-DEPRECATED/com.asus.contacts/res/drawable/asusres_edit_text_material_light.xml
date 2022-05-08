@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/asusres_widget_inset_left" android:insetRight="@dimen/asusres_widget_inset_right" android:insetTop="@dimen/asusres_widget_inset_top" android:insetBottom="@dimen/asusres_widget_inset_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <layer-list android:paddingMode="stack">
+        <item>
+            <nine-patch android:src="@drawable/asusres_textfield_bg_mtrl" android:tint="@color/asusres_textfield_bg_light" />
+        </item>
+        <item>
+            <selector>
+                <item android:state_focused="true">
+                    <nine-patch android:src="@drawable/asusres_textfield_storkes_mtrl" android:tint="?android:colorControlActivated" />
+                </item>
+                <item android:state_enabled="false">
+                    <nine-patch android:src="@drawable/asusres_textfield_storkes_mtrl" android:tint="@color/asusres_textfield_strokes_light_disabled" />
+                </item>
+                <item>
+                    <nine-patch android:src="@drawable/asusres_textfield_storkes_mtrl" android:tint="@color/asusres_textfield_strokes_light_default" />
+                </item>
+            </selector>
+        </item>
+    </layer-list>
+</inset>

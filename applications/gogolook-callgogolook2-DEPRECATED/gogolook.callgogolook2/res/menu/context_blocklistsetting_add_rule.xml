@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@drawable/add_block_01number" android:id="@id/menu_insert" android:title="@string/blocklist_menu_insert" />
-    <item android:icon="@drawable/add_block_02history" android:id="@id/menu_recentcall" android:title="@string/blocklist_menu_recentcall" />
-    <item android:icon="@drawable/add_block_03sms" android:id="@id/menu_recentsms" android:title="@string/blocklist_menu_recentsms" />
-    <item android:icon="@drawable/add_block_04contacts" android:id="@id/menu_user_contact" android:title="@string/blocklist_menu_contact" />
-    <item android:icon="@drawable/add_block_05initial" android:id="@id/menu_startswith" android:title="@string/blocklist_menu_startswith" />
-</menu>

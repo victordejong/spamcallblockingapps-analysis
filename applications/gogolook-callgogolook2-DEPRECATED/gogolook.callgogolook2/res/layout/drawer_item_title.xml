@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/list_selector" android:layout_width="fill_parent" android:layout_height="60.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <gogolook.callgogolook2.view.SizedTextView android:textSize="15.0sp" android:textColor="@color/text_black" android:ellipsize="end" android:id="@id/tv_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="265.0dip" android:singleLine="true" android:layout_marginStart="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/iv_red_dot" app:layout_constraintHorizontal_chainStyle="spread" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <ImageView android:id="@id/iv_red_dot" android:visibility="gone" android:layout_width="7.0dip" android:layout_height="7.0dip" android:src="@drawable/new_red_icon" android:layout_alignTop="@id/tv_text" android:layout_marginStart="5.0dip" app:layout_constraintBottom_toTopOf="@id/tv_text" app:layout_constraintStart_toEndOf="@id/tv_text" />
-</androidx.constraintlayout.widget.ConstraintLayout>

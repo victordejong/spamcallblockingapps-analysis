@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/contactView" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="70.0dip" android:layout_height="60.0dip" android:layout_marginLeft="14.0dip" android:layout_marginRight="5.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/contact_photo" android:layout_width="60.0dip" android:layout_height="60.0dip" />
+        <ImageView android:id="@id/action_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <TextView android:textSize="15.0sp" android:textColor="@android:color/black" android:layout_gravity="center_vertical" android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:singleLine="true" android:fontFamily="sans-serif" />
+</LinearLayout>

@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.recyclerview.widget.RecyclerView android:id="@id/promotion_list" android:tag="layout/fragment_vas_promotion_0" android:background="#ff263147" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

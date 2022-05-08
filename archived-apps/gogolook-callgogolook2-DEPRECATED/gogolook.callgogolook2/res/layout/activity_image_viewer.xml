@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@id/photoViewerToolbar" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height" android:elevation="4.0dip" app:layout_constraintTop_toTopOf="parent" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    <include android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/toolbar_height" app:layout_constraintBottom_toTopOf="@id/cl_gallery" app:layout_constraintTop_toTopOf="parent" layout="@layout/activity_view_pager_container" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/cl_gallery" android:layout_width="fill_parent" android:layout_height="96.0dip" app:layout_constraintBottom_toBottomOf="parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view_images" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginLeft="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

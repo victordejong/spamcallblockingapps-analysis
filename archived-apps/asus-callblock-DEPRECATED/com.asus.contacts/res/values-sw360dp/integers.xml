@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="asus_dialpad_digiteditor_fontSize_size0">44</integer>
+    <integer name="asus_dialpad_digiteditor_fontSize_size1">35</integer>
+    <integer name="asus_dialpad_digiteditor_fontSize_size2">29</integer>
+    <integer name="asus_filter_height">6</integer>
+    <integer name="ez_asus_dialpad_digiteditor_fontSize_size0">50</integer>
+    <integer name="ez_asus_dialpad_digiteditor_fontSize_size1">42</integer>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="?list_item_header_height" android:minHeight="?list_item_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center_vertical" android:id="@id/account_type" android:paddingLeft="@dimen/common_padding" android:textAllCaps="true" style="@style/AsusGroupHeaderTitleTextViewStyle" />
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="?list_item_header_height" android:minHeight="?list_item_header_height" android:layout_weight="1.0">
+        <TextView android:layout_gravity="center|right" android:id="@id/account_name" android:paddingRight="@dimen/asus_header_padding" android:paddingBottom="@dimen/asus_header_count_padding_bottom" android:layout_marginLeft="@dimen/asus_header_divider_margin_left" style="@style/AsusGroupHeaderAccountNameTextViewStyle" />
+        <View android:layout_gravity="bottom" android:id="@id/group_header_divider" android:background="@color/amax_header_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/asus_header_divider_height" android:layout_marginLeft="@dimen/asus_header_divider_margin_left" android:layout_marginBottom="@dimen/asus_header_divider_margin_bottom" />
+    </FrameLayout>
+</LinearLayout>

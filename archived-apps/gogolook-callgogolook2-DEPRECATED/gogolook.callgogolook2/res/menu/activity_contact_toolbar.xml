@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/icon_search" android:id="@id/menu_contact_toolbar_search" android:title="@string/textsearch_title" android:actionLayout="@id/toolbar" app:showAsAction="always" />
+    <item android:icon="@drawable/icon_favorite" android:id="@id/menu_contact_toolbar_favorite" android:title="@string/favorite_actionbar" android:actionLayout="@id/toolbar" app:showAsAction="always" />
+</menu>

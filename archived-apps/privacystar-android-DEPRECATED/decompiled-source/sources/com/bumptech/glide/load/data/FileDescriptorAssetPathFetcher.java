@@ -1,0 +1,30 @@
+package com.bumptech.glide.load.data;
+
+import android.content.res.AssetManager;
+import android.os.ParcelFileDescriptor;
+import android.support.annotation.NonNull;
+import java.io.IOException;
+/* loaded from: classes-dex2jar.jar:com/bumptech/glide/load/data/FileDescriptorAssetPathFetcher.class */
+public class FileDescriptorAssetPathFetcher extends AssetPathFetcher<ParcelFileDescriptor> {
+    public FileDescriptorAssetPathFetcher(AssetManager assetManager, String str) {
+        super(assetManager, str);
+    }
+
+    /* JADX INFO: Access modifiers changed from: protected */
+    public void close(ParcelFileDescriptor parcelFileDescriptor) throws IOException {
+        parcelFileDescriptor.close();
+    }
+
+    @Override // com.bumptech.glide.load.data.DataFetcher
+    @NonNull
+    public Class<ParcelFileDescriptor> getDataClass() {
+        return ParcelFileDescriptor.class;
+    }
+
+    /* JADX INFO: Access modifiers changed from: protected */
+    /* JADX WARN: Can't rename method to resolve collision */
+    @Override // com.bumptech.glide.load.data.AssetPathFetcher
+    public ParcelFileDescriptor loadResource(AssetManager assetManager, String str) throws IOException {
+        return assetManager.openFd(str).getParcelFileDescriptor();
+    }
+}

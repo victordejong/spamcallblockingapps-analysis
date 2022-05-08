@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RadioGroup android:orientation="vertical" android:id="@id/edit_boolean_group" android:padding="@dimen/realm_browser_edit_dialog_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RadioButton android:id="@id/edit_boolean_true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/realm_browser_true_string" />
-    <RadioButton android:id="@id/edit_boolean_false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/realm_browser_false_string" />
-</RadioGroup>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/searchBarWrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/search_bar" />
-    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <View android:id="@id/shadow" android:background="@drawable/bottom_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/shadow_size" />
-        <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    </FrameLayout>
-</LinearLayout>

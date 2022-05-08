@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/custom_marker_view_root" android:background="@drawable/ic_marker_bg" android:layout_width="47.0dip" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:elevation="3.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="12.0sp" android:textColor="@color/ps3_grey_675" android:ellipsize="end" android:id="@id/custom_marker_view_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="16" android:singleLine="true" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
-</RelativeLayout>

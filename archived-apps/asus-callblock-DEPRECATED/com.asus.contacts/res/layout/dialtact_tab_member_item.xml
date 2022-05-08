@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/itemContainer" android:layout_width="fill_parent" android:layout_height="@dimen/contact_browser_list_item_nophoto_size">
+        <ImageView android:id="@id/icon" android:paddingRight="@dimen/common_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/asus_contacts2_rearrange" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+        <CheckedTextView android:id="@id/itemCheckTextView" android:paddingLeft="2.0dip" android:focusable="true" android:visibility="visible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkMark="?android:listChoiceIndicatorMultiple" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/tab_image" android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/itemCheckTextView" android:layout_centerInParent="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/asus_list_item_main_text_size" android:textColor="@color/dialtact_tab_name_color" android:ellipsize="marquee" android:id="@id/dialtact_tab_name" android:paddingLeft="15.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true" android:fontFamily="sans-serif-medium" android:layout_toStartOf="@id/icon" android:layout_toEndOf="@id/tab_image" />
+    </RelativeLayout>
+    <View android:id="@id/name_divider" android:background="@color/amax_filter_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

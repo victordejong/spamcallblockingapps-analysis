@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/material_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/lnyt_ear_piece" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_ear_piece" android:src="@drawable/ic_bottom_sheet_phone" style="@style/AudioChooser.Icon" />
+        <TextView android:id="@id/tv_ear_piece" android:text="@string/incall_function_button_speaker_text_ear_piece" style="@style/AudioChooser.Text" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/lnyt_wired_headset" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_wired_headset" android:src="@drawable/ic_bottom_sheet_headset" style="@style/AudioChooser.Icon" />
+        <TextView android:id="@id/tv_wired_headset" android:text="@string/incall_function_button_speaker_text_wired_headset" style="@style/AudioChooser.Text" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/lnyt_bluetooth_headset" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_bluetooth_headset" android:src="@drawable/ic_bottom_sheet_bluetooth" style="@style/AudioChooser.Icon" />
+        <TextView android:id="@id/tv_bluetooth_headset" android:text="@string/incall_function_button_speaker_text_bluetooth_headset" style="@style/AudioChooser.Text" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/lnyt_speaker" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_speaker" android:src="@drawable/ic_bottom_sheet_speaker" style="@style/AudioChooser.Icon" />
+        <TextView android:id="@id/tv_speaker" android:text="@string/incall_function_button_speaker_text_speaker" style="@style/AudioChooser.Text" />
+    </LinearLayout>
+</LinearLayout>

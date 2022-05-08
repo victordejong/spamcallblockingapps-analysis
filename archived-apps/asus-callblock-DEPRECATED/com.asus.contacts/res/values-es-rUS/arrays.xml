@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blocklist_add_select_dialog_items">
+        <item>Seleccionar desde contactos</item>
+        <item>Seleccionar desde registros de llamadas recientes</item>
+        <item>Introducir un número</item>
+        <item>Introducir un número SIP</item>
+    </string-array>
+    <string-array name="change_cover_options">
+        <item>Usar portada Facebook</item>
+        <item>Usar portada grupo</item>
+        <item>Usar portada predet.</item>
+        <item>Personalizar portada</item>
+    </string-array>
+    <string-array name="change_group_cover_options">
+        <item>Utilizar portada de grupo predeterminada</item>
+        <item>Personalizar portada de grupo</item>
+    </string-array>
+    <string-array name="news_message">
+        <item>¡Un estilo totalmente nuevo para Marcador y Contactos de ZenUI! ¡Estilizado y sencillo de usar!</item>
+        <item>Llame sin registro de llamadas. Ya no tendrá que molestarse en borrar el registro de llamadas si no lo desea.</item>
+    </string-array>
+    <string-array name="picture_from_options">
+        <item>Cámara</item>
+        <item>Galería</item>
+    </string-array>
+    <string-array name="speed_entry_list">
+        <item>Rápido</item>
+        <item>Moderado</item>
+        <item>Lento</item>
+    </string-array>
+    <string-array name="speed_level_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="toolpanel_news_message">
+        <item>¡La nueva ficha Otros le permite buscar características y ajustes fácilmente!</item>
+    </string-array>
+    <string-array name="whitelist_add_select_dialog_items">
+        <item>Seleccionar desde contactos</item>
+        <item>Seleccionar desde registros de llamadas recientes</item>
+        <item>Introducir un número</item>
+        <item>Introducir un número SIP</item>
+    </string-array>
+</resources>

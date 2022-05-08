@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:id="@id/dashboard_item_ll" android:background="@drawable/background_underline" android:paddingTop="@dimen/dashboard_content_padding" android:paddingBottom="@dimen/dashboard_content_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center_vertical" android:id="@id/dashboard_item_icon" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_weight="0.0" android:layout_marginStart="18.0dip" android:layout_marginEnd="8.0dip" />
-    <TextView android:layout_gravity="center_vertical" android:id="@id/dashboard_item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="4.0dip" style="@style/About.Item" />
-    <TextView android:layout_gravity="center_vertical" android:id="@id/dashboard_item_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" android:paddingStart="8.0dip" android:paddingEnd="24.0dip" style="@style/Dashboard.ItemValue" />
-</LinearLayout>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@id/menu_speed_dial" android:orderInCategory="1" android:title="@string/menu_Speed_dial" android:showAsAction="withText" />
-    <item android:id="@id/menu_hide_number_this_time" android:orderInCategory="1" android:title="@string/hide_number_this_time" android:showAsAction="withText" />
-    <item android:id="@id/menu_blocked_callers" android:orderInCategory="1" android:title="@string/launch_blocklist" android:showAsAction="withText" />
-    <item android:id="@id/menu_call_soundrecorder" android:orderInCategory="1" android:title="@string/menu_Call_recordings" android:showAsAction="withText" />
-</menu>

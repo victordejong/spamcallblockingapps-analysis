@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<set android:interpolator="@anim/dialpad_decelerate"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <translate android:duration="@integer/default_dialpad_anim_speed" android:fromXDelta="0.0%" android:toXDelta="0.0%" android:fromYDelta="0.0%" android:toYDelta="100.0%" />
-</set>

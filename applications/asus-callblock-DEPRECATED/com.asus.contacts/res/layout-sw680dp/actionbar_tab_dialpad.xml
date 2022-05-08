@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/actionbar_tab_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    <TextView android:textSize="@dimen/actionbar_tab_dialpad_title_textsize" android:textColor="@color/dialtact_actionbar_text_color" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/actionbar_tab_title" android:paddingTop="-2.0dip" android:layout_width="120.0dip" android:layout_height="wrap_content" android:fontFamily="@string/roboto_regular" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
-</LinearLayout>

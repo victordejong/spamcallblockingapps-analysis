@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/uf_sdk_search_view" android:background="@android:color/background_light" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/uf_sdk_search_result" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="20.0sp" android:textColor="#ff666666" android:gravity="center" android:id="@id/no_result_text" android:paddingBottom="50.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/uf_sdk_nothing_found" />
+</LinearLayout>

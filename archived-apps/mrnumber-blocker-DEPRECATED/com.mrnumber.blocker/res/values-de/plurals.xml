@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blocked_calls">
+        <item quantity="other">%d Geblockte Anrufe</item>
+        <item quantity="one">Geblockter Anruf</item>
+    </plurals>
+    <plurals name="flagged_calls">
+        <item quantity="other">%d Markierte Anrufe</item>
+        <item quantity="one">Markierter Anruf</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d stunden</item>
+        <item quantity="one">%d stunde</item>
+    </plurals>
+    <plurals name="identified_calls">
+        <item quantity="other">%d Identifizierte Anrufe</item>
+        <item quantity="one">Identifizierter Anruf</item>
+    </plurals>
+    <plurals name="lc_directory_item_star_rating_cd">
+        <item quantity="other">%d Bewertungssterne</item>
+        <item quantity="one">%d Bewertungsstern</item>
+    </plurals>
+    <plurals name="lc_directory_item_text_rating_cd">
+        <item quantity="other">%1$d Bewertungen auf %2$s</item>
+        <item quantity="one">%1$d Bewertung auf %2$s</item>
+    </plurals>
+    <plurals name="lc_review">
+        <item quantity="other">%d Bewertungen</item>
+        <item quantity="one">%d Bewertung</item>
+    </plurals>
+    <plurals name="mins">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">%d min.</item>
+    </plurals>
+    <plurals name="missed_calls">
+        <item quantity="other">%d Verpasste Anrufe</item>
+        <item quantity="one">Verpasster Anruf</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d neue Benachrichtigungen</item>
+        <item quantity="one">%d neue Benachrichtigung</item>
+    </plurals>
+    <plurals name="overlay_hours">
+        <item quantity="other">%d stunden</item>
+        <item quantity="one">%d stunde</item>
+    </plurals>
+    <plurals name="overlay_minutes">
+        <item quantity="other">%d minuten</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="overlay_seconds">
+        <item quantity="other">%d sekunden</item>
+        <item quantity="one">%d sekunde</item>
+    </plurals>
+    <plurals name="secs">
+        <item quantity="other">%d sek.</item>
+        <item quantity="one">%d sek.</item>
+    </plurals>
+    <plurals name="user_reports_title">
+        <item quantity="other">%d BENUTZERBERICHTE</item>
+        <item quantity="one">%d BENUTZERBERICHT</item>
+    </plurals>
+</resources>

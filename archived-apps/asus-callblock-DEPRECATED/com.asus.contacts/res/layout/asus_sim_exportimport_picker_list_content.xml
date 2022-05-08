@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckedTextView android:textSize="@dimen/asus_list_item_main_text_size" android:textColor="@color/group_list_item_title" android:gravity="center_vertical" android:id="@id/select_all_checkbox" android:background="@color/amax_common_bg_color" android:paddingLeft="@dimen/asus_header_padding" android:paddingRight="@dimen/asus_list_item_checkbox_padding_right" android:layout_width="fill_parent" android:layout_height="@dimen/asus_checkbox_textview_height" android:layout_marginRight="@dimen/common_padding" android:checkMark="?android:listChoiceIndicatorMultiple" />
+    <View android:background="@color/amax_filter_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/common_padding" android:layout_marginRight="@dimen/common_padding" />
+    <TextView android:id="@id/join_contact_blurb" android:paddingLeft="?list_item_header_text_indent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/join_header_left_margin" android:layout_marginTop="@dimen/join_header_top_margin" android:layout_marginRight="@dimen/join_header_right_margin" android:layout_marginBottom="@dimen/join_header_bottom_margin" android:maxLines="2" />
+    <FrameLayout android:id="@id/pinned_header_list_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <view android:scrollbarStyle="outsideOverlay" android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="?contact_browser_list_padding_left" android:layout_marginRight="0.0dip" android:fastScrollEnabled="true" class="com.android.contacts.widget.PinnedHeaderListView" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/manage_button_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/manage_button_icon" android:layout_width="30.0dip" android:layout_height="30.0dip" app:srcCompat="@drawable/ic_detail_icon_allow" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/black_2" android:layout_gravity="center_horizontal" android:id="@id/manage_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:textAlignment="center" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" />
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</merge>

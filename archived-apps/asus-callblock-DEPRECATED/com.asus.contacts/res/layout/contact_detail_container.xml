@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.dialpad.ColorfulLinearLayout android:orientation="vertical" android:background="@color/amax_detail_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/statusContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/about_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" layout="@layout/asus_contact_detail_cover" />
+        <TextView android:id="@id/actionbarContainer" android:background="@drawable/asus_contacts2_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </RelativeLayout>
+</com.android.contacts.dialpad.ColorfulLinearLayout>

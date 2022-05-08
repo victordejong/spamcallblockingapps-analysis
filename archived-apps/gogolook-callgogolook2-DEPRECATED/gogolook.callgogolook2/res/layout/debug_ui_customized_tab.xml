@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="18.0sp" android:background="@color/list_divider_color" android:padding="@dimen/gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Server info" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/cb_server_delay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Delay" />
+        <EditText android:id="@id/et_server_delay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1000" android:inputType="numberDecimal" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ms" />
+    </LinearLayout>
+    <CheckBox android:id="@id/cb_server_cache" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Cache" />
+    <RadioGroup android:id="@id/rg_server_cache" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:paddingBottom="@dimen/gap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <CheckBox android:id="@id/cb_server_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Name" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_server_name" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:paddingBottom="@dimen/gap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/et_server_name" android:background="@drawable/bg_labeled_edit_text" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Name" />
+        <RadioGroup android:id="@id/rg_server_name_type" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@id/rb_server_name_type_cs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="CS" />
+            <RadioButton android:id="@id/rb_server_name_type_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Whoscall card" />
+            <RadioButton android:id="@id/rb_server_name_type_masses" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Masses" />
+            <RadioButton android:id="@id/rb_server_name_type_masses_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Masses + image" />
+        </RadioGroup>
+    </LinearLayout>
+    <CheckBox android:id="@id/cb_server_spam_badge" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Spam badge" />
+    <CheckBox android:id="@id/cb_server_spam" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Spam" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_server_spam" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:paddingBottom="@dimen/gap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioGroup android:id="@id/rg_server_spam" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Spam level" />
+        <EditText android:id="@id/et_server_spam_level" android:background="@drawable/bg_labeled_edit_text" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="1" android:hint="Spam level" android:inputType="numberDecimal" />
+    </LinearLayout>
+    <CheckBox android:id="@id/cb_server_red" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Red" />
+    <CheckBox android:id="@id/cb_server_categories" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Categories" />
+    <RadioGroup android:id="@id/rg_server_categories" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:paddingBottom="@dimen/gap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <CheckBox android:id="@id/cb_server_stats" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Stats" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_server_stats" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:paddingBottom="@dimen/gap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Call-in count" />
+        <EditText android:id="@id/et_server_callin_count" android:background="@drawable/bg_labeled_edit_text" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="50" android:inputType="numberDecimal" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Offhook count" />
+        <EditText android:id="@id/et_server_offhook_count" android:background="@drawable/bg_labeled_edit_text" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="40" android:inputType="numberDecimal" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Contact count" />
+        <EditText android:id="@id/et_server_contact_count" android:background="@drawable/bg_labeled_edit_text" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="10" android:inputType="numberDecimal" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Favor count" />
+        <EditText android:id="@id/et_server_favor_count" android:background="@drawable/bg_labeled_edit_text" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="10" android:inputType="numberDecimal" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Spam count" />
+        <EditText android:id="@id/et_server_spam_count" android:background="@drawable/bg_labeled_edit_text" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="30" android:inputType="numberDecimal" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tag count" />
+        <EditText android:id="@id/et_server_tag_count" android:background="@drawable/bg_labeled_edit_text" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="20" android:inputType="numberDecimal" />
+    </LinearLayout>
+    <CheckBox android:id="@id/cb_server_spam_candidates" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Spam candidates" />
+    <CheckBox android:id="@id/cb_server_name_candidates" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Name candidates" />
+    <CheckBox android:id="@id/cb_server_question" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Question" />
+    <CheckBox android:id="@id/cb_server_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Address" />
+    <CheckBox android:id="@id/cb_server_spoof" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Spoof data" />
+    <CheckBox android:id="@id/cb_call_out_only" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Call out only" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_server_spoof" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:paddingBottom="@dimen/gap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/et_server_sp_name" android:background="@drawable/bg_labeled_edit_text" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="偽冒號碼" android:hint="Spoof name" />
+        <EditText android:id="@id/et_server_sp_num" android:background="@drawable/bg_labeled_edit_text" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="+886988777666" android:hint="Spoof numbers (separate by comma)" />
+    </LinearLayout>
+    <TextView android:textSize="18.0sp" android:background="@color/list_divider_color" android:padding="@dimen/gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="User defined info" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/cb_user_delay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Delay" />
+        <EditText android:id="@id/et_user_delay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1000" android:inputType="numberDecimal" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ms" />
+    </LinearLayout>
+    <CheckBox android:id="@id/cb_user_my_tag" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="My tag" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_user_my_tag" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:paddingBottom="@dimen/gap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/et_user_my_tag" android:background="@drawable/bg_labeled_edit_text" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="My tag" />
+        <CheckBox android:id="@id/cb_user_my_tag_expired" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Expired" />
+    </LinearLayout>
+    <CheckBox android:id="@id/cb_user_my_spam" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="My spam" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_user_my_spam" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:paddingBottom="@dimen/gap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioGroup android:id="@id/rg_user_my_spam" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <CheckBox android:id="@id/cb_user_my_spam_expired" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Expired" />
+    </LinearLayout>
+    <CheckBox android:id="@id/cb_user_notes" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Notes" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_user_notes" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:paddingBottom="@dimen/gap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/et_user_note" android:background="@drawable/bg_labeled_edit_text" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="My note" />
+    </LinearLayout>
+    <TextView android:textSize="18.0sp" android:background="@color/list_divider_color" android:padding="@dimen/gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Minor info" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/cb_minor_delay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Delay" />
+        <EditText android:id="@id/et_minor_delay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1000" android:inputType="numberDecimal" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ms" />
+    </LinearLayout>
+    <CheckBox android:id="@id/cb_minor_favored" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Favored" />
+    <CheckBox android:id="@id/cb_minor_telecom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Telecom" />
+    <TextView android:textSize="18.0sp" android:background="@color/list_divider_color" android:padding="@dimen/gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Offline info" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/cb_offline_delay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Delay" />
+        <EditText android:id="@id/et_offline_delay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1000" android:inputType="numberDecimal" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ms" />
+    </LinearLayout>
+    <CheckBox android:id="@id/cb_offline_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Name" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_offline_name" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:paddingBottom="@dimen/gap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/et_offline_name" android:background="@drawable/bg_labeled_edit_text" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Name" />
+        <RadioGroup android:id="@id/rg_offline_name_type" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@id/rb_offline_name_type_messes" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Masses" />
+            <RadioButton android:id="@id/rb_offline_name_type_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Whoscall card" />
+        </RadioGroup>
+    </LinearLayout>
+    <CheckBox android:id="@id/cb_offline_spam" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Spam" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_offline_spam" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:paddingBottom="@dimen/gap" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioGroup android:id="@id/rg_offline_spam" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Spam level" />
+        <EditText android:id="@id/et_offline_spam_level" android:background="@drawable/bg_labeled_edit_text" android:paddingLeft="@dimen/gap" android:paddingRight="@dimen/gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="1" android:hint="Spam level" android:inputType="numberDecimal" />
+    </LinearLayout>
+</LinearLayout>

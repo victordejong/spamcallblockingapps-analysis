@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<gogolook.callgogolook2.messaging.ui.MaskAsyncImageView android:id="@id/attachment_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/ip_img_bg" android:adjustViewBounds="true" app:fadeIn="false" app:maxHeight="@dimen/app_multiple_attachment_preview_max_size" app:maxWidth="@dimen/app_multiple_attachment_preview_max_size" app:placeholderDrawable="@drawable/attachment_image_placeholder_background" app:scaleType="centerCrop"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

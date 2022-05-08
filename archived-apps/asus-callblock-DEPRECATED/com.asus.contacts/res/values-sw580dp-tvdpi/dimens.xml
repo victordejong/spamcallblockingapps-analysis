@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="additional_button_dail_button_textSize1">18.0dip</dimen>
+    <dimen name="additional_button_dail_button_textSize2">25.0dip</dimen>
+    <dimen name="additional_button_dail_button_textSize3">21.0dip</dimen>
+    <dimen name="asus_dialtact_action_bar_height">72.0dip</dimen>
+    <dimen name="cling_button_text_size">24.0dip</dimen>
+    <dimen name="cling_text_size">24.0dip</dimen>
+    <dimen name="cling_title_text_size">40.0dip</dimen>
+</resources>

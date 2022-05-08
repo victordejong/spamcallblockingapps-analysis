@@ -1,0 +1,197 @@
+05-08 16:18:13.609  1919  2273 I Telecom : : Adding new incoming call with phoneAccountHandle ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}: TSI.aNIC@AYo
+05-08 16:18:13.610  1919  2273 I Telecom : PhoneAccountRegistrar: SimCallManager queried, returning: null: TSI.aNIC@AYo
+05-08 16:18:13.614  1919  2273 I Telecom : LogUtils: EventRecord added as Call: [TC@7, NEW, null, tel:**************, A, childs(0), has_parent(false), [Capabilities:], [Properties:]]: TSI.aNIC@AYo
+05-08 16:18:13.614  1919  2273 I Telecom : Event: RecordEntry TC@7: CREATED, null: TSI.aNIC@AYo
+05-08 16:18:13.615  1919  2273 I Telecom : PhoneAccountRegistrar: SimCallManager queried, returning: null: TSI.aNIC@AYo
+05-08 16:18:13.616  1919  2273 I Telecom : CreateConnectionProcessor: Trying attempt CallAttemptRecord(ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0},ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0}): TSI.aNIC@AYo
+05-08 16:18:13.616  1919  2273 I Telecom : Event: RecordEntry TC@7: BIND_CS, ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}: TSI.aNIC@AYo
+05-08 16:18:13.616  1919  1919 I Telecom : TelecomSystem: CallerInfoAsyncQuery.startQuery number=*** cookie=TSI.aNIC->CILH.sL->CILH.sL@AYo: TSI.aNIC->CILH.sL@AYo
+05-08 16:18:13.622  1919  1919 I Telecom : ServiceBinderConnection: Service bound ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}: SBC.oSC@AYs
+05-08 16:18:13.623  1919  1919 I Telecom : Event: RecordEntry TC@7: CS_BOUND, ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}: SBC.oSC@AYs
+05-08 16:18:13.623  1919  1919 I Telecom : Event: RecordEntry TC@7: START_CONNECTION, tel:**************: SBC.oSC@AYs
+05-08 16:18:13.624  1919  4041 I Telecom : PhoneAccountRegistrar: SimCallManager queried, returning: null: (...->CS.aCSA->H.CS.aCSA)->CSW.qRCS@E-E-AYs
+05-08 16:18:13.628  1919  4041 I Telecom : Event: RecordEntry TC@7: CAPABILITY_CHANGE, Current: [[ sup_hld mut !v2a spd_aud]], Removed [[]], Added [[ sup_hld mut !v2a spd_aud]]: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC@E-E-AYs
+05-08 16:18:13.629  1919  4041 I Telecom : Event: RecordEntry TC@7: FILTERING_INITIATED, null: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC@E-E-AYs
+05-08 16:18:13.629  1919  4041 I Telecom : Event: RecordEntry TC@7: DIRECT_TO_VM_INITIATED, null: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC@E-E-AYs
+05-08 16:18:13.629  1919  4041 I Telecom : CallerInfoLookupHelper: There is a previously incomplete query for handle tel:**************. Adding to listeners for this query.: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC@E-E-AYs
+05-08 16:18:13.630  1919  4041 I Telecom : Event: RecordEntry TC@7: SCREENING_SENT, null: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC@E-E-AYs
+05-08 16:18:13.630  1919 12785 I Telecom : Event: RecordEntry TC@7: BLOCK_CHECK_INITIATED, null: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.dIB@E-E-AYs
+05-08 16:18:13.630  1919  4041 I Telecom : Event: RecordEntry TC@7: BIND_SCREENING, ComponentInfo{com.google.android.dialer/com.google.android.apps.dialer.spam.inapp.CallScreeningServiceImpl}: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC@E-E-AYs
+05-08 16:18:13.632  1919  1919 I Telecom : CallerInfoLookupHelper: CI query for handle tel:************** has completed; notifying all listeners.: TSI.aNIC->CILH.sL->CILH.oQC@AYo
+05-08 16:18:13.632  1919  1919 I Telecom : Call: CallerInfo received for tel:**************: com.android.internal.telephony.CallerInfo@630eb8a { name null, phoneNumber non-null }: TSI.aNIC->CILH.sL->CILH.oQC@AYo
+05-08 16:18:13.632  1919  1919 I Telecom : Event: RecordEntry TC@7: DIRECT_TO_VM_FINISHED, [Allow, logged, notified]: TSI.aNIC->CILH.sL->CILH.oQC@AYo
+05-08 16:18:13.632  1919  1919 I Telecom : CallerInfoLookupHelper: There is no photo for this contact, skipping photo query: TSI.aNIC->CILH.sL->CILH.oQC@AYo
+05-08 16:18:13.632  1919  1919 I Telecom : Event: RecordEntry TC@7: SCREENING_BOUND, ComponentInfo{com.google.android.dialer/com.google.android.apps.dialer.spam.inapp.CallScreeningServiceImpl}: CSCR.oSC@AYw
+05-08 16:18:13.636 11691 11691 I Dialer  : CallScreeningServiceImpl.onScreenCall - auto-reject disabled, accepting call
+05-08 16:18:13.636  1919  2273 I Telecom : Event: RecordEntry TC@7: SCREENING_COMPLETED, [Allow, logged, notified]: CSCR.aC@AY0
+05-08 16:18:13.638  1919  1919 I Telecom : Event: RecordEntry TC@7: BLOCK_CHECK_FINISHED, [Allow, logged, notified]: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE@E-E-AYs
+05-08 16:18:13.638  1919  1919 I Telecom : Event: RecordEntry TC@7: FILTERING_COMPLETED, [Allow, logged, notified]: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-AYs
+05-08 16:18:13.638  1919  1919 I Telecom : CallsManager: setCallState NEW -> RINGING, call: [TC@7, NEW, com.android.phone/com.android.services.telephony.TelephonyConnectionService, tel:**************, A, childs(0), has_parent(false), [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO CAPABILITY_SPEED_UP_MT_AUDIO], [Properties:]]: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-AYs
+05-08 16:18:13.639  1919  1919 I Telecom : Event: RecordEntry TC@7: SET_RINGING, successful incoming call: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-AYs
+05-08 16:18:13.639  1919  1919 I Telecom : InCallController: onCallAdded: [TC@7, RINGING, com.android.phone/com.android.services.telephony.TelephonyConnectionService, tel:**************, A, childs(0), has_parent(false), [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO CAPABILITY_SPEED_UP_MT_AUDIO], [Properties:]]; not bound or connected.: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-AYs
+05-08 16:18:13.639  1919  1919 I Telecom : InCallController: defaultDialer: null: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-AYs
+05-08 16:18:13.639  1919  1919 I Telecom : InCallController: defaultDialer: null: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-AYs
+05-08 16:18:13.639  1919  1919 I Telecom : CarSwappingInCallServiceConnection: carmodechange: false => false: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-AYs
+05-08 16:18:13.639  1919  1919 I Telecom : EmergencyCallHelper: ShouldGrantTemporaryLocationPermission, not emergency: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-AYs
+05-08 16:18:13.639  1919  1919 I Telecom : EmergencyInCallServiceConnection: Attempting to bind to InCall [ComponentInfo{com.google.android.dialer/com.android.incallui.InCallServiceImpl} supportsExternal? true supportsSelfMg?false], with Intent { act=android.telecom.InCallService cmp=com.google.android.dialer/com.android.incallui.InCallServiceImpl }: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-AYs
+05-08 16:18:13.640  1919  1919 I Telecom : IncomingCallNotifier: updateIncomingCall: foundIncomingcall = null: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-AYs
+05-08 16:18:13.640  1919  1919 I Telecom : TelecomWakeLock: Acquiring WakeLock with id: 26: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-AYs
+05-08 16:18:13.640  1919  1919 I Telecom : InCallWakeLockController: Acquiring full wake lock: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-AYs
+05-08 16:18:13.640 11691 11691 I Dialer  : AudioModeProvider.getApproximatedAudioRoute - Routing to earpiece
+05-08 16:18:13.640  1919  2227 I Telecom : CallAudioModeStateMachine: Message received: NEW_RINGING_CALL.: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002@E-E-AYs
+05-08 16:18:13.640  1919  2227 I Telecom : CallAudioModeStateMachine: Audio focus entering RINGING state: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002@E-E-AYs
+05-08 16:18:13.640  1919  2223 I Telecom : CallAudioRouteStateMachine: Message received: UPDATE_SYSTEM_AUDIO_ROUTE=1201, arg1=0: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CARSM.pM_UPDATE_SYSTEM_AUDIO_ROUTE@E-E-AYs
+05-08 16:18:13.640  1919  2223 I Telecom : QuiescentSpeakerRoute: Processing message UPDATE_SYSTEM_AUDIO_ROUTE: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CARSM.pM_UPDATE_SYSTEM_AUDIO_ROUTE@E-E-AYs
+05-08 16:18:13.643  1919  1919 I Telecom : PhoneStateBroadcaster: Broadcasted state change: 1: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC@E-E-AYs
+05-08 16:18:13.643 11691 11691 I Dialer  : ProximitySensor.updateProximitySensorMode - screenOnImmediately: false, dialPadVisible: false, offHook: false, horizontal: false, uiShowing: false, audioRoute: EARPIECE
+05-08 16:18:13.643 11691 11691 I Dialer  : ProximitySensor.turnOffProximitySensor - wake lock already released
+05-08 16:18:13.643 11691 11691 I Dialer  : EnrichedCallManagerImpl.registerStateChangedListener - listener: cjb@7dd0188
+05-08 16:18:13.643 11691 11691 I Dialer  : InCallPresenter.onCallListChange - Phone switching state: NO_CALLS -> NO_CALLS
+05-08 16:18:13.643 11691 11691 I Dialer  : VideoPauseController.setUp - enter
+05-08 16:18:13.643  1919  2223 I Telecom : CallAudioRouteStateMachine: setSystemAudioState: changing from [AudioState isMuted: false, route: SPEAKER, supportedRouteMask: SPEAKER, activeBluetoothDevice: [null], supportedBluetoothDevices: []] to [AudioState isMuted: false, route: SPEAKER, supportedRouteMask: SPEAKER, activeBluetoothDevice: [null], supportedBluetoothDevices: []]: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CARSM.pM_UPDATE_SYSTEM_AUDIO_ROUTE@E-E-AYs
+05-08 16:18:13.648 11691 11691 I Dialer  : FeedbackModule.shouldReturnStub - Feedback module disabled in config, returning stub
+05-08 16:18:13.649  1919  1919 I Telecom : InCallController: onConnected to ComponentInfo{com.google.android.dialer/com.android.incallui.InCallServiceImpl}: ICSBC.oSC@AY8
+05-08 16:18:13.649  1919  1919 I Telecom : InCallController: Adding 1 calls to InCallService after onConnected: ComponentInfo{com.google.android.dialer/com.android.incallui.InCallServiceImpl}, including external calls: ICSBC.oSC@AY8
+05-08 16:18:13.651  1919  1919 I Telecom : InCallController: 1 calls sent to InCallService.: ICSBC.oSC@AY8
+05-08 16:18:13.654 11691 11691 I Dialer  : InCallPresenter.shouldAttemptBlocking - not attempting to block incoming call because framework blocking is in use
+05-08 16:18:13.655 11691 11691 I Dialer  : EnrichedCallManagerImpl.registerCapabilitiesListener - listener: bis@f7ab959
+05-08 16:18:13.655 11691 11691 I Dialer  : VideoShareManager.registerListener - enter
+05-08 16:18:13.660 11691 11691 I Dialer  : EnrichedCallManagerImpl.registerCapabilitiesListener - listener: [DialerCall_3, INCOMING, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_RESPOND_VIA_TEXT CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1]
+05-08 16:18:13.660 11691 11691 I Dialer  : EnrichedCallManagerImpl.registerStateChangedListener - listener: [DialerCall_3, INCOMING, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_RESPOND_VIA_TEXT CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1]
+05-08 16:18:13.661 11691 11691 I Dialer  : SpamModule.provideSpam - using in-app spam
+05-08 16:18:13.663 11691 11691 I Dialer  : CallList.onUpdateCall - [DialerCall_3, INCOMING, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_RESPOND_VIA_TEXT CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1]
+05-08 16:18:13.663 11691 11691 I Dialer  : InCallPresenter.onCallListChange - Phone switching state: NO_CALLS -> INCOMING
+05-08 16:18:13.664 11691 11691 I Dialer  : VideoPauseController.onStateChange - hasPrimaryCallChanged: true, videoCanPause: false, isInBackground: false
+05-08 16:18:13.664 11691 11691 I Dialer  : VideoPauseController.onPrimaryCallChanged - new call: [DialerCall_3, INCOMING, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_RESPOND_VIA_TEXT CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1], old call: null, mIsInBackground: false
+05-08 16:18:13.671 11691 11691 I Dialer  : StatusBarNotifier.buildAndSendNotification - notificationType=2
+05-08 16:18:13.671 11691 11691 I Dialer  : StatusBarNotifier.buildAndSendNotification - Canceling old notification so this one can be noisy
+05-08 16:18:13.671 11691 11691 I Dialer  : StatusBarNotifier.buildAndSendNotification - displaying notification for 2
+05-08 16:18:13.682 11691 11691 I Dialer  : SpamModule.provideSpam - using in-app spam
+05-08 16:18:13.685 11691 11691 I Dialer  : SpamModule.provideSpam - using in-app spam
+05-08 16:18:13.685 11691 11691 I Dialer  : CallList.onIncoming - [DialerCall_3, INCOMING, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_RESPOND_VIA_TEXT CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1]
+05-08 16:18:13.685 11691 11691 I Dialer  : InCallPresenter.onIncomingCall - Phone switching state: INCOMING -> INCOMING
+05-08 16:18:13.685 11691 11691 I Dialer  : VideoPauseController.onIncomingCall - oldState: INCOMING, newState: INCOMING, call: [DialerCall_3, INCOMING, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_RESPOND_VIA_TEXT CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1]
+05-08 16:18:13.685 11691 11691 I Dialer  : InCallPresenter.setBoundAndWaitingForOutgoingCall - setBoundAndWaitingForOutgoingCall: false
+05-08 16:18:13.685 11691 11691 I Dialer  : ProximitySensor.updateProximitySensorMode - screenOnImmediately: true, dialPadVisible: false, offHook: false, horizontal: false, uiShowing: false, audioRoute: SPEAKER
+05-08 16:18:13.685 11691 11691 I Dialer  : ProximitySensor.turnOffProximitySensor - wake lock already released
+05-08 16:18:13.686 11691 11691 I Dialer  : StatusBarNotifier.buildAndSendNotification - notificationType=2
+05-08 16:18:13.687 11691 11691 I Dialer  : StatusBarNotifier.buildAndSendNotification - displaying notification for 2
+05-08 16:18:13.688  1919  2227 I Telecom : Event: RecordEntry TC@7: START_RINGER, null: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002@E-E-AYs
+05-08 16:18:13.690  1919 12798 I Telecom : AsyncRingtonePlayer: Play ringtone.
+05-08 16:18:13.717  1919  2227 I Telecom : Event: RecordEntry TC@7: SKIP_VIBRATION, hasVibrator=false, userRequestsVibrate=false, ringerMode=2, isVibrating=false: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002@E-E-AYs
+05-08 16:18:13.719  1919  2223 I Telecom : CallAudioRouteStateMachine: Message received: SWITCH_FOCUS=4001, arg1=3: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002->CARSM.pM_SWITCH_FOCUS@E-E-AYs
+05-08 16:18:13.719  1919  2223 I Telecom : QuiescentSpeakerRoute: Processing message SWITCH_FOCUS: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002->CARSM.pM_SWITCH_FOCUS@E-E-AYs
+05-08 16:18:13.719  1919  2223 I Telecom : Event: RecordEntry TC@7: AUDIO_ROUTE, Leaving state QuiescentSpeakerRoute: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002->CARSM.pM_SWITCH_FOCUS@E-E-AYs
+05-08 16:18:13.719  1919  2223 I Telecom : Event: RecordEntry TC@7: AUDIO_ROUTE, Entering state ActiveSpeakerRoute: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002->CARSM.pM_SWITCH_FOCUS@E-E-AYs
+05-08 16:18:13.719  1919  2223 I Telecom : Event: RecordEntry TC@7: AUDIO_ROUTE_SPEAKER, null: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002->CARSM.pM_SWITCH_FOCUS@E-E-AYs
+05-08 16:18:13.719  1919  2223 I Telecom : CallAudioRouteStateMachine: turning speaker phone true: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002->CARSM.pM_SWITCH_FOCUS@E-E-AYs
+05-08 16:18:13.719  1919  2223 I Telecom : CallAudioRouteStateMachine: setSystemAudioState: changing from [AudioState isMuted: false, route: SPEAKER, supportedRouteMask: SPEAKER, activeBluetoothDevice: [null], supportedBluetoothDevices: []] to [AudioState isMuted: false, route: SPEAKER, supportedRouteMask: SPEAKER, activeBluetoothDevice: [null], supportedBluetoothDevices: []]: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002->CARSM.pM_SWITCH_FOCUS@E-E-AYs
+05-08 16:18:13.719  1919  2223 I Telecom : InCallController: Calling onAudioStateChanged, audioState: [AudioState isMuted: false, route: SPEAKER, supportedRouteMask: SPEAKER, activeBluetoothDevice: [null], supportedBluetoothDevices: []] -> [AudioState isMuted: false, route: SPEAKER, supportedRouteMask: SPEAKER, activeBluetoothDevice: [null], supportedBluetoothDevices: []]: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002->CARSM.pM_SWITCH_FOCUS@E-E-AYs
+05-08 16:18:13.719  1919  2223 I Telecom : BluetoothRouteManager: getBluetoothAudioConnectedDevice: no headset service available.: (...->CS.crCo->H.CS.crCo->H.CS.crCo.pICR)->CSW.hCCC->ABCF.oPE->ICF.oCFC->CAMSM.pM_2002->CARSM.pM_SWITCH_FOCUS@E-E-AYs
+05-08 16:18:13.722  1919 12798 I Telecom : AsyncRingtonePlayer: Repeat ringtone.
+05-08 16:18:16.419 11691 11691 I Dialer  : NotificationBroadcastReceiver.onReceive - Broadcast from Notification: com.android.incallui.ACTION_DECLINE_INCOMING_CALL
+05-08 16:18:16.422 11691 11691 I Dialer  : DialerCall.reject
+05-08 16:18:16.422  1919  2273 I Telecom : Event: RecordEntry TC@7: STOP_RINGER, null: ICA.rC(InCall package: com.google.android.dialer)@AZw
+05-08 16:18:16.422  1919 12798 I Telecom : AsyncRingtonePlayer: Stop ringtone.
+05-08 16:18:16.422  1919  2273 I Telecom : Event: RecordEntry TC@7: REQUEST_REJECT, internal: ICA.rC(InCall package: com.google.android.dialer)@AZw
+05-08 16:18:16.425  1919  2273 I Telecom : InCallController: Sending updateCall [TC@7, RINGING, com.android.phone/com.android.services.telephony.TelephonyConnectionService, tel:**************, A, childs(0), has_parent(false), [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO CAPABILITY_SPEED_UP_MT_AUDIO], [Properties:]]: CSW.sSH@AZ0
+05-08 16:18:16.426  1919  2273 I Telecom : InCallController: Components updated: [ComponentInfo{com.google.android.dialer/com.android.incallui.InCallServiceImpl}]: CSW.sSH@AZ0
+05-08 16:18:16.427  1919  2266 I Telecom : InCallController: Sending updateCall [TC@7, RINGING, com.android.phone/com.android.services.telephony.TelephonyConnectionService, tel:**************, A, childs(0), has_parent(false), [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO CAPABILITY_SPEED_UP_MT_AUDIO], [Properties:]]: CSW.rE@AZ4
+05-08 16:18:16.428  1919  2266 I Telecom : InCallController: Components updated: [ComponentInfo{com.google.android.dialer/com.android.incallui.InCallServiceImpl}]: CSW.rE@AZ4
+05-08 16:18:16.432  1919  2266 I Telecom : InCallController: Sending updateCall [TC@7, RINGING, com.android.phone/com.android.services.telephony.TelephonyConnectionService, tel:**************, A, childs(0), has_parent(false), [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO CAPABILITY_SPEED_UP_MT_AUDIO], [Properties:]]: CSW.sSH@AZ8
+05-08 16:18:16.433  1919  2266 I Telecom : InCallController: Components updated: [ComponentInfo{com.google.android.dialer/com.android.incallui.InCallServiceImpl}]: CSW.sSH@AZ8
+05-08 16:18:16.433  1919  2041 I Telecom : InCallController: Sending updateCall [TC@7, RINGING, com.android.phone/com.android.services.telephony.TelephonyConnectionService, tel:**************, A, childs(0), has_parent(false), [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO CAPABILITY_SPEED_UP_MT_AUDIO], [Properties:]]: CSW.sCC@AaA
+05-08 16:18:16.434  1919  2041 I Telecom : InCallController: Components updated: [ComponentInfo{com.google.android.dialer/com.android.incallui.InCallServiceImpl}]: CSW.sCC@AaA
+05-08 16:18:16.434  1919  2041 I Telecom : InCallController: Sending updateCall [TC@7, RINGING, com.android.phone/com.android.services.telephony.TelephonyConnectionService, tel:**************, A, childs(0), has_parent(false), [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO CAPABILITY_SPEED_UP_MT_AUDIO], [Properties:]]: CSW.sCC@AaE
+05-08 16:18:16.435  1919  2041 I Telecom : InCallController: Components updated: [ComponentInfo{com.google.android.dialer/com.android.incallui.InCallServiceImpl}]: CSW.sCC@AaE
+05-08 16:18:16.435  1919  2041 I Telecom : CallsManager: setCallState RINGING -> DISCONNECTED, call: [TC@7, RINGING, com.android.phone/com.android.services.telephony.TelephonyConnectionService, tel:**************, A, childs(0), has_parent(false), [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO CAPABILITY_SPEED_UP_MT_AUDIO], [Properties:]]: CSW.sDc@AaI
+05-08 16:18:16.435  1919  2041 I Telecom : Event: RecordEntry TC@7: SET_DISCONNECTED, disconnected set explicitly> DisconnectCause [ Code: (REJECTED) Label: () Description: () Reason: (INCOMING_REJECTED) Tone: (-1) ]: CSW.sDc@AaI
+05-08 16:18:16.437  1919  2041 I Telecom : InCallController: Sending updateCall [TC@7, DISCONNECTED, com.android.phone/com.android.services.telephony.TelephonyConnectionService, tel:**************, A, childs(0), has_parent(false), [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO CAPABILITY_SPEED_UP_MT_AUDIO], [Properties:]]: CSW.sDc@AaI
+05-08 16:18:16.438  1919  2041 I Telecom : InCallController: Components updated: [ComponentInfo{com.google.android.dialer/com.android.incallui.InCallServiceImpl}]: CSW.sDc@AaI
+05-08 16:18:16.438  1919  2041 I Telecom : IncomingCallNotifier: updateIncomingCall: foundIncomingcall = null: CSW.sDc@AaI
+05-08 16:18:16.438  1919  2041 I Telecom : TelecomWakeLock: Releasing WakeLock with id: 26: CSW.sDc@AaI
+05-08 16:18:16.438  1919  2041 I Telecom : InCallWakeLockController: Releasing full wake lock: CSW.sDc@AaI
+05-08 16:18:16.438  1919  2223 I Telecom : CallAudioRouteStateMachine: Message received: UPDATE_SYSTEM_AUDIO_ROUTE=1201, arg1=0: CSW.sDc->CARSM.pM_UPDATE_SYSTEM_AUDIO_ROUTE@AaI
+05-08 16:18:16.438  1919  2223 I Telecom : ActiveSpeakerRoute: Processing message UPDATE_SYSTEM_AUDIO_ROUTE: CSW.sDc->CARSM.pM_UPDATE_SYSTEM_AUDIO_ROUTE@AaI
+05-08 16:18:16.439  1919  2227 I Telecom : CallAudioModeStateMachine: Message received: NO_MORE_RINGING_CALLS.: CSW.sDc->CAMSM.pM_1002@AaI
+05-08 16:18:16.439  1919  2227 I Telecom : CallAudioModeStateMachine: Abandoning audio focus: now UNFOCUSED: CSW.sDc->CAMSM.pM_1002@AaI
+05-08 16:18:16.441  1919  2041 I Telecom : PhoneStateBroadcaster: Broadcasted state change: 0: CSW.sDc@AaI
+05-08 16:18:16.441  1919  2041 I Telecom : ConnectionServiceWrapper: Service unbound ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, from unbind.: CSW.rC@AaU
+05-08 16:18:16.441  1919  2041 I Telecom : CallsManager: handleConnectionServiceDeath: service com.android.server.telecom.ConnectionServiceWrapper@4f4b3cb died: CSW.rC@AaU
+05-08 16:18:16.441  1919  2041 I Telecom : Event: RecordEntry TC@7: DESTROYED, null: CSW.rC@AaU
+05-08 16:18:16.441  1919  2041 I Telecom : InCallController: onCallRemoved: [TC@7, DISCONNECTED, null, tel:**************, A, childs(0), has_parent(false), [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO CAPABILITY_SPEED_UP_MT_AUDIO], [Properties:]]: CSW.rC@AaU
+05-08 16:18:16.442  1919  2041 I Telecom : IncomingCallNotifier: updateIncomingCall: foundIncomingcall = null: CSW.rC@AaU
+05-08 16:18:16.442  1919  2041 I Telecom : TelecomWakeLock: WakeLock already released with id: 26: CSW.rC@AaU
+05-08 16:18:16.442  1919  2041 I Telecom : InCallWakeLockController: Releasing full wake lock: CSW.rC@AaU
+05-08 16:18:16.442  1919  2041 I Telecom : ProximitySensorManager: All calls removed, resetting proximity sensor to default state: CSW.rC@AaU
+05-08 16:18:16.442  1919  2041 I Telecom : TelecomWakeLock: WakeLock already released with id: 32: CSW.rC@AaU
+05-08 16:18:16.442  1919  2223 I Telecom : CallAudioRouteStateMachine: setSystemAudioState: changing from [AudioState isMuted: false, route: SPEAKER, supportedRouteMask: SPEAKER, activeBluetoothDevice: [null], supportedBluetoothDevices: []] to [AudioState isMuted: false, route: SPEAKER, supportedRouteMask: SPEAKER, activeBluetoothDevice: [null], supportedBluetoothDevices: []]: CSW.sDc->CARSM.pM_UPDATE_SYSTEM_AUDIO_ROUTE@AaI
+05-08 16:18:16.442  1919  2223 I Telecom : InCallController: Calling onAudioStateChanged, audioState: [AudioState isMuted: false, route: SPEAKER, supportedRouteMask: SPEAKER, activeBluetoothDevice: [null], supportedBluetoothDevices: []] -> [AudioState isMuted: false, route: SPEAKER, supportedRouteMask: SPEAKER, activeBluetoothDevice: [null], supportedBluetoothDevices: []]: CSW.sDc->CARSM.pM_UPDATE_SYSTEM_AUDIO_ROUTE@AaI
+05-08 16:18:16.444 11691 11691 I Dialer  : DialerCallListenerImpl.onDialerCallDisconnect - [DialerCall_3, DISCONNECTED, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1]
+05-08 16:18:16.444 11691 11691 I Dialer  : InCallPresenter.onCallListChange - Phone switching state: INCOMING -> INCALL
+05-08 16:18:16.444 11691 11691 I Dialer  : VideoPauseController.onStateChange - hasPrimaryCallChanged: true, videoCanPause: false, isInBackground: false
+05-08 16:18:16.444 11691 11691 I Dialer  : VideoPauseController.onPrimaryCallChanged - new call: null, old call: [DialerCall_3, DISCONNECTED, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1], mIsInBackground: false
+05-08 16:18:16.445 11691 11691 I Dialer  : ReturnToCallController.onDisconnect - enter
+05-08 16:18:16.446 11691 11691 I Dialer  : EnrichedCallManagerImpl.onDisconnect - enter
+05-08 16:18:16.446 11691 11691 I Dialer  : EnrichedCallManagerImpl.onDisconnect - disconnected call with no enriched call session
+05-08 16:18:16.446 11691 11691 I Dialer  : EnrichedCallManagerImpl.onDisconnect - enter
+05-08 16:18:16.446 11691 11691 I Dialer  : EnrichedCallManagerImpl.onDisconnect - disconnected call with no enriched call session
+05-08 16:18:16.446 11691 11691 I Dialer  : EnrichedCallManagerImpl.unregisterCapabilitiesListener - listener: [DialerCall_3, DISCONNECTED, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1]
+05-08 16:18:16.446 11691 11691 I Dialer  : EnrichedCallManagerImpl.unregisterStateChangedListener - listener: [DialerCall_3, DISCONNECTED, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1]
+05-08 16:18:16.446 11691 11691 I Dialer  : DialerCall.setState - ignoring state transition from DISCONNECTED to DISCONNECTED. Duration would have changed from 0 to 0
+05-08 16:18:16.450 11691 11691 I Dialer  : CallList.onUpdateCall - [DialerCall_3, DISCONNECTED, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1]
+05-08 16:18:16.450 11691 11691 I Dialer  : InCallPresenter.onCallListChange - Phone switching state: INCALL -> INCALL
+05-08 16:18:16.451 11691 11691 I Dialer  : VideoPauseController.onStateChange - hasPrimaryCallChanged: false, videoCanPause: false, isInBackground: false
+05-08 16:18:16.452 11691 11691 I Dialer  : EnrichedCallManagerImpl.unregisterCapabilitiesListener - listener: [DialerCall_3, DISCONNECTED, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1]
+05-08 16:18:16.452 11691 11691 I Dialer  : EnrichedCallManagerImpl.unregisterStateChangedListener - listener: [DialerCall_3, DISCONNECTED, [Capabilities: CAPABILITY_SUPPORT_HOLD CAPABILITY_MUTE CAPABILITY_CANNOT_DOWNGRADE_VIDEO_TO_AUDIO], [Properties:], children:[], parent:null, conferenceable:[], videoState:Audio Only, mSessionModificationState:0, CameraDir:-1]
+05-08 16:18:16.455  1919  2223 I Telecom : CallAudioRouteStateMachine: Message received: SWITCH_FOCUS=4001, arg1=1: CSW.sDc->CAMSM.pM_1002->CARSM.pM_SWITCH_FOCUS@AaI
+05-08 16:18:16.455  1919  2223 I Telecom : ActiveSpeakerRoute: Processing message SWITCH_FOCUS: CSW.sDc->CAMSM.pM_1002->CARSM.pM_SWITCH_FOCUS@AaI
+05-08 16:18:16.455  1919  2223 I Telecom : CallAudioRouteStateMachine: turning speaker phone true: CSW.sDc->CAMSM.pM_1002->CARSM.pM_SWITCH_FOCUS@AaI
+05-08 16:18:16.455  1919  2223 I Telecom : Logging.Events: Non-call EVENT: UNMUTE, null: CSW.sDc->CAMSM.pM_1002->CARSM.pM_SWITCH_FOCUS@AaI
+05-08 16:18:16.456  1919  2223 I Telecom : Logging.Events: Non-call EVENT: AUDIO_ROUTE, Leaving state ActiveSpeakerRoute: CSW.sDc->CAMSM.pM_1002->CARSM.pM_SWITCH_FOCUS@AaI
+05-08 16:18:16.456  1919  2223 I Telecom : Logging.Events: Non-call EVENT: AUDIO_ROUTE, Entering state QuiescentSpeakerRoute: CSW.sDc->CAMSM.pM_1002->CARSM.pM_SWITCH_FOCUS@AaI
+05-08 16:18:16.456  1919  2223 I Telecom : BluetoothRouteManager: getBluetoothAudioConnectedDevice: no headset service available.: CSW.sDc->CAMSM.pM_1002->CARSM.pM_SWITCH_FOCUS@AaI
+05-08 16:18:16.461 11691 11691 W Dialer  : CallList.onCallRemoved - Removing call not previously disconnected DialerCall_3
+05-08 16:18:16.461 11691 11691 I Dialer  : DialerCall.onRemovedFromCallList - enter
+05-08 16:18:16.461 11691 11691 I Dialer  : VideoShareManager.unregisterListener - enter
+05-08 16:18:16.461 11691 11691 I Dialer  : EnrichedCallManagerImpl.unregisterCapabilitiesListener - listener: bis@f7ab959
+05-08 16:18:16.461 11691 11691 I Dialer  : InCallPresenter.attemptFinishActivity - Hide in call UI: false
+05-08 16:18:16.461 11691 11691 I Dialer  : InCallPresenter.onCallListChange - Phone switching state: INCALL -> NO_CALLS
+05-08 16:18:16.461 11691 11691 I Dialer  : VideoPauseController.onStateChange - hasPrimaryCallChanged: false, videoCanPause: false, isInBackground: false
+05-08 16:18:16.462 11691 11691 I Dialer  : InCallPresenter.onCallListChange - Phone switching state: NO_CALLS -> NO_CALLS
+05-08 16:18:16.462 11691 11691 I Dialer  : VideoPauseController.onStateChange - hasPrimaryCallChanged: false, videoCanPause: false, isInBackground: false
+05-08 16:18:16.462 11691 11691 I Dialer  : InCallPresenter.onCallListChange - Phone switching state: NO_CALLS -> NO_CALLS
+05-08 16:18:16.462 11691 11691 I Dialer  : VideoPauseController.onStateChange - hasPrimaryCallChanged: false, videoCanPause: false, isInBackground: false
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: onFatalError, processing error from engine(4)
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: com.google.android.apps.gsa.shared.speech.b.g: Error reading from input stream
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: 	at com.google.android.apps.gsa.staticplugins.microdetection.d.k.a(SourceFile:91)
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: 	at com.google.android.apps.gsa.staticplugins.microdetection.d.l.run(Unknown Source:14)
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: 	at com.google.android.libraries.gsa.runner.a.a.b(SourceFile:32)
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: 	at com.google.android.libraries.gsa.runner.a.c.call(Unknown Source:4)
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:458)
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.b.g.run(Unknown Source:4)
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.b.aw.run(SourceFile:4)
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.b.aw.run(SourceFile:4)
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: 	at java.lang.Thread.run(Thread.java:764)
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: 	at com.google.android.apps.gsa.shared.util.concurrent.b.i.run(SourceFile:6)
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: Caused by: com.google.android.apps.gsa.shared.exception.GsaIOException: Error code: 393238 | Buffer overflow, no available space.
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.Tee.j(SourceFile:103)
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.au.read(SourceFile:2)
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: 	at java.io.InputStream.read(InputStream.java:101)
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.ao.run(SourceFile:17)
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: 	at com.google.android.apps.gsa.speech.audio.an.run(SourceFile:2)
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:458)
+05-08 16:18:16.790  2646  4705 W ErrorProcessor: 	... 10 more
+05-08 16:18:18.442  1919  1919 I Telecom : EmergencyInCallServiceConnection: Disconnect forced!: CSW.rC->ICC.oCR@AaU
+05-08 16:18:18.446 11691 11691 I Dialer  : InCallPresenter.setBoundAndWaitingForOutgoingCall - setBoundAndWaitingForOutgoingCall: false
+05-08 16:18:18.446 11691 11691 I Dialer  : InCallPresenter.onCallListChange - Phone switching state: NO_CALLS -> NO_CALLS
+05-08 16:18:18.446 11691 11691 I Dialer  : VideoPauseController.onStateChange - hasPrimaryCallChanged: false, videoCanPause: false, isInBackground: false
+05-08 16:18:18.449 11691 11691 I Dialer  : InCallPresenter.attemptCleanup - Cleaning up
+05-08 16:18:18.449 11691 11691 I Dialer  : ProximitySensor.turnOffProximitySensor - wake lock already released
+05-08 16:18:18.450 11691 11691 I Dialer  : EnrichedCallManagerImpl.unregisterStateChangedListener - listener: cjb@7dd0188
+05-08 16:18:18.450 11691 11691 I Dialer  : VideoPauseController.tearDown - enter
+05-08 16:18:18.450 11691 11691 I Dialer  : ReturnToCallController.hide - hide() called without calling show()

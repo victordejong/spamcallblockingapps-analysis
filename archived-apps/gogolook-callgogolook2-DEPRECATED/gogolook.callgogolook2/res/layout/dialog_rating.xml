@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_feedback_bg" android:background="@drawable/popup_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_rating_dialog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_dialog_rating_incall" android:layout_centerHorizontal="true" />
+            <ImageButton android:id="@id/iv_close" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_close_white" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <TextView android:textSize="16.0sp" android:textColor="@color/btn_text_color_neutral" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_rating_dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/rate_star_callend_dialog_incallscreen" android:layout_marginStart="22.0dip" android:layout_marginEnd="22.0dip" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/btn_text_color_neutral" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_rating_dialog_comment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/rate_callend_dialog_ask" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_stars" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="41.0dip" android:layout_marginEnd="41.0dip">
+            <ImageButton android:id="@id/iv_star1" android:background="?selectableItemBackgroundBorderless" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/star_normal" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/iv_star2" android:background="?selectableItemBackgroundBorderless" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/star_normal" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/iv_star3" android:background="?selectableItemBackgroundBorderless" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/star_normal" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/iv_star4" android:background="?selectableItemBackgroundBorderless" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/star_normal" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/iv_star5" android:background="?selectableItemBackgroundBorderless" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/star_normal" android:layout_weight="1.0" />
+        </LinearLayout>
+        <View android:background="@color/trending_shadow_color" android:layout_width="fill_parent" android:layout_height="1.0999756dip" android:layout_marginTop="24.0dip" />
+        <Button android:textSize="14.0sp" android:textColor="@color/dark_blue" android:id="@id/btn_action_rating" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="@string/rate_callend_dialog_encourage" style="@style/Widget.AppCompat.Button.Borderless" />
+        <View android:background="@color/trending_shadow_color" android:layout_width="fill_parent" android:layout_height="1.0999756dip" />
+        <Button android:textSize="14.0sp" android:textColor="@color/dark_blue" android:id="@id/btn_action_send_mail" android:layout_width="fill_parent" android:layout_height="52.0dip" android:text="@string/rate_drawer_dialog_positive_mail" style="@style/Widget.AppCompat.Button.Borderless" />
+    </LinearLayout>
+    <ImageView android:id="@id/copyright" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="9.0dip" android:src="@drawable/popup_logo" android:scaleType="fitEnd" />
+</LinearLayout>

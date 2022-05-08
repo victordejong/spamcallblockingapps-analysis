@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/material_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <gogolook.callgogolook2.view.SizedTextView android:textSize="16.0sp" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/tv_text" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="22.0dip" android:layout_marginRight="22.0dip" />
-</LinearLayout>

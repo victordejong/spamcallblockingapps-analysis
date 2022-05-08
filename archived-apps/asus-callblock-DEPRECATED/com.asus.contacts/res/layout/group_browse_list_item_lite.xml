@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/group_list_item_view" android:background="@drawable/asus_contacts2_list_item_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/group_list_header" android:visibility="gone" layout="@layout/group_account_header_horizontal" />
+    <View android:id="@id/divider" android:background="@color/amax_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/item_background" android:paddingLeft="@dimen/common_padding" android:paddingTop="@dimen/list_padding_top" android:paddingRight="@dimen/common_padding" android:paddingBottom="@dimen/list_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AsusGroupListItemTitleTextViewStyle" />
+        <TextView android:id="@id/members" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AsusGroupListItemMembersTextViewStyle" />
+    </LinearLayout>
+    <View android:id="@id/listview_divider" android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/common_padding" android:layout_marginRight="@dimen/common_padding" />
+</LinearLayout>

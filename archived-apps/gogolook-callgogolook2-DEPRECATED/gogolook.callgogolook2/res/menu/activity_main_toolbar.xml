@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@id/menu_call_log_group">
+        <item android:icon="@drawable/icon_search" android:id="@id/menu_call_log_toolbar_search" android:title="@string/textsearch_title" android:actionLayout="@id/toolbar" app:showAsAction="always" />
+        <item android:icon="@drawable/ic_appbar_overflow" android:id="@id/menu_call_log_toolbar_overflow" android:title="@string/title_more" android:actionLayout="@id/toolbar" app:showAsAction="always">
+            <menu>
+                <item android:id="@id/menu_delete_all" android:title="@string/calllog_filter_deleteall" />
+            </menu>
+        </item>
+    </group>
+    <group android:id="@id/menu_sms_group">
+        <item android:icon="@drawable/icon_search" android:id="@id/menu_sms_toolbar_search" android:title="@string/textsearch_title" android:actionLayout="@id/toolbar" app:showAsAction="always" />
+        <item android:icon="@drawable/ic_appbar_overflow" android:id="@id/menu_sms_toolbar_overflow" android:title="@string/title_more" app:showAsAction="always">
+            <menu>
+                <item android:id="@id/menu_mark_as_read" android:title="@string/sms_log_overflow_mark_all_as_read" />
+                <item android:id="@id/menu_sms_select" android:title="@string/sms_log_overflow_select_sms" />
+            </menu>
+        </item>
+    </group>
+    <group android:id="@id/menu_contact_group">
+        <item android:icon="@drawable/icon_search" android:id="@id/menu_contact_toolbar_search" android:title="@string/textsearch_title" android:actionLayout="@id/toolbar" app:showAsAction="always" />
+        <item android:icon="@drawable/icon_favorite" android:id="@id/menu_contact_toolbar_favorite" android:title="@string/favorite_actionbar" android:actionLayout="@id/toolbar" app:showAsAction="always" />
+    </group>
+    <group android:id="@id/menu_block_group">
+        <item android:icon="@drawable/icon_search" android:id="@id/menu_block_toolbar_search" android:title="@string/textsearch_title" android:actionLayout="@id/toolbar" app:showAsAction="always" />
+    </group>
+</menu>

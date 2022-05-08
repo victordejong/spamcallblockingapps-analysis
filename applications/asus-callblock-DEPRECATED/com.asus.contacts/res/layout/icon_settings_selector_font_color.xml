@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/font_color_setting_panel" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.asus.contacts.fonts.ColorsGrid android:orientation="horizontal" android:id="@id/font_color_grids" android:paddingLeft="@dimen/icon_settings_font_color_panel_color_grids_padding_left" android:paddingTop="@dimen/icon_settings_font_color_panel_color_grids_padding_top" android:paddingRight="@dimen/icon_settings_font_color_panel_color_grids_padding_right" android:paddingBottom="@dimen/icon_settings_font_color_panel_color_grids_padding_bottom" android:layout_width="@dimen/icon_settings_font_color_panel_color_grids_width" android:layout_height="@dimen/icon_settings_font_color_panel_color_grids_height" android:layout_centerInParent="true" />
-</RelativeLayout>

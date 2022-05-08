@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <gogolook.callgogolook2.messaging.ui.MaskAsyncImageView android:id="@id/attachment_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/ip_img_bg" android:adjustViewBounds="true" android:minWidth="@dimen/app_single_attachment_min_size" android:minHeight="@dimen/app_single_attachment_min_size" app:fadeIn="false" app:maxHeight="@dimen/app_single_attachment_max_size" app:maxWidth="@dimen/app_single_attachment_max_size" app:scaleType="fitCenter" />
-    <TextView android:ellipsize="end" android:id="@id/caption" android:background="@color/message_bubble_color_outgoing" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="3" style="@style/ConversationMessage" />
-</LinearLayout>

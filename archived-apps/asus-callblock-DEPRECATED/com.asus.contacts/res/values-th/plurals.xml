@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d คน</item>
+        <item quantity="one">%1$d คน</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%,d รายชื่อติดต่อ</item>
+        <item quantity="one">1 รายชื่อติดต่อ</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d ข้อความเสียง</item>
+        <item quantity="one">ข้อความเสียง</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">พบ %d รายการ</item>
+        <item quantity="one">พบ 1 รายการ</item>
+    </plurals>
+    <plurals name="uf_sdk_number_of_subscribers_format">
+        <item quantity="other">%1$s คนชอบหัวข้อนี้</item>
+        <item quantity="one">%1$s คนชอบหัวข้อนี้</item>
+    </plurals>
+    <plurals name="uf_sdk_topics">
+        <item quantity="other">หัวข้อ</item>
+        <item quantity="one">หัวข้อ</item>
+    </plurals>
+    <plurals name="uv_articles">
+        <item quantity="other">บทความ</item>
+        <item quantity="one">บทความ</item>
+    </plurals>
+    <plurals name="uv_comments">
+        <item quantity="other">ความคิดเห็น</item>
+        <item quantity="one">ความคิดเห็น</item>
+    </plurals>
+    <plurals name="uv_ideas">
+        <item quantity="other">ไอเดีย</item>
+        <item quantity="one">ไอเดีย</item>
+    </plurals>
+    <plurals name="uv_number_of_subscribers_format">
+        <item quantity="other">%1$s คนต้องการไอเดียนี้</item>
+        <item quantity="one">%1$s คนต้องการไอเดียนี้</item>
+    </plurals>
+    <plurals name="uv_people">
+        <item quantity="other">คน</item>
+        <item quantity="one">คน</item>
+    </plurals>
+    <plurals name="uv_subscribers">
+        <item quantity="other">ผู้สมัครรับข้อมูล</item>
+        <item quantity="one">ผู้สมัครรับข้อมูล</item>
+    </plurals>
+</resources>

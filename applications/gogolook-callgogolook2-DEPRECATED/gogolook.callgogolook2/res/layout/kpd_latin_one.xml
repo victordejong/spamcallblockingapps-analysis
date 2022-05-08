@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<gogolook.callgogolook2.main.dialer.DialpadKeyButton style="@style/KpdButtonStyle"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <gogolook.callgogolook2.main.dialer.DialpadTextView android:id="@id/dialpad_key_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_number_1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/KpdNumberTextStyle" />
-    <ImageView android:id="@id/dialpad_key_voicemail" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/guideline" app:layout_constraintStart_toEndOf="@id/dialpad_key_number" style="@style/LatinKpdVoiceMailImageStyle" />
-    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@dimen/latin_bottom_guideline_voicemail" />
-</gogolook.callgogolook2.main.dialer.DialpadKeyButton>

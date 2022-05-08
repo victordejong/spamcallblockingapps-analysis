@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:background="@color/amax_detail_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/header_min_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="false" style="@style/AmaxHeaderTextStyle" />
-    <View android:layout_gravity="bottom" android:id="@id/your_listheaderline_id" android:background="@color/amax_header_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/asus_header_divider_height" android:layout_marginLeft="@dimen/asus_header_divider_margin_left" android:layout_marginBottom="@dimen/asus_header_divider_margin_bottom" />
-</LinearLayout>

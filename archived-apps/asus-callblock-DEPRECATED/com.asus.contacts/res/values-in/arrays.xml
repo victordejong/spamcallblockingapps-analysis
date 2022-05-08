@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blocklist_add_select_dialog_items">
+        <item>Pilih dari kontak</item>
+        <item>Pilih dari log panggilan terakhir</item>
+        <item>Masukkan nomor</item>
+        <item>Masukkan nomor SIP</item>
+    </string-array>
+    <string-array name="change_cover_options">
+        <item>Gunakan sampul Facebook</item>
+        <item>Gunakan sampul grup</item>
+        <item>Gunakan sampul default</item>
+        <item>Sesuaikan sampul</item>
+    </string-array>
+    <string-array name="change_group_cover_options">
+        <item>Gunakan sampul grup default</item>
+        <item>Sesuaikan sampul grup</item>
+    </string-array>
+    <string-array name="news_message">
+        <item>Gaya baru Pemutar dan Kontak ZenUI! Ramping dan mudah digunakan!</item>
+        <item>Melakukan panggilan tanpa log panggilan! Tidak perlu lagi bersusah payah menghapus log panggilan yang tidak diinginkan!</item>
+    </string-array>
+    <string-array name="picture_from_options">
+        <item>Kamera</item>
+        <item>Galeri</item>
+    </string-array>
+    <string-array name="speed_entry_list">
+        <item>Cepat</item>
+        <item>Sedang</item>
+        <item>Lambat</item>
+    </string-array>
+    <string-array name="speed_level_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="toolpanel_news_message">
+        <item>Tab baru Lainnya memungkinkan Anda menemukan fitur dan setelan dengan mudah!</item>
+    </string-array>
+    <string-array name="whitelist_add_select_dialog_items">
+        <item>Pilih dari kontak</item>
+        <item>Pilih dari log panggilan terakhir</item>
+        <item>Masukkan nomor</item>
+        <item>Masukkan nomor SIP</item>
+    </string-array>
+</resources>

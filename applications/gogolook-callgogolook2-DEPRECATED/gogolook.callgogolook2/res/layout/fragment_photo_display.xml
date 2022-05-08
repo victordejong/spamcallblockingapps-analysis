@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wheel="http://schemas.android.com/apk/res-auto">
-    <gogolook.callgogolook2.view.TouchImageView android:id="@id/iv_detail_photo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
-    <ImageView android:id="@id/iv_thumbnail_photo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
-    <gogolook.callgogolook2.util.ProgressWheel android:layout_gravity="center" android:id="@id/pw_loading" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" wheel:matProg_progressIndeterminate="true" />
-</FrameLayout>

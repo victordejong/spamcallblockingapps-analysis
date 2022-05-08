@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/ll_search" android:background="@drawable/call_normal_bg" android:paddingBottom="@dimen/gap_1half" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <gogolook.callgogolook2.view.SizedTextView android:textSize="@dimen/text_size_t3" android:textColor="@color/text_black" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
-    <gogolook.callgogolook2.view.SizedTextView android:textSize="@dimen/text_size_t3" android:textColor="@color/text_gray" android:ellipsize="end" android:id="@id/tv_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gap" android:maxLines="2" />
-    <gogolook.callgogolook2.view.SizedTextView android:textSize="@dimen/text_size_t3" android:textColor="@color/text_gray" android:id="@id/tv_url" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gap_half" android:singleLine="true" />
-</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/item_action_container_padding_left" android:paddingRight="@dimen/item_action_container_padding_right" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/call_log_list_item_action_icon_left" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/asus_w_ic_dialer_call" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/call_log_list_item_action_icon_right" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/asus_w_ic_dialer_call" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

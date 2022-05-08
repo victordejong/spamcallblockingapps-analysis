@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ps3_white" android:paddingTop="24.0dip" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="18.0sp" android:id="@id/dialog_rate_app_title" android:layout_width="264.0dip" android:layout_height="wrap_content" style="@style/IntroTitle" />
+    <TextView android:textSize="16.0sp" android:id="@id/dialog_rate_app_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" style="@style/IntroSubtitle" />
+    <com.privacystar.core.ui.widgets.dialog.rating.CustomRatingBar android:layout_gravity="center" android:id="@id/dialog_rate_app_rating_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="44.0dip" app:halfStars="false" app:maxStars="5" app:onlyForDisplay="false" app:stars="0.0" />
+    <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:id="@id/dialog_rate_app_btn_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/colorPrimary" android:layout_gravity="center" android:id="@id/dialog_rate_app_middle_btn" android:padding="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:fontFamily="sans-serif-medium" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/colorPrimary" android:layout_gravity="end" android:id="@id/dialog_rate_app_right_btn" android:padding="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:fontFamily="sans-serif-medium" android:layout_marginStart="40.0dip" />
+    </LinearLayout>
+</LinearLayout>

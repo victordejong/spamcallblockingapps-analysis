@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <SearchView android:id="@id/search_view" android:layout_width="fill_parent" android:layout_height="@dimen/asus_search_view_height" android:iconifiedByDefault="false" />
-    <LinearLayout android:orientation="vertical" android:id="@id/asus_account_filter_header_container_layout" android:background="@drawable/asus_contacts2_split_ab_bg" android:paddingLeft="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <Spinner android:id="@id/location_spinner" android:background="@drawable/asus_contacts2_spinner_default_light" android:layout_width="@dimen/asus_yp_spinner_width" android:layout_height="@dimen/asus_yp_spinner_height" />
-    </LinearLayout>
-    <ListView android:id="@id/list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" android:layout_weight="1.0" android:splitMotionEvents="false" />
-</LinearLayout>

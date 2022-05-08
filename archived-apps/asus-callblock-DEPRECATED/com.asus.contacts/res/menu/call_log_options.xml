@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/multi_picker" android:orderInCategory="1" android:title="@string/asus_delete_calllog" android:showAsAction="withText" />
+    <item android:id="@id/call_duration" android:orderInCategory="2" android:title="@string/menu_Call_duration" android:showAsAction="withText" />
+    <item android:id="@id/call_backup" android:orderInCategory="3" android:title="@string/backup_calllog" android:showAsAction="withText" />
+    <item android:id="@id/call_send_out" android:orderInCategory="4" android:title="@string/send_out_call_log" android:showAsAction="withText" />
+    <item android:id="@id/call_restore" android:orderInCategory="5" android:title="@string/restore_call_log" android:showAsAction="withText" />
+</menu>

@@ -1,0 +1,18 @@
+package io.realm.internal.async;
+
+import android.os.Process;
+/* loaded from: classes2-dex2jar.jar:io/realm/internal/async/BgPriorityRunnable.class */
+public class BgPriorityRunnable implements Runnable {
+    private final Runnable runnable;
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public BgPriorityRunnable(Runnable runnable) {
+        this.runnable = runnable;
+    }
+
+    @Override // java.lang.Runnable
+    public void run() {
+        Process.setThreadPriority(10);
+        this.runnable.run();
+    }
+}

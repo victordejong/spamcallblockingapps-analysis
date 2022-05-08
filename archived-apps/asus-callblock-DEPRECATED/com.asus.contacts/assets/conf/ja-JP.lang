@@ -1,0 +1,15 @@
+Language-Version: 1.0
+Language-Name: ja-JP
+Configuration-Script:
+ AddResDir /system/usr/xt9/VO/resources/
+
+Name: text
+Input-Type: MULTIPLE_LINE_TEXT
+Result-Item-Type: CHARACTER
+Use-User-Dictionary: true
+Configuration-Script:
+ AddResource ja_JP/ja_JP_jisx0208-ak-cur.lite.res
+ AddResource ja_JP/ja_JP_jisx0208-lk-text.lite.res
+ SetCharListSize 5
+ SetWordListSize 1
+ SetTextListSize 1

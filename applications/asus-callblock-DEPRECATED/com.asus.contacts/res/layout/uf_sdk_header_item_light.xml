@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textColor="#ff515151" android:layout_gravity="bottom" android:id="@id/uv_header_text" android:background="@null" android:layout_width="wrap_content" android:text="@string/uv_knowledge_base" android:textIsSelectable="false" style="@style/uv_ListSeparatorLight" />
-    <View android:layout_gravity="bottom" android:background="#ffd5d7d6" android:layout_width="0.0dip" android:layout_height="2.0dip" android:layout_marginLeft="2.0dip" android:layout_marginBottom="8.0dip" android:layout_weight="1.0" />
-</LinearLayout>

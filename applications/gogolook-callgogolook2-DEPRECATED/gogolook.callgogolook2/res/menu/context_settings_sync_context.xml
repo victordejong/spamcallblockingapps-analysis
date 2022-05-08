@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@id/menu_sync_period_auto" android:title="@string/settings_sync_period_auto" />
-    <item android:id="@id/menu_sync_period_wifi" android:title="@string/settings_sync_period_wifi" />
-    <item android:id="@id/menu_sync_period_none" android:title="@string/settings_sync_period_none" />
-</menu>

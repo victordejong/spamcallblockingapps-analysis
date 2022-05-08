@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="52.0dip" android:text="@string/register_title" style="@style/whoscall_onboarding_title" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/whoscall_primary" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/content_margin" android:layout_marginTop="30.0dip" android:layout_marginRight="@dimen/content_margin" android:text="@string/register_content" android:lineSpacingExtra="4.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/whoscall_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="50.0dip" android:text="@string/verification_mainpage_yournumber" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_number_editor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="50.0dip">
+                <TextView android:textSize="21.0sp" android:textColor="@color/whoscall_primary_text" android:gravity="center_vertical" android:id="@id/tv_country_code" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="47.0dip" android:fontFamily="sans-serif-light" />
+                <ImageView android:id="@id/iv_dropdown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="7.5dip" android:src="@drawable/ic_sorting" />
+                <EditText android:textSize="21.0sp" android:textColor="@color/whoscall_primary_text" android:id="@id/et_number" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="14.0dip" android:inputType="phone" android:fontFamily="sans-serif-light" />
+            </LinearLayout>
+            <View android:background="@color/whoscall_primary" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="50.0dip" android:layout_marginTop="6.5dip" android:layout_marginRight="50.0dip" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="50.0dip">
+                <TextView android:id="@id/tv_warning" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/whoscall_warn_text" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_countdown" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="28.0sp" android:textStyle="normal" android:textColor="@color/whoscall_green" android:gravity="center_horizontal" android:id="@id/tv_countdown" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/content_margin" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/content_margin" android:fontFamily="sans-serif-medium" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/whoscall_green" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/content_margin" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/content_margin" android:text="@string/verification_mainpage_hint_donotleave" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_first_request" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_gravity="center_horizontal" android:id="@id/tv_first_request" android:layout_width="@dimen/green_btn_max_width" android:layout_height="40.0dip" android:layout_marginTop="8.0dip" android:text="@string/verification_mainpage_button_sms" style="@style/whoscall_green_btn" />
+                <TextView android:textSize="11.0sp" android:textColor="@color/whoscall_secondary" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/content_margin" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/content_margin" android:text="@string/verification_mainpage_call_hint" />
+                <TextView android:layout_gravity="center_horizontal" android:id="@id/tv_contact_cs" android:visibility="gone" android:layout_width="@dimen/green_btn_max_width" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/intro_verify_dialogue_cs" style="@style/whoscall_green_border_btn" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

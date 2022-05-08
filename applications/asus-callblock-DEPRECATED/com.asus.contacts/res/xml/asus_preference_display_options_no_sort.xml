@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceCategory android:title="@string/preference_displayOptions" android:key="asus_preference_display_category">
-        <com.android.contacts.preference.AsusDisplayWithPhoneOnlyPreference android:title="@string/asus_setting_only_phone" android:key="only_phones" android:summary="@string/asus_setting_only_phone_text" />
-        <com.android.contacts.preference.AsusDisplayWithAccountIcon android:title="@string/asus_setting_display_source_account" android:key="with_account_icon" android:summary="@string/asus_setting_display_source_account_detail" />
-        <com.android.contacts.preference.EzmodeOpenPreference android:title="@string/ez_mode_setting_title" android:key="ez_mode_on" android:summary="@string/ez_mode_setting_detail" android:defaultValue="true" />
-    </PreferenceCategory>
-</PreferenceScreen>

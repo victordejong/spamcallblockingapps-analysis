@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="start|center" android:id="@id/navigation_drawer_item_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?colorPrimary" android:contentDescription="@string/con_desc_navigation_drawer_icon" />
-    <TextView android:textAppearance="@style/NavigationText" android:layout_gravity="start|center" android:id="@id/navigation_drawer_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="32.0dip" />
-    <TextView android:textAppearance="@style/NavigationTextUnread" android:gravity="center" android:layout_gravity="start|center" android:id="@id/navigation_drawer_item_unread" android:background="@drawable/unread_messages_background" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginStart="14.0dip" android:layout_marginEnd="0.0dip" />
-</merge>

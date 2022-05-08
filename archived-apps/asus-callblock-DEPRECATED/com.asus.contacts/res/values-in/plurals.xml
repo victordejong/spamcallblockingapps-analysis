@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d pengguna</item>
+        <item quantity="one">%1$d pengguna</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%,d kontak</item>
+        <item quantity="one">1 kontak</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d pesan suara</item>
+        <item quantity="one">Pesan suara</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Ditemukan %d</item>
+        <item quantity="one">Ditemukan 1</item>
+    </plurals>
+    <plurals name="uf_sdk_number_of_subscribers_format">
+        <item quantity="other">%1$s menyukai topik ini</item>
+        <item quantity="one">%1$s menyukai topik ini</item>
+    </plurals>
+    <plurals name="uf_sdk_topics">
+        <item quantity="other">topik</item>
+        <item quantity="one">topik</item>
+    </plurals>
+    <plurals name="uv_articles">
+        <item quantity="other">artikel</item>
+        <item quantity="one">artikel</item>
+    </plurals>
+    <plurals name="uv_comments">
+        <item quantity="other">komentar</item>
+        <item quantity="one">komentar</item>
+    </plurals>
+    <plurals name="uv_ideas">
+        <item quantity="other">ide</item>
+        <item quantity="one">ide</item>
+    </plurals>
+    <plurals name="uv_number_of_subscribers_format">
+        <item quantity="other">%1$s menginginkan ide ini</item>
+        <item quantity="one">%1$s menginginkan ide ini</item>
+    </plurals>
+    <plurals name="uv_people">
+        <item quantity="other">orang</item>
+        <item quantity="one">orang</item>
+    </plurals>
+    <plurals name="uv_subscribers">
+        <item quantity="other">pelanggan</item>
+        <item quantity="one">pelanggan</item>
+    </plurals>
+</resources>

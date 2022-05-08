@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:icon="@drawable/ic_schedule" android:title="@string/schedule" android:key="pref_schedule_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="true" android:title="@string/schedule_from" android:key="pref_schedule_enable_from" />
+    <Preference android:persistent="true" android:title="@string/schedule_to" android:key="pref_schedule_enable_to" />
+    <androidx.preference.SwitchPreferenceCompat android:persistent="true" android:title="@string/schedule_by_day_of_week" android:key="pref_schedule_by_day_of_week" android:summary="@string/available_in_pro" android:defaultValue="false" />
+    <com.vladlee.preferences.PreferenceCheckBox android:persistent="true" android:title="@string/monday" android:key="pref_schedule_monday" android:dependency="pref_schedule_by_day_of_week" android:defaultValue="true" />
+    <com.vladlee.preferences.PreferenceCheckBox android:persistent="true" android:title="@string/tuesday" android:key="pref_schedule_tuesday" android:dependency="pref_schedule_by_day_of_week" android:defaultValue="true" />
+    <com.vladlee.preferences.PreferenceCheckBox android:persistent="true" android:title="@string/wednesday" android:key="pref_schedule_wednesday" android:dependency="pref_schedule_by_day_of_week" android:defaultValue="true" />
+    <com.vladlee.preferences.PreferenceCheckBox android:persistent="true" android:title="@string/thursday" android:key="pref_schedule_thursday" android:dependency="pref_schedule_by_day_of_week" android:defaultValue="true" />
+    <com.vladlee.preferences.PreferenceCheckBox android:persistent="true" android:title="@string/friday" android:key="pref_schedule_friday" android:dependency="pref_schedule_by_day_of_week" android:defaultValue="true" />
+    <com.vladlee.preferences.PreferenceCheckBox android:persistent="true" android:title="@string/saturday" android:key="pref_schedule_saturday" android:dependency="pref_schedule_by_day_of_week" android:defaultValue="true" />
+    <com.vladlee.preferences.PreferenceCheckBox android:persistent="true" android:title="@string/sunday" android:key="pref_schedule_sunday" android:dependency="pref_schedule_by_day_of_week" android:defaultValue="true" />
+</PreferenceScreen>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/header_container" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/list_category_separator" />
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/itemContainer" android:layout_width="fill_parent" android:layout_height="@dimen/contact_browser_list_item_size">
+        <CheckedTextView android:id="@id/itemCheckSelect" android:focusable="true" android:visibility="visible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:checkMark="?android:listChoiceIndicatorMultiple" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:fontFamily="sans-serif-medium" />
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/infoContainer" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/chkbox_container" android:layout_alignParentLeft="true" android:layout_centerInParent="true">
+            <ImageView android:layout_gravity="center" android:id="@id/photo_view" android:layout_width="@dimen/list_photo_width" android:layout_height="@dimen/list_photo_width" />
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/common_padding" android:paddingRight="@dimen/common_padding" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/asus_list_item_main_text_size" android:textColor="@color/asus_primary_text_color" android:ellipsize="marquee" android:gravity="bottom" android:id="@id/info_name" android:layout_width="wrap_content" android:layout_height="0.0dip" android:singleLine="true" android:layout_weight="5.0" android:fontFamily="sans-serif-medium" />
+                <TextView android:textSize="@dimen/asus_list_item_second_text_size" android:textColor="@color/asus_second_text_color_n" android:ellipsize="marquee" android:gravity="top" android:id="@id/info_number" android:layout_width="wrap_content" android:layout_height="0.0dip" android:singleLine="true" android:layout_weight="4.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/item_divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/itemContainer" android:layout_alignParentBottom="true" />
+</LinearLayout>

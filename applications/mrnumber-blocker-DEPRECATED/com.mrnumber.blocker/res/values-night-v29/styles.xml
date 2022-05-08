@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <style name="Text.Small.Stonegrey" parent="@style/Text.Small">
-        <item name="android:textColor">#ffcccccc</item>
-    </style>
-    <style name="Text.Subtitle.Gray" parent="@style/Text.Subtitle">
-        <item name="android:textColor">#ffcccccc</item>
-    </style>
-</resources>

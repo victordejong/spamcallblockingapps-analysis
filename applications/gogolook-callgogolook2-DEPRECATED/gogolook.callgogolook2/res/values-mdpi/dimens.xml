@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="guardian_detail_empty_margin_bottom">32.0dip</dimen>
-    <dimen name="guardian_intro_image_margin_top">13.5dip</dimen>
-    <dimen name="guardian_intro_title_margin_top">11.0dip</dimen>
-    <dimen name="search_bar_text_size">12.0sp</dimen>
-    <item type="dimen" name="standard_icon_size">@dimen/standard_icon_size_mdpi</item>
-</resources>

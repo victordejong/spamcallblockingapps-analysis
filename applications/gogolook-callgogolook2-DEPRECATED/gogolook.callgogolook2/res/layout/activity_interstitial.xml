@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/interstitial_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageButton android:id="@id/imgBtnDismiss" android:background="@drawable/rounded" android:padding="0.0dip" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/dismiss" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
-</RelativeLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="25.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/feedback_bg" android:background="@drawable/call_end_block_finish_bg" android:layout_width="183.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:minHeight="183.0dip">
-        <ImageView android:layout_gravity="center" android:id="@id/feedback_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_end_block_finish_check" />
-        <TextView android:textSize="25.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/feedback_text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="8.0dip" android:text="@string/callend_block_toast_title" android:fontFamily="sans-serif" />
-        <TextView android:textSize="12.0sp" android:textColor="#fff89e9a" android:gravity="center" android:layout_gravity="center" android:id="@id/feedback_text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="25.0dip" android:text="@string/callend_block_toast_content" android:fontFamily="sans-serif-light" />
-    </LinearLayout>
-</LinearLayout>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/ll_filter" android:background="@drawable/list_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="35.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="12.0sp" android:id="@id/mTvSpinnerTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SpinnerTitle" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.05" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@id/gContentBaseLine" />
-    <ImageView android:id="@id/mIvSortingIcon" android:layout_width="45.0dip" android:layout_height="35.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/ic_filter" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@id/gContentBaseLine" />
-    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/gContentBaseLine" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="35.0dip" />
-</androidx.constraintlayout.widget.ConstraintLayout>

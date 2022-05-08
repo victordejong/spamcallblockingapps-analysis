@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blocklist_add_select_dialog_items">
+        <item>Partner választása</item>
+        <item>Választás a friss hívásnaplókból</item>
+        <item>Adjon meg egy számot</item>
+        <item>Adjon meg egy SIP számot</item>
+    </string-array>
+    <string-array name="change_cover_options">
+        <item>Facebook-borító</item>
+        <item>Csop. borító</item>
+        <item>Alapért. borító</item>
+        <item>Borító testreszabása</item>
+    </string-array>
+    <string-array name="change_group_cover_options">
+        <item>Alapértelmezett csoport borító használata</item>
+        <item>Csoport borító testreszabása</item>
+    </string-array>
+    <string-array name="news_message">
+        <item>Vadonatúj stílusú ZenUI Tárcsázó és Partnerek! Mutatós és könnyen használható</item>
+        <item>Indítson hívást hívásnapló nélkül! Ne bajlódjön többé a nem kívánt hívásnaplók törlésével!</item>
+    </string-array>
+    <string-array name="picture_from_options">
+        <item>Kamera</item>
+        <item>Galéria</item>
+    </string-array>
+    <string-array name="speed_entry_list">
+        <item>Gyors</item>
+        <item>Mérsékelt</item>
+        <item>Lassú</item>
+    </string-array>
+    <string-array name="speed_level_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="toolpanel_news_message">
+        <item>Az új Egyebek lapon könnyedén megtalálhatók a funkciók és beállítások!</item>
+    </string-array>
+    <string-array name="whitelist_add_select_dialog_items">
+        <item>Partner választása</item>
+        <item>Választás a friss hívásnaplókból</item>
+        <item>Adjon meg egy számot</item>
+        <item>Adjon meg egy SIP számot</item>
+    </string-array>
+</resources>

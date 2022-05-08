@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="?list_item_header_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AsusHeaderTextViewStyle" />
-    <View android:layout_gravity="bottom" android:background="@color/amax_header_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/asus_header_divider_height" android:layout_marginLeft="@dimen/asus_header_divider_margin_left" android:layout_marginRight="@dimen/common_padding" android:layout_marginBottom="@dimen/asus_header_divider_margin_bottom" />
-</LinearLayout>

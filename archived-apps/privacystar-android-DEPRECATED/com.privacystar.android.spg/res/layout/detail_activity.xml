@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:orientation="vertical" android:background="@color/ps3_white" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.widget.AppBarLayout android:theme="@style/ThemeActionBar" android:gravity="center_vertical" android:id="@id/detail_view_appbar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:layout_gravity="center" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/detail_view_appbar_height" app:titleTextAppearance="@style/TopBarHeader.Big" style="@style/DetailToolbar" />
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/detail_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <android.support.v7.widget.CardView android:layout_gravity="bottom|center" android:id="@id/detail_view_button_cv" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/general_button_height" android:layout_marginBottom="@dimen/general_button_margin_bottom" android:layout_marginStart="@dimen/general_button_margin_start" android:layout_marginEnd="@dimen/general_button_margin_end" app:cardCornerRadius="@dimen/general_corner_radius" app:cardElevation="@dimen/general_elevation">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/button_gradient" android:scaleType="fitXY" />
+        <TextView android:layout_gravity="center" android:id="@id/detail_view_button_text" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/EulaButtonText" />
+    </android.support.v7.widget.CardView>
+    <com.rey.material.widget.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/detail_view_add_fab" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/fab_margin" app:fab_backgroundColor="?colorPrimary" app:fab_elevation="4.0dip" app:fab_iconSize="32.0dip" app:fab_iconSrc="@drawable/ic_add_white_24px" app:fab_radius="28.0dip" />
+</android.support.design.widget.CoordinatorLayout>

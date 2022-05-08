@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/realm_browser_database_list_item_min_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.scand.realmbrowser.view.RowView android:id="@id/db_class_list_row" android:paddingLeft="@dimen/realm_browser_database_list_item_left" android:paddingTop="@dimen/realm_browser_database_list_item_padding_top_bottom" android:paddingBottom="@dimen/realm_browser_database_list_item_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/realm_browser_database_list_item_left" />
-    <TextView android:textStyle="italic" android:textColor="@android:color/white" android:id="@id/db_class_list_row_number" android:background="@drawable/realm_browser_row_number_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/realm_browser_database_list_item_row_number_margin_left" android:layout_centerVertical="true" android:layout_marginStart="@dimen/realm_browser_database_list_item_row_number_margin_left" />
-</RelativeLayout>

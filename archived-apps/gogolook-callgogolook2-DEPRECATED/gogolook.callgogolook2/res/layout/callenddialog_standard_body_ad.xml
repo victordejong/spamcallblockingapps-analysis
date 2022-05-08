@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbarSize="2.0dip" android:scrollbarThumbVertical="@drawable/scrollbar_color" android:fadingEdgeLength="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fadeScrollbars="false" android:requiresFadingEdge="vertical">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rl_call" android:background="@drawable/popup_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/call_normal_bg">
+                <RelativeLayout android:layout_width="57.0dip" android:layout_height="45.0dip" android:layout_marginTop="24.0dip">
+                    <gogolook.callgogolook2.view.RoundImageView android:id="@id/iv_metaphor" android:layout_width="45.0dip" android:layout_height="45.0dip" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+                    <ImageView android:id="@id/iv_card_spam_icon" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/call_card_spam_icon" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+                <androidx.appcompat.widget.AppCompatTextView android:id="@id/tv_first" android:layout_marginTop="12.0dip" style="@style/CallEndDialogTitle" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff8a8f9b" android:gravity="center" android:id="@id/tv_description" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:singleLine="false" android:includeFontPadding="false" android:fontFamily="sans-serif-light" />
+                <TextView android:textSize="13.0sp" android:textColor="#ff8a8f9b" android:gravity="center" android:id="@id/tv_second" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="sans-serif" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/ced_red" android:gravity="center" android:id="@id/call_lastcall" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="10.0dip" android:singleLine="true" android:includeFontPadding="false" android:drawableLeft="@drawable/call_end_missed_call_icon" android:drawablePadding="2.0dip" android:fontFamily="sans-serif-light" />
+                <include layout="@layout/callenddialog_standard_body_action_area" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/ad_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/call_btn_close" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/popup_close_icon_selector" android:contentDescription="@null" />
+</FrameLayout>

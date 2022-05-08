@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/actionbarContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <TextView android:id="@id/statusContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/group_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:layout_below="@id/statusContainer" />
+    <LinearLayout android:orientation="vertical" android:id="@id/group_detail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/actionbarContainer">
+        <TextView android:gravity="center_vertical" android:id="@id/group_size" android:layout_width="fill_parent" android:layout_height="@dimen/group_detail_name_height" android:layout_marginLeft="@dimen/contact_tile_margin" style="@style/AmaxGroupDetailMemberSizeTextStyle" />
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/group_source_view_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:scrollbarStyle="outsideOverlay" android:id="@android:id/list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/contact_tile_margin" android:layout_marginRight="@dimen/contact_tile_margin" android:divider="@null" />
+            <include layout="@layout/group_detail_fragment_empty_view" />
+            <com.asus.contacts.materialui.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/fab_add" android:layout_width="@dimen/asus_fab_size" android:layout_height="@dimen/asus_fab_size" android:layout_marginRight="@dimen/asus_fab_marginRight" android:layout_marginBottom="@dimen/asus_fab_marginBottom" app:color="@color/asus_contacts2_fab_color" app:drawable="@drawable/asus_contacts2_ic_add" />
+            <ImageView android:background="?android:windowContentOverlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

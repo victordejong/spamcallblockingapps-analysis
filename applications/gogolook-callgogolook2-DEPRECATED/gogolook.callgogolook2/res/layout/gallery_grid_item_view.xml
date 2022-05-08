@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<gogolook.callgogolook2.messaging.ui.mediapicker.GalleryGridItemView android:background="@color/gallery_image_default_background" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/gallery_image_cell_size"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <gogolook.callgogolook2.messaging.ui.AsyncImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
-    <View android:background="@drawable/gallery_image_background_selector" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <CheckBox android:layout_gravity="end|center|top" android:id="@id/checkbox" android:background="@null" android:visibility="gone" android:layout_width="21.0dip" android:layout_height="21.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:button="@drawable/app_gallery_checkbox_selector" android:layout_marginEnd="4.0dip" />
-    <ImageView android:layout_gravity="center" android:id="@id/video_icon" android:visibility="invisible" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/ip_gallery_video_btn" />
-</gogolook.callgogolook2.messaging.ui.mediapicker.GalleryGridItemView>

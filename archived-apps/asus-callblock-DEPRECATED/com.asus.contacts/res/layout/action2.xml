@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/primary_text_size" android:textColor="@color/asus_primary_text_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/action" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_marginLeft="13.0dip" android:layout_weight="4.0" />
+    <TextView android:textSize="@dimen/primary_text_size" android:textColor="@color/asus_primary_text_color" android:gravity="center_vertical" android:id="@id/data2" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_marginLeft="20.0dip" android:singleLine="true" android:layout_weight="5.0" />
+    <RadioButton android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/radio_btn" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="13.0dip" android:layout_alignParentRight="true" />
+</LinearLayout>

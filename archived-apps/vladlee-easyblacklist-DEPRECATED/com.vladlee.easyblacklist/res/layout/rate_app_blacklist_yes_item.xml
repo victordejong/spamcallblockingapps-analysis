@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="#fffefbd4" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/primary_text" android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip" android:text="@string/suggest_rate_app" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/textEmpty" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <Button android:textSize="@dimen/image_button_text_size" android:textColor="@color/secondary_text" android:id="@id/buttonLater" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/later" android:textAllCaps="true" style="?android:borderlessButtonStyle" />
+        <Button android:textSize="@dimen/image_button_text_size" android:textColor="@color/accent" android:id="@id/buttonRate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rate_it" android:textAllCaps="true" style="?android:borderlessButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

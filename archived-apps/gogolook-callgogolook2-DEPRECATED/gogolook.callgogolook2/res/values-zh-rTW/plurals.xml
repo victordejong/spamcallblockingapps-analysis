@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="attachment_changed_accessibility_announcement">
+        <item quantity="other">有 %d 個附件可隨郵件傳送</item>
+        <item quantity="one">有 1 個附件可隨郵件傳送</item>
+    </plurals>
+    <plurals name="attachment_preview_close_content_description">
+        <item quantity="other">捨棄附件</item>
+        <item quantity="one">捨棄附件</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_attachments">
+        <item quantity="other">傳送附件</item>
+        <item quantity="one">傳送附件</item>
+    </plurals>
+    <plurals name="compose_message_view_hint_text_vcard">
+        <item quantity="other">傳送聯絡人卡片</item>
+        <item quantity="one">傳送聯絡人卡片</item>
+    </plurals>
+    <plurals name="month_count">
+        <item quantity="other">%d 個月</item>
+        <item quantity="one">1 個月</item>
+    </plurals>
+    <plurals name="notification_new_messages">
+        <item quantity="other">%d 則新訊息</item>
+        <item quantity="one">新訊息</item>
+    </plurals>
+    <plurals name="num_days_ago">
+        <item quantity="other">%d 天</item>
+        <item quantity="one">%d 天</item>
+    </plurals>
+    <plurals name="num_hours_ago">
+        <item quantity="other">%d 小時</item>
+        <item quantity="one">%d 小時</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d 分鐘</item>
+        <item quantity="one">%d 分鐘</item>
+    </plurals>
+    <plurals name="vcard_multiple_display_name">
+        <item quantity="other">%d 位聯絡人</item>
+        <item quantity="one">%d 位聯絡人</item>
+    </plurals>
+    <plurals name="wearable_participant_count">
+        <item quantity="other">%d 位參與者</item>
+        <item quantity="one">%d 位參與者</item>
+    </plurals>
+    <plurals name="week_count">
+        <item quantity="other">%d 週</item>
+        <item quantity="one">1 週</item>
+    </plurals>
+    <plurals name="year_count">
+        <item quantity="other">%d 年</item>
+        <item quantity="one">1 年</item>
+    </plurals>
+</resources>

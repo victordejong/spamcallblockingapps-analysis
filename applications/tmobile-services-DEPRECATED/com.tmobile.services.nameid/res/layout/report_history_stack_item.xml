@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/report_history_item_root_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:id="@id/report_history_item_linear_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip">
-        <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="#ff4a4a4a" android:layout_gravity="center_vertical" android:id="@id/report_history_item_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:lineSpacingExtra="4.0sp" />
-        <com.tmobile.services.nameid.ui.NameIDButton android:layout_gravity="center_vertical" android:id="@id/report_history_item_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/report_change_button" android:textAllCaps="false" style="@style/UncoloredButtonStyle" />
-    </LinearLayout>
-    <View android:id="@id/report_history_item_extra_space" android:background="@color/white_2" android:layout_width="fill_parent" android:layout_height="1.0dip" />
-</LinearLayout>

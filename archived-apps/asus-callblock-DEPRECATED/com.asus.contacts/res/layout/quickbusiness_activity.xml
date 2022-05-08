@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:id="@id/floating_layout" android:focusable="true" android:focusableInTouchMode="true" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.android.contacts.quickcontact.FloatingChildLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:ex="http://schemas.android.com/apk/res/com.asus.contacts">
+    <LinearLayout android:orientation="vertical" android:id="@android:id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="25.0dip" android:layout_marginStart="@dimen/quick_activity_padding" android:layout_marginEnd="@dimen/quick_activity_padding">
+        <view android:layout_width="fill_parent" android:layout_height="@dimen/quick_photo_width" ex:direction="widthToHeight" ex:ratio="@dimen/quickcontact_width_to_photoheight" class="com.android.contacts.widget.ProportionalLayout">
+            <include layout="@layout/quickbusiness_photo_container" />
+        </view>
+        <FrameLayout android:id="@id/track_scroller_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <View android:background="@color/asus_quickcontact_tab_background" android:layout_width="fill_parent" android:layout_height="@dimen/quick_action_width_without_line" />
+                <View android:background="@color/asus_quickcontact_tab_scroll_background" android:layout_width="fill_parent" android:layout_height="@dimen/quickcontact_tab_scroll_height" />
+            </LinearLayout>
+            <include layout="@layout/quickcontact_track" />
+        </FrameLayout>
+        <android.support.v4.view.ViewPager android:id="@id/item_list_pager" android:layout_width="fill_parent" android:layout_height="@dimen/asus_quickcontact_listview_max_height" />
+    </LinearLayout>
+</view>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@color/list_divider_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gogolook.callgogolook2.view.SizedTextView android:textSize="13.0sp" android:textColor="@color/whoscall_primary" android:gravity="start|center" android:id="@id/tv_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/blocklist_sectoin_myblocklist" android:fontFamily="sans-serif-medium" />
+    <gogolook.callgogolook2.view.SizedTextView android:textSize="13.0sp" android:textColor="@color/notification_red" android:gravity="center" android:id="@id/tv_notify" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignBaseline="@id/tv_primary" android:layout_marginStart="4.0dip" android:layout_toEndOf="@id/tv_primary" />
+    <gogolook.callgogolook2.view.SizedTextView android:textSize="13.0sp" android:textColor="@color/whoscall_secondary" android:id="@id/tv_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/block_empty_hint" android:layout_below="@id/tv_primary" />
+</RelativeLayout>

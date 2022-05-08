@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_selected="true" android:drawable="@drawable/ip_menu_video_on" />
-    <item android:drawable="@drawable/ip_menu_video_off" />
-</selector>

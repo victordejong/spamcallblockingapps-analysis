@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/item" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/list_item_margin_left_right" android:paddingTop="12.0dip" android:paddingRight="@dimen/list_item_margin_left_right" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RadioButton android:id="@id/radioButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:checked="true" />
-    <TextView android:textAppearance="@style/Text.Medium" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content"
-      xmlns:android="http://schemas.android.com/apk/res/android" />
-    <ImageView android:id="@id/premium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/premium_pill" />
-</LinearLayout>

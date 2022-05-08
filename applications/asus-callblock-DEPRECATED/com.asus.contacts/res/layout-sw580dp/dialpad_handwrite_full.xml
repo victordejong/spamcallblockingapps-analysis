@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_gravity="center_horizontal" android:id="@id/dialpad_handwrite_full" android:background="@color/asus_handwrite_background_full" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="@integer/dialpad_layout_weight_dialpad"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <view android:id="@id/asus_handwrite_view_full" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.android.contacts.dialpad.AsusHandwritingView" />
-</FrameLayout>

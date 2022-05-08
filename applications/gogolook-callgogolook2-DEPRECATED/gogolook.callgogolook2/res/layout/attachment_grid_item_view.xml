@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<gogolook.callgogolook2.messaging.ui.attachmentchooser.AttachmentGridItemView android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/attachment_grid_image_cell_size"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:id="@id/attachment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <View android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <CheckBox android:layout_gravity="end|center|top" android:id="@id/checkbox" android:background="@null" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/app_gallery_checkbox_selector" android:contentDescription="@string/gallery_checkbox_content_description" style="@style/AttachmentGridItemViewCheckBoxStyle" />
-</gogolook.callgogolook2.messaging.ui.attachmentchooser.AttachmentGridItemView>

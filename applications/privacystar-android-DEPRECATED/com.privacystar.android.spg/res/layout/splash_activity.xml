@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout android:orientation="vertical" android:id="@id/splash_activity_layout" android:background="@drawable/splash_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/imageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:contentDescription="@string/con_desc_splash_activity_app_logo" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.4" app:srcCompat="@drawable/ic_app_logo" />
-</android.support.constraint.ConstraintLayout>

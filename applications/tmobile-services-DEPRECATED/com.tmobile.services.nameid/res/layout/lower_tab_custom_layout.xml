@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@drawable/tab_with_divider_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textAppearance="@style/TabNoCapsAppearance" android:textSize="14.0sp" android:textColor="@drawable/tab_with_right_divider_selector" android:gravity="center" android:id="@id/tab_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textAllCaps="false" />
-</RelativeLayout>

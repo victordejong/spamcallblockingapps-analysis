@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/clSlide" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.viewpager2.widget.ViewPager2 android:orientation="horizontal" android:id="@id/viewPager2" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <com.viewpagerindicator.CirclePageIndicator android:id="@id/cpiIndicator" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:layout_marginBottom="25.0dip" app:fillColor="#ff00c10e" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/viewPager2" app:pageColor="#ffcccccc" app:radius="3.0dip" app:strokeWidth="0.0dip" />
-</androidx.constraintlayout.widget.ConstraintLayout>

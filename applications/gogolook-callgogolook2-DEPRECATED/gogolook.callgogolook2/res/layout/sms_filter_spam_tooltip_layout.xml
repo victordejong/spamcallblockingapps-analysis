@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/iv_arrow" android:background="@color/transparent" android:layout_width="@dimen/sms_log_filter_tooltip_arrow_width" android:layout_height="@dimen/sms_log_filter_tooltip_arrow_height" android:src="@drawable/arrows_left" android:contentDescription="@null" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
-    <include android:layout_width="@dimen/sms_log_filter_tooltip_width" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/iv_arrow" layout="@layout/sms_filter_tooltip_body_layout" />
-</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ViewStub android:id="@id/vs_custom" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    <LinearLayout android:orientation="vertical" android:id="@id/ll_whole" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
-        <ImageView android:layout_gravity="right" android:id="@id/iv_ad_outer_close" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ad_close" android:scaleType="fitCenter" />
-        <include layout="@layout/native_ad_template_1_content" />
-    </LinearLayout>
-</RelativeLayout>

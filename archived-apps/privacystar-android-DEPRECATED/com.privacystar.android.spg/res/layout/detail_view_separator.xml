@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:gravity="start|center" android:background="@color/detail_view_divider" android:layout_width="fill_parent" android:layout_height="@dimen/detail_view_divider_height" android:layout_marginTop="@dimen/detail_view_divider_margin_top" android:layout_marginBottom="@dimen/detail_view_divider_margin_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,44 @@
+package p081h.p203i.p204a.p224e.p259j.p276q;
+/* renamed from: h.i.a.e.j.q.x3 */
+/* loaded from: classes2-dex2jar.jar:h/i/a/e/j/q/x3.class */
+public final /* synthetic */ class C8773x3 {
+
+    /* renamed from: a */
+    public static final /* synthetic */ int[] f20111a;
+
+    /* renamed from: b */
+    public static final /* synthetic */ int[] f20112b = new int[EnumC8665l4.values().length];
+
+    /* JADX WARN: Unsupported multi-entry loop pattern (BACK_EDGE: B:16:0x0055 -> B:26:0x0014). Please submit an issue!!! */
+    /* JADX WARN: Unsupported multi-entry loop pattern (BACK_EDGE: B:17:0x0059 -> B:22:0x001f). Please submit an issue!!! */
+    /* JADX WARN: Unsupported multi-entry loop pattern (BACK_EDGE: B:18:0x005d -> B:8:0x002a). Please submit an issue!!! */
+    /* JADX WARN: Unsupported multi-entry loop pattern (BACK_EDGE: B:19:0x0061 -> B:28:0x003e). Please submit an issue!!! */
+    /* JADX WARN: Unsupported multi-entry loop pattern (BACK_EDGE: B:20:0x0065 -> B:24:0x0049). Please submit an issue!!! */
+    static {
+        try {
+            f20112b[EnumC8665l4.BYTE_STRING.ordinal()] = 1;
+        } catch (NoSuchFieldError e) {
+        }
+        try {
+            f20112b[EnumC8665l4.MESSAGE.ordinal()] = 2;
+        } catch (NoSuchFieldError e2) {
+        }
+        try {
+            f20112b[EnumC8665l4.STRING.ordinal()] = 3;
+        } catch (NoSuchFieldError e3) {
+        }
+        f20111a = new int[EnumC8786y3.values().length];
+        try {
+            f20111a[EnumC8786y3.MAP.ordinal()] = 1;
+        } catch (NoSuchFieldError e4) {
+        }
+        try {
+            f20111a[EnumC8786y3.VECTOR.ordinal()] = 2;
+        } catch (NoSuchFieldError e5) {
+        }
+        try {
+            f20111a[EnumC8786y3.SCALAR.ordinal()] = 3;
+        } catch (NoSuchFieldError e6) {
+        }
+    }
+}

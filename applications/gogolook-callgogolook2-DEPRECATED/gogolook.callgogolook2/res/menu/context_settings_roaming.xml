@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@id/menu_roaming_wifi_only" android:title="@string/setting_roaming_option_wifi" />
-    <item android:id="@id/menu_roadming_always" android:title="@string/setting_roaming_option_enable" />
-</menu>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/audio_attachment_background" android:background="@drawable/ip_audio_img_1_9" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/AppTheme.AudioAttachmentViewStyle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <gogolook.callgogolook2.messaging.ui.AudioAttachmentView android:id="@id/audio_attachment_view" android:layout_width="fill_parent" android:layout_height="@dimen/app_single_attachment_min_size" />
-</FrameLayout>

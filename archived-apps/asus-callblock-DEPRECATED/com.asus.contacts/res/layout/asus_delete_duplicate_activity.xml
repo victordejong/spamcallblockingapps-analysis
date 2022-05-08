@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/common_padding" android:paddingEnd="@dimen/common_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="vertical" android:id="@id/all_container" android:background="@color/amax_common_bg_color" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckedTextView android:textSize="@dimen/asus_list_item_main_text_size" android:textColor="@color/asus_name_text" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/itemCheckSelectAll" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="63.0dip" android:text="@string/menu_select_all" android:drawableLeft="?android:listChoiceIndicatorMultiple" />
+    </FrameLayout>
+    <View android:id="@id/divider" android:background="@color/amax_filter_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <FrameLayout android:background="@color/amax_common_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorSecondary" android:gravity="center" android:id="@id/empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/no_duplicate" />
+    </FrameLayout>
+</LinearLayout>

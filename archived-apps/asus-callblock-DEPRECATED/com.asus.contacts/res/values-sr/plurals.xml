@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">"
+           Osoba: %1$d"</item>
+        <item quantity="one">"
+            Osoba: %1$d"</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">Kontakata: %,d</item>
+        <item quantity="one">1 kontakt</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">"
+            Govornih poruka: %1$d"</item>
+        <item quantity="one">Govorna pošta</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">"
+            Pronađeno: %d "</item>
+        <item quantity="one">1 pronađen</item>
+    </plurals>
+    <plurals name="uf_sdk_number_of_subscribers_format">
+        <item quantity="other">%1$s kažu da im se sviđa ova tema</item>
+        <item quantity="one">%1$s kaže da mu/joj se sviđa ova tema</item>
+    </plurals>
+    <plurals name="uf_sdk_topics">
+        <item quantity="other">tema/e</item>
+        <item quantity="one">tema</item>
+    </plurals>
+    <plurals name="uv_articles">
+        <item quantity="other">articles</item>
+        <item quantity="one">article</item>
+    </plurals>
+    <plurals name="uv_comments">
+        <item quantity="other">komentari</item>
+        <item quantity="one">komentar</item>
+    </plurals>
+    <plurals name="uv_ideas">
+        <item quantity="other">ideas</item>
+        <item quantity="one">idea</item>
+    </plurals>
+    <plurals name="uv_number_of_subscribers_format">
+        <item quantity="other">%1$s želi ovu ideju</item>
+        <item quantity="one">%1$s želi ovu ideju</item>
+    </plurals>
+    <plurals name="uv_people">
+        <item quantity="other">ljudi</item>
+        <item quantity="one">osoba</item>
+    </plurals>
+    <plurals name="uv_subscribers">
+        <item quantity="other">pretplatnici</item>
+        <item quantity="one">pretplatnik</item>
+    </plurals>
+</resources>

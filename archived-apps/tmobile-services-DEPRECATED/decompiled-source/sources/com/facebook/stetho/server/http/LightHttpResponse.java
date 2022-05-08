@@ -1,0 +1,23 @@
+package com.facebook.stetho.server.http;
+/* loaded from: classes-dex2jar.jar:com/facebook/stetho/server/http/LightHttpResponse.class */
+public class LightHttpResponse extends LightHttpMessage {
+    public LightHttpBody body;
+    public int code;
+    public String reasonPhrase;
+
+    public void prepare() {
+        LightHttpBody lightHttpBody = this.body;
+        if (lightHttpBody != null) {
+            addHeader(HttpHeaders.CONTENT_TYPE, lightHttpBody.contentType());
+            addHeader(HttpHeaders.CONTENT_LENGTH, String.valueOf(this.body.contentLength()));
+        }
+    }
+
+    @Override // com.facebook.stetho.server.http.LightHttpMessage
+    public void reset() {
+        super.reset();
+        this.code = -1;
+        this.reasonPhrase = null;
+        this.body = null;
+    }
+}

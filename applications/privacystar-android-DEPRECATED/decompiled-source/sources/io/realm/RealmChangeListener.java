@@ -1,5 +1,0 @@
-package io.realm;
-/* loaded from: classes2-dex2jar.jar:io/realm/RealmChangeListener.class */
-public interface RealmChangeListener<T> {
-    void onChange(T t);
-}

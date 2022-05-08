@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/checked_cardview_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/checked_cardview_card" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="6.0dip" app:cardUseCompatPadding="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/checked_cardview_linear_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <LinearLayout android:orientation="horizontal" android:id="@id/checked_cardview_card_linear_layout_2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/MediumBlack16Font" android:id="@id/checked_cardview_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <CheckBox android:theme="@style/ControlStockColor" android:id="@id/checked_cardview_checkbox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="18.799988dip" />
+            </LinearLayout>
+            <TextView android:textAppearance="@style/Startup14Font" android:id="@id/checked_cardview_subtext" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

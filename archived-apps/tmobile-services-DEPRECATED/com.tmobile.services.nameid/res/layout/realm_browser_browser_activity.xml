@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout android:id="@id/drawer_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#ffff0000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/toolbar" layout="@layout/realm_browser_toolbar" />
+        <fragment android:name="com.scand.realmbrowser.DbTableFragment" android:id="@id/table_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar" />
+    </RelativeLayout>
+    <fragment android:name="com.scand.realmbrowser.DbConfigBrowserFragment" android:layout_gravity="start" android:id="@id/drawer_fragment" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</androidx.drawerlayout.widget.DrawerLayout>

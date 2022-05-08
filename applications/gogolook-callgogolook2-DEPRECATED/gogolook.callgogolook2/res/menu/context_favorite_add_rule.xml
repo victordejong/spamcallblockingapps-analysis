@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@drawable/add_favorits_01number" android:id="@id/menu_add_favorite_from_number" android:title="@string/blocklist_menu_insert" />
-    <item android:icon="@drawable/add_favorits_02history" android:id="@id/menu_add_favorite_from_calllog" android:visible="false" android:title="@string/blocklist_menu_recentcall" />
-    <item android:icon="@drawable/add_favorits_03contacts" android:id="@id/menu_add_favorite_from_contact" android:title="@string/blocklist_menu_contact" />
-</menu>

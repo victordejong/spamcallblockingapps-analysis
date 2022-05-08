@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d personer</item>
+        <item quantity="one">%1$d person</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%,d kontaktpersoner</item>
+        <item quantity="one">1 kontaktperson</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d telefonsvarerbeskeder</item>
+        <item quantity="one">Telefonsvarer</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d fundet</item>
+        <item quantity="one">1 fundet</item>
+    </plurals>
+    <plurals name="uf_sdk_number_of_subscribers_format">
+        <item quantity="other">%1$s kan lide dette emne</item>
+        <item quantity="one">%1$s kan lide dette emne</item>
+    </plurals>
+    <plurals name="uf_sdk_topics">
+        <item quantity="other">emner</item>
+        <item quantity="one">emne</item>
+    </plurals>
+    <plurals name="uv_articles">
+        <item quantity="other">articles</item>
+        <item quantity="one">article</item>
+    </plurals>
+    <plurals name="uv_comments">
+        <item quantity="other">kommentarer</item>
+        <item quantity="one">kommentar</item>
+    </plurals>
+    <plurals name="uv_ideas">
+        <item quantity="other">ideas</item>
+        <item quantity="one">idea</item>
+    </plurals>
+    <plurals name="uv_number_of_subscribers_format">
+        <item quantity="other">%1$s ønsker denne idé</item>
+        <item quantity="one">%1$s ønsker denne idé</item>
+    </plurals>
+    <plurals name="uv_people">
+        <item quantity="other">personer</item>
+        <item quantity="one">person</item>
+    </plurals>
+    <plurals name="uv_subscribers">
+        <item quantity="other">abonnenter</item>
+        <item quantity="one">abonnent</item>
+    </plurals>
+</resources>

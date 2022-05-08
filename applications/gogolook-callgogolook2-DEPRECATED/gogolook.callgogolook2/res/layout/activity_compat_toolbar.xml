@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/main_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/app_tool_bar" />
-    <View android:id="@id/v_shadow" android:background="@drawable/top_to_bottom_shadow" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_below="@id/toolbar" />
-    <FrameLayout android:id="@id/fl_body" android:background="@color/common_background_gray_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar" />
-</RelativeLayout>

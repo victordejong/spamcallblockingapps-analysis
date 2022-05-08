@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:background="@drawable/background_ndp_history_sms_scan_url_warning" android:layout_width="fill_parent" android:layout_height="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gogolook.commonlib.view.IconFontTextView android:textSize="12.0dip" android:textColor="@color/notification_red" android:id="@id/iftv_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_spam_triangle" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_alignParentStart="true" />
+    <TextView android:textSize="9.0sp" android:textColor="@color/notification_red" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ndphistory_hasurl" android:layout_centerVertical="true" android:layout_marginStart="2.0dip" android:layout_marginEnd="4.0dip" android:layout_toStartOf="@id/btn_scan_url" android:layout_toEndOf="@id/iftv_icon" />
+    <Button android:textSize="10.0sp" android:textColor="@color/white" android:id="@id/btn_scan_url" android:background="@drawable/background_ndp_history_sms_scan_url_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/ndphistory_scanurl" android:textAllCaps="false" android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@drawable/asus_ic_cancel" android:id="@id/favorite_picker_cancel" android:tint="@color/asus_contacts2_statusbar_bg_color" android:title="@string/menu_doNotSave" android:showAsAction="always" />
-    <item android:icon="@drawable/asus_ic_add" android:id="@id/create_new_contact" android:tint="@color/asus_contacts2_statusbar_bg_color" android:title="@string/edit_group_add_contact" android:showAsAction="always" />
-</menu>

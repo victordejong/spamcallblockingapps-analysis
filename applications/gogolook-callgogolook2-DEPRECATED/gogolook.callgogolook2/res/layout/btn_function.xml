@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <ImageButton android:id="@id/action_fab" android:background="@null" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_centerInParent="true" />
-        <ImageView android:id="@id/iv_selectable_indicator" android:visibility="gone" android:layout_width="10.0dip" android:layout_height="8.0dip" android:layout_marginLeft="-7.0dip" android:src="@drawable/icon_arrow_audio_select" android:layout_toRightOf="@id/action_fab" android:layout_centerVertical="true" />
-    </RelativeLayout>
-    <TextView android:textSize="14.0sp" android:textColor="#8a263147" android:gravity="center" android:id="@id/action_desc" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="32.5dip" />
-</LinearLayout>

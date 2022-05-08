@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="copy_email">Copiar enderezo de correo electrónico</string>
-    <string name="copy_number">Copiar número de teléfono</string>
-    <string name="failed">Non se puido cargar a imaxe</string>
-    <string name="more_string">+%1$d</string>
-    <string name="photo_view_count" formatted="false">%d de %d</string>
-    <string name="retry">Tentar de novo</string>
-</resources>

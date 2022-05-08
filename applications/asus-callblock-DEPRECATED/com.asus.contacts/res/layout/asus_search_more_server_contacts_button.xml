@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/search_server_text_size" android:textColor="@color/asus_primary_text_color" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:paddingLeft="@dimen/asus_header_padding" android:layout_width="wrap_content" android:layout_height="@dimen/contact_browser_list_item_photo_size" android:text="@string/btn_show_more" />
-</LinearLayout>

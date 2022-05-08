@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#fff8f8f8" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <TextView android:textColor="#ff8a8f9b" android:gravity="center_vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/blocklist_sepcific_ddd_header" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+</LinearLayout>

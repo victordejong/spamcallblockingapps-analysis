@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blocklist_add_select_dialog_items">
+        <item>Kişilerden seç</item>
+        <item>Son arama kayıtlarından seç</item>
+        <item>Bir numara girin</item>
+        <item>Bir SIP numarası girin</item>
+    </string-array>
+    <string-array name="change_cover_options">
+        <item>FB kapağını kullan</item>
+        <item>Grup kapağını kullan</item>
+        <item>Vrsyln kapağı kullan</item>
+        <item>Kapağı özelleştir</item>
+    </string-array>
+    <string-array name="change_group_cover_options">
+        <item>Varsayılan grup kapağını kullan</item>
+        <item>Grup kapağını özelleştir</item>
+    </string-array>
+    <string-array name="news_message">
+        <item>ZenUI Çevirici ve Kişiler için yepyeni stil! ince ve kullanımı kolay!</item>
+        <item>Arama kaydı olmadan arama yapın! Artık istenmeyen arama kaydını silmekle uğraşmanıza gerek yok!</item>
+    </string-array>
+    <string-array name="picture_from_options">
+        <item>Kamera</item>
+        <item>Galeri</item>
+    </string-array>
+    <string-array name="speed_entry_list">
+        <item>Hızlı</item>
+        <item>Orta</item>
+        <item>Yavaş</item>
+    </string-array>
+    <string-array name="speed_level_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="toolpanel_news_message">
+        <item>Yeni sekme Diğerleri özellikleri ve ayarları kolaylıkla bulmanıza olanak sağlar!</item>
+    </string-array>
+    <string-array name="whitelist_add_select_dialog_items">
+        <item>Kişilerden seç</item>
+        <item>Son arama kayıtlarından seç</item>
+        <item>Bir numara girin</item>
+        <item>Bir SIP numarası girin</item>
+    </string-array>
+</resources>

@@ -1,3 +1,0 @@
-# Findings
-
-- No advanced blocking

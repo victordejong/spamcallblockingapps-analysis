@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@android:id/empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="18.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/asus_group_detail_vip_text_size" android:textColor="@color/group_detail_text_color" android:gravity="center_horizontal" android:id="@android:id/text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/emptyGroup" />
-    <TextView android:textSize="@dimen/asus_group_detail_vip_text_size" android:textColor="@color/group_detail_text_color" android:gravity="center_horizontal" android:id="@android:id/text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/addPeopleToGroup" />
-    <TextView android:textSize="@dimen/asus_group_detail_vip_text_size" android:textColor="@color/group_detail_text_color" android:layout_gravity="center_horizontal" android:id="@id/text1_vip" android:paddingLeft="@dimen/asus_group_detail_vip_text_padding" android:paddingRight="@dimen/asus_group_detail_vip_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_vip_member_text1_1" />
-</LinearLayout>

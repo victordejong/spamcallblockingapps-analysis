@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/contact_browser_list_item_size">
+        <RelativeLayout android:layout_gravity="right" android:id="@id/delete_button_container" android:paddingRight="@dimen/common_padding" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:id="@id/delete_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/checktextview_delete_selector" android:layout_centerVertical="true" android:contentDescription="@string/description_minus_button" />
+        </RelativeLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/photo" android:layout_width="@dimen/contact_browser_list_item_photo_size" android:layout_height="@dimen/contact_browser_list_item_photo_size" style="?android:quickContactBadgeStyleWindowMedium" />
+        <TextView android:textSize="@dimen/asus_list_item_main_text_size" android:textColor="@color/asus_list_item_main_text" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/name" android:paddingLeft="14.0dip" android:paddingRight="3.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" />
+        <ImageView android:id="@id/icon" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/asus_contacts2_rearrange" />
+    </LinearLayout>
+    <View android:id="@id/name_divider" android:background="@color/amax_filter_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

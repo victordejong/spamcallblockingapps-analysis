@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blocklist_add_select_dialog_items">
+        <item>Selecionar dos contatos</item>
+        <item>Selecionar dos registros de chamadas recentes</item>
+        <item>Inserir um número</item>
+        <item>Inserir um número SIP</item>
+    </string-array>
+    <string-array name="change_cover_options">
+        <item>Usar capa Facebook</item>
+        <item>Usar capa do grupo</item>
+        <item>Usar capa padrão</item>
+        <item>Personalizar capa</item>
+    </string-array>
+    <string-array name="change_group_cover_options">
+        <item>Use capa do grupo padrão</item>
+        <item>Personalizar capa do grupo</item>
+    </string-array>
+    <string-array name="picture_from_options">
+        <item>Câmera</item>
+        <item>Galeria</item>
+    </string-array>
+    <string-array name="whitelist_add_select_dialog_items">
+        <item>Selecionar dos contatos</item>
+        <item>Selecionar dos registros de chamadas recentes</item>
+        <item>Inserir um número</item>
+        <item>Inserir um número SIP</item>
+    </string-array>
+</resources>

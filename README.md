@@ -21,7 +21,7 @@ See here how: [dynamic-analysis/README.md](dynamic-analysis/README.md)
 - gogolook.callgogolook2: Out of date does not function
 - com.mrnumber.blocker: Paid
 
-## Possible replacements
+## Replacements
 
 - truecaller: https://play.google.com/store/apps/details?id=com.truecaller
 - shouldIanswer: https://play.google.com/store/apps/details?id=org.mistergroup.shouldianswer

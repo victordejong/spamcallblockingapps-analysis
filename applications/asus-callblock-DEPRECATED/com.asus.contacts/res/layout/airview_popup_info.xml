@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/popup_container" android:paddingLeft="3.0dip" android:paddingTop="9.0dip" android:paddingRight="3.0dip" android:paddingBottom="13.0dip" android:layout_width="188.0dip" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="18.0sp" android:textColor="@android:color/black" android:ellipsize="marquee" android:id="@id/popup_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
-    <TextView android:textSize="14.0sp" android:textColor="#ff787878" android:ellipsize="marquee" android:id="@id/popup_birthday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
-</LinearLayout>

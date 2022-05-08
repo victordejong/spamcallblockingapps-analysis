@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.contacts.detail.ActionsViewContainer android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/actions_view_container" android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:id="@id/list_item_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/asus_fragment_overlay_margin" android:layout_marginTop="@dimen/contact_detail_list_item_top_margin" android:layout_marginBottom="@dimen/contact_detail_list_item_bottom_margin" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/primary_action_view" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:id="@id/type" style="@style/AsusContactDetailItemTypeTextViewStyle" />
+                    <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/presence_icon" android:layout_width="wrap_content" android:layout_height="@dimen/contact_detail_presence_icon_height" android:layout_marginLeft="4.0dip" android:scaleType="centerInside" />
+                    <TextView android:textSize="@dimen/contact_detail_primary_indicator_size" android:textColor="#ff238aab" android:layout_gravity="center_vertical" android:id="@id/primary_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/primary_indicator" android:includeFontPadding="false" />
+                </LinearLayout>
+                <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/data" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/AsusContactDetailItemDataTextViewStyle" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:id="@id/snap_mode_action_view_container" android:focusable="true" android:layout_width="@dimen/detail_list_item_action_icon_width" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="center" android:id="@id/snap_mode_action_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:id="@id/primary_action_view_container" android:layout_width="@dimen/detail_list_item_action_icon_width" android:layout_height="fill_parent">
+                <ImageView android:layout_gravity="center" android:id="@id/action_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <View android:id="@id/vertical_divider" android:background="?android:dividerVertical" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/detail_vertical_divider_vertical_margin" android:layout_marginBottom="@dimen/detail_vertical_divider_vertical_margin" />
+        </LinearLayout>
+        <ViewStub android:id="@id/video_call_action_view_container_stub" android:layout="@layout/video_call_image_stub" android:inflatedId="@id/video_call_action_view_container_stub" android:layout_width="@dimen/detail_list_item_action_icon_width" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:id="@id/secondary_action_view_container" android:background="?android:selectableItemBackground" android:focusable="true" android:nextFocusLeft="@id/actions_view_container" android:layout_width="@dimen/detail_list_item_action_icon_width" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <ImageView android:layout_gravity="center" android:id="@id/secondary_action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </com.android.contacts.detail.ActionsViewContainer>
+</LinearLayout>

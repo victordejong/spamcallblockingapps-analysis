@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:id="@id/itemContainer" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/search_list_item" />
-    <ImageButton android:id="@id/grey_call_button" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_call_24" android:contentDescription="@string/call" style="@style/search_call_button_padding" />
-</LinearLayout>

@@ -1,0 +1,26 @@
+﻿[
+	{
+        "id": "00009_01", 
+	    "sql": "DELETE FROM xtify WHERE processed = 1;"
+	}, 
+	{
+        "id": "00009_02", 
+	    "sql": "ALTER TABLE xtify ADD COLUMN markUnread INT DEFAULT 0;"
+	}, 
+	{
+        "id": "00009_03", 
+	    "sql": "ALTER TABLE xtify ADD COLUMN expiredDate VARCHAR(10) DEFAULT '';"
+	},
+	{
+        "id": "00009_04", 
+		"sql": "CREATE TABLE 'forms' (id INTEGER PRIMARY KEY AUTOINCREMENT, filedTimestamp DATETIME DEFAULT CURRENT_TIMESTAMP, type VARCHAR(10), flexFormId INTEGER, offline SMALLINT DEFAULT 1);"
+	},
+	{
+        "id": "00009_05", 
+		"sql": "CREATE TABLE 'formsData' (formId INTEGER, questionId INTEGER, elementName TEXT, answer TEXT);"
+	},
+	{
+        "id": "00009_06", 
+	    "sql": "ALTER TABLE callerIdCache ADD COLUMN bitValue INT;"
+	}
+]

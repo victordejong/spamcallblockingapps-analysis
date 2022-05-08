@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AsusRes" parent="@style/Base.V22.Theme.AsusRes" />
+    <style name="Base.Theme.AsusRes.Dialog" parent="@style/Base.V22.Theme.AsusRes.Dialog" />
+    <style name="Base.Theme.AsusRes.Dialog.Alert" parent="@style/Base.V22.Theme.AsusRes.Dialog.Alert" />
+    <style name="Base.Theme.AsusRes.Light" parent="@style/Base.V22.Theme.AsusRes.Light" />
+    <style name="Base.Theme.AsusRes.Light.Dialog" parent="@style/Base.V22.Theme.AsusRes.Light.Dialog" />
+    <style name="Base.Theme.AsusRes.Light.Dialog.Alert" parent="@style/Base.V22.Theme.AsusRes.Light.Dialog.Alert" />
+    <style name="Base.ThemeOverlay.AsusRes.ActionBar" parent="@android:style/ThemeOverlay.Material.ActionBar">
+        <item name="android:spinnerItemStyle">@style/Widget.AsusRes.TextView.SpinnerItem.ActionBar</item>
+        <item name="android:searchViewStyle">@style/Widget.AsusRes.SearchView.ActionBar</item>
+    </style>
+    <style name="Base.ThemeOverlay.AsusRes.Dark.ActionBar" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
+        <item name="android:colorBackground">@color/asusres_background_material_light</item>
+        <item name="android:spinnerDropDownItemStyle">@style/Widget.AsusRes.DropDownItem.Spinner</item>
+        <item name="android:spinnerItemStyle">@style/Widget.AsusRes.Light.TextView.SpinnerItem.ActionBar</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/TextAppearance.AsusRes.Widget.PopupMenu.Large</item>
+        <item name="android:colorControlHighlight">@color/asusres_ripple_material_light</item>
+        <item name="android:searchViewStyle">@style/Widget.AsusRes.Light.SearchView.ActionBar</item>
+    </style>
+    <style name="Base.ThemeOverlay.AsusRes.Light.ActionBar" parent="@android:style/ThemeOverlay.Material.ActionBar">
+        <item name="android:spinnerItemStyle">@style/Widget.AsusRes.Light.TextView.SpinnerItem.ActionBar</item>
+        <item name="android:searchViewStyle">@style/Widget.AsusRes.Light.SearchView.ActionBar</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.SearchView" parent="@android:style/Widget.Material.Light.SearchView">
+        <item name="android:closeIcon">@drawable/asusres_ic_clear_search_material</item>
+        <item name="android:goIcon">@drawable/asusres_ic_go_search_api_material</item>
+        <item name="android:searchIcon">@drawable/asusres_ic_search_api_material</item>
+        <item name="android:voiceIcon">@drawable/asusres_ic_voice_search_api_material</item>
+        <item name="android:commitIcon">@drawable/asusres_ic_commit_search_api_material</item>
+        <item name="android:searchHintIcon">@drawable/asusres_ic_search_api_material</item>
+    </style>
+    <style name="Base.Widget.AsusRes.SearchView" parent="@android:style/Widget.Material.SearchView">
+        <item name="android:closeIcon">@drawable/asusres_ic_clear_search_material</item>
+        <item name="android:goIcon">@drawable/asusres_ic_go_search_api_material</item>
+        <item name="android:searchIcon">@drawable/asusres_ic_search_api_material</item>
+        <item name="android:voiceIcon">@drawable/asusres_ic_voice_search_api_material</item>
+        <item name="android:commitIcon">@drawable/asusres_ic_commit_search_api_material</item>
+        <item name="android:searchHintIcon">@drawable/asusres_ic_search_api_material</item>
+    </style>
+    <style name="Base.V22.Theme.AsusRes" parent="@style/Base.V21.Theme.AsusRes">
+        <item name="android:actionBarTheme">@style/ThemeOverlay.AsusRes.ActionBar</item>
+        <item name="android:dialogPreferredPadding">@dimen/asusres_dialog_preferred_padding</item>
+    </style>
+    <style name="Base.V22.Theme.AsusRes.Dialog" parent="@style/Base.V21.Theme.AsusRes.Dialog">
+        <item name="android:listPreferredItemPaddingLeft">?android:dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingRight">?android:dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingStart">?android:dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingEnd">?android:dialogPreferredPadding</item>
+        <item name="android:actionBarTheme">@style/ThemeOverlay.AsusRes.ActionBar</item>
+        <item name="android:dialogPreferredPadding">@dimen/asusres_dialog_preferred_padding</item>
+    </style>
+    <style name="Base.V22.Theme.AsusRes.Dialog.Alert" parent="@style/Base.V21.Theme.AsusRes.Dialog.Alert">
+        <item name="android:listPreferredItemPaddingLeft">?android:dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingRight">?android:dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingStart">?android:dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingEnd">?android:dialogPreferredPadding</item>
+        <item name="android:actionBarTheme">@style/ThemeOverlay.AsusRes.ActionBar</item>
+        <item name="android:dialogPreferredPadding">@dimen/asusres_dialog_preferred_padding</item>
+    </style>
+    <style name="Base.V22.Theme.AsusRes.Light" parent="@style/Base.V21.Theme.AsusRes.Light">
+        <item name="android:actionBarTheme">@style/ThemeOverlay.AsusRes.Light.ActionBar</item>
+        <item name="android:dialogPreferredPadding">@dimen/asusres_dialog_preferred_padding</item>
+    </style>
+    <style name="Base.V22.Theme.AsusRes.Light.Dialog" parent="@style/Base.V21.Theme.AsusRes.Light.Dialog">
+        <item name="android:listPreferredItemPaddingLeft">?android:dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingRight">?android:dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingStart">?android:dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingEnd">?android:dialogPreferredPadding</item>
+        <item name="android:actionBarTheme">@style/ThemeOverlay.AsusRes.Light.ActionBar</item>
+        <item name="android:dialogPreferredPadding">@dimen/asusres_dialog_preferred_padding</item>
+    </style>
+    <style name="Base.V22.Theme.AsusRes.Light.Dialog.Alert" parent="@style/Base.V21.Theme.AsusRes.Light.Dialog.Alert">
+        <item name="android:listPreferredItemPaddingLeft">?android:dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingRight">?android:dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingStart">?android:dialogPreferredPadding</item>
+        <item name="android:listPreferredItemPaddingEnd">?android:dialogPreferredPadding</item>
+        <item name="android:actionBarTheme">@style/ThemeOverlay.AsusRes.Light.ActionBar</item>
+        <item name="android:dialogPreferredPadding">@dimen/asusres_dialog_preferred_padding</item>
+    </style>
+    <style name="Base.Widget.AsusRes.Light.SearchView.ActionBar" parent="@style/Base.Widget.AsusRes.Light.SearchView">
+        <item name="android:queryBackground">@empty</item>
+        <item name="android:submitBackground">@empty</item>
+    </style>
+    <style name="Base.Widget.AsusRes.SearchView.ActionBar" parent="@style/Base.Widget.AsusRes.SearchView">
+        <item name="android:queryBackground">@empty</item>
+        <item name="android:submitBackground">@empty</item>
+    </style>
+    <style name="Widget.AsusRes.Light.SearchView.ActionBar" parent="@style/Base.Widget.AsusRes.Light.SearchView.ActionBar" />
+    <style name="Widget.AsusRes.SearchView.ActionBar" parent="@style/Base.Widget.AsusRes.SearchView.ActionBar" />
+</resources>

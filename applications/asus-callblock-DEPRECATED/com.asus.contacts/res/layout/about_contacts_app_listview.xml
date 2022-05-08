@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/common_padding" android:paddingRight="@dimen/common_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <TextView android:textSize="@dimen/asus_list_item_main_text_size" android:textStyle="bold" android:textColor="@color/asus_primary_text_color" android:gravity="center" android:id="@id/listview_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
-        <TextView android:textSize="@dimen/asus_list_item_main_text_size" android:textColor="@color/asus_primary_text_color" android:gravity="center_vertical" android:autoLink="all" android:id="@id/listview_textview_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />" </LinearLayout>
-</LinearLayout>

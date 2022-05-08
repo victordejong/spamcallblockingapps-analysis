@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:paddingBottom="20.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:textSize="@dimen/keypad_phone_number_text_size" android:textStyle="bold" android:textColor="@color/keypad_phone_number_text" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/phoneNumber" android:background="@null" android:paddingLeft="48.0dip" android:paddingTop="10.0dip" android:paddingRight="48.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:singleLine="true" android:inputType="phone" android:fontFamily="sans-serif" />
+            <TextView android:textSize="17.0sp" android:textStyle="normal" android:textColor="#ffa6a6a6" android:gravity="center" android:id="@id/hint" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/keypad_hint" android:fontFamily="sans-serif" />
+        </FrameLayout>
+        <Button android:textSize="@dimen/keypad_lookup_button_text_size" android:textStyle="normal" android:layout_gravity="center_horizontal" android:id="@id/lookup" android:background="@drawable/keypad_lookup_back" android:paddingLeft="16.0dip" android:paddingTop="@dimen/keypad_lookup_button_padding" android:paddingRight="16.0dip" android:paddingBottom="@dimen/keypad_lookup_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="6.0dip" android:textAllCaps="false" android:fontFamily="sans-serif-medium" android:elevation="6.0dip" android:stateListAnimator="@null" android:forceDarkAllowed="false" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/dialpadWrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/dialpad" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="additional_button_dail_button_textSize1">7.0dip</dimen>
+    <dimen name="additional_button_dail_button_textSize2">21.0dip</dimen>
+    <dimen name="additional_button_dail_button_textSize3">16.0dip</dimen>
+    <dimen name="ez_add_contact_photo_height">226.0dip</dimen>
+    <dimen name="ez_add_contact_photo_width">308.0dip</dimen>
+    <dimen name="ez_additional_button_dail_button_textSize1">10.0dip</dimen>
+    <dimen name="ez_asus_dialerpad_digits_container_height">92.0dip</dimen>
+    <dimen name="ez_asus_dialpad_height">404.0dip</dimen>
+    <dimen name="ez_call_log_left_margin">18.0dip</dimen>
+    <dimen name="ez_call_log_right_margin">15.0dip</dimen>
+    <dimen name="ez_detail_contact_name_textsize">40.0sp</dimen>
+    <dimen name="ez_detail_contact_phone_textsize">21.0sp</dimen>
+    <dimen name="ez_detail_name_bottom_margin">8.0dip</dimen>
+    <dimen name="ez_detail_photo_bottom_margin">21.0dip</dimen>
+    <dimen name="speed_dial_add_content_area_margin_bottom">15.0dip</dimen>
+    <dimen name="speed_dial_add_content_text_size">12.0sp</dimen>
+    <dimen name="speed_dial_button_text_size">27.0sp</dimen>
+    <dimen name="speed_dial_contact_info_height">35.0dip</dimen>
+    <dimen name="speed_dial_contact_info_text_size">12.0dip</dimen>
+    <dimen name="speed_dial_item_coverview_height">82.0dip</dimen>
+    <dimen name="speed_dial_item_coverview_margin_bottom">7.0dip</dimen>
+    <dimen name="speed_dial_item_coverview_width">82.0dip</dimen>
+    <dimen name="speed_dial_name_max_width">90.0dip</dimen>
+    <dimen name="speed_dial_name_phone_area_margin_left">5.0dip</dimen>
+    <dimen name="speed_dial_name_phone_area_margin_right">5.0dip</dimen>
+    <dimen name="speed_dial_padding_bottom">17.0dip</dimen>
+    <dimen name="speed_dial_padding_top">17.0dip</dimen>
+    <dimen name="speed_dial_serial_number_text_size">27.0sp</dimen>
+    <dimen name="speed_dial_special_item_row_height">82.0dip</dimen>
+    <dimen name="speed_dial_user_count_margin_right">8.0dip</dimen>
+    <dimen name="speed_dial_user_info_margin_bottom">16.0dip</dimen>
+    <dimen name="ez_asus_dialpad_height_navigatiobar">354.0dip</dimen>
+</resources>

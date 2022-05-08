@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/protection_setup_basic_container" android:paddingLeft="16.0dip" android:paddingTop="13.0dip" android:paddingRight="16.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="18.0dip">
+            <TextView android:id="@id/protection_setup_basic_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/protection_setup_fragment_info_box_title_basic" style="@style/SettingsHeaderLeft" />
+            <TextView android:id="@id/protection_setup_basic_description_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/protection_setup_fragment_info_box_body_basic" style="@style/BodyText" />
+        </LinearLayout>
+        <com.rey.material.widget.RadioButton android:layout_gravity="center_vertical" android:id="@id/protection_setup_basic_rb" android:layout_width="wrap_content" android:layout_height="wrap_content" app:rbd_height="20.0dip" app:rbd_innerRadius="5.0dip" app:rbd_radius="9.0dip" app:rbd_strokeColor="@color/radio_colors" app:rbd_width="20.0dip" style="@style/Material.Drawable.RadioButton" />
+    </LinearLayout>
+    <LinearLayout android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/protection_setup_enhanced_container" android:paddingLeft="16.0dip" android:paddingTop="13.0dip" android:paddingRight="16.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="18.0dip">
+            <TextView android:id="@id/protection_setup_enhanced_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/protection_setup_fragment_info_box_title_enhanced" android:lines="1" android:layout_marginEnd="8.0dip" style="@style/SettingsHeaderLeft" />
+            <TextView android:id="@id/protection_setup_recommended_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:text="@string/protection_setup_recommended_icon" style="@style/RecommendedProtection" />
+            <TextView android:id="@id/protection_setup_enhanced_description_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/protection_setup_fragment_info_box_body_enhanced" style="@style/BodyText" />
+        </LinearLayout>
+        <com.rey.material.widget.RadioButton android:layout_gravity="center_vertical" android:id="@id/protection_setup_enhanced_rb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" app:rbd_height="20.0dip" app:rbd_innerRadius="5.0dip" app:rbd_radius="9.0dip" app:rbd_strokeColor="@color/radio_colors" app:rbd_width="20.0dip" style="@style/Material.Drawable.RadioButton" />
+    </LinearLayout>
+    <LinearLayout android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/protection_setup_maximum_container" android:paddingLeft="16.0dip" android:paddingTop="13.0dip" android:paddingRight="16.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="18.0dip">
+            <TextView android:id="@id/protection_setup_maximum_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/protection_setup_fragment_info_box_title_maximum" style="@style/SettingsHeaderLeft" />
+            <TextView android:id="@id/protection_setup_maximum_description_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/protection_setup_fragment_info_box_body_maximum" style="@style/BodyText" />
+        </LinearLayout>
+        <com.rey.material.widget.RadioButton android:layout_gravity="center_vertical" android:id="@id/protection_setup_maximum_rb" android:layout_width="wrap_content" android:layout_height="wrap_content" app:rbd_height="20.0dip" app:rbd_innerRadius="5.0dip" app:rbd_radius="9.0dip" app:rbd_strokeColor="@color/radio_colors" app:rbd_width="20.0dip" style="@style/Material.Drawable.RadioButton" />
+    </LinearLayout>
+    <LinearLayout android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/protection_setup_custom_prt_container" android:paddingLeft="16.0dip" android:paddingTop="13.0dip" android:paddingRight="16.0dip" android:paddingBottom="13.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="18.0dip">
+            <TextView android:id="@id/protection_setup_custom_prt_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/con_desc_advanced_settings" style="@style/SettingsHeaderLeft" />
+            <TextView android:id="@id/protection_setup_custom_prt_description_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/settings_fragment_info_box_body_custom" style="@style/BodyText" />
+        </LinearLayout>
+        <com.rey.material.widget.RadioButton android:layout_gravity="center_vertical" android:id="@id/protection_setup_custom_prt_rb" android:layout_width="wrap_content" android:layout_height="wrap_content" app:rbd_height="20.0dip" app:rbd_innerRadius="5.0dip" app:rbd_radius="9.0dip" app:rbd_strokeColor="@color/radio_colors" app:rbd_width="20.0dip" style="@style/Material.Drawable.RadioButton" />
+    </LinearLayout>
+</merge>

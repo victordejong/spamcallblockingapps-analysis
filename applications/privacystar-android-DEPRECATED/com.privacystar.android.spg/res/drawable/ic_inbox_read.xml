@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:height="40.0dip" android:width="40.0dip" android:viewportWidth="40.0" android:viewportHeight="40.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <path android:fillColor="@color/inbox_read_icon_color" android:pathData="M2,20C2,10.06 10.06,2 20,2C29.94,2 38,10.06 38,20C38,29.94 29.94,38 20,38C10.06,38 2,29.94 2,20Z" />
-    <path android:fillColor="#ffffffff" android:pathData="M27.87,14.04L13.13,14.04L20.5,18.98L27.87,14.04ZM20.5,21.02L12.02,15.34L12.02,25.97L28.98,25.97L28.98,15.34L20.5,21.02Z" />
-</vector>

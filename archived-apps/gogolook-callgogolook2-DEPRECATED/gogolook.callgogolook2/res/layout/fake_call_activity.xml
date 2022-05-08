@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_all" android:background="#ff161616" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/lnr_upper" android:background="#ff0698be" android:layout_width="fill_parent" android:layout_height="190.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageView android:id="@id/imgv_close" android:background="@drawable/btn_close_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffa5d0e0" android:id="@id/txv_incoming" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="44.0dip" android:text="@string/fake_call_incoming" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:fontFamily="sans-serif" />
+        <TextView android:textSize="30.0sp" android:textColor="#ffcce3ed" android:id="@id/txv_phone_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/fake_call_number" android:layout_below="@id/txv_incoming" android:layout_centerHorizontal="true" android:fontFamily="sans-serif" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:src="@drawable/simulation_bg_icons" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/lnr_upper" android:layout_alignParentLeft="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/txv_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="2.0" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/simulation_bg_receiver" />
+            <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <TextView android:textSize="15.0sp" android:textColor="#ffdddddd" android:gravity="center" android:id="@id/txv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:text="@string/fake_call_unknown" android:lines="2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:fontFamily="sans-serif" />
+    </RelativeLayout>
+</RelativeLayout>

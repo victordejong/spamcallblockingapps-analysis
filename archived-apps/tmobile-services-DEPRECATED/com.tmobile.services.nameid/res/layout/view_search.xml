@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/focus_thief" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <com.tmobile.services.nameid.ui.search.NameIDSearchBar android:id="@id/search_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/search_bar" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/display_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/search_bar" android:paddingStart="30.0dip" android:paddingEnd="30.0dip">
+        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="80.0dip" android:layout_marginTop="44.0dip" android:layout_marginBottom="28.0dip" android:src="@drawable/ic_illustrations_lookup" android:scaleType="fitCenter" />
+        <com.tmobile.services.nameid.ui.NameIDTextView android:textSize="21.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/search_empty_title" android:fontFamily="sans-serif-medium" android:textAlignment="center" />
+        <com.tmobile.services.nameid.ui.NameIDTextView android:textSize="14.0sp" android:textColor="@color/pale_gray" android:textColorLink="@color/magenta_or_royal_purple" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="22.0dip" android:text="@string/search_empty_description" android:lineSpacingExtra="8.0sp" android:textAlignment="center" />
+        <com.tmobile.services.nameid.ui.NameIDButton android:id="@id/action" android:background="@drawable/bg_rounded_button_background" android:visibility="gone" android:layout_width="164.0dip" android:layout_height="52.0dip" android:text="@string/search_action_button_label" android:backgroundTint="@color/warm_grey" />
+    </LinearLayout>
+    <View android:id="@id/shadow" android:background="@drawable/upward_shadow" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_below="@id/search_bar" />
+</RelativeLayout>

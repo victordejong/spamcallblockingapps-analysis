@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blocklist_add_select_dialog_items">
+        <item>Aus Kontakten wählen</item>
+        <item>Aus aktuellen Anrufprotokollen wählen</item>
+        <item>Eine Nummer eingeben</item>
+        <item>Eine SIP-Nummer eingeben</item>
+    </string-array>
+    <string-array name="change_cover_options">
+        <item>FB-Cover nutzen</item>
+        <item>Gruppencover nutzen</item>
+        <item>Standardcover nutzen</item>
+        <item>Cover anpassen</item>
+    </string-array>
+    <string-array name="change_group_cover_options">
+        <item>Standardgruppendeckblatt verwenden</item>
+        <item>Gruppendeckblatt anpassen</item>
+    </string-array>
+    <string-array name="news_message">
+        <item>Eine völlig neu gestaltete ZenUI Dialer und Kontakte! Schlank und einfach zu bedienen!</item>
+        <item>Telefonieren Sie ohne Anrufprotokoll! Kein Aufwand mehr mit dem Löschen unnötiger Anrufprotokolle!</item>
+    </string-array>
+    <string-array name="picture_from_options">
+        <item>Kamera</item>
+        <item>Galerie</item>
+    </string-array>
+    <string-array name="speed_entry_list">
+        <item>Schnell</item>
+        <item>Mittel</item>
+        <item>Langsam</item>
+    </string-array>
+    <string-array name="speed_level_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="toolpanel_news_message">
+        <item>Über die neue Registerkarte Sonstige finden Sie Funktionen und Einstellungen im Handumdrehen!</item>
+    </string-array>
+    <string-array name="whitelist_add_select_dialog_items">
+        <item>Aus Kontakten wählen</item>
+        <item>Aus aktuellen Anrufprotokollen wählen</item>
+        <item>Eine Nummer eingeben</item>
+        <item>Eine SIP-Nummer eingeben</item>
+    </string-array>
+</resources>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/asus_account_filter_header_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="@dimen/asus_filter_view_height">
-        <TextView android:id="@id/asus_account_filter_header" android:text="@string/filter_window_all_history" android:layout_alignParentLeft="true" style="@style/AsusContactFilterStyle" />
-    </RelativeLayout>
-    <View android:background="@color/amax_filter_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/common_padding" android:layout_marginRight="@dimen/common_padding" />
-</LinearLayout>

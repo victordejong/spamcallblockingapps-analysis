@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/v_top_divider" android:background="@color/list_divider_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <include android:id="@id/v_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/v_top_divider" layout="@layout/common_view_item_icon_with_two_row" />
+    <TextView android:textColor="@color/whoscall_primary_text" android:id="@id/tv_content" android:paddingLeft="32.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/v_primary" android:lineSpacingExtra="2.0dip" style="@style/Font.TextSize.T3" />
+</RelativeLayout>

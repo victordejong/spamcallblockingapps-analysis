@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.appcompat.widget.SwitchCompat android:textColor="@color/tabs_selected" android:id="@id/switchSchedule" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/schedule" android:layout_weight="1.0" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
-</LinearLayout>

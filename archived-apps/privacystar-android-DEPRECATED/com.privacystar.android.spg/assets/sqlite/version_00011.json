@@ -1,0 +1,10 @@
+﻿[
+	{
+        "id": "00011_01", 
+	    "sql": "ALTER TABLE callerIdCache ADD COLUMN cityState VARCHAR(250) DEFAULT '';"
+	}, 
+	{
+        "id": "00011_02", 
+	    "sql": "ALTER TABLE callerIdCache ADD COLUMN lineType VARCHAR(50) DEFAULT '';"
+	}
+]

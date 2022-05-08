@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="attorney_general_enabled_states">
+        <item>AR</item>
+    </string-array>
+    <string-array name="caller_detail_tag_options">
+        <item>Scam</item>
+        <item>Nuisance</item>
+        <item>Telemarketing</item>
+        <item>Account Services</item>
+        <item>Political</item>
+        <item>Charity</item>
+        <item>Survey</item>
+        <item>Prison/Jail</item>
+    </string-array>
+    <string-array name="license_lib_exclusions">
+        <item>AboutLibraries</item>
+        <item>MultiDex</item>
+    </string-array>
+    <string-array name="onboarding_hints">
+        <item></item>
+        <item></item>
+        <item>Free for All Users</item>
+        <item>With Trial &amp; Pro Subscription</item>
+        <item>With Trial &amp; Pro Subscription</item>
+        <item>Free for All Users</item>
+        <item></item>
+    </string-array>
+    <string-array name="onboarding_links">
+        <item>By continuing, you agree to our &lt;u>End User License Agreement&lt;/u>.</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>&lt;u>Tell me more&lt;/u> about Permissions.</item>
+    </string-array>
+    <string-array name="onboarding_subtitles">
+        <item>Start Getting Protected</item>
+        <item>@string/neighborhood_spoofing_subtitle</item>
+        <item>We know who the scammers are! You can block them or we will tell you when they call!</item>
+        <item>We block scammers and other annoying callers based on your preferences.</item>
+        <item>Lookup any number to get detailed results to know whether that number is safe to call or answer.</item>
+        <item>File a complaint with your regulatory authorities on a nuisance caller or tell us when we missed one of the bad guys.</item>
+        <item>PrivacyStar needs access to a few things so it can provide you with the best protection possible, but rest assured your phone is safe with us!</item>
+    </string-array>
+    <string-array name="onboarding_titles">
+        <item>Welcome to PrivacyStar</item>
+        <item>@string/neighborhood_spoofing_title</item>
+        <item>Identify</item>
+        <item>Block</item>
+        <item>Lookup</item>
+        <item>Reporting</item>
+        <item>Permissions</item>
+    </string-array>
+    <integer-array name="psAnalyticsBitmap">
+        <item>0xFCF07FFF</item>
+        <item>0xFFFFF96F</item>
+        <item>0xFFFFFA0F</item>
+        <item>0xFFFFFFFF</item>
+    </integer-array>
+    <string-array name="psPackageNames">
+        <item>com.privacystar.android</item>
+        <item>com.privacystar.android.test</item>
+        <item>com.privacystar.android.sprint</item>
+        <item>com.privacystar.android.boost</item>
+        <item>com.privacystar.android.att</item>
+        <item>com.privacystar.android.cricket</item>
+        <item>com.privacystar.android.tracfone</item>
+        <item>com.privacystar.android.spg</item>
+        <item>com.firstorion.android.roboshield</item>
+        <item>hotspotshield.android.roboshield</item>
+        <item>uk.co.firstorion.android.tpsprotect</item>
+        <item>com.nomorobo</item>
+        <item>com.stop.spam.calls.sms.frees</item>
+        <item>com.webascender.callerid</item>
+        <item>com.truecaller</item>
+        <item>com.mrnumber.blocker</item>
+        <item>com.vladlee.callblocker</item>
+        <item>com.androidrocker.callblocker</item>
+        <item>com.vladlee.easyblacklist</item>
+    </string-array>
+    <string-array name="report_debt_collector_question_options">
+        <item>@string/report_question_37</item>
+        <item>@string/report_question_38</item>
+        <item>@string/report_question_39</item>
+    </string-array>
+    <string-array name="report_non_offender_question_options">
+        <item>Finance or Debt</item>
+        <item>Sales or Marketing</item>
+        <item>Scam or Fraud</item>
+        <item>Automated Notifications</item>
+        <item>Charity</item>
+        <item>Political</item>
+        <item>Survey</item>
+        <item>Pharmacy</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="report_scammer_question_options">
+        <item>@string/report_question_44</item>
+        <item>@string/report_question_45</item>
+        <item>@string/report_question_46</item>
+        <item>@string/report_question_47</item>
+        <item>@string/report_question_48</item>
+    </string-array>
+    <string-array name="static_offender_category_names">
+        <item>Debt Collector</item>
+        <item>Original Creditor</item>
+        <item>Payday Loan</item>
+        <item>Third Party Collection</item>
+        <item>Scammer</item>
+        <item>Automated Marketing</item>
+        <item>Debt Relief</item>
+        <item>Live Telesales</item>
+        <item>Non Profit</item>
+        <item>Pharmacy</item>
+        <item>Political</item>
+        <item>General Survey</item>
+        <item>Sweepstakes</item>
+        <item>Telemarketer</item>
+        <item>Telecom Service</item>
+        <item>Event Notification</item>
+        <item>Fax Machine</item>
+        <item>Other Business</item>
+        <item>Personal Number</item>
+        <item>Prison</item>
+        <item>Silent/Abandoned</item>
+        <item>Unknown</item>
+        <item>Shared Number</item>
+        <item>Scammer - Invalid #</item>
+        <item>Scammer - Live</item>
+        <item>Scammer - No Live</item>
+        <item>Fraud</item>
+        <item>School District</item>
+    </string-array>
+    <string-array name="us_states_abbr_array">
+        <item>--</item>
+        <item>AL</item>
+        <item>AK</item>
+        <item>AZ</item>
+        <item>AR</item>
+        <item>CA</item>
+        <item>CO</item>
+        <item>CT</item>
+        <item>DE</item>
+        <item>FL</item>
+        <item>GA</item>
+        <item>HI</item>
+        <item>ID</item>
+        <item>IL</item>
+        <item>IN</item>
+        <item>IA</item>
+        <item>KS</item>
+        <item>KY</item>
+        <item>LA</item>
+        <item>ME</item>
+        <item>MD</item>
+        <item>MA</item>
+        <item>MI</item>
+        <item>MN</item>
+        <item>MS</item>
+        <item>MO</item>
+        <item>MT</item>
+        <item>NE</item>
+        <item>NV</item>
+        <item>NH</item>
+        <item>NJ</item>
+        <item>NM</item>
+        <item>NY</item>
+        <item>NC</item>
+        <item>ND</item>
+        <item>OH</item>
+        <item>OK</item>
+        <item>OR</item>
+        <item>PA</item>
+        <item>RI</item>
+        <item>SC</item>
+        <item>SD</item>
+        <item>TN</item>
+        <item>TX</item>
+        <item>UT</item>
+        <item>VT</item>
+        <item>VA</item>
+        <item>WA</item>
+        <item>WV</item>
+        <item>WI</item>
+        <item>WY</item>
+        <item>DC</item>
+        <item>PR</item>
+        <item>GU</item>
+        <item>VI</item>
+        <item>--</item>
+    </string-array>
+    <string-array name="us_states_array">
+        <item>Select your state</item>
+        <item>Alabama</item>
+        <item>Alaska</item>
+        <item>Arizona</item>
+        <item>Arkansas</item>
+        <item>California</item>
+        <item>Colorado</item>
+        <item>Connecticut</item>
+        <item>Delaware</item>
+        <item>Florida</item>
+        <item>Georgia</item>
+        <item>Hawaii</item>
+        <item>Idaho</item>
+        <item>Illinois</item>
+        <item>Indiana</item>
+        <item>Iowa</item>
+        <item>Kansas</item>
+        <item>Kentucky</item>
+        <item>Louisiana</item>
+        <item>Maine</item>
+        <item>Maryland</item>
+        <item>Massachusetts</item>
+        <item>Michigan</item>
+        <item>Minnesota</item>
+        <item>Mississippi</item>
+        <item>Missouri</item>
+        <item>Montana</item>
+        <item>Nebraska</item>
+        <item>Nevada</item>
+        <item>New Hampshire</item>
+        <item>New Jersey</item>
+        <item>New Mexico</item>
+        <item>New York</item>
+        <item>North Carolina</item>
+        <item>North Dakota</item>
+        <item>Ohio</item>
+        <item>Oklahoma</item>
+        <item>Oregon</item>
+        <item>Pennsylvania</item>
+        <item>Rhode Island</item>
+        <item>South Carolina</item>
+        <item>South Dakota</item>
+        <item>Tennessee</item>
+        <item>Texas</item>
+        <item>Utah</item>
+        <item>Vermont</item>
+        <item>Virginia</item>
+        <item>Washington</item>
+        <item>West Virginia</item>
+        <item>Wisconsin</item>
+        <item>Wyoming</item>
+        <item>District of Columbia</item>
+        <item>Puerto Rico</item>
+        <item>Guam</item>
+        <item>U.S. Virgin Islands</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="walkthrough_subtitles">
+        <item>See who called when and why.</item>
+        <item>Learn more about who is calling you.</item>
+        <item>Select what type of calls to block.</item>
+    </string-array>
+    <string-array name="walkthrough_titles">
+        <item>Recent Activity</item>
+        <item>Caller Details</item>
+        <item>Get Protected</item>
+    </string-array>
+    <array name="zui_avatar_view__background_color_palette">
+        <item>#fff03a76</item>
+        <item>#ffae44be</item>
+        <item>#fff03a76</item>
+        <item>#ffae44be</item>
+        <item>#ff673ab7</item>
+        <item>#ff3f51b5</item>
+        <item>#ff03a9f4</item>
+        <item>#ff009688</item>
+        <item>#ff8bc34a</item>
+        <item>#ffc0ca33</item>
+        <item>#fffdd835</item>
+        <item>#ffff9800</item>
+        <item>#ffff5722</item>
+        <item>#fff44336</item>
+        <item>#ffffc107</item>
+        <item>#ff4caf50</item>
+        <item>#ff00bcd4</item>
+        <item>#ff2196f3</item>
+        <item>#ff607d8b</item>
+        <item>#ff795548</item>
+        <item>#ff9e9e9e</item>
+    </array>
+</resources>

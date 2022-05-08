@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="@color/text_gray" android:id="@id/tvLeave" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/premium_promo_page_leave_cta" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/ivIcon" android:layout_width="130.0dip" android:layout_height="86.0dip" android:layout_marginTop="26.0dip" android:src="@drawable/im_protect_promo_hint" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="28.0sp" android:textColor="@color/text_black" android:gravity="center" android:id="@id/tvTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:fontFamily="sans-serif-medium" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ivIcon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

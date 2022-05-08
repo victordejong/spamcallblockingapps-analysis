@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@drawable/asus_ic_delete" android:id="@id/ez_delete_contact" android:visible="false" android:title="@string/menu_deleteContact" android:showAsAction="ifRoom" />
-</menu>

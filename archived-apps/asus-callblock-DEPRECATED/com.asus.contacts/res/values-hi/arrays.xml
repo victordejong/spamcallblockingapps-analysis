@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blocklist_add_select_dialog_items">
+        <item>संपर्क से चुनें</item>
+        <item>हाल के कॉल लॉग से चुनें</item>
+        <item>एक नंबर प्रविष्ट करें</item>
+        <item>SIP नंबर प्रविष्ट करें</item>
+    </string-array>
+    <string-array name="change_cover_options">
+        <item>Facebook कवर का प्रयोग करें</item>
+        <item>समूह कवर का प्रयोग करें</item>
+        <item>डिफाल्ट कवर का प्रयोग करें</item>
+        <item>कवर कस्टमाइज़ करें</item>
+    </string-array>
+    <string-array name="change_group_cover_options">
+        <item>डिफाल्ट समूह कवर का प्रयोग करें</item>
+        <item>समूह कवर को कस्टमाइज़ करें</item>
+    </string-array>
+    <string-array name="news_message">
+        <item>ZenUI डायलर और संपर्क के लिए एकदम नया अंदाज़! स्लिम और उपयोग में आसान!</item>
+        <item>कॉल लॉग के बिना कॉल करें! अब अवांछित कॉल लॉग हटाने के लिए परेशान न हों!</item>
+    </string-array>
+    <string-array name="picture_from_options">
+        <item>कैमरा</item>
+        <item>गैलरी</item>
+    </string-array>
+    <string-array name="speed_entry_list">
+        <item>तेज़</item>
+        <item>मध्यम</item>
+        <item>धीमा</item>
+    </string-array>
+    <string-array name="speed_level_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="toolpanel_news_message">
+        <item>नया टैब अन्य से आप सुविधाएँ और सेटिंग्स आसानी से ढूँढ़ सकते हैं!</item>
+    </string-array>
+    <string-array name="whitelist_add_select_dialog_items">
+        <item>संपर्क से चुनें</item>
+        <item>हाल के कॉल लॉग से चुनें</item>
+        <item>एक नंबर प्रविष्ट करें</item>
+        <item>SIP नंबर प्रविष्ट करें</item>
+    </string-array>
+</resources>

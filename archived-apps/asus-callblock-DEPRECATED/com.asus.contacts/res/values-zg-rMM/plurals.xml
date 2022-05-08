@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="uf_sdk_number_of_subscribers_format">
+        <item quantity="other">%1$s သည္ ဤအေၾကာင္းအရာကို ႏွစ္သက္သည္</item>
+        <item quantity="one">%1$s သည္ ဤအေၾကာင္းအရာကို ႏွစ္သက္သည္</item>
+    </plurals>
+    <plurals name="uf_sdk_topics">
+        <item quantity="other">အေၾကာင္းအရာမ်ား</item>
+        <item quantity="one">အေၾကာင္းအရာ</item>
+    </plurals>
+    <plurals name="uv_articles">
+        <item quantity="other">ေဆာင္းပါးမ်ား</item>
+        <item quantity="one">ေဆာင္းပါး</item>
+    </plurals>
+    <plurals name="uv_comments">
+        <item quantity="other">မွတ္ခ်က္မ်ား</item>
+        <item quantity="one">မွတ္ခ်က္</item>
+    </plurals>
+    <plurals name="uv_ideas">
+        <item quantity="other">စိတ္ကူးမ်ား</item>
+        <item quantity="one">စိတ္ကူး</item>
+    </plurals>
+    <plurals name="uv_number_of_subscribers_format">
+        <item quantity="other">%1$s က ဤစိတ္ကူးကုိ လုိခ်င္သည္</item>
+        <item quantity="one">%1$s က ဤစိတ္ကူးကုိ လုိခ်င္သည္</item>
+    </plurals>
+    <plurals name="uv_people">
+        <item quantity="other">လူမ်ား</item>
+        <item quantity="one">လူ</item>
+    </plurals>
+    <plurals name="uv_subscribers">
+        <item quantity="other">စာရင္းသြင္းသူမ်ား</item>
+        <item quantity="one">စာရင္းသြင္းသူ</item>
+    </plurals>
+</resources>

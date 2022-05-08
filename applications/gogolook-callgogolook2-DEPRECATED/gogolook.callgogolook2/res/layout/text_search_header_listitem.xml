@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@drawable/list_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="12.0sp" android:textColor="@color/dark_blue_transparent" android:gravity="center_vertical" android:id="@id/header_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="9.0dip" android:layout_marginBottom="9.0dip" android:text="@string/whoscall_search_history_label" />
-</RelativeLayout>

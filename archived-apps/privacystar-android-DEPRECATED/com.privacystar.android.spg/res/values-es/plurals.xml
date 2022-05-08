@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="general_text_time_days_ago">
+        <item quantity="other">%d días atrás</item>
+        <item quantity="one">%d días atrás</item>
+    </plurals>
+    <plurals name="general_text_time_hours_ago">
+        <item quantity="other">%d hr. atrás</item>
+        <item quantity="one">%d hr. atrás</item>
+    </plurals>
+    <plurals name="general_text_time_minutes_ago">
+        <item quantity="other">%d min. atrás</item>
+        <item quantity="one">%d min. atrás</item>
+    </plurals>
+</resources>

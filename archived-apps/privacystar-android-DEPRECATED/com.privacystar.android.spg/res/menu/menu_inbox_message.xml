@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/menu_inbox_message_mark_unread" android:visible="true" android:title="@string/menu_inbox_message_mark_unread" app:showAsAction="never" />
+    <item android:id="@id/menu_inbox_message_delete" android:visible="true" android:title="@string/menu_inbox_message_delete" app:showAsAction="never" />
+</menu>

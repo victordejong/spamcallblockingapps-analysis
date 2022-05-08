@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout style="@style/AppTheme.ContextMenu.ContainerStyle">
-    <ImageView style="@style/AppTheme.ContextMenu.IconStyle" />
-    <TextView style="@style/AppTheme.ContextMenu.TextStyle" />
-</LinearLayout>

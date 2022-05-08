@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/caller_status_card_view" android:background="@color/report_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:listDivider" style="@style/ContactInfoView"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Button android:id="@id/contact_report_button" android:background="@drawable/transparent_ripple_button_background" android:text="@string/report" style="@style/ContactDetailsButton.White" />
-    <Button android:id="@id/contact_block_button" android:background="@drawable/transparent_ripple_button_background" android:text="@string/block" style="@style/ContactDetailsButton.White" />
-</LinearLayout>

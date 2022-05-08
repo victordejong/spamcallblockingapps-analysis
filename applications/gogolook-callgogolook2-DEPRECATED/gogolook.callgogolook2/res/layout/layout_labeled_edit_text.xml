@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="@dimen/text_size_t2" android:textColor="@color/whoscall_primary_text" android:id="@id/tv_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:lineSpacingExtra="1.0sp" />
-    <androidx.core.widget.NestedScrollView android:scrollbarThumbVertical="@drawable/editor_scrollbar_color" android:scrollbarStyle="outsideOverlay" android:id="@id/sv_content" android:background="@drawable/bg_labeled_edit_text" android:scrollbars="vertical" android:clipToPadding="false" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
-        <EditText android:textSize="@dimen/text_size_t2" android:textColor="@color/whoscall_primary_text" android:textColorHint="@color/text_gray" android:gravity="top" android:id="@id/et_content" android:background="@color/transparent" android:paddingLeft="12.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="2.0sp" android:paddingStart="12.0dip" android:paddingEnd="16.0dip" />
-    </androidx.core.widget.NestedScrollView>
-    <TextView android:textSize="@dimen/text_size_t4" android:textColor="@color/whoscall_warn_text" android:id="@id/tv_warning" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:lineSpacingExtra="3.0sp" />
-</LinearLayout>

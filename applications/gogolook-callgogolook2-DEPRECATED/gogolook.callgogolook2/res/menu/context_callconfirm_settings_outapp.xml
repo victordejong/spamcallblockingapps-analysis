@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@id/menu_dialog_mode_outapp_dual" android:visible="false" android:title="Dual mode" />
-    <item android:id="@id/menu_dialog_mode_outapp_single" android:title="@string/setting_call_confirm_mode_popup" />
-    <item android:id="@id/menu_dialog_mode_outapp_no_popup" android:title="@string/setting_call_confirm_mode_no_popup" />
-</menu>

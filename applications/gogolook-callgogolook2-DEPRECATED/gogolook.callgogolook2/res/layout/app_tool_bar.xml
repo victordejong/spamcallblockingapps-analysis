@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.Toolbar android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:background="@color/whoscall_green" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height" app:popupTheme="@style/AppTheme.PopupOverlay" app:titleTextColor="@color/white" style="@style/AppTheme.ToolBarStyle.White"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

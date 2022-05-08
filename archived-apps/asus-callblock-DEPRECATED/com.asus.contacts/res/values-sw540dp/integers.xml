@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="contact_list_cake_height">34</integer>
+    <integer name="contact_list_cake_width">32</integer>
+    <integer name="group_horizontal_title_text_size">17</integer>
+    <integer name="group_horizontal_title_text_size_zero">21</integer>
+</resources>

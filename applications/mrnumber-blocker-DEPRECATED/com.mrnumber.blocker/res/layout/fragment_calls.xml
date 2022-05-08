@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/main_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <com.google.android.material.tabs.TabLayout android:id="@id/tabs" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="54.0dip" app:tabGravity="fill" app:tabIndicatorColor="@color/colorPrimary" app:tabMode="fixed" app:tabSelectedTextColor="@color/colorPrimaryDark" app:tabTextColor="@color/local_main_tab_item_default" />
-    </com.google.android.material.appbar.AppBarLayout>
-    <com.hiya.stingray.ui.local.common.SwipeViewPager android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:swipe="false" />
-</androidx.coordinatorlayout.widget.CoordinatorLayout>

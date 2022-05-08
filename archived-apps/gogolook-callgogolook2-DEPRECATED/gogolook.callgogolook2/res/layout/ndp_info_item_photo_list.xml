@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rv_photo_list" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <TextView android:textSize="@dimen/text_size_fixed_t4" android:textColor="@color/whoscall_secondary" android:id="@id/tv_photo_description" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/gap_2x" android:layout_marginTop="@dimen/gap" android:layout_marginRight="@dimen/gap_2x" />
+</LinearLayout>

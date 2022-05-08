@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.ads.formats.UnifiedNativeAdView android:id="@id/unadv" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/offline_db_main_page_ad_content_field" />
+</com.google.android.gms.ads.formats.UnifiedNativeAdView>

@@ -1,0 +1,15 @@
+package androidx.annotation;
+
+import java.lang.annotation.Documented;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+@Target({ElementType.METHOD, ElementType.PARAMETER, ElementType.FIELD, ElementType.LOCAL_VARIABLE})
+@Dimension
+@Documented
+@Retention(RetentionPolicy.CLASS)
+/* renamed from: androidx.annotation.Px */
+/* loaded from: classes-dex2jar.jar:androidx/annotation/Px.class */
+public @interface AbstractC0040Px {
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/actionbar_bg_color" />
+        </shape>
+    </item>
+    <item android:top="@dimen/asus_action_bar_height_navigationbar">
+        <shape>
+            <solid android:color="@color/amax_common_bg_color" />
+        </shape>
+    </item>
+</layer-list>

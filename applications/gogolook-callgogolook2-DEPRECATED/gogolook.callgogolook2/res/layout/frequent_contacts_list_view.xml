@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ListView android:id="@id/frequent_contacts_list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/app_default_list_divider_color" android:dividerHeight="@dimen/app_default_divider_size" android:fastScrollEnabled="true" />
-    <include android:id="@id/empty_view" android:visibility="gone" layout="@layout/list_empty_view" />
-</FrameLayout>

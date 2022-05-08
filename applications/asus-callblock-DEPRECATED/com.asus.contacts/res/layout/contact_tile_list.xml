@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:paddingBottom="?favorites_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <view android:id="@id/search_view" android:paddingTop="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:iconifiedByDefault="false" class="android.widget.SearchView" />
-        <ListView android:id="@id/contact_tile_list" android:paddingTop="@dimen/contact_tile_list_padding_top" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
-    </LinearLayout>
-    <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorSecondary" android:gravity="center" android:id="@id/contact_tile_list_empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/empty_message_top_margin" />
-</FrameLayout>

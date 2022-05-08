@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_item_two_column_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/list_item_main_text_size" android:textColor="@color/list_item_primary_text_color" android:ellipsize="end" android:id="@id/main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/list_item_second_text_size" android:textColor="@color/list_item_second_text_color" android:id="@id/sub_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <CheckBox android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/check" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

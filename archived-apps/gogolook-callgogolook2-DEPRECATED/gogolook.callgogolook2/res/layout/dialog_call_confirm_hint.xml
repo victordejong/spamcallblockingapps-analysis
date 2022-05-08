@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/common_background_dim_color" android:padding="30.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/popup_white_bg" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_hint" android:layout_width="256.0dip" android:layout_height="250.0dip" android:src="@drawable/dialog_img_carrier_1btn" />
+            <TextView android:textSize="20.0sp" android:textColor="#ff222222" android:gravity="center" android:id="@id/tv_title" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/call_confirm_inapp_hint_single_successful_title" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff555555" android:gravity="center" android:id="@id/tv_message" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/call_confirm_inapp_hint_single_successful_content" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" />
+            <Button android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/btn_got_it" android:background="@drawable/green_btn_selector" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="22.0dip" android:text="@string/call_confirm_got_it" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

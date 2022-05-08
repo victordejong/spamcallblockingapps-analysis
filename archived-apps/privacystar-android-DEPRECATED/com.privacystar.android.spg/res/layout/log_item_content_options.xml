@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/log_item_expanded_ll" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/log_item_expanded_block_ll" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/ps3_grey_400" android:contentDescription="@string/con_desc_home_activity_extended_block" app:srcCompat="@drawable/ic_block_black_24dp" />
+        <TextView android:textAppearance="@style/NavigationText" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/log_extended_block" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/log_item_expanded_unblock_ll" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/ps3_grey_400" android:contentDescription="@string/con_desc_home_activity_extended_unblock" app:srcCompat="@drawable/ic_block_black_24dp" />
+        <TextView android:textAppearance="@style/NavigationText" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/log_extended_unblock" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/log_item_expanded_report_ll" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/ps3_grey_400" android:contentDescription="@string/con_desc_home_activity_extended_report" app:srcCompat="@drawable/ic_act_report" />
+        <TextView android:textAppearance="@style/NavigationText" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/log_extended_report" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/log_item_expanded_approve_ll" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="22.0dip" android:tint="@color/ps3_grey_400" android:contentDescription="@string/con_desc_home_activity_extended_approve" app:srcCompat="@drawable/ic_approve" />
+        <TextView android:textAppearance="@style/NavigationText" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/log_extended_approve" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/log_item_expanded_unapprove_ll" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/ps3_grey_400" android:contentDescription="@string/con_desc_home_activity_extended_unapprove" app:srcCompat="@drawable/ic_approve" />
+        <TextView android:textAppearance="@style/NavigationText" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/log_extended_unapprove" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/log_item_expanded_add_contact_ll" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/ps3_grey_400" android:contentDescription="@string/con_desc_home_activity_extended_add_contact" app:srcCompat="@drawable/ic_act_add_contact" />
+        <TextView android:textAppearance="@style/NavigationText" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/log_extended_add_contact" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/log_item_expanded_call_ll" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:tint="@color/ps3_grey_400" android:contentDescription="@string/con_desc_home_activity_extended_call" app:srcCompat="@drawable/phone_icon" />
+        <TextView android:textAppearance="@style/NavigationText" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/log_extended_call" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/log_item_expanded_message_ll" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/ps3_grey_400" android:contentDescription="@string/con_desc_home_activity_extended_message" app:srcCompat="@drawable/ic_act_msg" />
+        <TextView android:textAppearance="@style/NavigationText" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/log_extended_message" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/log_item_expanded_details_ll" android:paddingTop="12.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/ps3_grey_400" android:contentDescription="@string/con_desc_home_activity_extended_details" app:srcCompat="@drawable/ic_act_info" />
+        <TextView android:textAppearance="@style/NavigationText" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/log_extended_details" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+</LinearLayout>

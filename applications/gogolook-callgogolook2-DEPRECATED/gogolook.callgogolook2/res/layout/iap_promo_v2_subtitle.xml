@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:textSize="16.0sp" android:textColor="@color/text_black" android:gravity="center" android:id="@id/tvSubtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/premium_promo_but_even_better" android:fontFamily="sans-serif-medium" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>

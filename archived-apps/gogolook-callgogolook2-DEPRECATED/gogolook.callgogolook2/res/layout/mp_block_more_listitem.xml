@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/view_bg" android:background="@drawable/list_selector_block" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toStartOf="@id/tv_view_history" android:layout_alignParentStart="true">
+        <RelativeLayout android:gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <gogolook.callgogolook2.view.SizedTextView android:textSize="16.0sp" android:textColor="@color/whoscall_primary" android:gravity="start|center" android:id="@id/tv_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <ImageView android:id="@id/iv_notify" android:layout_width="5.0dip" android:layout_height="5.0dip" android:src="@drawable/block_new" android:scaleType="centerInside" android:layout_marginStart="1.0dip" android:layout_toEndOf="@id/tv_primary" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/whoscall_secondary" android:gravity="center" android:id="@id/tv_notify" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" android:layout_toEndOf="@id/iv_notify" />
+        </RelativeLayout>
+        <gogolook.callgogolook2.view.SizedTextView android:textSize="12.0sp" android:textColor="@color/whoscall_secondary" android:ellipsize="end" android:gravity="start|center" android:id="@id/tv_secondary" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <TextView android:textSize="10.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="end|center" android:id="@id/tv_view_history" android:background="@drawable/rounded_corner_bg_green" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="22.0dip" android:text="@string/view_history" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

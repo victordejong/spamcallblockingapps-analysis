@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="group_list_num_contacts_in_group">
+        <item quantity="other">%1$d kullanıcı</item>
+        <item quantity="one">%1$d kişi</item>
+    </plurals>
+    <plurals name="listTotalAllContacts">
+        <item quantity="other">%,d kişi</item>
+        <item quantity="one">1 kişi</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">%1$d Sesli mesaj</item>
+        <item quantity="one">Sesli mesaj</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d kişi bulundu</item>
+        <item quantity="one">1 kişi bulundu</item>
+    </plurals>
+    <plurals name="uf_sdk_number_of_subscribers_format">
+        <item quantity="other">%1$s bu konuyu beğendi</item>
+        <item quantity="one">%1$s bu konuyu beğendi</item>
+    </plurals>
+    <plurals name="uf_sdk_topics">
+        <item quantity="other">konu</item>
+        <item quantity="one">konu</item>
+    </plurals>
+    <plurals name="uv_articles">
+        <item quantity="other">makaleler</item>
+        <item quantity="one">makale</item>
+    </plurals>
+    <plurals name="uv_comments">
+        <item quantity="other">yorumlar</item>
+        <item quantity="one">yorum</item>
+    </plurals>
+    <plurals name="uv_ideas">
+        <item quantity="other">fikirler</item>
+        <item quantity="one">fikir</item>
+    </plurals>
+    <plurals name="uv_number_of_subscribers_format">
+        <item quantity="other">%1$s bu fikri istiyor</item>
+        <item quantity="one">%1$s bu fikri istiyor</item>
+    </plurals>
+    <plurals name="uv_people">
+        <item quantity="other">kişiler</item>
+        <item quantity="one">kişi</item>
+    </plurals>
+    <plurals name="uv_subscribers">
+        <item quantity="other">aboneler</item>
+        <item quantity="one">abone</item>
+    </plurals>
+</resources>

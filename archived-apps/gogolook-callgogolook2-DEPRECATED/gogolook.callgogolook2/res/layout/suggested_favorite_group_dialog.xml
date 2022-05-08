@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/fl_body" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="#fffafafa" android:layout_width="fill_parent" android:layout_height="49.0dip" android:layout_alignParentTop="true">
+        <View android:layout_gravity="bottom" android:id="@id/dropdown_anchor" android:background="#ffe6e6e6" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <gogolook.callgogolook2.view.ImeStatusAwarableEditText android:textSize="15.0sp" android:textColorHint="#ffcccccc" android:layout_gravity="center" android:id="@id/tv_input" android:background="@null" android:paddingLeft="64.0dip" android:paddingRight="48.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/callend_favorite_newdialog_enline" android:maxLines="1" android:singleLine="true" android:popupBackground="#fffafafa" android:dropDownAnchor="@id/dropdown_anchor" android:imeOptions="actionDone" android:dropDownVerticalOffset="0.0dip" android:fontFamily="sans-serif-light" android:paddingStart="64.0dip" android:paddingEnd="48.0dip" />
+        <ImageView android:layout_gravity="start|center" android:id="@id/iv_back" android:padding="12.0dip" android:layout_width="41.5dip" android:layout_height="41.0dip" android:src="@drawable/ic_favorite_suggest_back" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/iv_clear" android:padding="18.0dip" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_favorite_suggest_clear" />
+    </FrameLayout>
+    <View android:layout_width="fill_parent" android:layout_height="2000.0dip" />
+</RelativeLayout>

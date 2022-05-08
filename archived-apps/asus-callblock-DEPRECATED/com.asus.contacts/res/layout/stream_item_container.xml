@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/amax_detail_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/stream_item_content" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/update_image_vertical_padding_top" android:paddingBottom="@dimen/update_timestamp_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/stream_item_image_rows" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:id="@id/stream_item_html" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/update_text_margin_image" style="@style/AsusStreamItemHtmlTextStyle" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:ellipsize="end" android:id="@id/stream_item_attribution" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:maxLines="1" style="@style/AsusStreamItemAttributeTextStyle" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/stream_item_comments" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="3.0dip" android:maxLines="1" style="@style/AsusStreamItemCommentTextStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/horizontal_divider" android:background="?android:dividerHorizontal" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

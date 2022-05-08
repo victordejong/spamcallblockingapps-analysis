@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="asus_fastscroll_step_ch_navi">18.0dip</dimen>
+    <dimen name="asus_fastscroll_step_en_navi">19.5dip</dimen>
+    <dimen name="asus_max_window_height">570.0dip</dimen>
+</resources>

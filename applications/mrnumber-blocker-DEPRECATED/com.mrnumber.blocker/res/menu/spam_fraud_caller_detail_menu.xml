@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:id="@id/action_save_contact" android:title="@string/save_as_contact" app:showAsAction="never" />
-    <item android:id="@id/action_share" android:visible="false" android:title="@string/share" app:showAsAction="never" />
-    <item android:id="@id/action_warn_friends" android:title="@string/warn_friends_toolbar" app:showAsAction="never" />
-    <item android:id="@id/action_not_spam" android:title="@string/not_spam" app:showAsAction="never" />
-</menu>

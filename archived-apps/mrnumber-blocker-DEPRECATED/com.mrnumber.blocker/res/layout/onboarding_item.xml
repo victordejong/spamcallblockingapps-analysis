@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/item" android:background="@drawable/rounded_20dp_grey" android:paddingLeft="22.0dip" android:paddingTop="18.0dip" android:paddingRight="22.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/black" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:fontFamily="sans-serif-medium" />
+        <TextView android:textSize="13.0sp" android:textStyle="normal" android:textColor="@color/stone_grey" android:id="@id/body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif" />
+        <Button android:textSize="14.0sp" android:textStyle="normal" android:textColor="@color/blue_button" android:id="@id/button" android:background="?selectableItemBackgroundBorderless" android:paddingLeft="0.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0.0dip" android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+</LinearLayout>

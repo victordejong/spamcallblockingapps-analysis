@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/asus_dialer_additional_circle_background_dark" />
+    <size android:height="@dimen/asus_dialer_additional_background_height" android:width="@dimen/asus_dialer_additional_background_height" />
+</shape>

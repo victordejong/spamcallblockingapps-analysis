@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:tag="@string/view_tag_progress_bar" android:background="@drawable/premium_upsell_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:backgroundTint="#83e1e1e1"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ProgressBar android:layout_gravity="center" android:tag="@string/view_tag_progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</FrameLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textAppearance="@style/realm_browser_database_bread_crumb_style" android:ellipsize="end" android:id="@id/crumb_item" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
-    <TextView android:textAppearance="@style/realm_browser_database_bread_crumb_style" android:ellipsize="end" android:id="@id/crumb_separator" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
-</LinearLayout>

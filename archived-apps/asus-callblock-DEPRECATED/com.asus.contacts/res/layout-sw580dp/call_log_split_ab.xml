@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/asus_contacts_calllog_split_ab_layout" android:background="@drawable/asus_contacts2_calllog_split_ab_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SearchView android:id="@id/search_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:inputType="textFilter" android:iconifiedByDefault="false" />
+    <include android:id="@id/call_log_filter_header_container" android:layout_alignParentLeft="true" android:layout_centerVertical="true" layout="@layout/call_log_filter_header" />
+    <FrameLayout android:id="@id/sim_type_filter" android:background="?android:selectableItemBackground" android:layout_width="64.0dip" android:layout_height="fill_parent" android:layout_toRightOf="@id/call_log_filter_header_container" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center" android:id="@id/sim_type_filter_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/asus_contacts2_ic_callog_filter_sim_all" />
+    </FrameLayout>
+</RelativeLayout>

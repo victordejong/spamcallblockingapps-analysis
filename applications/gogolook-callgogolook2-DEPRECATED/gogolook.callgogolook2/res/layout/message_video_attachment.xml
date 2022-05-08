@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<gogolook.callgogolook2.messaging.ui.VideoThumbnailView android:layout_gravity="center_vertical" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/ch_img_mask" android:adjustViewBounds="true" android:maxWidth="190.0dip" android:maxHeight="300.0dip" android:minWidth="160.0dip" app:allowCrop="true" app:hasDuration="true" app:mode="imageThumbnail" app:playIcon="@drawable/ch_vd_btn" app:playIconSize="65.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

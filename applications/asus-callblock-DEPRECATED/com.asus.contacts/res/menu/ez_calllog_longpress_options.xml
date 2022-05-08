@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@id/ez_calllog_remove_from_call_log" android:orderInCategory="1" android:title="@string/menu_Delete_this_call_log" android:showAsAction="withText" />
-</menu>

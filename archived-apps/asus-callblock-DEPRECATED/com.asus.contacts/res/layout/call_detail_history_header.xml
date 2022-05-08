@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/call_log_list_item_photo_height" />
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/call_log_list_item_name_height" />
+    <View android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <View android:id="@id/header_voicemail_container" android:layout_width="fill_parent" android:layout_height="140.0dip" android:layout_marginBottom="@dimen/call_detail_button_spacing" />
+    <View android:id="@id/header_call_and_sms_container" android:layout_width="fill_parent" android:layout_height="@dimen/call_log_list_item_height" />
+    <View android:id="@id/header_container" android:layout_width="fill_parent" android:layout_height="@dimen/call_log_list_item_height" />
+</LinearLayout>

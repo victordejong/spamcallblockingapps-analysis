@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/license_layout_root_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ScrollView android:id="@id/license_layout_scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:autoLink="web" android:id="@id/license_text" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="16.0dip" />
-    </ScrollView>
-</LinearLayout>

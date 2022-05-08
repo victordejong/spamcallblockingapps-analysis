@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:background="#fff6f6f6" android:paddingTop="@dimen/search_empty_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/iv_empty_list" android:layout_width="128.0dip" android:layout_height="128.0dip" android:src="@drawable/img_empty_search" />
-    <gogolook.callgogolook2.view.SizedTextView android:textSize="16.0sp" android:textColor="@color/dark_blue_transparent" android:gravity="center" android:id="@id/tv_empty_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/whoscall_search_empty_state" android:maxLines="2" android:lineSpacingExtra="4.0dip" android:fontFamily="sans-serif" />
-</LinearLayout>

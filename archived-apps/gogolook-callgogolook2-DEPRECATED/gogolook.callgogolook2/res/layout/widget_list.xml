@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/widget_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/widget_emptyview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

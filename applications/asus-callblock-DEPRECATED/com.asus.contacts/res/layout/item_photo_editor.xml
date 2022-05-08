@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<view android:orientation="horizontal" android:paddingTop="6.0dip" android:paddingRight="@dimen/common_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" class="com.android.contacts.editor.PhotoEditorView"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:layout_width="@dimen/contact_browser_list_item_photo_size" android:layout_height="@dimen/contact_browser_list_item_photo_size">
-        <ImageView android:gravity="left" android:id="@id/photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/asus_contacts2_ep_phone_default_pic_s_n" android:scaleType="centerCrop" android:cropToPadding="true" />
-        <View android:id="@id/frame" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/description_contact_photo" />
-    </FrameLayout>
-    <View android:background="@android:color/transparent" android:layout_width="@dimen/asus_edit_contact_photo_margin_right" android:layout_height="@dimen/contact_browser_list_item_photo_size" />
-</view>

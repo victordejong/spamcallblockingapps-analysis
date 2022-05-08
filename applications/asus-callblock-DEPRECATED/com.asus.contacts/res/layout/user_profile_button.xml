@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Button android:textSize="@dimen/asus_list_item_main_text_size" android:textColor="@color/asus_contacts2_theme_primary_text_color" android:ellipsize="end" android:gravity="center|left" android:background="?android:selectableItemBackground" android:paddingLeft="?list_item_header_text_indent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="?list_item_padding_left" android:layout_marginRight="?list_item_padding_right" android:minHeight="@dimen/asus_checkbox_textview_height" android:text="@string/profile_display_name" android:singleLine="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

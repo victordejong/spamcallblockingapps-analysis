@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/About.Title" android:layout_gravity="left" android:id="@id/confirm_dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" />
+    <TextView android:textAppearance="@style/NavigationText" android:layout_gravity="center_horizontal" android:id="@id/confirm_dialog_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:textAlignment="center" />
+    <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="18.0dip" android:minWidth="300.0dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip">
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Button android:id="@id/confirm_dialog_no" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip" android:text="@string/group_blocking_dialog_cancel_button" android:maxLines="1" android:layout_weight="0.0" android:textAllCaps="true" style="@style/DefaultButtonBorderless" />
+        <Button android:id="@id/confirm_dialog_yes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip" android:text="@string/group_blocking_dialog_okay_button" android:maxLines="1" android:layout_weight="0.0" android:textAllCaps="true" style="@style/DefaultButtonBorderless" />
+    </LinearLayout>
+</LinearLayout>

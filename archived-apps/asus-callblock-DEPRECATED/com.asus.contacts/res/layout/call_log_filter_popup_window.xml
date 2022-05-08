@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/call_log_filter_all" android:paddingLeft="@dimen/call_log_filter_item_padding_left" android:layout_width="fill_parent" android:layout_height="@dimen/call_log_filter_item_height">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/call_log_popup_window_text" android:ellipsize="marquee" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="@dimen/call_log_filter_item_height" android:text="@string/asus_call_log_filter_all" android:singleLine="true" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/call_log_filter_item_height" android:layout_marginRight="@dimen/call_log_filter_image_margin_right">
+            <RadioButton android:id="@id/call_log_filter_all_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="center" android:background="@color/asus_filter_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/call_log_filter_incoming" android:paddingLeft="@dimen/call_log_filter_item_padding_left" android:layout_width="fill_parent" android:layout_height="@dimen/call_log_filter_item_height">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/call_log_popup_window_text" android:ellipsize="marquee" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="@dimen/call_log_filter_item_height" android:text="@string/asus_call_log_filter_incoming" android:singleLine="true" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/call_log_filter_item_height" android:layout_marginRight="@dimen/call_log_filter_image_margin_right">
+            <RadioButton android:id="@id/call_log_filter_incoming_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="center" android:background="@color/asus_filter_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/call_log_filter_outgoing" android:paddingLeft="@dimen/call_log_filter_item_padding_left" android:layout_width="fill_parent" android:layout_height="@dimen/call_log_filter_item_height">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/call_log_popup_window_text" android:ellipsize="marquee" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="@dimen/call_log_filter_item_height" android:text="@string/asus_call_log_filter_outgoing" android:singleLine="true" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/call_log_filter_item_height" android:layout_marginRight="@dimen/call_log_filter_image_margin_right">
+            <RadioButton android:id="@id/call_log_filter_outgoing_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="center" android:background="@color/asus_filter_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/call_log_filter_missed" android:paddingLeft="@dimen/call_log_filter_item_padding_left" android:layout_width="fill_parent" android:layout_height="@dimen/call_log_filter_item_height" android:layout_marginBottom="3.0dip">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/call_log_popup_window_text" android:ellipsize="marquee" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="@dimen/call_log_filter_item_height" android:text="@string/asus_call_log_filter_missed" android:singleLine="true" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/call_log_filter_item_height" android:layout_marginRight="@dimen/call_log_filter_image_margin_right">
+            <RadioButton android:id="@id/call_log_filter_missed_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="center" android:background="@color/asus_filter_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/call_log_filter_vip" android:paddingLeft="@dimen/call_log_filter_item_padding_left" android:layout_width="fill_parent" android:layout_height="@dimen/call_log_filter_item_height" android:layout_marginBottom="3.0dip">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/call_log_popup_window_text" android:ellipsize="marquee" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="@dimen/call_log_filter_item_height" android:text="@string/vip_call_log_filter" android:singleLine="true" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/call_log_filter_item_height" android:layout_marginRight="@dimen/call_log_filter_image_margin_right">
+            <RadioButton android:id="@id/call_log_filter_vip_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="center" android:background="@color/asus_filter_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/call_log_filter_voicecall" android:paddingLeft="@dimen/call_log_filter_item_padding_left" android:layout_width="fill_parent" android:layout_height="@dimen/call_log_filter_item_height" android:layout_marginBottom="3.0dip">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/call_log_popup_window_text" android:ellipsize="marquee" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="@dimen/call_log_filter_item_height" android:text="@string/asus_call_log_filter_voicecalls" android:singleLine="true" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/call_log_filter_item_height" android:layout_marginRight="@dimen/call_log_filter_image_margin_right">
+            <RadioButton android:id="@id/call_log_filter_voicecall_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="center" android:background="@color/asus_filter_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/call_log_filter_videocalls" android:paddingLeft="@dimen/call_log_filter_item_padding_left" android:layout_width="fill_parent" android:layout_height="@dimen/call_log_filter_item_height" android:layout_marginBottom="3.0dip">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/call_log_popup_window_text" android:ellipsize="marquee" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="@dimen/call_log_filter_item_height" android:text="@string/asus_call_log_filter_videocalls" android:singleLine="true" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/call_log_filter_item_height" android:layout_marginRight="@dimen/call_log_filter_image_margin_right">
+            <RadioButton android:id="@id/call_log_filter_videocalls_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

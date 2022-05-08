@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.android.contacts.detail.ActionsViewContainer android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/actions_view_container" android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Switch android:textSize="@dimen/asus_contact_detail_time_data_text_size" android:textColor="@color/amax_split_section_text_color" android:layout_gravity="center" android:id="@id/video_switch_onoff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/asus_fragment_overlay_margin" android:layout_marginTop="@dimen/contact_detail_list_item_top_margin" android:layout_marginBottom="@dimen/contact_detail_list_item_bottom_margin"
-      xmlns:android="http://schemas.android.com/apk/res/android" />
-</com.android.contacts.detail.ActionsViewContainer>

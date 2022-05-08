@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keypad_back_margin_right">65.5dip</dimen>
+    <dimen name="dialer_empty_margin_top">50.0dip</dimen>
+    <dimen name="guardian_detail_empty_margin_bottom">135.0dip</dimen>
+    <dimen name="guardian_intro_image_margin_top">27.0dip</dimen>
+    <dimen name="guardian_intro_title_margin_top">20.0dip</dimen>
+    <dimen name="search_bar_text_size">14.0sp</dimen>
+    <item type="dimen" name="standard_icon_size">@dimen/standard_icon_size_xxhdpi</item>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="nav_header_height">160.0dip</dimen>
+    <dimen name="nav_header_vertical_spacing">16.0dip</dimen>
+    <dimen name="search_list_result_width">337.6953dip</dimen>
+    <dimen name="search_map_item_width">328.0dip</dimen>
+</resources>

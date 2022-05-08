@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<appwidget-provider android:label="whoscall 4x3" android:minWidth="250.0dip" android:minHeight="180.0dip" android:updatePeriodMillis="86400000" android:initialLayout="@layout/widget_init" android:previewImage="@drawable/widget4x3" android:resizeMode="horizontal"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

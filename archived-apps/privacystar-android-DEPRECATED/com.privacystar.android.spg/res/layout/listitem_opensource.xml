@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:id="@id/rippleForegroundListenerView" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:foreground="?selectableItemBackground" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/textSizeLarge_openSource" android:textStyle="normal" android:ellipsize="end" android:gravity="start" android:id="@id/libraryName" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="5.0" />
+            <TextView android:textSize="@dimen/textSizeSmall_openSource" android:textStyle="normal" android:gravity="end" android:id="@id/libraryCreator" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="2" android:layout_weight="2.0" />
+        </LinearLayout>
+        <View android:id="@id/libraryDescriptionDivider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="4.0dip" />
+        <TextView android:textSize="@dimen/textSizeSmall_openSource" android:textStyle="normal" android:id="@id/libraryDescription" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="20" />
+        <View android:id="@id/libraryBottomDivider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="4.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/libraryBottomContainer" android:paddingLeft="8.0dip" android:paddingTop="4.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/textSizeSmall_openSource" android:textStyle="normal" android:gravity="start" android:id="@id/libraryVersion" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/textSizeSmall_openSource" android:textStyle="normal" android:gravity="end" android:id="@id/libraryLicense" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

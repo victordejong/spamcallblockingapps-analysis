@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/ll_nativeAd" android:background="@drawable/corner_ad_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_main_ad_content" android:background="#ffdddddd" android:layout_width="211.0dip" android:layout_height="110.0dip">
+        <ImageView android:id="@id/iv_ad" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <RelativeLayout android:id="@id/v_video" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_cta_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="13.0sp" android:textColor="#ff000000" android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginTop="11.0dip" android:layout_marginRight="13.0dip" android:maxLines="3" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:lineSpacingExtra="2.0sp" />
+        <TextView android:textSize="10.0sp" android:textColor="#ff999999" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginBottom="9.0dip" android:singleLine="true" android:layout_toLeftOf="@id/iv_privacy" android:layout_below="@id/tv_title" android:layout_alignLeft="@id/iv_privacy" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/text_gray" android:id="@id/tv_sponsored" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="9.0dip" android:singleLine="true" android:layout_toLeftOf="@id/iv_privacy" android:layout_alignLeft="@id/iv_privacy" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="11.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:id="@id/tv_cta_btn" android:background="@drawable/icon_cta_green_full" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="22.0dip" android:layout_marginLeft="13.0dip" android:layout_marginBottom="10.0dip" android:maxWidth="115.0dip" android:minWidth="60.0dip" android:maxLines="1" android:singleLine="true" android:layout_alignLeft="@id/iv_privacy" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:contentDescription="CED_AD_CTA_BTN" />
+        <ImageView android:id="@id/iv_privacy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

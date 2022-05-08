@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/blocklist_filter_header_container" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/asus_group_filter_padding_left" android:paddingRight="@dimen/asus_group_filter_padding_right" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/blocked_filter_header" style="@style/AsusBlockListFilterTextStyle" />
-    <ImageView android:layout_gravity="center" android:id="@id/filter_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/asus_contacts2_group_fiter_spinner" android:tint="#ff505050" />
-</LinearLayout>

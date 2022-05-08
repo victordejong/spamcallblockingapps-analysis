@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blocklist_add_select_dialog_items">
+        <item>בחר מאנשי קשר</item>
+        <item>בחר מיומני שיחות אחרונות</item>
+        <item>הזן מספר</item>
+        <item>הזן מספר SIP</item>
+    </string-array>
+    <string-array name="change_cover_options">
+        <item>השתמש בתמונת הנושא של פייסבוק</item>
+        <item>השתמש בתמונת הנושא של הקבוצה</item>
+        <item>השתמש בברירת המחדל לתמונת הנושא</item>
+        <item>התאם אישית את תמונת הנושא</item>
+    </string-array>
+    <string-array name="change_group_cover_options">
+        <item>השתמש בברירת המחדל לתמונת הנושא של הקבוצה</item>
+        <item>התאם אישית את תמונת הנושא של הקבוצה</item>
+    </string-array>
+    <string-array name="news_message">
+        <item>סגנון חדש לגמרי עבור החייגן ואנשי הקשר של ZenUI! קליל ונוח לשימוש!</item>
+        <item>בצעו שיחה ללא רישום השיחה ביומן! מעתה אין צורך למחוק שיחות שאינן רצויות מיומן השיחות!</item>
+    </string-array>
+    <string-array name="picture_from_options">
+        <item>מצלמה</item>
+        <item>גלריה</item>
+    </string-array>
+    <string-array name="speed_entry_list">
+        <item>מהר</item>
+        <item>בינוני</item>
+        <item>לאט</item>
+    </string-array>
+    <string-array name="speed_level_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="toolpanel_news_message">
+        <item>הכרטיסייה החדשהאחרים מאפשרת לך למצוא תכונות והגדרות בקלות</item>
+    </string-array>
+    <string-array name="whitelist_add_select_dialog_items">
+        <item>בחר מאנשי קשר</item>
+        <item>בחר מיומני שיחות אחרונות</item>
+        <item>הזן מספר</item>
+        <item>הזן מספר SIP</item>
+    </string-array>
+</resources>

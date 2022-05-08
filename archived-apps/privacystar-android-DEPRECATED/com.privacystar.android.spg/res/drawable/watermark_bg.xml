@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/ps3_white" />
+        </shape>
+    </item>
+    <item android:id="@id/shield_background_image">
+        <bitmap android:gravity="fill_horizontal|center|top" android:src="@drawable/ps_watermark" />
+    </item>
+</layer-list>

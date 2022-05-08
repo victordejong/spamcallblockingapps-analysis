@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:background="@color/simpletooltip_background" android:layout_width="250.0dip" android:layout_height="100.0dip" android:minWidth="250.0dip" android:minHeight="100.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/tooltip_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/caller_id_outbound_tooltip" style="@style/simpletooltip_default" />
-</LinearLayout>

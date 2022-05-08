@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <gogolook.callgogolook2.view.SizedTextView android:textSize="17.0sp" android:textColor="#ff333333" android:id="@id/tv_memo_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ra_type_memo" />
-    <TextView android:textSize="16.0sp" android:textColor="#ffbbbbbb" android:id="@id/tv_add_memo" android:background="@drawable/edit_text_selector" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:text="@string/ra_memo_edit_button" android:layout_below="@id/tv_memo_title" />
-    <LinearLayout android:orientation="vertical" android:id="@id/ll_memo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:layout_below="@id/tv_add_memo" />
-</RelativeLayout>

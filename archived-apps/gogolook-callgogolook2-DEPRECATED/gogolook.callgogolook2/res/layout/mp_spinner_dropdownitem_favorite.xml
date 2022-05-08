@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_dropdown" android:background="@drawable/btn_context_menu_selector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/divider" android:background="#ffffffff" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <View android:background="#ffc8c8c8" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/iv_delete" android:padding="6.0dip" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/ic_delete" android:layout_below="@id/divider" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/iv_edit" android:padding="6.0dip" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginLeft="6.0dip" android:src="@drawable/ic_edit" android:layout_toLeftOf="@id/iv_delete" android:layout_below="@id/divider" android:layout_centerVertical="true" />
+    <TextView android:textSize="13.0sp" android:textColor="#ff999999" android:ellipsize="end" android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/tv_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="6.0dip" android:maxLines="1" android:layout_toLeftOf="@id/iv_edit" android:layout_below="@id/divider" android:layout_centerVertical="true" android:fontFamily="sans-serif-light" android:layout_marginStart="12.0dip" android:layout_marginEnd="6.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_content_layout" android:paddingLeft="15.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:layout_toLeftOf="@id/tv_count" android:layout_below="@id/divider" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_add" android:paddingLeft="3.0dip" android:paddingBottom="2.0dip" android:layout_width="20.0dip" android:layout_height="19.0dip" android:src="@drawable/overflowmenu_addnew" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff222222" android:ellipsize="end" android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@android:id/text1" android:paddingLeft="4.5dip" android:paddingRight="2.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+    </LinearLayout>
+</RelativeLayout>

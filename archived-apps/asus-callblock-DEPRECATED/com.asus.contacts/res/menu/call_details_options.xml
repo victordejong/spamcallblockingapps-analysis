@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_trash_holo_dark" android:id="@id/menu_trash" android:title="@string/recentCalls_trashVoicemail" android:onClick="onMenuTrashVoicemail" android:showAsAction="ifRoom" />
+    <item android:id="@id/menu_calllog_do_it_later" android:title="@string/call_later" android:onClick="onMenuDoItLater" />
+    <item android:id="@id/menu_remove_from_call_log" android:title="@string/recentCalls_removeFromRecentList" android:onClick="onMenuRemoveFromCallLog" />
+    <item android:id="@id/menu_edit_number_before_call" android:title="@string/recentCalls_editNumberBeforeCall" android:onClick="onMenuEditNumberBeforeCall" />
+    <item android:id="@id/menu_block_caller" android:visible="false" android:title="@string/menu_Block_caller" android:onClick="onMenuBlockCaller" />
+    <item android:id="@id/menu_unblock_caller" android:visible="false" android:title="@string/menu_Unblock" android:onClick="onMenuUnBlockCaller" />
+</menu>

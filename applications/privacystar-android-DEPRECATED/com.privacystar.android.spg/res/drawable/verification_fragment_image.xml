@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layer-list
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/ic_verification_decoration" />
-    <item android:gravity="center" android:drawable="@drawable/ic_verification_verify" android:left="117.0dip" android:top="10.0dip" android:right="118.0dip" android:bottom="10.0dip" />
-</layer-list>

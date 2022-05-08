@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/background" android:background="@drawable/premium_upsell_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/mainContent" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_marginBottom="@dimen/premium_upsell_title_margin_bottom" android:src="@drawable/premium_upsell_title" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PremiumUpsellFeature">
+                        <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/premium_asset_block" style="@style/PremiumUpsellFeatureIcon" />
+                        <TextView android:id="@id/autoBlockTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/premium_upsell_automatic_spam_blocking" style="@style/PremiumUpsellFeatureTitle" />
+                    </LinearLayout>
+                    <View style="@style/PremiumUpsellFeatureLine" />
+                    <FrameLayout android:id="@id/blockListFeature" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PremiumUpsellFeature">
+                            <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/premium_asset_block_list" style="@style/PremiumUpsellFeatureIcon" />
+                            <TextView android:id="@id/blockListTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/premium_upsell_block_list" style="@style/PremiumUpsellFeatureTitle" />
+                        </LinearLayout>
+                        <View android:layout_gravity="bottom" style="@style/PremiumUpsellFeatureLine" />
+                    </FrameLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PremiumUpsellFeature">
+                        <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/premium_info_identified" style="@style/PremiumUpsellFeatureIcon" />
+                        <TextView android:id="@id/callerIDTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/premium_upsell_identify_names_of_callers" style="@style/PremiumUpsellFeatureTitle" />
+                    </LinearLayout>
+                    <View style="@style/PremiumUpsellFeatureLine" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PremiumUpsellFeature">
+                        <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/premium_asset_lookup" style="@style/PremiumUpsellFeatureIcon" />
+                        <TextView android:id="@id/lookupTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/premium_upsell_phone_number_lookup" style="@style/PremiumUpsellFeatureTitle" />
+                    </LinearLayout>
+                    <View style="@style/PremiumUpsellFeatureLine" />
+                    <FrameLayout android:id="@id/commentsFeature" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PremiumUpsellFeature">
+                            <ImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/premium_asset_comments" style="@style/PremiumUpsellFeatureIcon" />
+                            <TextView android:id="@id/commentsTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/premium_upsell_phone_number_comments" style="@style/PremiumUpsellFeatureTitle" />
+                        </LinearLayout>
+                        <View android:layout_gravity="bottom" style="@style/PremiumUpsellFeatureLine" />
+                    </FrameLayout>
+                    <TextView android:textSize="20.0sp" android:textStyle="normal" android:textColor="@color/premium_upsell_subtitle" android:gravity="center" android:id="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/premium_upsell_subtitle_margin_top" android:layout_marginBottom="@dimen/premium_upsell_subtitle_margin_bottom" android:text="@string/premium_upsell_subtitle" android:fontFamily="sans-serif-black" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+                        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_weight="0.5">
+                            <LinearLayout android:orientation="vertical" android:id="@id/monthlyButton" android:background="@drawable/premium_upsell_button" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground">
+                                <TextView android:gravity="center_horizontal" android:id="@id/monthlyButtonTop" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/premium_upsell_monthly_top" style="@style/PremiumUpsellButtonFirstLineText" />
+                                <TextView android:gravity="center_horizontal" android:id="@id/monthlyPrice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/premium_default_monthly_price_text" style="@style/PremiumUpsellButtonSecondLineText" />
+                                <TextView android:gravity="center_horizontal" android:id="@id/monthlyButtonBottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/premium_upsell_monthly_bottom" style="@style/PremiumUpsellButtonThirdLineText" />
+                            </LinearLayout>
+                            <include android:visibility="gone" layout="@layout/subscription_button_loading" />
+                        </FrameLayout>
+                        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_weight="0.5">
+                            <LinearLayout android:orientation="vertical" android:id="@id/annualButton" android:background="@drawable/premium_upsell_button_filled" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground">
+                                <TextView android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/annualButtonTop" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/premium_upsell_annual_top" style="@style/PremiumUpsellButtonFirstLineText" />
+                                <TextView android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/annualPrice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/premium_default_annual_price_text" style="@style/PremiumUpsellButtonSecondLineText" />
+                                <TextView android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/annualButtonBottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/premium_upsell_monthly_bottom" style="@style/PremiumUpsellButtonThirdLineText" />
+                            </LinearLayout>
+                            <include android:visibility="gone" layout="@layout/subscription_button_loading" />
+                        </FrameLayout>
+                    </LinearLayout>
+                    <TextView android:textSize="12.0sp" android:textColor="@color/premium_upsell_footer" android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/premium_upsell_terms" android:fontFamily="sans-serif" android:textAlignment="center" />
+                    <Button android:textSize="16.0sp" android:textColor="@color/premium_upsell_footer" android:layout_gravity="center" android:id="@id/restore" android:background="?android:selectableItemBackgroundBorderless" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/premium_upsell_restore_button" android:textAllCaps="false" android:fontFamily="sans-serif" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/header" android:background="@color/premium_upsell_paywall_header_back" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0sp" android:textStyle="normal" android:textColor="@color/white" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/premium_upsell_subscribe" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" />
+        <ImageButton android:id="@id/headerHelp" android:background="?android:selectableItemBackgroundBorderless" android:paddingLeft="20.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_help_24" />
+    </LinearLayout>
+    <ImageButton android:id="@id/close" android:background="?selectableItemBackgroundBorderless" android:layout_width="52.0dip" android:layout_height="52.0dip" android:src="@drawable/ic_close_24" android:tint="@color/white" android:contentDescription="@string/close_button_cd" />
+    <FrameLayout android:id="@id/loadingView" android:background="@color/white_70" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

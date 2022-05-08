@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <gogolook.callgogolook2.messaging.ui.ContactIconView android:layout_gravity="center_vertical" android:id="@id/contact_icon" android:layout_width="52.0dip" android:layout_height="52.0dip" android:importantForAccessibility="no" app:iconViewSize="normal" />
-    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/details_container" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:layout_weight="1.0" style="@style/ContactListItemLinearLayoutStyle">
-        <TextView android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" style="@style/AppTheme.VcardAttachmentTitle" />
-        <TextView android:ellipsize="end" android:id="@id/details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:maxLines="1" android:layout_marginStart="1.0dip" style="@style/AppTheme.VcardAttachmentDetail" />
-    </LinearLayout>
-</merge>

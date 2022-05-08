@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blocklist_add_select_dialog_items">
+        <item>အဆက်အသွယ်များမှ ရွေးပါ</item>
+        <item>လတ်တလောခေါ်ဆိုမှုမှတ်တမ်းများမှ ရွေးပါ</item>
+        <item>နံပါတ်တစ်ခု ထည့်ပါ</item>
+        <item>SIP နံပါတ်တစ်ခု ထည့်ပါ</item>
+    </string-array>
+    <string-array name="change_cover_options">
+        <item>Facebook ကာဗာကို အသုံးပြုမည်။</item>
+        <item>အုပ်စု ကာဗာကို အသုံးပြုမည်။</item>
+        <item>မူလ ကာဗာကို အသုံးပြုမည်။</item>
+        <item>ကာဗာကို မိမိစိတ်ကြိုက် ပြုလုပ်မည်။</item>
+    </string-array>
+    <string-array name="change_group_cover_options">
+        <item>မူလအုပ်စု ကာဗာကို အသုံးပြုမည်။</item>
+        <item>အုပ်စု ကာဗာကို မိမိစိတ်ကြိုက် ပြုလုပ်မည်။</item>
+    </string-array>
+    <string-array name="news_message">
+        <item>ZenUI ဖုန်းခေါ်နှင့် အဆက်အသွယ်များအတွက် အသစ်စက်စက်ပုံစံ! ပါးလွှာပြီး အသုံးပြုရန် လွယ်ကူသည်!</item>
+        <item>ဖုန်းခေါ်မှတ်တမ်းမရှိဘဲ ဖုန်းခေါ်လိုက်ပါ! မလိုချင်သောဖုန်းခေါ်မှတ်တမ်းများကို ဖျက်ဖို့အချိန်မကုန်တော့ပါ!</item>
+    </string-array>
+    <string-array name="picture_from_options">
+        <item>ကင်မရာ</item>
+        <item>ရုပ်ပုံပြခန်း</item>
+    </string-array>
+    <string-array name="speed_entry_list">
+        <item>အမြန်</item>
+        <item>သင့်တင့်စွာ</item>
+        <item>အနှေး</item>
+    </string-array>
+    <string-array name="speed_level_list">
+        <item>ဝ</item>
+        <item>၁</item>
+        <item>၂</item>
+    </string-array>
+    <string-array name="toolpanel_news_message">
+        <item>အခြား တဘ်အသစ်က အင်္ဂါရပ်များနှင့် ဆက်တင်များကို အလွယ်တကူ ရှာဖွေနိုင်စေပါသည်!</item>
+    </string-array>
+    <string-array name="whitelist_add_select_dialog_items">
+        <item>အဆက်အသွယ်များမှ ရွေးပါ</item>
+        <item>လတ်တလောခေါ်ဆိုမှုမှတ်တမ်းများမှ ရွေးပါ</item>
+        <item>နံပါတ်တစ်ခု ထည့်ပါ</item>
+        <item>SIP နံပါတ်တစ်ခု ထည့်ပါ</item>
+    </string-array>
+</resources>

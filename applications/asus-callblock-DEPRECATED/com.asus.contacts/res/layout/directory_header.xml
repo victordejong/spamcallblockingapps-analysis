@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/asus_header_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/AsusListHeaderText" />
-    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <View android:id="@id/line" android:background="@color/amax_header_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/asus_header_divider_height" android:layout_marginLeft="@dimen/asus_header_divider_margin_left" android:layout_marginRight="@dimen/common_padding" android:layout_marginBottom="@dimen/asus_header_divider_margin_bottom" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
-        <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/asus_header_count_size" android:textColor="@color/asus_contacts2_contacts_count_text_color_dark" android:ellipsize="end" android:id="@id/count" android:paddingRight="@dimen/asus_header_padding" android:paddingBottom="@dimen/asus_header_count_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/common_padding" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-    </RelativeLayout>
-</LinearLayout>

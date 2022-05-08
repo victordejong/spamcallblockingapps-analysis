@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blocked_calls">
+        <item quantity="other">%d Blocked Calls</item>
+        <item quantity="one">Blocked Call</item>
+    </plurals>
+    <plurals name="flagged_calls">
+        <item quantity="other">%d Flagged Calls</item>
+        <item quantity="one">Flagged Call</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d hours</item>
+        <item quantity="one">%d hour</item>
+    </plurals>
+    <plurals name="identified_calls">
+        <item quantity="other">%d Identified Calls</item>
+        <item quantity="one">Identified Call</item>
+    </plurals>
+    <plurals name="lc_directory_item_star_rating_cd">
+        <item quantity="other">%d stars rating</item>
+        <item quantity="one">%d star rating</item>
+    </plurals>
+    <plurals name="lc_directory_item_text_rating_cd">
+        <item quantity="other">%1$d reviews on %2$s</item>
+        <item quantity="one">%1$d review on %2$s</item>
+    </plurals>
+    <plurals name="lc_review">
+        <item quantity="other">%d reviews</item>
+        <item quantity="one">%d review</item>
+    </plurals>
+    <plurals name="mins">
+        <item quantity="other">%d mins</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="missed_calls">
+        <item quantity="other">%d Missed Calls</item>
+        <item quantity="one">Missed Call</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="overlay_hours">
+        <item quantity="other">%d hours</item>
+        <item quantity="one">%d hour</item>
+    </plurals>
+    <plurals name="overlay_minutes">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="overlay_seconds">
+        <item quantity="other">%d seconds</item>
+        <item quantity="one">%d second</item>
+    </plurals>
+    <plurals name="secs">
+        <item quantity="other">%d secs</item>
+        <item quantity="one">%d sec</item>
+    </plurals>
+    <plurals name="user_reports_title">
+        <item quantity="other">%d USER REPORTS</item>
+        <item quantity="one">%d USER REPORT</item>
+    </plurals>
+</resources>

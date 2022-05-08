@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/amax_common_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/common_padding" android:layout_marginRight="@dimen/common_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="vertical" android:id="@id/all_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="63.0dip">
+        <CheckedTextView android:textSize="@dimen/bl_main_textsize" android:textColor="@color/select_all" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/select_all_check_box" android:paddingRight="@dimen/common_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="63.0dip" android:checkMark="?android:listChoiceIndicatorMultiple" android:text="@string/bl_select_all" />
+    </FrameLayout>
+    <View android:layout_gravity="center_vertical" android:id="@id/divider" android:background="@color/amax_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/picker_list_view" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

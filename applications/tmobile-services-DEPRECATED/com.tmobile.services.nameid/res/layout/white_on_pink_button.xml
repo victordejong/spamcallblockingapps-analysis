@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ImageButton android:id="@id/white_on_pink_button" android:layout_width="24.0dip" android:layout_height="24.0dip" android:tint="@color/grey_2" android:contentDescription="@string/general_search" app:srcCompat="@drawable/search_magnifying_glass" style="@style/UncoloredButtonStyle"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

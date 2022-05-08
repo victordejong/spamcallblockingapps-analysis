@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<appwidget-provider android:minWidth="110.0dip" android:minHeight="110.0dip" android:updatePeriodMillis="1800000" android:initialLayout="@layout/miniwidget_main" android:configure="com.android.contacts.contactpicker.ContactsPickerActivity" android:previewImage="@drawable/asus_widget_mini_people_thumbnail" android:resizeMode="horizontal|vertical" android:minResizeWidth="110.0dip" android:minResizeHeight="110.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/flayout" android:paddingRight="@dimen/horizontal_item_padding" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/item_displayphoto" android:background="?android:selectableItemBackground" android:padding="@dimen/group_horizontal_photo_padding" android:layout_width="@dimen/group_horizontal_display_photo_size" android:layout_height="@dimen/group_horizontal_display_photo_size" />
+        <ImageButton android:layout_gravity="bottom|center|right" android:id="@id/imagebutton" android:background="@android:color/transparent" android:paddingRight="@dimen/group_horizontal_ic_call_margin" android:paddingBottom="@dimen/group_horizontal_ic_call_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/asus_contacts2_pic_ic_call" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/group_horizontal_dispaly_name_text_size" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/item_displayname" android:paddingLeft="@dimen/group_horizontal_photo_padding" android:paddingTop="4.0dip" android:paddingRight="@dimen/group_horizontal_photo_padding" android:paddingBottom="8.0dip" android:layout_width="@dimen/group_horizontal_display_photo_size" android:layout_height="wrap_content" style="@style/AsusGroupListItemTitleTextViewStyle" />
+</LinearLayout>

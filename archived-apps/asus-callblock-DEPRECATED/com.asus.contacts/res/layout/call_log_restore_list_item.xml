@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/contact_browser_list_item_nophoto_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/asus_list_item_main_text_size" android:textColor="@color/asus_primary_text_color" android:gravity="bottom" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="0.0dip" android:singleLine="true" android:layout_weight="3.0" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0">
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/asus_second_text_color_n" android:gravity="top" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="@color/asus_second_text_color_n" android:gravity="center|right|top" android:id="@id/size" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:layout_toRightOf="@id/date" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

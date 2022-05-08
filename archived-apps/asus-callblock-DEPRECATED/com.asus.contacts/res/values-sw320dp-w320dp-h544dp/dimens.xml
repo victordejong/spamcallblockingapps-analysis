@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="asus_fastscroll_step_en">14.0dip</dimen>
+    <dimen name="ez_asus_fastscroll_step_ch">12.0dip</dimen>
+    <dimen name="ez_asus_fastscroll_step_en">13.0dip</dimen>
+</resources>

@@ -1,0 +1,18 @@
+﻿[
+	{
+        "id": "00010_01", 
+	    "sql": "ALTER TABLE forms ADD COLUMN transId VARCHAR(50) DEFAULT '';"
+	}, 
+	{
+        "id": "00010_02", 
+	    "sql": "ALTER TABLE forms ADD COLUMN callsLogReady VARCHAR(1) DEFAULT '0';"
+	}, 
+	{
+        "id": "00010_03", 
+	    "sql": "ALTER TABLE forms ADD COLUMN complaintAgainst VARCHAR(50) DEFAULT '';"
+	}, 
+	{
+        "id": "00010_10", 
+	    "sql": "UPDATE forms SET transId = 'patch-data-00010';"
+	}
+]

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.EventFieldEditorView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/asus_editor_field_right_padding" android:layout_weight="1.0">
+        <include android:id="@id/date_view" layout="@layout/edit_date_picker" />
+        <Spinner android:layout_gravity="bottom" android:id="@id/spinner" android:background="@drawable/asus_spinner_background_selector" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:visibility="gone" android:layout_width="@dimen/editor_type_label_width" android:layout_height="wrap_content" />
+        <include android:id="@id/delete_button_container" android:visibility="gone" layout="@layout/edit_delete_button" />
+    </LinearLayout>
+</com.android.contacts.editor.EventFieldEditorView>

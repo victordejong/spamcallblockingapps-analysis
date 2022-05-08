@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gogolook.callgogolook2.messaging.ui.mediapicker.MediaPickerPanel android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gogolook.callgogolook2.messaging.ui.PagingAwareViewPager android:id="@id/mediapicker_view_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/media_picker_default_chooser_height" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/mediapicker_tabstrip" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+</gogolook.callgogolook2.messaging.ui.mediapicker.MediaPickerPanel>

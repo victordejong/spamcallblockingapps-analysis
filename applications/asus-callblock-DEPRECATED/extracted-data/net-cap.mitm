@@ -1,871 +1,0 @@
-11065:7:version;2:15#4:mode;7:regular;9:websocket;0:~8:response;9369:6:reason;2:OK,11:status_code;3:200#13:timestamp_end;13:1651508685.41^15:timestamp_start;18:1651508685.4089735^8:trailers;0:~7:content;8745:{
-
-"INFO":
-{
-"Root": "http://dlcdnamax.asus.com/Rel/App/ZenUI_IUD",
-"FEPL_PATH": "FEPL",
-"UTA_FEPL_PATH": "UTA_FEPL",
-"STRING_PATH": "res",
-"Ver": "201601070"
-}
-,
-"FEPL":
-[
-{
-"topic": "ZenUI keyboard",
-"package_name": "com.asus.ime",
-"URL": "market://details?id=com.asus.ime&referrer=utm_source%3DIUD%26utm_medium%3DType_FEPL",
-"UTA_URL": "market://details?id=com.asus.ime&referrer=utm_source%3DIUD%26utm_medium%3DType_FEPL"
-},
-{
-"topic": "ASUS Support",
-"package_name": "com.asus.userfeedback",
-"customized":"1",
-"URL": "market://details?id=com.asus.userfeedback&referrer=utm_source%3DIUD%26utm_medium%3DType_FEPL"
-},
-{
-"topic": "ASUS Launcher",
-"package_name": "com.asus.launcher",
-"URL": "market://details?id=com.asus.launcher&referrer=utm_source%3DIUD%26utm_medium%3DType_FEPL",
-"UTA_URL": "market://details?id=com.asus.launcher&referrer=utm_source%3DIUD%26utm_medium%3DType_FEPL"
-},
-{
-"topic": "ASUS ZenCircle",
-"package_name": "com.asus.zencircle", 
-"URL": "market://details?id=com.asus.zencircle&referrer=utm_source%3DIUD%26utm_medium%3DType_FEPL"
-},
-{
-"topic": "ASUS Clock",
-"package_name": "com.asus.deskclock",
-"URL": "market://details?id=com.asus.deskclock&referrer=utm_source%3DIUD%26utm_medium%3DType_FEPL"
-},
-{
-"topic": "ASUS PixelMaster Camera",
-"package_name": "com.asus.camera",
-"URL": "market://details?id=com.asus.camera&referrer=utm_source%3DIUD%26utm_medium%3DType_FEPL"
-},
-{
-"topic": "MiniMovie",
-"package_name": "com.asus.microfilm", 
-"UTA_URL": "market://details?id=com.asus.microfilm&referrer=utm_source%3DIUD%26utm_medium%3DType_FEPL"
-},
-{
-"topic": "PhotoCollage",
-"package_name": "com.asus.collage", 
-"UTA_URL": "market://details?id=com.asus.collage&referrer=utm_source%3DIUD%26utm_medium%3DType_FEPL"
-},
-{
-"topic": "Flashlight",
-"package_name": "com.asus.flashlight",
-"UTA_URL": "market://details?id=com.asus.flashlight&referrer=utm_source%3DIUD%26utm_medium%3DType_FEPL"
-},
-{
-"topic": "Calculator",
-"package_name": "com.asus.calculator", 
-"UTA_URL": "market://details?id=com.asus.calculator&referrer=utm_source%3DIUD%26utm_medium%3DType_FEPL"
-}
-
-],
-
-"IUD":
-[
-{
-"topic": "Launcher",
-"package_name": "com.asus.launcher", 
-"Urgent": "151210", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.launcher&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "ASUS Support",
-"package_name": "com.asus.userfeedback", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.userfeedback&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "ASUS ZenCircle",
-"package_name": "com.asus.zencircle", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.zencircle&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "MiniMovie",
-"package_name": "com.asus.microfilm", 
-"Urgent": "1", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.microfilm&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "ASUS PhotoCollage",
-"package_name": "com.asus.collage", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.collage&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "ASUS Contacts",
-"package_name": "com.asus.contacts", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.contacts&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "ASUS Calling Screen",
-"package_name": "com.asus.asusincallui", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.asusincallui&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "ASUS Gallery",
-"package_name": "com.asus.gallery", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.gallery&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "ASUS PixelMaster Camera",
-"package_name": "com.asus.camera", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.camera&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "ASUS Weather",
-"package_name": "com.asus.weathertime", 
-"Urgent": "151209", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.weathertime&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "ASUS Clock",
-"package_name": "com.asus.deskclock", 
-"Urgent": "160120", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.deskclock&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "ASUS File Manager",
-"package_name": "com.asus.filemanager", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.filemanager&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "ASUS Music",
-"package_name": "com.asus.music", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.music&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "ASUS Cover View",
-"package_name": "com.asus.flipcover2", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.flipcover2&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "Calculator",
-"package_name": "com.asus.calculator", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.calculator&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "Flashlight",
-"package_name": "com.asus.flashlight", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.flashlight&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "Calendar",
-"package_name": "com.asus.calendar", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.calendar&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "ASUS Do It Later",
-"package_name": "com.asus.task", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.task&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "ASUS Splendid",
-"package_name": "com.asus.splendid", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.splendid&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "ASUS Keyboard",
-"package_name": "com.asus.ime", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.ime&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "ASUS Quick Memo",
-"package_name": "com.asus.quickmemo", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.quickmemo&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "ASUS Sound Recorder",
-"package_name": "com.asus.soundrecorder", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.soundrecorder&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "ASUS Share Link",
-"package_name": "com.asus.sharerim", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.sharerim&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "ASUS PC Link",
-"package_name": "com.asus.linkrim", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.linkrim&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "ASUS Auto-start Manager",
-"package_name": "com.asus.mobilemanager", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.mobilemanager&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "ASUS Easy Mode",
-"package_name": "com.asus.easylauncher", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.easylauncher&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "ASUS ZenUI Services",
-"package_name": "com.asus.server.azs", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.server.azs&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-},
-{
-"topic": "ZenUI Themes",
-"package_name": "com.asus.themeapp", 
-"Urgent": "0", 
-"desc_id": "desc",
-"UTA_desc_id": "desc",
-"URL": "market://details?id=com.asus.themeapp&referrer=utm_source%3DIUD%26utm_medium%3DType_IUD"
-}
-]
-},7:headers;442:25:13:Accept-Ranges,5:bytes,]12:3:Age,3:550,]35:13:Cache-Control,14:max-age=604800,]44:12:Content-Type,24:application/octet-stream,]40:4:Date,29:Mon, 02 May 2022 16:24:45 GMT,]26:15:ec-rule-version,4:V3.8,]23:4:Etag,12:"1144040473",]43:7:Expires,29:Mon, 09 May 2022 16:24:45 GMT,]50:13:Last-Modified,29:Fri, 26 Apr 2019 11:35:04 GMT,]29:6:Server,16:ECAcc (amb/6A91),]16:7:X-Cache,3:HIT,]22:13:x-log-country,2:NL,]25:14:Content-Length,4:8745,]]12:http_version;8:HTTP/1.1,}7:request;477:4:path;27:/Rel/App/ZenUI_IUD/IUD.json,9:authority;0:,6:scheme;4:http,6:method;3:GET,4:port;2:80#4:host;18:dlcdnamax.asus.com;13:timestamp_end;18:1651508685.3675466^15:timestamp_start;17:1651508685.366039^8:trailers;0:~7:content;0:,7:headers;204:104:10:User-Agent,86:Dalvik/2.1.0 (Linux; U; Android 9; Android SDK built for x86_64 Build/PSR1.180720.122),]29:4:Host,18:dlcdnamax.asus.com,]28:10:Connection,10:Keep-Alive,]26:15:Accept-Encoding,4:gzip,]]12:http_version;8:HTTP/1.1,}7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!4:type;4:http;11:server_conn;521:4:via2;0:~11:cipher_list;0:]11:cipher_name;0:~11:alpn_offers;0:]16:certificate_list;0:]3:tls;5:false!5:error;0:~5:state;1:0#3:via;0:~11:tls_version;0:~15:tls_established;5:false!19:timestamp_tls_setup;0:~19:timestamp_tcp_setup;18:1651508685.4019938^15:timestamp_start;17:1651508685.368989^13:timestamp_end;18:1651508700.9398265^14:source_address;25:13:192.168.1.114;5:55994#]3:sni;0:~10:ip_address;23:14:152.199.22.142;2:80#]2:id;36:3a9f551b-57f8-438f-a36c-15536dd59ecd;4:alpn;0:~7:address;27:18:dlcdnamax.asus.com;2:80#]}11:client_conn;432:11:cipher_list;0:]11:alpn_offers;0:]16:certificate_list;0:]3:tls;5:false!5:error;0:~8:sockname;19:9:127.0.0.1;4:8080#]5:state;1:0#11:tls_version;0:~14:tls_extensions;0:]15:tls_established;5:false!19:timestamp_tls_setup;0:~15:timestamp_start;18:1651508685.3638935^13:timestamp_end;18:1651508700.9389963^3:sni;0:~8:mitmcert;0:~2:id;36:2bb6c975-f5f2-4fe2-ba1b-f6c346a4ffeb;11:cipher_name;0:~4:alpn;0:~7:address;20:9:127.0.0.1;5:48298#]}5:error;0:~2:id;36:c695223e-5b4b-4dd1-8c97-4f6c3b4ef688;}10088:7:version;2:15#4:mode;7:regular;9:websocket;0:~8:response;8376:6:reason;2:OK,11:status_code;3:200#13:timestamp_end;17:1651508685.422914^15:timestamp_start;18:1651508685.4218206^8:trailers;0:~7:content;7748:ï»¿{  
-    "com.asus.launcher":{
-        "desc":"The intuitive launcher that puts â€œfunâ€ in functional home screen experience.",
-		"desc_1":"The intuitive launcher that puts â€œfunâ€ in functional home screen experience.",
-		"app_name":"ZenUI Launcher"
-	},
-	
-    "com.asus.microfilm":{
-        "desc":"The free slideshow maker with a user-friendly editor and pro-designed themes.",
-        "desc_1":"The free slideshow maker with a user-friendly editor and pro-designed themes.",
-		"app_name":"MiniMovie"
-	},
-	
-    "com.asus.camera":{
-        "desc":"The smart scene-detecting snapper that turns you into a photography pro!",
-        "desc_1":"The smart scene-detecting snapper that turns you into a photography pro!",
-		"app_name":"ASUS PixelMaster Camera"
-	},
-	
-    "com.asus.calendar":{
-        "desc":"Schedule your day in the simplest way possible.",
-		"desc_1":"Schedule your day in the simplest way possible.",
-		"app_name":"Calendar"
-	},
-	
-    "com.asus.calculator":{
-        "desc":"Your most handy, stylish, and accurate calculator!",
-		"desc_1":"Your most handy, stylish, and accurate calculator!",
-		"app_name":"Calculator"
-	},
-	
-    "com.asus.userfeedback":{
-        "desc":"Enjoy a personalized self-service approach for all your ASUS device and ZenUI information needs.",
-        "desc_1":"Enjoy a personalized self-service approach for all your ASUS device and ZenUI information needs.",
-		"app_name":"ASUS Support"
-	},
-	
-    "com.asus.flashlight":{
-        "desc":"The safe high-beam pocket lamp that brightens up your life!",
-        "desc_1":"The safe high-beam pocket lamp that brightens up your life!",
-		"app_name":"Flashlight"
-	},
-	
-    "com.asus.livewallpaper.asusmywater":{
-        "desc":"An intuitive battery level, right on your home screen!",
-        "desc_1":"An intuitive battery level, right on your home screen!",
-		"app_name":"LiveWater"
-	},
-	
-    "com.asus.collage":{
-        "desc":"The intuitive all-in-one photo editing tool for creating fun & stylish collages.",
-        "desc_1":"The intuitive all-in-one photo editing tool for creating fun & stylish collages.",
-		"app_name":"PhotoCollage"
-	},
-	
-    "com.asus.contacts":{
-        "desc":"Your best choice to manage contacts.",
-        "desc_1":"Your best choice to manage contacts.",
-		"app_name":"ASUS Contacts"
-	},
-	
-    "com.asus.task":{
-        "desc":"Control your day with just a tap!",
-        "desc_1":"Control your day with just a tap!",
-		"app_name":"Do It Later"
-	},
-	
-    "com.asus.email":{
-        "desc":"Manage your emails efficiently, intuitively, and smartly",
-        "desc_1":"Manage your emails efficiently, intuitively, and smartly",
-		"app_name":"ASUS Email"
-	},
-	
-    "com.asus.message":{
-        "desc":"Smart, Simple, Smooth!",
-        "desc_1":"Smart, Simple, Smooth!",
-		"app_name":"ASUS Messaging"
-	},
-	
-    "com.asus.linkrim":{
-        "desc":"Instantly upgrade your screen and user-control experience",
-        "desc_1":"Instantly upgrade your screen and user-control experience",
-		"app_name":"PC Link"
-	},
-	
-    "com.asus.sharerim":{
-        "desc":"Send and receive multiple large files faster than ever",
-        "desc_1":"Send and receive multiple large files faster than ever",
-		"app_name":"Share Link"
-	},
-	
-    "com.asus.supernote":{
-        "desc":"Take notes anywhere, anytime!",
-        "desc_1":"Take notes anywhere, anytime!",
-		"app_name":"SuperNote"
-	},
-	
-    "com.asus.sitd.whatsnext":{
-        "desc":"Your mobile personal assistant",
-        "desc_1":"Your mobile personal assistant",
-		"app_name":"What's Next"
-	},
-	
-    "com.asus.mobilemanager":{
-        "desc":"Disable start-up of unwanted apps to optimize memory, speed, and battery life.",
-        "desc_1":"Disable start-up of unwanted apps to optimize memory, speed, and battery life.",
-		"app_name":"ASUS Mobile Manager"
-	},
-	
-    "com.asus.browser":{
-        "desc":"Speedy, stylish, and convenient offline reading-truly the best browser choice!",
-        "desc_1":"Speedy, stylish, and convenient offline reading-truly the best browser choice!",
-		"app_name":"ASUS Browser"
-	},
-	
-    "com.asus.asusincallui":{
-        "desc":"Making your phone uniquely functional using pro features",
-        "desc_1":"Making your phone uniquely functional using pro features",
-		"app_name":"ASUS Calling Screen"
-	},
-	
-    "com.asus.deskclock":{
-        "desc":"Your everyday clock for everyday use",
-        "desc_1":"Your everyday clock for everyday use",
-		"app_name":"ASUS Clock"
-	},
-    
-    "com.asus.flipcover2":{
-        "desc":"Control your apps and get things done right from the ASUS Cover",
-        "desc_1":"Control your apps and get things done right from the ASUS Cover",
-		"app_name":"ASUS Cover"
-	},
-	
-    "com.asus.easylauncher":{
-        "desc":"Functional simplicity that makes your mobile life easy",
-        "desc_1":"Functional simplicity that makes your mobile life easy",
-		"app_name":"Easy Mode"
-	},
-    
-    "com.asus.filemanager":{
-        "desc":"Your managing tool for files in the local, MicroSD, LAN, or Cloud storage.",
-        "desc_1":"Your managing tool for files in the local, MicroSD, LAN, or Cloud storage.",
-		"app_name":"ASUS File Manager"
-	},
-    
-    "com.asus.gallery":{
-        "desc":"Your all-in-one multimedia hub",
-        "desc_1":"Your all-in-one multimedia hub",
-		"app_name":"ASUS Gallery"
-	},
-    
-    "com.asus.ime":{
-        "desc":"Become a pro touchscreen typist",
-        "desc_1":"Become a pro touchscreen typist",
-		"app_name":"ASUS Keyboard"
-	},
-    
-    "com.asus.music":{
-        "desc":"Just follow the beat!",
-        "desc_1":"Just follow the beat!",
-		"app_name":"ASUS Music"
-	},
-    
-    "com.asus.quickmemo":{
-        "desc":"Get instant reminders on your home screen",
-        "desc_1":"Get instant reminders on your home screen",
-		"app_name":"ASUS Quick Memo"
-	},
-    
-    "com.asus.soundrecorder":{
-        "desc":"Have fun with audio recording!",
-        "desc_1":"Have fun with audio recording!",
-		"app_name":"ASUS Sound Recorder"
-	},
-    
-    "com.asus.splendid":{
-        "desc":"Have a splendid viewing experience",
-        "desc_1":"Have a splendid viewing experience",
-		"app_name":"Splendid"
-	},
-    
-    "com.asus.weathertime":{
-        "desc":"Real-time, real-feel weather forecasts anywhere you may be",
-        "desc_1":"Real-time, real-feel weather forecasts anywhere you may be",
-		"app_name":"ASUS Weather"
-	},
-    
-    "com.asus.zencircle":{
-        "desc":"Capture, share, discover! Try out ZenCircle to explore amazing creations!",
-        "desc_1":"Capture, share, discover! Try out ZenCircle to explore amazing creations!",
-		"app_name":"ZenCircle"
-	},
-    
-    "com.asus.server.azs":{
-        "desc":"Search all the files in your social networks and cloud storages easily!",
-        "desc_1":"Search all the files in your social networks and cloud storages easily!",
-		"app_name":"ASUS ZenUI Services"
-	},
-    
-    "com.asus.watchmanager":{
-        "desc":"Unlock possibilities on your ASUS ZenWatch.",
-		"desc_1":"Unlock possibilities on your ASUS ZenWatch.",
-		"app_name":"ZenWatch Manager"
-	},
-    
-    "com.asus.backuprestore":{
-        "desc":"Store and secure all your stuff with ease",
-        "desc_1":"Store and secure all your stuff with ease",
-		"app_name":"ASUS Backup"
-	},
-    
-    "com.asus.themeapp":{
-        "desc":"Personalize your ZenUI experience with beautiful Wallpapers, Icons, and Themes!",
-        "desc_1":"Personalize your ZenUI experience with beautiful Wallpapers, Icons, and Themes!",
-		"app_name":"ZenUI Themes"
-	}
-},7:headers;442:25:13:Accept-Ranges,5:bytes,]13:3:Age,4:1966,]35:13:Cache-Control,14:max-age=604800,]44:12:Content-Type,24:application/octet-stream,]40:4:Date,29:Mon, 02 May 2022 16:24:45 GMT,]26:15:ec-rule-version,4:V3.8,]22:4:Etag,11:"740841082",]43:7:Expires,29:Mon, 09 May 2022 16:24:45 GMT,]50:13:Last-Modified,29:Fri, 26 Apr 2019 11:39:15 GMT,]29:6:Server,16:ECAcc (amb/6ACA),]16:7:X-Cache,3:HIT,]22:13:x-log-country,2:NL,]25:14:Content-Length,4:7748,]]12:http_version;8:HTTP/1.1,}7:request;493:4:path;42:/Rel/App/ZenUI_IUD/res/en-rUS/strings.json,9:authority;0:,6:scheme;4:http,6:method;3:GET,4:port;2:80#4:host;18:dlcdnamax.asus.com;13:timestamp_end;18:1651508685.4142563^15:timestamp_start;18:1651508685.4131565^8:trailers;0:~7:content;0:,7:headers;204:104:10:User-Agent,86:Dalvik/2.1.0 (Linux; U; Android 9; Android SDK built for x86_64 Build/PSR1.180720.122),]29:4:Host,18:dlcdnamax.asus.com,]28:10:Connection,10:Keep-Alive,]26:15:Accept-Encoding,4:gzip,]]12:http_version;8:HTTP/1.1,}7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!4:type;4:http;11:server_conn;521:4:via2;0:~11:cipher_list;0:]11:cipher_name;0:~11:alpn_offers;0:]16:certificate_list;0:]3:tls;5:false!5:error;0:~5:state;1:0#3:via;0:~11:tls_version;0:~15:tls_established;5:false!19:timestamp_tls_setup;0:~19:timestamp_tcp_setup;18:1651508685.4019938^15:timestamp_start;17:1651508685.368989^13:timestamp_end;18:1651508700.9398265^14:source_address;25:13:192.168.1.114;5:55994#]3:sni;0:~10:ip_address;23:14:152.199.22.142;2:80#]2:id;36:3a9f551b-57f8-438f-a36c-15536dd59ecd;4:alpn;0:~7:address;27:18:dlcdnamax.asus.com;2:80#]}11:client_conn;432:11:cipher_list;0:]11:alpn_offers;0:]16:certificate_list;0:]3:tls;5:false!5:error;0:~8:sockname;19:9:127.0.0.1;4:8080#]5:state;1:0#11:tls_version;0:~14:tls_extensions;0:]15:tls_established;5:false!19:timestamp_tls_setup;0:~15:timestamp_start;18:1651508685.3638935^13:timestamp_end;18:1651508700.9389963^3:sni;0:~8:mitmcert;0:~2:id;36:2bb6c975-f5f2-4fe2-ba1b-f6c346a4ffeb;11:cipher_name;0:~4:alpn;0:~7:address;20:9:127.0.0.1;5:48298#]}5:error;0:~2:id;36:12d3112d-3edb-4e9c-8121-1b463182bf30;}17692:7:version;2:15#4:mode;7:regular;9:websocket;0:~8:response;15997:6:reason;2:OK,11:status_code;3:200#13:timestamp_end;18:1651508685.4347544^15:timestamp_start;18:1651508685.4334354^8:trailers;0:~7:content;15371:‹¢Ò¬Xÿplay.json í½Yã¸².ú~ó6Ö³\[¤æÜyGy<¸dI–eË’­ÁÓÆùï—¤FgVW•«œ«²ku5ÚIq~ñ?ÿëÿù/ôï_ºáªgÓlÏı×ÿş¯QIÀİt#[ÕÇ ùÿOì§ğ_´ 
-ÈíêšãDöcO;î‘ïÿyôÅÿşç½W’ÀVól:¸"Ikò.ŞÆÔÂÈ7q½şE*x›ğ¢ùæ—U­?mQškøm|Ùj¾A¼•Z·6lúË÷A§k!jû—~M™ÆoÄh'ïC»ƒŠ¬´ı÷!u¹SSÓJó/ÛqĞ®y{ÿ2–w4]‹D_è¿Œut´pãù‡à›y¡f™8FèGæ_ÆJ¦ƒª{‰–Æÿá»I\í@’@öşœ
- é_ïÓı_êggøgf|ÜÌØhNğÄÔà - ©ÁÿøÔ _<3ğ4„ì+gšgÿ™ñ'ŸDÓ Šà‰ÑãÈº€fUğµÁ{ôúÿŞdü¯µ£é{ÇBœÛ!8ˆàURšo›¥k®î{”Œ¦ dI¢*¼HóTÕ“%¿Uåyš¡ªœˆ~÷Nhû:4`,*ô·GäCmÑÏ>©Æ_$ÒÑ§¶Š²G1±çnƒ~Ï÷‰ëX!‰eD^pw©p¤pL7´ƒ¤AÓCûçgc…k³çµÖ6Û%Ñ¢@GÕÂ(ËsÓKÖpí|’Í:…áÁ‹ıõ­{ßÆqc?“Am\‰€sØá‘tñWÚ4‰oQúV³ĞéL:!n7&ñp5I>¸ˆÛ7ĞŠ½ã™…ÎAC×;²!İìãáêfÁq1fqŸÖÔ2xÎ¤gu7}/,òƒ+˜¾¯¹®Ä)ôµ> px6iÓpQypŞcIâ´¨½ÁÑóÃ€j(¥–h:<_#EeÃ@Æ×ODš¼Î&™ZY×29<ˆé3-›hHPq}¼a&›Ö'ïÆtáqÙÅót‰Î>.ÊŠ”Íê YZ:8ØĞş&ímºçR'ÛÕPC;Ô\5: öÇªn´ÔMü±‡o†‰z`kjÄD’ÔÂ3Õ”XÅñ½(¤äËÑ ıêÙ%VÓ¯ÉQó÷©Î²È K§´KYåDg‘Fù[çÍÖ@-·ÜeAÊ;˜–æSkè 0Ç¶PmÖ€:Üš²LEe­Äü/$ E¼qBä0—üR&D+gÀSwHmC]İÚ-Ú:ÔñækÛ ~ñ‚|bW;4aäPæ5:Ûƒf¬ÆN#‘…|/N~_¬ÄE™®ajgÏ(Ã¹¢qÚ{h/:Lu«AÈQòd:QW4=©fÎY•êĞ`/8N\4`«*ˆ?šRC,UˆşĞ0õG‘˜*ñ3ò²*“å,d‰û$qÎÆ¾]´õ²aq6…<Q/f9-«i]ÆaC¼o£‘¸Q¦YZ´[“ÊÄqÒêBÜÄz¡à<¾”Œê9ŠsËªECêí‘õ/Ã»¸§„Fä)VäŞEAgéMİ˜GG|rğnÃğüïÿşogË|±<ÏrĞ¾cúh„hû‚8ÿÖ…F½Zå­Û&2{Juª)«j}fòQeowg·:,Ğì¼ù¦$î¶êĞ‹zƒÃ¡Ö…ò µ™ş¿[ÀÑ%ÿòõêØdÉıhu¼È·+|ïĞêTY+Yêã}£~òüßW›Zs{ºåjµU³möjŒ£K¢SEMºô—õñ9ëZ¸"ì¦p¶	²œı[£ƒ<Â›MèùæËù? ş<-÷à×“Çˆ\“‡Ã÷„Ü¼Uoıñä9:Û Ÿ ğPm¿ğ“çˆĞúU
-¯¿àh®MæÁ¦†@€u@S+¥Vš‰ P¾il=o¿ÖnÇÈèOƒ65!¨¡˜Ú1
-H²q’, cÍ2Õ¦­²Ğ5´ï Ñ#äŸákhÉØ¥…°4EÈL¥ğLEÛ.53u”ç×€X¡Lß64×&>Š AÊò#”×Ihcß™ H=’?‹ª#B9m…$BÅcãº³ô‚Ô¶Œ<v #‚6&kÛó©f¢í’)•ëˆH†5ómã¹¦$r}J©tÕ!Cƒ5L»¢x[r¹;X»Ó	ñbû2N&R•ñ`‚öM¥F[.‹9µ1éQ³:/rTMwìc`RKT—€‰CHJy(W¨akÑBçÁ)Â¡j§†“¡ÀqşËq@¨N¤ÿ ÚRe(ÑyTN­7«8ÃÒ,&ÓC’±G¾Ó˜,çF‹ÄĞ"p¨3´c!NBôÇI~±“KœêºÔ—åììÕ»e»ŒR¬ª*õ§r(Oı ¾Ñ ¶nÆ¿=›Ã<EÂG0RU KuiK¼±ƒ~óÁ(€G>4Ê¹éØÍ%¬	‰İŠ?”hX'^<ñbğ/Àn.ñáI*‹Ge¡æáR$–Ai»!yBâİ<JŠóD'$Éº†ãT]R&GjŠ‹Ò±)8Î‰%¡Iİû(€%€$æòK*Ü…˜£"¡Ğ¸8¶½H~,öjà‰@B8Â3$	CB @Ñ ©q0u’|CiçÔ|!,íe~FRö
-ÓÏEšNƒÄœÏÙ>#ÚS·)ë¢mn[¤»1ñó"×‚îFGø–„MË˜âğÍ:Z¶¸
-yÉ¸Ì”i1 æRÖE¸GÖõPÒÎõ€èÚ©‡E0ŒûƒíÚ„İ1;Â•è™¡ï+
-©{i—h®0ªpÖ\bZáğ˜oñt¤tDõB\HÒ9FÀâ†e…0k,f2Røb#âÿš²Ï„›JòœTğÔÔvÇ¬"ö”î¡£C×Î¦ª{Ş¡,CÃÈÛ‚£{k[V ­Gv:ë\D‡¤‹pÓóq=»K3Ïïø"TLY4'ÒÊã8d®à*d)1Ç˜2y›´ß6ÉèfmÁ“qj…é‰;?Ÿ
-8u*vHüŒ¥O§Íë‰0‘ta`¶PõŒ›&©b‡†!¼<rÎ‡dhCŸ²©¼ãpŒ­“2‚x¥’š¶‚äCº¦°˜Î^R­Œog¼g<İ²Y•”ù–É4š¥– „¼—ãÆf|kÊ°&µ!s‚$²ü	ÊRò~Æ_|\“a³TĞÙ×'mzÊµ$AxN 8¹ì=WKå
-…e€›‰ H¢Tµ¡ÑÑÓ÷f±|Åó½£ƒèL¾×9bùCÂxg‚„¸O €JxYàòr¼ ¶À‹ÊÎ8wÄ·'¥A¾ËáJ™Ÿ¤|œI#Vµñ:HWm¾íxáeÃ‡»?öGÙ¤UÒ]l,ÃxŸ4 ÙfÓt¸‚…Xö!éŒÑL–”Èq47ô@ç­·’CègadÃtÏ§cpŒ7ÍdÅ£ƒ6/4IÓªŸÈ¨bñFºéÄ‹"ì¸UèèL¥Nù$N„](N"ĞÃ)"‚7¢ˆÈ&IŸDİg³8—Ş¾º·ˆ‚SõhmR•›ª‚ÏN†f'MjÒÄí¤Iv*üé(Œ#a%š¯S¡€8ü	‹ÈU¥UU+M…êU Zéã?Ô‚£º“	Qæè<Íˆ¨@sÃıòÿr0 juŸ÷»%ìæ9â/u°›‰c:Ä§K|ö$üËÓñ	ˆq#ÿj¯RªôiÆ¢ÿy@)èo­;mÈê”
-Mzh
-xuÏÅGh4ü#æ+ğøe!Djä­µ½YŒŒ(‚³æÉ½U£‚lÊ%Rq
-"©²¶^CG‰öJİG´…X¾íš²«³­‡XV”‘¯¥Å•<eÁá”ŠÏH¼ƒ†f<b˜³ºÇiJˆ9¼Rç!&8{6¢ô‘—Œé!D LœòøÑ¥–éĞ¼„kìbĞæ!Ä;<ÊÒŞIÏ…kG'cPâRcFMùJííĞs±œFD©1‡2‘ ­säàc‡Ì1¨R5gÄ›ÄŒÃP½hìËs(ƒ¡ &iE.-ˆ$ÁùŠ8¢“tPŒËF„¶Xâèn…ê -±‹ª‚éH‰‘H&hÑØ®ex‡g‡Š¶¦ãøñŸ)×È˜xFéğ7ÒÉˆüK%1<&µQHH¼¤‘8S"ôÛ`éâ†§6WD§aÉ¡eš[_g­DÂèDg†üW¢1ÅE˜x´ô\ÀˆB!‰%ĞG—ºpœKYğÊ‘Ïàˆ!ÈTy6MU‚‹}8âATRQ2FRl’1Îı|D—ÚZX\D? T<ùÁÕÄBÎâ‘•á© g¦öSQ'*íÍ¸2X¶
-q[9\(î,y%y£ïçÆ-%µCŸXşJ²I¥²WGFÕÂ¢ÙÃodù¡~¾2'\`w+òTH9’m'ıNŠ+bškT@Ä¢¿wu§ãCÙ"+:æÖASh¹Dä'şÅ\ 1ç# )QãRÛË!„%qÛË‘‹E®ÚLKJâY
-Ñ
-iÎ—ˆA)M“hšÛK ">ÛÁa*"ÎJG‘ÓLqöGı—E¤I&‡û7:ş-M—K<y:.½˜!‡\ II"¥¦9ÅÉQB\ÇıÚ\®¢åÜ ğ)şƒ¾ˆ€ÙÔ±Èú èF¥>Q*º"•>cÑó}„<LãÈ‘õVR™Ln ˆG®y1DŞ’%ñ5&‹ã„k_Cñ³ï4Å¹£RO¾™Èy#/7¤2¹°=«©§Ò˜ÓÖ@Ñç˜z­aÖ²4Á^œ‘¬'âö\Œò›¿{#Ñ ­‹"‘"®Úâœõ­“ˆò¢OĞZL+–ö.<kÈ%¿A(Júx8pG£ªã/”öˆ×&:.5DZ hºfxøÎGûíî	‘¹wĞ)g£óñ!ª•Òœú¦tDŞ½øê Ó£ÅûÙoªÌPrEÕP<t<ì5µ©:¦*ê˜gWjØS *Ó ˆE$àóÏ0Ğ9ÈR³Î’êA4ë‹J‰“©:‡¼ª\ëTä^ C¡Æù*Ãr¹mñTkÄ2¼ÿ°@PGªqs¹›~HNV…o’+Ñ65†hê·ğá³Ä`Ô:ªãLÙB"Õ(¬Ô¤:òJî©Šç»¨Cq¥âB¥8n^’@)3UŸ¤f
-Õ£©ŞœçS6ı‡ˆ8E[¡zD”@I’€ššŠé&ÍÇöğFşÚ£*ç5C„’¹RÇÓª¸ÕÎ%š]jàŞ®ÔØö†v£ÚŞMUfÔp‹	â5Œœ mãuÌûPM;¤føP(#‡ŒƒkZp£4T½äR¥ƒØüâ‹—ô"¨Ô¡Q±(Î*¾"¥øÚERYüG/mPÄş¬‘À¼xÅƒ¼¹âµÊˆ!yĞ«¸´e‰±/) Æ7OËÂÍ¹FBA"¥, j»\'µÅyù-Xb_ºx†"THâÊåWBuğx†‚ËøGÀIØÅÆ­dâ!õ%ù3iç(¸sG“T‡³€jœ ¦‹Òt4´£o;¶˜Œûà‹Gò¹BôICŠwˆv}R&ŸÅ'èÀO£Ğß¹ÏB3HâŸ¹Ïb¿XÖq_]•“Á4øñÖ:,DËKÇM3R MÔyS¯^¥îíæ4OUk§-ûÌŒ]J‹¾¿ë@EÔ•%ƒÑOŞaeUhÖøën‚¨×^®¸`¬Gó¡§ó°²/Xs\?˜uÊŒØìÊı¡Ônm9ce®³}hİéæÂ³­º¶â¾må{D¹¿şÂê…ÊG¿ñ
-ê*ò:‘Lmm¿ş6
-­|²ôßFÁ/àü‚€¶bğË·Qh§“ã«çJ|]Q¿s‘Œ¸$ğš‹äFÀNs\5A¹H×C-T*öØâ:´¦t«q”İ™©„wVœ³Şiš1­³½Ò?³‹û€|–C~õz¼Úb†#íN§NTh[gÈÁ¥>½úNˆZ·ëvk›£×¹t›Ãrù6h_û£Ó€eƒ­B]s±¤ùŸãŞøwÄÙR|TîNQĞ@ù#.ŠñÒ¤¡(<µ4é/œ€/ŠøR_ ü3†Ï!Ë<yÑkrÒ,àu_Íh>D`"öªÈÔŠ<¾+§AI¡”:"~”˜¶’Ñƒó8ñFTx±ãÊ[š™D£(!ıd¢š£‰ÀjL·*u&-« P“t„L¨M¥.àxÉYğXN³0m‰+;İ”ÄÍ‚%%Ói”JJ§jJ)SAáqµ÷UGÜ)6>‰©ñqœnJI£?BªL•fØPÁ{5°˜şNkÜ$Ä0"I ¥ÄsÂZÆ47¡«¿}ô±û~?ø™£otK³Æ®î­6pÛuGw»¾êrît4wºÖ–ïÍäÉuy)sÚpØŞó¬ÀU*:¼Éş-Téò’~¥oŞ¸¨2ánı>;[ëƒÊ8Ÿ^ôàx~BÅ‚à~di™÷àÜª,XwFÃuß®ûŞ‚üœ‚ˆ‹×>5)ÚkUÆ¬_û€ïƒ*r¯6–_¶Ãßy Ò<Úõ¡ué/<ÿ…&šW_ß“©ß L÷Ï„xÍ„iLa‰OœÏäKãkp>ù©FÔg‡¹¶m,É¢ez=4™–1Lå'Å8=®“ó/9h'õ$9sd§ß–|H”À0¯8…º×³ìo›İrƒ£UçWÛÑğ¾	+›ë‘S&5êwZ=¿!»{zÂM˜ÉnİåÕ˜FeÕêŸUögN!¾À€`=èØ6¯oP¶ë|¯º?^=eR>µ/÷íYt‡7vîÜdZ›.O§í„W§«
-C÷¸Éjë/fWïUü—ç8ñ<ş=GÏÛeè¾iº_†ƒ±2–[Êg‰|„b®(H>C¯‹x?à¦7¹ßñlîï4f‰«t´;ğÏØ}èØ}Ô¸Ñ¯·gÎà›jDIR;«Maı§pMµìv—¹5%âÀ¯»âDóTÀ:`ñwšZ?èzê¦:­±Ét©ArıíSñz|Å)»W¬tëÍZÓÙØ]E›áèz¿6áQo7Ï4{ÅíÜ]Ø¿ÖBé]#µ²8)œ£®…)]E•_¾’×k†Âl²¼ï•z´›ÀH©5 r«(Ş-hA£o-…Étzå^ Øı-råû|oÆºâô‡Ì]~Ù‰ëb²àõH	/|ÿõ1?¾Y¼ŠYÜ/òTÔ•éäÃ)ügu•g)|áq°râ?TáäHİø/Ï–Î¢ö!l"ÍÒPxŠMDó-V`~°Âø¤ùwÍ
-š–Ø§fırD¸ÏŠ·ñŸ4U>kĞì³X¼ŠN0‰ŸuVüÊøÿ)£Z¹4Ç?1¶|rƒÚ¿ıÀşÈáMûÙ81ÒgEÁùO@4|Ïñ†	dÀg•ÕÿG&¤áÓâu  ı
-áúWÅà:“‰&?HÅ!HEãñírQl¾¬æ·Á`ùN"?ËóßæïEJÀ+øû­Üš*CúäİÇ5V–uZ‚‹Vtæ"¥W5é>PÍC7g3½.0®ÚïT[Si~¸=íæ-ZÍÚ+|—»Ëíãj°¸·§àÔAàÛ]Fšì™&Ñ³Ñrlİk='ØñÁĞvgÔ*k±nª•ûa\®¯ØWó÷_Â­y0¿š¿ÿm¬ş½KÇ¼ŸäD• –ı²ïÒ1½L×4r/2MåâÙ¤ZĞº¾ÅÖé`]6Eï!ˆ?XU#ÖÃNô¬Aó+[	.¯€Ô/h@§šŞõT}†`çdjĞ€.hŒ×RØT»G4¦‰ÒJ®\^‹f;¹<$
-ÓD¯¤ˆõ“îZt¢ŞK±€˜\ˆ4šIõ³õ¡T]Š‹ì§S5õTtÍûñŸX••©¶'÷™¹N<{‚Ø3.Š‹·ÕoîÅ³â+¶Î£R]*uû0	îá”;Ê\@ƒmÛÚ´'ãúÀmŒ,WêZxky§C¹R‰ZşúD±g¯zw¸lš'ñ•;'cu®Cg·:öUo3>–ÇóõL	†ºœ·½FMk	¼fVDM¨nº~µ·˜-´~™·Cìöœæ8?´w²ßİ;3Øë§¿~Çü)UÂ¿ ¦ş†xŸŸEÆ‰‰3>©[
-0À÷l¿¸eÇÈ;x÷Ê1xRˆ`/öÆ.>Ş(£şÀ˜@zÉŞ™Qj0W˜H¨»ù×i¿å#Ñ÷†XLŸ¿¬Ô+ÒCæ{úxÉötsO“Ã„µîudì*u¶ÌM¶?>aŞvÑfæì*“¶}_Yİ°¶;…ƒ÷h×K»’2ét¤íKµô´’éø[¯q¦İŸozõtì+=F–_»ËRuĞİMê};3N¯_v­Ãªîİ®–v‹¹.¾hw2µàæh‘«o?âÙˆğoÁ¬ıÏbä™‡( <ÉÌÃ”¾”F|Ïò½ÇVT0éóV§*w¤Áƒ>!õ2•é\«ÉÈ‹Å=‡P\ß§s ı<b¦Ú4YÃŞ"¬¨+(ºÖz<=¯¸fe¬äÆ¨qƒó)GÛª¸P6ÎrÒ«qZ£Mº¯L[Ğy)q£Ş§eŞæŒwn­¯f‡>	š5R¥Ãä¼™^#áÜ­\6Ü1ÔzA#ÔVut[kaV®W¯Ë²f„úmúªíã ÙÎßçËß®c0ƒé_şáY¿e‹·,ÄƒÀ‰OËËié×7è~Á<bÍfQx-/â&Ï+ÒÇyÜ\µV|@³-ìÜÙ~MbJš«<“rĞ9ÛœÑ“iÁtòò?¨yóê#y²zx+# §…(ö8a¶+Y`×àñõ]­¾y{’fJá=J¹úĞe }ê³*'Rààä‰Lá•KLYÃŞpòbf™3ìÉ;™"Äñ*~Ø’?z£”\#/Û“Çéqû$¦ğÄ'õWUá¡*øeR¹0Ø´ZÉ™§…îÄ±å¯ärŠ®œ>8‚Y	 ƒ$sˆ¼#×‡.2ÓôÏ›×Lù{'\y.+)JPOú'y€¿°Jø•¬U¯›ŠÏ¶’<ÏzÿB*¡_’'üo^%r£¥:I9¥Ï¦ğdÈ)‘4£^,Öùw˜§Ş½sšÄ½Ôªnú×}¯<RôÕn¿.1¸P§¡µ;vxxÜÕÆSìZ¥†¹½ø-Á)wÖ­ñ¤Ö…Ğï‡´õR]4wdõ¬Üæƒ®Ğ?`×at!’„lŒx¡Ûe¡Şv—û“c8J#ĞúµñF€'ŞèZµ~À”¬=;ÚØ"J\´i ?Ã¿R‰èO¢J°Ü’ğ¤Üšá$¬ëiéW½o®4Pè<~…á>ëÎ<®3¥½êd°0æ{E]v¨_hQŸ¥~(V«Áá:o;öš;‹Â¼g8A×–j¢Ü«K¡Õ¶^¹êœñ´Sî™|¡uÖ{³ã.Óª`¬¥h†xsznàÍfMÇ±ämIí/fºDh½EŸ¾jÙ9Z°ulkş6)ÂÎõóÏ‰‚u.Ñâ¯®¯†RòÊc6ù¶æbÁâşJ@Z ó%H—…‘Im²|/:bc¶ƒ†V£sıHH0E:¦;EÚ'¦³Ó6–*^~Å(ÀÂõq”
-VOµVoï™‰Xúğí—Ä‚¼ôŠ½eû=[Ôør©³>Ï7»¸\F`4LAs4Ú,N‡Ù#„šËKASv¥½Ñ(Y{1÷‚Årzyåæ27áºJ¶‚²
-ïıE4¶ïÚµFûí2º]»;z`®Á!¸Ÿ!àg–ÍKjWï5ûŞıîûúË6û¨{h†ÃO¥`ırùäXîO*ƒYm¬¢ÿ'­AşuŒV¿>øËĞdŸß¾Â³×ã‹wAp/´é5	ñ/±ÉHÇßMm0T°o?ÚüÂ Ç¬*ZÄÁ©Gß<ØÑ!öı(Ûğ&şe…8„SQojuEjV/‰×Ç¶0‹CÌ	,$Œn-°<˜ê1Ôˆá¸Ã>ŠÁíŒ´K.®2¶@†]Ux»3c'Ôr:®udU€ïmHÿEÿØ?6"CıW¨‰ÄÁ€ÿ±¹»g‰%Ä†@ÂÄ‚Al° ¶,ˆ¡ÿcó ±a€¨Ÿçã>ş ™ÎŸXSKì ÄĞÿÀ?"Q06Àó\j8 ¹™Ô” ÎÔAÃ»©m³õ;ãhEØp‚°œ›Â"ÆÊ­¤L—eèêºç›Gß>Ä/Ÿ
-€ê)ø76"–FNİ8<CyO¬Œ¥î‰½·4j#…SÏA¨û@ğé“ôZX€,/ ZçØbò}¡¬>:iWŠd˜ÈãØï¾aPë¬bzbò-ú.dCgcş4:•iKÈ1gÑ><Û¦C¤Çøş û‰™µ¤½ièVÁğ›rĞ¹	:Œ=ŠÇ3äbpïmëÕÇtöYEcC3LóiIãkfø,œ¯ÛÏ3‹æìpO&¶¡‘v N[1ÈÌäFö ÷Óêà§yF÷¢|#31XlpÖ½¹Å¿Ô&_jŞ"é4‚¥o»omĞmß™º ÑùÉd/ “G€o§Ea&>˜,XÏÈLk¤« œtIj‰˜¬Àíåù2ÂoS›ù„KW]ú\ñ­Âàí>¯HËÀ¸ñdìT
-:`
-fCìG$¥âze}°s+ŠÉ ‰é°háƒ]ÆG8û4¼ü’Œqeç#nn00µÎãÿğüSŒø%?]ë ù¹ı¿Üî_qR¥£óØÜ?Y9€}jœ$1H†Ç5ñ‹Òpãâ&M,fb±RŞCßÇø™mÄ‚¥‡Ä8Á>ÛfÒ²2[—Å±z4¹-ÌÌÍƒL-1Ç‰Óîs;†3¹èvŠBÉ1/PAä»¶– ¼áàâ‹àğEøwŒğM>àÄ¿C/€ÍÇPñEëˆ1.}5ÓûØYÀ¸÷Â(P·(ùIõc(ú–şzş#n~Úâ‚%GâÆº#C»ÿäú×¾ £Ôó\9Ï2âäëÆ§ıAê{š¯Ê\fİ±h!ò¶¾`òÀ}¢z“¡Ä£¿pV;Fİ¡O¾#õniÕ÷ĞE3 M]óvIşúÉ_Ç§ä^Jİ¬à,Tg c¤¤Å
-†SÇXæ	|zlq2FJ'è&$60cPt6oN„bÇö(s(u¹‡[ŒóN`Ü-ˆQÜ	T{
-å£¼cÈø‹€­`b	Á-I—£Ó‹©iY—×>ƒ¦OĞŞSÔyœÆœíe®öĞqîüCi{ÛÁÔŠØõ©ÍL\8ús±INÔ7EmÇ¦3±ÍÌ‹Ü­•šTsŞË¦1˜ëÔ¨fŠê]ÄÉ.ØÕ, ‰§&8c·©G£w àÇ €¬¨BbUÓM5ËQÌc[o`ÉĞâñäD°ò7àäNU¢49y¥Èè9~zÖF‚À@²'Èë™¿jÌ´n\Ş,ÒşgÜ¼™¤à”ç å9ûĞ{ğˆt›’¶åF"å*Şš³A+6.ˆÑáSxs²CœÇ†Kßš3­ãã»ÎAª©ùˆ½ó)±jÛØosn¹f4¯²©în¦(
-§Â§vAe˜/(Ï4r½azY°JnSpçZ;:ÑÎÍ®0*R®w“úåº8­<yÁ0+®@«~aA¢ø×àÈzĞÛîÆ–¾lk·«Ñó6×€ŞôÊí]×½es ÏZJµÇ7vëò˜EÇ× ¦ºËœ(Ü±Ä\_*ótÏŠTzSåZ+­\‹®»íqƒndpûrKĞÎ¶-xz|6–£é‡y;PkÛ‹-ÖéÒ’½HÍ&€1¯€1& cş€½ş ıc8áÉ§`ˆµÙ½fß¿Şş™M`ÍÀÛw"y!ÍNô¥{P÷ğµáÖ<Ôa;š@ùæ]Öu¦ÜZØôªS™Î†İè¾¯Ò­şM~å&p>7Z©×;øp=Ş-WİíuÁÔFÃÃfÒÖÕãdZ“—çë°t_Üd¿ÏD›µÕ¶Àp¹¢×­Yéôª«mÌ˜šşíóš#–W“ßŠZñQˆXˆŒæø,2äã»7á%·™¶ı,*L¯³–©¾şãÓK¨¾}|™¾©\=\°}&¡–ıYû¾Xs;*ßkÖ¹9ZÒ½²º9Mg}ÇºéÎ¢½ÛT•óN”f>_‚æö8 £‘b…¡0XY¸€~ë•«ùhÕ'Ëöqà¸ÑO– µ/sÚø¬°¯wËqrzŞ¢Ô®2¹¥Ë¢ÜÖê­5¿z÷JG~Ñ™n¡Ùr±Ë|ı9d_´ r¯6oU5E…ôŒê ÜEúŒ“ö*yôZ%İ˜ÿŒø×_e<ukür1àÌŸ1àßhÇ'¢Å…§iñoùËhq@±ìKğígU™X%VÖùIËÒCgê}Îj0Ğ7g|Ø2ËÑ²+Ñ@Bog6–CÎ°Vİ6v•ò,xåÎuía³»)úC{£5Ü³"H
-ì…NïTZ‹ëôØ(ü–)Q8é.7ö²|Óº—jcTšÑõÚ;Ü/:Á?îİÜ„—ƒBÅOdDZ|î‰ŒøwÒ¿ñæŸ!£!ÍÁ§†~Ä €øuô·göÒ£èf?¡fO”^ÓÄoªEÀPNhBKmógÖi`î’²`ªúãèÁV‚êÅU¬»j‘‰va{>uğô­VŒ¶[KY†b¦OdEºnSéeaBæ‚ÔÙö-’±vÍdP¢™z¢äòFí…g²7ác7¦’ëEß·Ôö2nJr76)Ë0<±ÛJ]b-; †Ü­4+¥&ú»ä^¹AW…‡ ¤tc#±¢ºÉÅÊèÑnmƒÇVe‰UØÊÖ„qBz‚Êy´jË±±UÛa}¡ºe×4ÛK Ğ0'³SÛ¬­4{qY¨êÃ™m]ÕÑ\i)¥./0ØNíV€•¶A²Ò$Ÿ‰µ[T6ìj©R°o’j–dHêÆpIp\÷iÜêrlW„tÊkö;­9©×¤R!+"¿éBÔ)¸
-Ú,ÓsñEÔ‰y(LZ—&¤L*Ó¸c¿møâúa„dÜwBßL4çMÏ!’kà¾Èl%4Ò.i»Ùhe=ÛüÅ–~ƒxŒR£Á€[Ñ¾0É¢Ïœ‡Ç¡a’«’‘œœÔõÑzqÁÜqÜJœ]–0ÜÎƒCI»Ùˆ‘€ã«…¹”S:ŒESÆîWÔuhú¡¶º“J—ŒKOx0ŠŒs³ÅhºCE¢H>“ÁÁMªŒÇØƒAQ“)‘›=N#ã)âfâŒ`f¹™¥J,1Ç}™.(>©iŞ.&5êL¦Š„f^œgZK²¶Èä‚ˆêÌ–<ä’&ã¯¹K¿1ì·¿ÛRj$sÀ“NNÁ¶›óI¥TI'_Ú—ÈÁ°¹íg²o]m °›ÍI#cØÀëo#{Ó±9ét’¹’)é¹¤ú¸ç@¼—W ’Å“\RÕi—D ½¬öi—J 
-4Hg^%^jŒ˜õJ–Û´Š_ôe:æ	’¾ŠãÅ‚jzj$+µŸ•™{x.–>/#àŠöXSs¬¦¼WK-’{¾ä½ZşÎ/y‹˜¾¡¿sEÇ
-7/QSŸœ;Ê"Xrs‘ñº{Vr7¡Õê•ä‘*u½<XTwëyCY*MÏP›ÍÕ1¢§¥E¶ö›ít?èµ_zG×Ú¼SiTE×h­ÊÂy½¼—/‹0²·¢%Šs¥C´S…Ñ\¸Í–ªZ*›l¹ÏuÕ*­K@:^–?Äßgì³yÑç¨MŸxÚ‘®ùÛ¢}‡AÈ‚º­YMËİîP~íş-Cê×”ù`Üù#ğƒ^NÅš@.ŠÏÀ¤‚¨QüPq C1O¯şL„ßØ™·¯2Òb\>5×Ñ ©^o%¡ãKoqùæÌ§mÙ_İíÑo5S:4"7ôîA‹Û×¥hıªm¡òiµn.–ôš*«ñF8dúŞ°ëOb×êr÷›9à‚åÖ¶Ú2èv„fÍoæpxµüé¸wV¶nëU<ÿ»E~¸]´ğ=6ı“V:+1p­ôÌİŒ‘£?úM)b	Eø”U‘â„î_NQ§,w´®V2Îº¤¶[>œm7İ°1*ŸÎ¦>º»;©»Öve‰•î-p!GÎú]u|¶!şªÁd‰‡~vVa=¼â¤|«Y*•Û”}a|>‚¥:BÄFíUfps…Š^aV;V7ìö¦Qú±·£ÌÏ¯)øiÕ?à€ı™~¬n
-¤(ü,Ö‚·åİ‘hÚ3¡±kUšLÇµšTiÎÔ[XóGÍ‘3Ušµñõ¬×J¸^ÎšÜÀ63mj„şuÈı”FJ±
-Û=h–eÓiõım¹1hõ•E#¤·#°1—t4	”Qk*Ô¦t•óÏíË€[­ÓîtÔ©OÖµmëÇî­á“«õ·“¸ÿ²²’ÁÏ²àE¤ìáè{;SOä	Jò‘¾¾Ê?É#šä“±Š!ûğ!"~‘ÀÓ•”sÎ°‚b<â7J·ı(—ü‘x
-iDĞaŠ;” Øá"¼]‚eš)Tï(QPœ ''èÈ±Àä+81¶qåRNŒ‰§$hÇ¨Ì^Ì"Á.¼‚5ß€¥¢T|xŸ¢	a]"µ£0'r"–èts\âÆ˜`'¢\İ8‡Ffrt¤"ÀQEjFİsÍ¼Sêà˜H“{™h%<&ĞJ¸9ÇY–RŒùGMé¢–s'éÛ~¡ÕÓ‚Ùê# 4A~~€`Jğg0O«¥î#e˜Ø9”Ó#Öt,UBáSœ›f§Jà9”R7kâ8úkhJµÎúÌeGæv=8z4g‹±Òşé¤°T1v¨+6¸›‹¥@A’eRÑW®±^D!#
-ï*îõ78	-|"½Õ{£ã.§ØŞDË>C K!R<ğrAÿ¾ö][?Í#·„ëª¤WJãã²lvÆ÷ÙF6Ç´hrAËXûÖ* ƒaËÔÖ#çÂs;šk)’ÓÔ`5Ÿ]*v°¥½Ÿ”ŠeU°íƒqRàB±¹1ç4Ë'»öQKÖçÍ>s_7´ŞÂ\Îë]pwz§Àk‡Ö®¤L½Ek[Ywüsış".ù`ÁGXàı†IÙ§eÿ¤ãZˆQ8K`ŒŒ ~V+KOÒ7ŠşDà½Ü³–xrÏÍ¿½Sú[¢3CúS±„Æ—‘²}Í;v4C#2èEºâÉ3SôNEÈ™ŒTüñ5x 2àMÀg5İÒÊÕZœ½PÀbÌŒz$4¡ß[üyÒH€0éá7¶HŠVGbPÆö1ÁÉÌñDc†S”Ï„LT¤OÈe1Ç7-`]’f~[¤NS4|ÉƒAæË+}­·‘Ìûb—½MŒQÉè¬3«là UØİM¹Ü”P˜0Â2…=ÆT›ûJ=*m/åü*í ÇkUàÄñí0Ô+Q½F/Ë§Åj
-*Ï-Am>PØ^g¿>t%ıÄNØ³ºZÈ¿µag£=r9Øºïmlçğ©¹|‚WgğÓ<ˆèÃ–ıĞnç¾°_ ı¢GhS	1 T!À*€gÌ ¾‡ ÷¦¥XÑ	wàÚusêlŸ1¼Rî™š1 Nˆv'ËÏ‰+ƒşâO’x«]ö—`H´‹ß”  ÏŞ3ı„o_Å‹G¿Ä^™¥†x]–u¼®:’‚y¹µıª­º{g×d–½<jp½Š®z³9ìĞ]7jÌº­õ…öÒ‡ræx)x^¿áñBK_4ÜU›–ô>k›³œ¸K5˜Üfİ©­Nv‡
-·d¸8{á^0šô¸6¿—íË‹¬•¼õ‚Àş*bÜ(ì~0ö%DÖ§Ò'Mm÷|ÍhÏë÷-–ÆOù ÍØ/ø)«3Ÿ…EúµIô÷)ŸÀØAè¿çføƒ°2ôßmıQOçcÃ|Öp³Ş¿¬MŠ)‹_Â¦Ê\Nxµ·&™L,:Êù­¹ãÁhcrÙ@˜¶ÜÈÀ£ıÀÄÄ |#R©ù[;ÓÜfã›;’\’şğF9¿nHy	Òş£1±Ô,$ç?à l2ÂÌÖ"3‰Ù "O9ÆDØËLÉæP'©„™W™ÜöBnê!“éc‘wn)²xAQ¼?©æBûÜŞãsE¾“IåŞÉíB~IRÚR¼­È¬"¹~Êf'RøE~ß[{,^¡Œ
-7@.üOï¨š1'ÿmõšbÙ—p· ÛXƒº)‡rÍìKÎµ¢İ°úªZ®İ•sCÜİ¬AÈõfÃòÂmš=µoÃéôTö:ã:Û¯Ÿz¯¤Råõvu-7:ÀË¾"‡JTÛ5XiÅªax9Wnó¾³ÄãÌš³éí¸ĞŒ¾=¤›îÂ®·ì¥Õ¿^D¦"[ßÌƒ÷©HÔ?>EÄoÃy²)báœğüàÏ ~ı‰yvÈ1/#áŸ1úkLú)#„…ÁvªiÈÿºQú‹BËG3¤CõğÑ<˜Èåã_3‹‘Á{»rç{Ø)¼ şì¥2»¹zıÙ¹z«-Öı´¿ëìîiª3l_²íõüÂ-Zm¥Û<2ì}PİıA½Æø²$_û«zguz‰§‘èµ]Ã^½ÉJ@×z=·£Àéø2¿ÎwòT–NÊÄØ]»şu ‚©Ìèüp·˜—„¨õ¢ããg¬z>•Ò· H?Ê‡=´×Â,„ÏÇˆC–ãŸ>³Ä¶À¯3qEĞ¤÷—Fù&“ZcÔÂÖ’à4e&KŞb:å{LÑ¢Yæô=SÉ<Åğ³ M½}·ë4õnÏg–Æh·±x÷¢ÑrZëš->Ü³ÎüJ—Ìå=O&kîÖYLGÌ=Ôkğ
-¤†kNšâ¯Ş@¹lOìMg4š&ÜùSg9ïˆ—]mzv[‡=êÀİQ±ƒÓ~í¦½Áj3jüFe:8ª[({Á«lšh%™¾}ømP‹/äıv˜_~Øæó±’dBş@öYò‡•ğ&›>ÂÄoÿmÇ§i–{Ö—Dn?Í¾tì¹Æşß;ö{úYõ-ñ[cÿ”o!—™QKÍªÍL72ª;§n¦ãx—P³ØS¤Êe*ÜF®aúkÛ7¾Ã­ˆÇ¼Ä–Yc^3$£}¶º}¦WYÍ¯v*ÏÄãjÔ—º}šëÚ÷j‰òbä­×´ÜÆuzoò×}}Èdn¸a• hÏÁy§iÖm]8¹µjLÄ™'äÓÂ)Rp>l.gX_
-Rµy¬][«5Ó0˜±T•†%Ù]4àÂzÑ»ğÀ/—­®y?µ°ïoh¨ôç40Ÿêƒ]€İÒGİ?¯~TgÂ§Œk²ñ+c–Tø;¨¹L‰ğo4ä‰häñ‰ş$†#yôß¯kë^…%‚Š»‚Éøê·œßÇO_XêkÂĞäz—®Ä—¨_­v²Ò¯éÑ¾•x>ZµåßNĞ~ÚÒy[¿{ÛşØëÔZç]pÙC·ºÅ:¬p½µš•™·™™5÷6SOÚˆüHæ„Vã¾ökùWI‰Ó ×5»ûúÂ[¸ıİ@òT…	÷†µ^ÅÁ¶,Ø•Ê¨Z7N3­RFkXß§Š'xS¾ry‘rlà!JÎ7uÏ7>qâŸÛo‘ıài²ŸèıpPxÔña[ˆ×ïLıÊÂÎÁáß>,ÜŠ0©¸ñq™Ïğò™âÅ÷®7¾Îñ£{8ò€­ŞZÂÅ(ô}¨lç’­—Mû<]0³Éí´?ó¶v8wJ¿±²œScÜ­5üªÛ˜Hãß­_½İpx¡…ò`·¦‰ÚÖ¥ãÔ9:Xq;ZYJ•ÊÍÚUt?jæºâ÷üC]š®m·\=µä»Ş.ò«.7é¶ñél;dÚ°Ü©_&Ãn­_mUÿø%Ï<koIÜ9DK¾à¢fÆÒ…º éjõáŠùH…Ûòà%UZd*HËÜöCñaO¦Y•o(Dx42‘]X|ï-Œ ½D[¨¼9IÃË…HÙj57…¦¿Ë³Í­ÎN÷¶lD£ÍüTSÄ`g÷¢ÔÄ%ßñƒNhŒÏ<wô«`SêĞÕs:Î€yòZéµ¦ÛiãæNo÷Íá^º†ëJ·Ù¼Q=ª-4n]VäC0§å;;8p“*\±¯Ú°t›¯üT">Ñºÿ÷
-üiø¬¢:_«“ò;_×ş%öà)e,±ÇÛ"=Züu./EÍÑ
-úº•˜—+ğo™jéû+æT8æ×ØVDQjâÏŞO7Ş©æ²Í‘/öš†¿µ£ó]-/µ•Ó2Ì4Pìfùvİ§UF;û4ufã4
-Í3‡f{§¯Ôá¼yåSyÒ˜åa&ôİµÃ_¤ÖiÚÆùµ· ÓåŞù`ì›Ò0p]Mº{X”ÊeN¾÷¯"ÛB-Øÿ}ĞÿÿË: ‹oŸz{ˆü–&¯x ÿÛÕÿ3FŠe `Ÿ¦YZúuô¨Œ†l·)ZMÀ“ )gxÌ	~r†òóUÜgÅ“íÊo3é]‚w“"3Ç Î©Î6íïrÕ,Ú«9ø
-jºS)sö˜™¸'~'z3™+ŒËebñuw›ÍO3{9Ò™ÅØ±£#[ë-…å±Ã¨ƒrsÛëÀÓé´Û½ÔvKSóV–Ñk"¿ÖWa*ö°·]{µ;o¸•òjqÕ¬Cwwg&biÚ¼M%ºZæºº4•³ú*İûp‹Ÿã6NiÖzµ‰:QãÚßËÂéOÓp¡=MÂAéY“¾aÒåeØ’%>­ãûÕõ¡UÖ®¸ç„ËâÖFu*\¹»®Ë•YÒ¶^›5:¬U1ö»é8ŒZš§ÎvV{íÑz5*iıĞ~©±DãÜ±•/NÙP[7Àü)mfİíµU9ÖA5Ü®[Ğ®Ş›‹ıînyömãM4Mvç]ÀìÙË‘{Ñ‚ÅUÛ˜¦±Fƒòé)®ÿ,›ÄñHOIÇ!ÁhÆÒñ¿¤È†¼)ÈÀ±ì*1³PÿŠ0<¹DË1“–tnB5_Ìoá`şb1}%ÀÜ¼»#à‰ßæÄ Å±Ì+¶ÕëÚêYÛ›~u¥Şæ¶cvvJ×˜VoKW˜¶]]ï»®>ÓzF¸§PìËÖjëÜ&kMaëWA¤û]‘õÅd¯ÚfîOƒaE»Eg™n,¬µdÜ¥êRiês¯4x§-Ïß¢A_Ş-cë¶›_u3vAëtkú¡}0?µ†ÍßPİâs<½gğE=|ÊB¾«çèXÇ~V½ôo²Á}B#\AüÆà>yÁ:{¸)ª_Ş«¿}÷¾şcù(­{sıJy¤/C–ß¹Xá(Qâ_qXp³Ö.ğ:m¶·é,î+Yé°cv+VÖÑux¶àÄu¤µü¨+4³7—®xŠÚ§óò:“O´ÕŸ´Å—>Ãîİ1{·k—fïÀMÃ…±ë¥	+÷Ä.?Ñşi°}0¡êtè’ˆˆ­«*h–ß×*se4çœòëNõÙ6/ŸèÔø-[ü«5ÏJ€§YZúq¬éI!şW,QéÉ‹ÿ*G¶c|Û“ßfmó#@ÜØ'oºaT¤ıˆàÑÈA8RŒG‚Ròx­úb°‹·Ñ:.«4ÑûwÁ«œxwçR@Ó~@LÉ6òüÁŒaUA_òm¸@ñôKÌ³õÎâôzÏF‹¶&0çÒxÆ×Û3‡éU:­cº5Ó+×¢yçÄsaĞ;Åµµgû5¾ßBÌ„.½Ô:[•=v«ñ]ïjú ¨ûÛÁ”Ÿº³_İÁ’½\*®"ìÚç7amo½*·iÕÃğê´¾vÔéàEFfî¦«Û¾î|€¥
-éçáüÊs›gì¨ÿi¼ Ÿºş¡¿@lÛñêP}™¡àG1äü÷T`%ú%Ù/Ü~×gÚíºêìê‡¶ œÛ¼	ËóvïÜïæa»õ<AòœN¯úc(ÜëE¿ÃÔö%®Ïóò0Ü¼r‰«–CùTélFË¨»J¿Ò\Ë{FéÜÃ*ÜŞ´kkfÍ7Ç›¥îËe­oÜ†ã¾ïV'êy$>¿Äc'úóÿs†„ì ,7:headers;438:25:13:Accept-Ranges,5:bytes,]13:3:Age,4:3558,]35:13:Cache-Control,14:max-age=604800,]38:12:Content-Type,18:application/x-gzip,]40:4:Date,29:Mon, 02 May 2022 16:24:45 GMT,]26:15:ec-rule-version,4:V3.8,]23:4:Etag,12:"2667433227",]43:7:Expires,29:Mon, 09 May 2022 16:24:45 GMT,]50:13:Last-Modified,29:Fri, 26 Apr 2019 11:35:06 GMT,]29:6:Server,16:ECAcc (amb/6AEF),]16:7:X-Cache,3:HIT,]22:13:x-log-country,2:NL,]26:14:Content-Length,5:15371,]]12:http_version;8:HTTP/1.1,}7:request;475:4:path;25:/Rel/SDK/IUD/play.json.gz,9:authority;0:,6:scheme;4:http,6:method;3:GET,4:port;2:80#4:host;18:dlcdnamax.asus.com;13:timestamp_end;18:1651508685.4278996^15:timestamp_start;17:1651508685.426608^8:trailers;0:~7:content;0:,7:headers;204:104:10:User-Agent,86:Dalvik/2.1.0 (Linux; U; Android 9; Android SDK built for x86_64 Build/PSR1.180720.122),]29:4:Host,18:dlcdnamax.asus.com,]28:10:Connection,10:Keep-Alive,]26:15:Accept-Encoding,4:gzip,]]12:http_version;8:HTTP/1.1,}7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!4:type;4:http;11:server_conn;521:4:via2;0:~11:cipher_list;0:]11:cipher_name;0:~11:alpn_offers;0:]16:certificate_list;0:]3:tls;5:false!5:error;0:~5:state;1:0#3:via;0:~11:tls_version;0:~15:tls_established;5:false!19:timestamp_tls_setup;0:~19:timestamp_tcp_setup;18:1651508685.4019938^15:timestamp_start;17:1651508685.368989^13:timestamp_end;18:1651508700.9398265^14:source_address;25:13:192.168.1.114;5:55994#]3:sni;0:~10:ip_address;23:14:152.199.22.142;2:80#]2:id;36:3a9f551b-57f8-438f-a36c-15536dd59ecd;4:alpn;0:~7:address;27:18:dlcdnamax.asus.com;2:80#]}11:client_conn;432:11:cipher_list;0:]11:alpn_offers;0:]16:certificate_list;0:]3:tls;5:false!5:error;0:~8:sockname;19:9:127.0.0.1;4:8080#]5:state;1:0#11:tls_version;0:~14:tls_extensions;0:]15:tls_established;5:false!19:timestamp_tls_setup;0:~15:timestamp_start;18:1651508685.3638935^13:timestamp_end;18:1651508700.9389963^3:sni;0:~8:mitmcert;0:~2:id;36:2bb6c975-f5f2-4fe2-ba1b-f6c346a4ffeb;11:cipher_name;0:~4:alpn;0:~7:address;20:9:127.0.0.1;5:48298#]}5:error;0:~2:id;36:27652cd9-3dcb-4735-a5ef-83f79e736a84;}11297:7:version;2:15#4:mode;7:regular;9:websocket;0:~8:response;1056:6:reason;0:,11:status_code;3:200#13:timestamp_end;18:1651508698.4549556^15:timestamp_start;17:1651508698.453291^8:trailers;0:~7:content;367:b ä'»ü}ÇÉ@o ·òf3gTA%ôPù›5Y~³nğ2s™½Ì<”ƒ°£x†	RîÄ:3*—	Ÿ^^®ğá *C•!*D€9œÊ9N@F>!€(±[®£º€z¿œèâ‹ÀÅñ|\Ùz½ü¸³×ô¿mµ‡Bœ¶Š(éˆ^âäõ„§µWŞ<¹Q<:µôì1/ÏÀ1M”ZCTNàeÁ.éŒ ¯ìÅD-"*–DµY918×ŠM÷ßëà¼€oëÜpãw?÷¬İÙcåÁ3oU¨}·‚¥»pÏVŠ|j$ƒFŸFÓf³9Z¬70)Íª•´TÉˆ‰–²j“”Œè¤Œ‚f4=m&ŒABttœ…ÖU*k³B*–šYµB­kNMjÓDkTâ~¹ÿq¡Ô·sO ş}âŠ–FöçÆNÿqÜ/÷g±^„Â¤  ,7:headers;506:45:12:content-type,25:application/x-protobuffer,]27:13:cache-control,7:private,]55:19:content-disposition,28:attachment; filename="f.txt",]25:16:content-encoding,2:br,]40:4:date,29:Mon, 02 May 2022 16:24:58 GMT,]15:6:server,3:gws,]24:14:content-length,3:367,]24:16:x-xss-protection,1:0,]33:15:x-frame-options,10:SAMEORIGIN,]177:7:alt-svc,162:h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43",]]12:http_version;8:HTTP/2.0,}7:request;2667:4:path;26:/tg/fe/request?rqt=47&bq=0,9:authority;22:android.googleapis.com,6:scheme;5:https,6:method;4:POST,4:port;3:443#4:host;22:android.googleapis.com;13:timestamp_end;18:1651508698.3263714^15:timestamp_start;18:1651508698.3239634^8:trailers;0:~7:content;970:‹       EÓ_L[Uğó;-ììŠR.Ò]	Ó¦Š˜ú—ò°¤Ã):}˜.&Ë^ğ¶½ímnKŠ>Œ´
-"%&Cd±‹K$êÌ0#"$nnd.şÙ$6(‚¸Ìd#0ÙBˆú;g‹¾|nò»÷şrNòı²…Á™ÑòÚé2*´ÔŞöø<Ş€Ççõô†C¾]Œ8Î}<û²Fê+êj‚0DŠ·6&ÊÂÅ“—~8}í‘ìT)o3ÍnC­Û›Š[fWÜupßs®hOWwÖ•0-njÀ!òJ$Ôƒ-ÍşáûCz"†|1½ÅğEıaÂŒ¢!½)®â‰`Àk$šü±îÄ›£ş`(H¤¡— Æáûs ØújŞÎ>_Go#Ë‚şé‚myÓÎ6…Ÿ‘S+ÈøGCvvBpüô_;XáâX»>}¥†-¾ïdK‚­äòq'{ë&2»…Ì	ú>p²’àI$/”JÈ¢`U°rÙútÂÉ¶Ç×7«µOæß¶iùåã;´..ìÔúæ‘ÓVhgŞRµáÒ5Ú·³KNíè/È©¡;Nm£ˆëûfWÃ5PÊ½-á×µ¯ÁÖ‘Ñ[¯ü7QíĞ—î”úÕ
-…YFÌHe»_u€œùÔ%“Ô­l&­ÇœÖ(Uf6gZq#e™İİIüÇNEÍºëL™¹¨if3YKOãüAÅñÿï¹®x‡‘½·úî˜´^Z¥V*÷Åp§Ëv™©Ì½İÒ€ô1iµT‘Riİ~';csœaÚT¥»ündÜ6|Lœ¸ä'€_]X¸ä…%#”¸×m/UâöªZ¢9ùÂ“mF®×—ló=k>ßÚöÄ¡ÆÜ=õäp5û}ûØw#ıWW`kcğ¥Œ¼Ö®–©ö—º ¡ŠMUâvÒq±ú!Ö$ÛGÈ3ä v<Õc™i£qo2“5¬¸ì$iÒ´'ƒ™à c0™?{Š 3@ğÔ VÑ…½ó÷ìüÔëŸ>­*lsæËw7/~Ï~ƒ:¥šÍM^Zzï«Û´¦µ4¡ì~xÍn9ò —¸e?/ÙÈ)¦SwNEŞ9çtY*"Ï©È<§›R‘zNEì9¹çô„T$ßbô9ÙÇ=˜{N—¤"şœŠüs*
-À©h §sRÑNKRÑNóÒa©(n“®JEp'ö€Óm©¨ş…]àT”SÑNE8}ÀmXNE#8•À[`'ğvE¡hÅ”ôÛÈ¿ÀhZy»  ,7:headers;1391:24:14:content-length,3:970,]39:13:cache-control,18:no-cache, no-store,]44:12:content-type,24:application/octet-stream,]339:13:authorization,317:OAuth ya29.A0ARrdaM-O2wQg-Vvuatwe2UxX9GH2MjEphQTGskkHQjvatfK4LEzNk8egyjgN36ue62FNqKQDfqYX1OH9Z6OkwLoYswBV_9m5Bks9oFsSoTLcghzTA0gUR_It-LJPVjRQTOr3wTge61tLAihP8VssvKsTsQrLc24xIvgEo9adJgPdcDjopQTW9G0mUPV9XbrgYS6mPpIL5X_YX3C64kymjQmPdRHiNyxfM4z8biyLWEBVVJ06P3ChFe39HQnvawzHtCjpotgYIO5d7r0DmZk3RdApEzwDRgF-VzFWY9eEv__7dljQ,]642:13:x-client-data,620:COuGAQjy5ocECLbyhwQI3veHBAjj94cECIK9iAQI84CJBAj2gIkECIjbiQQIrOSJBAiiq4wECKWrjAQIn7X1BwiIy6AVCOq91hUI3pOhFgjhk6EWCPrAoRYI0O6iFgiK76IWCML6ohYIw_qiFgjZgaMWCNyBoxYIhbCjFgiHsKMWCI-woxYI3NyjFgje3KMWCObcoxYI5O6jFgj6s6QWCPyzpBYQxu8TGLLMjQMYh-OfBxj_y9kJGIHM2QkYhrWnDBi8jvQSGI_c1RUYz8LhFhiO3-EWGKyM-BYY86j4FhiZgckXKugBCgYxOTg5LjEgRCoDZ3NhQtYBCgYxOTg5LjESBBABGCkSBBABGAkSBBABGDMSDAoIcmVjZW50bHkQARIEEAEYMhIOCgpzbWFydHNwYWNlEAESFQoRaG90d29yZGVucm9sbG1lbnQQARIWChJzZWFyY2hub3dib290c3RyYXAQARIUChBzbWFydHNwYWNld2lkZ2V0EAESBBABGDESBBABGAgSBBABGCgSBBABGBESDwoLY29sbGVjdGlvbnMQARIEEAEYIhIEEAEYNBIEEAEYJxIEEAEYExIEEAEYChIEEAEYAhIEEAEYHA==,]27:16:content-encoding,4:gzip,]201:10:user-agent,182:Mozilla/5.0 (Linux; U; Android 9; en-us; Android SDK built for x86_64 Build/PSR1.180720.122) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 GSA/8.2.14.21.x86,]40:15:accept-encoding,17:gzip, deflate, br,]]12:http_version;8:HTTP/2.0,}7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!4:type;4:http;11:server_conn;6799:4:via2;0:~11:cipher_list;0:]11:cipher_name;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;16:2:h2,8:http/1.1,]16:certificate_list;6201:2260:-----BEGIN CERTIFICATE-----
-MIIGWTCCBUGgAwIBAgIQJtPLN/ekF8oKEv3ARoLQIjANBgkqhkiG9w0BAQsFADBG
-MQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExM
-QzETMBEGA1UEAxMKR1RTIENBIDFDMzAeFw0yMjA0MTExMTA2MDRaFw0yMjA3MDQx
-MTA2MDNaMCIxIDAeBgNVBAMTF2VkZ2VjZXJ0Lmdvb2dsZWFwaXMuY29tMFkwEwYH
-KoZIzj0CAQYIKoZIzj0DAQcDQgAETs+8qRRmZ9w3DEWVX1Ki8ADl6Z6W3I99432e
-nojXmXpEw4O7LNiadh9qv+4FV1QohrPRBRqHWpKIz79iKnX9jqOCBDAwggQsMA4G
-A1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDATAMBgNVHRMBAf8EAjAA
-MB0GA1UdDgQWBBR2Bc6SGvB5tVbmMQFvgz5fAOPn9TAfBgNVHSMEGDAWgBSKdH+v
-hc3ulc09nNDiRhTzcTUdJzBqBggrBgEFBQcBAQReMFwwJwYIKwYBBQUHMAGGG2h0
-dHA6Ly9vY3NwLnBraS5nb29nL2d0czFjMzAxBggrBgEFBQcwAoYlaHR0cDovL3Br
-aS5nb29nL3JlcG8vY2VydHMvZ3RzMWMzLmRlcjCCAeAGA1UdEQSCAdcwggHTghdl
-ZGdlY2VydC5nb29nbGVhcGlzLmNvbYIWYW5kcm9pZC5nb29nbGVhcGlzLmNvbYIX
-YmlndGFibGUuZ29vZ2xlYXBpcy5jb22CImNsb3VkZXJyb3JyZXBvcnRpbmcuZ29v
-Z2xlYXBpcy5jb22CGWNsb3VkdHJhY2UuZ29vZ2xlYXBpcy5jb22CGGNvbnRhaW5l
-ci5nb29nbGVhcGlzLmNvbYIXZGF0YWZsb3cuZ29vZ2xlYXBpcy5jb22CGGRhdGFz
-dG9yZS5nb29nbGVhcGlzLmNvbYISZGxwLmdvb2dsZWFwaXMuY29tghJmY20uZ29v
-Z2xlYXBpcy5jb22CGGZpcmVzdG9yZS5nb29nbGVhcGlzLmNvbYIWbG9nZ2luZy5n
-b29nbGVhcGlzLmNvbYIZbW9uaXRvcmluZy5nb29nbGVhcGlzLmNvbYIVcHVic3Vi
-Lmdvb2dsZWFwaXMuY29tghxydW50aW1lY29uZmlnLmdvb2dsZWFwaXMuY29tgh1z
-ZXJ2aWNlY29udHJvbC5nb29nbGVhcGlzLmNvbYIWc3Bhbm5lci5nb29nbGVhcGlz
-LmNvbYIac3RhY2tkcml2ZXIuZ29vZ2xlYXBpcy5jb20wIQYDVR0gBBowGDAIBgZn
-gQwBAgEwDAYKKwYBBAHWeQIFAzA8BgNVHR8ENTAzMDGgL6AthitodHRwOi8vY3Js
-cy5wa2kuZ29vZy9ndHMxYzMvZlZKeGJWLUt0bWsuY3JsMIIBBAYKKwYBBAHWeQIE
-AgSB9QSB8gDwAHYAKXm+8J45OSHwVnOfY6V35b5XfZxgCvj5TV0mXCVdx4QAAAGA
-GIRTWQAABAMARzBFAiBti7/mar44aey1ZzGOVC888kvBLtPKuOVbbOKk8SZ7vwIh
-AOPc1DBAqzloIcXwPOIlRn2CAmzqRc97rxm104hxqQ6CAHYAQcjKsd8iRkoQxqE6
-CUKHXk4xixsD6+tLx2jwkGKWBvYAAAGAGIRTgQAABAMARzBFAiBlhepu47UaK9jR
-VZ0nX6nQY8xKABf71jNphrYM7QGNwQIhAKG8yRLSibW+BapRQcN8iXo2uzl0h/3v
-Z9BCPrCtTt8DMA0GCSqGSIb3DQEBCwUAA4IBAQCI/NxE4poUeOL13rBBOdOVeeNa
-vsAd6j+qxQY7wrKQdBtW+x3wOXfPTNEU01eYlS9kTj8X6ZLXO1k9Nak2Dg7/3tiv
-nNr77/2Qh2ZrwHIJRNit8adBtOQIiXw5WPLTUW+vnt7Lqdp9k9Oj2owP+BJOVTvo
-PGM8HlvSWGJBldUuWWB34gUpHGPxCoMr0NP7azcszdObuqxoRZhFmmDp8tfW50jr
-aFwAFVVRN0kRSFV8QdXVfheANGzVWG8pu5zTMheLxLNvqjIMgeXtYtdI1AuMIJLg
-6osK72YNIBtfofsj9tRIFrvWejGdkzY3AtoP92pM/eLapwn/RGjdnqFBGPj5
------END CERTIFICATE-----
-,1996:-----BEGIN CERTIFICATE-----
-MIIFljCCA36gAwIBAgINAgO8U1lrNMcY9QFQZjANBgkqhkiG9w0BAQsFADBHMQsw
-CQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExMQzEU
-MBIGA1UEAxMLR1RTIFJvb3QgUjEwHhcNMjAwODEzMDAwMDQyWhcNMjcwOTMwMDAw
-MDQyWjBGMQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZp
-Y2VzIExMQzETMBEGA1UEAxMKR1RTIENBIDFDMzCCASIwDQYJKoZIhvcNAQEBBQAD
-ggEPADCCAQoCggEBAPWI3+dijB43+DdCkH9sh9D7ZYIl/ejLa6T/belaI+KZ9hzp
-kgOZE3wJCor6QtZeViSqejOEH9Hpabu5dOxXTGZok3c3VVP+ORBNtzS7XyV3NzsX
-lOo85Z3VvMO0Q+sup0fvsEQRY9i0QYXdQTBIkxu/t/bgRQIh4JZCF8/ZK2VWNAcm
-BA2o/X3KLu/qSHw3TT8An4Pf73WELnlXXPxXbhqW//yMmqaZviXZf5YsBvcRKgKA
-gOtjGDxQSYflispfGStZloEAoPtR28p3CwvJlk/vcEnHXG0g/Zm0tOLKLnf9LdwL
-tmsTDIwZKxeWmLnwi/agJ7u2441Rj72ux5uxiZ0CAwEAAaOCAYAwggF8MA4GA1Ud
-DwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwEgYDVR0T
-AQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQUinR/r4XN7pXNPZzQ4kYU83E1HScwHwYD
-VR0jBBgwFoAU5K8rJnEaK0gnhS9SZizv8IkTcT4waAYIKwYBBQUHAQEEXDBaMCYG
-CCsGAQUFBzABhhpodHRwOi8vb2NzcC5wa2kuZ29vZy9ndHNyMTAwBggrBgEFBQcw
-AoYkaHR0cDovL3BraS5nb29nL3JlcG8vY2VydHMvZ3RzcjEuZGVyMDQGA1UdHwQt
-MCswKaAnoCWGI2h0dHA6Ly9jcmwucGtpLmdvb2cvZ3RzcjEvZ3RzcjEuY3JsMFcG
-A1UdIARQME4wOAYKKwYBBAHWeQIFAzAqMCgGCCsGAQUFBwIBFhxodHRwczovL3Br
-aS5nb29nL3JlcG9zaXRvcnkvMAgGBmeBDAECATAIBgZngQwBAgIwDQYJKoZIhvcN
-AQELBQADggIBAIl9rCBcDDy+mqhXlRu0rvqrpXJxtDaV/d9AEQNMwkYUuxQkq/BQ
-cSLbrcRuf8/xam/IgxvYzolfh2yHuKkMo5uhYpSTld9brmYZCwKWnvy15xBpPnrL
-RklfRuFBsdeYTWU0AIAaP0+fbH9JAIFTQaSSIYKCGvGjRFsqUBITTcFTNvNCCK9U
-+o53UxtkOCcXCb1YyRt8OS1b887U7ZfbFAO/CVMkH8IMBHmYJvJh8VNS/UKMG2Yr
-PxWhu//2m+OBmgEGcYk1KCTd4b3rGS3hSMs9WYNRtHTGnXzGsYZbr8w0xNPM1IER
-lQCh9BIiAfq0g3GvjLeMcySsN1PCAJA/Ef5c7TaUEDu9Ka7ixzpiO2xj2YC/WXGs
-Yye5TBeg2vZzFb8q3o/zpWwygTMD0IZRcZk0upONXbVRWPeyk+gB9lm+cZv9TSjO
-z23HFtz30dZGm6fKa+l3D/2gthsjgx0QGtkJAITgRNOidSOzNIb2ILCkXhAd4FJG
-AJ2xDx8hcFH1mt0G/FX0Kw4zd8NLQsLxdxP8c4CU6x+7Nz/OAipmsHMdMqUybDKw
-juDEI/9bfU1lcKwrmz3O2+BtjjKAvpafkmO8l7tdufThcV4q5O8DIrGKZTqPwJNl
-1IXNDw9bg1kWRxYtnCQ6yICmJhSFm/Y3m6xv+cXDBlHz4n/FsRC6UfTd
------END CERTIFICATE-----
-,1927:-----BEGIN CERTIFICATE-----
-MIIFYjCCBEqgAwIBAgIQd70NbNs2+RrqIQ/E8FjTDTANBgkqhkiG9w0BAQsFADBX
-MQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UE
-CxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTIwMDYx
-OTAwMDA0MloXDTI4MDEyODAwMDA0MlowRzELMAkGA1UEBhMCVVMxIjAgBgNVBAoT
-GUdvb2dsZSBUcnVzdCBTZXJ2aWNlcyBMTEMxFDASBgNVBAMTC0dUUyBSb290IFIx
-MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAthECix7joXebO9y/lD63
-ladAPKH9gvl9MgaCcfb2jH/76Nu8ai6Xl6OMS/kr9rH5zoQdsfnFl97vufKj6bwS
-iV6nqlKr+CMny6SxnGPb15l+8Ape62im9MZaRw1NEDPjTrETo8gYbEvs/AmQ351k
-KSUjB6G00j0uYODP0gmHu81I8E3CwnqIiru6z1kZ1q+PsAewnjHxgsHA3y6mbWwZ
-DrXYfiYaRQM9sHmklCitD38m5agI/pboPGiUU+6DOogrFZYJsuB6jC511pzrp1Zk
-j5ZPaK49l8KEj8C8QMALXL32h7M1bKwYUH+E4EzNktMg6TO8UpmvMrUpsyUqtEj5
-cuHKZPfmghCN6J3Cioj6OGaK/GP5Afl4/Xtcd/p2h/rs37EOeZVXtL0m79YB0esW
-CruOC7XFxYpVq9Os6pFLKcwZpDIlTirxZUTQAs6qzkm06p98g7BAe+dDq6dso499
-iYH6TKX/1Y7DzkvgtdizjkXPdsDtQCv9Uw+wp9U7DbGKogPeMa3Md+pvez7W35Ei
-Eua++tgy/BBjFFFy3l3WFpO9KWgz7zpm7AeKJt8T11dleCfeXkkUAKIAf5qoIbap
-sZWwpbkNFhHax2xIPEDgfg1azVY80ZcFuctL7TlLnMQ/0lUTbiSw1nH69MG6zO0b
-9f6BQdgAmD06yK56mDcYBZUCAwEAAaOCATgwggE0MA4GA1UdDwEB/wQEAwIBhjAP
-BgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBTkrysmcRorSCeFL1JmLO/wiRNxPjAf
-BgNVHSMEGDAWgBRge2YaRQ2XyolQL30EzTSo//z9SzBgBggrBgEFBQcBAQRUMFIw
-JQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnBraS5nb29nL2dzcjEwKQYIKwYBBQUH
-MAKGHWh0dHA6Ly9wa2kuZ29vZy9nc3IxL2dzcjEuY3J0MDIGA1UdHwQrMCkwJ6Al
-oCOGIWh0dHA6Ly9jcmwucGtpLmdvb2cvZ3NyMS9nc3IxLmNybDA7BgNVHSAENDAy
-MAgGBmeBDAECATAIBgZngQwBAgIwDQYLKwYBBAHWeQIFAwIwDQYLKwYBBAHWeQIF
-AwMwDQYJKoZIhvcNAQELBQADggEBADSkHrEoo9C0dhemMXoh6dFSPsjbdBZBiLg9
-NR3t5P+T4Vxfq7vqfM/b5A3Ri1fyJm9bvhdGaJQ3b2t6yMAYN/olUazsaL+yyEn9
-WprKASOshIArAoyZl+tJaox118fessmXn1hIVw41oeQa1v1vg4Fv74zPl6/AhSrw
-9U5pCZEt4Wi4wStz6dTZ/CLANx8LZh1J7QJVj2fhMtfTJr9w4z30Z209fOU0iOMy
-+qduBmpvvYuR7hZL6Dupszfnw0Skfths18dG9ZKb59UhvmaSGZRVbNQpsg3BZlvi
-d0lIKO2d1xozclOzgjXPYovJJIultzkMu34qQb9Sz/yilrbCgj8=
------END CERTIFICATE-----
-,]3:tls;4:true!5:error;0:~5:state;1:3#3:via;0:~11:tls_version;7:TLSv1.3;15:tls_established;4:true!19:timestamp_tls_setup;18:1651508233.9539785^19:timestamp_tcp_setup;16:1651508233.94553^15:timestamp_start;18:1651508233.9299932^13:timestamp_end;0:~14:source_address;25:13:192.168.1.114;5:56416#]3:sni;22:android.googleapis.com;10:ip_address;23:13:216.58.214.10;3:443#]2:id;36:9c02808e-3a5c-41fd-a0dc-27bb075d5dbd;4:alpn;2:h2,7:address;32:22:android.googleapis.com;3:443#]}11:client_conn;507:11:cipher_list;0:]11:alpn_offers;16:2:h2,8:http/1.1,]16:certificate_list;0:]3:tls;4:true!5:error;0:~8:sockname;19:9:127.0.0.1;4:8080#]5:state;1:3#11:tls_version;7:TLSv1.2;14:tls_extensions;0:]15:tls_established;4:true!19:timestamp_tls_setup;18:1651507778.3964965^15:timestamp_start;18:1651507778.3663409^13:timestamp_end;0:~3:sni;22:android.googleapis.com;8:mitmcert;0:~2:id;36:2350a686-86ee-48f5-b96c-3276380d00fd;11:cipher_name;27:ECDHE-RSA-AES128-GCM-SHA256;4:alpn;2:h2,7:address;20:9:127.0.0.1;5:47868#]}5:error;0:~2:id;36:24d50820-c56d-461d-917a-bb7a31e2e3a0;}11301:7:version;2:15#4:mode;7:regular;9:websocket;0:~8:response;1060:6:reason;0:,11:status_code;3:200#13:timestamp_end;17:1651508711.422398^15:timestamp_start;17:1651508711.421356^8:trailers;0:~7:content;372:h ä'ÿ²ÿ–“	€*HØÊ‹Y£
-Y¥ƒ*¸+ë®&ËSÜiò­EmI.ev¹y )a£f˜ z¢6—‚€Nn%.`!&"š (EL³¸e`¹9;r|"/ŒÓp-ÓÌ|üpªG _Ä	ğ¤ôû>¿³Ù›ö¿LµDB’v’˜Uª8•¨Qæ¦Õø§¹—o%Œ¯=<æÑ9Ø#N§ÕQøÙ°‡ûlˆ_öÁ®Rª•PˆÆ	Í"%5¹ßªCû	ÖÏ†ØO0ûvı×³¾mtnõ*^´²t¸Œ~ûìÀÕÖŸ @ÙìÃÕÂ€j™É¤3fbµZã¥F“À$Å‹´j"W¤ÔHäx‘\1Qƒ\ "ÎH¬T`’QI²£Y£±7©äR™©I¤UiM™ib]¼N#à–éÉ¬³k0{àëhéÃõêøÁ?–7÷iuá‘0Å,7:headers;506:45:12:content-type,25:application/x-protobuffer,]27:13:cache-control,7:private,]55:19:content-disposition,28:attachment; filename="f.txt",]25:16:content-encoding,2:br,]40:4:date,29:Mon, 02 May 2022 16:25:11 GMT,]15:6:server,3:gws,]24:14:content-length,3:372,]24:16:x-xss-protection,1:0,]33:15:x-frame-options,10:SAMEORIGIN,]177:7:alt-svc,162:h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43",]]12:http_version;8:HTTP/2.0,}7:request;2667:4:path;26:/tg/fe/request?rqt=47&bq=0,9:authority;22:android.googleapis.com,6:scheme;5:https,6:method;4:POST,4:port;3:443#4:host;22:android.googleapis.com;13:timestamp_end;18:1651508711.2801385^15:timestamp_start;16:1651508711.27669^8:trailers;0:~7:content;972:‹       EÓ_L[Uğó;-ììŠR.¶»fÅ¤ô?íÃ’nNÑéÃÜb²ì/í-`Ú^Ò–}i6P<{0Cd±ÓE‰:3ÜˆÈ¢›ÑÅ?û	Š .3Ù:ÙBˆú;g‹¾|nò»÷şrNòı²åé‘Êº©
-*Dêî»}noÀíóº{Â!ß&Flg>šyA#®*×CC´t«<^.-ûãÙk7ÂÎ-Je‹i¶'µ~[:1;ãÎ=;q¶uw&sÎ„™qâ¦ÖP`ì%/FcA=iö‡_ØÒñx0ä‹éÃ×æûş`,ĞÒ=q=O^#áñÇBº/onóC‰@¢zH`ş°°?û­,¬ì³dş6²(è›*ZYyÿkV¶*(şŒ[BÆ>´²#‚ÃÇÿÚÀŠçGíìÚÔE;›yÇÁkÓÈ…ëcöúdf9-¸Òû®ƒÍ	^@
-‚!ÁÜ2/X,]GÖ>w°uÄöõZíãÙ­°xxƒöÏù+µŞY¤ÿø{UÚ©ƒ·Tmhî'»öİÌ‚C;ørlğC+—C½ßlj¼
-J¥7¸½Î–ö¬¾ıâÕjíQéF©_­RXÆˆé\ò%È™O}@Q²)=“Ëvé1§v¥¦ÃÌåÍLÜHgÌd2…ŸãØ¡¨YCÏÄ:Òf¾Í4sÙ\FïÂùƒŠíÿßóñv#woõİ0©KZ£V+÷Åp§Ëušéì½¤é#ÒZ©"¥ÒúvÂb;Á´Éê†Ê»‘i°à³dà,À —~và&À û))¦¤aÅ²;¨’¯ª%šSÏ=Şbä{|©ßÓæ³Û[ÛÛ”ßºÕEöÕ²ß×}?Ü×i	ÖÊg(eäåVµÂH·>¿Ç	5l²°™OÔ9È\ƒÌ#ÛGÉSdì³=Ñ1»Œ¦m©lÎÈÄõTé"}@»³˜Éa 0
-…S— 0O}êMQØ›ÏÌN¾òéÈ“ªÂV§¿xkõÜÀì7¨WjÙ‡oœ|ÿí/oSûW'Ç•ÍÑ,\¶ 8Å-ûğxÉ&N1íœŠ¸s*òÎ©<§‹RyNEæ9]•ŠÔs*bÏ©È=§G¤"ùø£Ï©È>îÁÜsº ñçTäŸSQ NE8=-àtN*ZÀiA:$EÀmÒe©èîÄpº.UÀ¿°œŠ2p*ÚÀ©¨§¢¸Á©h§¢xìŞ®$­øœ’>ùó»  ,7:headers;1391:24:14:content-length,3:972,]39:13:cache-control,18:no-cache, no-store,]44:12:content-type,24:application/octet-stream,]339:13:authorization,317:OAuth ya29.A0ARrdaM-O2wQg-Vvuatwe2UxX9GH2MjEphQTGskkHQjvatfK4LEzNk8egyjgN36ue62FNqKQDfqYX1OH9Z6OkwLoYswBV_9m5Bks9oFsSoTLcghzTA0gUR_It-LJPVjRQTOr3wTge61tLAihP8VssvKsTsQrLc24xIvgEo9adJgPdcDjopQTW9G0mUPV9XbrgYS6mPpIL5X_YX3C64kymjQmPdRHiNyxfM4z8biyLWEBVVJ06P3ChFe39HQnvawzHtCjpotgYIO5d7r0DmZk3RdApEzwDRgF-VzFWY9eEv__7dljQ,]642:13:x-client-data,620:COuGAQjy5ocECLbyhwQI3veHBAjj94cECIK9iAQI84CJBAj2gIkECIjbiQQIrOSJBAiiq4wECKWrjAQIn7X1BwiIy6AVCOq91hUI3pOhFgjhk6EWCPrAoRYI0O6iFgiK76IWCML6ohYIw_qiFgjZgaMWCNyBoxYIhbCjFgiHsKMWCI-woxYI3NyjFgje3KMWCObcoxYI5O6jFgj6s6QWCPyzpBYQxu8TGLLMjQMYh-OfBxj_y9kJGIHM2QkYhrWnDBi8jvQSGI_c1RUYz8LhFhiO3-EWGKyM-BYY86j4FhiZgckXKugBCgYxOTg5LjEgRCoDZ3NhQtYBCgYxOTg5LjESBBABGCkSBBABGAkSBBABGDMSDAoIcmVjZW50bHkQARIEEAEYMhIOCgpzbWFydHNwYWNlEAESFQoRaG90d29yZGVucm9sbG1lbnQQARIWChJzZWFyY2hub3dib290c3RyYXAQARIUChBzbWFydHNwYWNld2lkZ2V0EAESBBABGDESBBABGAgSBBABGCgSBBABGBESDwoLY29sbGVjdGlvbnMQARIEEAEYIhIEEAEYNBIEEAEYJxIEEAEYExIEEAEYChIEEAEYAhIEEAEYHA==,]27:16:content-encoding,4:gzip,]201:10:user-agent,182:Mozilla/5.0 (Linux; U; Android 9; en-us; Android SDK built for x86_64 Build/PSR1.180720.122) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 GSA/8.2.14.21.x86,]40:15:accept-encoding,17:gzip, deflate, br,]]12:http_version;8:HTTP/2.0,}7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!4:type;4:http;11:server_conn;6799:4:via2;0:~11:cipher_list;0:]11:cipher_name;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;16:2:h2,8:http/1.1,]16:certificate_list;6201:2260:-----BEGIN CERTIFICATE-----
-MIIGWTCCBUGgAwIBAgIQJtPLN/ekF8oKEv3ARoLQIjANBgkqhkiG9w0BAQsFADBG
-MQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExM
-QzETMBEGA1UEAxMKR1RTIENBIDFDMzAeFw0yMjA0MTExMTA2MDRaFw0yMjA3MDQx
-MTA2MDNaMCIxIDAeBgNVBAMTF2VkZ2VjZXJ0Lmdvb2dsZWFwaXMuY29tMFkwEwYH
-KoZIzj0CAQYIKoZIzj0DAQcDQgAETs+8qRRmZ9w3DEWVX1Ki8ADl6Z6W3I99432e
-nojXmXpEw4O7LNiadh9qv+4FV1QohrPRBRqHWpKIz79iKnX9jqOCBDAwggQsMA4G
-A1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDATAMBgNVHRMBAf8EAjAA
-MB0GA1UdDgQWBBR2Bc6SGvB5tVbmMQFvgz5fAOPn9TAfBgNVHSMEGDAWgBSKdH+v
-hc3ulc09nNDiRhTzcTUdJzBqBggrBgEFBQcBAQReMFwwJwYIKwYBBQUHMAGGG2h0
-dHA6Ly9vY3NwLnBraS5nb29nL2d0czFjMzAxBggrBgEFBQcwAoYlaHR0cDovL3Br
-aS5nb29nL3JlcG8vY2VydHMvZ3RzMWMzLmRlcjCCAeAGA1UdEQSCAdcwggHTghdl
-ZGdlY2VydC5nb29nbGVhcGlzLmNvbYIWYW5kcm9pZC5nb29nbGVhcGlzLmNvbYIX
-YmlndGFibGUuZ29vZ2xlYXBpcy5jb22CImNsb3VkZXJyb3JyZXBvcnRpbmcuZ29v
-Z2xlYXBpcy5jb22CGWNsb3VkdHJhY2UuZ29vZ2xlYXBpcy5jb22CGGNvbnRhaW5l
-ci5nb29nbGVhcGlzLmNvbYIXZGF0YWZsb3cuZ29vZ2xlYXBpcy5jb22CGGRhdGFz
-dG9yZS5nb29nbGVhcGlzLmNvbYISZGxwLmdvb2dsZWFwaXMuY29tghJmY20uZ29v
-Z2xlYXBpcy5jb22CGGZpcmVzdG9yZS5nb29nbGVhcGlzLmNvbYIWbG9nZ2luZy5n
-b29nbGVhcGlzLmNvbYIZbW9uaXRvcmluZy5nb29nbGVhcGlzLmNvbYIVcHVic3Vi
-Lmdvb2dsZWFwaXMuY29tghxydW50aW1lY29uZmlnLmdvb2dsZWFwaXMuY29tgh1z
-ZXJ2aWNlY29udHJvbC5nb29nbGVhcGlzLmNvbYIWc3Bhbm5lci5nb29nbGVhcGlz
-LmNvbYIac3RhY2tkcml2ZXIuZ29vZ2xlYXBpcy5jb20wIQYDVR0gBBowGDAIBgZn
-gQwBAgEwDAYKKwYBBAHWeQIFAzA8BgNVHR8ENTAzMDGgL6AthitodHRwOi8vY3Js
-cy5wa2kuZ29vZy9ndHMxYzMvZlZKeGJWLUt0bWsuY3JsMIIBBAYKKwYBBAHWeQIE
-AgSB9QSB8gDwAHYAKXm+8J45OSHwVnOfY6V35b5XfZxgCvj5TV0mXCVdx4QAAAGA
-GIRTWQAABAMARzBFAiBti7/mar44aey1ZzGOVC888kvBLtPKuOVbbOKk8SZ7vwIh
-AOPc1DBAqzloIcXwPOIlRn2CAmzqRc97rxm104hxqQ6CAHYAQcjKsd8iRkoQxqE6
-CUKHXk4xixsD6+tLx2jwkGKWBvYAAAGAGIRTgQAABAMARzBFAiBlhepu47UaK9jR
-VZ0nX6nQY8xKABf71jNphrYM7QGNwQIhAKG8yRLSibW+BapRQcN8iXo2uzl0h/3v
-Z9BCPrCtTt8DMA0GCSqGSIb3DQEBCwUAA4IBAQCI/NxE4poUeOL13rBBOdOVeeNa
-vsAd6j+qxQY7wrKQdBtW+x3wOXfPTNEU01eYlS9kTj8X6ZLXO1k9Nak2Dg7/3tiv
-nNr77/2Qh2ZrwHIJRNit8adBtOQIiXw5WPLTUW+vnt7Lqdp9k9Oj2owP+BJOVTvo
-PGM8HlvSWGJBldUuWWB34gUpHGPxCoMr0NP7azcszdObuqxoRZhFmmDp8tfW50jr
-aFwAFVVRN0kRSFV8QdXVfheANGzVWG8pu5zTMheLxLNvqjIMgeXtYtdI1AuMIJLg
-6osK72YNIBtfofsj9tRIFrvWejGdkzY3AtoP92pM/eLapwn/RGjdnqFBGPj5
------END CERTIFICATE-----
-,1996:-----BEGIN CERTIFICATE-----
-MIIFljCCA36gAwIBAgINAgO8U1lrNMcY9QFQZjANBgkqhkiG9w0BAQsFADBHMQsw
-CQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExMQzEU
-MBIGA1UEAxMLR1RTIFJvb3QgUjEwHhcNMjAwODEzMDAwMDQyWhcNMjcwOTMwMDAw
-MDQyWjBGMQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZp
-Y2VzIExMQzETMBEGA1UEAxMKR1RTIENBIDFDMzCCASIwDQYJKoZIhvcNAQEBBQAD
-ggEPADCCAQoCggEBAPWI3+dijB43+DdCkH9sh9D7ZYIl/ejLa6T/belaI+KZ9hzp
-kgOZE3wJCor6QtZeViSqejOEH9Hpabu5dOxXTGZok3c3VVP+ORBNtzS7XyV3NzsX
-lOo85Z3VvMO0Q+sup0fvsEQRY9i0QYXdQTBIkxu/t/bgRQIh4JZCF8/ZK2VWNAcm
-BA2o/X3KLu/qSHw3TT8An4Pf73WELnlXXPxXbhqW//yMmqaZviXZf5YsBvcRKgKA
-gOtjGDxQSYflispfGStZloEAoPtR28p3CwvJlk/vcEnHXG0g/Zm0tOLKLnf9LdwL
-tmsTDIwZKxeWmLnwi/agJ7u2441Rj72ux5uxiZ0CAwEAAaOCAYAwggF8MA4GA1Ud
-DwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwEgYDVR0T
-AQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQUinR/r4XN7pXNPZzQ4kYU83E1HScwHwYD
-VR0jBBgwFoAU5K8rJnEaK0gnhS9SZizv8IkTcT4waAYIKwYBBQUHAQEEXDBaMCYG
-CCsGAQUFBzABhhpodHRwOi8vb2NzcC5wa2kuZ29vZy9ndHNyMTAwBggrBgEFBQcw
-AoYkaHR0cDovL3BraS5nb29nL3JlcG8vY2VydHMvZ3RzcjEuZGVyMDQGA1UdHwQt
-MCswKaAnoCWGI2h0dHA6Ly9jcmwucGtpLmdvb2cvZ3RzcjEvZ3RzcjEuY3JsMFcG
-A1UdIARQME4wOAYKKwYBBAHWeQIFAzAqMCgGCCsGAQUFBwIBFhxodHRwczovL3Br
-aS5nb29nL3JlcG9zaXRvcnkvMAgGBmeBDAECATAIBgZngQwBAgIwDQYJKoZIhvcN
-AQELBQADggIBAIl9rCBcDDy+mqhXlRu0rvqrpXJxtDaV/d9AEQNMwkYUuxQkq/BQ
-cSLbrcRuf8/xam/IgxvYzolfh2yHuKkMo5uhYpSTld9brmYZCwKWnvy15xBpPnrL
-RklfRuFBsdeYTWU0AIAaP0+fbH9JAIFTQaSSIYKCGvGjRFsqUBITTcFTNvNCCK9U
-+o53UxtkOCcXCb1YyRt8OS1b887U7ZfbFAO/CVMkH8IMBHmYJvJh8VNS/UKMG2Yr
-PxWhu//2m+OBmgEGcYk1KCTd4b3rGS3hSMs9WYNRtHTGnXzGsYZbr8w0xNPM1IER
-lQCh9BIiAfq0g3GvjLeMcySsN1PCAJA/Ef5c7TaUEDu9Ka7ixzpiO2xj2YC/WXGs
-Yye5TBeg2vZzFb8q3o/zpWwygTMD0IZRcZk0upONXbVRWPeyk+gB9lm+cZv9TSjO
-z23HFtz30dZGm6fKa+l3D/2gthsjgx0QGtkJAITgRNOidSOzNIb2ILCkXhAd4FJG
-AJ2xDx8hcFH1mt0G/FX0Kw4zd8NLQsLxdxP8c4CU6x+7Nz/OAipmsHMdMqUybDKw
-juDEI/9bfU1lcKwrmz3O2+BtjjKAvpafkmO8l7tdufThcV4q5O8DIrGKZTqPwJNl
-1IXNDw9bg1kWRxYtnCQ6yICmJhSFm/Y3m6xv+cXDBlHz4n/FsRC6UfTd
------END CERTIFICATE-----
-,1927:-----BEGIN CERTIFICATE-----
-MIIFYjCCBEqgAwIBAgIQd70NbNs2+RrqIQ/E8FjTDTANBgkqhkiG9w0BAQsFADBX
-MQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UE
-CxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTIwMDYx
-OTAwMDA0MloXDTI4MDEyODAwMDA0MlowRzELMAkGA1UEBhMCVVMxIjAgBgNVBAoT
-GUdvb2dsZSBUcnVzdCBTZXJ2aWNlcyBMTEMxFDASBgNVBAMTC0dUUyBSb290IFIx
-MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAthECix7joXebO9y/lD63
-ladAPKH9gvl9MgaCcfb2jH/76Nu8ai6Xl6OMS/kr9rH5zoQdsfnFl97vufKj6bwS
-iV6nqlKr+CMny6SxnGPb15l+8Ape62im9MZaRw1NEDPjTrETo8gYbEvs/AmQ351k
-KSUjB6G00j0uYODP0gmHu81I8E3CwnqIiru6z1kZ1q+PsAewnjHxgsHA3y6mbWwZ
-DrXYfiYaRQM9sHmklCitD38m5agI/pboPGiUU+6DOogrFZYJsuB6jC511pzrp1Zk
-j5ZPaK49l8KEj8C8QMALXL32h7M1bKwYUH+E4EzNktMg6TO8UpmvMrUpsyUqtEj5
-cuHKZPfmghCN6J3Cioj6OGaK/GP5Afl4/Xtcd/p2h/rs37EOeZVXtL0m79YB0esW
-CruOC7XFxYpVq9Os6pFLKcwZpDIlTirxZUTQAs6qzkm06p98g7BAe+dDq6dso499
-iYH6TKX/1Y7DzkvgtdizjkXPdsDtQCv9Uw+wp9U7DbGKogPeMa3Md+pvez7W35Ei
-Eua++tgy/BBjFFFy3l3WFpO9KWgz7zpm7AeKJt8T11dleCfeXkkUAKIAf5qoIbap
-sZWwpbkNFhHax2xIPEDgfg1azVY80ZcFuctL7TlLnMQ/0lUTbiSw1nH69MG6zO0b
-9f6BQdgAmD06yK56mDcYBZUCAwEAAaOCATgwggE0MA4GA1UdDwEB/wQEAwIBhjAP
-BgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBTkrysmcRorSCeFL1JmLO/wiRNxPjAf
-BgNVHSMEGDAWgBRge2YaRQ2XyolQL30EzTSo//z9SzBgBggrBgEFBQcBAQRUMFIw
-JQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnBraS5nb29nL2dzcjEwKQYIKwYBBQUH
-MAKGHWh0dHA6Ly9wa2kuZ29vZy9nc3IxL2dzcjEuY3J0MDIGA1UdHwQrMCkwJ6Al
-oCOGIWh0dHA6Ly9jcmwucGtpLmdvb2cvZ3NyMS9nc3IxLmNybDA7BgNVHSAENDAy
-MAgGBmeBDAECATAIBgZngQwBAgIwDQYLKwYBBAHWeQIFAwIwDQYLKwYBBAHWeQIF
-AwMwDQYJKoZIhvcNAQELBQADggEBADSkHrEoo9C0dhemMXoh6dFSPsjbdBZBiLg9
-NR3t5P+T4Vxfq7vqfM/b5A3Ri1fyJm9bvhdGaJQ3b2t6yMAYN/olUazsaL+yyEn9
-WprKASOshIArAoyZl+tJaox118fessmXn1hIVw41oeQa1v1vg4Fv74zPl6/AhSrw
-9U5pCZEt4Wi4wStz6dTZ/CLANx8LZh1J7QJVj2fhMtfTJr9w4z30Z209fOU0iOMy
-+qduBmpvvYuR7hZL6Dupszfnw0Skfths18dG9ZKb59UhvmaSGZRVbNQpsg3BZlvi
-d0lIKO2d1xozclOzgjXPYovJJIultzkMu34qQb9Sz/yilrbCgj8=
------END CERTIFICATE-----
-,]3:tls;4:true!5:error;0:~5:state;1:3#3:via;0:~11:tls_version;7:TLSv1.3;15:tls_established;4:true!19:timestamp_tls_setup;18:1651508233.9539785^19:timestamp_tcp_setup;16:1651508233.94553^15:timestamp_start;18:1651508233.9299932^13:timestamp_end;0:~14:source_address;25:13:192.168.1.114;5:56416#]3:sni;22:android.googleapis.com;10:ip_address;23:13:216.58.214.10;3:443#]2:id;36:9c02808e-3a5c-41fd-a0dc-27bb075d5dbd;4:alpn;2:h2,7:address;32:22:android.googleapis.com;3:443#]}11:client_conn;507:11:cipher_list;0:]11:alpn_offers;16:2:h2,8:http/1.1,]16:certificate_list;0:]3:tls;4:true!5:error;0:~8:sockname;19:9:127.0.0.1;4:8080#]5:state;1:3#11:tls_version;7:TLSv1.2;14:tls_extensions;0:]15:tls_established;4:true!19:timestamp_tls_setup;18:1651507778.3964965^15:timestamp_start;18:1651507778.3663409^13:timestamp_end;0:~3:sni;22:android.googleapis.com;8:mitmcert;0:~2:id;36:2350a686-86ee-48f5-b96c-3276380d00fd;11:cipher_name;27:ECDHE-RSA-AES128-GCM-SHA256;4:alpn;2:h2,7:address;20:9:127.0.0.1;5:47868#]}5:error;0:~2:id;36:2d897da5-7fe4-4354-969e-acfba3b1cb35;}11296:7:version;2:15#4:mode;7:regular;9:websocket;0:~8:response;1056:6:reason;0:,11:status_code;3:200#13:timestamp_end;18:1651508737.5791495^15:timestamp_start;18:1651508737.5781248^8:trailers;0:~7:content;366:\ ä'»·}Ÿ“	ŒT­¼ÙÌ7ª€ºst£ƒd¶ÓÉßÍ's)³—™’rvaÔ…&H¹)şˆH[uøáåUá
-¢BĞY¢B˜ƒÀ©ŒãäíÈ'ea#vÃuTP7ààç€Ó\|¸x"+K¯‰‰_ƒş·©ö(HvÃv"£B¯#"ÑKœ¼šğ4÷ôøÉsÉ}‡ŸÜyÌbr±FŒF¯Ö•xY°Kúl€W.öÀb¢Kâ[¬œœÀkÃ&‘{Ö®rïÁ¹/#Ü{°ûñäW:81|M±u‰ú~{÷'¡î‰"Ÿ‰Á ÑgÓ´ÙlNëŒAÊ&°j%-U2b¢§¥¬Z…KJÆ@tRFA36Æ !::ÙBë*•µY!KÍ¬Z¡Ö5g¥·i4*q¿Üÿ¸(j‹[‹¹Ç >½âŠ^î>¼zü;Ç=tsö´È™‚ ,7:headers;506:45:12:content-type,25:application/x-protobuffer,]27:13:cache-control,7:private,]55:19:content-disposition,28:attachment; filename="f.txt",]25:16:content-encoding,2:br,]40:4:date,29:Mon, 02 May 2022 16:25:37 GMT,]15:6:server,3:gws,]24:14:content-length,3:366,]24:16:x-xss-protection,1:0,]33:15:x-frame-options,10:SAMEORIGIN,]177:7:alt-svc,162:h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43",]]12:http_version;8:HTTP/2.0,}7:request;2666:4:path;26:/tg/fe/request?rqt=47&bq=0,9:authority;22:android.googleapis.com,6:scheme;5:https,6:method;4:POST,4:port;3:443#4:host;22:android.googleapis.com;13:timestamp_end;16:1651508737.38951^15:timestamp_start;17:1651508737.388043^8:trailers;0:~7:content;972:‹       EÓ_L[Uğó;-ììŠR.¶»›>hÅ¤Ğ¿´KØœ¢Ó‡¹ÅdÙ^Ú[À´½M[ú5tuIôğ`†Èb3’éÌ0#"KÜÜˆÎûAÜf²-t²…õwÎ}ùÜäwïıåœäûe}…ÙÑÊº™
-*Dêî{|oÀãózzÃ!ßFl§?{Q#î*÷CM†–â­òdE¸øAù›Ï\»ùpìzD©l5Í„¡ÖoOÅ2fWÌ¹wç³Îöî®DÎ73NÜÔ
-ì†}ä¥–hPFšı!Ãö‡ôx,ù¢zÄğµûÃş¸?´‡ô¦˜ˆÅƒ¯oòGCº/kn÷Cñ@<½d`ş°°?€­®ZÙg«ÈÂmdIŸ²²rßkV¶&ú9ºŒL|X°²#‚ÃÇÿÚÄ†ÎÛÙµ™v¶0ú®ƒ-
-Ög‘ó×'ìõÈÜ:rJp¹ÿ=+	L!ƒ‚aA©„,VË×‘õO&l±}u£V;6ÿ†E\:¼IûçÜåÍZÿ<2püı*íä¡[ª6\úÉ®};·èĞı‚-Üqhå"2Öÿõ–†+ Tz#áˆÇëÜÙ`éÈê;.ü7Q­6Ğ“n–úÕ*…eŒ¨‘Ê%^¶œùÔ%›Ô3¹lZ8µ+5f®ÇÌÄŒTÆL$’ø9Šš5ôL´3eö´›f.›Ëèiœ?¨Øşÿ½§+Öaäî­¾{ &uKkÔjå¾(î4¢¹.3•½÷¡K>*­•*R*­ßå`',¶L›®vUŞŒË‚Ï")€3 ç\øØ€› w€ôQ¢d„×ªeOP%.¯ªÅ›“Ï?Ñjôôú’­¾gÌçv´>¾¯±gÛ67Ù_Ë~ßû~$?pqÖËOSÊÈ+mj…‘j{a¯jØt5`+!M-ÎsX“lGx<ÜB&»a¿íÉîŒ™6·'³9#Ó“$Mò@»³˜É 0Sƒ'/B`ú,Ô)š¢°7ÿ›Ÿ~õÓÑ§T…­Í~ñöÚÙƒ?°ß ^©e]ınê/oS{Å¥Ieë[”«¶1ĞÀ)n™ÇCâ%9Å´s*âÎ©È;§"ğœ.IEä9™çtM*RÏ©ˆ=§"÷œ‘Šäã[Œ>§"û¸sÏé¢TÄŸS‘NE8àô”Tt€Ó’T´€ÓAé°T·IW¤¢¸{Àé†TTÿÂ.p*ÊÀ©h§¢œŠ>à6,§¢œŠJà-°x»¢P´âsJòò/¦¨Ät»  ,7:headers;1391:24:14:content-length,3:972,]39:13:cache-control,18:no-cache, no-store,]44:12:content-type,24:application/octet-stream,]339:13:authorization,317:OAuth ya29.A0ARrdaM-O2wQg-Vvuatwe2UxX9GH2MjEphQTGskkHQjvatfK4LEzNk8egyjgN36ue62FNqKQDfqYX1OH9Z6OkwLoYswBV_9m5Bks9oFsSoTLcghzTA0gUR_It-LJPVjRQTOr3wTge61tLAihP8VssvKsTsQrLc24xIvgEo9adJgPdcDjopQTW9G0mUPV9XbrgYS6mPpIL5X_YX3C64kymjQmPdRHiNyxfM4z8biyLWEBVVJ06P3ChFe39HQnvawzHtCjpotgYIO5d7r0DmZk3RdApEzwDRgF-VzFWY9eEv__7dljQ,]642:13:x-client-data,620:COuGAQjy5ocECLbyhwQI3veHBAjj94cECIK9iAQI84CJBAj2gIkECIjbiQQIrOSJBAiiq4wECKWrjAQIn7X1BwiIy6AVCOq91hUI3pOhFgjhk6EWCPrAoRYI0O6iFgiK76IWCML6ohYIw_qiFgjZgaMWCNyBoxYIhbCjFgiHsKMWCI-woxYI3NyjFgje3KMWCObcoxYI5O6jFgj6s6QWCPyzpBYQxu8TGLLMjQMYh-OfBxj_y9kJGIHM2QkYhrWnDBi8jvQSGI_c1RUYz8LhFhiO3-EWGKyM-BYY86j4FhiZgckXKugBCgYxOTg5LjEgRCoDZ3NhQtYBCgYxOTg5LjESBBABGCkSBBABGAkSBBABGDMSDAoIcmVjZW50bHkQARIEEAEYMhIOCgpzbWFydHNwYWNlEAESFQoRaG90d29yZGVucm9sbG1lbnQQARIWChJzZWFyY2hub3dib290c3RyYXAQARIUChBzbWFydHNwYWNld2lkZ2V0EAESBBABGDESBBABGAgSBBABGCgSBBABGBESDwoLY29sbGVjdGlvbnMQARIEEAEYIhIEEAEYNBIEEAEYJxIEEAEYExIEEAEYChIEEAEYAhIEEAEYHA==,]27:16:content-encoding,4:gzip,]201:10:user-agent,182:Mozilla/5.0 (Linux; U; Android 9; en-us; Android SDK built for x86_64 Build/PSR1.180720.122) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 GSA/8.2.14.21.x86,]40:15:accept-encoding,17:gzip, deflate, br,]]12:http_version;8:HTTP/2.0,}7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!4:type;4:http;11:server_conn;6799:4:via2;0:~11:cipher_list;0:]11:cipher_name;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;16:2:h2,8:http/1.1,]16:certificate_list;6201:2260:-----BEGIN CERTIFICATE-----
-MIIGWTCCBUGgAwIBAgIQJtPLN/ekF8oKEv3ARoLQIjANBgkqhkiG9w0BAQsFADBG
-MQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExM
-QzETMBEGA1UEAxMKR1RTIENBIDFDMzAeFw0yMjA0MTExMTA2MDRaFw0yMjA3MDQx
-MTA2MDNaMCIxIDAeBgNVBAMTF2VkZ2VjZXJ0Lmdvb2dsZWFwaXMuY29tMFkwEwYH
-KoZIzj0CAQYIKoZIzj0DAQcDQgAETs+8qRRmZ9w3DEWVX1Ki8ADl6Z6W3I99432e
-nojXmXpEw4O7LNiadh9qv+4FV1QohrPRBRqHWpKIz79iKnX9jqOCBDAwggQsMA4G
-A1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDATAMBgNVHRMBAf8EAjAA
-MB0GA1UdDgQWBBR2Bc6SGvB5tVbmMQFvgz5fAOPn9TAfBgNVHSMEGDAWgBSKdH+v
-hc3ulc09nNDiRhTzcTUdJzBqBggrBgEFBQcBAQReMFwwJwYIKwYBBQUHMAGGG2h0
-dHA6Ly9vY3NwLnBraS5nb29nL2d0czFjMzAxBggrBgEFBQcwAoYlaHR0cDovL3Br
-aS5nb29nL3JlcG8vY2VydHMvZ3RzMWMzLmRlcjCCAeAGA1UdEQSCAdcwggHTghdl
-ZGdlY2VydC5nb29nbGVhcGlzLmNvbYIWYW5kcm9pZC5nb29nbGVhcGlzLmNvbYIX
-YmlndGFibGUuZ29vZ2xlYXBpcy5jb22CImNsb3VkZXJyb3JyZXBvcnRpbmcuZ29v
-Z2xlYXBpcy5jb22CGWNsb3VkdHJhY2UuZ29vZ2xlYXBpcy5jb22CGGNvbnRhaW5l
-ci5nb29nbGVhcGlzLmNvbYIXZGF0YWZsb3cuZ29vZ2xlYXBpcy5jb22CGGRhdGFz
-dG9yZS5nb29nbGVhcGlzLmNvbYISZGxwLmdvb2dsZWFwaXMuY29tghJmY20uZ29v
-Z2xlYXBpcy5jb22CGGZpcmVzdG9yZS5nb29nbGVhcGlzLmNvbYIWbG9nZ2luZy5n
-b29nbGVhcGlzLmNvbYIZbW9uaXRvcmluZy5nb29nbGVhcGlzLmNvbYIVcHVic3Vi
-Lmdvb2dsZWFwaXMuY29tghxydW50aW1lY29uZmlnLmdvb2dsZWFwaXMuY29tgh1z
-ZXJ2aWNlY29udHJvbC5nb29nbGVhcGlzLmNvbYIWc3Bhbm5lci5nb29nbGVhcGlz
-LmNvbYIac3RhY2tkcml2ZXIuZ29vZ2xlYXBpcy5jb20wIQYDVR0gBBowGDAIBgZn
-gQwBAgEwDAYKKwYBBAHWeQIFAzA8BgNVHR8ENTAzMDGgL6AthitodHRwOi8vY3Js
-cy5wa2kuZ29vZy9ndHMxYzMvZlZKeGJWLUt0bWsuY3JsMIIBBAYKKwYBBAHWeQIE
-AgSB9QSB8gDwAHYAKXm+8J45OSHwVnOfY6V35b5XfZxgCvj5TV0mXCVdx4QAAAGA
-GIRTWQAABAMARzBFAiBti7/mar44aey1ZzGOVC888kvBLtPKuOVbbOKk8SZ7vwIh
-AOPc1DBAqzloIcXwPOIlRn2CAmzqRc97rxm104hxqQ6CAHYAQcjKsd8iRkoQxqE6
-CUKHXk4xixsD6+tLx2jwkGKWBvYAAAGAGIRTgQAABAMARzBFAiBlhepu47UaK9jR
-VZ0nX6nQY8xKABf71jNphrYM7QGNwQIhAKG8yRLSibW+BapRQcN8iXo2uzl0h/3v
-Z9BCPrCtTt8DMA0GCSqGSIb3DQEBCwUAA4IBAQCI/NxE4poUeOL13rBBOdOVeeNa
-vsAd6j+qxQY7wrKQdBtW+x3wOXfPTNEU01eYlS9kTj8X6ZLXO1k9Nak2Dg7/3tiv
-nNr77/2Qh2ZrwHIJRNit8adBtOQIiXw5WPLTUW+vnt7Lqdp9k9Oj2owP+BJOVTvo
-PGM8HlvSWGJBldUuWWB34gUpHGPxCoMr0NP7azcszdObuqxoRZhFmmDp8tfW50jr
-aFwAFVVRN0kRSFV8QdXVfheANGzVWG8pu5zTMheLxLNvqjIMgeXtYtdI1AuMIJLg
-6osK72YNIBtfofsj9tRIFrvWejGdkzY3AtoP92pM/eLapwn/RGjdnqFBGPj5
------END CERTIFICATE-----
-,1996:-----BEGIN CERTIFICATE-----
-MIIFljCCA36gAwIBAgINAgO8U1lrNMcY9QFQZjANBgkqhkiG9w0BAQsFADBHMQsw
-CQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExMQzEU
-MBIGA1UEAxMLR1RTIFJvb3QgUjEwHhcNMjAwODEzMDAwMDQyWhcNMjcwOTMwMDAw
-MDQyWjBGMQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZp
-Y2VzIExMQzETMBEGA1UEAxMKR1RTIENBIDFDMzCCASIwDQYJKoZIhvcNAQEBBQAD
-ggEPADCCAQoCggEBAPWI3+dijB43+DdCkH9sh9D7ZYIl/ejLa6T/belaI+KZ9hzp
-kgOZE3wJCor6QtZeViSqejOEH9Hpabu5dOxXTGZok3c3VVP+ORBNtzS7XyV3NzsX
-lOo85Z3VvMO0Q+sup0fvsEQRY9i0QYXdQTBIkxu/t/bgRQIh4JZCF8/ZK2VWNAcm
-BA2o/X3KLu/qSHw3TT8An4Pf73WELnlXXPxXbhqW//yMmqaZviXZf5YsBvcRKgKA
-gOtjGDxQSYflispfGStZloEAoPtR28p3CwvJlk/vcEnHXG0g/Zm0tOLKLnf9LdwL
-tmsTDIwZKxeWmLnwi/agJ7u2441Rj72ux5uxiZ0CAwEAAaOCAYAwggF8MA4GA1Ud
-DwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwEgYDVR0T
-AQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQUinR/r4XN7pXNPZzQ4kYU83E1HScwHwYD
-VR0jBBgwFoAU5K8rJnEaK0gnhS9SZizv8IkTcT4waAYIKwYBBQUHAQEEXDBaMCYG
-CCsGAQUFBzABhhpodHRwOi8vb2NzcC5wa2kuZ29vZy9ndHNyMTAwBggrBgEFBQcw
-AoYkaHR0cDovL3BraS5nb29nL3JlcG8vY2VydHMvZ3RzcjEuZGVyMDQGA1UdHwQt
-MCswKaAnoCWGI2h0dHA6Ly9jcmwucGtpLmdvb2cvZ3RzcjEvZ3RzcjEuY3JsMFcG
-A1UdIARQME4wOAYKKwYBBAHWeQIFAzAqMCgGCCsGAQUFBwIBFhxodHRwczovL3Br
-aS5nb29nL3JlcG9zaXRvcnkvMAgGBmeBDAECATAIBgZngQwBAgIwDQYJKoZIhvcN
-AQELBQADggIBAIl9rCBcDDy+mqhXlRu0rvqrpXJxtDaV/d9AEQNMwkYUuxQkq/BQ
-cSLbrcRuf8/xam/IgxvYzolfh2yHuKkMo5uhYpSTld9brmYZCwKWnvy15xBpPnrL
-RklfRuFBsdeYTWU0AIAaP0+fbH9JAIFTQaSSIYKCGvGjRFsqUBITTcFTNvNCCK9U
-+o53UxtkOCcXCb1YyRt8OS1b887U7ZfbFAO/CVMkH8IMBHmYJvJh8VNS/UKMG2Yr
-PxWhu//2m+OBmgEGcYk1KCTd4b3rGS3hSMs9WYNRtHTGnXzGsYZbr8w0xNPM1IER
-lQCh9BIiAfq0g3GvjLeMcySsN1PCAJA/Ef5c7TaUEDu9Ka7ixzpiO2xj2YC/WXGs
-Yye5TBeg2vZzFb8q3o/zpWwygTMD0IZRcZk0upONXbVRWPeyk+gB9lm+cZv9TSjO
-z23HFtz30dZGm6fKa+l3D/2gthsjgx0QGtkJAITgRNOidSOzNIb2ILCkXhAd4FJG
-AJ2xDx8hcFH1mt0G/FX0Kw4zd8NLQsLxdxP8c4CU6x+7Nz/OAipmsHMdMqUybDKw
-juDEI/9bfU1lcKwrmz3O2+BtjjKAvpafkmO8l7tdufThcV4q5O8DIrGKZTqPwJNl
-1IXNDw9bg1kWRxYtnCQ6yICmJhSFm/Y3m6xv+cXDBlHz4n/FsRC6UfTd
------END CERTIFICATE-----
-,1927:-----BEGIN CERTIFICATE-----
-MIIFYjCCBEqgAwIBAgIQd70NbNs2+RrqIQ/E8FjTDTANBgkqhkiG9w0BAQsFADBX
-MQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UE
-CxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTIwMDYx
-OTAwMDA0MloXDTI4MDEyODAwMDA0MlowRzELMAkGA1UEBhMCVVMxIjAgBgNVBAoT
-GUdvb2dsZSBUcnVzdCBTZXJ2aWNlcyBMTEMxFDASBgNVBAMTC0dUUyBSb290IFIx
-MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAthECix7joXebO9y/lD63
-ladAPKH9gvl9MgaCcfb2jH/76Nu8ai6Xl6OMS/kr9rH5zoQdsfnFl97vufKj6bwS
-iV6nqlKr+CMny6SxnGPb15l+8Ape62im9MZaRw1NEDPjTrETo8gYbEvs/AmQ351k
-KSUjB6G00j0uYODP0gmHu81I8E3CwnqIiru6z1kZ1q+PsAewnjHxgsHA3y6mbWwZ
-DrXYfiYaRQM9sHmklCitD38m5agI/pboPGiUU+6DOogrFZYJsuB6jC511pzrp1Zk
-j5ZPaK49l8KEj8C8QMALXL32h7M1bKwYUH+E4EzNktMg6TO8UpmvMrUpsyUqtEj5
-cuHKZPfmghCN6J3Cioj6OGaK/GP5Afl4/Xtcd/p2h/rs37EOeZVXtL0m79YB0esW
-CruOC7XFxYpVq9Os6pFLKcwZpDIlTirxZUTQAs6qzkm06p98g7BAe+dDq6dso499
-iYH6TKX/1Y7DzkvgtdizjkXPdsDtQCv9Uw+wp9U7DbGKogPeMa3Md+pvez7W35Ei
-Eua++tgy/BBjFFFy3l3WFpO9KWgz7zpm7AeKJt8T11dleCfeXkkUAKIAf5qoIbap
-sZWwpbkNFhHax2xIPEDgfg1azVY80ZcFuctL7TlLnMQ/0lUTbiSw1nH69MG6zO0b
-9f6BQdgAmD06yK56mDcYBZUCAwEAAaOCATgwggE0MA4GA1UdDwEB/wQEAwIBhjAP
-BgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBTkrysmcRorSCeFL1JmLO/wiRNxPjAf
-BgNVHSMEGDAWgBRge2YaRQ2XyolQL30EzTSo//z9SzBgBggrBgEFBQcBAQRUMFIw
-JQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnBraS5nb29nL2dzcjEwKQYIKwYBBQUH
-MAKGHWh0dHA6Ly9wa2kuZ29vZy9nc3IxL2dzcjEuY3J0MDIGA1UdHwQrMCkwJ6Al
-oCOGIWh0dHA6Ly9jcmwucGtpLmdvb2cvZ3NyMS9nc3IxLmNybDA7BgNVHSAENDAy
-MAgGBmeBDAECATAIBgZngQwBAgIwDQYLKwYBBAHWeQIFAwIwDQYLKwYBBAHWeQIF
-AwMwDQYJKoZIhvcNAQELBQADggEBADSkHrEoo9C0dhemMXoh6dFSPsjbdBZBiLg9
-NR3t5P+T4Vxfq7vqfM/b5A3Ri1fyJm9bvhdGaJQ3b2t6yMAYN/olUazsaL+yyEn9
-WprKASOshIArAoyZl+tJaox118fessmXn1hIVw41oeQa1v1vg4Fv74zPl6/AhSrw
-9U5pCZEt4Wi4wStz6dTZ/CLANx8LZh1J7QJVj2fhMtfTJr9w4z30Z209fOU0iOMy
-+qduBmpvvYuR7hZL6Dupszfnw0Skfths18dG9ZKb59UhvmaSGZRVbNQpsg3BZlvi
-d0lIKO2d1xozclOzgjXPYovJJIultzkMu34qQb9Sz/yilrbCgj8=
------END CERTIFICATE-----
-,]3:tls;4:true!5:error;0:~5:state;1:3#3:via;0:~11:tls_version;7:TLSv1.3;15:tls_established;4:true!19:timestamp_tls_setup;18:1651508233.9539785^19:timestamp_tcp_setup;16:1651508233.94553^15:timestamp_start;18:1651508233.9299932^13:timestamp_end;0:~14:source_address;25:13:192.168.1.114;5:56416#]3:sni;22:android.googleapis.com;10:ip_address;23:13:216.58.214.10;3:443#]2:id;36:9c02808e-3a5c-41fd-a0dc-27bb075d5dbd;4:alpn;2:h2,7:address;32:22:android.googleapis.com;3:443#]}11:client_conn;507:11:cipher_list;0:]11:alpn_offers;16:2:h2,8:http/1.1,]16:certificate_list;0:]3:tls;4:true!5:error;0:~8:sockname;19:9:127.0.0.1;4:8080#]5:state;1:3#11:tls_version;7:TLSv1.2;14:tls_extensions;0:]15:tls_established;4:true!19:timestamp_tls_setup;18:1651507778.3964965^15:timestamp_start;18:1651507778.3663409^13:timestamp_end;0:~3:sni;22:android.googleapis.com;8:mitmcert;0:~2:id;36:2350a686-86ee-48f5-b96c-3276380d00fd;11:cipher_name;27:ECDHE-RSA-AES128-GCM-SHA256;4:alpn;2:h2,7:address;20:9:127.0.0.1;5:47868#]}5:error;0:~2:id;36:db1a56dc-12ad-45a3-a119-0619e36b54ef;}

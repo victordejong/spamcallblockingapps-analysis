@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <androidx.appcompat.widget.SwitchCompat android:textColor="@color/tabs_selected" android:gravity="start|center" android:id="@id/switchHideMessages" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:checked="false" android:text="@string/hide_blocked_messages" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
-</LinearLayout>

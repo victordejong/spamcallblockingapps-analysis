@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@color/amax_common_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textAppearance="?android:textAppearanceLarge" android:gravity="center" android:id="@id/no_linked_contacts" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <ListView android:id="@id/linked_contacts" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="@dimen/common_padding" android:paddingEnd="@dimen/common_padding" />
-    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/asus_filter_view_height" android:layout_marginTop="@dimen/common_padding" android:layout_marginBottom="@dimen/common_padding" android:paddingStart="@dimen/common_padding" android:paddingEnd="@dimen/common_padding">
-        <Button android:textSize="@dimen/separate_all_btn_text_size" android:gravity="center" android:id="@id/separate_all_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    </LinearLayout>
-</LinearLayout>

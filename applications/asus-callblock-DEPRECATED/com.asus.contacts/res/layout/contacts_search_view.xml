@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<SearchView android:id="@id/search_view" android:layout_width="fill_parent" android:layout_height="@dimen/asus_search_view_height" android:iconifiedByDefault="false"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

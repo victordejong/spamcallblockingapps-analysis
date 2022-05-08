@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<gogolook.callgogolook2.messaging.ui.VideoThumbnailView android:id="@id/attachment_video_thumbnail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/ip_img_bg" android:maxWidth="@dimen/app_single_attachment_max_size" android:maxHeight="@dimen/app_single_attachment_max_size" android:minWidth="@dimen/app_single_attachment_min_size" android:minHeight="@dimen/app_single_attachment_min_size" app:allowCrop="true" app:mode="imageThumbnail"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

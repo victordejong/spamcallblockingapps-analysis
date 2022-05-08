@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gogolook.callgogolook2.view.SizedTextView android:textSize="16.0sp" android:textColor="#ff000000" android:autoLink="web" android:id="@id/tv_attention" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gap" android:text="@string/block_attention_msg" />
+    <CheckBox android:gravity="center_vertical" android:id="@id/cb_understand" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gap" android:text="@string/understand" style="@style/whoscall_checkbox" />
+    <gogolook.callgogolook2.view.SizedTextView android:textSize="14.0sp" android:textColor="#ff999999" android:id="@id/tv_hint" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/url_check_agreement_extra" />
+</LinearLayout>

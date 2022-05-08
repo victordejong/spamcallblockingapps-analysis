@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="70.0dip">
+        <RelativeLayout android:id="@id/rl_metaphor" android:layout_width="@dimen/metaphor_width" android:layout_height="@dimen/metaphor_height" android:layout_marginLeft="@dimen/metaphor_margin_left">
+            <gogolook.callgogolook2.view.RoundImageView android:id="@id/iv_metaphor" android:background="@drawable/inapp_icon_search" android:layout_width="@dimen/metaphor_image_width" android:layout_height="@dimen/metaphor_image_height" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/info_margin_left">
+            <gogolook.callgogolook2.view.SizedTextView android:textSize="@dimen/empty_line_primary_text_size" android:textColor="@color/empty_line_primary_text_color" android:ellipsize="end" android:gravity="start|center" android:id="@id/line_primary" android:paddingRight="@dimen/empty_line_primary_padding_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/textsearch_external_nosuggestword_text" android:singleLine="false" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="#ffdddddd" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="70.0dip" android:layout_below="@id/ll_item" />
+</RelativeLayout>

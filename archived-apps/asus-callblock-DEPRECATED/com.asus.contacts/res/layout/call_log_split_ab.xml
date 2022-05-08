@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/asus_contacts_calllog_split_ab_layout" android:background="@drawable/asus_contacts2_calllog_split_ab_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/right" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <include android:id="@id/call_log_filter_header_container" layout="@layout/call_log_filter_header" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/sim_type_filter" android:background="?android:selectableItemBackground" android:layout_width="@dimen/asus_filter_view_height" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/sim_type_filter_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/asus_contacts2_ic_callog_filter_sim_all" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/asus_options_setting" android:background="?android:selectableItemBackground" android:layout_width="@dimen/asus_filter_view_height" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/call_log_asus_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/asus_contacts2_ic_menu_b" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

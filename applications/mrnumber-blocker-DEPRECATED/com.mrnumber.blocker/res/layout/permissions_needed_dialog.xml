@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/permission_needed_header" android:text="@string/permission_needed" style="@style/DialogActionText.Header" />
-    <TextView android:id="@id/permission_needed_main_text" android:text="@string/permissions_prompt" android:layout_below="@id/permission_needed_header" style="@style/DialogActionText.Content.DarkGrey" />
-    <Button android:id="@id/go_to_settings_button" android:text="@string/go_to_settings" android:layout_below="@id/permission_needed_main_text" android:contentDescription="@string/go_to_settings" style="@style/DialogActionButton.Accept" />
-</RelativeLayout>

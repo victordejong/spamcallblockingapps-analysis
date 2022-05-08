@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:paddingLeft="10.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <EditText android:textColor="@android:color/white" android:textColorHint="#fff1fcff" android:id="@id/et_search" android:background="@color/transparent" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/hint_search_number" android:inputType="phone" android:imeOptions="actionSend" android:textCursorDrawable="@null" />
-</LinearLayout>

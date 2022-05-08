@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <integer name="asus_handwrite_switchbutton_padding">137</integer>
-    <integer name="contact_tile_column_count">3</integer>
-    <integer name="contact_tile_column_count_in_favorites">3</integer>
-</resources>

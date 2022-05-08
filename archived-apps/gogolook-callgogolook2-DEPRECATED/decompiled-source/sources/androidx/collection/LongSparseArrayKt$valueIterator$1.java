@@ -1,0 +1,42 @@
+package androidx.collection;
+
+import java.util.Iterator;
+import kotlin.Metadata;
+import p626l.p641z.p643d.p644e0.AbstractC15141a;
+@Metadata(m817bv = {1, 0, 3}, m816d1 = {"��\u001b\n��\n\u0002\u0010(\n��\n\u0002\u0010\b\n\u0002\b\u0005\n\u0002\u0010\u000b\n\u0002\b\u0004*\u0001��\b\n\u0018��2\b\u0012\u0004\u0012\u00028��0\u0001J\t\u0010\b\u001a\u00020\tH\u0096\u0002J\u0016\u0010\n\u001a\n \u000b*\u0004\u0018\u00018��8��H\u0096\u0002¢\u0006\u0002\u0010\fR\u001a\u0010\u0002\u001a\u00020\u0003X\u0086\u000e¢\u0006\u000e\n��\u001a\u0004\b\u0004\u0010\u0005\"\u0004\b\u0006\u0010\u0007¨\u0006\r"}, m815d2 = {"androidx/collection/LongSparseArrayKt$valueIterator$1", "", "index", "", "getIndex", "()I", "setIndex", "(I)V", "hasNext", "", "next", "kotlin.jvm.PlatformType", "()Ljava/lang/Object;", "collection-ktx"}, m814k = 1, m813mv = {1, 1, 13})
+/* loaded from: classes-dex2jar.jar:androidx/collection/LongSparseArrayKt$valueIterator$1.class */
+public final class LongSparseArrayKt$valueIterator$1 implements Iterator<T>, AbstractC15141a {
+    public final /* synthetic */ LongSparseArray $this_valueIterator;
+    public int index;
+
+    public LongSparseArrayKt$valueIterator$1(LongSparseArray<T> longSparseArray) {
+        this.$this_valueIterator = longSparseArray;
+    }
+
+    public final int getIndex() {
+        return this.index;
+    }
+
+    @Override // java.util.Iterator
+    public boolean hasNext() {
+        return this.index < this.$this_valueIterator.size();
+    }
+
+    /* JADX WARN: Type inference failed for: r0v6, types: [T, java.lang.Object] */
+    @Override // java.util.Iterator
+    public T next() {
+        LongSparseArray longSparseArray = this.$this_valueIterator;
+        int i = this.index;
+        this.index = i + 1;
+        return longSparseArray.valueAt(i);
+    }
+
+    @Override // java.util.Iterator
+    public void remove() {
+        throw new UnsupportedOperationException("Operation is not supported for read-only collection");
+    }
+
+    public final void setIndex(int i) {
+        this.index = i;
+    }
+}

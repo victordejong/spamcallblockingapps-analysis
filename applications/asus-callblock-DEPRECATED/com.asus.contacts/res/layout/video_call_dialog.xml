@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/asus_contact_tauros_video_call_dialog_text" android:textColor="@color/asus_contact_tauros_video_call_dialog_text_color" android:id="@id/textView_choice_list" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/video_call_switch_do_not_remind" android:layout_weight="1.0" android:layout_marginStart="@dimen/asus_contact_tauros_video_call_dialog_padding" />
-    <CheckBox android:id="@id/checkBox_choice_list" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/asus_contact_tauros_video_call_dialog_padding" />
-</LinearLayout>

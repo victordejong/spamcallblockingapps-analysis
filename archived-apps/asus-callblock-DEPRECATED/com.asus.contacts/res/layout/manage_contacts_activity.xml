@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/common_padding" android:paddingRight="@dimen/common_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/asus_list_item_main_text_size" android:textColor="@color/asus_manage_contact_color" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/import_export" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/asus_filter_view_height" android:text="@string/menu_import_export" android:singleLine="true" android:fontFamily="sans-serif-medium" />
+            <View android:background="@color/amax_filter_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <TextView android:textSize="@dimen/asus_list_item_main_text_size" android:textColor="@color/asus_manage_contact_color" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/copy_contacts" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/asus_filter_view_height" android:text="@string/asus_copy_contacts" android:singleLine="true" android:fontFamily="sans-serif-medium" />
+            <View android:background="@color/amax_filter_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <TextView android:textSize="@dimen/asus_list_item_main_text_size" android:textColor="@color/asus_manage_contact_color" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/dedeuplicate_contacts" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/asus_filter_view_height" android:text="@string/de_duplicate_contacts" android:singleLine="true" android:fontFamily="sans-serif-medium" />
+            <View android:background="@color/amax_filter_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <TextView android:textSize="@dimen/asus_list_item_main_text_size" android:textColor="@color/asus_manage_contact_color" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/linked_contacts" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/asus_filter_view_height" android:text="@string/linked_contacts" android:singleLine="true" android:fontFamily="sans-serif-medium" />
+            <View android:background="@color/amax_filter_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <TextView android:textSize="@dimen/asus_list_item_main_text_size" android:textColor="@color/asus_manage_contact_color" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/blocked_contacts" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/asus_filter_view_height" android:text="@string/launch_blocklist" android:singleLine="true" android:fontFamily="sans-serif-medium" />
+            <View android:background="@color/amax_filter_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:orientation="vertical" android:id="@id/manage_private_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/asus_list_item_main_text_size" android:textColor="@color/asus_manage_contact_color" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/manage_private_contacts" android:background="?android:selectableItemBackground" android:layout_width="0.0dip" android:layout_height="@dimen/asus_filter_view_height" android:text="@string/private_manage_contacts" android:singleLine="true" android:layout_weight="1.0" android:fontFamily="sans-serif-medium" />
+                    <ImageView android:layout_gravity="center" android:id="@id/red_point_icon_private" android:background="@drawable/asus_new_feature_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_padding" />
+                </LinearLayout>
+                <View android:background="@color/amax_filter_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

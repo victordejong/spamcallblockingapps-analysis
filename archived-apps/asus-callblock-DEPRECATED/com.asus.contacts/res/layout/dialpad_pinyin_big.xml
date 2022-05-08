@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_gravity="center_horizontal" android:id="@id/dialpad_pinyin_big" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:custom="http://schemas.android.com/apk/res/com.asus.contacts">
+    <View android:id="@id/dialpad_divider_1" android:background="@color/custom_twelvekey_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/dialpad_margin_big_dialpad" />
+    <TableRow android:layout_height="0.0px" android:layout_weight="1.0">
+        <com.android.contacts.dialpad.CustomKeyView android:id="@id/one" custom:alpha_icon="@drawable/asus_contacts2_ic_voice_mail" custom:has_divider="true" custom:number_padding_x="@dimen/custom_number_padding_x_1_diff_big" custom:number_text="1" style="@style/CustomKey_Style_vertical_big" />
+        <com.android.contacts.dialpad.CustomKeyView android:id="@id/two" custom:has_divider="true" custom:number_text="2" custom:style_1_alphabets_text="ABC" style="@style/CustomKey_Style_vertical_big" />
+        <com.android.contacts.dialpad.CustomKeyView android:id="@id/three" custom:has_divider="true" custom:number_text="3" custom:style_1_alphabets_text="DEF" style="@style/CustomKey_Style_vertical_big" />
+    </TableRow>
+    <TableRow android:layout_height="0.0px" android:layout_weight="1.0">
+        <com.android.contacts.dialpad.CustomKeyView android:id="@id/four" custom:has_divider="true" custom:number_text="4" custom:style_1_alphabets_text="GHI" style="@style/CustomKey_Style_vertical_big" />
+        <com.android.contacts.dialpad.CustomKeyView android:id="@id/five" custom:has_divider="true" custom:number_text="5" custom:style_1_alphabets_text="JKL" style="@style/CustomKey_Style_vertical_big" />
+        <com.android.contacts.dialpad.CustomKeyView android:id="@id/six" custom:has_divider="true" custom:number_text="6" custom:style_1_alphabets_text="MNO" style="@style/CustomKey_Style_vertical_big" />
+    </TableRow>
+    <TableRow android:layout_height="0.0px" android:layout_weight="1.0">
+        <com.android.contacts.dialpad.CustomKeyView android:id="@id/seven" custom:has_divider="true" custom:number_text="7" custom:style_1_alphabets_text="PQRS" style="@style/CustomKey_Style_vertical_big" />
+        <com.android.contacts.dialpad.CustomKeyView android:id="@id/eight" custom:has_divider="true" custom:number_text="8" custom:style_1_alphabets_text="TUV" style="@style/CustomKey_Style_vertical_big" />
+        <com.android.contacts.dialpad.CustomKeyView android:id="@id/nine" custom:has_divider="true" custom:number_text="9" custom:style_1_alphabets_text="WXYZ" style="@style/CustomKey_Style_vertical_big" />
+    </TableRow>
+    <TableRow android:layout_height="0.0px" android:layout_weight="1.0">
+        <com.android.contacts.dialpad.CustomKeyView android:id="@id/star" custom:number_padding_y="@dimen/custom_number_padding_y_star" custom:number_text="*" custom:number_text_size="@dimen/custom_style_2_number_text_size_2" custom:style_1_alphabets_text="," style="@style/CustomKey_Style_vertical_big" />
+        <com.android.contacts.dialpad.CustomKeyView android:id="@id/zero" custom:number_text="0" custom:style_1_alphabets_text="+" style="@style/CustomKey_Style_vertical_big" />
+        <com.android.contacts.dialpad.CustomKeyView android:id="@id/pound" custom:number_text="\#" custom:style_1_alphabets_text=";" style="@style/CustomKey_Style_vertical_big" />
+    </TableRow>
+</TableLayout>

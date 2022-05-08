@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<vector android:tint="@color/ps3_white" android:height="18.0dip" android:width="18.0dip" android:viewportWidth="18.0" android:viewportHeight="18.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <path android:fillColor="@color/toolbar_nav_icon" android:pathData="M10,16.4l-6,-6.3l14,0l0,-2.2l-14,0l6,-6.3l-1.5,-1.6l-8.5,9l8.5,9z" />
-</vector>

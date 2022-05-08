@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/rl_malicious" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gogolook.commonlib.view.IconFontTextView android:textSize="20.0dip" android:textColor="@color/warning_red" android:id="@id/iftv_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/iconfont_malicious" android:layout_alignParentStart="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/text_black" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_marginEnd="6.0dip" android:layout_toStartOf="@id/tv_count" android:layout_toEndOf="@id/iftv_icon" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/text_black" android:id="@id/tv_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+</RelativeLayout>

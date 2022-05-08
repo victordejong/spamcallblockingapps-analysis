@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/caller_details_tag_bg" android:background="@drawable/button_gradient_inactive" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="3.0dip" android:elevation="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingTop="6.0dip" android:paddingBottom="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="8.0dip">
+        <TextView android:textAppearance="@style/NavigationText" android:textColor="@color/ps3_grey_666" android:gravity="center" android:id="@id/caller_details_tag_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </RelativeLayout>
+</FrameLayout>

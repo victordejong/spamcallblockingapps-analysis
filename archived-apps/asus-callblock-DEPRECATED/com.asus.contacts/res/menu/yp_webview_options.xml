@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/asis_ic_offline_refresh" android:id="@id/action_refresh" android:orderInCategory="1" android:title="@string/asus_yp_webview_menu_refresh" android:showAsAction="always" />
+    <item android:id="@id/action_sharelink" android:orderInCategory="1" android:title="@string/asus_yp_webview_menu_sharelink" android:showAsAction="withText" />
+    <item android:id="@id/action_openbrowser" android:orderInCategory="2" android:title="@string/asus_yp_webview_menu_openbrowser" android:showAsAction="withText" />
+</menu>

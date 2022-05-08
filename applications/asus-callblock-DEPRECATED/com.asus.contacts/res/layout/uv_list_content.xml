@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ViewFlipper android:id="@id/uv_view_flipper" android:background="@android:color/background_light" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" />
-    <TextView android:textSize="28.0sp" android:gravity="center" android:id="@id/uf_sdk_no_network" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/uf_sdk_no_network_connection_title" />
-</ViewFlipper>

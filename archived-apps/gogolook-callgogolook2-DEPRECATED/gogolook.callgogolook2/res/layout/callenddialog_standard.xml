@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/mainpager" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/ll_postcallads_middle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/ad_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+    <ImageView android:id="@id/copyright" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:src="@drawable/popup_logo" android:scaleType="fitEnd" />
+</LinearLayout>

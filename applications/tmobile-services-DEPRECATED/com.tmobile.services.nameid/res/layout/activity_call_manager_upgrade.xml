@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/black_or_deep_purple" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/progress_dialog_root_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="24.0dip" android:layout_centerInParent="true">
-        <ProgressBar android:id="@id/progress_dialog_progress_bar" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginBottom="26.0dip" android:indeterminate="true" android:indeterminateDrawable="@drawable/spinner_gradient" android:contentDescription="@string/con_desc_progress_indicator" />
-    </LinearLayout>
-</RelativeLayout>

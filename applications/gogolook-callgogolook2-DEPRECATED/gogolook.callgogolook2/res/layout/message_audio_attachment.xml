@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<gogolook.callgogolook2.messaging.ui.AudioAttachmentView android:layout_width="wrap_content" android:layout_height="@dimen/app_single_attachment_min_size" android:importantForAccessibility="no" style="@style/AppTheme.AudioAttachmentViewStyle"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

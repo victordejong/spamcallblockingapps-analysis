@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/textContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:textSize="@dimen/dialer_button_digit_text_size" android:textStyle="bold" android:textColor="@color/colorPrimaryLight" android:layout_gravity="center" android:id="@id/characterView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif" />
-        <TextView android:textSize="11.0sp" android:textStyle="normal" android:textColor="@color/dialer_grey" android:layout_gravity="center" android:id="@id/lettersView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:fontFamily="sans-serif" />
-    </LinearLayout>
-    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/imageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/dialer_grey" />
-</FrameLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/log_item_root_theme" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="0.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@layout/log_item_content_details" />
-    <include layout="@layout/log_item_content_options" />
-</LinearLayout>

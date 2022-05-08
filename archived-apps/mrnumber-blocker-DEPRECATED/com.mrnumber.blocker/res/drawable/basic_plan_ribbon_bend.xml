@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="100.0dip" android:width="100.0dip" android:viewportWidth="100.0" android:viewportHeight="100.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="group">
+        <path android:name="triangle" android:fillColor="@color/basic_plan_ribbon_color" android:pathData="m 0,0 l 100,0 -100,100 z" />
+    </group>
+</vector>
