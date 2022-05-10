@@ -4,6 +4,10 @@ This project contains all the work needed for the following research question:
 
 - Discover how information about blocked Caller IDs is stored in the application (external calls over the Internet, applications files, databases). Propose the techniques to extract this information that can be later automated.
 
+## HOWTO: download APKs
+
+Use this site, support multi arch: https://apkcombo.com/nl/apk-downloader
+
 ## Setup for static analysis
 
 See here how: [applications/README.md](applications/README.md)
@@ -41,6 +45,7 @@ app-name/
 - com.asus.contacts: crashes on startup, no advanced blocklist
 - gogolook.callgogolook2: Out of date does not function
 - com.mrnumber.blocker: Paid
+- netqin-mm: manual blacklist
 
 ## Replacements
 
@@ -50,3 +55,4 @@ app-name/
 - telGuarder: https://play.google.com/store/apps/details?id=com.telguarder
 - Call Blocker: https://play.google.com/store/apps/details?id=com.unknownphone.callblocker
 - Bel Control: https://play.google.com/store/apps/details?id=com.flexaspect.android.everycallcontrol
+- Showcaller: Caller ID & Block: https://play.google.com/store/apps/details?id=com.allinone.callerid
