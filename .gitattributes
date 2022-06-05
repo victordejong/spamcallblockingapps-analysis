@@ -41,3 +41,4 @@
 /applications/stopmijbellen/extracted-data/database/DBMain.db filter=lfs diff=lfs merge=lfs -text
 /applications/showcaller/Showcaller[[:space:]]Caller[[:space:]]ID[[:space:]]&[[:space:]]Block_2.2.5_apkcombo.com.apk filter=lfs diff=lfs merge=lfs -text
 /applications/showcaller/com.allinone.callerid.apk filter=lfs diff=lfs merge=lfs -text
+/applications/shouldianswer/extracted-data/files/cached filter=lfs diff=lfs merge=lfs -text

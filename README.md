@@ -56,3 +56,10 @@ app-name/
 - Call Blocker: https://play.google.com/store/apps/details?id=com.unknownphone.callblocker
 - Bel Control: https://play.google.com/store/apps/details?id=com.flexaspect.android.everycallcontrol
 - Showcaller: Caller ID & Block: https://play.google.com/store/apps/details?id=com.allinone.callerid
+
+# TODO
+
+callapp-contacts: no net capture, cert-pinning, no files extracted
+callerid-block: no net capture, API > 28 needed
+showcaller: replace
+stopbijbellen: no net capture for incoming spam call
