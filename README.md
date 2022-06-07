@@ -60,6 +60,3 @@ app-name/
 # TODO
 
 callapp-contacts: no net capture, cert-pinning, no files extracted
-callerid-block: no net capture, API > 28 needed
-showcaller: replace
-stopbijbellen: no net capture for incoming spam call

@@ -6,4 +6,4 @@
 
 ## Network
 
-No interesting data on startup.
+No interesting data on startup. Does not check incoming calls with an online database.
