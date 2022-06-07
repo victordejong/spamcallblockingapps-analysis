@@ -26,7 +26,7 @@ type:          phone
 fields:        kind,items(id,metadata(objectType,plusPageType,attributions),names,phoneNumbers(value,type,formattedType,canonicalizedForm),addresses(value,type,formattedType),images(url,metadata(container)),urls(value),placeDetails,extendedData)
 includePlaces: 1
 callType:      incoming
-id:            +31651006949         # My phone number
+id:            [REDACTED]         # My phone number
 ```
 
 Response observed:

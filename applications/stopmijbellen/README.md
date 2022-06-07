@@ -6,4 +6,11 @@
 
 ## Network
 
-No interesting data on startup. Does not check incoming calls with an online database.
+Database is downloaded on startup. Observed urls:
+
+```
+https://srv22.mglabapps.host/app2/app_device.php
+https://srv22.mglabapps.host/app2/app_download.php
+```
+
+No network call when incoming. No cert pinning.
