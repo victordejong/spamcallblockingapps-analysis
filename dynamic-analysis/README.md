@@ -10,10 +10,16 @@ static:
 - `android-tools` and `android-sdk-platform-tools` for use of `adb`. Use package manager to install.
 - `sqlitebrowser` SQLite GUI
 - `mitmproxy` Decrypt SSL traffic
+- `frida` Debug and hook functions
+- `frida-server` Server component running on the Android emulator
 
 dynamic:
 
 - The APK of the application.
+
+## Break cert pinning
+
+Follow guide at: https://httptoolkit.tech/blog/frida-certificate-pinning/
 
 ## Test data
 
@@ -39,3 +45,4 @@ MITMproxy settings:
 - Use `adb shell settings put global http_proxy :0` to undo proxy settings.
 - Use `emulator -list-avds` to list available emulators
 - Use `emulator -avd [EMULATOR_NAME] -writable-system -show-kernel` to start emulator with writable system, API <= 28 (https://docs.mitmproxy.org/stable/howto-install-system-trusted-ca-android/)
+

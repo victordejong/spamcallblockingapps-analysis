@@ -42,3 +42,4 @@
 /applications/showcaller/Showcaller[[:space:]]Caller[[:space:]]ID[[:space:]]&[[:space:]]Block_2.2.5_apkcombo.com.apk filter=lfs diff=lfs merge=lfs -text
 /applications/showcaller/com.allinone.callerid.apk filter=lfs diff=lfs merge=lfs -text
 /applications/shouldianswer/extracted-data/files/cached filter=lfs diff=lfs merge=lfs -text
+/dynamic-analysis/frida/frida-server-15.1.24-android-x86_64 filter=lfs diff=lfs merge=lfs -text

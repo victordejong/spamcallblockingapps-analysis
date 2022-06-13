@@ -2,7 +2,7 @@
 
 ## On disk
 
-`insights.db` contains table `catagorizer_probability` which seems to contain keywords with probability mapping. Likely spam detection. Cool!
+`insights.db` contains table `catagorizer_probability` which seems to contain keywords with probability mapping. Likely spam detection. Cool! Only seems to work if you pay money :(
 `tc.db`: no interesting data
 
 `countries.json` and `edges.json` in `files/` seem to contain a list of countries and available endpoints to use.
