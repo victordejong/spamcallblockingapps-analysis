@@ -1,0 +1,64 @@
+{
+  "GRM_BANK": {
+    "attributes":[
+      "acc_num",
+      "trx_amt",
+      "bal_amt",
+      "trx_category",
+      "trx_type",
+      "ref_id",
+      "aux_instrval"
+    ],
+    "delta": "2 mins"
+  },
+  "GRM_EVENT": {
+    "attributes":[
+      "booking_id",
+      "movie",
+      "location"
+    ],
+    "delta": "2 mins"
+  },
+  "GRM_TRAVEL": {
+    "attributes":[
+      "pnr_id",
+      "travel_vendor",
+      "from_loc",
+      "to_loc",
+      "boardpnt",
+      "date",
+      "seat",
+      "alert_id",
+      "alert_type",
+      "pnr_id"
+    ],
+    "delta": "2 mins"
+  },
+  "GRM_BILL": {
+    "attributes":[
+      "vendor",
+      "dueins_num",
+      "bill_category",
+      "aux_type",
+      "bill_type",
+      "due_amt",
+      "aux_amt"
+    ],
+    "delta": "2 m"
+  },
+  "GRM_NOTIF": {
+    "attributes":[
+      "notif_category",
+      "notif_type1",
+      "notif_val1",
+      "notif_type2",
+      "notif_val2",
+      "notif_type3",
+      "notif_val3",
+      "notif_type4",
+      "notif_val4",
+      "notif_subcateg"
+    ],
+    "delta": "2 mins"
+  }
+}

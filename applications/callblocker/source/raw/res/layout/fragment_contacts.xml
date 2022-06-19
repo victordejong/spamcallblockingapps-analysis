@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:background="@color/primary" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_width="48.0dip" android:layout_height="48.0dip" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:id="@id/titleView" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="0.0dip" android:layout_height="56.0dip" android:text="@string/block_phone.option.from_contacts.title" android:lines="1" android:layout_weight="1.0" style="@style/TextAppearance.AppCompat.Title" />
+        <androidx.appcompat.widget.AppCompatImageButton android:id="@id/closeButton" android:background="#00000000" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close_black_24dp" android:tint="#ffffffff" />
+    </LinearLayout>
+    <RelativeLayout android:background="@color/grayish_white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" app:cardCornerRadius="8.0dip">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <androidx.appcompat.widget.AppCompatImageView android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_search_primary_dark_24dp" android:tint="@color/icon_dark_inactive" android:tintMode="src_in" />
+                <androidx.appcompat.widget.AppCompatEditText android:textSize="14.0sp" android:gravity="center_vertical" android:id="@id/searchView" android:background="@android:color/transparent" android:paddingRight="12.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/tabbar.search" android:layout_weight="1.0" android:inputType="textNoSuggestions" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+    <com.unknownphone.callblocker.custom.ViewSwitchLayout android:gravity="center_vertical" android:id="@id/viewSwitchLayout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:background="#00000000" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_block_primary_dark_24dp" android:tint="@color/whitish_gray" />
+            <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+        <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_margin="24.0dip" />
+    </com.unknownphone.callblocker.custom.ViewSwitchLayout>
+</LinearLayout>

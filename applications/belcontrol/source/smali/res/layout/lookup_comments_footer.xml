@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/comments_footer" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/height_48dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@color/colorPrimary" android:id="@id/btn_load_more" android:background="@android:color/transparent" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lookup_load_more" style="@style/composer_text" />
+    <Button android:textColor="@color/colorPrimary" android:gravity="center|top" android:id="@id/empty" android:background="@android:color/transparent" android:padding="@dimen/activity_horizontal_margin" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/composer_text" />
+</LinearLayout>

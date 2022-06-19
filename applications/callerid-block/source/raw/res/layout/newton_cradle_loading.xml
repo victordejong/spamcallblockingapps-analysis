@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.victor.loading.newton.CradleBall android:layout_gravity="center" android:id="@id/ball_one" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="50.0dip" />
+    <com.victor.loading.newton.CradleBall android:layout_gravity="center" android:id="@id/ball_two" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+    <com.victor.loading.newton.CradleBall android:layout_gravity="center" android:id="@id/ball_three" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+    <com.victor.loading.newton.CradleBall android:layout_gravity="center" android:id="@id/ball_four" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+    <com.victor.loading.newton.CradleBall android:layout_gravity="center" android:id="@id/ball_five" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="50.0dip" />
+</LinearLayout>

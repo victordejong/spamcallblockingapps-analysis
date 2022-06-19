@@ -1,0 +1,31 @@
+.class public abstract Ls1/a/a/a/v0/j/t/q;
+.super Ls1/a/a/a/v0/j/t/g;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ls1/a/a/a/v0/j/t/g<",
+        "TT;>;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/Object;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0, p1}, Ls1/a/a/a/v0/j/t/g;-><init>(Ljava/lang/Object;)V
+
+    return-void
+.end method

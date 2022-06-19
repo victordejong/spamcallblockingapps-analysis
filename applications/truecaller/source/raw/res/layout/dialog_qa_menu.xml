@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?tcx_backgroundTertiary" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="320.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.SearchView android:id="@id/debugSearch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="12.0sp" android:id="@id/dialogTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toStartOf="@id/debugSearch" style="@style/Widget.Truecaller.TextView.SettingsTitle" />
+    </RelativeLayout>
+    <androidx.core.widget.NestedScrollView android:id="@id/debugScrollView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/debugOptions" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:tag="GroupGeneral" android:text="General" style="@style/Widget.Truecaller.QATitle" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugForceLogging" android:tag="ChildGeneral" android:text="Force enable logging" style="@style/Widget.Truecaller.Switch" />
+            <com.truecaller.ui.components.ComboBase android:id="@id/debugPartner" android:tag="ChildGeneral" android:background="?selectableItemBackground" android:text="Partner" style="@style/TCComboBox" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugServer" android:tag="ChildGeneral" android:text="Test Server" style="@style/Widget.Truecaller.Switch" />
+            <Button android:textStyle="bold" android:id="@id/featuresPanel" android:tag="ChildGeneral" android:text="Features Control Panel" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/callerIdPopup" android:tag="ChildGeneral" android:text="Caller id popup" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/acs" android:tag="ChildGeneral" android:text="ACS Popup/Fullscreen" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/detailsView" android:tag="ChildGeneral" android:text="Details view" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugRunInitialize" android:tag="ChildGeneral" android:text="Run Initialize" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugCrash" android:tag="ChildGeneral" android:text="Crash Application" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugCrashUnmuted" android:tag="ChildGeneral" android:text="Throw unmuted exception" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugCrashNonSerializable" android:tag="ChildGeneral" android:text="Throw non-serializable exception" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugDumpHprof" android:tag="ChildGeneral" android:text="Dump App Heap" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugCorruptAccount" android:tag="ChildGeneral" android:text="Corrupt system account" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugInsightsEventAggregationWorker" android:tag="ChildBackground" android:text="Insights Event Aggregation Worker" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugInsightsBrandMonitoringWorker" android:tag="ChildBackground" android:text="Insights Brand Monitoring Worker" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugInstallShortcuts" android:tag="ChildGeneral" android:text="Install homescreen shortcuts" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugGetLogs" android:tag="ChildGeneral" android:text="Export debug logs" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/insightsDebugGetLogs" android:tag="ChildGeneral" android:text="Export insights debug logs" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugMethodTracing" android:tag="ChildGeneral" android:text="Method Tracing" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugReportPresence" android:tag="ChildGeneral" android:text="Report presence" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugOverrideStoredVersionCode" android:tag="ChildGeneral" android:text="Override stored version code" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugManageDynamicFeatureModule" android:tag="ChildGeneral" android:text="Manage dynamic feature modules" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugDisableAlphaBuildAlerts" android:tag="ChildGeneral" android:text="Disable Alpha build alerts" style="@style/Widget.Truecaller.QAButton" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugFinishTruecallerInit" android:tag="ChildGeneral" android:visibility="gone" android:text="Finish TruecallerInit on back pressed" style="@style/Widget.Truecaller.Switch" />
+            <TextView android:tag="GroupLegal" android:text="Legal" style="@style/Widget.Truecaller.QATitle" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugSwitchRegion1" android:tag="ChildRegion1" android:text="Region 1" style="@style/Widget.Truecaller.Switch" />
+            <Button android:textStyle="bold" android:id="@id/debugResetRegion1" android:tag="ChildRegion1" android:text="Reset Region 1 to backend status" style="@style/Widget.Truecaller.QAButton" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugSwitchRegionC" android:tag="ChildRegionC" android:text="Force Region C" style="@style/Widget.Truecaller.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugSwitchRegionZa" android:tag="ChildRegionC" android:text="Force Region ZA" style="@style/Widget.Truecaller.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugSwitchRegionBr" android:tag="ChildRegionC" android:text="Force Region BR" style="@style/Widget.Truecaller.Switch" />
+            <Button android:textStyle="bold" android:id="@id/debugResetConsent" android:tag="ChildRegion1" android:text="Reset Consent" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:tag="GroupAds" android:text="Ads" style="@style/Widget.Truecaller.QATitle" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugForceAds" android:tag="ChildAds" android:text="Force show Ads" style="@style/Widget.Truecaller.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugDisableAdsRequests" android:tag="ChildAds" android:text="Fail GAM Ads" style="@style/Widget.Truecaller.Switch" />
+            <Button android:textStyle="bold" android:id="@id/debugCampaingns" android:tag="ChildAds" android:text="Open Campaigns info" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugKeywords" android:tag="ChildAds" android:text="Open last requested keywords" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugLeadgenAds" android:tag="ChildAds" android:text="Open LeadGen form" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugUnifiedLeadgenAds" android:tag="ChildAds" android:text="Open Unified LeadGen form" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugArticlePageAds" android:tag="ChildAds" android:text="Open Article Page Ad" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugRemoteWebView" android:tag="ChildAds" android:text="Enable WebView remote debugging" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugForceCtpRotation" android:tag="ChildAds" android:text="Force CTP video rotation" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugDropAdsGamCache" android:tag="ChildAds" android:text="Drop cached GAM ads" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugDropAdsRouterCache" android:tag="ChildAds" android:text="Drop cached AdRouter ads" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugDropAdsOfflineCache" android:tag="ChildAds" android:text="Drop cached offline ads" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugSyncOfflineAds" android:tag="ChildAds" android:text="Sync offline ads" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/offlineAdsDataUpload" android:tag="ChildAds" android:text="Trigger Offline ads data upload action" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugForceHouseAdsTimeout" android:tag="ChildAds" android:text="Set House ads timeout to 1s" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:tag="GroupDatabase" android:text="Persistance" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/debugClearGlideCache" android:tag="ChildDatabase" android:text="Clear Glide disk cache" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/exportDbSchema" android:tag="ChildDatabase" android:text="Export DB Schema" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugResetProvider" android:tag="ChildDatabase" android:text="Reset Provider" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugDumpProvider" android:tag="ChildDatabase" android:text="Dump Provider" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugReadableDatabases" android:tag="ChildDatabase" android:text="Readable Databases" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:tag="GroupPermissions" android:text="Permissions" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/debugOpenDrawOnTopPermissions" android:tag="ChildPermissions" android:text="Draw on top" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugOpenNotificationAccessPermissions" android:tag="ChildPermissions" android:text="Notification access" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugSetAsDefaultDialerApp" android:tag="ChildPermissions" android:text="Set as default dialer app" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugSetAsCallerIdApp" android:tag="ChildPermissions" android:text="Set as caller id app" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:tag="GroupUserInterface" android:text="User Interface" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/debugWhatsNew" android:tag="ChildUserInterface" android:text="What's new" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugWhatsNewReset" android:tag="ChildUserInterface" android:text="Reset what's new" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugWelcome" android:tag="ChildUserInterface" android:text="Welcome" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugInboxPromo" android:tag="ChildUserInterface" android:text="Force inbox bannner" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/clearFirstName" android:tag="ChildUserInterface" android:text="Clear FirstName" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/clearLastName" android:tag="ChildUserInterface" android:text="Clear LastName" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugFillName" android:tag="ChildUserInterface" android:text="FillProfileName Dialog" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugShowContactPermissionPromotion" android:tag="ChildUserInterface" android:text="Contact permission promotion" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugShowDialerPromotions" android:tag="ChildUserInterface" android:text="Dialer promotions" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugShowDialerPromotionsOutgoing" android:tag="ChildUserInterface" android:text="Dialer promotions outgoing" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugShowClipBoardNotification" android:tag="ChildUserInterface" android:text="Clipboard notification" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugShowEnhancingNotification" android:tag="ChildUserInterface" android:text="Enhancing notification" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugSourcedContactList" android:tag="ChildUserInterface" android:text="Sourced Contact Notification" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugCallMeBackActivity" android:tag="ChildUserInterface" android:text="CallMeBack prompt" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugClearCallMeBack" android:tag="ChildUserInterface" android:text="Clear CallMeBack timer" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugSelectTheme" android:tag="ChildUserInterface" android:text="UI Theme" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugBusinessProfileOnboarding" android:tag="ChildUserInterface" android:text="Business Profile onboarding" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugDefaultDialerPromo" android:tag="ChildUserInterface" android:text="Default dialer promotion" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugInsightsSMSTester" android:tag="ChildUserInterface" android:text="Test SMS Insights" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/changeCountryCode" android:tag="ChildUserInterface" android:text="Change country code" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugInsightsMalanaSeedViewer" android:tag="ChildUserInterface" android:text="Insights Malana Seed Viewer" style="@style/Widget.Truecaller.QAButton" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugEnablePdoViewer" android:tag="ChildReferral" android:text="Enable Pdo viewer" style="@style/Widget.Truecaller.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugEnableInsightsDebugLogs" android:tag="ChildReferral" android:text="Enable insights debug logs" style="@style/Widget.Truecaller.Switch" />
+            <Button android:textStyle="bold" android:id="@id/debugInsightsClearActionStates" android:tag="ChildUserInterface" android:text="Insights clear action states" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugDisableSmartFeedOnboarding" android:tag="ChildUserInterface" android:text="Clear Smart feed onboarding flag" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugInsightsCorruptDB" android:tag="ChildUserInterface" android:text="Corrupt insights DB" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugResetWhatsThisNotification" android:tag="ChildUserInterface" android:text="Reset What's this notification" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugUpdatesClassifierTester" android:tag="ChildUserInterface" android:text="Test Updates Classifier" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugFtsSearch" android:tag="ChildUserInterface" android:text="Test Insights Message FTS" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugReminders" android:tag="ChildUserInterface" android:text="Test Insights Reminders" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugSmartSmsFeatureFilters" android:tag="ChildUserInterface" android:text="Allow/Block Senders for Smart SMS Features" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugClearReturningUser" android:tag="ChildUserInterface" android:text="Clear returning user value" style="@style/Widget.Truecaller.QAButton" />
+            <androidx.appcompat.widget.SwitchCompat android:textStyle="bold" android:id="@id/debugUseUkLogo" android:tag="ChildUserInterface" android:text="Use UK logo" style="@style/Widget.Truecaller.Switch" />
+            <TextView android:tag="GroupBackground" android:text="Background" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/debugShowWorkActions" android:tag="BackgroundWorkAction" android:text="Show work actions" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugHeartBeat" android:tag="ChildBackground" android:text="Defibrillator (Heart Beat)" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugInstalledAppsHeartBeat" android:tag="ChildBackground" android:text="Installed apps HeartBeat" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugInsightsRerunWorker" android:tag="ChildBackground" android:text="Insights Rerun Worker" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugInsightsUpdateSeedModelWorker" android:tag="ChildBackground" android:text="Insights Seed Update Worker" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugInsightsReminderWorkAction" android:tag="ChildBackground" android:text="Insights Reminder Work Action" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugInsightsSenderResolutionWorkAction" android:tag="ChildBackground" android:text="Insights Sender Resolution Work Action" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugInsightsReTrainWorkAction" android:tag="ChildBackground" android:text="Insights Reclassification Work Action" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugInsightsEventClearWorker" android:tag="ChildBackground" android:text="Insights Event Clearing Worker" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugInsightsEnrichWorker" android:tag="ChildBackground" android:text="Insights Enrich Worker" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugInsightsFeatureWorker" android:tag="ChildBackground" android:text="Insights Feature Registry Worker" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugInsightsTotalSmartCardsCount" android:tag="ChildBackground" android:text="Insights Total smart cards shown count" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugInsightsCategorizerSeedFetcher" android:tag="ChildBackground" android:text="Insights Categorizer Seed fetcher" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugInsightsClassifierSeedFetcher" android:tag="ChildBackground" android:text="Insights Classifier Seed fetcher" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugInsightsRowFeatureFlag" android:tag="ChildBackground" android:text="Insights Row Feature flag" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugInsightsBrandStats" android:tag="ChildBackground" android:text="Insights Brand Stats" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugUploadUGC" android:tag="ChildBackground" android:text="Upload Entire Phonebook" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugUploadDeltaUGC" android:tag="ChildBackground" android:text="Upload Delta Phonebook" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugUploadEvents" android:tag="ChildBackground" android:text="Upload all events" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugUploadAutoTags" android:tag="ChildBackground" android:text="Upload Auto-Tags" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugSyncTags" android:tag="ChildBackground" android:text="Sync tags" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugSyncKeywords" android:tag="ChildBackground" android:text="Sync keywords" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugFetchSpamCategories" android:tag="ChildBackground" android:text="Fetch spam categories" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugFetchSearchWarnings" android:tag="ChildBackground" android:text="Fetch search warnings" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugAddSearchWarning" android:tag="ChildBackground" android:text="Add search warning" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugSendTestCommentFeedback" android:tag="ChildBackground" android:text="Send test comment feedback" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugRefreshT9Mapping" android:tag="ChildBackground" android:text="Rebuild T9 mappings" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugRebuildContactSorting" android:tag="ChildBackground" android:text="Rebuild contacts sorting index" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugBackupLog" android:tag="ChildBackground" android:text="Trigger backup account log task" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugUploadContactFeedback" android:tag="ChildBackground" android:text="Upload contact feedback" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugAttestationTask" android:tag="ChildBackground" android:text="Trigger attestation task" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugCleverTapRefreshTask" android:tag="ChildBackground" android:text="Clevertap Refresh Task Worker" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:tag="GroupSettings" android:text="Settings" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/debugReset" android:tag="ChildSettings" android:text="Reset Settings" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugResetContactSettings" android:tag="ChildSettings" android:text="Reset Contacts Settings" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugResetDialerPromotions" android:tag="ChildSettings" android:text="Reset dialer promotions" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugSetForcedUpdate" android:tag="ChildSettings" android:text="Set forced update" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugSelectTapBehavior" android:tag="ChildSettings" android:text="Select tap behavior on next call" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugRemoveCallLogSyncComplete" android:tag="ChildSettings" android:text="Remove call log sync complete flag" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugResetImportantTabSeen" android:tag="ChildSettings" android:text="Reset Important tab seen" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugResetFeedbackConsent" android:tag="ChildSettings" android:text="Reset Feedback Consent state" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugResetHideTrxState" android:tag="ChildSettings" android:text="Reset Hide Transactions state" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugResetLastInvalidCallLogReportTimestamp" android:tag="ChildSettings" android:text="Reset last invalid call log report timestamp" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:tag="GroupEdge" android:text="Edge" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/debugAddEdgeLocation" android:tag="ChildEdge" android:text="Add edge location" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugClearEdgeLocations" android:tag="ChildEdge" android:background="?selectableItemBackground" android:text="Clear edge locations" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugTriggerEdgeLocationsTask" android:tag="ChildEdge" android:background="?selectableItemBackground" android:text="Trigger edge locations update task" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:tag="GroupFilters" android:text="Filters" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/debugAddTopSpammer" android:tag="ChildFilters" android:text="Add top spammer" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/clearWhitelist" android:tag="ChildFilters" android:text="Clear whitelist" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:tag="GroupNotifications" android:text="Notifications" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/debugResetAlarms" android:tag="ChildNotifications" android:text="Reschedule Local Notifications" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugShowNotifications" android:tag="ChildNotifications" android:text="Push sample OS notifications" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugPushIdRegistration" android:tag="ChildNotifications" android:text="Send Push Id registration" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugPushIdRefresh" android:tag="ChildNotifications" android:text="Refresh Push Id" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:tag="GroupReferral" android:text="Referrals" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/debugClearReferral" android:tag="ChildReferral" android:text="Clear Referal" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugDisableReferralFlags" android:tag="ChildReferral" android:text="Clear Feature Flags" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugEnableReferral" android:tag="ChildReferral" android:text="Force show referral" style="@style/Widget.Truecaller.QAButton" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugFakeSendingSms" android:tag="ChildReferral" android:text="Fake Send SMS" style="@style/Widget.Truecaller.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugForceShowReferralButton" android:tag="ChildReferral" android:text="Force Show In Aftercall" style="@style/Widget.Truecaller.Switch" />
+            <Button android:textStyle="bold" android:id="@id/debugAbTestingSettings" android:tag="ChildReferral" android:text="Ab Test Variants" style="@style/Widget.Truecaller.QAButton" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugEnableInviteTab" android:tag="ChildReferral" android:text="Enable Invite Tab" style="@style/Widget.Truecaller.Switch" />
+            <Button android:textStyle="bold" android:id="@id/showReferralShareSheet" android:tag="ChildReferral" android:text="Show Referral Share Sheet" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:tag="GroupPremium" android:text="Premium" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/openDisabledFeaturesDialog" android:tag="ChildPremium" android:text="Open disabled premium features dialog" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/clearPremiumStatus" android:tag="ChildPremium" android:text="Clear cached premium data" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/clearPremiumProducts" android:tag="ChildPremium" android:text="Clear cached premium products" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/fetchPremiumStatus" android:tag="ChildPremium" android:text="Run premium status task" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/fetchPremiumStatusForContacts" android:tag="ChildPremium" android:text="Run fetch premium status for contacts task" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/consumeConsumable" android:tag="ChildPremium" android:text="Consume Yearly Consumable" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/showSubscriptionStatus" android:tag="ChildPremium" android:text="Show subscription status and reason" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/showPremiumScreenAsPopup" android:tag="ChildPremium" android:text="Show premium screen as popup" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/showFriendUpgradedContacts" android:tag="ChildPremium" android:text="Show friend upgraded contacts" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/showFriendUpgradedNotification" android:tag="ChildPremium" android:text="Show friend upgraded notification" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/addPremiumScreenTopImage" android:tag="ChildPremium" android:text="Add premium top image" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/editDebugSubscriptions" android:tag="ChildPremium" android:text="Edit Debug Subscriptions" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/launchGoldGiftActivity" android:tag="ChildPremium" android:text="Launch Gold Gift Activity" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/showPremiumReport" android:tag="ChildPremium" android:text="Show Premium Report" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/showPremiumProducts" android:tag="ChildPremium" android:text="Show Premium Products" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/launchPurchaseOfSKU" android:tag="ChildPremium" android:text="Launch Purchase of random SKU" style="@style/Widget.Truecaller.QAButton" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/addSamplePremiumCards" android:tag="ChildPremium" android:text="Add Sample Premium Cards" style="@style/Widget.Truecaller.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:textStyle="normal" android:id="@id/useRazorpayTestKey" android:tag="ChildPremium" android:text="Use Razor Pay Live Key" style="@style/Widget.Truecaller.Switch" />
+            <TextView android:tag="GroupMessaging" android:text="Messages" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/debugSyncAllMessages" android:tag="ChildMessaging" android:text="Sync all messages" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugRecalculateThreadStats" android:tag="ChildMessaging" android:text="Recalculate thread stats" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugShowOTPNotification" android:tag="ChildMessaging" android:text="Show a OTP message" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugMockImMessages" android:tag="ChildMessaging" android:text="Mock IM messages" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugImHistoryBatch" android:tag="ChildMessaging" android:text="Edit IM history size" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugCategorizerTask" android:tag="ChildMessaging" android:text="Run classify messages task" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugTriggerFullRecovery" android:tag="ChildMessaging" android:text="Trigger Groups full recovery" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugTriggerPartialRecovery" android:tag="ChildMessaging" android:text="Trigger Groups partial recovery" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugTriggerGroupInviteReminders" android:tag="ChildMessaging" android:text="Trigger group invite reminders" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugShowStats" android:tag="ChildMessaging" android:text="Show stats" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugStartHiddenNumberConversation" android:tag="ChildMessaging" android:text="Start hidden number conversation" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugSetBusinessFlagsConversation" android:tag="ChildMessaging" android:text="Set IM business flags" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugCustomRepliesConversation" android:tag="ChildMessaging" android:text="Add business custom replies" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugLinkPreviewMetaData" android:tag="ChildMessaging" android:text="Extract link preview metadata" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/internalNotificationsDefaultSmsPromo" android:tag="ChildMessaging" android:text="Trigger Default Sms Promo Action" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/triggerConversationSpamSearchWorker" android:text="Trigger ConversationSpamSearchWorker" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/fetchTopSpammersAction" android:tag="ChildMessaging" android:text="Fetch top spammers Action" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/resetDefaultSmsPromoShownFlag" android:tag="ChildMessaging" android:text="Reset Sms Promo Shown flag" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/resetDefaultSmsPromoShownDate" android:tag="ChildMessaging" android:text="Reset Sms Promo Shown Date" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/defaultSmsPromo" android:tag="ChildMessaging" android:text="default Sms promo" style="@style/Widget.Truecaller.QAButton" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugImDowngrade" android:text="IM debug downgrade" style="@style/Widget.Truecaller.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugImCommands" android:text="IM debug commands" style="@style/Widget.Truecaller.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugImEmptyUserInfo" android:text="IM empty user info" style="@style/Widget.Truecaller.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugImDevEndpoint" android:text="IM dev endpoint" style="@style/Widget.Truecaller.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugExpireImAttachments" android:text="Expire IM attachments" style="@style/Widget.Truecaller.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugDelayImAttachmentUploads" android:text="Delay IM attachment uploads" style="@style/Widget.Truecaller.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugDelayImAttachmentSending" android:text="Delay IM attachment sending" style="@style/Widget.Truecaller.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugShouldTreadSmsAsUrgent" android:text="Treat incoming SMS as urgent" style="@style/Widget.Truecaller.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugUseShortUrgentMessageExpiry" android:text="Shorten urgent message expiry time" style="@style/Widget.Truecaller.Switch" />
+            <TextView android:text="Location Picker" style="@style/Widget.Truecaller.QATitle" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugPickerApiKey" android:text="Use Debug API keys" style="@style/Widget.Truecaller.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugPickerForceGeocoding" android:text="Force remote geocoding" style="@style/Widget.Truecaller.Switch" />
+            <TextView android:tag="GroupCensorship" android:text="Censorship circumvention" style="@style/Widget.Truecaller.QATitle" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugEnableDomainFronting" android:tag="ChildCensorship" android:text="Enable Domain Fronting" style="@style/Widget.Truecaller.Switch" />
+            <include layout="@layout/hr" />
+            <TextView android:tag="GroupBackup" android:text="Backup and Restore" style="@style/Widget.Truecaller.QATitle" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugBackupForceRootFolder" android:tag="ChildBackup" android:text="Force root folder" style="@style/Widget.Truecaller.Switch" />
+            <Button android:textStyle="bold" android:id="@id/debugShowBackupOnboarding" android:tag="ChildBackup" android:text="Show Backup Onboarding" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugRestoreOnboardingReset" android:tag="ChildBackup" android:text="Reset restore onboarding" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugRestoreBackupPromoContacts" android:tag="ChildBackup" android:text="Reset backup promo" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugForceRunBackup" android:tag="ChildBackup" android:text="Force run backup" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:tag="GroupFlash" android:text="Flash" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/debugResetFlashTooltips" android:tag="ChildFlash" android:text="Reset Flash tooltips" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugFlashHomeScreen" android:tag="ChildUserInterface" android:text="Show Flash home screen" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:tag="GroupWhoViewedMe" android:text="Who Viewed Me" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/debugClearProfileViews" android:tag="ChildWhoViewedMe" android:text="Clear Profile View" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/wvmResetLastVisited" android:tag="ChildWhoViewedMe" android:text="Set last visited timestamp to 0" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/wvmTriggerWeeklySummary" android:tag="ChildWhoViewedMe" android:text="Trigger Weekly Summary Notification" style="@style/Widget.Truecaller.QAButton" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugWhoViewedMePBContact" android:tag="ChildWhoViewedMe" android:text="Phone Book" style="@style/Widget.Truecaller.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugWhoViewedMeACS" android:tag="ChildWhoViewedMe" android:text="After Call" style="@style/Widget.Truecaller.Switch" />
+            <TextView android:tag="GroupNotificationChannels" android:text="Notification Channels" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/debugRecreateNotificationChannels" android:tag="ChildNotificationChannels" android:text="Recreate notification channels" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugCreateNotificationChannels" android:tag="ChildNotificationChannels" android:text="Create all notification channels" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugRemoveNotificationChannels" android:tag="ChildNotificationChannels" android:text="Remove all notification channels" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugCleanupNotificationChannels" android:tag="ChildNotificationChannels" android:text="Cleanup notification channels" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:tag="GroupPay" android:text="Truecaller Pay" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/debugChangeReminderTime" android:tag="ChildPay" android:text="Change Reminder Notif Time" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugResetReminderTime" android:tag="ChildPay" android:text="Reset Reminder Notif Time" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:tag="Calling" android:text="Calling" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/debugCallingNotifications" android:tag="Calling" android:text="Calling Notifications" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:tag="GroupCallRecording" android:text="Call Recording" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/debugCallRecordingDiagnostics" android:tag="ChildCallRecording" android:text="Diagnostics" style="@style/Widget.Truecaller.QAButton" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugEnableRecorderLeak" android:tag="ChildCallRecording" android:text="Simulate Recorder Leak" style="@style/Widget.Truecaller.Switch" />
+            <Button android:textStyle="bold" android:id="@id/debugMigrateRecordingsToScopedStorage" android:tag="ChildCallRecording" android:text="Migrate recordings to media store" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugCallRecordingResetOnboardingState" android:tag="ChildCallRecording" android:text="Reset call recording onboarding/settings" style="@style/Widget.Truecaller.QAButton" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugCallRecordingAccessibilityServiceVisibility" android:tag="ChildCallRecording" android:text="Call recordoing accessibility service visibility" style="@style/Widget.Truecaller.Switch" />
+            <Button android:textStyle="bold" android:id="@id/debugCallRecordingResetFloatingShow" android:tag="ChildCallRecording" android:text="Reset call recording floating button views" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:tag="GroupCleverTap" android:text="CleverTap" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/debugCleverTapProProp" android:tag="ChildCleverTap" android:text="Update Pro properties" style="@style/Widget.Truecaller.QAButton" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugEnableCleverTap" android:tag="ChildCleverTap" android:text="Enable CleverTap" style="@style/Widget.Truecaller.Switch" />
+            <include layout="@layout/hr" />
+            <TextView android:tag="GroupVoip" android:text="Voip" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/debugIncomingVoip" android:tag="ChildVoip" android:text="Show incoming group call" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugOngoingVoip" android:tag="ChildVoip" android:text="Show ongoing group call" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugOverrideVoipRtmNotificationToken" android:tag="ChildVoip" android:text="Override RTM Notification Token" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugNativeCallState" android:tag="ChildVoip" android:text="Show current native call state" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugVoiceLauncher" android:tag="ChildVoip" android:text="Voice launcher" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/debugOverrideVoipIdExpiration" android:tag="ChildVoip" android:text="Override voip id expiration" style="@style/Widget.Truecaller.QAButton" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugShowVoipDebugUI" android:tag="ChildVoip" android:text="Show voip debug UI" style="@style/Widget.Truecaller.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/debugForceVoipEncryption" android:tag="ChildVoip" android:text="Force encryption" style="@style/Widget.Truecaller.Switch" />
+            <TextView android:tag="GroupInCallUI" android:text="InCallUI" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/showInCallUIPromo" android:tag="ChildInCallUI" android:text="Show full screen incallui promo" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:text="Business" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/showEditBizProfile" android:text="Show edit biz profile screen" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/fireBizMigrationWorker" android:text="Trigger BizMigrationWorker" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/fireBusinessCardWorker" android:text="Trigger BusinessCardBgWorker" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/resetPriorityBizAwarenessBanner" android:text="Reset Priority Awareness Banner" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/resetVerifiedBizAwarenessBanner" android:text="Reset Verified Biz Awareness Banner" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:tag="GroupSuspension" android:text="Account Suspension" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/clearSuspensionCache" android:tag="ChildSuspension" android:text="Clear suspension cache" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:tag="GroupGhostCall" android:text="Ghost Call" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/ghostCallClearCache" android:tag="ChildGhostCall" android:text="Clear ghost call cache" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:tag="GroupWhatsAppCallerId" android:text="WhatsApp Caller Id" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/whatsAppCallerIdClear" android:tag="ChildWhatsAppCallerId" android:text="Clear WhatsApp CallerId cache" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/showWhatsAppCallerIdCount" android:tag="ChildWhatsAppCallerId" android:text="WhatsApp CallerId notification count" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:tag="GroupContextCall" android:text="Context Call" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/showContextCallOnDemandPicker" android:tag="ChildContextCall" android:text="Show On Demand Picker" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/showContextCallOnDemandCustomMessage" android:tag="ChildGeneral" android:text="context call custom message entry" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/contextCallResetGuideline" android:tag="ChildGeneral" android:text="Reset context call community guideline" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/contextCallClearPredefinedMessages" android:tag="ChildGeneral" android:text="Clear predefined context call messages" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/contextCallAddNewReason" android:tag="ChildGeneral" android:text="Add new call reason" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/contextCallResetPromo" android:tag="ChildGeneral" android:text="Reset context call promo" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:tag="GroupVerification" android:text="Verification" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/verificationSequenceNo" android:tag="ChildGeneral" android:text="Change verification sequence number" style="@style/Widget.Truecaller.QAButton" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/verificationSkipDropCallRejection" android:tag="ChildUserInterface" android:text="Skip verification drop call rejection" style="@style/Widget.Truecaller.Switch" />
+            <include layout="@layout/hr" />
+            <TextView android:tag="GroupVerification" android:text="secondary number" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/secondaryNumberAddEdit" android:tag="ChildGeneral" android:text="Add or edit secondary number" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/secondaryNumberDelete" android:tag="ChildGeneral" android:text="Delete secondary number" style="@style/Widget.Truecaller.QAButton" />
+            <include layout="@layout/hr" />
+            <TextView android:gravity="start|center" android:id="@id/dialogDetails" android:paddingLeft="@dimen/control_doublespace" android:paddingTop="@dimen/control_extraspace" android:paddingRight="@dimen/control_doublespace" android:paddingBottom="@dimen/control_extraspace" style="@style/Widget.Truecaller.TextView.SettingsTitle" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/insightsLocalSenderFilter" android:tag="ChildUserInterface" android:text="Insights Local Sender Filter" style="@style/Widget.Truecaller.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/insightsLocalMalanaSeed" android:tag="ChildUserInterface" android:text="Insights Local Malana seed data" style="@style/Widget.Truecaller.Switch" />
+            <Button android:textStyle="bold" android:id="@id/insightCategorizerUpdatePopUp" android:tag="ChildGeneral" android:text="Reset Categorizer Update Pop up shown state" style="@style/Widget.Truecaller.QAButton" />
+            <include layout="@layout/hr" />
+            <TextView android:text="Call Alert" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/showCallAlertNotificationDebug" android:tag="ChildGeneral" android:text="Show call alert notification debug" style="@style/Widget.Truecaller.QAButton" />
+            <include layout="@layout/hr" />
+            <TextView android:text="Video Caller Id" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/showReportVideoCaller" android:tag="ChildGeneral" android:text="Show report video caller id" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/showVideoCallerIdAvatar" android:tag="ChildGeneral" android:text="Show video caller id avatar" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/showVideoCallerIdCachedVideosDebug" android:tag="ChildGeneral" android:text="Show cached video caller id videos" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/forceNotifyFrequentContactWithVideoId" android:tag="ChildGeneral" android:text="Force notify frequent pb contact with video id" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:text="Survey" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/fetchSurveys" android:tag="ChildBackground" android:text="Fetch surveys" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/listSurveys" android:tag="ChildBackground" android:text="List surveys" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/insertSurvey" android:tag="ChildBackground" android:text="Insert new survey" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/showPacsSurvey" android:tag="ChildBackground" android:text="Show survey on PACS" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:text="Bizmon" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/setCallMeBackNumber" android:tag="ChildBackground" android:text="Set bizmon Callmeback test number" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/clearCallMeBackNumber" android:tag="ChildBackground" android:text="Clear bizmon Callmeback test number" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/clearCallMeBackCache" android:tag="ChildBackground" android:text="Clear bizmon Callmeback Cache" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/resetVoipTooltip" android:tag="ChildGeneral" android:text="Reset voip tooltip" style="@style/Widget.Truecaller.QAButton" />
+            <TextView android:tag="GroupCallAssistant" android:text="Call Assistant" style="@style/Widget.Truecaller.QATitle" />
+            <Button android:textStyle="bold" android:id="@id/callHeroIncoming" android:tag="ChildCallAssistant" android:text="Show Call Assistant incoming call" style="@style/Widget.Truecaller.QAButton" />
+            <Button android:textStyle="bold" android:id="@id/callAssistantNumberSync" android:tag="ChildCallAssistant" android:text="Trigger number sync" style="@style/Widget.Truecaller.QAButton" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

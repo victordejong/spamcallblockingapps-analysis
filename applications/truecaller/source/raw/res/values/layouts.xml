@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="favorite_item">@layout/list_item_phonebook_contact</item>
+    <item type="layout" name="phonebook_item">@layout/list_item_phonebook_contact</item>
+</resources>

@@ -1,0 +1,77 @@
+package okhttp3.internal.platform;
+
+import java.security.NoSuchAlgorithmException;
+import java.security.Provider;
+import java.util.List;
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.SSLSocket;
+import javax.net.ssl.SSLSocketFactory;
+import javax.net.ssl.X509TrustManager;
+import okhttp3.Protocol;
+import org.conscrypt.Conscrypt;
+import org.conscrypt.OpenSSLProvider;
+/* loaded from: classes2-dex2jar.jar:okhttp3/internal/platform/ConscryptPlatform.class */
+public class ConscryptPlatform extends Platform {
+    private ConscryptPlatform() {
+    }
+
+    public static Platform buildIfSupported() {
+        try {
+            Class.forName("org.conscrypt.ConscryptEngineSocket");
+            if (!Conscrypt.isAvailable()) {
+                return null;
+            }
+            Conscrypt.setUseEngineSocketByDefault(true);
+            return new ConscryptPlatform();
+        } catch (ClassNotFoundException e) {
+            return null;
+        }
+    }
+
+    private Provider getProvider() {
+        return new OpenSSLProvider();
+    }
+
+    @Override // okhttp3.internal.platform.Platform
+    public void configureTlsExtensions(SSLSocket sSLSocket, String str, List<Protocol> list) {
+        if (!Conscrypt.isConscrypt(sSLSocket)) {
+            super.configureTlsExtensions(sSLSocket, str, list);
+            return;
+        }
+        if (str != null) {
+            Conscrypt.setUseSessionTickets(sSLSocket, true);
+            Conscrypt.setHostname(sSLSocket, str);
+        }
+        Conscrypt.setApplicationProtocols(sSLSocket, (String[]) Platform.alpnProtocolNames(list).toArray(new String[0]));
+    }
+
+    @Override // okhttp3.internal.platform.Platform
+    public SSLContext getSSLContext() {
+        try {
+            return SSLContext.getInstance("TLS", getProvider());
+        } catch (NoSuchAlgorithmException e) {
+            throw new IllegalStateException("No TLS provider", e);
+        }
+    }
+
+    @Override // okhttp3.internal.platform.Platform
+    public String getSelectedProtocol(SSLSocket sSLSocket) {
+        return Conscrypt.isConscrypt(sSLSocket) ? Conscrypt.getApplicationProtocol(sSLSocket) : super.getSelectedProtocol(sSLSocket);
+    }
+
+    @Override // okhttp3.internal.platform.Platform
+    public X509TrustManager trustManager(SSLSocketFactory sSLSocketFactory) {
+        if (!Conscrypt.isConscrypt(sSLSocketFactory)) {
+            return super.trustManager(sSLSocketFactory);
+        }
+        try {
+            Object readFieldOrNull = Platform.readFieldOrNull(sSLSocketFactory, Object.class, "sslParameters");
+            if (readFieldOrNull == null) {
+                return null;
+            }
+            return (X509TrustManager) Platform.readFieldOrNull(readFieldOrNull, X509TrustManager.class, "x509TrustManager");
+        } catch (Exception e) {
+            throw new UnsupportedOperationException("clientBuilder.sslSocketFactory(SSLSocketFactory) not supported on Conscrypt", e);
+        }
+    }
+}

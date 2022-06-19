@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>OTP</item>
+        <item>Transaksi</item>
+        <item>Lain-lain</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>jan</item>
+        <item>feb</item>
+        <item>mac</item>
+        <item>apr</item>
+        <item>mei</item>
+        <item>jun</item>
+        <item>jul</item>
+        <item>ogo</item>
+        <item>sep</item>
+        <item>okt</item>
+        <item>nov</item>
+        <item>dis</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Log masuk ke %s</item>
+        <item>Daftar dengan %s</item>
+        <item>Daftar Masuk ke %s</item>
+        <item>Sahkan telefon dengan %s</item>
+        <item>Daftar dengan %s</item>
+        <item>Bermula dengan %s</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>Panggil</item>
+        <item>Lihat profail</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>Ia penting</item>
+        <item>Maaf</item>
+        <item>Di manakah anda?</item>
+        <item>Saya mempunyai soalan</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>satu</item>
+        <item>dua</item>
+        <item>tiga</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>Helo 👋, Ia dikehendaki segera 🚨</item>
+        <item>Helo 👋 Pesanan anda sudah sedia!</item>
+        <item>Anda lapang sekarang? Saya di tingkat bawah!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Senyap</item>
+        <item>Getaran sahaja</item>
+        <item>Bunyi sahaja</item>
+        <item>Bunyi dan getaran</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>Gunakan Flash apabila anda mahu memastikan respons dalam masa seminit</item>
+        <item>Gunakan Flash untuk perkara penting yang perlu anda katakan dengan cepat</item>
+        <item>Tahukah anda: Anda boleh berkongsi lokasi anda cepat dengan hanya satu ketikan</item>
+        <item>Petua: Hantar Emoji atau taipkan teks untuk meluahkan diri anda</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>Isih mengikut nama pertama</item>
+        <item>Isih mengikut nama akhir</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>Disimpan</item>
+        <item>Dikenal pasti</item>
+    </string-array>
+</resources>

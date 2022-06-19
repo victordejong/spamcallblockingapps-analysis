@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/preview_request_permission_background_all_themes" />
+    <stroke android:width="1.0dip" android:color="?tcx_brandBackgroundBlue" android:dashWidth="10.0px" android:dashGap="10.0px" />
+    <corners android:radius="@dimen/attachment_option_preview_radius" />
+</shape>

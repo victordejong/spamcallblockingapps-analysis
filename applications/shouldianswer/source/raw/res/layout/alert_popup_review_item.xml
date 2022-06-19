@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="layout/alert_popup_review_item_0" style="@style/llListItemSelectable"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/llParentWidthHorizontalCenter">
+        <ImageView android:id="@id/imgRating" style="@style/imgRatingSmall" />
+        <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:id="@id/tvTitle" android:layout_marginLeft="@dimen/spaceSmall" android:text="Test" android:layout_weight="1.0" style="@style/textViewStyle" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvNick" android:layout_marginLeft="@dimen/spaceSmall" android:text="Test" style="@style/listItemSecondaryText" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvComment" android:layout_marginTop="@dimen/spaceSmall" android:text="Comment here!" style="@style/textViewStyle" />
+</LinearLayout>

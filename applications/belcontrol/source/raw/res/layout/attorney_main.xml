@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black_30_percent_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:id="@id/attorney_close" android:background="@drawable/ic_dialog_close_dark" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:text="" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <ProgressBar android:id="@id/attorney_progressbar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" android:progress="1" android:indeterminate="false" android:layout_alignParentTop="true" style="?android:progressBarStyleHorizontal" />
+        <WebView android:id="@id/attorney_web" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/attorney_close" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

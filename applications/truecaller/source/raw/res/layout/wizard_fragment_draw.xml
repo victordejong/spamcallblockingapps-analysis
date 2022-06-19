@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wizard_anim_settings_background" />
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/animated" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="96.0dip" android:src="@drawable/wizard_anim_settings_toggle" android:layout_marginStart="65.0dip" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:gravity="start" android:layout_marginTop="@dimen/space" android:text="@string/Draw_title" style="@style/Wizard.TextViewTitle" />
+        <TextView android:gravity="start" android:id="@id/details" android:text="@string/Draw_details" style="@style/Wizard.TextViewDetails" />
+    </LinearLayout>
+    <Button android:id="@id/later" android:text="@string/Draw_Later" style="@style/Wizard.SkipButton" />
+    <Button android:text="@string/Draw_GoToSettings" style="@style/Wizard.ContinueButton" />
+</LinearLayout>

@@ -1,0 +1,33 @@
+{
+		"top" : "Faites la mise à niveau dès maintenant et déverrouillez un ensemble de fonctionnalités très utiles:",
+
+        "sections" : [
+            {
+                "img" : "shield",
+                "descr" : "Protection de Liste de blocage communautaire",
+                "width": "40",
+                "height": "40"
+            },
+            {
+                "img" : "list",
+                "descr" : "Nombre d\'entrées de Liste de blocage illimité",
+                "width": "40",
+                "height": "40"
+
+            },
+            {
+                "img" : "cloud",
+                "descr" : "Sauvegarde en ligne",
+                "width": "40",
+                "height": "40"
+            },
+            {
+                "img" : "caller_id",
+                "descr" : "Enhanced Caller ID",
+                "width": "40",
+                "height": "40"
+            }
+        ],
+
+        "bottom" : ""
+}

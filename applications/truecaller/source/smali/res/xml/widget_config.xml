@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider android:minWidth="@dimen/widget_cells_4x" android:minHeight="@dimen/widget_cells_2x" android:updatePeriodMillis="0" android:initialLayout="@layout/widget_list_body" android:previewImage="@drawable/widget_preview_xl" android:autoAdvanceViewId="@id/stackWidgetView" android:resizeMode="horizontal|vertical" android:minResizeWidth="@dimen/widget_cells_3x" android:minResizeHeight="@dimen/widget_cells_2x" android:widgetCategory="home_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

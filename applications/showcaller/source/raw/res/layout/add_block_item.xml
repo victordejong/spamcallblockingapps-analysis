@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?color_dialog_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/ripple_bg" android:layout_width="fill_parent" android:layout_height="56.0dip" android:foreground="?card_foreground">
+        <ImageView android:layout_gravity="start|center" android:id="@id/photoview" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_photo_normal" android:scaleType="fitXY" android:layout_marginStart="16.0dip" />
+        <LinearLayout android:layout_gravity="start|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="64.0dip" android:layout_marginRight="8.0dip" android:layout_marginStart="64.0dip" android:layout_marginEnd="8.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:ellipsize="marquee" android:id="@id/name_blcok_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="locale" />
+            <TextView android:textSize="14.0sp" android:textColor="?color_666666" android:ellipsize="marquee" android:id="@id/number_blcok_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="locale" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

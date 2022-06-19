@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>ઓટીપી</item>
+        <item>સોદા</item>
+        <item>અન્ય</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>જાન્યુઆરી</item>
+        <item>ફેબ્રુઆરી</item>
+        <item>માર્ચ</item>
+        <item>એપ્રિલ</item>
+        <item>મે</item>
+        <item>જૂન</item>
+        <item>જુલાઈ</item>
+        <item>ઓગસ્ટ</item>
+        <item>સપ્ટેમ્બર</item>
+        <item>ઓક્ટોબર</item>
+        <item>નવેમ્બર</item>
+        <item>ડિસેમ્બર</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>આગળ વધો</item>
+        <item>ચાલુ રાખો</item>
+        <item>સ્વીકારો</item>
+        <item>ખાતરી કરો</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>%s નો ઉપયોગ કરો</item>
+        <item>%s સાથે ચાલુ રાખો</item>
+        <item>%s સાથે આગળ વધો</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>%s પર લૉગિન કરો</item>
+        <item>%s સાથે સાઇન અપ કરો</item>
+        <item>%s માં સાઇન ઇન કરો</item>
+        <item>%s સાથે નંબર ચકાસો</item>
+        <item>%s સાથે નોંધણી કરો</item>
+        <item>%s સાથે પ્રારંભ કરો</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>શરૂ કરવા માટે</item>
+        <item>ચાલુ રાખવા માટે</item>
+        <item>ઓર્ડર આપવા માટે</item>
+        <item>તમારી ખરીદી પૂર્ણ કરવા માટે</item>
+        <item>ચેકઆઉટ કરવા માટે</item>
+        <item>તમારું બુકિંગ પૂર્ણ કરવા માટે</item>
+        <item>તમારી બુકિંગ સાથે આગળ વધવા માટે</item>
+        <item>તમારી બુકિંગ ચાલુ રાખવા માટે</item>
+        <item>વિગતો મેળવવા માટે</item>
+        <item>વધુ જોવા માટે</item>
+        <item>વાંચન ચાલુ રાખવા માટે</item>
+        <item>આગળ વધવા માટે</item>
+        <item>નવા અપડેટ્સ માટે</item>
+        <item>અપડેટ્સ મેળવવા માટે</item>
+        <item>સબ્સ્ક્રાઇબ કરવા માટે</item>
+        <item>સબ્સ્ક્રાઇબ કરવા અને અપડેટ્સ મેળવવા માટે</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>કૃપા કરીને મોબાઇલ નંબર ચકાસો</item>
+        <item>કૃપા કરીને લોગિન કરો</item>
+        <item>કૃપા કરીને સાઇન અપ કરો</item>
+        <item>કૃપા કરીને લોગિન કરો/સાઇન અપ કરો</item>
+        <item>કૃપા કરીને નોંધણી કરો</item>
+        <item>કૃપા કરીને સાઇન ઇન કરો</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>કોલ</item>
+        <item>પ્રોફાઇલ જુઓ</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>તે મહત્વનું છે</item>
+        <item>માફ કરજો</item>
+        <item>તમે ક્યાં છો?</item>
+        <item>મને એક સવાલ છે</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>એક</item>
+        <item>બે</item>
+        <item>ત્રણ</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>હેલો 👋, તે તાત્કાલિક છે 🚨</item>
+        <item>હેલો 👋 તમારો ઓર્ડર તૈયાર છે!</item>
+        <item>તમે હવે મુક્ત છો? હું નીચે છું!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>સાઈલન્ટ</item>
+        <item>માત્ર વાઈબ્રેટ</item>
+        <item>માત્ર અવાજ</item>
+        <item>અવાજ અને વાઈબ્રેટ</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>સિમ 1</item>
+        <item>સિમ 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>સીમ 1</item>
+        <item>સીમ 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>પ્રથમ નામ દ્વારા સૉર્ટ કરો</item>
+        <item>છેલ્લા નામ દ્વારા સૉર્ટ કરો</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>સાચવેલ</item>
+        <item>ઓળખાયેલ</item>
+    </string-array>
+</resources>

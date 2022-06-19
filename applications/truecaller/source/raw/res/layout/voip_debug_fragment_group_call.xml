@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="8.0dip">
+            <TextView android:textSize="16.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="State:" style="@style/StyleX.Text.Body" />
+            <Spinner android:theme="@style/StyleX.SpinnerItemStyle" android:id="@id/spinner_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:dropDownWidth="200.0dip" android:layout_marginStart="8.0dip" style="@style/StyleX.Spinner" />
+            <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:layout_gravity="end" android:id="@id/button_restart" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="Re-open" android:textAllCaps="false" style="@style/StyleX.Button.Small.Primary" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip">
+            <TextView android:textSize="16.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Audio Route:" style="@style/StyleX.Text.Body" />
+            <Spinner android:theme="@style/StyleX.SpinnerItemStyle" android:id="@id/spinner_audio_route" android:layout_width="wrap_content" android:layout_height="wrap_content" android:dropDownWidth="200.0dip" android:layout_marginStart="8.0dip" style="@style/StyleX.Spinner" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip">
+            <com.google.android.material.switchmaterial.SwitchMaterial android:id="@id/switch_muted" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Muted" style="@style/StyleX.Switch" />
+            <com.google.android.material.switchmaterial.SwitchMaterial android:id="@id/switch_hold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="On Hold" android:layout_marginStart="8.0dip" style="@style/StyleX.Switch" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_calls" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <View android:background="?tcx_dividerColor" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                <Button android:layout_gravity="end" android:id="@id/button_set_ongoing" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="Set All Ongoing" android:textAllCaps="false" style="@style/StyleX.Button.Small.Primary" />
+                <Button android:layout_gravity="end" android:id="@id/button_set_user_ready" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginBottom="8.0dip" android:text="Set All User Ready" android:textAllCaps="false" android:layout_marginStart="8.0dip" style="@style/StyleX.Button.Small.Primary" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

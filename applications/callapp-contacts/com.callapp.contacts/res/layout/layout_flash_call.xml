@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/layout_flash_call" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/dimen_28_dp" android:textStyle="bold" android:textColor="@color/white_callapp" android:gravity="center" android:layout_gravity="center" android:id="@id/flash_call_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_76_dp" android:layout_centerHorizontal="true" />
-    <TextView android:textSize="@dimen/dimen_24_dp" android:textStyle="bold" android:textColor="@color/green" android:gravity="center" android:id="@id/phone_number_flash" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16_dp" android:layout_below="@id/flash_call_title" />
-    <ImageView android:id="@id/flah_call_gif" android:layout_width="160.0dip" android:layout_height="160.0dip" android:layout_centerInParent="true" />
-    <TextView android:textSize="@dimen/dimen_24_dp" android:textColor="@color/white_callapp" android:gravity="center" android:id="@id/flash_call_sub_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16_dp" android:layout_below="@id/flah_call_gif" />
-</RelativeLayout>

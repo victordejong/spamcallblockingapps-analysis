@@ -1,0 +1,44 @@
+.class public final Lcom/google/android/gms/internal/measurement/ml;
+.super Lcom/google/android/gms/internal/measurement/a;
+.source "com.google.android.gms:play-services-measurement-base@@17.4.2"
+
+# interfaces
+.implements Lcom/google/android/gms/internal/measurement/mj;
+
+
+# direct methods
+.method constructor <init>(Landroid/os/IBinder;)V
+    .locals 1
+
+    .prologue
+    .line 1
+    const-string/jumbo v0, "com.google.android.gms.measurement.api.internal.IBundleReceiver"
+
+    invoke-direct {p0, p1, v0}, Lcom/google/android/gms/internal/measurement/a;-><init>(Landroid/os/IBinder;Ljava/lang/String;)V
+
+    .line 2
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Landroid/os/Bundle;)V
+    .locals 2
+
+    .prologue
+    .line 3
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/a;->a()Landroid/os/Parcel;
+
+    move-result-object v0
+
+    .line 4
+    invoke-static {v0, p1}, Lcom/google/android/gms/internal/measurement/u;->a(Landroid/os/Parcel;Landroid/os/Parcelable;)V
+
+    .line 5
+    const/4 v1, 0x1
+
+    invoke-virtual {p0, v1, v0}, Lcom/google/android/gms/internal/measurement/a;->b(ILandroid/os/Parcel;)V
+
+    .line 6
+    return-void
+.end method

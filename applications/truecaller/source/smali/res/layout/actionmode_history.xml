@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:auto="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.ui.components.DropdownMenuTextView android:textColor="@color/dialog_default" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/action_mode_drop_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/control_space" android:drawableEnd="@drawable/ic_action_mode_arrow_drop_down" auto:menu="@menu/action_mode_select_all" style="@style/ActionBar.TitleText" />
+    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</LinearLayout>

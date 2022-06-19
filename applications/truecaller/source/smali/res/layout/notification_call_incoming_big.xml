@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image_avatar" android:layout_width="@dimen/notification_call_avatar_size" android:layout_height="@dimen/notification_call_avatar_size" android:adjustViewBounds="true" android:contentDescription="@null" />
+    <LinearLayout android:orientation="vertical" android:id="@id/info_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/text_caller_label" android:layout_toEndOf="@id/image_avatar">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:ellipsize="end" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" style="?notificationCallTitleStyle" />
+            <TextView android:textSize="14.0sp" android:ellipsize="end" android:id="@id/title_extra" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:layout_marginStart="2.0dip" style="?notificationCallTitleStyle" />
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:ellipsize="end" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" style="?notificationCallTextStyle" />
+    </LinearLayout>
+    <TextView android:textSize="10.0sp" android:textColor="@color/white" android:id="@id/text_caller_label" android:paddingTop="2.5dip" android:paddingBottom="2.5dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:textAllCaps="true" android:fontFamily="sans-serif-medium" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" android:layout_alignParentEnd="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_below="@id/info_container">
+        <Button android:textColor="@android:color/white" android:id="@id/button_decline" android:background="@drawable/notification_call_incoming_button_background" android:layout_width="0.0dip" android:layout_height="@dimen/notification_call_button_big_height" android:text="@string/notification_call_button_decline" android:layout_weight="1.0" android:textAllCaps="false" android:fontFamily="sans-serif-medium" android:backgroundTint="@color/notification_call_action_end_call_background" android:letterSpacing="0.0" style="?borderlessButtonStyle" />
+        <Button android:textColor="@android:color/white" android:id="@id/button_answer" android:background="@drawable/notification_call_incoming_button_background" android:layout_width="0.0dip" android:layout_height="@dimen/notification_call_button_big_height" android:text="@string/notification_call_button_answer" android:layout_weight="1.0" android:textAllCaps="false" android:fontFamily="sans-serif-medium" android:layout_marginStart="8.0dip" android:backgroundTint="@color/notification_call_action_accept_call_background" android:letterSpacing="0.0" style="?borderlessButtonStyle" />
+    </LinearLayout>
+</merge>

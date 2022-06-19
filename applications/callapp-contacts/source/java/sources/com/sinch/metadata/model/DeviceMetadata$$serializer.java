@@ -1,0 +1,103 @@
+package com.sinch.metadata.model;
+
+import kotlin.Metadata;
+import kotlin.jvm.internal.C18524p;
+import kotlinx.serialization.AbstractC20327a;
+import kotlinx.serialization.CompositeEncoder;
+import kotlinx.serialization.Decoder;
+import kotlinx.serialization.Encoder;
+import kotlinx.serialization.KSerializer;
+import kotlinx.serialization.SerialDescriptor;
+import kotlinx.serialization.UnknownFieldException;
+import kotlinx.serialization.p572b.AbstractC20409w;
+import kotlinx.serialization.p572b.C20372bf;
+import kotlinx.serialization.p572b.C20377bk;
+@Metadata(m4300bv = {1, 0, 3}, m4299d1 = {"��6\n��\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\u0011\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n��\n\u0002\u0010\u0002\n��\n\u0002\u0018\u0002\n\u0002\b\u0002\bÇ\u0002\u0018��2\b\u0012\u0004\u0012\u00020\u00020\u0001B\u0007\b\u0002¢\u0006\u0002\u0010\u0003J\u0018\u0010\b\u001a\f\u0012\b\u0012\u0006\u0012\u0002\b\u00030\n0\tHÖ\u0001¢\u0006\u0002\u0010\u000bJ\u0011\u0010\f\u001a\u00020\u00022\u0006\u0010\r\u001a\u00020\u000eHÖ\u0001J\u0019\u0010\u000f\u001a\u00020\u00102\u0006\u0010\u0011\u001a\u00020\u00122\u0006\u0010\u0013\u001a\u00020\u0002HÖ\u0001R\u0014\u0010\u0004\u001a\u00020\u00058VXÖ\u0005¢\u0006\u0006\u001a\u0004\b\u0006\u0010\u0007¨\u0006\u0014"}, m4298d2 = {"com/sinch/metadata/model/DeviceMetadata.$serializer", "Lkotlinx/serialization/internal/GeneratedSerializer;", "Lcom/sinch/metadata/model/DeviceMetadata;", "()V", "descriptor", "Lkotlinx/serialization/SerialDescriptor;", "getDescriptor", "()Lkotlinx/serialization/SerialDescriptor;", "childSerializers", "", "Lkotlinx/serialization/KSerializer;", "()[Lkotlinx/serialization/KSerializer;", "deserialize", "decoder", "Lkotlinx/serialization/Decoder;", "serialize", "", "encoder", "Lkotlinx/serialization/Encoder;", "value", "metadata-collector_productionRelease"}, m4297k = 1, m4296mv = {1, 1, 16})
+/* loaded from: classes4-dex2jar.jar:com/sinch/metadata/model/DeviceMetadata$$serializer.class */
+public final class DeviceMetadata$$serializer implements AbstractC20409w<DeviceMetadata> {
+    private static final /* synthetic */ SerialDescriptor $$serialDesc;
+    public static final DeviceMetadata$$serializer INSTANCE;
+
+    static {
+        DeviceMetadata$$serializer deviceMetadata$$serializer = new DeviceMetadata$$serializer();
+        INSTANCE = deviceMetadata$$serializer;
+        C20372bf c20372bf = new C20372bf("com.sinch.metadata.model.DeviceMetadata", deviceMetadata$$serializer, 3);
+        c20372bf.m723a("model", false);
+        c20372bf.m723a("idname", false);
+        c20372bf.m723a("manufacturer", false);
+        $$serialDesc = c20372bf;
+    }
+
+    private DeviceMetadata$$serializer() {
+    }
+
+    @Override // kotlinx.serialization.p572b.AbstractC20409w
+    public final KSerializer<?>[] childSerializers() {
+        return new KSerializer[]{C20377bk.f66866a, C20377bk.f66866a, C20377bk.f66866a};
+    }
+
+    @Override // kotlinx.serialization.AbstractC20415d
+    public final DeviceMetadata deserialize(Decoder decoder) {
+        String str;
+        int i;
+        String str2;
+        String str3;
+        C18524p.m3841c(decoder, "decoder");
+        SerialDescriptor serialDescriptor = $$serialDesc;
+        AbstractC20327a beginStructure = decoder.beginStructure(serialDescriptor, new KSerializer[0]);
+        if (!beginStructure.decodeSequentially()) {
+            String str4 = null;
+            str2 = null;
+            str3 = null;
+            int i2 = 0;
+            while (true) {
+                i = i2;
+                int decodeElementIndex = beginStructure.decodeElementIndex(serialDescriptor);
+                if (decodeElementIndex == -1) {
+                    str = str4;
+                    break;
+                } else if (decodeElementIndex == 0) {
+                    str4 = beginStructure.decodeStringElement(serialDescriptor, 0);
+                    i2 = i | 1;
+                } else if (decodeElementIndex == 1) {
+                    str2 = beginStructure.decodeStringElement(serialDescriptor, 1);
+                    i2 = i | 2;
+                } else if (decodeElementIndex != 2) {
+                    throw new UnknownFieldException(decodeElementIndex);
+                } else {
+                    str3 = beginStructure.decodeStringElement(serialDescriptor, 2);
+                    i2 = i | 4;
+                }
+            }
+        } else {
+            String decodeStringElement = beginStructure.decodeStringElement(serialDescriptor, 0);
+            String decodeStringElement2 = beginStructure.decodeStringElement(serialDescriptor, 1);
+            str3 = beginStructure.decodeStringElement(serialDescriptor, 2);
+            i = Integer.MAX_VALUE;
+            str = decodeStringElement;
+            str2 = decodeStringElement2;
+        }
+        beginStructure.endStructure(serialDescriptor);
+        return new DeviceMetadata(i, str, str2, str3, null);
+    }
+
+    @Override // kotlinx.serialization.KSerializer, kotlinx.serialization.AbstractC20415d, kotlinx.serialization.AbstractC20460r
+    public final SerialDescriptor getDescriptor() {
+        return $$serialDesc;
+    }
+
+    public final DeviceMetadata patch(Decoder decoder, DeviceMetadata old) {
+        C18524p.m3841c(decoder, "decoder");
+        C18524p.m3841c(old, "old");
+        return (DeviceMetadata) AbstractC20409w.C20410a.m701a(this, decoder);
+    }
+
+    public final void serialize(Encoder encoder, DeviceMetadata value) {
+        C18524p.m3841c(encoder, "encoder");
+        C18524p.m3841c(value, "value");
+        SerialDescriptor serialDescriptor = $$serialDesc;
+        CompositeEncoder beginStructure = encoder.beginStructure(serialDescriptor, new KSerializer[0]);
+        DeviceMetadata.write$Self(value, beginStructure, serialDescriptor);
+        beginStructure.endStructure(serialDescriptor);
+    }
+}

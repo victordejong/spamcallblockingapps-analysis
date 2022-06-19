@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_array">
+        <item>Privado</item>
+        <item>Cobradores/Bancos</item>
+        <item>Anúncio/Spam</item>
+        <item>Chamadas silenciosas</item>
+        <item>Fraudes</item>
+        <item>Serviços Financeiros</item>
+        <item>Outra…</item>
+    </string-array>
+    <string-array name="category_feedback_array">
+        <item>Sem categoria</item>
+        <item>Cobradores/Bancos</item>
+        <item>Anúncio/Spam</item>
+        <item>Chamadas silenciosas</item>
+        <item>Fraudes</item>
+        <item>Serviços financeiros</item>
+        <item>Outra…</item>
+    </string-array>
+    <string-array name="posneg_array">
+        <item>Negativo</item>
+        <item>Neutro</item>
+        <item>Positivo</item>
+    </string-array>
+    <string-array name="settings_block_methods_array">
+        <item>Finalizar a chamada (rejeitar)</item>
+        <item>Silenciar o toque</item>
+    </string-array>
+</resources>

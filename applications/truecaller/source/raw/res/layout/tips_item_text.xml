@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/send_title_size" android:textStyle="normal" android:textColor="@color/white" android:gravity="start|center" android:background="?theme_tip_background_color" android:paddingLeft="@dimen/control_extraspace" android:paddingRight="@dimen/control_extraspace" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawablePadding="@dimen/control_extraspace" android:fontFamily="sans-serif" android:paddingStart="@dimen/control_extraspace" android:paddingEnd="@dimen/control_extraspace" app:drawableStartCompat="@drawable/flash_ic_info_layered"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

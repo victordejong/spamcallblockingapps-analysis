@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="?tcx_textSecondary" android:gravity="center_vertical" android:paddingLeft="@dimen/control_triplespace" android:paddingRight="@dimen/control_triplespace" android:layout_width="fill_parent" android:layout_height="@dimen/no_results_label_height" android:text="@string/global_search_no_results" android:lines="1" style="@style/StyleX.Text.Body.B2"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

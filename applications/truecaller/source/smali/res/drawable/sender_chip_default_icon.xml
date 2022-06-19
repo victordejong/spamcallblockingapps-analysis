@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/background_circle">
+        <shape android:shape="oval">
+            <solid android:color="?tcx_avatarBackgroundViolet" />
+            <size android:height="@dimen/dp14" android:width="@dimen/dp14" />
+        </shape>
+    </item>
+    <item android:id="@id/foreground_icon" android:drawable="@drawable/ic_tcx_business_24dp" android:left="@dimen/dp2" android:top="@dimen/dp2" android:right="@dimen/dp2" android:bottom="@dimen/dp2" />
+</layer-list>

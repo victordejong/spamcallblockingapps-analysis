@@ -1,0 +1,22 @@
+.class public interface abstract Lcom/truecaller/callrecording/ui/bubble/BubbleLayout$c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/truecaller/callrecording/ui/bubble/BubbleLayout;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "c"
+.end annotation
+
+
+# virtual methods
+.method public abstract B1()Z
+.end method
+
+.method public abstract C1(Lcom/truecaller/callrecording/ui/bubble/BubbleLayout;)V
+.end method

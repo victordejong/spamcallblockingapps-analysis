@@ -1,0 +1,86 @@
+.class public abstract Lq3/a/b3/d$b;
+.super Lq3/a/y2/m;
+.source "SourceFile"
+
+# interfaces
+.implements Lq3/a/v0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lq3/a/b3/d;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x401
+    name = "b"
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u001e\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0000\n\u0002\u0008\u0002\n\u0002\u0010\u0002\n\u0002\u0008\u0004\u0008\u00a2\u0004\u0018\u00002\u00020\u00012\u00020\u0002B\u000f\u0012\u0008\u0010\u0003\u001a\u0004\u0018\u00010\u0004\u00a2\u0006\u0002\u0010\u0005J\u0010\u0010\u0006\u001a\u00020\u00072\u0006\u0010\u0008\u001a\u00020\u0004H&J\u0006\u0010\t\u001a\u00020\u0007J\n\u0010\n\u001a\u0004\u0018\u00010\u0004H&R\u0012\u0010\u0003\u001a\u0004\u0018\u00010\u00048\u0006X\u0087\u0004\u00a2\u0006\u0002\n\u0000\u00a8\u0006\u000b"
+    }
+    d2 = {
+        "Lkotlinx/coroutines/sync/MutexImpl$LockWaiter;",
+        "Lkotlinx/coroutines/internal/LockFreeLinkedListNode;",
+        "Lkotlinx/coroutines/DisposableHandle;",
+        "owner",
+        "",
+        "(Lkotlinx/coroutines/sync/MutexImpl;Ljava/lang/Object;)V",
+        "completeResumeLockWaiter",
+        "",
+        "token",
+        "dispose",
+        "tryResumeLockWaiter",
+        "kotlinx-coroutines-core"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x5,
+        0x1
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field public final d:Ljava/lang/Object;
+
+
+# direct methods
+.method public constructor <init>(Lq3/a/b3/d;Ljava/lang/Object;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            ")V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Lq3/a/y2/m;-><init>()V
+
+    .line 2
+    iput-object p2, p0, Lq3/a/b3/d$b;->d:Ljava/lang/Object;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract O(Ljava/lang/Object;)V
+.end method
+
+.method public abstract P()Ljava/lang/Object;
+.end method
+
+.method public final a()V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0}, Lq3/a/y2/m;->K()Z
+
+    return-void
+.end method

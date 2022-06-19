@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/btn_search_del" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="?color_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clear_records" android:layout_centerVertical="true" />
+            <ImageView android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/delete_search_history" android:tint="?icon_color_blue" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/clear_records" />
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

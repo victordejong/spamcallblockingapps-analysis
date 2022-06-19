@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/multi_contact_image" android:paddingLeft="20.0dip" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_identified_24" />
-    <TextView android:textSize="@dimen/standard_title_text_size" android:textColor="@color/standard_title_dark_grey_color" android:id="@id/multi_contact_name" android:paddingLeft="19.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="John Smith" android:layout_toRightOf="@id/multi_contact_image" android:layout_centerVertical="true" />
-</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:tag="layout/settings_blocked_numbers_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/appToolbar" style="@style/appBarToolbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/lisReviews" style="@style/listView" />
+        <LinearLayout android:id="@id/panelSyncing" android:visibility="gone" style="@style/panelInfoCenter">
+            <androidx.appcompat.widget.AppCompatTextView android:text="@string/reading_data" style="@style/textViewStyleInverted" />
+            <ProgressBar android:id="@id/progressBar" style="@style/progressBar" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/panelError" android:visibility="gone" style="@style/panelInfoCenter">
+            <androidx.appcompat.widget.AppCompatTextView android:text="@string/panel_internet_error" style="@style/textViewStyleInverted" />
+            <Button android:id="@id/butReloadPage" android:text="@string/panel_but_try_again" style="@style/buttonAccent" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llNoItems" android:padding="@dimen/mainContentPadding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontBig" android:layout_marginBottom="@dimen/spaceBiggest" android:text="@string/blocked_list_no_items_text" style="@style/textViewStyle" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontMedium" android:layout_marginBottom="@dimen/spaceBiggest" android:text="@string/blocked_numbers_help" style="@style/textViewStyle" />
+        </LinearLayout>
+    </FrameLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="bottom|center|right" android:id="@id/fab" android:src="@drawable/baseline_playlist_add_white_48" android:contentDescription="@string/activity_main_but_fab_accessibility" android:backgroundTint="?colorPrimary" style="@style/fab" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <padding android:top="1.0dip" />
+            <solid android:color="?tcx_bizmonShadow1" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:top="1.0dip" />
+            <solid android:color="?tcx_bizmonShadow2" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:top="1.0dip" />
+            <solid android:color="?tcx_bizmonShadow3" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:top="1.0dip" />
+            <solid android:color="?tcx_bizmonShadow4" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:top="1.0dip" />
+            <solid android:color="?tcx_bizmonShadow5" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="?tcx_backgroundTertiary" />
+        </shape>
+    </item>
+</layer-list>

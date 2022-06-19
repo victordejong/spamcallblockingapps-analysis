@@ -1,0 +1,23 @@
+.class public final Lscala/annotation/compileTimeOnly;
+.super Lscala/annotation/Annotation;
+.source "compileTimeOnly.scala"
+
+# interfaces
+.implements Lscala/annotation/StaticAnnotation;
+
+
+# annotations
+.annotation runtime Lscala/reflect/ScalaSignature;
+    bytes = "\u0006\u0001e2A!\u0001\u0002\u0003\u000f\ty1m\\7qS2,G+[7f\u001f:d\u0017P\u0003\u0002\u0004\t\u0005Q\u0011M\u001c8pi\u0006$\u0018n\u001c8\u000b\u0003\u0015\tQa]2bY\u0006\u001c\u0001aE\u0002\u0001\u00111\u0001\"!\u0003\u0006\u000e\u0003\tI!a\u0003\u0002\u0003\u0015\u0005sgn\u001c;bi&|g\u000e\u0005\u0002\n\u001b%\u0011aB\u0001\u0002\u0011\'R\u000cG/[2B]:|G/\u0019;j_:D\u0001\u0002\u0005\u0001\u0003\u0002\u0003\u0006I!E\u0001\u0008[\u0016\u001c8/Y4f!\t\u0011bC\u0004\u0002\u0014)5\tA!\u0003\u0002\u0016\t\u00051\u0001K]3eK\u001aL!a\u0006\r\u0003\rM#(/\u001b8h\u0015\t)B\u0001C\u0003\u001b\u0001\u0011\u00051$\u0001\u0004=S:LGO\u0010\u000b\u00039u\u0001\"!\u0003\u0001\t\u000bAI\u0002\u0019A\t)\u0005\u0001y\u0002C\u0001\u0011$\u001b\u0005\t#B\u0001\u0012\u0003\u0003\u0011iW\r^1\n\u0005\u0011\n#aD2p[B\u000cg.[8o\u001b\u0016$\u0008n\u001c3)\u0005\u00011\u0003C\u0001\u0011(\u0013\tA\u0013E\u0001\u0008d_6\u0004\u0018M\\5p]\u000ec\u0017m]:)\u0005\u0001Q\u0003C\u0001\u0011,\u0013\ta\u0013E\u0001\u0006cK\u0006t7+\u001a;uKJD#\u0001\u0001\u0018\u0011\u0005\u0001z\u0013B\u0001\u0019\"\u0005)\u0011W-\u00198HKR$XM\u001d\u0015\u0003\u0001I\u0002\"\u0001I\u001a\n\u0005Q\n#AB:fiR,\'\u000f\u000b\u0002\u0001mA\u0011\u0001eN\u0005\u0003q\u0005\u0012aaZ3ui\u0016\u0014\u0008"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 0
+
+    .line 22
+    invoke-direct {p0}, Lscala/annotation/Annotation;-><init>()V
+
+    return-void
+.end method

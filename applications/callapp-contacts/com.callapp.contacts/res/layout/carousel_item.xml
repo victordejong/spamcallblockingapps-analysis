@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_5_dp" android:layout_marginTop="@dimen/dimen_8_dp" android:layout_marginRight="@dimen/dimen_5_dp" android:layout_marginBottom="@dimen/dimen_8_dp"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <com.callapp.contacts.widget.ProfilePictureView android:layout_gravity="center_vertical" android:id="@id/profilePictureView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentStart="true" app:presetSize="overlay" />
-        <TextView android:textSize="@dimen/dimen_12_dp" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/contactTextName" android:layout_width="@dimen/dimen_64_dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_2_dp" android:maxLines="1" android:maxEms="10" />
-    </LinearLayout>
-</RelativeLayout>

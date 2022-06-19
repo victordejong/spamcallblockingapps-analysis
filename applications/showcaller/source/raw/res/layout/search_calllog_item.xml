@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ripple" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="?color_666666" android:gravity="center_vertical" android:id="@id/tv_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="42.0dip" android:layout_marginLeft="16.0dip" android:text="@string/tv_title_calllog" android:layout_marginStart="16.0dip" />
+    <FrameLayout android:id="@id/ripple_bg" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:layout_marginBottom="3.0dip" android:foreground="?card_foreground" android:layout_marginEnd="2.0dip">
+        <ImageView android:layout_gravity="start|center" android:id="@id/record_photo" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_photo_normal" android:scaleType="fitXY" android:layout_marginStart="16.0dip" />
+        <LinearLayout android:layout_gravity="start|center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="64.0dip" android:layout_marginRight="16.0dip" android:layout_marginStart="64.0dip" android:layout_marginEnd="16.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true" android:textDirection="locale" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/call_type" android:background="@drawable/ic_calllog_missed_normal" android:layout_width="18.0dip" android:layout_height="18.0dip" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/call_type1" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/call_type2" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="6.0dip" android:layout_marginEnd="6.0dip" />
+                <TextView android:textSize="14.0sp" android:textColor="?color_666666" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tv_counts" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="" android:layout_marginEnd="8.0dip" />
+                <TextView android:textSize="14.0sp" android:textColor="?color_666666" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tv_number_type" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginEnd="8.0dip" />
+                <TextView android:textSize="14.0sp" android:textColor="?color_666666" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

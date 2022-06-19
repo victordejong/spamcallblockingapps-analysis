@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/urgent_message_actions_bar" android:background="@drawable/bg_conv_input_actions_bar" android:padding="@dimen/spacing_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/layoutPayQuickActions"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/btnAnimatedEmojis" android:background="@drawable/ripple_tcx_chip" android:padding="@dimen/semiSpace" android:layout_width="@dimen/quadrupleSpace" android:layout_height="@dimen/quadrupleSpace" android:src="@drawable/ic_tcx_emoji_24dp" android:tint="?tcx_textSecondary" />
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:orientation="horizontal" android:id="@id/animatedEmojisRecyclerView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" android:layout_marginStart="@dimen/space" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

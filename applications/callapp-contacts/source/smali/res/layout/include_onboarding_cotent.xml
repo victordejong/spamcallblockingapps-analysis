@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/welcomeFirstScreen" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/setup_login_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <LinearLayout android:orientation="vertical" android:id="@id/welcomeFirstScreenLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:orientation="vertical" android:id="@id/welcomeMainContainer" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+                <ImageView android:id="@id/title_callapp_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_56_dp" android:src="@drawable/callapp_white_logo" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+                <TextView android:textStyle="bold" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/title_callapp_logo" android:layout_alignLeft="@id/subtitle" android:layout_alignRight="@id/subtitle" android:layout_alignStart="@id/subtitle" android:layout_alignEnd="@id/subtitle" style="@style/Display2.Favorites_initials" />
+                <TextView android:textStyle="bold" android:gravity="center" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_8_dp" android:layout_marginBottom="20.0dip" android:layout_below="@id/title" android:layout_centerHorizontal="true" style="@style/Body2.Topbar_subtitle" />
+                <ImageView android:id="@id/privacyIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/privacy_ic" android:layout_below="@id/subtitle" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <include layout="@layout/layout_welcome_second_screen" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="1.0">
+        <ImageView android:id="@id/welcomeLogo" android:padding="@dimen/activity_horizontal_margin" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="110.0dip" android:src="@drawable/setup_login_logo" android:scaleType="centerInside" android:layout_weight="0.5" />
+    </LinearLayout>
+</FrameLayout>

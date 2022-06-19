@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/wizard_socialButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="46.0dip" />
+</androidx.cardview.widget.CardView>

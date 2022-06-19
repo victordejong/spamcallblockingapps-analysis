@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/container" android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Body2.Name_text.ContactListTextName" />
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/subtitleContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title">
-        <androidx.appcompat.widget.AppCompatImageView android:id="@id/callIconType" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_call_made_green_16dp" />
-        <TextView android:ellipsize="end" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_8_dp" android:maxLines="1" android:layout_marginStart="@dimen/dimen_8_dp" />
-    </LinearLayout>
-</LinearLayout>

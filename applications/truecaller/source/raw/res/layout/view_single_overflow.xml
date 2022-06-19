@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.truecaller.ui.components.ScrimInsetsFrameLayout android:orientation="vertical" android:id="@id/capture_insets_frame_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:insetForeground="@color/translucent_statusbar_background"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/content_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/toolbar_tcx" />
+</com.truecaller.ui.components.ScrimInsetsFrameLayout>

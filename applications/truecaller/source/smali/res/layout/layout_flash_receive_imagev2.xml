@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:id="@id/flashImageContainerV2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/flash_gradient_image_bg"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imageBackgroundV2" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center" android:id="@id/imageContentV2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ProgressBar android:theme="@style/AppTheme.WhiteAccent" android:layout_gravity="center" android:id="@id/imageProgressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/control_triplespace" android:indeterminate="true" />
+</FrameLayout>

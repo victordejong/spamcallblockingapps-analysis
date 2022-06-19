@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.truecaller.android.truemoji.widget.EmojiTextView android:layout_gravity="end" android:id="@id/content_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/message_spacing" android:layout_marginBottom="@dimen/message_spacing" android:textIsSelectable="true" android:textDirection="anyRtl" android:layout_marginStart="@dimen/semiSpace" style="@style/MessageBubble.Incoming.Text" />
+</FrameLayout>

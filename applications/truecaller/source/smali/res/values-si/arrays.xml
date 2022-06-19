@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>ජනවාරි</item>
+        <item>පෙබරවාරි</item>
+        <item>මාර්තු</item>
+        <item>අප්රේල්</item>
+        <item>මැයි</item>
+        <item>ජුනි</item>
+        <item>ජුලි</item>
+        <item>අගෝස්තු</item>
+        <item>සැප්තැම්බර්</item>
+        <item>ඔක්තෝම්බර්</item>
+        <item>නොවැම්බර්</item>
+        <item>දෙසැම්බර්</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>අමතන්න</item>
+        <item>පැතිකඩ පෙන්වන්න</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>නිහඬ</item>
+        <item>වයිබ්‍රටේ පමණයි</item>
+        <item>ශබ්ද විතරයි</item>
+        <item>ශබ්ද සහ කම්පන</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>සිම් 1</item>
+        <item>සිම් 2</item>
+    </string-array>
+</resources>

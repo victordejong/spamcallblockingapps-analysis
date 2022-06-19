@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/youtubeThumbnailImage" android:background="@drawable/ripple_or_holo_masked_rect" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+    <ImageView android:layout_gravity="center" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ic_vid_play" android:scaleType="center" android:tint="@color/white_callapp" />
+    <TextView android:textColor="@color/white_callapp" android:ellipsize="end" android:gravity="start|center" android:layout_gravity="bottom" android:id="@id/videoTitle" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:maxLines="1" android:drawableLeft="@drawable/ic_youtube_color" android:drawablePadding="16.0dip" android:drawableStart="@drawable/ic_youtube_color" style="@style/Body2.Name_text" />
+</FrameLayout>

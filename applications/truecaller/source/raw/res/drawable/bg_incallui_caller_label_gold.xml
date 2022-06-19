@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/tcx_goldGradientStep1" android:endColor="@color/tcx_goldGradientStep1" android:angle="180.0" android:centerColor="@color/tcx_goldGradientStep2" />
+    <corners android:radius="@dimen/incallui_caller_label_radius" />
+</shape>

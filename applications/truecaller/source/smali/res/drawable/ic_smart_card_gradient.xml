@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="55.0dip" android:width="200.0dip" android:viewportWidth="260.0" android:viewportHeight="55.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_smart_card_gradient__0" android:pathData="M0,0h300v100h-300z" android:strokeAlpha="0.64" android:fillAlpha="0.64" />
+</vector>

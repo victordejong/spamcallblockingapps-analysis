@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/survey_empty_rating_star_dark_selector" />
+    <item android:drawable="@drawable/survey_empty_rating_star_light_selector" />
+</selector>

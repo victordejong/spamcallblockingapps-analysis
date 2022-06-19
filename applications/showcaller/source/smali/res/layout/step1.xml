@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="212.0dip" android:layout_height="102.29999dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/bg_step1" android:layout_width="100.0dip" android:layout_height="97.0dip" android:layout_marginLeft="4.0dip" android:layout_centerVertical="true" android:layout_marginStart="4.0dip">
+        <ImageView android:id="@id/iv_ram" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/ram" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff6b6f72" android:id="@id/tv_ram" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ram" android:layout_above="@id/iv_ram" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="#ffffffff" android:layout_width="100.0dip" android:layout_height="97.0dip" android:layout_marginRight="4.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="4.0dip" android:layout_alignParentEnd="true">
+        <ImageView android:id="@id/iv_safety" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/safety" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff6b6f72" android:id="@id/tv_safe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/safety" android:layout_above="@id/iv_safety" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

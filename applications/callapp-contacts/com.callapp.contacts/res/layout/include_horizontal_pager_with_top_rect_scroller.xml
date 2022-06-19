@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/cardRowContainer" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.callapp.contacts.widget.RectPaginationContainer android:layout_gravity="bottom|center" android:id="@id/paginatedContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="12.0dip" app:pc_checked_item_color="@color/text_color" app:pc_item_height="4.0dip" app:pc_item_width="24.0dip" app:pc_margin_between_each_item="2.0dip" app:pc_unchecked_item_color="@color/hint_text_color" />
-    <androidx.viewpager.widget.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/paginatedContainer" />
-</RelativeLayout>

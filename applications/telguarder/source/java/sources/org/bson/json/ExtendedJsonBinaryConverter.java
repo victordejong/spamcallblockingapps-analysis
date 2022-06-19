@@ -1,0 +1,15 @@
+package org.bson.json;
+
+import org.bson.BsonBinary;
+import org.bson.internal.Base64;
+/* loaded from: classes3-dex2jar.jar:org/bson/json/ExtendedJsonBinaryConverter.class */
+class ExtendedJsonBinaryConverter implements Converter<BsonBinary> {
+    public void convert(BsonBinary bsonBinary, StrictJsonWriter strictJsonWriter) {
+        strictJsonWriter.writeStartObject();
+        strictJsonWriter.writeStartObject("$binary");
+        strictJsonWriter.writeString("base64", Base64.encode(bsonBinary.getData()));
+        strictJsonWriter.writeString("subType", String.format("%02X", Byte.valueOf(bsonBinary.getType())));
+        strictJsonWriter.writeEndObject();
+        strictJsonWriter.writeEndObject();
+    }
+}

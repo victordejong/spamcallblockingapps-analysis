@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SIATheme" parent="@style/Theme.MaterialComponents.NoActionBar">
+        <item name="android:colorForeground">?colorTextPrimary</item>
+        <item name="android:colorBackground">?colorBackgroundSecondary</item>
+        <item name="android:textAppearance">@style/textAppearanceMontserrat</item>
+        <item name="android:textColorPrimary">?colorTextPrimary</item>
+        <item name="android:windowBackground">?colorBackgroundSecondary</item>
+        <item name="android:dropDownListViewStyle">@style/autoCompleteStyle</item>
+        <item name="android:textViewStyle">@style/textViewStyle</item>
+        <item name="android:itemBackground">@color/colorBackgroundPrimaryDark</item>
+        <item name="android:popupBackground">@color/colorBackgroundPrimaryDark</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="actionBarBackgroundColor">@color/colorPrimaryDark</item>
+        <item name="buttonAccentTextColor">@color/buttonAccentTextColorLight</item>
+        <item name="colorAccent">@color/colorAccentDark</item>
+        <item name="colorBackgroundLogsMenu">@color/colorBackgroundLogsMenuDark</item>
+        <item name="colorBackgroundPrimary">@color/colorBackgroundPrimaryDark</item>
+        <item name="colorBackgroundSecondary">@color/colorBackgroundSecondaryDark</item>
+        <item name="colorBackgroundStickyHeader">@color/colorBackgroundStickyHeaderDark</item>
+        <item name="colorCardBackground">@color/colorCardBackgroundDark</item>
+        <item name="colorPrimary">?actionBarBackgroundColor</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkLight</item>
+        <item name="colorTextLinkInverted">@color/colorTextLinkInvertedLight</item>
+        <item name="colorTextPrimary">@color/colorTextPrimaryDark</item>
+        <item name="colorTextPrimaryInverted">@color/colorTextPrimaryLight</item>
+        <item name="colorTextSecondary">@color/colorTextSecondaryDark</item>
+        <item name="colorTextSecondaryInverted">@color/colorTextSecondaryLight</item>
+        <item name="dividerBasic">@style/divider</item>
+        <item name="dividerColor">@color/dividerColorDark</item>
+        <item name="footerBackgroundColor">?actionBarBackgroundColor</item>
+        <item name="ic_bug_report_24dp">@drawable/ic_bug_report_white_24dp</item>
+        <item name="ic_close_24dp">@drawable/ic_close_white_24dp</item>
+        <item name="ic_edit_24dp">@drawable/ic_edit_white_24dp</item>
+        <item name="ic_help_outline_24dp">@drawable/ic_help_outline_white_24dp</item>
+        <item name="ic_info_outline_24dp">@drawable/ic_info_outline_white_24dp</item>
+        <item name="ic_keyboard_arrow_down_24dp">@drawable/ic_keyboard_arrow_down_white_24dp</item>
+        <item name="ic_keyboard_arrow_right_48dp">@drawable/ic_keyboard_arrow_right_white_48dp</item>
+        <item name="ic_keyboard_arrow_up_24dp">@drawable/ic_keyboard_arrow_up_white_24dp</item>
+        <item name="ic_rate_review_24dp">@drawable/ic_rate_review_white_24dp</item>
+        <item name="ic_settings_24dp">@drawable/ic_settings_white_24dp</item>
+        <item name="ic_share_24dp">@drawable/ic_share_white_24dp</item>
+        <item name="listItemBackgroundColor">@color/colorBackgroundSecondaryDark</item>
+        <item name="listItemBackgroundHoverColor">@color/colorBackgroundSecondaryDark</item>
+        <item name="logs_menu_selector_middle">@drawable/logs_menu_selector_middle_dark</item>
+        <item name="ratingNegativeColor">@color/ratingNegativeColorDark</item>
+        <item name="ratingNeutralColor">@color/ratingNeutralColorDark</item>
+        <item name="ratingPositiveColor">@color/ratingPositiveColorDark</item>
+        <item name="ratingUnknownColor">@color/ratingUnknownColorDark</item>
+        <item name="ratingUnselectedColor">@color/ratingUnselectedColorDark</item>
+    </style>
+</resources>

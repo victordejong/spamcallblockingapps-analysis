@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/business_profile_color_selected_state_white" />
+    <item android:drawable="@drawable/business_profile_color_normal_state_transparent" />
+</selector>

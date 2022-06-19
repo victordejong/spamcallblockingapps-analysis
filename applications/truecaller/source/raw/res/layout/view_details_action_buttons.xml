@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:theme="?accentButtonTheme" android:id="@id/contact_request_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/CallerPrivateAskForDetails" />
+    <Button android:textAppearance="@style/TextStyleCallerDetails" android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/get_premium_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/control_space" android:layout_marginTop="@dimen/control_minispace" android:layout_marginRight="@dimen/control_space" android:layout_marginBottom="@dimen/control_minispace" android:text="@string/CallerBadgeDialogGetPremiumToAskForContactDetails" android:layout_centerVertical="true" style="@style/Widget.Truecaller.NonAppCompatButton.Action" />
+</merge>

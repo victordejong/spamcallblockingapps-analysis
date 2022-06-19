@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/avatar_background_dark" />
+    <padding android:left="1.0dip" android:top="8.0dip" android:right="1.0dip" android:bottom="8.0dip" />
+    <corners android:topLeftRadius="50.0dip" android:topRightRadius="50.0dip" android:bottomLeftRadius="50.0dip" android:bottomRightRadius="50.0dip" />
+</shape>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="@dimen/ads_custom_video_max_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/adVideo" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/adVideoControls" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="@id/adVideo" app:layout_constraintStart_toStartOf="@id/adVideo">
+        <ImageView android:id="@id/adVideoPlayPause" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/control_space" android:contentDescription="@null" app:tint="#ffffffff" />
+        <ImageView android:id="@id/adVideoMuteUnmute" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/control_space" android:contentDescription="@null" app:tint="#ffffffff" />
+    </LinearLayout>
+    <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/adFallbackText" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:text="@string/AdVideoFailed" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Widget.Truecaller.TextView.AdText" />
+    <ImageView android:id="@id/adFallbackImage" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="fitCenter" android:contentDescription="@null" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

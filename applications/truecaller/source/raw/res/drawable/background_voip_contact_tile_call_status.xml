@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#bf202124" />
+    <corners android:radius="@dimen/voip_contact_tile_status_rounded_corner_size" />
+</shape>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>Еднократна парола</item>
+        <item>Транзакция</item>
+        <item>Други</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>яну</item>
+        <item>фев</item>
+        <item>мар</item>
+        <item>апр</item>
+        <item>май</item>
+        <item>юни</item>
+        <item>юли</item>
+        <item>авг</item>
+        <item>сеп</item>
+        <item>окт</item>
+        <item>ное</item>
+        <item>дек</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Влезте в %s</item>
+        <item>Впишете се с %s</item>
+        <item>Впишете се в %s</item>
+        <item>Проверете номера с %s</item>
+        <item>Регистрирайте се с %s</item>
+        <item>Започнете с %s</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>Обаждане</item>
+        <item>Виж профила</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>Важно е</item>
+        <item>Съжалявам</item>
+        <item>Къде си?</item>
+        <item>Имам въпрос</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>едно</item>
+        <item>две</item>
+        <item>три</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>Здравей 👋, Спешно е 🚨</item>
+        <item>Здравей 👋 Поръчката е готова!</item>
+        <item>Имаш ли време сега? Долу съм!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Тих</item>
+        <item>Само Вибрация</item>
+        <item>Само звук</item>
+        <item>Звук и вибрация</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>Използвайте Flash, когато искате сигурен отговор до една минута</item>
+        <item>Използвайте Flash за важни неща, които искате да кажете бързо</item>
+        <item>Знаехте ли: Можете да споделите Вашето местоположение бързо само с едно натискане</item>
+        <item>Съвет: Изпратете емотикона или напишете Следва, за да се изразите</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>Сортиране по първо име</item>
+        <item>Сортиране по фамилно име</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>Запазен</item>
+        <item>Идентифициран</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_show_in_chat_24dp" android:id="@id/action_show_in_chat" android:title="@string/menu_show_in_chat" app:iconTint="?tcx_textSecondary" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_tcx_action_forward_outline_24dp" android:id="@id/action_forward" android:title="@string/ConversationForward" app:iconTint="?tcx_textSecondary" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_tcx_star_outline_24dp" android:id="@id/action_mark_important" android:title="@string/ConversationMarkImportant" app:iconTint="?tcx_textSecondary" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_tcx_star_crossed_outline_24dp" android:id="@id/action_unmark_important" android:title="@string/ConversationNotImportant" app:iconTint="?tcx_textSecondary" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_tcx_select_all_24dp" android:id="@id/action_select_all" android:title="@string/ConversationSelectAllMessages" app:iconTint="?tcx_textSecondary" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_tcx_delete_outline_16dp" android:id="@id/action_delete" android:title="@string/StrDelete" app:iconTint="?tcx_alertBackgroundRed" app:showAsAction="always" />
+</menu>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="640.0dip" android:layout_height="640.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/img_right" android:layout_width="174.0dip" android:layout_height="174.0dip" android:layout_columnSpan="2" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_share_header" />
+    <TextView android:textSize="100.0sp" android:textStyle="bold" android:textColor="#ff00325f" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="montserrat" android:layout_marginStart="32.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="#ff00325f" android:id="@id/tvInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:lineSpacingExtra="-0.20000005sp" android:fontFamily="montserrat" android:letterSpacing="0.05" app:layout_constraintLeft_toLeftOf="@id/tvTitle" app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+    <ImageView android:layout_gravity="center" android:layout_width="144.0dip" android:layout_height="49.0dip" android:scaleType="fitCenter" android:layout_columnSpan="2" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:srcCompat="@drawable/ic_truecaller_logo_white" app:tint="@color/stats_primary_color" />
+</androidx.constraintlayout.widget.ConstraintLayout>

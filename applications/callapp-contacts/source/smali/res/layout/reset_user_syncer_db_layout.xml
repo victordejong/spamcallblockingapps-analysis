@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:gravity="center" android:id="@id/contactPhoneNumbers" android:layout_width="fill_parent" android:layout_height="90.0dip" android:inputType="number" />
+    <FrameLayout android:id="@id/sendButton" android:background="@drawable/ripple_or_holo" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="@dimen/dimen_20_dp" android:layout_marginBottom="@dimen/dimen_5_dp">
+        <TextView android:textStyle="bold" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/send_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Button.Buttons" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/parent" android:padding="@dimen/dp16" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="?tcx_textPrimary" android:id="@id/autoHideTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/auto_hide_transactions" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Text.Subtitle.S1.Medium" />
+    <RadioGroup android:gravity="center_vertical" android:orientation="vertical" android:id="@id/autoHideRadioGroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp16" android:checkedButton="@id/business_button" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/autoHideTitle">
+        <RadioButton android:id="@id/autoHideYes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/StrYes" android:paddingStart="@dimen/dp8" android:paddingEnd="@dimen/dp8" android:layout_marginEnd="16.0dip" style="@style/StyleX.RadioButton" />
+        <RadioButton android:id="@id/autoHideNo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp8" android:text="@string/StrNo" android:paddingStart="@dimen/dp8" android:paddingEnd="@dimen/dp8" style="@style/StyleX.RadioButton" />
+    </RadioGroup>
+    <Button android:textColor="@color/white" android:id="@id/autoHideConfirmButton" android:layout_width="fill_parent" android:layout_height="@dimen/dp36" android:layout_marginTop="@dimen/dp24" android:text="@string/StrConfirm" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/autoHideRadioGroup" style="@style/StyleX.Button.Primary" />
+</androidx.constraintlayout.widget.ConstraintLayout>

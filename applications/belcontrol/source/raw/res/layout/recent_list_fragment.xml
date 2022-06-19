@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/topNav" layout="@layout/top_nav" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/lookup_form" android:background="@color/white_fontcolor" android:clickable="true" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/topNav">
+        <TextView android:gravity="center" android:id="@id/lookups_left" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/lookups_left" style="@style/ListItemTextSecondLine" />
+        <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageButton android:gravity="center|left" android:id="@id/go_lookup" android:background="@android:color/transparent" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="@dimen/height_48dp" android:layout_height="wrap_content" android:src="@drawable/btn_dialer_lookup" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <EditText android:theme="@style/EditTextTheme" android:id="@id/number_for_lookup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/caller_number_hint" android:layout_centerInParent="true" android:inputType="phone" android:imeOptions="actionGo" android:layout_marginStart="8.0dip" android:layout_toStartOf="@id/go_lookup" style="@style/spinner" />
+        </RelativeLayout>
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/darkdarkgrey_fontcolor" android:ellipsize="none" android:gravity="left" android:id="@id/list_header" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lookup_recent_prefix" android:textAllCaps="true" android:layout_marginStart="8.0dip" />
+        <include layout="@layout/divider" />
+        <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@id/list" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

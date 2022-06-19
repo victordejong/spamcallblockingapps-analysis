@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/bottomLay" android:background="#00ce2222" android:layout_width="fill_parent" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageView27" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/shadow_bottom_app_bar" android:scaleType="fitXY" android:translationY="32.0dip" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/fab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_plus24" app:layout_anchor="@id/bottom_app_bar" app:tint="@null" />
+    <com.google.android.material.bottomappbar.BottomAppBar android:layout_gravity="bottom" android:id="@id/bottom_app_bar" android:layout_width="fill_parent" android:layout_height="@dimen/height_48dp" app:backgroundTint="@color/colorAccent" app:contentInsetStart="0.0dip" app:fabAlignmentMode="center" app:fabCradleMargin="0.0dip" app:hideOnScroll="false">
+        <com.google.android.material.tabs.TabLayout android:id="@id/tabLayout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/height_48dp" app:tabIndicator="@null" app:tabIndicatorColor="@android:color/transparent">
+            <com.google.android.material.tabs.TabItem android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            <com.google.android.material.tabs.TabItem android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            <com.google.android.material.tabs.TabItem android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            <com.google.android.material.tabs.TabItem android:id="@id/tabItem6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            <com.google.android.material.tabs.TabItem android:id="@id/tabItem7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        </com.google.android.material.tabs.TabLayout>
+    </com.google.android.material.bottomappbar.BottomAppBar>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

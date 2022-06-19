@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/layoutGif" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvGif" android:tag="rvGif" android:background="?tcx_emojiBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" app:spanCount="2" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="?tcx_textSecondary" android:gravity="center" android:id="@id/viewStatus" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/emoji_popup_tab_height_default" android:foreground="?selectableItemBackgroundBorderless" android:drawablePadding="@dimen/emoji_tab_margin" android:layout_centerHorizontal="true" style="@style/StyleX.Text.Caption" />
+    <ProgressBar android:id="@id/progressGifs" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/emoji_popup_tab_height_default" android:layout_centerHorizontal="true" android:indeterminateTint="?tcx_emojiInactiveTabColor" />
+</merge>

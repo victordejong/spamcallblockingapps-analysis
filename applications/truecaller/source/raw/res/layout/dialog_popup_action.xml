@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="?theme_dropShadowTopBackground" android:layout_width="fill_parent" android:layout_height="?theme_dropShadowTopHeight" />
+    <RelativeLayout android:background="?tcx_backgroundTertiary" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/main_text" android:layout_marginStart="@dimen/control_doublespace" />
+        <TextView android:gravity="center_vertical" android:id="@id/main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_doublespace" android:layout_marginBottom="@dimen/control_space" android:layout_marginStart="@dimen/control_doublespace" android:layout_marginEnd="@dimen/control_doublespace" android:layout_toEndOf="@id/icon" style="@style/StyleX.Text.Body" />
+        <Button android:id="@id/button_accept" android:paddingTop="@dimen/control_doublespace" android:paddingBottom="@dimen/control_doublespace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accept" android:layout_below="@id/icon" android:paddingStart="@dimen/control_triplespace" android:paddingEnd="@dimen/control_triplespace" android:layout_alignParentEnd="true" style="@style/StyleX.Button.Small.Action" />
+        <Button android:textColor="?tcx_textSecondary" android:id="@id/button_dismiss" android:paddingTop="@dimen/control_doublespace" android:paddingBottom="@dimen/control_doublespace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialog_dismiss" android:layout_below="@id/icon" android:paddingStart="@dimen/control_triplespace" android:paddingEnd="@dimen/control_triplespace" android:layout_marginStart="-24.0dip" android:layout_alignStart="@id/main_text" style="@style/StyleX.Button.Small.Action" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/settings_backup_sms" app:cardBackgroundColor="?theme_accentColor" style="@style/Widget.Truecaller.CardView">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.truecaller.ui.view.TintedImageView android:id="@id/settings_backup_sms_icon" android:paddingBottom="@dimen/control_space" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_doublespace" android:src="@drawable/ic_caller_id_troubleshooting" android:scaleType="center" android:layout_marginStart="@dimen/control_doublespace" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="?theme_textColorAccentedControl" />
+            <TextView android:textSize="@dimen/list_secondary" android:textColor="?theme_textColorAccentedControl" android:layout_gravity="center_vertical" android:id="@id/settings_backup_sms_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/backup_settings_backup_sms" android:layout_marginStart="@dimen/control_space" app:layout_constraintBottom_toBottomOf="@id/settings_backup_sms_icon" app:layout_constraintStart_toEndOf="@id/settings_backup_sms_icon" app:layout_constraintTop_toTopOf="@id/settings_backup_sms_icon" app:layout_constraintVertical_bias="0.1" />
+            <androidx.constraintlayout.widget.Barrier android:id="@id/settings_backup_sms_barrier_title" android:layout_width="wrap_content" android:layout_height="wrap_content" app:barrierDirection="bottom" app:constraint_referenced_ids="settings_backup_sms_icon,settings_backup_sms_title" />
+            <androidx.cardview.widget.CardView android:id="@id/settings_backup_sms_permission_button" android:layout_marginBottom="@dimen/control_space" android:foreground="?selectableItemBackground" android:layout_marginStart="@dimen/control_space" android:layout_marginEnd="@dimen/control_space" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/settings_backup_sms_barrier_title" style="@style/Widget.Truecaller.CardView">
+                <LinearLayout android:orientation="horizontal" android:padding="@dimen/control_extraspace" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_red_error" android:scaleType="center" android:layout_marginEnd="@dimen/control_extraspace" />
+                    <TextView android:textColor="?theme_textColorPrimary" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/backup_settings_backup_sms_permission" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView style="@style/Widget.Truecaller.CardView">
+        <LinearLayout android:id="@id/settings_backup" android:background="?selectableItemBackground" android:paddingBottom="@dimen/control_doublespace" style="@style/Widget.Truecaller.ContainerWrap">
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/settings_backup_switch" android:text="@string/backup_settings_title" style="@style/Widget.Truecaller.Switch.Settings" />
+            <TextView android:id="@id/settings_backup_last" android:visibility="gone" android:layout_marginBottom="@dimen/control_space" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+            <TextView android:text="@string/backup_settings_description" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView style="@style/Widget.Truecaller.CardView">
+        <LinearLayout android:id="@id/settingsBackupVideos" android:background="?selectableItemBackground" style="@style/Widget.Truecaller.ContainerWrap">
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/backupVideosSwitch" android:text="@string/backup_settings_videos" style="@style/Widget.Truecaller.Switch.Settings" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView style="@style/Widget.Truecaller.CardView">
+        <com.truecaller.ui.components.ComboBase android:id="@id/settings_backup_frequency" android:background="?selectableItemBackground" android:text="@string/backup_settings_frequency" style="@style/TCComboBox" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView style="@style/Widget.Truecaller.CardView">
+        <com.truecaller.ui.components.ComboBase android:id="@id/settings_backup_over" android:background="?selectableItemBackground" android:text="@string/backup_settings_backup_over" style="@style/TCComboBox" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView style="@style/Widget.Truecaller.CardView">
+        <com.truecaller.ui.components.ComboBase android:id="@id/settings_backup_account" android:background="?selectableItemBackground" android:text="@string/backup_settings_account" style="@style/TCComboBox" />
+    </androidx.cardview.widget.CardView>
+    <Button android:id="@id/button_backup_now" android:layout_width="fill_parent" android:layout_height="@dimen/control_heptaspace" android:text="@string/backup_settings_button_backup_now" android:layout_marginStart="@dimen/control_semispace" android:layout_marginEnd="@dimen/control_semispace" style="@style/Widget.Truecaller.NonAppCompatButton.Action" />
+</LinearLayout>

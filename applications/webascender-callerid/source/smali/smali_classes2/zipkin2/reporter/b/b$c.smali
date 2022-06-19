@@ -1,0 +1,141 @@
+.class public final Lzipkin2/reporter/b/b$c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lzipkin2/reporter/b/b;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "c"
+.end annotation
+
+
+# instance fields
+.field final a:Lm/c0$a;
+
+.field b:Lm/y;
+
+.field c:Lu/h/b;
+
+.field d:Z
+
+.field e:I
+
+.field f:I
+
+
+# direct methods
+.method constructor <init>(Lm/c0$a;)V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    sget-object v0, Lu/h/b;->JSON:Lu/h/b;
+
+    iput-object v0, p0, Lzipkin2/reporter/b/b$c;->c:Lu/h/b;
+
+    const/4 v0, 0x1
+
+    .line 3
+    iput-boolean v0, p0, Lzipkin2/reporter/b/b$c;->d:Z
+
+    const/16 v0, 0x40
+
+    .line 4
+    iput v0, p0, Lzipkin2/reporter/b/b$c;->e:I
+
+    const v0, 0x7a120
+
+    .line 5
+    iput v0, p0, Lzipkin2/reporter/b/b$c;->f:I
+
+    .line 6
+    iput-object p1, p0, Lzipkin2/reporter/b/b$c;->a:Lm/c0$a;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Lzipkin2/reporter/b/b;
+    .locals 1
+
+    .line 1
+    new-instance v0, Lzipkin2/reporter/b/b;
+
+    invoke-direct {v0, p0}, Lzipkin2/reporter/b/b;-><init>(Lzipkin2/reporter/b/b$c;)V
+
+    return-object v0
+.end method
+
+.method public b()Lm/c0$a;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lzipkin2/reporter/b/b$c;->a:Lm/c0$a;
+
+    return-object v0
+.end method
+
+.method public c(Ljava/lang/String;)Lzipkin2/reporter/b/b$c;
+    .locals 3
+
+    const-string v0, "endpoint == null"
+
+    .line 1
+    invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+
+    .line 2
+    invoke-static {p1}, Lm/y;->m(Ljava/lang/String;)Lm/y;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 3
+    invoke-virtual {p0, v0}, Lzipkin2/reporter/b/b$c;->d(Lm/y;)Lzipkin2/reporter/b/b$c;
+
+    return-object p0
+
+    .line 4
+    :cond_0
+    new-instance v0, Ljava/lang/IllegalArgumentException;
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "invalid POST url: "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-direct {v0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public d(Lm/y;)Lzipkin2/reporter/b/b$c;
+    .locals 1
+
+    const-string v0, "endpoint == null"
+
+    .line 1
+    invoke-static {p1, v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+
+    .line 2
+    iput-object p1, p0, Lzipkin2/reporter/b/b$c;->b:Lm/y;
+
+    return-object p0
+.end method

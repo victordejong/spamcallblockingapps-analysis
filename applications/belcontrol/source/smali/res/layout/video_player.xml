@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/video_layout" android:background="@android:color/black" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <VideoView android:id="@id/videoView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@android:id/empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/white_fontcolor" android:gravity="center" android:id="@id/cc_name" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/height_48dp" android:text="@string/app_name_sep" android:drawableLeft="@drawable/logo_white" android:drawablePadding="4.0dip" android:layout_above="@android:id/empty" android:layout_centerHorizontal="true" />
+        <ProgressBar android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="?android:progressBarStyleLarge" />
+        <TextView android:textColor="@android:color/white" android:gravity="center" android:linksClickable="true" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/loading" android:layout_centerInParent="true" />
+    </LinearLayout>
+    <ImageButton android:id="@id/close_overlay_btn" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close_overlay_btn" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

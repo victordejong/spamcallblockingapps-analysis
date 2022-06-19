@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.truecaller.ui.view.ContactPhoto android:id="@id/contact_photo" android:layout_width="@dimen/contact_photo_size" android:layout_height="@dimen/contact_photo_size" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/control_space" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/name_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/contact_photo" android:layout_marginStart="@dimen/control_space" android:layout_marginEnd="@dimen/control_space" android:layout_toEndOf="@id/contact_photo" style="@style/TextAppearance.Truecaller.ListItem.Primary.Ellipsize" />
+    <TextView android:textSize="@dimen/textExtraSmall" android:id="@id/number_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/referral_bulk_sms_cost_disclaimer" android:layout_below="@id/name_text" android:layout_marginStart="@dimen/control_space" android:layout_marginEnd="@dimen/control_space" android:layout_toEndOf="@id/contact_photo" style="@style/TextAppearance.Truecaller.ListItem.Tertiary.Ellipsize" />
+</RelativeLayout>

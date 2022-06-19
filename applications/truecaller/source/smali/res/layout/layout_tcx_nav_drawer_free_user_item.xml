@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" android:layout_marginStart="@dimen/control_space" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="?tcx_subscriptionIconNavDrawer" />
+    <TextView android:ellipsize="end" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/CallerBadgeDialogGetPremium" android:maxLines="1" android:layout_marginStart="@dimen/control_space" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/error" app:layout_constraintStart_toEndOf="@id/icon" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Text.Subtitle.S2" />
+    <include layout="@layout/layout_tcx_nav_drawer_include_error_badge" />
+</merge>

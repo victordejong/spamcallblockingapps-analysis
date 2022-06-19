@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/background_ring_circle" />
+    <item android:state_checked="true" android:drawable="@drawable/background_incallui_toggle_checked" />
+    <item android:drawable="@drawable/background_incallui_ring_default" />
+</selector>

@@ -1,0 +1,28 @@
+package com.crashlytics.android.answers;
+/* loaded from: classes-dex2jar.jar:com/crashlytics/android/answers/ContentViewEvent.class */
+public class ContentViewEvent extends PredefinedEvent<ContentViewEvent> {
+    static final String CONTENT_ID_ATTRIBUTE = "contentId";
+    static final String CONTENT_NAME_ATTRIBUTE = "contentName";
+    static final String CONTENT_TYPE_ATTRIBUTE = "contentType";
+    static final String TYPE = "contentView";
+
+    @Override // com.crashlytics.android.answers.PredefinedEvent
+    public String getPredefinedType() {
+        return TYPE;
+    }
+
+    public ContentViewEvent putContentId(String str) {
+        this.predefinedAttributes.put(CONTENT_ID_ATTRIBUTE, str);
+        return this;
+    }
+
+    public ContentViewEvent putContentName(String str) {
+        this.predefinedAttributes.put(CONTENT_NAME_ATTRIBUTE, str);
+        return this;
+    }
+
+    public ContentViewEvent putContentType(String str) {
+        this.predefinedAttributes.put(CONTENT_TYPE_ATTRIBUTE, str);
+        return this;
+    }
+}

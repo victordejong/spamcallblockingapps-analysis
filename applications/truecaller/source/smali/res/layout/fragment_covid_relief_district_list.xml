@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="?tcx_backgroundPrimary" android:focusable="false" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:minHeight="?actionBarSize" android:iconifiedByDefault="false" android:elevation="@dimen/space" app:actionViewClass="android.support.v7.widget.SearchView" />
+    <LinearLayout android:orientation="vertical" android:background="?tcx_backgroundPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/updateInfo" android:background="?tcx_payCardBackgroundColor" android:padding="@dimen/space" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="?tcx_textSecondary" android:id="@id/textLastUpdatedTime" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/space" style="@style/StyleX.Text.Caption" />
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="?tcx_textSecondary" android:id="@id/forceUpdate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/biz_update" android:drawablePadding="@dimen/space" android:drawableEnd="@drawable/ic_biz_update" android:layout_marginEnd="@dimen/space" style="@style/StyleX.Text.Caption" />
+        </LinearLayout>
+        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/bannerImageView" android:background="?selectableItemBackgroundBorderless" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" android:layout_marginBottom="@dimen/semiSpace" android:scaleType="fitStart" android:adjustViewBounds="true" android:layout_marginStart="@dimen/doubleSpace" android:layout_marginEnd="@dimen/doubleSpace" />
+                <androidx.appcompat.widget.AppCompatTextView android:textColor="?tcx_textTertiary" android:id="@id/tvHeader" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" android:text="@string/biz_govt_show_results_header" android:layout_marginStart="@dimen/doubleSpace" android:layout_marginEnd="@dimen/doubleSpace" style="@style/StyleX.Text.Caption" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rvDistrictList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+                <androidx.constraintlayout.widget.Group android:id="@id/viewDistrictList" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:constraint_referenced_ids="tvHeader,rvDistrictList" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/viewLoading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyle" />
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="?tcx_textPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space" android:text="@string/biz_govt_text_loading" />
+        </LinearLayout>
+        <include android:id="@id/viewEmptySearch" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/layout_search_empty_view" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+package com.google.android.gms.internal.ads;
+/* loaded from: classes2-dex2jar.jar:com/google/android/gms/internal/ads/zzdoe.class */
+final class zzdoe {
+    private static final zzdob zzhln = new zzdob();
+}

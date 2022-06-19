@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.truecaller.common.ui.banner.BannerViewX android:id="@id/bannerView" android:background="@drawable/background_tcx_caller_id_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/doubleSpace" app:bannerViewImage="?banner_caller_id_variant_a" app:bannerViewImageHeight="80.0dip" app:bannerViewImageWidth="80.0dip" app:bannerViewPrimaryButton="@string/promo_caller_id_banner_positive_button" app:bannerViewSubtitle="@string/promo_caller_id_banner_subtitle" app:bannerViewTitle="@string/promo_caller_id_banner_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

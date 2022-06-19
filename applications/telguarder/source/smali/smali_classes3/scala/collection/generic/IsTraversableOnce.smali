@@ -1,0 +1,33 @@
+.class public interface abstract Lscala/collection/generic/IsTraversableOnce;
+.super Ljava/lang/Object;
+.source "IsTraversableOnce.scala"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<Repr:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;"
+    }
+.end annotation
+
+.annotation runtime Lscala/reflect/ScalaSignature;
+    bytes = "\u0006\u0001i3q!\u0001\u0002\u0011\u0002G\u0005\u0011BA\tJgR\u0013\u0018M^3sg\u0006\u0014G.Z(oG\u0016T!a\u0001\u0003\u0002\u000f\u001d,g.\u001a:jG*\u0011QAB\u0001\u000bG>dG.Z2uS>t\'\"A\u0004\u0002\u000bM\u001c\u0017\r\\1\u0004\u0001U\u0011!\u0002I\n\u0003\u0001-\u0001\"\u0001D\u0007\u000e\u0003\u0019I!A\u0004\u0004\u0003\r\u0005s\u0017PU3g\t\u0015\u0001\u0002A!\u0001\u0012\u0005\u0005\t\u0015C\u0001\n\u0016!\ta1#\u0003\u0002\u0015\r\t9aj\u001c;iS:<\u0007C\u0001\u0007\u0017\u0013\t9bAA\u0002B]fDq!\u0007\u0001C\u0002\u001b\u0005!$\u0001\u0006d_:4XM]:j_:,\u0012a\u0007\t\u0005\u0019qq\"%\u0003\u0002\u001e\r\tIa)\u001e8di&|g.\r\t\u0003?\u0001b\u0001\u0001B\u0003\"\u0001\t\u0007\u0011C\u0001\u0003SKB\u0014\u0008cA\u0012%M5\tA!\u0003\u0002&\t\t\u0011r)\u001a8Ue\u00064XM]:bE2,wJ\\2f!\t9s\"D\u0001\u0001\u000f\u0015I#\u0001#\u0001+\u0003EI5\u000f\u0016:bm\u0016\u00148/\u00192mK>s7-\u001a\t\u0003W1j\u0011A\u0001\u0004\u0006\u0003\tA\t!L\n\u0003Y-AQa\u000c\u0017\u0005\u0002A\na\u0001P5oSRtD#\u0001\u0016\t\u000fIb#\u0019!C\u0002g\u0005Q1\u000f\u001e:j]\u001e\u0014V\r\u001d:\u0016\u0003Q\u0012\"!N\u001c\u0007\tYb\u0003\u0001\u000e\u0002\ryI,g-\u001b8f[\u0016tGO\u0010\t\u0004W\u0001A\u0004CA\u001d=\u001d\ta!(\u0003\u0002<\r\u00051\u0001K]3eK\u001aL!!\u0010 \u0003\rM#(/\u001b8h\u0015\tYd!\u0002\u0003\u0011k\u0001\u0002\u0005C\u0001\u0007B\u0013\t\u0011eA\u0001\u0003DQ\u0006\u0014\u0008B\u0002#-A\u0003%A\'A\u0006tiJLgn\u001a*faJ\u0004\u0003\"\u0002$-\t\u00079\u0015AF4f]R\u0013\u0018M^3sg\u0006\u0014G.\u001a\'jW\u0016\u0014V\r\u001d:\u0016\u0007!k5\u000b\u0006\u0002J-J\u0011!j\u0013\u0004\u0005m1\u0002\u0011\nE\u0002,\u00011\u00032aH\'S\t\u0015qUI1\u0001P\u0005\u0005\u0019UCA\tQ\t\u0015\tVJ1\u0001\u0012\u0005\u0005y\u0006CA\u0010T\t\u0015!VI1\u0001\u0012\u0005\t\t\u0005\'\u0002\u0003\u0011\u0015\u0002\u0011\u0006\"B,F\u0001\u0008A\u0016\u0001B2p]Z\u0004B\u0001\u0004\u000fM3B\u00191\u0005\n*"
+.end annotation
+
+
+# virtual methods
+.method public abstract conversion()Lscala/Function1;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lscala/Function1<",
+            "TRepr;",
+            "Lscala/collection/GenTraversableOnce<",
+            "Ljava/lang/Object;",
+            ">;>;"
+        }
+    .end annotation
+.end method

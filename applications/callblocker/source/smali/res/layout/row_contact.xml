@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatButton android:textColor="@android:color/white" android:id="@id/deleteButton" android:background="@color/accent_dark" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/home.cell_delete.title" android:textAllCaps="false" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/contentView" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip">
+        <FrameLayout android:layout_width="36.0dip" android:layout_height="36.0dip">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/badgeImageView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+            <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:textColor="@android:color/white" android:ellipsize="end" android:layout_gravity="center" android:id="@id/badgeTextView" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:includeFontPadding="false" style="@style/TextAppearance.AppCompat.Caption" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_weight="1.0">
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/primary_dark" android:ellipsize="end" android:id="@id/nameView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" style="@style/TextAppearance.AppCompat.Body1" />
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/whitish_gray" android:ellipsize="end" android:id="@id/numberView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" style="@style/TextAppearance.AppCompat.Body1" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatTextView android:textStyle="italic" android:textColor="@color/grayish_white" android:ellipsize="end" android:id="@id/timeView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:lines="1" style="@style/TextAppearance.AppCompat.Caption" />
+        <androidx.appcompat.widget.AppCompatImageView android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:src="@drawable/ic_keyboard_arrow_right_grayish_white_24dp" android:tint="@color/grayish_white" />
+    </LinearLayout>
+</com.daimajia.swipe.SwipeLayout>

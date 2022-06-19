@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="@color/tcx_textPrimary_dark" android:gravity="center" android:id="@id/message" android:paddingTop="16.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lineSpacingExtra="16.0dip" android:paddingStart="8.0dip" android:paddingEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/dummy" style="@style/StyleX.Text.Caption" />
+    <View android:id="@id/dummy" android:layout_width="0.0dip" android:layout_height="1.0dip" app:layout_constraintBottom_toBottomOf="@id/label" app:layout_constraintTop_toTopOf="@id/label" />
+    <TextView android:textColor="@color/tcx_textPrimary_dark" android:gravity="center_vertical" android:id="@id/label" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="4.0dip" android:paddingStart="12.0dip" android:paddingEnd="8.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Text.Subtitle.S2" />
+</merge>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/loading_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+        <TextView android:id="@id/loading_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/VerificationLoading_title" style="@style/Wizard.TextViewTitle" />
+        <TextView android:id="@id/loading_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/VerificationLoading_details" style="@style/Wizard.TextViewDetails" />
+    </LinearLayout>
+    <include layout="@layout/wizard_fragment_call_verification" />
+    <include layout="@layout/wizard_fragment_sms_verification" />
+</FrameLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_array">
+        <item>Ιδιωτικός</item>
+        <item>Συλλέκτες/Τράπεζες</item>
+        <item>Διαφήμιση/Ανεπιθυμητη</item>
+        <item>Αθόρυβες κλήσεις</item>
+        <item>Απάτες</item>
+        <item>Χρηματοπιστωτικές υπηρεσίες</item>
+        <item>Άλλα..</item>
+    </string-array>
+    <string-array name="category_feedback_array">
+        <item>Καμία κατηγορία</item>
+        <item>Συλλέκτες/Τράπεζες</item>
+        <item>Διαφήμιση/Ανεπιθυμητη</item>
+        <item>Αθόρυβες κλήσεις</item>
+        <item>Απάτες</item>
+        <item>Χρηματοπιστωτικές υπηρεσίες</item>
+        <item>Άλλα..</item>
+    </string-array>
+    <string-array name="posneg_array">
+        <item>Αρνητικός</item>
+        <item>Ουδέτερος</item>
+        <item>Θετικός</item>
+    </string-array>
+    <string-array name="settings_block_methods_array">
+        <item>Τερματισμός κλήσης (απόρριψη)</item>
+        <item>Σιωπηλό κουδούνισμα</item>
+    </string-array>
+</resources>

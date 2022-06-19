@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="26.0dip" android:width="26.0dip" android:viewportWidth="26.0" android:viewportHeight="26.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="?tcx_transportSwitchIconBackgroundColor" android:pathData="M3.5241,21.4736L3.5694,21.2517L3.4324,21.0713L3.0368,20.5501C1.3996,18.3936 0.5,15.7678 0.5,13C0.5,6.0964 6.0964,0.5 13,0.5C19.9036,0.5 25.5,6.0964 25.5,13C25.5,19.9036 19.9036,25.5 13,25.5H2.7023L3.5241,21.4736Z" android:strokeColor="?tcx_transportSwitchIconStrokeColor" android:strokeWidth="1.0" />
+    <path android:fillColor="?tcx_transportSwitchIconTextColor" android:pathData="M13,5C8.5832,5 5,8.5832 5,13C5,17.4168 8.5832,21 13,21C17.4168,21 21,17.4168 21,13C21,8.5832 17.4168,5 13,5ZM13,19.3968C9.4729,19.3968 6.6032,16.5271 6.6032,13C6.6032,9.4729 9.4729,6.6032 13,6.6032C16.5271,6.6032 19.3968,9.4729 19.3968,13C19.3968,16.5271 16.5271,19.3968 13,19.3968ZM13.6012,7.3888L9.994,14.2024H12.511V18.6112L16.006,11.7976H13.6012V7.3888Z" />
+</vector>

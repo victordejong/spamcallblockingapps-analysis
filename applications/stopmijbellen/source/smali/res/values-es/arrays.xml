@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_array">
+        <item>Privado</item>
+        <item>Coleccionistas/Bancos</item>
+        <item>Advertir/Spam</item>
+        <item>Silenciar llamadas</item>
+        <item>Fraudes</item>
+        <item>Servicios financieros</item>
+        <item>Otros..</item>
+    </string-array>
+    <string-array name="category_feedback_array">
+        <item>Sin categoría</item>
+        <item>Coleccionistas/Bancos</item>
+        <item>Advertir/Spam</item>
+        <item>Silenciar llamadas</item>
+        <item>Fraudes</item>
+        <item>Servicios Financieros</item>
+        <item>Otros..</item>
+    </string-array>
+    <string-array name="posneg_array">
+        <item>Negativo</item>
+        <item>Neutral</item>
+        <item>Positivo</item>
+    </string-array>
+    <string-array name="settings_block_methods_array">
+        <item>Llamada rechazada</item>
+        <item>Silenciar tono de llamada</item>
+    </string-array>
+</resources>

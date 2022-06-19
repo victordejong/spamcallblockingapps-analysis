@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/control_doublespace">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_fill_name" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/main_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/control_doublespace" android:layout_marginRight="@dimen/control_doublespace" android:text="@string/fill_profile_title" />
+    </LinearLayout>
+    <EditText android:id="@id/et_first_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/control_doublespace" android:layout_marginRight="@dimen/control_doublespace" android:hint="@string/ProfileEditFirstName" android:inputType="textCapWords" style="@style/StyleX.Input.Outline" />
+    <EditText android:id="@id/et_last_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/control_doublespace" android:layout_marginRight="@dimen/control_doublespace" android:hint="@string/ProfileEditLastName" android:inputType="textCapWords" style="@style/StyleX.Input.Outline" />
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/control_semispace">
+        <Button android:textColor="?tcx_textSecondary" android:id="@id/button_dismiss" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/StrLater" android:layout_marginEnd="8.0dip" style="@style/StyleX.Button.Small.Action" />
+        <Button android:id="@id/button_accept" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/StrDone" style="@style/StyleX.Button.Small.Action" />
+    </LinearLayout>
+</LinearLayout>

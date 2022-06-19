@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/blocklist_settings_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settingsRowSwitch="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/row_common_spammers_container" android:layout_width="fill_parent" android:layout_height="@dimen/settings_row_height" android:layout_marginTop="@dimen/dimen_8_dp">
+        <com.callapp.contacts.widget.SettingsRowSwitch android:id="@id/row_common_spammers" android:background="@drawable/ripple_or_holo" android:layout_width="fill_parent" android:layout_height="@dimen/settings_row_height" settingsRowSwitch:s_icon="@drawable/ic_block_list" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/row_private_numbers_container" android:layout_width="fill_parent" android:layout_height="@dimen/settings_row_height">
+        <com.callapp.contacts.widget.SettingsRowSwitch android:id="@id/row_private_numbers" android:background="@drawable/ripple_or_holo" android:layout_width="fill_parent" android:layout_height="@dimen/settings_row_height" settingsRowSwitch:s_icon="@drawable/ic_private_number" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/row_advanced_container" android:layout_width="fill_parent" android:layout_height="@dimen/settings_row_height">
+        <com.callapp.contacts.widget.SettingsRowNext android:id="@id/row_advanced" android:background="@drawable/ripple_or_holo" android:layout_width="fill_parent" android:layout_height="@dimen/settings_row_height" settingsRowSwitch:s_icon="@drawable/ic_action_settings" />
+    </FrameLayout>
+    <include layout="@layout/item_list_header_seperator" />
+</LinearLayout>

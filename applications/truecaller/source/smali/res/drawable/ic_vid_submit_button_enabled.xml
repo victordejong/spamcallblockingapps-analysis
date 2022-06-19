@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#ff0087ff" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_tcx_action_check_24dp" android:left="16.0dip" android:top="16.0dip" android:right="16.0dip" android:bottom="16.0dip" />
+</layer-list>

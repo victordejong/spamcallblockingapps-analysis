@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Truecaller.Splash" parent="@style/Theme.Truecaller">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+        <item name="android:statusBarColor">@color/truecaller_blue_all_themes</item>
+        <item name="android:navigationBarColor">@color/truecaller_blue_all_themes</item>
+        <item name="android:windowSplashscreenContent">@drawable/background_splash</item>
+    </style>
+</resources>

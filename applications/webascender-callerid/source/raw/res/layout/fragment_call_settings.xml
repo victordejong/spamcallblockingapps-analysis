@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/local_app_bar" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/call_setting_left_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/callerIdStyleButton" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/call_setting_item_height">
+                    <TextView android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/call_settings_caller_id_style" android:layout_weight="1.0" style="@style/Text.Title" />
+                    <TextView android:id="@id/callerIdStyleDesc" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/Text.Small.Stonegrey" />
+                    <View android:background="@color/borderline_grey" android:layout_width="fill_parent" android:layout_height="0.6dip" />
+                </LinearLayout>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/call_settings_incoming_calls" style="@style/Text.Header" />
+                <RelativeLayout android:id="@id/contactOnlyContainer" android:background="?android:selectableItemBackground" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/call_setting_item_height" android:layout_marginTop="18.0dip">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/call_setting_contact_only_title" style="@style/Text.Title" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/call_setting_contact_only_text" style="@style/Text.Small.Stonegrey" />
+                    </LinearLayout>
+                    <View android:background="@color/borderline_grey" android:layout_width="fill_parent" android:layout_height="0.6dip" android:layout_alignParentBottom="true" />
+                    <Switch android:id="@id/contactOnlySwitch" android:paddingLeft="15.0dip" android:paddingRight="25.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/scamButton" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/call_setting_item_height">
+                    <TextView android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/call_settings_scam_title" android:layout_weight="1.0" style="@style/Text.Title" />
+                    <TextView android:id="@id/scamDsc" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/Text.Small.Stonegrey" />
+                    <View android:background="@color/borderline_grey" android:layout_width="fill_parent" android:layout_height="0.6dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/spamButton" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/call_setting_item_height">
+                    <TextView android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/call_settings_spam_title" android:layout_weight="1.0" style="@style/Text.Title" />
+                    <TextView android:id="@id/spamDsc" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/Text.Small.Stonegrey" />
+                    <View android:background="@color/borderline_grey" android:layout_width="fill_parent" android:layout_height="0.6dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/privateCallsButton" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/call_setting_item_height">
+                    <TextView android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/call_settings_private_calls_title" android:layout_weight="1.0" style="@style/Text.Title" />
+                    <TextView android:id="@id/privateCallsDsc" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/Text.Small.Stonegrey" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/savedContactsButton" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/call_setting_item_height">
+                    <View android:background="@color/borderline_grey" android:layout_width="fill_parent" android:layout_height="0.6dip" />
+                    <TextView android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/call_settings_saved_contacts_title" android:layout_weight="1.0" style="@style/Text.Title" />
+                    <TextView android:id="@id/savedContactsDsc" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/Text.Small.Stonegrey" />
+                    <View android:background="@color/borderline_grey" android:layout_width="fill_parent" android:layout_height="0.6dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/screenedCallsButton" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/call_setting_item_height">
+                    <TextView android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/call_settings_screened_calls_title" android:layout_weight="1.0" style="@style/Text.Title" />
+                    <TextView android:id="@id/screenedCallsDsc" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/Text.Small.Stonegrey" />
+                    <View android:background="@color/borderline_grey" android:layout_width="fill_parent" android:layout_height="0.6dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/incomingButton" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/call_setting_item_height">
+                    <TextView android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/call_settings_other_incoming_title" android:layout_weight="1.0" style="@style/Text.Title" />
+                    <TextView android:id="@id/incomingDsc" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/Text.Small.Stonegrey" />
+                    <View android:background="@color/borderline_grey" android:layout_width="fill_parent" android:layout_height="0.6dip" />
+                </LinearLayout>
+                <TextView android:id="@id/outgoingCallsHeader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/call_settings_outgoing" style="@style/Text.Header" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/outgoingButton" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/call_setting_item_height" android:layout_marginTop="2.0dip" android:layout_marginBottom="16.0dip">
+                    <TextView android:gravity="center_vertical" android:id="@id/outgoingDsc" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/Text.Title" />
+                    <View android:background="@color/borderline_grey" android:layout_width="fill_parent" android:layout_height="0.6dip" />
+                </LinearLayout>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/call_settings_notification_settings" style="@style/Text.Header" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/manageNotificationsButton" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/call_setting_item_height">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/call_settings_manage_notifications" style="@style/Text.Title" />
+                </LinearLayout>
+                <View android:background="@color/borderline_grey" android:layout_width="fill_parent" android:layout_height="0.6dip" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/deleteLookupHistoryButton" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/call_setting_item_height" android:layout_marginTop="18.0dip">
+                    <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete_lookup_history" android:fontFamily="sans-serif" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/deleteHistoryButton" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/call_setting_item_height" android:layout_marginBottom="56.0dip">
+                    <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="@color/red" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/call_settings_delete_history" android:fontFamily="sans-serif" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <View android:layout_gravity="top" android:id="@id/shadow" android:background="@drawable/bottom_shadow" android:layout_width="wrap_content" android:layout_height="@dimen/shadow_size" />
+    </FrameLayout>
+</LinearLayout>

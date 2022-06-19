@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/wizard_green_light" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:id="@id/title" android:paddingTop="@dimen/tripleSpace" android:paddingBottom="@dimen/tripleSpace" android:text="@string/AccessContacts_title" style="@style/Wizard.TextViewTitle" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/wizard_img_enhanced_search" android:scaleType="fitCenter" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:id="@id/details" android:layout_marginTop="@dimen/tripleSpace" android:text="@string/AccessContacts_details_r2" style="@style/Wizard.TextViewDetails" />
+        <Button android:id="@id/deny_button" android:text="@string/AccessContacts_disable_cta" android:layout_above="@id/allow_button" style="@style/Wizard.SkipButton" />
+        <Button android:id="@id/allow_button" android:text="@string/AccessContacts_enable_cta" android:layout_alignParentBottom="true" style="@style/Wizard.ContinueButton" />
+    </RelativeLayout>
+</LinearLayout>

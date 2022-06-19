@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:padding="@dimen/control_doublespace" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/ic_flash_map_info" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/image_text_bg" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="80.0" />
+        <View android:id="@id/mapsDivider" android:background="?theme_secondary_text" android:layout_width="@dimen/control_semi_space" android:layout_height="fill_parent" android:layout_marginTop="@dimen/control_space" android:layout_marginBottom="@dimen/control_space" android:alpha="0.3" android:layout_marginStart="@dimen/control_space" />
+        <ImageButton android:id="@id/mapsButton" android:background="@android:color/transparent" android:padding="@dimen/control_space" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="20.0" android:contentDescription="@string/address_found" app:srcCompat="@drawable/ic_flash_directions_24dp" />
+    </LinearLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:contentDescription="@string/address_found" app:srcCompat="@drawable/ic_flash_down_arrow" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.common.ui.avatar.AvatarXView android:id="@id/avatar" android:layout_width="@dimen/dp24" android:layout_height="@dimen/dp24" android:layout_marginStart="@dimen/dp2" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textColor="@color/selector_filter_chip_text" android:id="@id/title" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/dp8" android:paddingEnd="@dimen/dp10" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/avatar" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Text.Chip.Title" />
+</merge>

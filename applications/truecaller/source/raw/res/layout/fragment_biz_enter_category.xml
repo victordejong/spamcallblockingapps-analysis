@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/lblEnterBizCategory" android:layout_marginTop="@dimen/doubleSpace" android:text="@string/BusinessProfile_EntercategoryTitle" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.Bizmon.Title" />
+    <ScrollView android:id="@id/categoryGridLayout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/doubleSpace" app:layout_constraintBottom_toTopOf="@id/placeHolder" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/lblEnterBizCategory">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/categoryGrid" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/categoryList" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </ScrollView>
+    <View android:id="@id/placeHolder" android:layout_width="fill_parent" android:layout_height="1.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

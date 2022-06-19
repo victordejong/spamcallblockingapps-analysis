@@ -1,0 +1,26 @@
+{
+		"top" : "Purchase more credits for premium reverse phone searches.",
+
+        "sections" : [
+            {
+                "img" : "glass",
+                "descr" : "Get the caller's real name",
+                "width": "40",
+                "height": "40"
+            },
+            {
+              "img" : "shield",
+              "descr" : "Identify unknown callers instantly",
+              "width": "40",
+              "height": "40"
+            },
+            {
+              "img" : "credits",
+              "descr" : "Credits never expire!",
+              "width": "40",
+              "height": "40"
+            }
+        ],
+
+        "bottom" : ""
+}

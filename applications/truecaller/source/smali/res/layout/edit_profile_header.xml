@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/avatar" android:layout_width="112.0dip" android:layout_height="112.0dip" android:layout_marginTop="40.0dip" android:contentDescription="@null" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/editAvatar" android:background="@drawable/background_tcx_oval_outline" android:focusable="true" android:clickable="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="centerInside" android:contentDescription="@null" app:layout_constraintBottom_toBottomOf="@id/avatar" app:layout_constraintEnd_toEndOf="@id/avatar" app:srcCompat="@drawable/ic_tcx_action_edit_24dp" app:tint="?tcx_textSecondary" />
+</androidx.constraintlayout.widget.ConstraintLayout>

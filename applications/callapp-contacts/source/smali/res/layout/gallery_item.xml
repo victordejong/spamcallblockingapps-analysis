@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <View android:layout_gravity="bottom|center|left" android:id="@id/shadow" android:layout_width="fill_parent" android:layout_height="36.0dip" />
+    <ImageView android:layout_gravity="bottom|center|left" android:id="@id/socialBadge" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginBottom="2.0dip" />
+</FrameLayout>

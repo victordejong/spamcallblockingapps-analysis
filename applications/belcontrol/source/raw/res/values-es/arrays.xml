@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="short_month_name">
+        <item>Ene</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Abr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Ago</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dic</item>
+    </string-array>
+    <string-array name="t9lookup">
+        <item>[0]</item>
+        <item>[1]</item>
+        <item>[abcàáâãäåæçABCÀÁÂÃÄÅÆÇ]</item>
+        <item>[defèéêëDEFÈÉÊËÐ]</item>
+        <item>[ghiìíîïGHIÌÍÎÏ]</item>
+        <item>[jklJKL]</item>
+        <item>[mnoñòóôõöøMNOÑÒÓÔÕÖØ]</item>
+        <item>[pqrsPQRS]</item>
+        <item>[tuvùúûüTUVÙÚÛÜ]</item>
+        <item>[wxyzýÿWXYZÝ]</item>
+    </string-array>
+    <string-array name="weekdays">
+        <item>LU</item>
+        <item>MA</item>
+        <item>MI</item>
+        <item>JU</item>
+        <item>VI</item>
+        <item>SA</item>
+        <item>DO</item>
+    </string-array>
+</resources>

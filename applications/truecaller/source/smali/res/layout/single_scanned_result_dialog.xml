@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:background="?theme_cardColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/control_triplespace" android:minHeight="@dimen/scan_result_dialog_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="@dimen/widget_avatar" android:indeterminate="true" android:layout_centerInParent="true" />
+    <include layout="@layout/single_result_details_ui" />
+</RelativeLayout>

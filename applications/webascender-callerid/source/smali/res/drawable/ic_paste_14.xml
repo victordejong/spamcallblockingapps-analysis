@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="14.0dip" android:width="14.0dip" android:viewportWidth="14.0" android:viewportHeight="14.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/keypad_lookup_button_icon" android:pathData="M1.8,1.8v8h8v-8h-8zM1,1h9.6v9.6H1V1z" android:fillType="nonZero" />
+    <path android:fillColor="@color/keypad_lookup_button_icon" android:pathData="M3.4,3.4H13V13H3.4z" android:fillType="nonZero" />
+</vector>

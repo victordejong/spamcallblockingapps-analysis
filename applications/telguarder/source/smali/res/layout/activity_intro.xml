@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/colorPrimary" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.viewpager.widget.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/view_pager_layout" android:paddingTop="@dimen/margin_small" android:paddingBottom="48.0dip" android:clickable="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/margin_extra_large" android:paddingEnd="@dimen/margin_extra_large">
+        <com.telguarder.helpers.ui.ViewPagerIndicator android:gravity="center" android:layout_gravity="center" android:id="@id/view_pager_indicator" android:layout_width="wrap_content" android:layout_height="44.0dip" app:delimiterSize="8.0dip" app:itemScale="1.5" app:itemSelectedTint="@color/colorAccent" app:itemSize="8.0dip" app:itemTint="@color/text_medium_google" />
+        <Button android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/welcome_next_button" android:background="@color/colorAccent" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="@string/next_button_label" android:elevation="20.0dip" />
+    </LinearLayout>
+</FrameLayout>

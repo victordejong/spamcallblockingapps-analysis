@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/rounded_layout" android:padding="@dimen/dimen_16_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_16_dp" android:layout_marginRight="@dimen/dimen_16_dp" android:backgroundTint="@color/white_callapp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:src="@drawable/img_ob_verifying" />
+    <TextView android:textSize="20.0sp" android:layout_gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16_dp" android:layout_marginBottom="@dimen/dimen_8_dp" />
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:layout_gravity="center" android:id="@id/subTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="right" android:layout_gravity="right" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_12_dp">
+        <TextView android:textSize="22.0sp" android:textStyle="bold" android:id="@id/ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_22_dp" android:layout_marginBottom="@dimen/dimen_8_dp" android:textAllCaps="true" />
+        <TextView android:textSize="22.0sp" android:textStyle="bold" android:id="@id/edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,99 @@
+package com.google.zxing.oned.rss;
+/* loaded from: classes-dex2jar.jar:com/google/zxing/oned/rss/RSSUtils.class */
+public final class RSSUtils {
+    private RSSUtils() {
+    }
+
+    private static int combins(int i, int i2) {
+        int i3;
+        int i4;
+        int i5;
+        int i6;
+        int i7 = i - i2;
+        if (i7 > i2) {
+            i3 = i2;
+        } else {
+            i3 = i7;
+            i7 = i2;
+        }
+        int i8 = 1;
+        int i9 = 1;
+        int i10 = i;
+        while (true) {
+            i4 = i9;
+            i5 = i8;
+            if (i10 > i7) {
+                int i11 = i8 * i10;
+                i8 = i11;
+                i9 = i4;
+                if (i4 <= i3) {
+                    i8 = i11 / i4;
+                    i9 = i4 + 1;
+                }
+                i10--;
+            }
+        }
+        for (i6 = i4; i6 <= i3; i6++) {
+            i5 /= i6;
+        }
+        return i5;
+    }
+
+    public static int getRSSvalue(int[] iArr, int i, boolean z) {
+        int i2;
+        int i3 = 0;
+        for (int i4 : iArr) {
+            i3 += i4;
+        }
+        int length = iArr.length;
+        int i5 = 0;
+        int i6 = 0;
+        int i7 = 0;
+        int i8 = i3;
+        while (true) {
+            int i9 = length - 1;
+            if (i5 < i9) {
+                int i10 = 1 << i5;
+                int i11 = i7 | i10;
+                int i12 = 1;
+                while (i12 < iArr[i5]) {
+                    int i13 = i8 - i12;
+                    int i14 = length - i5;
+                    int i15 = i14 - 2;
+                    int combins = combins(i13 - 1, i15);
+                    int i16 = combins;
+                    if (z) {
+                        i16 = combins;
+                        if (i11 == 0) {
+                            int i17 = i14 - 1;
+                            i16 = combins;
+                            if (i13 - i17 >= i17) {
+                                i16 = combins - combins(i13 - i14, i15);
+                            }
+                        }
+                    }
+                    if (i14 - 1 > 1) {
+                        int i18 = 0;
+                        for (int i19 = i13 - i15; i19 > i; i19--) {
+                            i18 += combins((i13 - i19) - 1, i14 - 3);
+                        }
+                        i2 = i16 - (i18 * (i9 - i5));
+                    } else {
+                        i2 = i16;
+                        if (i13 > i) {
+                            i2 = i16 - 1;
+                        }
+                    }
+                    i6 += i2;
+                    i12++;
+                    i11 &= i10 ^ (-1);
+                }
+                i8 -= i12;
+                i5++;
+                i7 = i11;
+            } else {
+                return i6;
+            }
+        }
+    }
+}

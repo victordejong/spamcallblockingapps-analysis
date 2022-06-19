@@ -1,0 +1,80 @@
+.class public Lz51$b;
+.super Ljava/lang/Object;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lz51;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "b"
+.end annotation
+
+
+# instance fields
+.field public a:Landroid/widget/TextView;
+
+.field public b:Landroid/widget/TextView;
+
+.field public c:Landroid/widget/TextView;
+
+.field public d:Ljava/lang/Object;
+
+
+# direct methods
+.method public constructor <init>(Lz51;Landroid/view/View;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    invoke-virtual {p2}, Landroid/view/View;->getTag()Ljava/lang/Object;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lz51$b;->d:Ljava/lang/Object;
+
+    const p1, 0x7f0a04af
+
+    invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/TextView;
+
+    iput-object p1, p0, Lz51$b;->a:Landroid/widget/TextView;
+
+    const p1, 0x7f0a0229
+
+    invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/TextView;
+
+    iput-object p1, p0, Lz51$b;->c:Landroid/widget/TextView;
+
+    const p1, 0x7f0a045c
+
+    invoke-virtual {p2, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/widget/TextView;
+
+    iput-object p1, p0, Lz51$b;->b:Landroid/widget/TextView;
+
+    invoke-virtual {p2, p0}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lz51;Landroid/view/View;Lz51$a;)V
+    .locals 0
+
+    invoke-direct {p0, p1, p2}, Lz51$b;-><init>(Lz51;Landroid/view/View;)V
+
+    return-void
+.end method

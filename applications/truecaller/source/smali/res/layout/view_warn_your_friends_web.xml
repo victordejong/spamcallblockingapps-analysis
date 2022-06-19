@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:layout_width="512.0px" android:layout_height="wrap_content" android:src="@drawable/ic_beware_of_spammer" android:adjustViewBounds="true" android:contentDescription="@null" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="330.0px" android:layout_height="115.0px" android:layout_marginBottom="25.0px" android:layout_alignBottom="@id/image" android:layout_centerHorizontal="true">
+        <TextView android:textSize="33.0px" android:textColor="#ffbfbfbf" android:gravity="center" android:id="@id/number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sans-serif-condensed" />
+        <TextView android:textSize="24.0px" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0px" android:maxLines="2" android:textAllCaps="true" android:fontFamily="sans-serif-condensed" />
+    </LinearLayout>
+    <TextView android:textSize="38.0px" android:textStyle="bold" android:textColor="#ff746f61" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28.0px" android:text="@string/BewareCaps" android:maxLines="1" android:layout_alignTop="@id/image" android:layout_centerHorizontal="true" android:textAllCaps="true" android:fontFamily="sans-serif-condensed" />
+    <LinearLayout android:orientation="horizontal" android:background="#ff000000" android:padding="10.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/image" android:layout_alignStart="@id/image" android:layout_alignEnd="@id/image">
+        <ImageView android:layout_width="80.0px" android:layout_height="80.0px" android:src="@mipmap/ic_launcher" android:contentDescription="@null" android:layout_marginEnd="10.0px" />
+        <TextView android:textSize="25.0px" android:textColor="@android:color/white" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/WarnYourFriendsAdText" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

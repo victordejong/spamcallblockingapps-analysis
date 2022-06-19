@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="blockedNamesCount">
+        <item quantity="other">You have %1$s blocked names</item>
+        <item quantity="one">You have %1$s blocked name</item>
+    </plurals>
+    <plurals name="daysCount">
+        <item quantity="other">%d days</item>
+        <item quantity="one">%d day</item>
+    </plurals>
+    <plurals name="governing_contact">
+        <item quantity="other">Contacts</item>
+        <item quantity="one">Contact</item>
+    </plurals>
+    <plurals name="governing_rule">
+        <item quantity="other">Rules</item>
+        <item quantity="one">Rule</item>
+    </plurals>
+    <plurals name="lookups_left">
+        <item quantity="other">%1$s credits left</item>
+        <item quantity="one">%1$s credit left</item>
+    </plurals>
+    <plurals name="msg_multi_recipient_adapter">
+        <item quantity="other">%1$s+%2$d others</item>
+        <item quantity="one">%1$s+%2$d other</item>
+    </plurals>
+    <plurals name="msg_multi_recipient_title">
+        <item quantity="other">%d recipients</item>
+        <item quantity="one">%d recipient</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+</resources>

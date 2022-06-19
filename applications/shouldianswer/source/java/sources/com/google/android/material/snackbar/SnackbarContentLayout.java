@@ -1,0 +1,130 @@
+package com.google.android.material.snackbar;
+
+import android.content.Context;
+import android.content.res.TypedArray;
+import android.util.AttributeSet;
+import android.view.View;
+import android.view.ViewPropertyAnimator;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import androidx.core.p023g.C0552u;
+import com.google.android.flexbox.FlexItem;
+import com.google.android.material.C1284R;
+/* loaded from: classes-dex2jar.jar:com/google/android/material/snackbar/SnackbarContentLayout.class */
+public class SnackbarContentLayout extends LinearLayout implements ContentViewCallback {
+    private Button actionView;
+    private int maxInlineActionWidth;
+    private int maxWidth;
+    private TextView messageView;
+
+    public SnackbarContentLayout(Context context) {
+        this(context, null);
+    }
+
+    public SnackbarContentLayout(Context context, AttributeSet attributeSet) {
+        super(context, attributeSet);
+        TypedArray obtainStyledAttributes = context.obtainStyledAttributes(attributeSet, C1284R.styleable.SnackbarLayout);
+        this.maxWidth = obtainStyledAttributes.getDimensionPixelSize(C1284R.styleable.SnackbarLayout_android_maxWidth, -1);
+        this.maxInlineActionWidth = obtainStyledAttributes.getDimensionPixelSize(C1284R.styleable.SnackbarLayout_maxActionInlineWidth, -1);
+        obtainStyledAttributes.recycle();
+    }
+
+    private static void updateTopBottomPadding(View view, int i, int i2) {
+        if (C0552u.m6225v(view)) {
+            C0552u.m6277a(view, C0552u.m6237j(view), i, C0552u.m6236k(view), i2);
+        } else {
+            view.setPadding(view.getPaddingLeft(), i, view.getPaddingRight(), i2);
+        }
+    }
+
+    private boolean updateViewsWithinLayout(int i, int i2, int i3) {
+        boolean z;
+        if (i != getOrientation()) {
+            setOrientation(i);
+            z = true;
+        } else {
+            z = false;
+        }
+        if (this.messageView.getPaddingTop() != i2 || this.messageView.getPaddingBottom() != i3) {
+            updateTopBottomPadding(this.messageView, i2, i3);
+            z = true;
+        }
+        return z;
+    }
+
+    @Override // com.google.android.material.snackbar.ContentViewCallback
+    public void animateContentIn(int i, int i2) {
+        this.messageView.setAlpha(FlexItem.FLEX_GROW_DEFAULT);
+        long j = i2;
+        ViewPropertyAnimator duration = this.messageView.animate().alpha(1.0f).setDuration(j);
+        long j2 = i;
+        duration.setStartDelay(j2).start();
+        if (this.actionView.getVisibility() == 0) {
+            this.actionView.setAlpha(FlexItem.FLEX_GROW_DEFAULT);
+            this.actionView.animate().alpha(1.0f).setDuration(j).setStartDelay(j2).start();
+        }
+    }
+
+    @Override // com.google.android.material.snackbar.ContentViewCallback
+    public void animateContentOut(int i, int i2) {
+        this.messageView.setAlpha(1.0f);
+        long j = i2;
+        ViewPropertyAnimator duration = this.messageView.animate().alpha(FlexItem.FLEX_GROW_DEFAULT).setDuration(j);
+        long j2 = i;
+        duration.setStartDelay(j2).start();
+        if (this.actionView.getVisibility() == 0) {
+            this.actionView.setAlpha(1.0f);
+            this.actionView.animate().alpha(FlexItem.FLEX_GROW_DEFAULT).setDuration(j).setStartDelay(j2).start();
+        }
+    }
+
+    public Button getActionView() {
+        return this.actionView;
+    }
+
+    public TextView getMessageView() {
+        return this.messageView;
+    }
+
+    @Override // android.view.View
+    protected void onFinishInflate() {
+        super.onFinishInflate();
+        this.messageView = (TextView) findViewById(C1284R.C1286id.snackbar_text);
+        this.actionView = (Button) findViewById(C1284R.C1286id.snackbar_action);
+    }
+
+    @Override // android.widget.LinearLayout, android.view.View
+    protected void onMeasure(int i, int i2) {
+        boolean z;
+        super.onMeasure(i, i2);
+        int i3 = i;
+        if (this.maxWidth > 0) {
+            int measuredWidth = getMeasuredWidth();
+            int i4 = this.maxWidth;
+            i3 = i;
+            if (measuredWidth > i4) {
+                i3 = View.MeasureSpec.makeMeasureSpec(i4, 1073741824);
+                super.onMeasure(i3, i2);
+            }
+        }
+        int dimensionPixelSize = getResources().getDimensionPixelSize(C1284R.dimen.design_snackbar_padding_vertical_2lines);
+        int dimensionPixelSize2 = getResources().getDimensionPixelSize(C1284R.dimen.design_snackbar_padding_vertical);
+        boolean z2 = this.messageView.getLayout().getLineCount() > 1;
+        if (!z2 || this.maxInlineActionWidth <= 0 || this.actionView.getMeasuredWidth() <= this.maxInlineActionWidth) {
+            int i5 = z2 ? dimensionPixelSize : dimensionPixelSize2;
+            if (updateViewsWithinLayout(0, i5, i5)) {
+                z = true;
+            }
+            z = false;
+        } else {
+            if (updateViewsWithinLayout(1, dimensionPixelSize, dimensionPixelSize - dimensionPixelSize2)) {
+                z = true;
+            }
+            z = false;
+        }
+        if (z) {
+            super.onMeasure(i3, i2);
+        }
+    }
+}

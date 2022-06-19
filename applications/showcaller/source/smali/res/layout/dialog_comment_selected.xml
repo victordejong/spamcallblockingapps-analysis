@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="?color_ffffff" android:layout_width="280.0dip" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <TextView android:textSize="20.0sp" android:textColor="?color_333333" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginBottom="20.0dip" android:text="@string/comment_selected_title" android:layout_marginStart="24.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="?color_333333" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="24.0dip" android:text="@string/comment_selected_text" android:lineSpacingExtra="4.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="16.0dip" />
+        <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:layout_marginEnd="8.0dip">
+            <FrameLayout android:id="@id/fl_cancel" android:layout_width="88.0dip" android:layout_height="48.0dip" android:foreground="?card_foreground">
+                <TextView android:textSize="14.0sp" android:textColor="?color_999999" android:layout_gravity="center" android:id="@id/tv_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/comment_selected_exit" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/fl_ok" android:layout_width="88.0dip" android:layout_height="48.0dip" android:foreground="?card_foreground">
+                <TextView android:textSize="14.0sp" android:textColor="?color_action" android:layout_gravity="center" android:id="@id/tv_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/suggest_submit" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

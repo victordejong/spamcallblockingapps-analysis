@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?tcx_textPrimary" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StyleX.Text.Subtitle.S1.Medium" />
+    <TextView android:textColor="?tcx_textTertiary" android:id="@id/key" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:textIsSelectable="true" style="@style/StyleX.Text.Caption" />
+    <EditText android:id="@id/variantValue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Enter variant name" android:inputType="text" />
+    <TextView android:id="@id/value" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="Value: ''" android:textIsSelectable="true" />
+    <Button android:id="@id/save" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Save" />
+</LinearLayout>

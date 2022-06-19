@@ -1,0 +1,63 @@
+.class public final Lcom/google/android/gms/internal/ads/zzbxa;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Lcom/google/android/gms/internal/ads/zzeqb;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lcom/google/android/gms/internal/ads/zzeqb<",
+        "Lcom/google/android/gms/internal/ads/zzbwg;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field private final zzgav:Lcom/google/android/gms/internal/ads/zzbwg;
+
+
+# direct methods
+.method private constructor <init>(Lcom/google/android/gms/internal/ads/zzbwg;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/ads/zzbxa;->zzgav:Lcom/google/android/gms/internal/ads/zzbwg;
+
+    return-void
+.end method
+
+.method public static zzz(Lcom/google/android/gms/internal/ads/zzbwg;)Lcom/google/android/gms/internal/ads/zzbxa;
+    .locals 1
+
+    new-instance v0, Lcom/google/android/gms/internal/ads/zzbxa;
+
+    invoke-direct {v0, p0}, Lcom/google/android/gms/internal/ads/zzbxa;-><init>(Lcom/google/android/gms/internal/ads/zzbwg;)V
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final synthetic get()Ljava/lang/Object;
+    .locals 2
+
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzbxa;->zzgav:Lcom/google/android/gms/internal/ads/zzbwg;
+
+    invoke-static {v0}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    const-string v1, "Cannot return null from a non-@Nullable @Provides method"
+
+    invoke-static {v0, v1}, Lcom/google/android/gms/internal/ads/zzeqh;->zza(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/google/android/gms/internal/ads/zzbwg;
+
+    return-object v0
+.end method

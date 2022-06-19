@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.google.android.material.checkbox.MaterialCheckBox android:id="@id/enabled" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:text="Enabled" />
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Price">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/price" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Price Currency Code">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/priceCurrencyCode" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Price amount micros (x1000000)">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/priceAmountMicros" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.truecaller.premium.util.DebugPeriodView android:id="@id/freeTrialPeriod" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Introductory price">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/introductoryPrice" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Introductory price amount micros (x1000000)">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/introductoryPriceAmountMicros" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Introductory Period Cycles">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/introductoryPeriodCycles" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="numberDecimal" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.truecaller.premium.util.DebugPeriodView android:id="@id/introductoryPeriod" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

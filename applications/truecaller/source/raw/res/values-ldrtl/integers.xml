@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="drawer_layout_shadow_gradient_angle">180</integer>
+    <integer name="image_flip_scale_factor">-1</integer>
+</resources>

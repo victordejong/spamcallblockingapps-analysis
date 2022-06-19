@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:tag="layout/debug_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/llActivity">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontMedium" android:id="@id/tvInfo" android:text="Info" style="@style/textViewStyle" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

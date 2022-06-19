@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/compound_button_call" />
+    <include layout="@layout/divider" />
+    <include layout="@layout/compound_button_message" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/darkgrey_fontcolor" android:textColorLink="@color/image_bg" android:ellipsize="none" android:gravity="center_vertical" android:id="@id/message_blocking" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/messageBlockingAttention" />
+    <include layout="@layout/divider" />
+    <RelativeLayout android:layout_gravity="top" android:id="@id/blocking_block" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <TextView android:gravity="left" android:id="@id/how_to_block" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/howToBlock" android:layout_centerVertical="true" style="@style/ListItemTextTitle" />
+        <ImageView android:id="@id/next_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/ic_next" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/detail" />
+        <TextView android:gravity="right" android:id="@id/how_to_block_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/howToBlockText" android:layout_toLeftOf="@id/next_arrow" android:layout_centerVertical="true" style="@style/ListItemTextSecondLine" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>OTP</item>
+        <item>Transaksyon</item>
+        <item>Iba pa</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>ene</item>
+        <item>peb</item>
+        <item>mar</item>
+        <item>abr</item>
+        <item>may</item>
+        <item>hun</item>
+        <item>hul</item>
+        <item>ago</item>
+        <item>set</item>
+        <item>okt</item>
+        <item>nob</item>
+        <item>dis</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Mag-login sa %s</item>
+        <item>Mag-signup gamit ang %s</item>
+        <item>Mag-sign In sa %s</item>
+        <item>Beripikahin ang numero gamit ang %s</item>
+        <item>Magrehistro gamit ang %s</item>
+        <item>Magsimula gamit ang %s</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>Tawag</item>
+        <item>Tignan ang profile</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>Mahalaga ito</item>
+        <item>Pasensya na</item>
+        <item>Nasaan ka?</item>
+        <item>Mayroon akong tanong</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>isa</item>
+        <item>dalawa</item>
+        <item>tatlo</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>Hello 👋, Apurahan ito 🚨</item>
+        <item>Hello 👋 Handa na ang iyong order!</item>
+        <item>Libre ka ba ngayon? Nasa ibaba ako!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Naka-silent</item>
+        <item>Mag-vibrate lang</item>
+        <item>Tunog lang</item>
+        <item>Tunog at I-vibrate</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>Gumamit ng Flash kapag gusto mo ng siguradong sagot sa loob ng isang minuto</item>
+        <item>Gamitin ang Flash para sa mga mahalagang bagay na kailangan mong sabihin nang mabilis</item>
+        <item>Alam mo ba: Maaari mong ibahagi ang iyong lokasyon nang mabilis sa pag-tap lang</item>
+        <item>Tip: Magpadala ng Emoji o i-type ang text para ipahayag ang sarili mo</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>Ayusin ayon sa pangalan</item>
+        <item>Ayusin ayon sa apelyido</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>Na-save</item>
+        <item>Nakilala</item>
+    </string-array>
+</resources>

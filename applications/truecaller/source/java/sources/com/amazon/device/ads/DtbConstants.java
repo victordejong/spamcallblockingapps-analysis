@@ -1,0 +1,52 @@
+package com.amazon.device.ads;
+
+import com.huawei.updatesdk.service.otaupdate.UpdateKey;
+import java.util.Arrays;
+import java.util.List;
+/* loaded from: classes-dex2jar.jar:com/amazon/device/ads/DtbConstants.class */
+public class DtbConstants {
+    public static final long ADMOB_REQUESTID_MAP_CLEAR_INTERVAL = 300000;
+    public static final String AD_TRACKING_ENABLED = "ad-tracking";
+    public static final String AMAZON_MOBILE = "amazonmobile";
+    public static final long CONFIG_CHECKIN_INTERVAL = 172800000;
+    public static final int DTB_BETA = 3;
+    public static final String DTB_CONFIG_ENDPOINT = "mads.amazon-adsystem.com";
+    public static final String DTB_CONFIG_PATH = "/msdk/getConfig";
+    public static final int DTB_DOMAIN = 1;
+    public static final int DTB_GAMMA = 2;
+    public static final int DTB_PROD = 1;
+    public static final String DTB_WEB_RESOURCES = "c.amazon-adsystem.com/";
+    public static final int FIREOS_ADTRACKING_NOT_LIMITED = 0;
+    public static final String GPS_AVAILABLE_SETTING = "gps-available";
+    public static final String HTTP = "http://";
+    public static final String HTTPS = "https://";
+    public static final String IABCONSENT_CONSENT_STRING = "IABConsent_ConsentString";
+    public static final String IABCONSENT_SUBJECT_TO_GDPR = "IABConsent_SubjectToGDPR";
+    public static final String IABTCF_GDPR_APPLIES = "IABTCF_gdprApplies";
+    public static final String IABTCF_TC_STRING = "IABTCF_TCString";
+    public static final int INTERSTITIAL_HEIGHT = 9999;
+    public static final int INTERSTITIAL_WIDTH = 9999;
+    public static final String MDTB_NOT_INITIALIZED = "mDTB was not initialized, please use AdRegistration.getInstance(...) before using other SDK calls";
+    public static final int MEDIATION_ENCODED_PRICE_POINT_LENGTH = 8;
+    public static final String NETWORK_TYPE_LTE = "13";
+    public static final String NETWORK_TYPE_UNKNOWN = "0";
+    public static final String NETWORK_TYPE_WIFI = "Wifi";
+    public static final String SDK_DISTRIBUTION_KEY_NAME = "distribution";
+    public static final String SDK_DISTRIBUTION_MARKER_WITH_JSON = "aps_distribution_marker.json";
+    public static final String SDK_NAME = "Amazon DTB Ads API";
+    public static final String SDK_VERSION = "9.2.1";
+    public static final String SDK_VERSION_PREFIX = "aps-android";
+    public static final long SIS_CHECKIN_INTERVAL = 86400000;
+    public static final long SIS_PING_INTERVAL = 2592000000L;
+    public static final String SIS_SERVER_PATH = "/api3";
+    public static final String adServerPath = "/e/msdk/ads";
+    public static final String adVideoServerPath = "/e/vsdk/ads";
+    public static final String generatePath = "/generate_did";
+    public static final String pingPath = "/ping";
+    public static final String sisEndPoint = "s.amazon-adsystem.com/api3";
+    public static final String updatePath = "/update_dev_info";
+    public static final List<String> BLACK_LIST = Arrays.asList(UpdateKey.STATUS, "errorCode", "instrPixelURL");
+    public static String AAX_HOSTNAME = "aax-us.amazon-adsystem.com";
+    public static String AAX_ROUTE53_ENABLED_CNAME = "aax.amazon-adsystem.com";
+    public static String SIS_END_POINT = "s.amazon-adsystem.com";
+}

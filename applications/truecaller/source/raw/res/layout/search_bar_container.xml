@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/toolbar_container" android:layout_width="fill_parent" android:layout_height="@dimen/search_toolbar_height" android:layout_marginTop="@dimen/control_space" android:layout_marginBottom="@dimen/control_semi_space" android:layout_marginStart="@dimen/control_doublespace" android:layout_marginEnd="@dimen/control_doublespace" android:transitionName="searchToolbar" app:cardElevation="@dimen/search_bar_elevation" app:layout_scrollFlags="enterAlways|scroll|snap" style="@style/StyleX.Card"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/search_bar" />
+    <ImageView android:layout_gravity="center" android:id="@id/searchBarLogo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="16.0dip" android:contentDescription="@null" app:srcCompat="@drawable/ic_truecaller_logo_white" app:tint="?tcx_textSecondary" />
+</androidx.cardview.widget.CardView>

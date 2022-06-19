@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/ContainerWrapStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView android:id="@id/settingsLanguageContainer" style="@style/Widget.Truecaller.CardView">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.truecaller.ui.components.ComboBase android:id="@id/settingsLanguage" android:background="?selectableItemBackground" android:text="@string/SettingsGeneralLanguage" style="@style/TCComboBox" />
+            <com.truecaller.ui.components.ComboBase android:id="@id/settingsT9Language" android:background="?selectableItemBackground" android:text="@string/pref_title_t9_lang" style="@style/TCComboBox" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

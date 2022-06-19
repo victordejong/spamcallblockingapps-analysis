@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?tcx_textSecondary" android:id="@id/message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/doubleSpace" android:text="@string/ConversationUndoTipMessage" android:includeFontPadding="false" style="@style/StyleX.Text.Body.B1" />
+    <ImageView android:id="@id/undo_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_undo_tip" android:layout_below="@id/message_text" android:contentDescription="@string/ConversationMessageUndo" />
+    <FrameLayout android:id="@id/message_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:layout_alignTop="@id/undo_button" android:layout_alignBottom="@id/undo_button" android:layout_marginStart="@dimen/space" android:layout_toEndOf="@id/undo_button">
+        <TextView android:textColor="?tcx_messageOutgoingSmsText" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/message_vertical_padding" android:layout_marginBottom="@dimen/message_vertical_padding" android:text="@string/ConversationUndoTipPlaceholder" android:layout_marginStart="@dimen/message_horizontal_padding" android:layout_marginEnd="@dimen/message_horizontal_padding" style="@style/MessageBubble.Outgoing.Text" />
+    </FrameLayout>
+</RelativeLayout>

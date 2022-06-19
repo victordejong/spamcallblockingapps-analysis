@@ -1,0 +1,8 @@
+{
+  "baseFilterNames": [
+    "GRM_BANK",
+    "GRM_DELIVERY",
+    "GRM_TRAVEL",
+    "GRM_BILL"
+  ]
+}

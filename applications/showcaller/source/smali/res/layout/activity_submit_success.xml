@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/header_left_about" android:background="?card_foreground" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ic_back" android:contentDescription="@string/back" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" app:tint="?icon_color_white" />
+        <TextView android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/suggest_submit" android:layout_marginStart="8.0dip" style="@style/headerbar_text_style" />
+    </LinearLayout>
+    <FrameLayout android:background="?color_ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="@drawable/tab" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv" android:layout_width="67.0dip" android:layout_height="68.0dip" android:layout_marginTop="53.0dip" android:src="@drawable/success" />
+            <TextView android:textSize="18.0sp" android:textColor="?color_action" android:id="@id/tv_submit_success" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/submit_success" />
+            <TextView android:textSize="16.0sp" android:textColor="?color_666666" android:gravity="center" android:id="@id/tv_submit_success_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:text="@string/submit_success_tip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

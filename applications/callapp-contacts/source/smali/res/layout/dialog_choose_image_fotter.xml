@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/footer_viewStub" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/footer_divider" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="@dimen/dimen_5_dp" android:layout_marginRight="@dimen/dimen_5_dp" />
+    <TextView android:textSize="12.0dip" android:gravity="center" android:layout_gravity="center" android:id="@id/footer_dialog_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_20_dp" android:text="@string/upload_portrait" />
+    <ImageView android:layout_gravity="center" android:id="@id/footer_dialog_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_12_dp" android:layout_marginBottom="@dimen/dimen_24_dp" />
+</LinearLayout>

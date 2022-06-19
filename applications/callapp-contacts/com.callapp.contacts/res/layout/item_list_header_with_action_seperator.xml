@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/seperatorHeaderLayout" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/listHeaderTopPadding" android:paddingBottom="@dimen/listHeaderBottomPadding" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:gravity="center|left" android:id="@id/listHeaderText" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/Body1.Subtitle" />
-        <TextView android:gravity="center|left" android:id="@id/listHeaderAction" android:background="@drawable/ripple_or_holo" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/Caption.List_header_action_text" />
-    </LinearLayout>
-    <include layout="@layout/include_divider" />
-</LinearLayout>

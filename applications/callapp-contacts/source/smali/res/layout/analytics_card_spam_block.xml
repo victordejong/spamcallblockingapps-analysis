@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/spam_layout" android:padding="@dimen/dimen_8_dp" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/dimen_8_dp" android:layout_weight="1.0">
+        <ImageView android:id="@id/img_spam" android:layout_width="@dimen/dimen_36_dp" android:layout_height="@dimen/dimen_36_dp" android:layout_marginRight="@dimen/dimen_8_dp" android:src="@drawable/ic_a_block" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@id/title_spam" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/img_spam" />
+        <TextView android:textSize="13.0sp" android:id="@id/sub_title_spam" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/img_spam" android:layout_below="@id/title_spam" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16_dp" android:layout_below="@id/img_spam" android:layout_alignParentBottom="true">
+            <TextView android:textSize="50.0sp" android:textStyle="bold" android:textColor="@color/analytics_block" android:id="@id/spam_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_4_dp" android:layout_marginRight="@dimen/dimen_6_dp" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/spam_graph_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/spam_percentage_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_4_dp" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/white_callapp" android:id="@id/spam_percentage" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <ImageView android:id="@id/spam_graph" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_4_dp" android:src="@drawable/img_graph_plh_down_01" android:tint="@color/alert" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="@color/secondary_text_color" android:layout_gravity="center_vertical" android:id="@id/spam_empty_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/block_layout" android:padding="@dimen/dimen_8_dp" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/block_img" android:layout_width="@dimen/dimen_36_dp" android:layout_height="@dimen/dimen_36_dp" android:layout_marginRight="@dimen/dimen_8_dp" android:src="@drawable/ic_a_spam" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white_callapp" android:id="@id/title_block" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/block_img" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/white_callapp" android:id="@id/sub_title_block" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/block_img" android:layout_below="@id/title_block" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_16_dp" android:layout_below="@id/block_img" android:layout_alignParentBottom="true">
+            <TextView android:textSize="50.0sp" android:textStyle="bold" android:textColor="@color/white_callapp" android:id="@id/block_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_4_dp" android:layout_marginRight="@dimen/dimen_6_dp" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/block_graph_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/block_percentage_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_4_dp" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/white_callapp" android:id="@id/block_percentage" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <ImageView android:id="@id/block_graph" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_4_dp" android:src="@drawable/img_graph_plh_down_01" android:tint="@color/white_callapp" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:textColor="@color/white_callapp" android:layout_gravity="center_vertical" android:id="@id/block_empty_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

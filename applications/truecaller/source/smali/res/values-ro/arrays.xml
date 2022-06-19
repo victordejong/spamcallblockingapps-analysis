@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>OTP</item>
+        <item>Tranzacție</item>
+        <item>Altele</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>ian</item>
+        <item>feb</item>
+        <item>mar</item>
+        <item>apr</item>
+        <item>mai</item>
+        <item>iun</item>
+        <item>iul</item>
+        <item>aug</item>
+        <item>sep</item>
+        <item>oct</item>
+        <item>noi</item>
+        <item>dec</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Conectare la %s</item>
+        <item>Înregistrează-te cu %s</item>
+        <item>Conectează-te cu %s</item>
+        <item>Verifică numărul cu %s</item>
+        <item>Înregistrează-te cu %s</item>
+        <item>Începe cu %s</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>Apelează</item>
+        <item>Vezi profil</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>Este important</item>
+        <item>Ne pare rău</item>
+        <item>Unde ești?</item>
+        <item>Am o întrebare</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>unu</item>
+        <item>doi</item>
+        <item>trei</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>Bună 👋, este urgent 🚨</item>
+        <item>Bună 👋 comanda ta este gata!</item>
+        <item>Ești liber(ă) acum? Sunt jos!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Silențios</item>
+        <item>Doar vibrații</item>
+        <item>Doar sunet</item>
+        <item>Sunet și vibrații</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>Folosește Flash când vrei să te asiguri că primești imediat un răspuns</item>
+        <item>Folosește Flash pentru lucrurile importante pe care vrei să le transmiți rapid</item>
+        <item>Știai că: poți să-ți partajezi rapid locația cu doar o atingere</item>
+        <item>Recomandare: trimite emoji sau scrie un text pentru a te exprima</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>Sortează în funcție de prenume</item>
+        <item>Sortează în funcție de nume</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>Salvat</item>
+        <item>Identificat</item>
+    </string-array>
+</resources>

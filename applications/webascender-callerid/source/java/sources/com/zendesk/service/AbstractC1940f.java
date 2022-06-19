@@ -1,0 +1,8 @@
+package com.zendesk.service;
+/* renamed from: com.zendesk.service.f */
+/* loaded from: classes2-dex2jar.jar:com/zendesk/service/f.class */
+public abstract class AbstractC1940f<T> {
+    public abstract void onError(AbstractC1939a abstractC1939a);
+
+    public abstract void onSuccess(T t);
+}

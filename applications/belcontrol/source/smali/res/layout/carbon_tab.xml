@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.RelativeLayout android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" app:carbon_rippleColor="?carbon_rippleColor"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="1.0sp" android:id="@id/carbon_marker" android:layout_width="1.0dip" android:layout_height="1.0dip" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true" />
+    <carbon.widget.TextView android:textSize="14.0sp" android:textColor="@drawable/carbon_tab_text" android:gravity="center" android:id="@id/carbon_tabText" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBaseline="@id/carbon_marker" app:carbon_fontPath="carbon/Roboto-Medium.ttf" />
+</carbon.widget.RelativeLayout>

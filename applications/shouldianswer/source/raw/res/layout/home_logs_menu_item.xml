@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/home_logs_menu_item_0" android:paddingLeft="@dimen/spaceSmall" android:paddingTop="@dimen/spaceBiggest" android:paddingRight="@dimen/spaceSmall" android:paddingBottom="@dimen/spaceBiggest" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ToggleButton android:id="@id/butFilterShowAll" android:padding="@dimen/spaceSmall" android:checked="true" android:textOn="@string/logs_filter_all" android:textOff="@string/logs_filter_all" android:contentDescription="@string/logs_filter_all_accessibility" style="@style/logsMenuButtonMiddle" />
+    <ToggleButton android:id="@id/butFilterShowUnfamiliar" android:padding="@dimen/spaceSmall" android:textOn="@string/logs_filter_unfamiliar" android:textOff="@string/logs_filter_unfamiliar" android:contentDescription="@string/logs_filter_unfamiliar_accessibility" style="@style/logsMenuButtonMiddle" />
+    <ToggleButton android:id="@id/butFilterShowBlocked" android:padding="@dimen/spaceSmall" android:textOn="@string/logs_filter_blocked" android:textOff="@string/logs_filter_blocked" android:contentDescription="@string/logs_filter_blocked_accessibility" style="@style/logsMenuButtonMiddle" />
+</LinearLayout>

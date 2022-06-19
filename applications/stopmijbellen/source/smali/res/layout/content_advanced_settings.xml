@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_margin_top" android:text="@string/settings_advanced_options" />
+    <View android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/foreground_serviceLL" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_margin_top">
+            <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_settings_black_24dp" android:layout_marginEnd="5.0dip" app:tint="@color/colorDarkGray" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_foreground_service" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/settings_foreground_service" />
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:textColor="@color/colorDarkGray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_foreground_service_description" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/foreground_service_iconLL" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_margin_top">
+        <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_notification" android:layout_marginEnd="5.0dip" app:tint="@color/colorDarkGray" />
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_foreground_service_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/settings_foreground_service_icon" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_margin_top">
+        <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_pin_enter" android:layout_marginEnd="5.0dip" app:tint="@color/colorDarkGray" />
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_pinEntry" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/settings_usePin" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/colorDarkGray" android:id="@id/pinEntryDescriptionTV" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_available_in_pro" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_margin_top">
+        <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_feedbacks" android:layout_marginEnd="5.0dip" app:tint="@color/colorDarkGray" />
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_loadFeedbackNames" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:text="@string/settings_loadFeedbackNames" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/colorDarkGray" android:id="@id/loadFeedbackNamesDescriptionTV" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_available_in_pro" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_margin_top">
+        <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_sym_call_incoming_2_second" android:layout_marginEnd="5.0dip" app:tint="@color/colorDarkGray" />
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_block_second_call" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/settings_block_second_call" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/colorDarkGray" android:id="@id/blockSecondCallTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_block_second_call_description" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_margin_top">
+        <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_sim1" android:layout_marginEnd="5.0dip" app:tint="@color/colorDarkGray" />
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_show_SIM" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:text="@string/settings_show_SIM" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_margin_top">
+        <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/contact_gray_2" android:layout_marginEnd="5.0dip" app:tint="@color/colorDarkGray" />
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_use_alternative_contacts_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:text="@string/settings_use_alterantive_contacts_name" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_margin_top">
+        <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_menu_delete_basecolor" android:layout_marginEnd="5.0dip" app:tint="@color/colorDarkGray" />
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_hide_clear_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/settings_hide_clear_button" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/night" android:layout_marginEnd="5.0dip" app:tint="@color/colorDarkGray" />
+        <androidx.appcompat.widget.SwitchCompat android:enabled="true" android:id="@id/switch_dark_theme" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:text="@string/settings_dark_theme" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_notification_text" android:layout_marginEnd="5.0dip" app:tint="@color/colorDarkGray" />
+        <androidx.appcompat.widget.SwitchCompat android:enabled="true" android:id="@id/switch_notification_text_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:text="@string/settings_notification_text_color" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@id/importExportFrame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_import_export" android:layout_centerVertical="true" android:layout_marginEnd="5.0dip" android:layout_toStartOf="@id/fab_import" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/fab_import" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_import" android:layout_marginEnd="5.0dip" android:layout_toStartOf="@id/fab_export" app:elevation="0.0dip" app:fabSize="mini" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/fab_export" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_export" android:layout_alignParentEnd="true" app:elevation="0.0dip" app:fabSize="mini" />
+    </RelativeLayout>
+    <Button android:textSize="18.0sp" android:textColor="@color/colorWhite" android:id="@id/buttonBuyPro" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/buy_pro_title" android:drawableStart="@drawable/ic_coins_s" style="@style/Widget.AppCompat.Button.Colored" />
+    <include android:id="@id/languageLayout" layout="@layout/content_language" />
+</LinearLayout>

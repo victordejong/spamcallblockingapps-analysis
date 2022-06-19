@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/switchContainer" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/hasNameSwitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Has name" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/hasTransliteratedNameSwitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Has transliterated name" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/hasAltNameSwitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Has alt name" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/hasAboutSwitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Has about" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/hasEmailSwitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Has email" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/isBusinessSwitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Is business" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/isVerifiedBusinessSwitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Is verified business" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/isCredPrivilegeSwitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Is cred privilege" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/hasJobSwitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Has job and company" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/hasNotesSwitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Has notes" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/hasAvatarSwitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Has avatar" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/hasTagSwitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Has tag" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/hasAddressSwitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Has address" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/isPremiumSwitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Is premium" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/isGoldSwitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Is gold" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/isSpamSwitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Is spammer" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/hasSpamReportsSwitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Has spam reports" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/hasSpamCategorySwitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Has spam category" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/isPrioritySwitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Is priority" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/isVerifiedSwitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Is verified" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/useLongText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Use long text" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/showAd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Show ad" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/showTimezone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Show timezone" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/hasSearchWarnings" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Has search warnings" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/hasSearchWarningsMessage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Has search warnings message" style="@style/StyleX.Switch" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/isPhonebookContact" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Is a phonebook contact" style="@style/StyleX.Switch" />
+        </LinearLayout>
+    </ScrollView>
+    <Button android:id="@id/openDetailsView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="Open Details View" style="@style/StyleX.Button.Small.Primary" />
+</LinearLayout>

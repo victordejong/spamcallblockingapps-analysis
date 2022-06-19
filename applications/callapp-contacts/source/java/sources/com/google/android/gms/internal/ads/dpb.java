@@ -1,0 +1,6 @@
+package com.google.android.gms.internal.ads;
+/* loaded from: classes3-dex2jar.jar:com/google/android/gms/internal/ads/dpb.class */
+interface dpb {
+    /* renamed from: a */
+    Object mo16204a(Object obj);
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/emptyState" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/mark_important_empty_state_row" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rowItemList" android:paddingBottom="@dimen/fab_content_padding_list" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

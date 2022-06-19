@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="governing_contact">
+        <item quantity="other">контактам</item>
+        <item quantity="one">контакту</item>
+    </plurals>
+    <plurals name="governing_rule">
+        <item quantity="other">правилам</item>
+        <item quantity="one">правилу</item>
+    </plurals>
+    <plurals name="lookups_left">
+        <item quantity="other">Осталось кредитов: %1$s</item>
+        <item quantity="one">Остался один кредит</item>
+    </plurals>
+    <plurals name="msg_multi_recipient_adapter">
+        <item quantity="other">%1$s+%2$d другие</item>
+        <item quantity="one">%1$s+%2$d другой</item>
+    </plurals>
+    <plurals name="msg_multi_recipient_title">
+        <item quantity="other">%d получатели</item>
+        <item quantity="one">%d получатель</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нового сповіщення</item>
+        <item quantity="one">%d нове сповіщення</item>
+        <item quantity="few">%d нові сповіщення</item>
+        <item quantity="many">%d нових сповіщень</item>
+    </plurals>
+</resources>

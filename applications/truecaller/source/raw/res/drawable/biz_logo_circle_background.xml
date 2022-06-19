@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/bizLogoSize" android:width="@dimen/bizLogoSize" />
+    <solid android:color="?tcx_avatarBackgroundBlue" />
+    <corners android:radius="@dimen/bizLogoRadius" />
+</shape>

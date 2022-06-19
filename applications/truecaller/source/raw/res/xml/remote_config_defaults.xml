@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>data_offline_db_version</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>data_offline_db_url</key>
+        <value />
+    </entry>
+    <entry>
+        <key>df_host</key>
+        <value>www.tcendpoint.net</value>
+    </entry>
+    <entry>
+        <key>df_countries</key>
+        <value>SA,AE,OM,IR,SY,KW,SD,PK</value>
+    </entry>
+    <entry>
+        <key>valueCallLogPromoCoolOffDays</key>
+        <value>2</value>
+    </entry>
+    <entry>
+        <key>valueAfterCallCoolOffDays</key>
+        <value>15</value>
+    </entry>
+    <entry>
+        <key>valueCallLogPromoDismissedCount_8548</key>
+        <value>2</value>
+    </entry>
+    <entry>
+        <key>valueCallLogPromoShownCount_8548</key>
+        <value>4</value>
+    </entry>
+    <entry>
+        <key>valueCallerIdCallTimeout_35719</key>
+        <value>8000</value>
+    </entry>
+    <entry>
+        <key>opDeviceBlackList</key>
+        <value>vivo,vivo</value>
+    </entry>
+    <entry>
+        <key>onBoardingPermissionExperiment_10975</key>
+        <value>dialerPermission</value>
+    </entry>
+    <entry>
+        <key>PayHomeScreenVariant</key>
+        <value>default</value>
+    </entry>
+    <entry>
+        <key>featureBackup_22602</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>featureRegionCConsent_TP_9508</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>featureRegionCPrivacyCenter_TP_9508</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>featureInCallUIShowOnAppStart_23229</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>payFaqUrl_23411</key>
+        <value>https://support.truecaller.com/hc/en-us/categories/115000440245-Payments</value>
+    </entry>
+    <entry>
+        <key>payTermsUrl_23435</key>
+        <value>https://support.truecaller.com/hc/en-us/articles/360001677057-Terms-and-Conditions</value>
+    </entry>
+    <entry>
+        <key>inCallUIPromo_25297</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>inCallUIBannerIntervalHours_25333</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>inCallUIFeatureWatchDog_22975</key>
+        <value>{"disableAfterFailureDuration":0,"enabled":false,"listenMultiSimDevices":false,"maxFailureCount":0}</value>
+    </entry>
+    <entry>
+        <key>groupVoipBannerIntervalHours_32261</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>videoCallerIdBannerIntervalDays_33496</key>
+        <value>30</value>
+    </entry>
+    <entry>
+        <key>creditHomeTabBannerIntervalHours_28605</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>backupDatabaseFixAttempt_24466</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>callAlertSimSupport_25674</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>adUnitIdList_24075</key>
+        <value> {
+            "version": "16",
+            "adUnitIds": [{
+            "key": "notificationAdUnitId",
+            "value": "/43067329/A*Inbox_1*Native*GPS"
+            },
+            {
+            "key": "callDetailsAdUnitId",
+            "value": "/43067329/A*Detailed_view*Native*GPS"
+            },
+            {
+            "key": "callDetailsUnifiedAdUnitId",
+            "value": "/43067329/A*Detailed_view*Unified*GPS"
+            },
+            {
+            "key": "callDetailsLargeUnifiedAdUnitId",
+            "value": "/43067329/A*Detailed_view_2*Unified*GPS"
+            },
+            {
+            "key": "blockAdUnitId",
+            "value": "/43067329/A*Inbox_1*Native*GPS"
+            },
+            {
+            "key": "blockUnifiedAdUnitId",
+            "value": "/43067329/A*Inbox_1*Unified*GPS"
+            },
+            {
+            "key": "afterCallLargeBannerAdUnitId",
+            "value": "/43067329/A*ACS*Banner*320x100*GPS"
+            },
+            {
+            "key": "callLogAdUnitId",
+            "value": "/43067329/A*Inbox_1*Native*GPS"
+            },
+            {
+            "key": "callLogFallbackAdUnitId",
+            "value": "/43067329/A*Inbox_1*Unified*GPS"
+            },
+            {
+            "key": "numberOrNameSearchAdUnitId",
+            "value": "/43067329/A*Dummy*AdUnit"
+            },
+            {
+            "key": "historyAdUnitId",
+            "value": "/43067329/A*Search_history*Native*GPS"
+            },
+            {
+            "key": "contactsAdUnitId",
+            "value": "/43067329/A*Inbox_1*Native*GPS"
+            },
+            {
+            "key": "inboxAdUnitId",
+            "value": "/43067329/A*Inbox_1*Native*GPS"
+            },
+            {
+            "key": "inboxFallbackAdUnitId",
+            "value": "/43067329/A*Inbox_1*Unified*GPS"
+            },
+            {
+            "key": "spamMsgAdUnitId",
+            "value": "/43067329/A*Spam*Unified*GPS"
+            },
+            {
+            "key": "promotionMsgAdUnitId",
+            "value": "/43067329/A*Promotions*Unified*GPS"
+            },
+            {
+            "key": "blockUpdateAdUnitId",
+            "value": "/43067329/A*Block_Update_2*Native*GPS"
+            },
+            {
+            "key": "afterCallUnifiedAdUnitId",
+            "value": "/43067329/A*ACS*Unified*GPS"
+            },
+            {
+            "key": "afterCallCachingAdUnitId",
+            "value": "/43067329/A*ACS*Unified*GPS"
+            },
+            {
+            "key": "afterCallPhoneBookUnifiedAdUnitId",
+            "value": "/43067329/A*ACS*Unified*GPS"
+            },
+            {
+            "key": "afterCallFbDirectAdUnitId",
+            "value": "126694440681943_5118184101532927"
+            },
+            {
+            "key": "afterCallOfflineAdUnitId",
+            "value": "/43067329/A*ACS*Unified*GPS_Offline"
+            }
+            ]
+            } </value>
+    </entry>
+    <entry>
+        <key>featureDefaultDialer_27149</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>fullscreenAcsConfig_26137</key>
+        <value>{
+            "UNLK_PB_IC_ACCEPT": "DO_NOTHING",
+            "UNLK_PB_IC_DISMISS": "DO_NOTHING",
+            "UNLK_PB_IC_DISMISS_NOTF": "DO_NOTHING",
+            "UNLK_PB_OG": "DO_NOTHING",
+            "UNLK_PB_MISSED": "DO_NOTHING",
+            "LK_PB_IC_ACCEPT": "DO_NOTHING",
+            "LK_PB_IC_DISMISS": "DO_NOTHING",
+            "LK_PB_OG": "DO_NOTHING",
+            "LK_PB_MISSED": "DO_NOTHING",
+            "UNLK_IDENTIFIED_IC_ACCEPT": "FACS",
+            "UNLK_IDENTIFIED_IC_DISMISS": "FACS",
+            "UNLK_IDENTIFIED_IC_DISMISS_NOTF": "DO_NOTHING",
+            "UNLK_IDENTIFIED_OG": "FACS",
+            "UNLK_IDENTIFIED_MISSED": "FACS",
+            "LK_IDENTIFIED_IC_ACCEPT": "DO_NOTHING",
+            "LK_IDENTIFIED_IC_DISMISS": "DO_NOTHING",
+            "LK_IDENTIFIED_OG": "DO_NOTHING",
+            "LK_IDENTIFIED_MISSED": "DO_NOTHING",
+            "UNLK_UNRES_IC_ACCEPT": "DO_NOTHING",
+            "UNLK_UNRES_IC_DISMISS": "DO_NOTHING",
+            "UNLK_UNRES_IC_DISMISS_NOTF": "DO_NOTHING",
+            "UNLK_UNRES_OG": "DO_NOTHING",
+            "UNLK_UNRES_MISSED": "DO_NOTHING",
+            "LK_UNRES_IC_ACCEPT": "DO_NOTHING",
+            "LK_UNRES_IC_DISMISS": "DO_NOTHING",
+            "LK_UNRES_OG": "DO_NOTHING",
+            "LK_UNRES_MISSED": "DO_NOTHING"
+            } </value>
+    </entry>
+    <entry>
+        <key>creditWhatsNewConfig_27570</key>
+        <value>{"enabled":false,"periodDays":7,"minimumSalary":"30,000"}</value>
+    </entry>
+    <entry>
+        <key>dualSimOperatorInfo_29013</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>operatorInfoDisplayNameAPI_33420</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>wizardContactSupport_28661</key>
+        <value>{
+            "countries": [],
+            "messages": []
+            } </value>
+    </entry>
+    <entry>
+        <key>driveAccountRecovery_TP_9030</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>wizardDisableNumberLogic_31288</key>
+        <value />
+    </entry>
+    <entry>
+        <key>verificationDCRejectionDelay_32092</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>logVerificationInternalEvents_31802</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>wizardSimRead_31202</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>wizardPrePopulatePhoneNumber_38178</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>wizardPhoneNumberProviderConfig_38745</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>bizVerifiedFeedbackQuestion_32942</key>
+        <value>{
+            "questionId": 1
+            "question": "Was this call relevant to you?"
+            } </value>
+    </entry>
+    <entry>
+        <key>dualNumberPromoDisplay_32584</key>
+        <value>{
+            "isEnabled":true,
+            "intervalDays":3,
+            "maxDismissCount":3
+            } </value>
+    </entry>
+    <entry>
+        <key>featureRegionZaConsent_34471</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>featureRegionBrConsent_35981</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>featureWorkManagerLog_38345</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>featureCountryUtilNonBlocking_38907</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>checkInternetCallerIdSearch_35839</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>nudgeToSendAsSmsXMinutesAfterDelivery_35722</key>
+        <value>60</value>
+    </entry>
+    <entry>
+        <key>nudgeToSendAsSmsXMinutesAfterSent_35722</key>
+        <value>720</value>
+    </entry>
+    <entry>
+        <key>sendOnboardingOtpV3_TP_15512</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>featureCallerIdBannerVariant_38706</key>
+        <value>Control</value>
+    </entry>
+</defaultsMap>

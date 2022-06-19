@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">%d numara engellenip spam olarak bildirilsin mi?</item>
+        <item quantity="one">%d numara engellenip spam olarak bildirilsin mi?</item>
+    </plurals>
+    <plurals name="ConversationCallsHistoryCount">
+        <item quantity="other">%d arama</item>
+        <item quantity="one">%d arama</item>
+    </plurals>
+    <plurals name="ConversationFlashHistoryCount">
+        <item quantity="other">%d Flash mesajı</item>
+        <item quantity="one">%d Flash mesajı</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">Mesaj, Önemli sekmesine eklendi</item>
+        <item quantity="one">Mesaj, Önemli sekmesine eklendi</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d konuşma okundu olarak işaretlendi</item>
+        <item quantity="one">%d konuşma okundu olarak işaretlendi</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">%d giriş silindi</item>
+        <item quantity="one">%d giriş silindi</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">%d giriş silinsin mi?</item>
+        <item quantity="one">Giriş silinsin mi?</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">Konuşma tutturuldu</item>
+        <item quantity="one">Konuşma tutturuldu</item>
+    </plurals>
+    <plurals name="ConversationReportNotSpamConfirmation">
+        <item quantity="other">%d mesajın spam olmadığı bildirildi</item>
+        <item quantity="one">%d mesajın spam olmadığı bildirildi</item>
+    </plurals>
+    <plurals name="ConversationReportSpamConfirmation">
+        <item quantity="other">%d mesaj spam olarak bildirildi</item>
+        <item quantity="one">%d mesaj spam olarak bildirildi</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">Kişileri kaydet</item>
+        <item quantity="one">@string/ConversationSaveContact</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">Konuşma çıkarıldı</item>
+        <item quantity="one">Konuşma çıkarıldı</item>
+    </plurals>
+    <plurals name="DeleteConversationsConfirmation">
+        <item quantity="other">%d konuşma silindi</item>
+        <item quantity="one">%d konuşma silindi</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">%d konuşma silinsin mi?</item>
+        <item quantity="one">%d konuşma silinsin mi?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">%d numara tanımlandı</item>
+        <item quantity="one">%d numara tanımlandı</item>
+    </plurals>
+    <plurals name="HistoryActionConfirmDeleteMessage">
+        <item quantity="other">%d numara silinsin mi?</item>
+        <item quantity="one">%d numara silinsin mi?</item>
+    </plurals>
+    <plurals name="HistoryActionDeleted">
+        <item quantity="other">%d numara silindi</item>
+        <item quantity="one">%d numara silindi</item>
+    </plurals>
+    <plurals name="HistoryActionSelected">
+        <item quantity="other">%d numara seçildi</item>
+        <item quantity="one">%d numara seçildi</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">%d numaranın engelini kaldırmak istediğinizden emin misiniz?</item>
+        <item quantity="one">Bu numaranın engelini kaldırmak istediğinizden emin misiniz?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteCallRecordings">
+        <item quantity="other">%s arama kaydını silmek istediğinden emin misin?</item>
+        <item quantity="one">%s arama kaydını silmek istediğinden emin misin?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">%s dil dosyasını silmek istediğinden emin misin?</item>
+        <item quantity="one">%s dil dosyasını silmek istediğinden emin misin?</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">%d SMS engellendi</item>
+        <item quantity="one">SMS, Truecaller tarafından engellendi</item>
+    </plurals>
+    <plurals name="MessageNotificationNewMessages">
+        <item quantity="other">%1$d tane daha yeni mesaj</item>
+        <item quantity="one">1 tane daha yeni mesaj</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">"%1$s, %2$d saat önce aradı. Truecaller'da açmak için dokunun"</item>
+        <item quantity="one">"%1$s, %2$d saat önce aradı. Truecaller'da açmak için dokunun"</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d kişi</item>
+        <item quantity="one">%d kişi</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d ek dosya</item>
+        <item quantity="one">%1$d ek dosya</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">diğer %d kişi</item>
+        <item quantity="one">diğer %d kişi</item>
+    </plurals>
+    <plurals name="NewImGroupMemberCount">
+        <item quantity="other">%d üye</item>
+        <item quantity="one">%d üye</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">%d numara, engellenenler listesine eklendi</item>
+        <item quantity="one">Numara, engellenenler listesine eklendi</item>
+    </plurals>
+    <plurals name="OSNotificationTextNew">
+        <item quantity="other">%d yeni bildiriminiz var</item>
+        <item quantity="one">Bir yeni bildiriminiz var</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d bloklanmış çağrı</item>
+        <item quantity="one">%d bloklanmış çağrı</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d sessizleştirilmiş çağrı</item>
+        <item quantity="one">%d sessizleştirilmiş çağrı</item>
+    </plurals>
+    <plurals name="PremiumAbbreviatedOfferPriceOverMonth">
+        <item quantity="other">%1$s/ay</item>
+        <item quantity="one">%1$s/ay</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">Sadece yeni abonelere özel %1$d günlük ücretsiz deneme</item>
+        <item quantity="one">Sadece yeni abonelere özel %1$d günlük ücretsiz deneme</item>
+    </plurals>
+    <plurals name="PremiumFeatureContactRequestLeft">
+        <item quantity="other">%1$d istek kaldı</item>
+        <item quantity="one">%1$d istek kaldı</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">%1$d yeni profil görüntülemesi</item>
+        <item quantity="one">1 yeni profil görüntülemesi</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">Son zamanlarda %1$d kişi profilinize baktı</item>
+        <item quantity="one">Son zamanlarda birisi profilinize baktı</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">Kısa süre önce %1$d kişi (%2$s konumundan %3$d kişi) profilinizi görüntüledi</item>
+        <item quantity="one">Kısa süre önce %2$s konumundan birisi profilinizi görüntüledi</item>
+    </plurals>
+    <plurals name="SettingPendingGroupInvitationsMessage">
+        <item quantity="other">Bekleyen %d grup davetiniz var. Hepsini kabul etmek ister misiniz?</item>
+        <item quantity="one">Bekleyen %d grup davetiniz var. Kabul etmek ister misiniz?</item>
+    </plurals>
+    <plurals name="SpamSmsFound">
+        <item quantity="other">%d istenmeyen mesaj bulundu</item>
+        <item quantity="one">%d istenmeyen mesaj bulundu</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByMultiple">
+        <item quantity="other">%1$s ve diğer %2$d kişi, %3$s tarafından gruba davet edildi</item>
+        <item quantity="one">%1$s ve diğer %2$d kişi, %3$s tarafından gruba davet edildi</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByYouMultiple">
+        <item quantity="other">%1$s ve diğer %2$d kişiyi gruba davet ettiniz</item>
+        <item quantity="one">%1$s ve diğer %2$d kişiyi gruba davet ettiniz</item>
+    </plurals>
+    <plurals name="StrPhoneNumberAndMore">
+        <item quantity="other">%1$s &lt;b>+%2$d tane daha&lt;/b></item>
+        <item quantity="one">%1$s &lt;b>+%2$d tane daha&lt;/b></item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">gün</item>
+        <item quantity="one">gün</item>
+    </plurals>
+    <plurals name="StrPluralHour">
+        <item quantity="other">saat</item>
+        <item quantity="one">saat</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">ay</item>
+        <item quantity="one">ay</item>
+    </plurals>
+    <plurals name="StrPluralWeek">
+        <item quantity="other">hafta</item>
+        <item quantity="one">hafta</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">yıl</item>
+        <item quantity="one">yıl</item>
+    </plurals>
+    <plurals name="UnreadConversations">
+        <item quantity="other">%d okunmamış konuşma</item>
+        <item quantity="one">%d okunmamış konuşma</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">Doğrulama hakkı sınırını aştınız. Lütfen %d saat sonra tekrar deneyin</item>
+        <item quantity="one">Doğrulama hakkı sınırını aştınız. Lütfen %d saat sonra tekrar deneyin</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d kişi profilinize baktı</item>
+        <item quantity="one">Birisi profilinize baktı</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d kişi (%2$s ülkesinden 1 kişi) profilinize baktı</item>
+        <item quantity="one">%2$s ülkesinden %1$d kişi profilinize baktı</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d kişi profilinizi görüntüledi. Daha fazla bilgi edinin.</item>
+        <item quantity="one">1 kişi profilinizi görüntüledi. Daha fazla bilgi edinin.</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d kişi (%3$d/%2$s) profilinizi görüntüledi. Daha fazla bilgi edinin.</item>
+        <item quantity="one">%2$s uygulamasından 1 kişi profilinizi görüntüledi. Daha fazla bilgi edinin.</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaption">
+        <item quantity="other">%1$d yeni görüntüleme</item>
+        <item quantity="one">%1$d yeni görüntüleme</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaptionWithLocation">
+        <item quantity="other">%1$d yeni görüntüleme • %3$s adlı kişiden %2$d</item>
+        <item quantity="one">%1$d yeni görüntüleme • %3$s adlı kişiden %2$d</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">reCaptcha birçok kez başarısız oldu. Lütfen %1$d saat sonra tekrar deneyin</item>
+        <item quantity="one">reCaptcha birçok kez başarısız oldu. Lütfen %1$d saat sonra tekrar deneyin</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%s konuşma arşivlendi</item>
+        <item quantity="one">%s konuşma arşivlendi</item>
+    </plurals>
+    <plurals name="biz_govt_contacts_count">
+        <item quantity="other">%1$d kişi</item>
+        <item quantity="one">%1$d kişi</item>
+    </plurals>
+    <plurals name="call_recording_toast_items_deleted">
+        <item quantity="other">%1$d kayıt silindi</item>
+        <item quantity="one">%1$d kayıt silindi</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">OTP mesajı silindi</item>
+        <item quantity="one">OTP mesajı silindi</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">Promosyon mesajları silindi</item>
+        <item quantity="one">Promosyon mesajı silindi</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">İstenmeyen mesaj silindi</item>
+        <item quantity="one">İstenmeyen mesaj silindi</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d mesaj</item>
+        <item quantity="one">%d mesaj</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d OTP</item>
+        <item quantity="one">%d OTP</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_promotional">
+        <item quantity="other">%d promosyon mesajı</item>
+        <item quantity="one">%d promosyon mesajı</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d istenmeyen mesaj</item>
+        <item quantity="one">%d istenmeyen mesaj</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d mesaj silindi</item>
+        <item quantity="one">%d mesaj silindi</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">Davet</item>
+        <item quantity="one">Davet</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="other">%d gün içinde</item>
+        <item quantity="one">yarın</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="other">%d saat içinde</item>
+        <item quantity="one">1 saat içinde</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="other">%d dakika içinde</item>
+        <item quantity="one">1 dak. içinde</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="other">%d saniye içinde</item>
+        <item quantity="one">1 san. içinde</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="other">%d gün önce</item>
+        <item quantity="one">dün</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="other">%d saat önce</item>
+        <item quantity="one">1 saat önce</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="other">%d dakika önce</item>
+        <item quantity="one">1 dak. önce</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="other">%d saniye önce</item>
+        <item quantity="one">1 saniye önce</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">1 saat</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="other">%d dakika</item>
+        <item quantity="one">1 dakika</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="other">%d saniye</item>
+        <item quantity="one">1 saniye</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="other">%d gün içinde</item>
+        <item quantity="one">yarın</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="other">%d saat içinde</item>
+        <item quantity="one">1 saat içinde</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="other">%d dakika içinde</item>
+        <item quantity="one">1 dakika içinde</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="other">%d saniye içinde</item>
+        <item quantity="one">1 saniye içinde</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="other">%d gün önce</item>
+        <item quantity="one">dün</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="other">%d saat önce</item>
+        <item quantity="one">1 saat önce</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="other">%d dakika önce</item>
+        <item quantity="one">1 dakika önce</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="other">%d saniye önce</item>
+        <item quantity="one">1 saniye önce</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">Seçili dosyaları ve ilgili %d mesajı silmek üzeresiniz</item>
+        <item quantity="one">Seçili dosyaları ve ilgili mesajı silmek üzeresiniz</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">Mesajlar silinsin mi?</item>
+        <item quantity="one">Mesaj silinsin mi?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d yeni bildirim</item>
+        <item quantity="one">%d yeni bildirim</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">arkadaş</item>
+        <item quantity="one">arkadaş</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">günler</item>
+        <item quantity="one">gün</item>
+    </plurals>
+    <plurals name="spam_counts">
+        <item quantity="other">%d spam raporu</item>
+        <item quantity="one">%d spam raporu</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">%s konuşma arşivden çıkarıldı</item>
+        <item quantity="one">%s konuşma arşivden çıkarıldı</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">mesaj alındı</item>
+        <item quantity="one">mesaj alındı</item>
+    </plurals>
+    <plurals name="voip_group_launcher_person">
+        <item quantity="other">katılımcı</item>
+        <item quantity="one">katılımcı</item>
+    </plurals>
+    <plurals name="voip_notification_missed_grouped_title">
+        <item quantity="other">%1$s arama kaçırıldı</item>
+        <item quantity="one">%1$s arama kaçırıldı</item>
+    </plurals>
+    <plurals name="voip_notification_title_other">
+        <item quantity="other">diğer %1$s kişi</item>
+        <item quantity="one">diğer %1$s kişi</item>
+    </plurals>
+</resources>

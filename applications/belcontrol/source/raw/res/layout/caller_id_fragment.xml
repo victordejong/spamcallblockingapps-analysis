@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/frameLayout5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/topNav" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/top_nav" />
+    <androidx.core.widget.NestedScrollView android:layout_width="0.0dip" android:layout_height="0.0dip" android:fillViewport="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/topNav">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rvCallBlocking" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            <TextView android:textColor="@color/colorPrimary" android:id="@id/advanced_header" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="@string/block_report_advanced_btn" android:textAllCaps="true" android:fontFamily="@font/google_sans_medium" android:layout_marginStart="24.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/advanced_items" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <include android:id="@id/displayOverApps" layout="@layout/call_blocking_item" />
+                <include android:id="@id/customCallScreenTheme" android:visibility="gone" layout="@layout/call_blocking_item" />
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip">
+                    <include android:id="@id/themeApp" layout="@layout/call_blocking_item" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

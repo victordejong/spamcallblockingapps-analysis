@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/bottomActionsContainerWithShadow" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/shadow_top" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <com.callapp.contacts.widget.sticky.StickyIncognitoView android:id="@id/sticky_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bottomActionsContainer" android:paddingLeft="@dimen/dimen_8_dp" android:paddingTop="@dimen/dimen_1_dp" android:paddingRight="@dimen/dimen_8_dp" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_action_bar_expanded_height" />
+</LinearLayout>

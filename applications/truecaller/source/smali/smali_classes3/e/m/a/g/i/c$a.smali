@@ -1,0 +1,22 @@
+.class public interface abstract Le/m/a/g/i/c$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Le/m/a/g/i/c;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "a"
+.end annotation
+
+
+# virtual methods
+.method public abstract b(Landroid/graphics/Canvas;)V
+.end method
+
+.method public abstract d()Z
+.end method

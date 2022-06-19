@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.common.ui.imageview.GoldShineImageView android:id="@id/icon" android:background="@drawable/action_button_ripple" android:padding="16.0dip" android:layout_width="56.0dip" android:layout_height="56.0dip" app:layout_constraintBottom_toTopOf="@id/text" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" />
+    <TextView android:gravity="center" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/icon" app:layout_constraintStart_toStartOf="@id/icon" app:layout_constraintTop_toBottomOf="@id/icon" app:layout_constraintVertical_chainStyle="packed" style="@style/StyleX.Text.Caption" />
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/primaryIcon" android:background="@drawable/drawable_circle_background_infocard" android:layout_width="@dimen/dp36" android:layout_height="@dimen/dp36" android:src="@drawable/otp_default_avatar" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/TextAppearance.Material.Notification.Title" android:textSize="@dimen/sp24" android:id="@id/textOtp" android:layout_width="fill_parent" android:layout_height="@dimen/dp28" android:includeFontPadding="false" android:fontFamily="sans-serif" android:layout_marginStart="@dimen/dp16" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="@dimen/sp22" android:autoSizeMaxTextSize="@dimen/sp26" />
+        <TextView android:textSize="@dimen/sp10" android:textStyle="bold" android:id="@id/textSender" android:layout_width="wrap_content" android:layout_height="@dimen/dp14" android:layout_marginStart="@dimen/dp16" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="@dimen/sp8" android:autoSizeMaxTextSize="@dimen/sp12" style="@style/TextAppearance.Material.Notification.Subtitle" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/sp12" android:textColor="@color/notification_brand_blue" android:id="@id/copy" android:layout_width="wrap_content" android:layout_height="@dimen/dp36" android:text="@string/otp_notification_label_copy" android:includeFontPadding="false" android:drawableTop="@drawable/ic_copy_otp" android:paddingStart="@dimen/dp8" android:paddingEnd="@dimen/dp8" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="@dimen/sp10" android:autoSizeMaxTextSize="@dimen/sp14" />
+</LinearLayout>

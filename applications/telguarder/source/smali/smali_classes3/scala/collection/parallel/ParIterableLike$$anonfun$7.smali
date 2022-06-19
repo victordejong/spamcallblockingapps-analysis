@@ -1,0 +1,81 @@
+.class public final Lscala/collection/parallel/ParIterableLike$$anonfun$7;
+.super Lscala/runtime/AbstractFunction0;
+.source "ParIterableLike.scala"
+
+# interfaces
+.implements Lscala/Serializable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lscala/collection/parallel/ParIterableLike;->groupBy(Lscala/Function1;)Lscala/collection/parallel/immutable/ParMap;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x11
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lscala/runtime/AbstractFunction0<",
+        "Lscala/collection/parallel/immutable/HashMapCombiner<",
+        "TK;TT;>;>;",
+        "Lscala/Serializable;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final serialVersionUID:J
+
+
+# direct methods
+.method public constructor <init>(Lscala/collection/parallel/ParIterableLike;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lscala/collection/parallel/ParIterableLike<",
+            "TT;TRepr;TSequential;>;)V"
+        }
+    .end annotation
+
+    .line 645
+    invoke-direct {p0}, Lscala/runtime/AbstractFunction0;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic apply()Ljava/lang/Object;
+    .locals 1
+
+    .line 645
+    invoke-virtual {p0}, Lscala/collection/parallel/ParIterableLike$$anonfun$7;->apply()Lscala/collection/parallel/immutable/HashMapCombiner;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final apply()Lscala/collection/parallel/immutable/HashMapCombiner;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lscala/collection/parallel/immutable/HashMapCombiner<",
+            "TK;TT;>;"
+        }
+    .end annotation
+
+    .line 645
+    sget-object v0, Lscala/collection/parallel/immutable/HashMapCombiner$;->MODULE$:Lscala/collection/parallel/immutable/HashMapCombiner$;
+
+    invoke-virtual {v0}, Lscala/collection/parallel/immutable/HashMapCombiner$;->apply()Lscala/collection/parallel/immutable/HashMapCombiner;
+
+    move-result-object v0
+
+    return-object v0
+.end method

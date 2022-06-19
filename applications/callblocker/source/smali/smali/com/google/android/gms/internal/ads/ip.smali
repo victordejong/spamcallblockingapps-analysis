@@ -1,0 +1,76 @@
+.class final Lcom/google/android/gms/internal/ads/ip;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-ads@@19.1.0"
+
+# interfaces
+.implements Lcom/google/android/gms/internal/ads/yq;
+
+
+# instance fields
+.field private final synthetic a:Lcom/google/android/gms/internal/ads/iu;
+
+.field private final synthetic b:Lcom/google/android/gms/internal/ads/id;
+
+
+# direct methods
+.method constructor <init>(Lcom/google/android/gms/internal/ads/id;Lcom/google/android/gms/internal/ads/iu;)V
+    .locals 0
+
+    .prologue
+    .line 1
+    iput-object p1, p0, Lcom/google/android/gms/internal/ads/ip;->b:Lcom/google/android/gms/internal/ads/id;
+
+    iput-object p2, p0, Lcom/google/android/gms/internal/ads/ip;->a:Lcom/google/android/gms/internal/ads/iu;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()V
+    .locals 3
+
+    .prologue
+    .line 2
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/ip;->b:Lcom/google/android/gms/internal/ads/id;
+
+    invoke-static {v0}, Lcom/google/android/gms/internal/ads/id;->a(Lcom/google/android/gms/internal/ads/id;)Ljava/lang/Object;
+
+    move-result-object v1
+
+    monitor-enter v1
+
+    .line 3
+    :try_start_0
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/ip;->b:Lcom/google/android/gms/internal/ads/id;
+
+    const/4 v2, 0x1
+
+    invoke-static {v0, v2}, Lcom/google/android/gms/internal/ads/id;->a(Lcom/google/android/gms/internal/ads/id;I)I
+
+    .line 4
+    const-string/jumbo v0, "Failed loading new engine. Marking new engine destroyable."
+
+    invoke-static {v0}, Lcom/google/android/gms/internal/ads/uu;->a(Ljava/lang/String;)V
+
+    .line 5
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/ip;->a:Lcom/google/android/gms/internal/ads/iu;
+
+    invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/iu;->c()V
+
+    .line 6
+    monitor-exit v1
+
+    return-void
+
+    :catchall_0
+    move-exception v0
+
+    monitor-exit v1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw v0
+.end method

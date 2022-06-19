@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/menuItem" android:background="@color/white_callapp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/contextMenuWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center_vertical" android:id="@id/text" android:background="@drawable/ripple_or_holo" android:paddingLeft="@dimen/dimen_16_dp" android:paddingTop="@dimen/dimen_8_dp" android:paddingRight="@dimen/dimen_16_dp" android:paddingBottom="@dimen/dimen_8_dp" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Caption.Number_text" />
+    </LinearLayout>
+</FrameLayout>

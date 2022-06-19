@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.callapp.contacts.widget.horizontalHeader.HorizontalPagerHeader android:id="@id/horizontalHeader" android:layout_width="fill_parent" android:layout_height="@dimen/cover_screen_horizontal_pager_height" />
+        <com.callapp.contacts.widget.ProgressCardView android:id="@id/downloader_cardview_container" android:layout_width="fill_parent" android:layout_height="@dimen/progress_card_superskin_view_height" android:layout_margin="@dimen/progress_card_view_margin" app:cardElevation="2.0dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/superSkinPreview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:layout_below="@id/container" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <View android:layout_gravity="top" android:id="@id/statusBarView" android:background="@color/status_bar_transparency" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+    <FrameLayout android:id="@id/backpressIcon" android:background="@color/transparent" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_below="@id/statusBarView" android:layout_alignParentTop="true">
+        <ImageView android:background="@drawable/ripple_or_holo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_top_bar_back" />
+    </FrameLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/btn_super_skin_more_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_16_dp" android:src="@drawable/ic_action_plus" android:scaleType="center" android:tint="@color/white_callapp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" app:backgroundTint="@color/green_dark" app:fabCustomSize="@dimen/dimen_56_dp" />
+    <ImageView android:id="@id/super_skin_wizard_image" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginBottom="-24.0dip" android:layout_above="@id/btn_super_skin_more_info" android:layout_alignLeft="@id/btn_super_skin_more_info" android:layout_alignRight="@id/btn_super_skin_more_info" android:layout_alignStart="@id/btn_super_skin_more_info" android:layout_alignEnd="@id/btn_super_skin_more_info" android:transitionName="@string/transition_super_skin_wizard" android:elevation="16.0dip" />
+</RelativeLayout>

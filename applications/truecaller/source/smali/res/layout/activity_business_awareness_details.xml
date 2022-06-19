@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="?tcx_backgroundPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageInCallUI" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="@dimen/doubleSpace" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/buttonClose" />
+    <com.truecaller.ui.view.TintedImageView android:id="@id/buttonClose" android:padding="@dimen/space" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/doubleSpace" android:src="@drawable/ic_close_biz_light" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="?tcx_textPrimary" />
+</androidx.constraintlayout.widget.ConstraintLayout>

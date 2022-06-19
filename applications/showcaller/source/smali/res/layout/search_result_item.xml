@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="?bg_list_card" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="?color_666666" android:id="@id/tv_title" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/app_name" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+        <FrameLayout android:id="@id/ripple_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="3.0dip" android:foreground="?card_foreground" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:layout_centerVertical="true">
+                <RelativeLayout android:layout_gravity="center" android:id="@id/photo_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginStart="14.0dip">
+                    <ImageView android:id="@id/result_photo_view" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_photo_normal" android:scaleType="fitXY" />
+                    <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="?color_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="A" android:layout_centerInParent="true" />
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:id="@id/result_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textDirection="locale" />
+                        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+                            <TextView android:textSize="12.0sp" android:textColor="?color_666666" android:layout_gravity="center_vertical" android:id="@id/result_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textDirection="locale" />
+                            <TextView android:textSize="12.0sp" android:textColor="?color_action" android:layout_gravity="center_vertical" android:id="@id/tv_subtype_keyword" android:background="@drawable/bg_tag_blue" android:paddingLeft="4.0dip" android:paddingTop="1.0dip" android:paddingRight="4.0dip" android:paddingBottom="1.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" android:layout_marginStart="8.0dip" />
+                        </LinearLayout>
+                        <TextView android:textSize="12.0sp" android:textColor="?color_666666" android:id="@id/result_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="" />
+                        <TextView android:textSize="12.0sp" android:textColor="@color/spam_old" android:id="@id/result_complaint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

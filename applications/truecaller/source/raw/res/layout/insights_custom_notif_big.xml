@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/insights_custom_notif_small" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp12">
+        <TextView android:id="@id/primaryAction" android:layout_alignWithParentIfMissing="true" android:layout_marginEnd="@dimen/dp8" android:layout_toStartOf="@id/secondaryAction" style="@style/Insights.NotificationTextView" />
+        <TextView android:id="@id/secondaryAction" android:layout_marginStart="@dimen/dp8" android:layout_alignParentEnd="true" style="@style/Insights.NotificationTextView" />
+    </RelativeLayout>
+    <ImageView android:id="@id/bannerImage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitStart" android:adjustViewBounds="true" />
+</LinearLayout>

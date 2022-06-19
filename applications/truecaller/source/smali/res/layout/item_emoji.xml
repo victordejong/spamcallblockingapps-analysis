@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.truecaller.android.truemoji.keyboard.EmojiView android:id="@id/emojiView" android:layout_width="@dimen/emoji_size" android:layout_height="@dimen/emoji_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

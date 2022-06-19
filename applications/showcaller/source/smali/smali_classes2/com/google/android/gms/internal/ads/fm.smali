@@ -1,0 +1,190 @@
+.class final synthetic Lcom/google/android/gms/internal/ads/fm;
+.super Ljava/lang/Object;
+.source "com.google.android.gms:play-services-ads@@20.5.0"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field private final d:Lcom/google/android/gms/internal/ads/im;
+
+.field private final e:Lcom/google/android/gms/internal/ads/am;
+
+.field private final f:Lcom/google/android/gms/internal/ads/zzayn;
+
+.field private final g:Lcom/google/android/gms/internal/ads/vi0;
+
+
+# direct methods
+.method constructor <init>(Lcom/google/android/gms/internal/ads/im;Lcom/google/android/gms/internal/ads/am;Lcom/google/android/gms/internal/ads/zzayn;Lcom/google/android/gms/internal/ads/vi0;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/ads/fm;->d:Lcom/google/android/gms/internal/ads/im;
+
+    iput-object p2, p0, Lcom/google/android/gms/internal/ads/fm;->e:Lcom/google/android/gms/internal/ads/am;
+
+    iput-object p3, p0, Lcom/google/android/gms/internal/ads/fm;->f:Lcom/google/android/gms/internal/ads/zzayn;
+
+    iput-object p4, p0, Lcom/google/android/gms/internal/ads/fm;->g:Lcom/google/android/gms/internal/ads/vi0;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 10
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/fm;->d:Lcom/google/android/gms/internal/ads/im;
+
+    iget-object v1, p0, Lcom/google/android/gms/internal/ads/fm;->e:Lcom/google/android/gms/internal/ads/am;
+
+    iget-object v2, p0, Lcom/google/android/gms/internal/ads/fm;->f:Lcom/google/android/gms/internal/ads/zzayn;
+
+    iget-object v3, p0, Lcom/google/android/gms/internal/ads/fm;->g:Lcom/google/android/gms/internal/ads/vi0;
+
+    :try_start_0
+    invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/am;->j0()Lcom/google/android/gms/internal/ads/cm;
+
+    move-result-object v4
+
+    .line 2
+    invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/am;->i0()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    .line 3
+    invoke-virtual {v4, v2}, Lcom/google/android/gms/internal/ads/cm;->y4(Lcom/google/android/gms/internal/ads/zzayn;)Lcom/google/android/gms/internal/ads/zzayk;
+
+    move-result-object v1
+
+    goto :goto_0
+
+    .line 4
+    :cond_0
+    invoke-virtual {v4, v2}, Lcom/google/android/gms/internal/ads/cm;->a3(Lcom/google/android/gms/internal/ads/zzayn;)Lcom/google/android/gms/internal/ads/zzayk;
+
+    move-result-object v1
+
+    .line 5
+    :goto_0
+    invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/zzayk;->zza()Z
+
+    move-result v2
+
+    if-nez v2, :cond_1
+
+    new-instance v1, Ljava/lang/RuntimeException;
+
+    const-string v2, "No entry contents."
+
+    .line 6
+    invoke-direct {v1, v2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v3, v1}, Lcom/google/android/gms/internal/ads/vi0;->f(Ljava/lang/Throwable;)Z
+
+    iget-object v1, v0, Lcom/google/android/gms/internal/ads/im;->c:Lcom/google/android/gms/internal/ads/km;
+
+    .line 7
+    invoke-static {v1}, Lcom/google/android/gms/internal/ads/km;->f(Lcom/google/android/gms/internal/ads/km;)V
+
+    return-void
+
+    .line 8
+    :cond_1
+    new-instance v4, Lcom/google/android/gms/internal/ads/hm;
+
+    .line 9
+    invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/zzayk;->k0()Ljava/io/InputStream;
+
+    move-result-object v2
+
+    const/4 v5, 0x1
+
+    invoke-direct {v4, v0, v2, v5}, Lcom/google/android/gms/internal/ads/hm;-><init>(Lcom/google/android/gms/internal/ads/im;Ljava/io/InputStream;I)V
+
+    .line 10
+    invoke-virtual {v4}, Ljava/io/PushbackInputStream;->read()I
+
+    move-result v2
+
+    const/4 v5, -0x1
+
+    if-eq v2, v5, :cond_2
+
+    .line 11
+    invoke-virtual {v4, v2}, Ljava/io/PushbackInputStream;->unread(I)V
+
+    .line 12
+    invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/zzayk;->m0()Z
+
+    move-result v5
+
+    .line 13
+    invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/zzayk;->p0()Z
+
+    move-result v6
+
+    .line 14
+    invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/zzayk;->o0()J
+
+    move-result-wide v7
+
+    .line 15
+    invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/zzayk;->n0()Z
+
+    move-result v9
+
+    invoke-static/range {v4 .. v9}, Lcom/google/android/gms/internal/ads/mm;->a(Ljava/io/InputStream;ZZJZ)Lcom/google/android/gms/internal/ads/mm;
+
+    move-result-object v1
+
+    .line 16
+    invoke-virtual {v3, v1}, Lcom/google/android/gms/internal/ads/vi0;->c(Ljava/lang/Object;)Z
+
+    return-void
+
+    .line 17
+    :cond_2
+    new-instance v1, Ljava/io/IOException;
+
+    const-string v2, "Unable to read from cache."
+
+    .line 18
+    invoke-direct {v1, v2}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+
+    throw v1
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_1
+    .catch Landroid/os/RemoteException; {:try_start_0 .. :try_end_0} :catch_0
+
+    :catch_0
+    move-exception v1
+
+    goto :goto_1
+
+    :catch_1
+    move-exception v1
+
+    :goto_1
+    const-string v2, "Unable to obtain a cache service instance."
+
+    .line 19
+    invoke-static {v2, v1}, Lcom/google/android/gms/internal/ads/ei0;->d(Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    .line 20
+    invoke-virtual {v3, v1}, Lcom/google/android/gms/internal/ads/vi0;->f(Ljava/lang/Throwable;)Z
+
+    iget-object v0, v0, Lcom/google/android/gms/internal/ads/im;->c:Lcom/google/android/gms/internal/ads/km;
+
+    .line 21
+    invoke-static {v0}, Lcom/google/android/gms/internal/ads/km;->f(Lcom/google/android/gms/internal/ads/km;)V
+
+    return-void
+.end method

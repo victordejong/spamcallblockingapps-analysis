@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@drawable/ic_tcx_action_call_outline_24dp" android:contentDescription="@string/DialerCallLog_NoCallsTitle" app:tint="?tcx_textQuarternary" />
+    <TextView android:textColor="?tcx_textSecondary" android:id="@id/call_list_empty_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/DialerCallLog_NoCallsTitle" style="@style/StyleX.Text.Body.B1" />
+    <TextView android:textColor="?tcx_textSecondary" android:gravity="center" android:id="@id/call_list_empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_doublespace" android:text="@string/DialerCallLog_NoCallsText" style="@style/StyleX.Text.Body.B2" />
+    <Button android:enabled="true" android:layout_gravity="center_horizontal" android:id="@id/call_list_empty_action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_triplespace" style="@style/StyleX.Button.Small.Action" />
+</LinearLayout>

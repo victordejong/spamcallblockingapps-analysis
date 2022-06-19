@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layoutMain" android:background="?tcx_backgroundPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imgClose" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/emoji_tab_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_close_black_24dp" app:tint="?tcx_textSecondary" />
+    <EditText android:textColor="?tcx_textPrimary" android:id="@id/etSearch" android:layout_width="fill_parent" android:layout_height="@dimen/gif_search_height" android:hint="@string/hint_search_tenor" android:inputType="textNoSuggestions" android:imeOptions="actionSearch" android:layout_toEndOf="@id/imgClose" android:importantForAutofill="no" style="@style/StyleX.Input.TenorSearch" />
+    <com.truecaller.android.truemoji.gifs.GifView android:id="@id/gifView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/etSearch" style="@style/StyleX.Text.Caption" />
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingBottom="48.0dip" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.87">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/main_logo_side" android:src="@drawable/widget_logo_red" />
+    </LinearLayout>
+    <ScrollView android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.13" android:fadeScrollbars="false">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_small" android:textColorLink="@color/text_medium" android:id="@id/textView_policy_text" android:paddingTop="@dimen/margin_medium" android:paddingBottom="@dimen/margin_medium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/margin_large" android:paddingEnd="@dimen/margin_large" />
+            <LinearLayout android:gravity="end|center|top" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_small" android:paddingStart="@dimen/margin_extra_large" android:paddingEnd="@dimen/margin_extra_large">
+                <Button android:textSize="@dimen/text_medium" android:textColor="@color/colorAccent" android:id="@id/button_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_cancel" style="@style/Base.Widget.AppCompat.Button.Borderless" />
+                <Button android:textSize="@dimen/text_medium" android:textColor="@color/colorAccent" android:id="@id/button_approve" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_approved" style="@style/Base.Widget.AppCompat.Button.Borderless" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

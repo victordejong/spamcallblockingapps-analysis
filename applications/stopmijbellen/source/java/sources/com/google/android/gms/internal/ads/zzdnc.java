@@ -1,0 +1,20 @@
+package com.google.android.gms.internal.ads;
+
+import android.view.View;
+/* loaded from: classes-dex2jar.jar:com/google/android/gms/internal/ads/zzdnc.class */
+public final class zzdnc implements zzgpr<View> {
+    private final zzdna zza;
+
+    public zzdnc(zzdna zzdnaVar) {
+        this.zza = zzdnaVar;
+    }
+
+    public final View zza() {
+        return this.zza.zza();
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzgqe
+    public final /* synthetic */ Object zzb() {
+        return this.zza.zza();
+    }
+}

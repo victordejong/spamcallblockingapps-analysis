@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/action_block" android:visible="false" android:orderInCategory="100" android:title="@string/Block" app:showAsAction="never" />
+    <item android:id="@id/action_video_call" android:orderInCategory="101" android:title="@string/CallerMenuVideoCall" app:showAsAction="never" />
+    <item android:id="@id/action_favorite" android:orderInCategory="102" android:title="@string/CallerMenuAddFavorite" app:showAsAction="never" />
+    <item android:id="@id/action_share" android:orderInCategory="104" android:title="@string/CallerMenuShare" app:showAsAction="never" />
+    <item android:id="@id/action_save" android:visible="false" android:orderInCategory="105" android:title="@string/StrSave" app:showAsAction="never" />
+    <item android:id="@id/action_edit" android:visible="false" android:orderInCategory="106" android:title="@string/ConversationErrorEdit" app:showAsAction="never" />
+    <item android:id="@id/action_search_web" android:orderInCategory="107" android:title="@string/CallerSearchTheWeb" app:showAsAction="never" />
+    <item android:id="@id/action_copy_name" android:orderInCategory="108" android:title="@string/CallerMenuCopyName" app:showAsAction="never" />
+    <item android:id="@id/action_copy_number" android:orderInCategory="109" android:title="@string/CallerMenuCopyNumber" app:showAsAction="never" />
+    <item android:id="@id/action_copy_contact" android:orderInCategory="110" android:title="@string/CallerMenuCopyContact" app:showAsAction="never" />
+    <item android:icon="@drawable/menuitem_close" android:visible="false" android:orderInCategory="111" android:title="@string/CallerMenuCloseAfterCall" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_tcx_visibility_off_outline_20dp" android:id="@id/action_hide_video_caller_id" android:visible="false" android:orderInCategory="112" android:title="@string/vid_hide_video_caller_id" app:showAsAction="never" />
+    <item android:id="@id/action_remove_contact" android:orderInCategory="113" android:title="@string/CallerMenuRemoveContact" app:showAsAction="never" />
+    <item android:id="@id/action_remove_identified" android:orderInCategory="114" android:title="@string/CallerMenuRemoveIdentified" app:showAsAction="never" />
+</menu>

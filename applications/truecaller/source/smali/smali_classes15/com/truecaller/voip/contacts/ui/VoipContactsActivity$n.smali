@@ -1,0 +1,72 @@
+.class public final Lcom/truecaller/voip/contacts/ui/VoipContactsActivity$n;
+.super Ls1/z/c/m;
+.source "SourceFile"
+
+# interfaces
+.implements Ls1/z/b/a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/truecaller/voip/contacts/ui/VoipContactsActivity;-><init>()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ls1/z/c/m;",
+        "Ls1/z/b/a<",
+        "Ljava/lang/Boolean;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic b:Lcom/truecaller/voip/contacts/ui/VoipContactsActivity;
+
+
+# direct methods
+.method public constructor <init>(Lcom/truecaller/voip/contacts/ui/VoipContactsActivity;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/truecaller/voip/contacts/ui/VoipContactsActivity$n;->b:Lcom/truecaller/voip/contacts/ui/VoipContactsActivity;
+
+    const/4 p1, 0x0
+
+    invoke-direct {p0, p1}, Ls1/z/c/m;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public invoke()Ljava/lang/Object;
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lcom/truecaller/voip/contacts/ui/VoipContactsActivity$n;->b:Lcom/truecaller/voip/contacts/ui/VoipContactsActivity;
+
+    invoke-virtual {v0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    const-string v2, "ARG_FORCE_DARK_THEME"
+
+    invoke-virtual {v0, v2, v1}, Landroid/content/Intent;->getBooleanExtra(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    .line 2
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    return-object v0
+.end method

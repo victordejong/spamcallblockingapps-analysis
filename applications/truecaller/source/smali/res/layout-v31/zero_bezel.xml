@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/content_view_big" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/big_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:background="@drawable/scrim" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignBottom="@id/big_image" />
+    <RelativeLayout android:id="@id/rel_lyt" android:paddingLeft="@dimen/padding_horizontal" android:paddingTop="@dimen/padding_vertical" android:paddingRight="@dimen/padding_horizontal" android:paddingBottom="@dimen/padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/big_image" android:paddingStart="@dimen/padding_horizontal" android:paddingEnd="@dimen/padding_horizontal">
+        <TextView android:textAppearance="@style/PushTitle" android:textColor="@color/white" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/metadata_title_margin_vertical" android:text="title" />
+        <TextView android:textAppearance="@style/PushMessageMultiLine" android:textColor="@color/white" android:id="@id/msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="message" android:layout_below="@id/title" android:layout_alignStart="@id/title" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/screen_container" android:background="@drawable/welcome_scr_img_02" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewSwitcher android:id="@id/profilePictureViewSwitcher" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="142.0dip" android:layout_centerHorizontal="true">
+        <ImageView android:background="@drawable/ripple_or_holo" android:layout_width="120.0dip" android:layout_height="120.0dip" android:scaleType="centerCrop" />
+        <ImageView android:background="@drawable/ripple_or_holo" android:layout_width="120.0dip" android:layout_height="120.0dip" android:scaleType="centerCrop" />
+    </ViewSwitcher>
+    <LinearLayout android:orientation="vertical" android:id="@id/text_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/profilePictureViewSwitcher">
+        <TextView android:textColor="@color/white_callapp" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Title.Dialog_title" />
+        <TextView android:textColor="@color/white_callapp" android:gravity="center_horizontal" android:id="@id/user_name" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Title.Dialog_title" />
+        <TextView android:textColor="@color/white_callapp" android:gravity="center_horizontal" android:id="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Body2.Topbar_subtitle" />
+    </LinearLayout>
+    <include android:id="@id/layout_choose_country_widget" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/text_container" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" layout="@layout/layout_choose_country_widget" />
+    <FrameLayout android:id="@id/start_btn_container" android:background="@drawable/login_button_corners_digits_32dp_disabled" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_large_button" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:layout_alignParentBottom="true">
+        <Button android:textColor="@color/selector_login_button_text" android:id="@id/start_use_btn" android:background="@drawable/ripple_or_holo" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Button" />
+    </FrameLayout>
+    <TextView android:textColor="@color/white_callapp" android:gravity="center_horizontal" android:id="@id/bottomTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:layout_above="@id/start_btn_container" style="@style/Caption.Contact_subtitle" />
+    <View android:layout_gravity="top" android:id="@id/statusBarView" android:background="@color/status_bar_transparency" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+</RelativeLayout>

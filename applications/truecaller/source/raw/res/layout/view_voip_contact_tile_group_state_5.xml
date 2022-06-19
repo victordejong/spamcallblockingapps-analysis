@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/dummy1" android:tag="dummy" android:layout_width="@dimen/voip_contact_tile_size_big" android:layout_height="@dimen/voip_contact_tile_size_big" />
+    <View android:id="@id/dummy2" android:tag="dummy" android:layout_width="@dimen/voip_contact_tile_size_small" android:layout_height="@dimen/voip_contact_tile_size_small" />
+    <View android:id="@id/dummy3" android:tag="dummy" android:layout_width="@dimen/voip_contact_tile_size_small" android:layout_height="@dimen/voip_contact_tile_size_small" />
+    <View android:id="@id/dummy4" android:tag="dummy" android:layout_width="@dimen/voip_contact_tile_size_big" android:layout_height="@dimen/voip_contact_tile_size_big" />
+    <View android:id="@id/dummy5" android:tag="dummy" android:layout_width="@dimen/voip_contact_tile_size_small" android:layout_height="@dimen/voip_contact_tile_size_small" />
+    <androidx.constraintlayout.helper.widget.Flow android:orientation="horizontal" android:id="@id/state5Flow1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" app:constraint_referenced_ids="dummy1,dummy4" app:flow_horizontalGap="4.0dip" app:flow_horizontalStyle="packed" app:flow_verticalBias="0.5" app:layout_constraintBottom_toTopOf="@id/state5Flow2" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" />
+    <androidx.constraintlayout.helper.widget.Flow android:orientation="horizontal" android:id="@id/state5Flow2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" app:constraint_referenced_ids="dummy2,dummy3,dummy5" app:flow_horizontalGap="4.0dip" app:flow_horizontalStyle="packed" app:flow_verticalBias="0.5" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/state5Flow1" />
+</merge>

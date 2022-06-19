@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">Sekat &amp; laporkan %d nombor sebagai spam?</item>
+    </plurals>
+    <plurals name="ConversationCallsHistoryCount">
+        <item quantity="other">%d panggilan</item>
+    </plurals>
+    <plurals name="ConversationFlashHistoryCount">
+        <item quantity="other">%d mesej Flash</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">Mesej ditamabh pada tab Penting</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d perbualan ditandakan sebagai dibaca</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">%d entri telah dipadam</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">Padam %d entri?</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">Perbualan dipinkan</item>
+    </plurals>
+    <plurals name="ConversationReportNotSpamConfirmation">
+        <item quantity="other">%d mesej dilaporkan sebagai spam</item>
+    </plurals>
+    <plurals name="ConversationReportSpamConfirmation">
+        <item quantity="other">%d mesej dilaporkan sebagai spam</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">Simpan semua kenalan</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">Perbualan dinyahpinkan</item>
+    </plurals>
+    <plurals name="DeleteConversationsConfirmation">
+        <item quantity="other">%d perbualan telah dipadam</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">Padam %d perbualan?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">%dnombor dikenal pasti</item>
+    </plurals>
+    <plurals name="HistoryActionConfirmDeleteMessage">
+        <item quantity="other">Padam %d perkara?</item>
+    </plurals>
+    <plurals name="HistoryActionDeleted">
+        <item quantity="other">%d perkara telah dipadam</item>
+    </plurals>
+    <plurals name="HistoryActionSelected">
+        <item quantity="other">%d perkara telah dipilih</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">Adakah anda pasti mahu menyahsekat %d nombor?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteCallRecordings">
+        <item quantity="other">Adakah anda pasti mahu memadam rakaman panggilan %s?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">Adakah anda pasti mahu memadam fail bahasa %s?</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">%d SMS disekat</item>
+    </plurals>
+    <plurals name="MessageNotificationNewMessages">
+        <item quantity="other">+%1$d lagi mesej baharu</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$s telah menghubungi %2$d jam yang lalu. Ketik untuk melihat dalam Truecaller</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d kenalan</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d lampiran</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">%d kenalan lain</item>
+    </plurals>
+    <plurals name="NewImGroupMemberCount">
+        <item quantity="other">%d ahli</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">%d nombor ditambah pada senarai sekat</item>
+    </plurals>
+    <plurals name="OSNotificationTextNew">
+        <item quantity="other">Anda mempunyai %d pemberitahuan baru</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d panggilan disekat</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d panggilan yang disenyapkan</item>
+    </plurals>
+    <plurals name="PremiumAbbreviatedOfferPriceOverMonth">
+        <item quantity="other">%1$s/bln</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">%1$d hari percubaan percuma untuk pelanggan baru sahaja</item>
+    </plurals>
+    <plurals name="PremiumFeatureContactRequestLeft">
+        <item quantity="other">%1$d baki permintaan</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">%1$d tontonan profil baru</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">%1$d orang melihat profil anda baru-baru ini</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d orang (%3$d di %2$s) melihat profil anda baru-baru ini</item>
+    </plurals>
+    <plurals name="SettingPendingGroupInvitationsMessage">
+        <item quantity="other">Anda mempunyai %d jemputan kumpulan tertangguh. Adakah anda mahu menerima semuanya?</item>
+    </plurals>
+    <plurals name="SpamSmsFound">
+        <item quantity="other">%d mesej spam ditemui</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByMultiple">
+        <item quantity="other">%1$s dan %2$s yang lain telah ditambah pada kumpulan oleh %3$s</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByYouMultiple">
+        <item quantity="other">Anda menjemput %1$s dan %2$d yang lain ke kumpulan</item>
+    </plurals>
+    <plurals name="StrPhoneNumberAndMore">
+        <item quantity="other">%1$s &lt;b>+%2$d lagi&lt;/b></item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">hari</item>
+    </plurals>
+    <plurals name="StrPluralHour">
+        <item quantity="other">jam</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">bulan</item>
+    </plurals>
+    <plurals name="StrPluralWeek">
+        <item quantity="other">minggu</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">tahun</item>
+    </plurals>
+    <plurals name="UnreadConversations">
+        <item quantity="other">%d perbualan belum dibaca</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">Anda telah melebihi had percubaan pengesahan. Sila cuba lagi dalam masa %dj</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d orang melihat profil anda</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d orang (1 di %2$s) melihat profil anda</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d orang melihat profil anda. Ketahui lebih lanjut.</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d orang (%3$d di %2$s) melihat profil anda. Ketahui lebih lanjut.</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaption">
+        <item quantity="other">%1$d tontonan baru</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaptionWithLocation">
+        <item quantity="other">%1$d tontonan baru • %2$d daripada %3$s</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">Captcha semula telah gagal banyak kali, cuba lagi dalam masa %1$d jam</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%s perbualan diarkibkan</item>
+    </plurals>
+    <plurals name="biz_govt_contacts_count">
+        <item quantity="other">%1$d kenalan</item>
+    </plurals>
+    <plurals name="call_recording_toast_items_deleted">
+        <item quantity="other">%1$d rakaman dipadam</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">Mesej OTP dipadamkan</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">Mesej promosi dipadamkan</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">Mesej spam dipadamkan</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d mesej</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d OTP</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_promotional">
+        <item quantity="other">%d Mesej promosi</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d mesej spam</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d mesej dipadamkan</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">Jemputan</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="other">dalam %d hari</item>
+        <item quantity="one">esok</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="other">dalam %d jam</item>
+        <item quantity="one">dalam 1 jam</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="other">dalam %d minit</item>
+        <item quantity="one">dalam 1 minit</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="other">dalam %d saat</item>
+        <item quantity="one">dalam 1 saat</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="other">%d hari yang lalu</item>
+        <item quantity="one">semalam</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="other">%d jam yang lalu</item>
+        <item quantity="one">1 jam yang lalu</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="other">%d minit yang lalu</item>
+        <item quantity="one">1 minit yang lalu</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="other">%d saat yang lalu</item>
+        <item quantity="one">1 saat yang lalu</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="other">%d jam</item>
+        <item quantity="one">1 jam</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="other">%d minit</item>
+        <item quantity="one">1 minit</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">1 saat</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="other">dalam %d hari</item>
+        <item quantity="one">esok</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="other">dalam %d jam</item>
+        <item quantity="one">dalam 1 jam</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="other">dalam %d minit</item>
+        <item quantity="one">dalam 1 minit</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="other">dalam %d saat</item>
+        <item quantity="one">dalam 1 saat</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="other">%d hari yang lalu</item>
+        <item quantity="one">semalam</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="other">%d jam yang lalu</item>
+        <item quantity="one">1 jam yang lalu</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="other">%d minit yang lalu</item>
+        <item quantity="one">1 minit yang lalu</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="other">%d saat yang lalu</item>
+        <item quantity="one">1 saat yang lalu</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">Anda akan memadam fail yang dipilih dan %d mesej yang berkaitan</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">Padam mesej?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d pemberitahuan baharu</item>
+        <item quantity="one">%d pemberitahuan baharu</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">rakan</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">hari</item>
+    </plurals>
+    <plurals name="spam_counts">
+        <item quantity="other">%d laporan spam</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">%s perbualan diarkibkan</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">Mesej diterima</item>
+    </plurals>
+    <plurals name="voip_group_launcher_person">
+        <item quantity="other">peserta</item>
+    </plurals>
+    <plurals name="voip_notification_missed_grouped_title">
+        <item quantity="other">Panggilan %1$s terlepas</item>
+    </plurals>
+    <plurals name="voip_notification_title_other">
+        <item quantity="other">%1$s yang lain</item>
+    </plurals>
+</resources>

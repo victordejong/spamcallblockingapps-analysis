@@ -1,0 +1,84 @@
+.class Lcom/allinone/callerid/dialog/m$i;
+.super Ljava/lang/Object;
+.source "DialogUtils.java"
+
+# interfaces
+.implements Landroid/widget/AdapterView$OnItemClickListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/allinone/callerid/dialog/m;->g(Landroid/app/Activity;Lcom/allinone/callerid/i/a/g/b;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic d:Ljava/util/ArrayList;
+
+.field final synthetic e:Lcom/allinone/callerid/i/a/g/b;
+
+
+# direct methods
+.method constructor <init>(Ljava/util/ArrayList;Lcom/allinone/callerid/i/a/g/b;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/allinone/callerid/dialog/m$i;->d:Ljava/util/ArrayList;
+
+    iput-object p2, p0, Lcom/allinone/callerid/dialog/m$i;->e:Lcom/allinone/callerid/i/a/g/b;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/widget/AdapterView<",
+            "*>;",
+            "Landroid/view/View;",
+            "IJ)V"
+        }
+    .end annotation
+
+    .line 1
+    iget-object p1, p0, Lcom/allinone/callerid/dialog/m$i;->d:Ljava/util/ArrayList;
+
+    invoke-virtual {p1, p3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/allinone/callerid/search/CallLogBean;
+
+    .line 2
+    iget-object p2, p0, Lcom/allinone/callerid/dialog/m$i;->e:Lcom/allinone/callerid/i/a/g/b;
+
+    invoke-interface {p2, p1}, Lcom/allinone/callerid/i/a/g/b;->a(Lcom/allinone/callerid/search/CallLogBean;)V
+
+    .line 3
+    invoke-static {}, Lcom/allinone/callerid/dialog/m;->a()Landroidx/appcompat/app/a;
+
+    move-result-object p1
+
+    if-eqz p1, :cond_0
+
+    .line 4
+    invoke-static {}, Lcom/allinone/callerid/dialog/m;->a()Landroidx/appcompat/app/a;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroidx/appcompat/app/d;->dismiss()V
+
+    :cond_0
+    return-void
+.end method

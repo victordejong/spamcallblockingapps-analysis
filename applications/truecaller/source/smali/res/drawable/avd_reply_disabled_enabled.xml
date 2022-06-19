@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/flash_ic_reply_animatable" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="@string/reply_icon_background" android:animation="@animator/trim_path_start" />
+    <target android:name="@string/reply_path" android:animation="@drawable/$avd_reply_disabled_enabled__0" />
+</animated-vector>

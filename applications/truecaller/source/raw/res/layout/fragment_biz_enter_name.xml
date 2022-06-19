@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/lbl_enter_biz_name" android:layout_marginTop="@dimen/doubleSpace" android:text="@string/BusinessProfile_EnternameTitle" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.Bizmon.Title" />
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/ttlEnterName" app:endIconMode="clear_text" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/lbl_enter_biz_name" style="@style/Widget.Bizmon.TextInputLayout">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/editTextName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/BusinessProfile_BusinessName" android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

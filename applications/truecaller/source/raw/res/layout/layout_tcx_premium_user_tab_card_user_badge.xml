@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/content" android:paddingTop="24.0dip" android:paddingBottom="20.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/PremiumUserTabCardContent">
+        <com.truecaller.common.ui.avatar.AvatarXView android:id="@id/avatar" android:layout_width="48.0dip" android:layout_height="48.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginEnd="24.0dip" app:layout_constraintEnd_toStartOf="@id/avatar" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Text.Headline.H6" />
+        <TextView android:id="@id/description" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginEnd="24.0dip" app:layout_constraintEnd_toStartOf="@id/avatar" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/StyleX.Text.Body.B2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.truecaller.premium.premiumusertab.list.LabelView android:id="@id/label" style="@style/PremiumUserTabCardLabel" />
+</FrameLayout>

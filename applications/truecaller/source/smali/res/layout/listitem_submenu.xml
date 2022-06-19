@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/control_triplespace" android:paddingTop="@dimen/control_extraspace" android:paddingRight="@dimen/control_triplespace" android:paddingBottom="@dimen/control_extraspace" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/listItemIcon" android:scaleType="centerInside" android:contentDescription="@string/AppName" style="@style/Widget.Truecaller.ListItemIcon" />
+    <TextView android:id="@id/listItemTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/StyleX.Text.Body.B1" />
+    <TextView android:textColor="?tcx_textSecondary" android:id="@id/listItemDetails" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StyleX.Text.Body.B1" />
+</LinearLayout>

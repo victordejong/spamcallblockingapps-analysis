@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListView android:id="@id/list" android:listSelector="@android:color/transparent" style="@style/Widget.Truecaller.ListView" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/control_doublespace" android:paddingRight="@dimen/control_doublespace" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/listEmptyImage" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/control_doublespace" android:src="@drawable/ic_empty_log" app:tint="?theme_textColorPrimary" />
+            <TextView android:id="@id/listEmptyText" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Truecaller.Title" />
+        </LinearLayout>
+        <ProgressBar android:layout_gravity="center" android:id="@id/loading_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,64 @@
+.class public Landroidx/media2/player/MediaPlayer$v$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Landroidx/media2/player/MediaPlayer$v;-><init>(Ljava/util/concurrent/Executor;Z)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Landroidx/media2/player/MediaPlayer$v;
+
+
+# direct methods
+.method public constructor <init>(Landroidx/media2/player/MediaPlayer$v;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Landroidx/media2/player/MediaPlayer$v$a;->a:Landroidx/media2/player/MediaPlayer$v;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Landroidx/media2/player/MediaPlayer$v$a;->a:Landroidx/media2/player/MediaPlayer$v;
+
+    .line 2
+    iget-object v0, v0, Ln3/h/a/a;->a:Ljava/lang/Object;
+
+    .line 3
+    instance-of v0, v0, Ln3/h/a/a$c;
+
+    if-eqz v0, :cond_0
+
+    .line 4
+    iget-object v0, p0, Landroidx/media2/player/MediaPlayer$v$a;->a:Landroidx/media2/player/MediaPlayer$v;
+
+    iget-boolean v1, v0, Landroidx/media2/player/MediaPlayer$v;->i:Z
+
+    if-eqz v1, :cond_0
+
+    .line 5
+    invoke-virtual {v0}, Landroidx/media2/player/MediaPlayer$v;->j()V
+
+    :cond_0
+    return-void
+.end method

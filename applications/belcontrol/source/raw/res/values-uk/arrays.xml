@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="short_month_name">
+        <item>Янв.</item>
+        <item>Фев.</item>
+        <item>Март</item>
+        <item>Апр.</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Авг.</item>
+        <item>Сен.</item>
+        <item>Окт.</item>
+        <item>Нбр.</item>
+        <item>Дек.</item>
+    </string-array>
+    <string-array name="t9lookup">
+        <item>[0]</item>
+        <item>[1]</item>
+        <item>[abcабвгàáâãäåæçABCÀÁÂÃÄÅÆÇ]</item>
+        <item>[defдежзèéêëDEFÈÉÊËÐ]</item>
+        <item>[ghiийклìíîïGHIÌÍÎÏ]</item>
+        <item>[jklмнопJKL]</item>
+        <item>[mnoрстуñòóôõöøMNOÑÒÓÔÕÖØ]</item>
+        <item>[pqrsфхцчPQRS]</item>
+        <item>[tuvшщъыùúûüTUVÙÚÛÜ]</item>
+        <item>[wxyzьэюяýÿWXYZÝ]</item>
+    </string-array>
+    <string-array name="weekdays">
+        <item>ПН</item>
+        <item>ВТ</item>
+        <item>СР</item>
+        <item>ЧТ</item>
+        <item>ПТ</item>
+        <item>СБ</item>
+        <item>ВС</item>
+    </string-array>
+</resources>

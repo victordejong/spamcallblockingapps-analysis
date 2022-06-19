@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/welcome_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/llMain" android:background="#ffffffff" style="@style/llParentWidth">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" style="@style/llParentWidth">
+                <androidx.viewpager.widget.ViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:id="@id/llChecks" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <CheckBox android:layout_gravity="center" android:id="@id/checkReq1" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" />
+                            <androidx.appcompat.widget.AppCompatTextView android:id="@id/checkReq1Text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/activity_starting_tv_signin_agreement" />
+                        </LinearLayout>
+                        <CheckBox android:id="@id/checkReq2" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/for_purposes_of_improving_this_service_you_agree_with_anonymous_sharing_of_information_about_incoming_calls_from_phone_numbers_not_stored_in_my_contacts" />
+                    </LinearLayout>
+                    <Button android:id="@id/butNext" android:padding="@dimen/spaceMedium" android:text="@string/next" style="@style/buttonAccent" />
+                    <Button android:id="@id/butGetStarted" android:padding="@dimen/spaceMedium" android:text="@string/get_started" style="@style/buttonAccent" />
+                </LinearLayout>
+                <com.google.android.material.tabs.TabLayout android:id="@id/tabDots" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabBackground="@drawable/welcome_tab_selector" app:tabGravity="center" app:tabIndicatorHeight="0.0dip" />
+            </LinearLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="48.0dip" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/playerViewStub" android:layout="@layout/layout_base_player_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.truecaller.videocallerid.ui.videoplayer.NoIconAvatarXView android:layout_gravity="center" android:id="@id/avatarXView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

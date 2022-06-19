@@ -1,0 +1,42 @@
+.class final synthetic Lcom/google/android/gms/internal/ads/ly;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/android/gms/internal/ads/zr;
+
+
+# instance fields
+.field private final a:Lcom/google/android/gms/internal/ads/zp;
+
+
+# direct methods
+.method constructor <init>(Lcom/google/android/gms/internal/ads/zp;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/google/android/gms/internal/ads/ly;->a:Lcom/google/android/gms/internal/ads/zp;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()V
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/ly;->a:Lcom/google/android/gms/internal/ads/zp;
+
+    .line 2
+    new-instance v1, Lcom/google/android/gms/internal/ads/zzamh;
+
+    const-string v2, "Cannot get Javascript Engine"
+
+    invoke-direct {v1, v2}, Lcom/google/android/gms/internal/ads/zzamh;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {v0, v1}, Lcom/google/android/gms/internal/ads/zp;->setException(Ljava/lang/Throwable;)Z
+
+    return-void
+.end method

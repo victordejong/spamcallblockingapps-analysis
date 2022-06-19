@@ -1,0 +1,253 @@
+.class public abstract Lcom/mopub/mobileads/MoPubWebViewController;
+.super Ljava/lang/Object;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/mopub/mobileads/MoPubWebViewController$ScreenMetricsWaiter;,
+        Lcom/mopub/mobileads/MoPubWebViewController$WebViewCacheListener;
+    }
+.end annotation
+
+
+# instance fields
+.field public a:Ljava/lang/ref/WeakReference;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/lang/ref/WeakReference<",
+            "Landroid/app/Activity;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final b:Landroid/content/Context;
+
+.field public final c:Landroid/view/ViewGroup;
+
+.field public d:Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
+
+.field public e:Lcom/mopub/mraid/WebViewDebugListener;
+
+.field public f:Lcom/mopub/mobileads/BaseWebView;
+
+.field public g:Ljava/lang/String;
+
+.field public h:Z
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;Ljava/lang/String;)V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/4 v0, 0x1
+
+    iput-boolean v0, p0, Lcom/mopub/mobileads/MoPubWebViewController;->h:Z
+
+    invoke-virtual {p1}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/mopub/mobileads/MoPubWebViewController;->b:Landroid/content/Context;
+
+    invoke-static {v0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
+
+    iput-object p2, p0, Lcom/mopub/mobileads/MoPubWebViewController;->g:Ljava/lang/String;
+
+    instance-of p2, p1, Landroid/app/Activity;
+
+    if-eqz p2, :cond_0
+
+    new-instance p2, Ljava/lang/ref/WeakReference;
+
+    check-cast p1, Landroid/app/Activity;
+
+    invoke-direct {p2, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+
+    iput-object p2, p0, Lcom/mopub/mobileads/MoPubWebViewController;->a:Ljava/lang/ref/WeakReference;
+
+    goto :goto_0
+
+    :cond_0
+    new-instance p1, Ljava/lang/ref/WeakReference;
+
+    const/4 p2, 0x0
+
+    invoke-direct {p1, p2}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+
+    iput-object p1, p0, Lcom/mopub/mobileads/MoPubWebViewController;->a:Ljava/lang/ref/WeakReference;
+
+    :goto_0
+    new-instance p1, Landroid/widget/FrameLayout;
+
+    invoke-direct {p1, v0}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
+
+    iput-object p1, p0, Lcom/mopub/mobileads/MoPubWebViewController;->c:Landroid/view/ViewGroup;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()V
+    .locals 1
+
+    iget-boolean v0, p0, Lcom/mopub/mobileads/MoPubWebViewController;->h:Z
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x1
+
+    invoke-virtual {p0, v0}, Lcom/mopub/mobileads/MoPubWebViewController;->c(Z)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public abstract b(Ljava/lang/String;)V
+.end method
+
+.method public c(Z)V
+    .locals 1
+
+    const/4 v0, 0x1
+
+    iput-boolean v0, p0, Lcom/mopub/mobileads/MoPubWebViewController;->h:Z
+
+    iget-object v0, p0, Lcom/mopub/mobileads/MoPubWebViewController;->f:Lcom/mopub/mobileads/BaseWebView;
+
+    if-eqz v0, :cond_0
+
+    invoke-static {v0, p1}, Lcom/mopub/mobileads/util/WebViews;->onPause(Landroid/webkit/WebView;Z)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public abstract createWebView()Lcom/mopub/mobileads/BaseWebView;
+.end method
+
+.method public d()V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lcom/mopub/mobileads/MoPubWebViewController;->h:Z
+
+    iget-object v0, p0, Lcom/mopub/mobileads/MoPubWebViewController;->f:Lcom/mopub/mobileads/BaseWebView;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Landroid/webkit/WebView;->onResume()V
+
+    :cond_0
+    return-void
+.end method
+
+.method public final fillContent(Ljava/lang/String;Ljava/util/Set;Lcom/mopub/mobileads/MoPubWebViewController$WebViewCacheListener;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/util/Set<",
+            "Lcom/mopub/common/ViewabilityVendor;",
+            ">;",
+            "Lcom/mopub/mobileads/MoPubWebViewController$WebViewCacheListener;",
+            ")V"
+        }
+    .end annotation
+
+    const-string v0, "htmlData cannot be null"
+
+    invoke-static {p1, v0}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {p0}, Lcom/mopub/mobileads/MoPubWebViewController;->createWebView()Lcom/mopub/mobileads/BaseWebView;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/mopub/mobileads/MoPubWebViewController;->f:Lcom/mopub/mobileads/BaseWebView;
+
+    if-eqz p3, :cond_0
+
+    invoke-interface {p3, v0}, Lcom/mopub/mobileads/MoPubWebViewController$WebViewCacheListener;->onReady(Lcom/mopub/mobileads/BaseWebView;)V
+
+    :cond_0
+    invoke-static {p1, p2}, Lcom/mopub/common/ViewabilityManager;->injectVerificationUrlsIntoHtml(Ljava/lang/String;Ljava/util/Set;)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-static {p1}, Lcom/mopub/common/ViewabilityManager;->injectScriptContentIntoHtml(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {p0, p1}, Lcom/mopub/mobileads/MoPubWebViewController;->b(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public getAdContainer()Landroid/view/View;
+    .locals 1
+
+    iget-object v0, p0, Lcom/mopub/mobileads/MoPubWebViewController;->c:Landroid/view/ViewGroup;
+
+    return-object v0
+.end method
+
+.method public getBaseWebViewListener()Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
+    .locals 1
+    .annotation build Lcom/mopub/common/VisibleForTesting;
+    .end annotation
+
+    iget-object v0, p0, Lcom/mopub/mobileads/MoPubWebViewController;->d:Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
+
+    return-object v0
+.end method
+
+.method public getContext()Landroid/content/Context;
+    .locals 1
+
+    iget-object v0, p0, Lcom/mopub/mobileads/MoPubWebViewController;->b:Landroid/content/Context;
+
+    return-object v0
+.end method
+
+.method public loadJavascript(Ljava/lang/String;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public onShow(Landroid/app/Activity;)V
+    .locals 1
+
+    invoke-static {p1}, Lcom/mopub/common/Preconditions;->checkNotNull(Ljava/lang/Object;)V
+
+    new-instance v0, Ljava/lang/ref/WeakReference;
+
+    invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+
+    iput-object v0, p0, Lcom/mopub/mobileads/MoPubWebViewController;->a:Ljava/lang/ref/WeakReference;
+
+    return-void
+.end method
+
+.method public setDebugListener(Lcom/mopub/mraid/WebViewDebugListener;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/mopub/mobileads/MoPubWebViewController;->e:Lcom/mopub/mraid/WebViewDebugListener;
+
+    return-void
+.end method
+
+.method public setMoPubWebViewListener(Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/mopub/mobileads/MoPubWebViewController;->d:Lcom/mopub/mobileads/BaseHtmlWebView$BaseWebViewListener;
+
+    return-void
+.end method

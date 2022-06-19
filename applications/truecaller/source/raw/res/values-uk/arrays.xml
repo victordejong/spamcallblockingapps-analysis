@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>OTP</item>
+        <item>Транзакція</item>
+        <item>Інші</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>січ</item>
+        <item>лют</item>
+        <item>бер</item>
+        <item>кві</item>
+        <item>тра</item>
+        <item>чер</item>
+        <item>лип</item>
+        <item>сер</item>
+        <item>вер</item>
+        <item>жов</item>
+        <item>лис</item>
+        <item>гру</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Увійти в %s</item>
+        <item>Реєстрація через %s</item>
+        <item>Увійти в %s</item>
+        <item>Перевірити номер через %s</item>
+        <item>Реєстрація через %s</item>
+        <item>Почати з %s</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>Дзвінок</item>
+        <item>Переглянути профіль</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>Це важливо</item>
+        <item>Вибач</item>
+        <item>Ти де?</item>
+        <item>Я маю запитання</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>один</item>
+        <item>два</item>
+        <item>три</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>Привіт 👋, це терміново 🚨</item>
+        <item>Добрий день 👋 Ваше замовлення готове!</item>
+        <item>Маєш час? Я внизу!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Без звуку</item>
+        <item>Тільки вібрація</item>
+        <item>Тільки звук</item>
+        <item>Звук і вібрація</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>Надішліть Flash, якщо вам потрібна гарантована відповідь в межах однієї хвилини</item>
+        <item>Надішліть Flash, якщо вам потрібно швидко повідомити щось важливе</item>
+        <item>Чи ви знали, що ви можете швидко повідомити своє розташування одним дотиком</item>
+        <item>Порада: пишіть або висловлюйте свої думки за допомогою емодзі</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>Сортувати за іменем</item>
+        <item>Сортувати за прізвищем</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>Збережено</item>
+        <item>Визначено</item>
+    </string-array>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/frameLayout2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/topNav" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/top_nav" />
+    <androidx.core.widget.NestedScrollView android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/topNav">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/setting_background_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="@id/swEnableCallcontroll" app:layout_constraintEnd_toStartOf="@id/swEnableCallcontroll" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/swEnableCallcontroll">
+                    <TextView android:textSize="16.0sp" android:textColor="@color/colorDefaultBlack" android:id="@id/textView8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/enable_call_blocking" android:fontFamily="@font/google_sans_medium" />
+                    <TextView android:textColor="@color/colorDefaultBlack" android:id="@id/textView9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/turn_all_call_blocking_on_or_off" />
+                </LinearLayout>
+                <Switch android:id="@id/swEnableCallcontroll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginBottom="40.0dip" android:thumb="@drawable/ic_thumb" android:track="@drawable/switch_btn" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rvGeneralSettings" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="32.0dip">
+                <ImageView android:id="@id/imgDivider" android:layout_width="0.0dip" android:layout_height="1.0dip" android:src="@color/colorPrimary" android:alpha="0.2" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:textColor="@color/colorPrimary" android:id="@id/textView19" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/block_report_advanced_btn" android:textAllCaps="true" android:fontFamily="@font/google_sans_medium" android:layout_marginStart="24.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <LinearLayout android:orientation="vertical" android:id="@id/linearLayout8" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textView19">
+                    <include android:id="@id/generalSettingsThirdPartyApp" layout="@layout/call_blocking_item" />
+                    <include android:id="@id/generalSettingsDefaultDialer" android:visibility="gone" layout="@layout/call_blocking_item" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

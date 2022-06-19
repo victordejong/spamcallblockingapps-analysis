@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:id="@id/bottomActionsContainerWithShadow" android:padding="@dimen/dimen_10_dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/bottomActionsContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="3.0">
+        <FrameLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/add_note" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@drawable/ic_add_note" android:scaleType="fitXY" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/call_icon" android:layout_width="53.0dip" android:layout_height="53.0dip" android:src="@drawable/ic_fab_b_centered" android:scaleType="fitXY" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/open_menu" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@drawable/ic_a_menu" android:scaleType="fitXY" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

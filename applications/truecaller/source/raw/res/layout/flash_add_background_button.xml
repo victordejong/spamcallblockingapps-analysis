@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/control_mini_space" android:paddingBottom="@dimen/control_mini_space" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/control_space" android:paddingEnd="@dimen/control_doublespace">
+        <ImageView android:id="@id/addPhotoButton" android:padding="@dimen/control_mini_space" android:clickable="false" android:layout_width="@dimen/flash_small_button_size" android:layout_height="@dimen/flash_small_button_size" android:src="@drawable/ic_flash_outline_add_photo_alternate" android:scaleType="centerCrop" android:layout_marginStart="@dimen/control_mini_space" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/incoming_name_title" android:textColor="@color/white" android:ellipsize="end" android:id="@id/attachText" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/flash_add_photo" android:maxLines="2" android:fontFamily="sans-serif" android:layout_marginStart="@dimen/control_mini_space" android:layout_marginEnd="@dimen/control_space" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/addPhotoButton" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

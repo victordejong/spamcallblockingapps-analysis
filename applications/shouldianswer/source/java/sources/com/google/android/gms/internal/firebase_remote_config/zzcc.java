@@ -1,0 +1,12 @@
+package com.google.android.gms.internal.firebase_remote_config;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+@Target({ElementType.FIELD})
+@Retention(RetentionPolicy.RUNTIME)
+/* loaded from: classes-dex2jar.jar:com/google/android/gms/internal/firebase_remote_config/zzcc.class */
+public @interface zzcc {
+    String value() default "##default";
+}

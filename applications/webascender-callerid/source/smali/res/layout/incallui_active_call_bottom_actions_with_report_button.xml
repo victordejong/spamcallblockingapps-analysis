@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="50.0dip" android:paddingRight="50.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="13.0sp" android:textStyle="normal" android:textColor="#ffffffff" android:layout_gravity="bottom|center" android:id="@id/endCallAndReport" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/incallui_end_call_and_report" android:drawableTop="@drawable/incallui_end_call_and_report_button" android:drawablePadding="10.0dip" android:textAllCaps="false" android:fontFamily="sans-serif" />
+    <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <Button android:textSize="13.0sp" android:textStyle="normal" android:textColor="#ffffffff" android:layout_gravity="bottom|center" android:id="@id/endCall" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/incallui_end_call" android:drawableTop="@drawable/incallui_end_call_button" android:drawablePadding="10.0dip" android:textAllCaps="false" android:fontFamily="sans-serif" />
+</LinearLayout>

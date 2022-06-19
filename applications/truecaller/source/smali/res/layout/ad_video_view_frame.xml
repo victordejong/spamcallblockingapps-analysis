@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <VideoView android:id="@id/adVideo" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/adVideoControls" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/adVideoPlayPause" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/control_space" android:contentDescription="@null" app:tint="@color/ad_white_color" />
+        <ImageView android:id="@id/adVideoMuteUnmute" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/control_space" android:contentDescription="@null" app:tint="@color/ad_white_color" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/white" android:id="@id/adPrivacy" android:background="@drawable/ad_blue_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/control_micro_space" android:text="@string/add_info_text" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Widget.Truecaller.TextView.AdInfo" />
+</merge>

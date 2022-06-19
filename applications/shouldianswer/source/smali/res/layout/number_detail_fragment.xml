@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:tag="layout/number_detail_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stateListAnimator="@drawable/appbar_always_elevated">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentScrim="?colorPrimary" app:expandedTitleGravity="top" app:layout_scrollFlags="exitUntilCollapsed|scroll|snap">
+            <ImageView android:id="@id/ivPhoto" android:layout_width="fill_parent" android:layout_height="350.0dip" android:scaleType="centerCrop" app:layout_collapseMode="parallax" app:layout_collapseParallaxMultiplier="0.5" />
+            <androidx.appcompat.widget.Toolbar android:id="@id/appToolbar" android:background="#00000000" android:layout_marginTop="0.0dip" android:layout_marginBottom="35.0dip" app:layout_collapseMode="pin" style="@style/appBarToolbar" />
+            <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:paddingTop="30.0dip" android:paddingBottom="0.0dip" app:layout_collapseMode="pin" style="@style/llSectionHorizontal">
+                <LinearLayout android:paddingTop="20.0dip" android:paddingBottom="10.0dip" style="@style/llMaxWidth">
+                    <LinearLayout android:orientation="vertical" android:id="@id/llGroupWithShadow" android:background="@drawable/contact_black_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_collapseMode="pin" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/colorTextPrimaryDark" android:id="@id/tvDisplayCaptionPrimary" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/spaceMedium" android:layout_marginRight="@dimen/spaceMedium" android:text="+123456789" android:shadowColor="@color/colorTextPrimaryLight" android:shadowRadius="10.0" style="@style/textViewStyleAutosizedSingleLineCenteredInverted" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/colorTextPrimaryDark" android:id="@id/tvDisplayCaptionSecondary" android:layout_height="25.0dip" android:text="John Traamper" android:shadowColor="@color/colorTextPrimaryLight" android:shadowRadius="10.0" style="@style/textViewStyleAutosizedSingleLineCenteredInverted" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/colorTextPrimaryDark" android:id="@id/tvFeaturedInfo" android:layout_height="22.0dip" android:text="Featured Info" style="@style/textViewStyleAutosizedSingleLineCenteredInverted" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/colorTextPrimaryDark" android:id="@id/tvCountry" android:layout_height="19.0dip" android:text="Czech Rep." style="@style/textViewStyleAutosizedSingleLineCenteredInverted" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/colorTextPrimaryDark" android:layout_gravity="center" android:id="@id/tvRating" android:background="@color/ratingNegativeColorLight" android:padding="@dimen/spaceSmallest" android:layout_width="wrap_content" android:layout_marginTop="@dimen/spaceSmallest" android:text="Negative Telemarketer" android:textAllCaps="true" style="@style/textViewStyleAutosizedSingleLineCentered" />
+                    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/llBlockReason" android:background="@color/ratingNegativeColorLight" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/spaceSmall" android:src="@drawable/ic_block_white_24dp" android:tint="@color/colorTextPrimaryDark" />
+                        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontMedium" android:textColor="@color/colorTextPrimaryDark" android:gravity="center" android:layout_gravity="center" android:id="@id/tvBlockReason" android:padding="@dimen/spaceSmallest" android:layout_width="wrap_content" android:text="COMMUNITY RATING" android:textAllCaps="true" style="@style/textViewStyle" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="?colorBackgroundPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatButton android:id="@id/butCall" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/spaceSmallest" android:layout_marginRight="@dimen/spaceSmallest" android:text="@string/call" android:drawableTop="@drawable/ic_phone_white_24dp" android:layout_weight="1.0" android:drawableTint="?colorAccent" style="@style/buttonBorderlessWithIcon" />
+            <androidx.appcompat.widget.AppCompatButton android:id="@id/butSMS" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/spaceSmallest" android:text="@string/sms" android:drawableTop="@drawable/ic_rate_review_white_24dp" android:layout_weight="1.0" android:drawableTint="?colorAccent" style="@style/buttonBorderlessWithIcon" />
+            <androidx.appcompat.widget.AppCompatButton android:id="@id/butBlock" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/spaceSmallest" android:text="@string/block" android:drawableTop="@drawable/ic_block_white_24dp" android:layout_weight="1.0" android:drawableTint="?colorAccent" style="@style/buttonBorderlessWithIcon" />
+            <androidx.appcompat.widget.AppCompatButton android:textColor="@color/colorTextPrimaryDark" android:id="@id/butUnblock" android:background="@color/ratingNegativeColorLight" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="0.0dip" android:text="@string/blocked" android:drawableTop="@drawable/ic_block_white_24dp" android:layout_weight="1.0" android:backgroundTint="@color/ratingNegativeColorLight" android:drawableTint="@color/colorTextPrimaryDark" app:iconTint="@color/colorTextPrimaryDark" />
+            <androidx.appcompat.widget.AppCompatButton android:id="@id/butAllow" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/spaceSmallest" android:text="@string/allow" android:drawableTop="@drawable/ic_done_white_24dp" android:layout_weight="1.0" android:drawableTint="?colorAccent" style="@style/buttonBorderlessWithIcon" />
+            <androidx.appcompat.widget.AppCompatButton android:textColor="@color/colorTextPrimaryDark" android:id="@id/butUnallow" android:background="@color/ratingPositiveColorLight" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="0.0dip" android:text="@string/allowed" android:drawableTop="@drawable/ic_done_white_24dp" android:layout_weight="1.0" android:backgroundTint="@color/ratingPositiveColorLight" android:drawableTint="@color/colorTextPrimaryDark" app:iconTint="@color/colorTextPrimaryDark" />
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.card.MaterialCardView android:id="@id/cardNumberDefault" style="@style/basicCard">
+                <LinearLayout style="@style/llCard">
+                    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvNumberInContacts" android:text="@string/number_is_stored_in_your_contacts_so_it_s_considered_as_safe_and_private_by_default_if_this_is_public_phone_number_please_share_your_experience_with_others" style="@style/textViewStyle" />
+                    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvNumberNotInContacts" android:text="@string/number_is_not_stored_in_your_contacts_if_this_is_public_phone_number_please_share_your_experience_with_others" style="@style/textViewStyle" />
+                    <LinearLayout android:layout_marginTop="@dimen/spaceMedium" style="@style/llParentWidthHorizontalCenterVertical">
+                        <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:text="@string/report_this_phone_number_as" android:layout_weight="1.0" style="@style/textViewStyle" />
+                        <ImageButton android:id="@id/butReportMoreInfo" style="@style/buttonHelp" />
+                    </LinearLayout>
+                    <LinearLayout style="@style/llParentWidthHorizontalCenter">
+                        <com.google.android.material.button.MaterialButton android:textColor="@color/colorTextPrimaryDark" android:id="@id/butReportSafe" android:layout_marginRight="@dimen/spaceBiggest" android:text="@string/safe" android:backgroundTint="@color/ratingPositiveColorLight" app:icon="@drawable/rating_positive_small" app:iconPadding="0.0dip" app:iconSize="20.0dip" app:iconTint="@android:color/transparent" app:iconTintMode="add" style="@style/button" />
+                        <com.google.android.material.button.MaterialButton android:textColor="@color/colorTextPrimaryDark" android:id="@id/butReportSpam" android:text="@string/spam" android:backgroundTint="@color/ratingNegativeColorLight" app:icon="@drawable/rating_negative_small" app:iconPadding="0.0dip" app:iconSize="20.0dip" app:iconTint="@android:color/transparent" app:iconTintMode="add" style="@style/buttonAccent" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView android:id="@id/cardNumberIsInContact" android:visibility="gone" style="@style/basicCard">
+                <LinearLayout style="@style/llCard">
+                    <androidx.appcompat.widget.AppCompatTextView android:text="@string/number_is_stored_in_your_contacts_but_is_reported_as_spam_by_community" style="@style/textViewStyle" />
+                    <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:layout_width="fill_parent" android:layout_marginTop="@dimen/spaceMedium" android:text="@string/how_would_you_classify_this_number" style="@style/textViewStyle" />
+                    <LinearLayout style="@style/llParentWidthHorizontalCenter">
+                        <com.google.android.material.button.MaterialButton android:textColor="@color/colorTextPrimaryDark" android:id="@id/butReportSafe2" android:layout_marginRight="@dimen/spaceBiggest" android:text="@string/safe" android:backgroundTint="@color/ratingPositiveColorLight" app:icon="@drawable/rating_positive_small" app:iconPadding="0.0dip" app:iconSize="20.0dip" app:iconTint="@android:color/transparent" app:iconTintMode="add" style="@style/buttonAccent" />
+                        <com.google.android.material.button.MaterialButton android:textColor="@color/colorTextPrimaryDark" android:id="@id/butReportSpam2" android:text="@string/spam" android:backgroundTint="@color/ratingNegativeColorLight" app:icon="@drawable/rating_positive_small" app:iconPadding="0.0dip" app:iconSize="20.0dip" app:iconTint="@android:color/transparent" app:iconTintMode="add" style="@style/buttonAccent" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView android:id="@id/cardNumberHasReport" android:visibility="gone" style="@style/basicCard">
+                <LinearLayout style="@style/llCard">
+                    <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                        <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:text="@string/you_have_reported_this_number_as" android:layout_weight="1.0" style="@style/textViewStyle" />
+                        <ImageButton android:id="@id/butReportMoreInfo2" style="@style/buttonHelp" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_marginTop="@dimen/spaceMedium" style="@style/llParentWidthHorizontalCenterVertical">
+                        <ImageView android:id="@id/imgNegativeReport" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/rating_negative_big" />
+                        <ImageView android:id="@id/imgPositiveReport" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/rating_positive_big" />
+                        <LinearLayout android:layout_marginLeft="@dimen/spaceMedium" style="@style/llParentWidth">
+                            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvReportInfo1" android:layout_width="fill_parent" android:text="Line1" style="@style/textViewStyle" />
+                            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvReportInfo2" android:layout_width="fill_parent" android:text="Line2" style="@style/textViewStyle" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:layout_marginTop="@dimen/spaceMedium" style="@style/llParentWidthHorizontalRight">
+                        <com.google.android.material.button.MaterialButton android:id="@id/butDeleteReport" android:layout_marginRight="@dimen/spaceMedium" android:text="@string/delete_report" style="@style/buttonBorderless" />
+                        <com.google.android.material.button.MaterialButton android:id="@id/butEditReport" android:text="@string/edit" style="@style/buttonBorderless" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView android:id="@id/cardNumberHasUnfinishedReport" android:visibility="gone" style="@style/basicCard">
+                <LinearLayout style="@style/llCard">
+                    <androidx.appcompat.widget.AppCompatTextView android:text="@string/you_have_not_finished_report_of_this_number_do_you_widh_to_continue" style="@style/textViewStyle" />
+                    <LinearLayout android:layout_marginTop="@dimen/spaceMedium" style="@style/llParentWidthHorizontalRight">
+                        <com.google.android.material.button.MaterialButton android:id="@id/butDeleteReport2" android:layout_marginRight="@dimen/spaceMedium" android:text="@string/delete_report" style="@style/buttonBorderless" />
+                        <com.google.android.material.button.MaterialButton android:id="@id/butContinueInReport" android:text="@string/_continue" style="@style/buttonBorderless" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView android:id="@id/cardCommunityReport" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/basicCard">
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/llCard">
+                    <LinearLayout style="@style/llParentWidthHorizontal">
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <LinearLayout style="@style/llSimpleHorizontalCenterVertical">
+                                <ImageView android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginRight="@dimen/spaceSmall" android:src="@drawable/rating_positive_big" />
+                                <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:textColor="?ratingPositiveColor" android:id="@id/tvCommunitySafeCount" android:layout_marginRight="@dimen/spaceSmallest" android:text="0" style="@style/textViewStyle" />
+                            </LinearLayout>
+                            <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:textColor="?ratingPositiveColor" android:text="@string/safe_reports" style="@style/textViewStyle" />
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <LinearLayout style="@style/llSimpleHorizontalCenterVertical">
+                                <ImageView android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginRight="@dimen/spaceSmall" android:src="@drawable/rating_negative_big" />
+                                <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:textColor="?ratingNegativeColor" android:id="@id/tvCommunitySpamCount" android:layout_marginRight="@dimen/spaceSmallest" android:text="0" style="@style/textViewStyle" />
+                            </LinearLayout>
+                            <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:textColor="?ratingNegativeColor" android:text="@string/spam_reports" style="@style/textViewStyle" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:layout_gravity="center" android:id="@id/tvCommunityRating" android:layout_marginTop="@dimen/spaceMedium" android:text="Positive Telemarketing" style="@style/textViewStyle" />
+                    <LinearLayout android:layout_marginTop="@dimen/spaceMedium" style="@style/llParentWidthHorizontalCenter">
+                        <com.google.android.material.button.MaterialButton android:id="@id/butShowCommunityReports" android:text="@string/show_more_info" style="@style/buttonBorderless" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+            <LinearLayout style="@style/llCard">
+                <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvCallHistory" android:text="@string/call_history" style="@style/textViewStyleSectionTitle" />
+                <LinearLayout android:orientation="vertical" android:id="@id/llCallHistory" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

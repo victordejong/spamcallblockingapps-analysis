@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/text_original_reporting_menu_bg" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/report_cancel" android:background="@drawable/selector_report_menu" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ic_action_content_clear" />
+        <TextView android:textSize="@dimen/text_small" android:textColor="@color/white" android:id="@id/report_cancel_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_cancel" />
+    </LinearLayout>
+    <View android:layout_gravity="center" android:background="@color/text_original_reporting_menu_separator" android:layout_width="1.0dip" android:layout_height="25.0dip" />
+    <LinearLayout android:gravity="center" android:id="@id/report_done" android:background="@drawable/selector_report_menu" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ic_action_action_done" />
+        <TextView android:textSize="@dimen/text_small" android:textColor="@color/white" android:id="@id/report_done_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_done" />
+    </LinearLayout>
+</LinearLayout>

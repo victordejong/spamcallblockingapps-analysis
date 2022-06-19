@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/settingsRingtone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/settingsRingtonePermissionBanner" app:cardBackgroundColor="?theme_accentColor" style="@style/Widget.Truecaller.CardView">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.truecaller.ui.view.TintedImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ringtone" android:layout_marginStart="@dimen/control_doublespace" app:imgTint="?theme_textColorAccentedControl" />
+            <TextView android:textColor="?theme_textColorAccentedControl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/control_doublespace" android:text="@string/SettingsPermissionBanner" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/settingsRingtoneFileContainer" style="@style/Widget.Truecaller.CardView">
+        <LinearLayout style="@style/Widget.Truecaller.ContainerWrap">
+            <TextView android:paddingTop="@dimen/control_space" android:layout_margin="@dimen/control_space" android:layout_marginBottom="@dimen/control_semispace" android:text="@string/SettingsRingtoneTitle" android:paddingStart="@dimen/control_space" android:paddingEnd="@dimen/control_space" style="@style/Widget.Truecaller.TextView.SettingsGroupTitle" />
+            <TextView android:id="@id/settingsRingtoneFile" android:background="?selectableItemBackground" style="@style/Widget.Truecaller.TextView.SettingsTitle" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/settingsMessagingRingtoneFileContainer" style="@style/Widget.Truecaller.CardView">
+        <LinearLayout style="@style/Widget.Truecaller.ContainerWrap">
+            <TextView android:paddingLeft="@dimen/control_space" android:paddingTop="@dimen/control_space" android:paddingRight="@dimen/control_space" android:layout_margin="@dimen/control_space" android:layout_marginBottom="@dimen/control_semispace" android:text="@string/SettingsMessagesRingtoneTitle" style="@style/Widget.Truecaller.TextView.SettingsGroupTitle" />
+            <LinearLayout android:id="@id/settingsMessagingChatMessageRingtone" android:background="?selectableItemBackground" android:paddingBottom="@dimen/control_doublespace" style="@style/Widget.Truecaller.ContainerWrap">
+                <TextView android:text="@string/SettingsMessagingChatMessageRingtoneTitle" style="@style/Widget.Truecaller.TextView.SettingsTitle" />
+                <TextView android:ellipsize="end" android:id="@id/settingsMessagingChatMessageRingtoneTitle" android:maxLines="1" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/settingsMessagingSmsMessageRingtone" android:background="?selectableItemBackground" android:paddingBottom="@dimen/control_doublespace" style="@style/Widget.Truecaller.ContainerWrap">
+                <TextView android:text="@string/SettingsMessagingSmsMessageRingtoneTitle" style="@style/Widget.Truecaller.TextView.SettingsTitle" />
+                <TextView android:ellipsize="end" android:id="@id/settingsMessagingSmsMessageRingtoneTitle" android:maxLines="1" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/settingsMessagingRingtoneVibrate" android:background="?selectableItemBackground" style="@style/Widget.Truecaller.ContainerWrap">
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/settingsMessagingRingtoneVibrateSwitch" android:text="@string/SettingsMessagesVibrateTitle" style="@style/Widget.Truecaller.Switch.Settings" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/settingsFlashRingtoneFileContainer" style="@style/Widget.Truecaller.CardView">
+        <LinearLayout style="@style/Widget.Truecaller.ContainerWrap">
+            <TextView android:paddingTop="@dimen/control_space" android:layout_margin="@dimen/control_space" android:layout_marginBottom="@dimen/control_semispace" android:text="@string/SettingsFlashRingtoneTitle" android:paddingStart="@dimen/control_space" android:paddingEnd="@dimen/control_space" style="@style/Widget.Truecaller.TextView.SettingsGroupTitle" />
+            <TextView android:id="@id/settingsFlashRingtoneFile" android:background="?selectableItemBackground" style="@style/Widget.Truecaller.TextView.SettingsTitle" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

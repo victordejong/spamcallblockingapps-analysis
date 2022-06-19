@@ -1,0 +1,127 @@
+package com.google.android.gms.common.api.internal;
+
+import android.util.Log;
+import android.util.SparseArray;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GoogleApiAvailability;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.internal.Preconditions;
+import java.io.FileDescriptor;
+import java.io.PrintWriter;
+/* loaded from: classes-dex2jar.jar:com/google/android/gms/common/api/internal/zak.class */
+public final class zak extends zap {
+    private final SparseArray<zaj> zad = new SparseArray<>();
+
+    private zak(LifecycleFragment lifecycleFragment) {
+        super(lifecycleFragment, GoogleApiAvailability.getInstance());
+        this.mLifecycleFragment.addCallback("AutoManageHelper", this);
+    }
+
+    public static zak zaa(LifecycleActivity lifecycleActivity) {
+        LifecycleFragment fragment = LifecycleCallback.getFragment(lifecycleActivity);
+        zak zakVar = (zak) fragment.getCallbackOrNull("AutoManageHelper", zak.class);
+        return zakVar != null ? zakVar : new zak(fragment);
+    }
+
+    private final zaj zai(int i) {
+        if (this.zad.size() <= i) {
+            return null;
+        }
+        SparseArray<zaj> sparseArray = this.zad;
+        return sparseArray.get(sparseArray.keyAt(i));
+    }
+
+    @Override // com.google.android.gms.common.api.internal.LifecycleCallback
+    public final void dump(String str, FileDescriptor fileDescriptor, PrintWriter printWriter, String[] strArr) {
+        for (int i = 0; i < this.zad.size(); i++) {
+            zaj zai = zai(i);
+            if (zai != null) {
+                printWriter.append((CharSequence) str).append("GoogleApiClient #").print(zai.zaa);
+                printWriter.println(":");
+                zai.zab.dump(String.valueOf(str).concat("  "), fileDescriptor, printWriter, strArr);
+            }
+        }
+    }
+
+    @Override // com.google.android.gms.common.api.internal.zap, com.google.android.gms.common.api.internal.LifecycleCallback
+    public final void onStart() {
+        super.onStart();
+        new StringBuilder(String.valueOf(this.zad).length() + 14);
+        if (this.zab.get() == null) {
+            for (int i = 0; i < this.zad.size(); i++) {
+                zaj zai = zai(i);
+                if (zai != null) {
+                    zai.zab.connect();
+                }
+            }
+        }
+    }
+
+    @Override // com.google.android.gms.common.api.internal.zap, com.google.android.gms.common.api.internal.LifecycleCallback
+    public final void onStop() {
+        super.onStop();
+        for (int i = 0; i < this.zad.size(); i++) {
+            zaj zai = zai(i);
+            if (zai != null) {
+                zai.zab.disconnect();
+            }
+        }
+    }
+
+    public final void zab(int i, GoogleApiClient googleApiClient, GoogleApiClient.OnConnectionFailedListener onConnectionFailedListener) {
+        Preconditions.checkNotNull(googleApiClient, "GoogleApiClient instance cannot be null");
+        boolean z = this.zad.indexOfKey(i) < 0;
+        StringBuilder sb = new StringBuilder(54);
+        sb.append("Already managing a GoogleApiClient with id ");
+        sb.append(i);
+        Preconditions.checkState(z, sb.toString());
+        zam zamVar = this.zab.get();
+        new StringBuilder(String.valueOf(zamVar).length() + 49);
+        zaj zajVar = new zaj(this, i, googleApiClient, onConnectionFailedListener);
+        googleApiClient.registerConnectionFailedListener(zajVar);
+        this.zad.put(i, zajVar);
+        if (!this.zaa || zamVar != null) {
+            return;
+        }
+        new StringBuilder(String.valueOf(googleApiClient).length() + 11);
+        googleApiClient.connect();
+    }
+
+    public final void zac(int i) {
+        zaj zajVar = this.zad.get(i);
+        this.zad.remove(i);
+        if (zajVar != null) {
+            zajVar.zab.unregisterConnectionFailedListener(zajVar);
+            zajVar.zab.disconnect();
+        }
+    }
+
+    @Override // com.google.android.gms.common.api.internal.zap
+    public final void zad(ConnectionResult connectionResult, int i) {
+        Log.w("AutoManageHelper", "Unresolved error while connecting client. Stopping auto-manage.");
+        if (i < 0) {
+            Log.wtf("AutoManageHelper", "AutoManageLifecycleHelper received onErrorResolutionFailed callback but no failing client ID is set", new Exception());
+            return;
+        }
+        zaj zajVar = this.zad.get(i);
+        if (zajVar == null) {
+            return;
+        }
+        zac(i);
+        GoogleApiClient.OnConnectionFailedListener onConnectionFailedListener = zajVar.zac;
+        if (onConnectionFailedListener == null) {
+            return;
+        }
+        onConnectionFailedListener.onConnectionFailed(connectionResult);
+    }
+
+    @Override // com.google.android.gms.common.api.internal.zap
+    public final void zae() {
+        for (int i = 0; i < this.zad.size(); i++) {
+            zaj zai = zai(i);
+            if (zai != null) {
+                zai.zab.connect();
+            }
+        }
+    }
+}

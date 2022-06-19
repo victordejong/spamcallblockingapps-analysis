@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_array">
+        <item>Private</item>
+        <item>Esattori/Banche</item>
+        <item>Pubblicità/Spam</item>
+        <item>Chiamate silenziose</item>
+        <item>Frodi</item>
+        <item>Servizi Finanziari</item>
+        <item>Altro…</item>
+    </string-array>
+    <string-array name="category_feedback_array">
+        <item>Senza categoria</item>
+        <item>Esattori/Banche</item>
+        <item>Pubblicità/Spam</item>
+        <item>Chiamate silenziose</item>
+        <item>Frodi</item>
+        <item>Servizi Finanziari</item>
+        <item>Altro…</item>
+    </string-array>
+    <string-array name="posneg_array">
+        <item>Negativo</item>
+        <item>Neutro</item>
+        <item>Positivo</item>
+    </string-array>
+    <string-array name="settings_block_methods_array">
+        <item>Fine chiamata (rigetta)</item>
+        <item>Silenzia la suoneria</item>
+    </string-array>
+</resources>

@@ -20,22 +20,27 @@ See here how: [dynamic-analysis/README.md](dynamic-analysis/README.md)
 
 ```bash
 app-name/
-├─ com.app.name/
-├─ decompiled-source/
 ├─ extracted-data/
 │  ├─ database/
 │  ├─ files/
 │  ├─ network/
-├─ classes*.jar
 ├─ com.app.name.apk
 ├─ README.md
+├─ source/
+│  ├─ jar/
+│  ├─ java/
+│  ├─ raw/
+│  ├─ smali/
 ```
-
-- `com.app.name/`: decompiled apk data
-- `decompiled-source/`: Lossy readable java code
-- `extracted-data`: Data extracted dynamically (database on disk, files on disk, MITM network capture)
+- `extracted-data/database/`: Databases extracted from disk
+- `extracted-data/files/`: Files extracted from disk
+- `extracted-data/network/`: Network capture data from MITMproxy. Usually several captures are made (startup, incoming call)
 - `com.app.name.apk`: Raw app apk (installable)
 - `README.md`: readme with app specific findings
+- `source/jar/`: Jar files obtained from Dex2Jar
+- `source/java/`: Decompiled Java files from Jadx
+- `source/raw/`: Raw extracted APK obtained from running `apktool d --no-src`
+- `source/smali/`: Smali files obtained from running `apktool d`
 
 # Unwanted applications
 
@@ -56,7 +61,3 @@ app-name/
 - Call Blocker: https://play.google.com/store/apps/details?id=com.unknownphone.callblocker
 - Bel Control: https://play.google.com/store/apps/details?id=com.flexaspect.android.everycallcontrol
 - Showcaller: Caller ID & Block: https://play.google.com/store/apps/details?id=com.allinone.callerid
-
-# TODO
-
-callapp-contacts: no net capture, cert-pinning, no files extracted

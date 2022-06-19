@@ -1,0 +1,797 @@
+{
+  "ontology": {
+    "noun": {
+      "tokens": [],
+      "children": {
+        "nondet": {
+          "type":"nondet",
+          "tokens": [
+            "$GDO_NONDET"
+          ]
+        },
+        "instr": {
+          "tokens": [],
+          "children": {
+            "amt": {
+              "type":"subject",
+              "tokens": [
+                "$EMI",
+                "$PREM",
+                "$TRANS1",
+                "$BILL",
+                "$DELIVERY",
+                "$CHQ",
+                "$TRANS2",
+                "$TERMDEP",
+                "$CSHDPST",
+                "$CSHWDL"
+              ],
+              "attr":{
+                "$AMNT":["entity","en_bank"],
+                "$TRANS1":["entity","en_bank"],
+                "$TERMDEP":["entity","en_bank"],
+                "$CSHDPST":["entity","en_bank"],
+                "$CSHWDL":["entity","en_bank"],
+                "$BILL":["entity","en_bill"],
+                "$EMI":["entity","en_loan"],
+                "$TRANS2":["entity","en_loan"],
+                "$PREM":["entity","en_loan"],
+                "$CHQ":["entity","en_cheque"],
+                "$DELIVERY":["entity","en_delivery"],
+                "*":["tense","te_present"],
+                "@":["status","st_done","status","st_later","status","st_fail","status","st_due","status","st_recd","status","st_promo"]
+              },
+              "operation":[
+                {
+                  "condition":{
+                    "type":["predicate","subject"],
+                    "name":["process","recd","sched","due","approve","offer"]
+                  },
+                  "operator":"attach",
+                  "rules":[
+                    {
+                      "in":["process,status,1","this,voice,vo_statement","this,tense,te_present"],
+                      "out":"this,status,st_done"
+                    },{
+                      "in":["approve,status,-1","approve,sem.parent_path,acc"],
+                      "out":"this,status,st_fail"
+                    },{
+                      "in":["process,status,-2","this,voice,vo_statement","this,tense,te_present"],
+                      "out":"this,status,st_later"
+                    },{
+                      "in":["process,status,-1"],
+                      "out":"this,status,st_fail"
+                    },{
+                      "in":["process,status,-3","this,voice,vo_statement","this,tense,te_present"],
+                      "out":"this,status,st_due"
+                    },{
+                      "in":["recd,status,1","this,entity,en_cheque","this,voice,vo_statement","this,tense,te_present"],
+                      "out":"this,status,st_recd"
+                    },{
+                      "in":["recd,status,1","this,entity,en_bank","this,voice,vo_statement","this,tense,te_present"],
+                      "out":"this,status,st_done"
+                    },{
+                      "in":["due,status,1","this,entity,en_bank;en_bill;en_loan"],
+                      "out":"this,status,st_due"
+                    },{
+                      "in":["sched,status,1","this,entity,en_bank"],
+                      "out":"this,status,st_due"
+                    },{
+                      "in":["offer,entity,en_offer"],
+                      "out":"this,status,st_promo"
+                    },{
+                      "in":["offer,entity,en_none"],
+                      "out":"this,status,st_promo"
+                    }]
+                }]
+            },
+            "account": {
+              "type":"subject",
+              "tokens": [
+                "$INS",
+                "$INS1",
+                "$INS2",
+                "$INS3",
+                "$INS4"
+              ],
+              "attr":{
+                "*":["entity","en_account"],
+                "@":["status","st_suspend"]
+              },
+              "operation":[{
+                "condition":{
+                  "type":["predicate"],
+                  "name":["suspend"]
+                },
+                "operator":"attach",
+                "rules":[
+                  {
+                    "in":["suspend,status,-2"],
+                    "out":"this,status,st_suspend"
+                  }]
+              }]
+            },
+            "statement": {
+              "type":"subject",
+              "tokens": [
+                "$STATMNT"
+              ],
+              "attr":{
+                "*":["entity","en_document","tense","te_present"],
+                "@":["status","st_recd"]
+              },
+              "operation":[{
+                "condition":{
+                  "type":["predicate"],
+                  "name":["recd"]
+                },
+                "operator":"attach",
+                "rules":[
+                  {
+                    "in":["recd,status,1","this,voice,vo_statement","this,tense,te_present"],
+                    "out":"this,status,st_recd"
+                  }]
+              }]
+            },
+            "rental": {
+              "type":"subject",
+              "tokens": [
+                "$RENTAL"
+              ],
+              "attr":{
+                "*":["entity","en_bill"]
+              }
+            },
+            "balance": {
+              "type":"subject",
+              "tokens": [
+                "$BLNC",
+                "$BLNC1"
+              ],
+              "attr":{}
+            },
+            "document": {
+              "type":"subject",
+              "tokens": [
+                "$APPLCTN",
+                "$FOLIO",
+                "$POLICY"
+              ],
+              "attr":{
+                "*":["entity","en_document"]
+              }
+            },
+            "otp": {
+              "type":"subject",
+              "tokens": [
+                "$OTP"
+              ],
+              "attr":{
+                "*":["entity","en_otp"]
+              }
+            }
+          }
+        }
+      }
+    },
+    "verb": {
+      "tokens": [],
+      "children": {
+        "status": {
+          "tokens": [],
+          "children": {
+            "recd": {
+              "type":"predicate",
+              "tokens": [
+                "$TRANS3"
+              ],
+              "attr":{
+                "*":["status","1"]
+              }
+            },
+            "process": {
+              "type":"predicate",
+              "tokens": [
+                "$PROCESS",
+                "$SUCCESSFUL",
+                "$RESCHE1",
+                "$DECLINE1",
+                "$MAKE",
+                "$MAKE1",
+                "$DUE1",
+                "$INIT"
+              ],
+              "attr":{
+                "process":["status","1"],
+                "success":["status","1"],
+                "$INIT":["status","-2"],
+                "fail":["status","-1"],
+                "pending":["status","-2"],
+                "plsmake":["status","-3"],
+                "$DECLINE1":["status","-1"]
+              }
+            },
+            "sched": {
+              "type":"predicate",
+              "tokens": [
+                "$SCHED",
+                "$RESCHE"
+              ],
+              "attr":{
+                "schedule":["status","1"],
+                "reschedule":["status","2"],
+                "cancel":["status","-1"],
+                "delay":["status","3"]
+              }
+            },
+            "suspend": {
+              "type":"predicate",
+              "tokens": [
+                "$SUSPEND"
+              ],
+              "attr":{
+                "operated":["status","1"],
+                "disconnect":["status","-2"],
+                "suspend":["status","-2"],
+                "inoperative":["status","-1"],
+                "stop":["status","-1"],
+                "close":["status","-1"],
+                "block":["status","-2"],
+                "inactive":["status","-1"]
+              }
+            },
+            "approve": {
+              "type":"predicate",
+              "tokens": [
+                "$APPROVE",
+                "$DECLINE",
+                "$ORDNTF1"
+              ],
+              "attr":{
+                "approve":["status","1"],
+                "$DECLINE":["status","-1"],
+                "$ORDNTF1":["status","-1"]
+              }
+            }
+          }
+        },
+        "credited": {
+          "type":"subject",
+          "tokens": [
+            "$TRX2"
+          ],
+          "attr":{
+            "*":["entity","en_bank"],
+            "@":["status","st_fail"]
+          },
+          "operation":[{
+            "condition":{
+              "type":["predicate"],
+              "name":["process"]
+            },
+            "operator":"attach",
+            "rules":[
+              {
+                "in":["process,status,-1"],
+                "out":"this,status,st_fail"
+              }]
+          }]
+        },
+        "trx": {
+          "type":"subject",
+          "tokens": [
+            "$TRX",
+            "$TRANS",
+            "$TRX1"
+          ],
+          "attr":{
+            "$TRX1":["tense","te_present"],
+            "*":["entity","en_bank"],
+            "@":["status","st_done","status","st_fail","status","st_promo"]
+          },
+          "operation":[{
+            "condition":{
+              "type":["predicate"],
+              "name":["process"]
+            },
+            "operator":"attach",
+            "rules":[
+              {
+                "in":["process,status,1","this,tense,te_present"],
+                "out":"this,status,st_done"
+              },{
+                "in":["process,status,-1"],
+                "out":"this,status,st_fail"
+              }]
+          }]
+        },
+        "offer": {
+          "type":"subject",
+          "tokens": [
+            "$GETAMT",
+            "$GETUPTO",
+            "$GET"
+          ],
+          "attr":{
+            "$GETAMT":["entity","en_offer"],
+            "$GETUPTO":["entity","en_offer"],
+            "$GET":["entity","en_none"]
+          }
+        },
+        "due": {
+          "type":"predicate",
+          "tokens": [
+            "$DUE"
+          ],
+          "attr":{
+            "*":["status","1"]
+          }
+        },
+        "rechrg": {
+          "type":"subject",
+          "tokens": [
+            "$RECHRG",
+            "$RECHRG1"
+          ],
+          "attr":{
+            "$RECHRG":["tense","te_present"],
+            "*":["entity","en_bill"],
+            "@":["status","st_done","status","st_fail","status","st_promo","status","st_later"]
+          },
+          "operation":[{
+            "condition":{
+              "type":["predicate","subject"],
+              "name":["process","credited","offer"]
+            },
+            "operator":"attach",
+            "rules":[
+              {
+                "in":["process,status,1","this,tense,te_present"],
+                "out":"this,status,st_done"
+              },{
+                "in":["credited,status,0","this,tense,te_present"],
+                "out":"this,status,st_done"
+              },{
+                "in":["process,status,-1"],
+                "out":"this,status,st_fail"
+              },{
+                "in":["process,status,-2"],
+                "out":"this,status,st_later"
+              },{
+                "in":["offer,entity,en_offer"],
+                "out":"this,status,st_promo"
+              },{
+                "in":["offer,entity,en_none"],
+                "out":"this,status,st_promo"
+              }]
+          }]
+        }
+      }
+    },
+    "adj": {
+      "tokens": [],
+      "children": {
+        "using": {
+          "type":"adjective",
+          "tokens": [
+            "$USE"
+          ],
+          "attr":{
+            "*":["status","1"]
+          }
+        },
+        "det": {
+          "type":"adjective",
+          "tokens": [
+            "$DET"
+          ],
+          "attr":{
+            "*":["status","1"]
+          }
+        },
+        "statusmod": {
+          "type":"operation",
+          "tokens": [
+            "not",
+            "unable",
+            "couldn't",
+            "cannot",
+            "completely"
+          ],
+          "attr":{
+            "#not":["status","-1"],
+            "#unable":["status","-1"],
+            "#could not":["status","-1"],
+            "#cannot":["status","-1"],
+            "#completely":["status","1"]
+          },
+          "operation":[{
+            "condition":{
+              "type":["predicate"],
+              "name":["status"],
+              "dir":1
+            },
+            "dim":"status",
+            "operator":"mult"
+          }]
+        },
+        "plspay": {
+          "type":"operation",
+          "tokens": [
+            "$PLSPAY"
+          ],
+          "attr":{
+            "*":["voice","vo_request"]
+          },
+          "operation":[{
+            "condition":{
+              "type":["value","subject"],
+              "name":["amt"],
+              "dir":1
+            },
+            "operator":"custom",
+            "rules":[
+              {
+                "in":["amt,entity,en_none","amt,status,0"],
+                "out":"amt,entity,en_bill,status,st_due"
+              },
+              {
+                "in":["amt,entity,en_bill"],
+                "out":"amt,status,st_due"
+              },
+              {
+                "in":["amt,entity,en_loan"],
+                "out":"amt,status,st_due"
+              }]
+          }]
+        },
+        "todo": {
+          "type":"operation",
+          "tokens": [
+            "$PLS"
+          ],
+          "attr":{
+            "*":["voice","vo_request"]
+          },
+          "operation":[
+            {
+              "condition":{
+                "type":["subject"],
+                "name":["verb"],
+                "dir":1
+              },
+              "dim":"voice",
+              "operator":"gt"
+            },
+            {
+              "condition":{
+                "type":["predicate"],
+                "name":["process"],
+                "dir":1
+              },
+              "operator":"custom",
+              "rules":[
+                {
+                  "in":["process,status,0"],
+                  "out":"process,status,-3"
+                }]
+            }]
+        },
+        "salutation": {
+          "type":"operation",
+          "tokens": [
+            "$SALDET"
+          ],
+          "attr":{
+            "*":["status","1"]
+          },
+          "operation":[{
+            "condition":{
+              "type":["predicate"],
+              "name":["process"],
+              "dir":1
+            },
+            "operator":"custom",
+            "rules":[
+              {
+                "in":["process,status,0"],
+                "out":"process,status,1"
+              }]
+          },
+            {
+              "condition":{
+                "type":["subject"],
+                "name":["account"]
+              },
+              "operator":"attach",
+              "rules":[
+                {
+                  "in":["account,sem.parent_path,acc","account,sem.child.name,nondet"],
+                  "out":"account,acc_name,nondet"
+                }]
+            }]
+        },
+        "question": {
+          "type":"operation",
+          "tokens": [
+            "$QUES",
+            "if"
+          ],
+          "attr":{
+            "*":["voice","vo_question"]
+          },
+          "operation":[{
+            "condition":{
+              "type":["subject"],
+              "name":["verb"],
+              "dir":1
+            },
+            "dim":"voice",
+            "operator":"gt"
+          }]
+        },
+        "convert": {
+          "type":"operation",
+          "tokens": [
+            "$CONVERT"
+          ],
+          "attr":{
+            "*":["status","-1"]
+          },
+          "operation":[{
+            "condition":{
+              "type":["subject"],
+              "name":["*"],
+              "dir":1
+            },
+            "operator":"custom",
+            "rules":[
+              {
+                "in":["this,status,-1"],
+                "out":"that,status,st_promo"
+              }]
+          }]
+        }
+      }
+    },
+    "accusative": {
+      "tokens": [],
+      "children": {
+        "aux": {
+          "type":"accusative",
+          "tokens": [
+            "$AUX",
+            "$FUTAUX"
+          ],
+          "attr":{
+            "$AUX":["tense","te_past"],
+            "$FUTAUX":["tense","te_future"]
+          }
+        },
+        "modal": {
+          "type":"accusative",
+          "tokens": [
+            "$MODAL1",
+            "$MODAL",
+            "$AUX1"
+          ],
+          "attr":{
+            "*":["voice","vo_question"]
+          },
+          "operation":[{
+            "condition":{
+              "type":["subject"],
+              "name":["*"],
+              "dir":1
+            },
+            "operator":"accstv",
+            "rules":[
+              {
+                "in":["that,entity,en_bank"],
+                "out":"that,status,st_promo"
+              }]
+          }]
+        },
+        "prep": {
+          "type": "accusative",
+          "tokens": [
+            "$PREP",
+            "$PREPL",
+            "$PREPV"
+          ],
+          "attr":{
+            "#on":["status","1"]
+          }
+        },
+        "conj": {
+          "type": "accusative",
+          "tokens": [
+            "$CONJ"
+          ]
+        }
+      }
+    },
+    "values":{
+      "tokens": [],
+      "children": {
+        "date": {
+          "type": "value",
+          "tokens": [
+            "$DATE",
+            "$TIME"
+          ]
+        },
+        "amt": {
+          "type":"value",
+          "tokens": [
+            "$AMT"
+          ],
+          "attr":{
+            "*":["status","0"]
+          },
+          "operation":[
+            {
+              "condition":{
+                "type":["subject","predicate"],
+                "name":["account","due"]
+              },
+              "operator":"attach",
+              "rules":[
+                {
+                  "in":["this,entity,en_bill","account,sem.parent_path,acc","account,sem.child.name,nondet"],
+                  "out":"account,acc_name,nondet"
+                },{
+                  "in":["due,status,1","due,sem.parent_path,acc"],
+                  "out":"this,entity,en_bill,status,st_due"
+                }]
+            }]
+        },
+        "num": {
+          "type":"value",
+          "tokens": [
+            "$INSTRNO",
+            "$NUM"
+          ]
+        },
+        "id": {
+          "type":"value",
+          "tokens": [
+            "$IDVAL",
+            "$TRANSID"
+          ]
+        },
+        "url": {
+          "type":"value",
+          "tokens": [
+            "$URL"
+          ]
+        }
+      }
+    }
+  },
+  "typology": {
+    "subject":[
+      {
+        "condition":{
+          "type":["adj,predicate", "adj,nondet"],
+          "name":["verb","nondet"],
+          "dir":-1,
+          "scope":0
+        },
+        "operator":"relate",
+        "dim":"1"
+      },
+      {
+        "condition":{
+          "type":["subject"],
+          "name":["account"]
+        },
+        "operator":"attach",
+        "rules":[
+          {
+            "in":["this,tense,te_past","account,sem.parent_path,acc","account,sem.child.name,nondet"],
+            "out":"account,acc_name,nondet"
+          }]
+      }
+    ],
+    "predicate":[
+      {
+        "condition":{
+          "type":["opr,operation"],
+          "name":["adj"],
+          "dir":-1,
+          "scope":0
+        },
+        "operator":"relate",
+        "dim":"1"
+      }
+    ],
+    "nondet":[
+      {
+        "condition":{
+          "type":["apd,nondet"],
+          "name":["nondet"],
+          "dir":1,
+          "scope":0
+        },
+        "operator":"relate",
+        "dim":"1"
+      }
+    ]
+  },
+  "contextbreak": [
+    "eff",
+    "no",
+    "via",
+    "ltd",
+    "ser",
+    "eg",
+    "info",
+    "avbl",
+    "ref",
+    "excl",
+    "incl",
+    "inc",
+    "amt",
+    "pol",
+    "mob",
+    "min",
+    "disc",
+    "dt",
+    "www",
+    "rs",
+    "a/c",
+    "acc",
+    "ac",
+    "bal",
+    "tel",
+    "refno",
+    "chq",
+    "fvg",
+    "cr",
+    "dr",
+    "mr",
+    "mrs",
+    "ms",
+    "nos",
+    "uscno",
+    "id"
+  ],
+  "seedconstants":{
+    "entity":0,
+    "voice":1,
+    "tense":2,
+    "status":3,
+    "dim":4,
+    "en_none":0,
+    "en_bank":1,
+    "en_bill":2,
+    "en_loan":3,
+    "en_cheque":4,
+    "en_travel":5,
+    "en_delivery":6,
+    "en_account":7,
+    "en_document":8,
+    "en_offer":9,
+    "en_otp":10,
+    "vo_statement":0,
+    "vo_question":1,
+    "vo_request":2,
+    "te_past":0,
+    "te_present":1,
+    "te_future":2,
+    "st_done":1,
+    "st_later":2,
+    "st_due":3,
+    "st_fail":-1,
+    "st_suspend":-1,
+    "st_promo":-2,
+    "st_recd":1
+  },
+  "coredims":{
+    "entity":["en_bank","en_bill","en_loan","en_cheque","en_travel","en_delivery","en_account","en_document","en_offer","en_otp"],
+    "voice": ["vo_statement","vo_question","vo_request"],
+    "tense":["te_past","te_present","te_future"],
+    "core": ["entity","voice","tense"]
+  }
+}

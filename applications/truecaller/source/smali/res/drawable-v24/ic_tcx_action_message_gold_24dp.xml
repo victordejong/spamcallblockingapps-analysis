@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="20.0" android:viewportHeight="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_tcx_action_message_gold_24dp__0" android:pathData="M10,0C4.477,0 0,4.477 0,10c0,2.212 0.72,4.315 2.03,6.04L1.222,20L10,20c5.523,0 10,-4.477 10,-10S15.523,0 10,0zM2,10a8,8 0,1 1,16 0,8 8,0 0,1 -8,8L3.672,18l0.5,-2.447 -0.548,-0.722C2.576,13.452 2,11.772 2,10zM6,11a1,1 0,1 0,0 -2,1 1,0 1,0 0,2zM10,11a1,1 0,1 0,0 -2,1 1,0 1,0 0,2zM15,10a1,1 0,1 1,-2 0,1 1,0 1,1 2,0z" android:fillType="evenOdd" />
+</vector>

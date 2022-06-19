@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/control_space" android:paddingBottom="@dimen/control_space" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.appcompat.widget.AppCompatCheckBox android:id="@id/set_as_primary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/control_doublespace" android:text="@string/menu_set_as_primary_number" style="@style/StyleX.Text.Body.B1" />
+</LinearLayout>

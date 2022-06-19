@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="429.0dip" android:width="396.0dip" android:viewportWidth="396.0" android:viewportHeight="429.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_missed_blocked_overlay_bg__0" android:pathData="M396,0H0V429H396V0Z" />
+</vector>

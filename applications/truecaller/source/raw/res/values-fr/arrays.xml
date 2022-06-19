@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>OTP</item>
+        <item>Transaction</item>
+        <item>Autres</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>jan</item>
+        <item>Fév</item>
+        <item>mar</item>
+        <item>avr</item>
+        <item>mai</item>
+        <item>juin</item>
+        <item>juil</item>
+        <item>aoû</item>
+        <item>sept</item>
+        <item>oct</item>
+        <item>nov</item>
+        <item>déc</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Se connecter à %s</item>
+        <item>"S'inscrire avec %s"</item>
+        <item>Connexion à %s</item>
+        <item>Vérifiez le numéro avec %s</item>
+        <item>"S'inscrire avec %s"</item>
+        <item>Commencer avec %s</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>Appeler</item>
+        <item>Afficher le profil</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>"C'est important"</item>
+        <item>Désolé</item>
+        <item>Où êtes-vous ?</item>
+        <item>"J'ai une question"</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>un</item>
+        <item>deux</item>
+        <item>trois</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>"Bonjour 👋, C'est urgent 🚨"</item>
+        <item>Bonjour 👋 Votre commande est prête !</item>
+        <item>Vous êtes libre maintenant ? Je suis en bas.</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Silencieux</item>
+        <item>Vibreur uniquement</item>
+        <item>Sonnerie uniquement</item>
+        <item>Sonnerie et Vibreur</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>"Utilisez le Flash quand vous avez besoin d'une réponse dans la minute"</item>
+        <item>Utilisez le Flash pour les choses importantes que vous devez dire rapidement</item>
+        <item>Le saviez-vous : vous pouvez rapidement partager votre localisation en juste une touche</item>
+        <item>Astuce : envoyez des emoji ou saisissez du texte pour vous exprimer</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>Trier par prénom</item>
+        <item>Trier par nom</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>Enregistré</item>
+        <item>Identifié</item>
+    </string-array>
+</resources>

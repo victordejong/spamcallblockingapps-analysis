@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.common.ui.groupavatar.GroupAvatarXView android:id="@id/groupAvatar" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginTop="11.0dip" android:layout_marginBottom="11.0dip" android:layout_marginStart="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/voipIcon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="17.0dip" android:layout_marginStart="10.0dip" app:layout_constraintStart_toEndOf="@id/groupAvatar" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_voice_logo_48dp" app:tint="@color/tcx_alertBackgroundRed_light" />
+    <TextView android:id="@id/callStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" app:layout_constraintBottom_toBottomOf="@id/voipIcon" app:layout_constraintStart_toEndOf="@id/voipIcon" app:layout_constraintTop_toTopOf="@id/voipIcon" style="@style/StyleX.Text.Subtitle.S1.Medium" />
+    <TextView android:textColor="?tcx_textSecondary" android:id="@id/callTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" app:layout_constraintStart_toStartOf="@id/voipIcon" app:layout_constraintTop_toBottomOf="@id/voipIcon" style="@style/StyleX.Text.Body.B2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

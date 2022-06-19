@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/content_view_small" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/big_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:background="@drawable/scrim" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignBottom="@id/big_image" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="@dimen/padding_vertical" android:paddingEnd="@dimen/padding_vertical">
+        <TextView android:textAppearance="@style/PushTitle" android:textColor="@color/white" android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="title" android:maxLines="1" />
+        <TextView android:textAppearance="@style/PushMessage" android:textColor="@color/white" android:ellipsize="end" android:id="@id/msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="message message message" android:maxLines="2" android:layout_below="@id/title" android:layout_alignStart="@id/title" />
+    </RelativeLayout>
+</RelativeLayout>

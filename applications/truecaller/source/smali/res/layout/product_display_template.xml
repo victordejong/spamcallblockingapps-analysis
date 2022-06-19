@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content_view_big" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/rel_lyt" layout="@layout/content_view_small_multi_line_msg" />
+    <LinearLayout android:id="@id/carousel_relative_layout" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:weightSum="1.0">
+        <ViewFlipper android:id="@id/carousel_image" android:layout_width="0.0dip" android:layout_height="fill_parent" android:inAnimation="@anim/fade_in" android:outAnimation="@anim/fade_out" android:layout_weight="0.5" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:weightSum="1.0" android:layout_weight="0.5">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="3.0" android:layout_weight="0.4">
+                <TextView android:textAppearance="@style/PushTitle" android:layout_gravity="center_horizontal" android:id="@id/product_price" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="Rs: 5,000,000" android:textAlignment="center" />
+                <Button android:textAppearance="@style/PushMessage" android:id="@id/product_action" android:background="@android:color/holo_orange_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="Buy Now" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip">
+                    <ImageView android:id="@id/small_image1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                    <ImageView android:id="@id/small_image2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                    <ImageView android:id="@id/small_image3" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

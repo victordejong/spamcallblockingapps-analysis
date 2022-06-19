@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:id="@id/extraMetaInfo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintHorizontal_bias="0.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.ui.view.TintedImageView android:layout_gravity="center_vertical" android:id="@id/metaInfoIcon" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:scaleType="fitCenter" app:imgTint="#ffffffff" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@id/metaInfoText" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/metaInfoIcon" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_default="wrap" app:layout_goneMarginStart="0.0dip" style="@style/SpamData.Text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

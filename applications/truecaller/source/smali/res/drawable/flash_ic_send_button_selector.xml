@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:id="@id/enabled" android:drawable="@drawable/flash_ic_send_button_enabled" />
+    <item android:state_enabled="false" android:id="@id/disabled" android:drawable="@drawable/flash_ic_send_button" />
+    <transition android:drawable="@drawable/avd_send_disabled_enabled" android:toId="@id/enabled" android:fromId="@id/disabled" android:reversible="true" />
+</animated-selector>

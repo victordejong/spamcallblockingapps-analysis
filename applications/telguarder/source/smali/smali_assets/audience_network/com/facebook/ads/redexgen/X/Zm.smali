@@ -1,0 +1,209 @@
+.class public final Lcom/facebook/ads/redexgen/X/Zm;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Lcom/facebook/ads/redexgen/X/6e;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/facebook/ads/redexgen/X/Zh;->A0L()Lcom/facebook/ads/redexgen/X/6e;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# static fields
+.field public static A01:[Ljava/lang/String;
+
+
+# instance fields
+.field public final synthetic A00:Lcom/facebook/ads/redexgen/X/Zh;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 0
+
+    invoke-static {}, Lcom/facebook/ads/redexgen/X/Zm;->A00()V
+
+    return-void
+.end method
+
+.method public constructor <init>(Lcom/facebook/ads/redexgen/X/Zh;)V
+    .locals 0
+
+    .line 66479
+    iput-object p1, p0, Lcom/facebook/ads/redexgen/X/Zm;->A00:Lcom/facebook/ads/redexgen/X/Zh;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static A00()V
+    .locals 3
+
+    const/16 v0, 0x8
+
+    new-array v2, v0, [Ljava/lang/String;
+
+    const/4 v1, 0x0
+
+    const-string v0, "Hv8fM67oEPe8MRwMjN5ttwgiConjbqKr"
+
+    aput-object v0, v2, v1
+
+    const/4 v1, 0x1
+
+    const-string v0, "OTdRo7AoC9vAIqj5e7fxVlN1hYk"
+
+    aput-object v0, v2, v1
+
+    const/4 v1, 0x2
+
+    const-string v0, "hzDI66ZlcNKJTFW"
+
+    aput-object v0, v2, v1
+
+    const/4 v1, 0x3
+
+    const-string v0, "4wgWPhqqy4GmGZZUsn9C93kRsujw"
+
+    aput-object v0, v2, v1
+
+    const/4 v1, 0x4
+
+    const-string v0, "bth0aReKg5xdCARqqpnpXu6lN15pvGan"
+
+    aput-object v0, v2, v1
+
+    const/4 v1, 0x5
+
+    const-string v0, "ur5CoX"
+
+    aput-object v0, v2, v1
+
+    const/4 v1, 0x6
+
+    const-string v0, "aQrcLypuhl2D7ULMu6Cd1s6rt6toBxH6"
+
+    aput-object v0, v2, v1
+
+    const/4 v1, 0x7
+
+    const-string v0, "4x6Etvdr63CB5LZ36m1qEuKjjGsxtZTo"
+
+    aput-object v0, v2, v1
+
+    sput-object v2, Lcom/facebook/ads/redexgen/X/Zm;->A01:[Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final A5D()Lcom/facebook/ads/redexgen/X/6t;
+    .locals 5
+
+    .line 66480
+    iget-object v0, p0, Lcom/facebook/ads/redexgen/X/Zm;->A00:Lcom/facebook/ads/redexgen/X/Zh;
+
+    invoke-static {v0}, Lcom/facebook/ads/redexgen/X/Zh;->A03(Lcom/facebook/ads/redexgen/X/Zh;)Landroid/content/pm/ConfigurationInfo;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    .line 66481
+    iget-object v4, p0, Lcom/facebook/ads/redexgen/X/Zm;->A00:Lcom/facebook/ads/redexgen/X/Zh;
+
+    invoke-static {v4}, Lcom/facebook/ads/redexgen/X/Zh;->A03(Lcom/facebook/ads/redexgen/X/Zh;)Landroid/content/pm/ConfigurationInfo;
+
+    move-result-object v0
+
+    iget v3, v0, Landroid/content/pm/ConfigurationInfo;->reqNavigation:I
+
+    sget-object v2, Lcom/facebook/ads/redexgen/X/Zm;->A01:[Ljava/lang/String;
+
+    const/4 v0, 0x0
+
+    aget-object v1, v2, v0
+
+    const/4 v0, 0x7
+
+    aget-object v2, v2, v0
+
+    const/16 v0, 0x18
+
+    invoke-virtual {v1, v0}, Ljava/lang/String;->charAt(I)C
+
+    move-result v1
+
+    invoke-virtual {v2, v0}, Ljava/lang/String;->charAt(I)C
+
+    move-result v0
+
+    if-eq v1, v0, :cond_1
+
+    sget-object v2, Lcom/facebook/ads/redexgen/X/Zm;->A01:[Ljava/lang/String;
+
+    const-string v1, "3dUk7cDXygk2T1Vna4g"
+
+    const/4 v0, 0x2
+
+    aput-object v1, v2, v0
+
+    invoke-virtual {v4, v3}, Lcom/facebook/ads/redexgen/X/6V;->A05(I)Lcom/facebook/ads/redexgen/X/6t;
+
+    move-result-object v0
+
+    .line 66482
+    :goto_0
+    return-object v0
+
+    .line 66483
+    :cond_0
+    iget-object v4, p0, Lcom/facebook/ads/redexgen/X/Zm;->A00:Lcom/facebook/ads/redexgen/X/Zh;
+
+    sget-object v3, Lcom/facebook/ads/redexgen/X/6p;->A07:Lcom/facebook/ads/redexgen/X/6p;
+
+    sget-object v1, Lcom/facebook/ads/redexgen/X/Zm;->A01:[Ljava/lang/String;
+
+    const/4 v0, 0x3
+
+    aget-object v0, v1, v0
+
+    invoke-virtual {v0}, Ljava/lang/String;->length()I
+
+    move-result v1
+
+    const/16 v0, 0x1d
+
+    if-eq v1, v0, :cond_1
+
+    sget-object v2, Lcom/facebook/ads/redexgen/X/Zm;->A01:[Ljava/lang/String;
+
+    const-string v1, "CXIQICmGo5DrhUjUjoN87Np6CEqlEA3B"
+
+    const/4 v0, 0x4
+
+    aput-object v1, v2, v0
+
+    invoke-virtual {v4, v3}, Lcom/facebook/ads/redexgen/X/6V;->A08(Lcom/facebook/ads/redexgen/X/6p;)Lcom/facebook/ads/redexgen/X/6t;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    :cond_1
+    new-instance v0, Ljava/lang/RuntimeException;
+
+    invoke-direct {v0}, Ljava/lang/RuntimeException;-><init>()V
+
+    throw v0
+.end method

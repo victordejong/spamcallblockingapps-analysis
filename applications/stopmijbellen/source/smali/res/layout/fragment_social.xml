@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:id="@id/frameSocial" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/card_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" card_view:cardBackgroundColor="@color/cardview_feedback" card_view:cardCornerRadius="5.0dip" card_view:cardElevation="0.0dip" card_view:cardPreventCornerOverlap="false" card_view:cardUseCompatPadding="false" card_view:contentPadding="10.0dip" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/categoryTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="category" />
+                <TextView android:textSize="12.0sp" android:gravity="center_horizontal" android:id="@id/locationDescriptionTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/social_location_description" />
+                <TextView android:textSize="16.0sp" android:gravity="center_horizontal" android:id="@id/locationTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="location" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="10.0dip" android:layout_alignBaseline="@id/card_view">
+            <ImageView android:id="@id/posnegImageView" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:src="@drawable/ic_social_negative" android:layout_marginEnd="5.0dip" />
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:gravity="center|right" android:layout_gravity="center_vertical" android:id="@id/numberTextView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="+1234567890" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View android:id="@id/delimiter" android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="3.0dip" android:layout_below="@id/card_view" />
+        <ListView android:scrollbarThumbVertical="@drawable/scrollbar" android:scrollbarStyle="outsideOverlay" android:id="@id/feedbacksListView" android:paddingBottom="80.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:divider="@android:color/transparent" android:dividerHeight="3.0dip" android:layout_below="@id/delimiter" />
+        <TextView android:gravity="center" android:id="@id/noFeedbacksTextView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/social_no_feedback" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/frameProgress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_weight="1.0">
+            <ProgressBar android:layout_gravity="bottom|center" android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="16.0sp" android:gravity="center_horizontal" android:id="@id/tvProogress" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip" android:text="@string/social_loading_feedbacks" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/frameRepeat" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="16.0sp" android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="5.0dip" android:text="@string/social_error_loading" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_weight="1.0">
+            <Button android:layout_gravity="center_horizontal" android:id="@id/buttonRetry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/social_retry_loading" style="@style/Widget.AppCompat.Button.Colored" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/fab_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:src="@android:drawable/ic_menu_edit" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

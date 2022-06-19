@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start" android:background="@color/primary" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageButton android:id="@id/backButton" android:background="#00000000" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_arrow_back_black_24dp" android:tint="#ffffffff" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="32.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageView" android:layout_width="64.0dip" android:layout_height="64.0dip" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="20.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:id="@id/titleView" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:lines="1" style="@style/TextAppearance.AppCompat.Body1" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatImageButton android:id="@id/closeButton" android:background="#00000000" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close_black_24dp" android:tint="#ffffffff" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:background="@drawable/sp_circle_solid_primary_24dp" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_call_primary_dark_24dp" android:tint="#ffffffff" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_weight="1.0">
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/primary_dark" android:ellipsize="end" android:id="@id/labelView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" style="@style/TextAppearance.AppCompat.Body1" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/primary" android:ellipsize="end" android:id="@id/numberView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" style="@style/TextAppearance.AppCompat.Body1" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="16.0dip" />
+            <androidx.appcompat.widget.AppCompatButton android:textSize="16.0sp" android:textColor="@color/accent_dark" android:gravity="center|left" android:id="@id/reportButton" android:background="#00000000" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/contact_detail.report.cell_title" android:drawableLeft="@drawable/ic_report_24dp" android:drawablePadding="16.0dip" android:textAllCaps="false" />
+            <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <androidx.appcompat.widget.AppCompatButton android:textSize="16.0sp" android:textColor="@color/primary_dark" android:gravity="center|left" android:id="@id/shareButton" android:background="#00000000" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/contact_detail.share.cell_title" android:drawableLeft="@drawable/ic_export_primary_dark_24dp" android:drawablePadding="16.0dip" android:textAllCaps="false" />
+            <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <androidx.appcompat.widget.AppCompatButton android:textSize="16.0sp" android:textColor="@color/primary_dark" android:gravity="center|left" android:id="@id/searchButton" android:background="#00000000" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/contact_detail.search_website.cell_title" android:drawableLeft="@drawable/ic_search_primary_dark_24dp" android:drawablePadding="16.0dip" android:textAllCaps="false" />
+            <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <androidx.appcompat.widget.AppCompatButton android:textSize="16.0sp" android:textColor="@color/primary_dark" android:gravity="center|left" android:id="@id/inviteButton" android:background="#00000000" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/contact_detail.invite.cell_title" android:drawableLeft="@drawable/ic_invitation_primary_dark_24dp" android:drawablePadding="16.0dip" android:textAllCaps="false" />
+            <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <androidx.appcompat.widget.AppCompatButton android:textSize="16.0sp" android:textColor="@android:color/white" android:id="@id/submitButton" android:background="@drawable/button_bg_solid_accent_dark_20dpc" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="8.0dip" android:text="@string/block_phone.popup_confirm.block" android:textAllCaps="false" />
+</LinearLayout>

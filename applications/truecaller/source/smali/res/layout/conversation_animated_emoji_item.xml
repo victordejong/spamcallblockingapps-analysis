@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/ripple_tcx_chip" android:layout_width="@dimen/quadrupleSpace" android:layout_height="@dimen/quadrupleSpace"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/image" android:layout_width="@dimen/tripleSpace" android:layout_height="@dimen/tripleSpace" />
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="56.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/recorder_header_left" android:background="?card_foreground" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ic_back" android:contentDescription="@string/back" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/recorder_tv_title" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="?icon_color_white" />
+            <TextView android:id="@id/recorder_tv_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/Call_Recorder" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/recorder_more" app:layout_constraintStart_toEndOf="@id/recorder_header_left" app:layout_constraintTop_toTopOf="parent" style="@style/headerbar_text_style" />
+            <ImageView android:id="@id/recorder_more" android:background="?card_foreground" android:padding="14.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ic_block_seting" android:contentDescription="@string/setting" android:layout_marginEnd="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/recorder_tv_title" app:layout_constraintTop_toTopOf="parent" app:tint="?icon_color_white" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.allinone.callerid.mvc.view.recorder.LTabIndicator android:id="@id/recorder_tab" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+        <FrameLayout android:background="?color_f2f2f2" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.allinone.callerid.main.CustomViewPager android:id="@id/recorder_vp" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <View android:background="@drawable/tab" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/fu_triplespace" android:paddingRight="@dimen/fu_triplespace" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:id="@id/title" android:layout_marginTop="40.0dip" style="@style/FUText.Title" />
+    <TextView android:id="@id/description" android:layout_marginTop="@dimen/fu_doublespace" style="@style/FUText" />
+    <androidx.cardview.widget.CardView android:id="@id/btn_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fu_triplespace" app:cardBackgroundColor="@color/fu_truecaller" app:cardCornerRadius="@dimen/fu_rounding" app:cardElevation="3.0dip">
+        <TextView android:id="@id/btn_action_text" style="@style/FUText.Button" />
+    </androidx.cardview.widget.CardView>
+    <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:textColor="@color/fu_white_transparent" android:id="@id/btn_dismiss" android:layout_marginBottom="@dimen/fu_triplespace" android:text="@string/fu_updateLater" style="@style/FUText.Button" />
+</LinearLayout>

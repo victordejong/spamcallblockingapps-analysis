@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.callapp.contacts.activity.analytics.graph.CallAllRoundedCornerProgressBar android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="64.0dip" android:layout_marginTop="8.0dip" app:rcAnimationEnable="true" app:rcAnimationSpeedScale="10.0" app:rcBackgroundColor="@color/round_corner_progress_bar_secondary_progress_default" app:rcBackgroundPadding="4.0dip" app:rcMax="100.0" app:rcProgressColors="@array/sample_progress_gradient_reverse" app:rcRadius="10.0dip" app:rcReverse="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

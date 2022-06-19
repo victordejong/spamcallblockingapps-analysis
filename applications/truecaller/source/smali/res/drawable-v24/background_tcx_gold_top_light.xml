@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="144.0dip" android:width="360.0dip" android:viewportWidth="360.0" android:viewportHeight="144.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,0h360v144h-360z" />
+        <path android:fillColor="@drawable/$background_tcx_gold_top_light__0" android:pathData="M0,0h360v144h-360z" />
+        <path android:fillColor="#ffad7503" android:pathData="M153.927,68.164L151.827,85.766L176.319,77.873L156.913,66.669C155.669,65.951 154.097,66.739 153.927,68.164Z" />
+        <path android:fillColor="#ffad7503" android:pathData="M200.786,55.608L211.405,69.802L186.248,75.213L197.452,55.806C198.17,54.563 199.926,54.459 200.786,55.608Z" />
+        <path android:fillColor="@drawable/$background_tcx_gold_top_light__1" android:pathData="M137.833,78.312L151.852,105.714L221.359,87.09L219.798,56.349C219.68,54.006 216.856,52.893 215.17,54.524L202.418,66.862C201.343,67.902 199.631,67.885 198.578,66.822L174.673,42.703C173.184,41.202 170.628,41.887 170.09,43.931L161.447,76.771C161.066,78.218 159.593,79.089 158.141,78.726L140.929,74.417C138.652,73.847 136.764,76.223 137.833,78.312Z" />
+        <path android:fillColor="#ff8f6205" android:pathData="M220.372,87.354C220.42,87.534 220.412,87.827 220.159,88.29C219.902,88.759 219.436,89.321 218.722,89.961C217.297,91.238 215.056,92.675 212.125,94.175C206.278,97.166 197.885,100.305 188.336,102.864C178.787,105.422 169.948,106.901 163.389,107.234C160.101,107.4 157.441,107.276 155.569,106.883C154.63,106.685 153.946,106.432 153.489,106.154C153.038,105.88 152.885,105.63 152.836,105.45C152.788,105.269 152.796,104.977 153.05,104.514C153.306,104.045 153.772,103.483 154.486,102.843C155.911,101.566 158.153,100.128 161.084,98.629C166.93,95.637 175.324,92.499 184.873,89.94C194.422,87.382 203.26,85.903 209.819,85.57C213.107,85.403 215.767,85.527 217.64,85.921C218.578,86.118 219.262,86.372 219.719,86.65C220.17,86.924 220.324,87.173 220.372,87.354Z" android:strokeColor="@drawable/$background_tcx_gold_top_light__2" android:strokeWidth="2.04026" />
+        <path android:fillColor="#ffe0b254" android:pathData="M181.044,75.17m-7.033,1.885a7.282,7.282 120,1 1,14.067 -3.769a7.282,7.282 120,1 1,-14.067 3.769" />
+        <path android:fillColor="#ffffffff" android:pathData="M188.517,54.322L185.54,69.181L183.665,68.678L188.517,54.322Z" />
+        <path android:fillColor="#ffffffff" android:pathData="M198.814,72.158L183.955,69.181L184.457,67.306L198.814,72.158Z" />
+        <path android:fillColor="#ffffffff" android:pathData="M180.977,82.455L183.954,67.597L185.828,68.099L180.977,82.455Z" />
+        <path android:fillColor="#ffffffff" android:pathData="M170.679,64.619L185.538,67.596L185.035,69.471L170.679,64.619Z" />
+    </group>
+</vector>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/web_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/appToolbar" style="@style/appBarToolbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <WebView android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:id="@id/progressBar" style="@style/progressBar" />
+        <LinearLayout android:id="@id/panelError" style="@style/panelInfoCenter">
+            <androidx.appcompat.widget.AppCompatTextView android:text="@string/panel_internet_error" style="@style/textViewStylePanelInfo" />
+            <Button android:id="@id/butReloadPage" android:text="@string/panel_but_try_again" style="@style/buttonAccent" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

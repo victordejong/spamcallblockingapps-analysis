@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:id="@id/progressIndicator" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:indicatorColor="?tcx_brandBackgroundBlue" app:indicatorDirectionCircular="counterclockwise" app:indicatorSize="64.0dip" app:trackColor="?tcx_messageUrgentProgressTrackColor" app:trackThickness="2.0dip" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/icon" android:background="@drawable/flash_bubble_circle" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_margin="4.0dip" android:src="@drawable/ic_offline_bolt_24dp" android:scaleType="center" app:tint="@android:color/white" />
+    <TextView android:textSize="14.0sp" android:textColor="?tcx_backgroundPrimary" android:gravity="center" android:layout_gravity="end" android:id="@id/badgeView" android:background="@drawable/flash_bubble_badge" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_margin="4.0dip" />
+</merge>

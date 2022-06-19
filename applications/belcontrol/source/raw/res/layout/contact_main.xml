@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/top_nav" />
+    <ScrollView android:id="@id/main_scroll_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/main_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/contact_info" android:paddingLeft="16.0dip" android:paddingTop="4.0dip" android:paddingRight="16.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/contact_image" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_contact_placeholder" android:scaleType="centerCrop" android:layout_centerVertical="true" android:contentDescription="@string/contactImagePlaceholder" />
+                <ImageView android:id="@id/blocked_mask" android:visibility="invisible" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/contact_blocked_mask" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:contentDescription="@string/contactImagePlaceholder" />
+                <ImageView android:id="@id/contact_mask" android:visibility="visible" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_contact_mask" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:contentDescription="@string/contactImagePlaceholder" />
+                <LinearLayout android:orientation="vertical" android:id="@id/contact_names" android:paddingLeft="8.0dip" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/contact_image" android:layout_centerVertical="true">
+                    <TextView android:id="@id/contact_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/textstub" style="@style/ListItemTextTitle" />
+                    <TextView android:id="@id/contact_company" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/textstub" style="@style/ListItemTextSecondLine" />
+                </LinearLayout>
+            </RelativeLayout>
+            <include layout="@layout/divider" />
+            <LinearLayout android:orientation="vertical" android:id="@id/phones_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <include layout="@layout/divider" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/darkgrey_fontcolor" android:gravity="center_horizontal" android:id="@id/inSystemBlacklistNotification" android:padding="16.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/alreadyBlockedBySystem" />
+            <LinearLayout android:orientation="vertical" android:id="@id/rule_block_section" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/compound_button" />
+                <include layout="@layout/divider" />
+                <include layout="@layout/contact_filter" />
+                <include layout="@layout/divider" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center" android:id="@id/ask_for_permission_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/allow_contact_permission_title" style="@style/permissions_title" />
+        <TextView android:ellipsize="none" android:gravity="center" android:id="@id/empty" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/msg_listEmpty" style="@style/standard_color_and_text_size" />
+        <Button android:layout_gravity="center" android:id="@id/ask_for_permission_btn" android:paddingLeft="32.0dip" android:paddingRight="32.0dip" android:visibility="visible" android:layout_width="wrap_content" android:text="@string/btn_cc_allow_contacts_permission" android:layout_centerHorizontal="true" style="@style/welcome_page_button" />
+    </LinearLayout>
+</LinearLayout>

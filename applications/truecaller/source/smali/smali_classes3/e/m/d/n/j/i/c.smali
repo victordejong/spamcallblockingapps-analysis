@@ -1,0 +1,33 @@
+.class public Le/m/d/n/j/i/c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Le/m/d/n/j/i/b;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Le/m/d/n/j/i/a;)V
+    .locals 1
+
+    .line 1
+    sget-object p1, Le/m/d/n/j/f;->a:Le/m/d/n/j/f;
+
+    const/4 v0, 0x3
+
+    .line 2
+    invoke-virtual {p1, v0}, Le/m/d/n/j/f;->a(I)Z
+
+    return-void
+.end method

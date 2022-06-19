@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="280.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="?bg_reward_top" android:layout_width="fill_parent" android:layout_height="115.0dip">
+        <ImageView android:layout_width="85.0dip" android:layout_height="60.0dip" android:layout_marginTop="31.0dip" android:layout_marginBottom="24.0dip" android:src="@drawable/unlock_pic" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/iv_close" android:background="@drawable/card_foreground" android:padding="12.0dip" android:visibility="visible" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/nav_close_white" android:layout_alignParentRight="true" android:contentDescription="@string/close" android:layout_alignParentEnd="true" app:tint="?icon_color_white" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="?bg_reward_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_horizontal" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="35.0dip" android:text="@string/watch_video_ad" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        <FrameLayout android:id="@id/fl_watch" android:background="?bg_start" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:foreground="?card_foreground" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="?color_button" android:layout_gravity="center" android:id="@id/tv_watch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/watch" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

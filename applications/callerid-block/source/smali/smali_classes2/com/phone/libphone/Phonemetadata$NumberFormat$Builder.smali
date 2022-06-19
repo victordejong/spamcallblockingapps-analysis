@@ -1,0 +1,123 @@
+.class public final Lcom/phone/libphone/Phonemetadata$NumberFormat$Builder;
+.super Lcom/phone/libphone/Phonemetadata$NumberFormat;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/phone/libphone/Phonemetadata$NumberFormat;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Builder"
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Lcom/phone/libphone/Phonemetadata$NumberFormat;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public build()Lcom/phone/libphone/Phonemetadata$NumberFormat;
+    .locals 0
+
+    return-object p0
+.end method
+
+.method public mergeFrom(Lcom/phone/libphone/Phonemetadata$NumberFormat;)Lcom/phone/libphone/Phonemetadata$NumberFormat$Builder;
+    .locals 2
+
+    invoke-virtual {p1}, Lcom/phone/libphone/Phonemetadata$NumberFormat;->hasPattern()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {p1}, Lcom/phone/libphone/Phonemetadata$NumberFormat;->getPattern()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/phone/libphone/Phonemetadata$NumberFormat;->setPattern(Ljava/lang/String;)Lcom/phone/libphone/Phonemetadata$NumberFormat;
+
+    :cond_0
+    invoke-virtual {p1}, Lcom/phone/libphone/Phonemetadata$NumberFormat;->hasFormat()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {p1}, Lcom/phone/libphone/Phonemetadata$NumberFormat;->getFormat()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/phone/libphone/Phonemetadata$NumberFormat;->setFormat(Ljava/lang/String;)Lcom/phone/libphone/Phonemetadata$NumberFormat;
+
+    :cond_1
+    const/4 v0, 0x0
+
+    :goto_0
+    invoke-virtual {p1}, Lcom/phone/libphone/Phonemetadata$NumberFormat;->leadingDigitsPatternSize()I
+
+    move-result v1
+
+    if-ge v0, v1, :cond_2
+
+    invoke-virtual {p1, v0}, Lcom/phone/libphone/Phonemetadata$NumberFormat;->getLeadingDigitsPattern(I)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {p0, v1}, Lcom/phone/libphone/Phonemetadata$NumberFormat;->addLeadingDigitsPattern(Ljava/lang/String;)Lcom/phone/libphone/Phonemetadata$NumberFormat;
+
+    add-int/lit8 v0, v0, 0x1
+
+    goto :goto_0
+
+    :cond_2
+    invoke-virtual {p1}, Lcom/phone/libphone/Phonemetadata$NumberFormat;->hasNationalPrefixFormattingRule()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_3
+
+    invoke-virtual {p1}, Lcom/phone/libphone/Phonemetadata$NumberFormat;->getNationalPrefixFormattingRule()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/phone/libphone/Phonemetadata$NumberFormat;->setNationalPrefixFormattingRule(Ljava/lang/String;)Lcom/phone/libphone/Phonemetadata$NumberFormat;
+
+    :cond_3
+    invoke-virtual {p1}, Lcom/phone/libphone/Phonemetadata$NumberFormat;->hasDomesticCarrierCodeFormattingRule()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_4
+
+    invoke-virtual {p1}, Lcom/phone/libphone/Phonemetadata$NumberFormat;->getDomesticCarrierCodeFormattingRule()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p0, v0}, Lcom/phone/libphone/Phonemetadata$NumberFormat;->setDomesticCarrierCodeFormattingRule(Ljava/lang/String;)Lcom/phone/libphone/Phonemetadata$NumberFormat;
+
+    :cond_4
+    invoke-virtual {p1}, Lcom/phone/libphone/Phonemetadata$NumberFormat;->hasNationalPrefixOptionalWhenFormatting()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_5
+
+    invoke-virtual {p1}, Lcom/phone/libphone/Phonemetadata$NumberFormat;->getNationalPrefixOptionalWhenFormatting()Z
+
+    move-result p1
+
+    invoke-virtual {p0, p1}, Lcom/phone/libphone/Phonemetadata$NumberFormat;->setNationalPrefixOptionalWhenFormatting(Z)Lcom/phone/libphone/Phonemetadata$NumberFormat;
+
+    :cond_5
+    return-object p0
+.end method

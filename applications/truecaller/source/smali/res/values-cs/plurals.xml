@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">Blokovat a nahlásit %d čísla jako spam?</item>
+        <item quantity="one">Blokovat a nahlásit %d číslo jako spam?</item>
+        <item quantity="few">Blokovat a nahlásit %d čísel jako spam?</item>
+        <item quantity="many">Blokovat a nahlásit %d čísel jako spam?</item>
+    </plurals>
+    <plurals name="ConversationCallsHistoryCount">
+        <item quantity="other">%d hovory</item>
+        <item quantity="one">%d hovor</item>
+        <item quantity="few">%d hovorů</item>
+        <item quantity="many">%d hovorů</item>
+    </plurals>
+    <plurals name="ConversationFlashHistoryCount">
+        <item quantity="other">%d Flash zprávy</item>
+        <item quantity="one">%d Flash zpráva</item>
+        <item quantity="few">%d Flash zpráv</item>
+        <item quantity="many">%d Flash zpráv</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">Zprávy přidány do záložky Důležité</item>
+        <item quantity="one">Zpráva přidána do záložky Důležité</item>
+        <item quantity="few">Zpráv přidáno do záložky Důležité</item>
+        <item quantity="many">Zpráv přidáno do záložky Důležité</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d konverzací označeny jako přečtené</item>
+        <item quantity="one">%d konverzace označena jako přečtená</item>
+        <item quantity="few">%d konverzací označeno jako přečtené</item>
+        <item quantity="many">%d konverzací označeno jako přečtené</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">%d záznamy byly smazány</item>
+        <item quantity="one">%d záznam byl smazán</item>
+        <item quantity="few">%d záznamů bylo smazáno</item>
+        <item quantity="many">%d záznamů bylo smazáno</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">Smazat %d záznamy?</item>
+        <item quantity="one">Smazat záznam?</item>
+        <item quantity="few">Smazat %d záznamů?</item>
+        <item quantity="many">Smazat %d záznamů?</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">Konverzace připnuty</item>
+        <item quantity="one">Konverzace připnuta</item>
+        <item quantity="few">Konverzací připnuto</item>
+        <item quantity="many">Konverzací připnuto</item>
+    </plurals>
+    <plurals name="ConversationReportNotSpamConfirmation">
+        <item quantity="other">%d zprávy nebyly označeny jako spam</item>
+        <item quantity="one">%d zpráva nebyla označena jako spam</item>
+        <item quantity="few">%d zpráv nebylo označeno jako spam</item>
+        <item quantity="many">%d zpráv nebylo označeno jako spam</item>
+    </plurals>
+    <plurals name="ConversationReportSpamConfirmation">
+        <item quantity="other">%d zprávy označeny jako spam</item>
+        <item quantity="one">%d zpráva označena jako spam</item>
+        <item quantity="few">%d zpráv označeno jako spam</item>
+        <item quantity="many">%d zpráv označeno jako spam</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">Uložit všechny kontakty</item>
+        <item quantity="one">@string/ConversationSaveContact</item>
+        <item quantity="few">Uložit všechny kontakty</item>
+        <item quantity="many">Uložit všechny kontakty</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">Konverzace odepnuty</item>
+        <item quantity="one">Konverzace odepnuta</item>
+        <item quantity="few">Konverzací odepnuto</item>
+        <item quantity="many">Konverzací odepnuto</item>
+    </plurals>
+    <plurals name="DeleteConversationsConfirmation">
+        <item quantity="other">%d konverzace byly smazány</item>
+        <item quantity="one">%d konverzace byla smazána</item>
+        <item quantity="few">%d konverzací bylo smazáno</item>
+        <item quantity="many">%d konverzací bylo smazáno</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">Smazat %d konverzace?</item>
+        <item quantity="one">Smazat %d konverzaci?</item>
+        <item quantity="few">Smazat %d konverzací?</item>
+        <item quantity="many">Smazat %d konverzací?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">%d čísel identifikováno</item>
+        <item quantity="one">%d číslo identifikováno</item>
+        <item quantity="few">%d čísla identifikována</item>
+        <item quantity="many">%d čísel identifikováno</item>
+    </plurals>
+    <plurals name="HistoryActionConfirmDeleteMessage">
+        <item quantity="other">Smazat %d položky?</item>
+        <item quantity="one">Vybrat %d položku?</item>
+        <item quantity="few">Vybrat %d položky?</item>
+        <item quantity="many">Vybrat %d položek?</item>
+    </plurals>
+    <plurals name="HistoryActionDeleted">
+        <item quantity="other">%d položek smazáno</item>
+        <item quantity="one">%d položka smazána</item>
+        <item quantity="few">%d položky smazány</item>
+        <item quantity="many">%d položek smazáno</item>
+    </plurals>
+    <plurals name="HistoryActionSelected">
+        <item quantity="other">%d položek vybráno</item>
+        <item quantity="one">%d položka vybrána</item>
+        <item quantity="few">%d položky vybrány</item>
+        <item quantity="many">%d položek vybráno</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">Opravdu chcete odblokovat %d čísla?</item>
+        <item quantity="one">Opravdu chcete odblokovat toto číslo?</item>
+        <item quantity="few">Opravdu chcete odblokovat %d čísel?</item>
+        <item quantity="many">Opravdu chcete odblokovat %d čísel?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteCallRecordings">
+        <item quantity="other">Opravdu chcete smazat %s nahrávky hovoru?</item>
+        <item quantity="one">Opravdu chcete smazat %s nahrávku hovoru?</item>
+        <item quantity="few">Opravdu chcete smazat %s nahrávek hovoru?</item>
+        <item quantity="many">Opravdu chcete smazat %s nahrávek hovoru?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">Opravdu chcete smazat %s jazykové soubory?</item>
+        <item quantity="one">Opravdu chcete smazat %s jazykový soubor?</item>
+        <item quantity="few">Opravdu chcete smazat %s jazykových souborů?</item>
+        <item quantity="many">Opravdu chcete smazat %s jazykových souborů?</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">%d SMS blokované Truecaller</item>
+        <item quantity="one">SMS blokována Truecaller</item>
+        <item quantity="few">%d SMS blokovaných Truecaller</item>
+        <item quantity="many">%d SMS blokovaných Truecaller</item>
+    </plurals>
+    <plurals name="MessageNotificationNewMessages">
+        <item quantity="other">+%1$d další nové zprávy</item>
+        <item quantity="one">+1 další nová zpráva</item>
+        <item quantity="few">+%1$d dalších nových zpráv</item>
+        <item quantity="many">+%1$d dalších nových zpráv</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$s volal/a před %2$d hodinami. Klikněte pro zobrazení v Truecaller</item>
+        <item quantity="one">%1$s volal/a před %2$d hodinou. Klikněte pro zobrazení v Truecaller</item>
+        <item quantity="few">%1$s volal/a před %2$d hodinami. Klikněte pro zobrazení v Truecaller</item>
+        <item quantity="many">%1$s volal/a před %2$d hodinami. Klikněte pro zobrazení v Truecaller</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d kontakty</item>
+        <item quantity="one">%d kontakt</item>
+        <item quantity="few">%d kontaktů</item>
+        <item quantity="many">%d kontaktů</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d přílohy</item>
+        <item quantity="one">%1$d příloha</item>
+        <item quantity="few">%1$d příloh</item>
+        <item quantity="many">%1$d příloh</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">%d ostatních kontaktů</item>
+        <item quantity="one">%d ostatní kontakt</item>
+        <item quantity="few">%d ostatních kontaktů</item>
+        <item quantity="many">%d ostatních kontaktů</item>
+    </plurals>
+    <plurals name="NewImGroupMemberCount">
+        <item quantity="other">%d členové</item>
+        <item quantity="one">%d člen</item>
+        <item quantity="few">%d členů</item>
+        <item quantity="many">%d členů</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">%d čísla přidána na seznam blokovaných</item>
+        <item quantity="one">Číslo přidáno na seznam blokovaných</item>
+        <item quantity="few">%d čísel přidáno na seznam blokovaných</item>
+        <item quantity="many">%d čísel přidáno na seznam blokovaných</item>
+    </plurals>
+    <plurals name="OSNotificationTextNew">
+        <item quantity="other">Máte %d nová upozornění</item>
+        <item quantity="one">Máte jedno nové upozornění</item>
+        <item quantity="few">Máte %d nových upozornění</item>
+        <item quantity="many">Máte %d nových upozornění</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d blokovaných hovorů</item>
+        <item quantity="one">%d blokovaný hovor</item>
+        <item quantity="few">%d blokované hovory</item>
+        <item quantity="many">%d blokovaných hovorů</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d hovorů ztišeno</item>
+        <item quantity="one">%d hovor ztišen</item>
+        <item quantity="few">%d hovory ztišeny</item>
+        <item quantity="many">%d hovorů ztišeno</item>
+    </plurals>
+    <plurals name="PremiumAbbreviatedOfferPriceOverMonth">
+        <item quantity="other">%1$s/měsíce</item>
+        <item quantity="one">%1$s/měsíc</item>
+        <item quantity="few">%1$s/měsíců</item>
+        <item quantity="many">%1$s/měsíců</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">%1$d dnů bezplatné zkušební doby pouze pro nové předplatitele</item>
+        <item quantity="one">%1$d den bezplatné zkušební doby pouze pro nové předplatitele</item>
+        <item quantity="few">%1$d dnů bezplatné zkušební doby pouze pro nové předplatitele</item>
+        <item quantity="many">%1$d dnů bezplatné zkušební doby pouze pro nové předplatitele</item>
+    </plurals>
+    <plurals name="PremiumFeatureContactRequestLeft">
+        <item quantity="other">zbývají %1$d žádosti</item>
+        <item quantity="one">zbývá %1$d žádost</item>
+        <item quantity="few">zbývá %1$d žádostí</item>
+        <item quantity="many">zbývá %1$d žádostí</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">%1$d nová zobrazení profilu</item>
+        <item quantity="one">1 nové zobrazení profilu</item>
+        <item quantity="few">%1$d nových zobrazení profilu</item>
+        <item quantity="many">%1$d nových zobrazení profilu</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">%1$d lidí si nedávno zobrazilo váš profil</item>
+        <item quantity="one">Nedávno si někdo zobrazil váš profil.</item>
+        <item quantity="few">%1$d lidé si nedávno zobrazili váš profil</item>
+        <item quantity="many">%1$d lidí si nedávno zobrazilo váš profil</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d lidé (%3$d in %2$s) si nedávno zobrazili váš profil</item>
+        <item quantity="one">Někdo z %2$s si nedávno zobrazili váš profil</item>
+        <item quantity="few">%1$d lidí (%3$d in %2$s) si nedávno zobrazilo váš profil</item>
+        <item quantity="many">%1$d lidí (%3$d in %2$s) si nedávno zobrazilo váš profil</item>
+    </plurals>
+    <plurals name="SettingPendingGroupInvitationsMessage">
+        <item quantity="other">Máte %d nevyřízené pozvánky do skupin. Chcete všechny přijmout?</item>
+        <item quantity="one">Máte %d nevyřízenou pozvánku do skupiny. Chcete ji přijmout?</item>
+        <item quantity="few">Máte %d nevyřízených pozvánek do skupin. Chcete všechny přijmout?</item>
+        <item quantity="many">Máte %d nevyřízených pozvánek do skupin. Chcete všechny přijmout?</item>
+    </plurals>
+    <plurals name="SpamSmsFound">
+        <item quantity="other">nalezeny %d spamové zprávy</item>
+        <item quantity="one">nalezena %d spamová zpráva</item>
+        <item quantity="few">nalezeno %d spamových zpráv</item>
+        <item quantity="many">nalezeno %d spamových zpráv</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByMultiple">
+        <item quantity="other">%3$s pozval(a) do skupiny %1$s a %2$d dalších</item>
+        <item quantity="one">%3$s pozval(a) do skupiny %1$s a %2$d dalšího</item>
+        <item quantity="few">%3$s pozval(a) do skupiny %1$s a %2$d další</item>
+        <item quantity="many">%3$s pozval(a) do skupiny %1$s a %2$d dalších</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByYouMultiple">
+        <item quantity="other">Pozvali jste do skupiny %1$s a %2$d dalších</item>
+        <item quantity="one">Pozvali jste do skupiny %1$s a %2$d dalšího</item>
+        <item quantity="few">Pozvali jste do skupiny %1$s a %2$d další</item>
+        <item quantity="many">Pozvali jste do skupiny %1$s a %2$d dalších</item>
+    </plurals>
+    <plurals name="StrPhoneNumberAndMore">
+        <item quantity="other">%1$s &lt;b>+%2$d další&lt;/b></item>
+        <item quantity="one">%1$s &lt;b>+%2$d další&lt;/b></item>
+        <item quantity="few">%1$s &lt;b>+%2$d další&lt;/b></item>
+        <item quantity="many">%1$s &lt;b>+%2$d další&lt;/b></item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">dny</item>
+        <item quantity="one">den</item>
+        <item quantity="few">dnů</item>
+        <item quantity="many">dnů</item>
+    </plurals>
+    <plurals name="StrPluralHour">
+        <item quantity="other">hodiny</item>
+        <item quantity="one">hodina</item>
+        <item quantity="few">hodin</item>
+        <item quantity="many">hodin</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">měsíce</item>
+        <item quantity="one">měsíc</item>
+        <item quantity="few">měsíců</item>
+        <item quantity="many">měsíců</item>
+    </plurals>
+    <plurals name="StrPluralWeek">
+        <item quantity="other">týdny</item>
+        <item quantity="one">týden</item>
+        <item quantity="few">týdnů</item>
+        <item quantity="many">týdnů</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">roky</item>
+        <item quantity="one">rok</item>
+        <item quantity="few">let</item>
+        <item quantity="many">let</item>
+    </plurals>
+    <plurals name="UnreadConversations">
+        <item quantity="other">%d nepřečtené konverzace</item>
+        <item quantity="one">%d nepřečtená konverzace</item>
+        <item quantity="few">%d nepřečtených konverzací</item>
+        <item quantity="many">%d nepřečtených konverzací</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">Překročili jste limit potvrzovacích pokusů. Zkuste to znovu za %dh</item>
+        <item quantity="one">Překročili jste limit potvrzovacích pokusů. Zkuste to znovu za %dh</item>
+        <item quantity="few">Překročili jste limit potvrzovacích pokusů. Zkuste to znovu za %dh</item>
+        <item quantity="many">Překročili jste limit potvrzovacích pokusů. Zkuste to znovu za %dh</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d lidí si zobrazilo váš profil</item>
+        <item quantity="one">Někdo si zobrazil váš profil</item>
+        <item quantity="few">%1$d lidé si zobrazili váš profil</item>
+        <item quantity="many">%1$d lidí si zobrazilo váš profil</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d lidí (1 v %2$s) si zobrazili váš profil</item>
+        <item quantity="one">%1$d osoba z %2$s si zobrazila váš profil</item>
+        <item quantity="few">%1$d lidí (1 v %2$s) si zobrazilo váš profil</item>
+        <item quantity="many">%1$d lidí (1 v %2$s) si zobrazilo váš profil</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d lidí si zobrazilo váš profil. Zjistěte více.</item>
+        <item quantity="one">1 člověk si zobrazil váš profil. Zjistěte více.</item>
+        <item quantity="few">%1$d lidí si zobrazilo váš profil. Zjistěte více.</item>
+        <item quantity="many">%1$d lidí si zobrazilo váš profil. Zjistěte více.</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d lidí (%3$d v %2$s) si zobrazilo váš profil. Zjistěte více.</item>
+        <item quantity="one">1 člověk z %2$s si zobrazil váš profil. Zjistěte více.</item>
+        <item quantity="few">%1$d lidí (%3$d v %2$s) si zobrazilo váš profil. Zjistěte více.</item>
+        <item quantity="many">%1$d lidí (%3$d v %2$s) si zobrazilo váš profil. Zjistěte více.</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaption">
+        <item quantity="other">%1$d nová zobrazení</item>
+        <item quantity="one">%1$d nové zobrazení</item>
+        <item quantity="few">%1$d nových zobrazení</item>
+        <item quantity="many">%1$d nových zobrazení</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaptionWithLocation">
+        <item quantity="other">%1$d nová zobrazení • %2$d z %3$s</item>
+        <item quantity="one">%1$d %1$d nové zobrazení • %2$d z %3$s</item>
+        <item quantity="few">%1$d nových zobrazení • %2$d z %3$s</item>
+        <item quantity="many">%1$d nových zobrazení • %2$d z %3$s</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">Služba reCaptcha příliš mnohokrát selhala. Zkuste to prosím znovu za %1$d hodiny</item>
+        <item quantity="one">Služba reCaptcha příliš mnohokrát selhala. Zkuste to prosím znovu za %1$d hodinu</item>
+        <item quantity="few">Služba reCaptcha příliš mnohokrát selhala. Zkuste to prosím znovu za %1$d hodin</item>
+        <item quantity="many">Služba reCaptcha příliš mnohokrát selhala. Zkuste to prosím znovu za %1$d hodin</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%1$s %2$s konverzace archivovány</item>
+        <item quantity="one">%s konverzace archivována</item>
+        <item quantity="few">%s konverzací archivováno</item>
+        <item quantity="many">%1$s %2$s konverzací archivováno</item>
+    </plurals>
+    <plurals name="biz_govt_contacts_count">
+        <item quantity="other">%1$d kontakty</item>
+        <item quantity="one">%1$d kontakt</item>
+        <item quantity="few">%1$d kontaktů</item>
+        <item quantity="many">%1$d kontaktů</item>
+    </plurals>
+    <plurals name="call_recording_toast_items_deleted">
+        <item quantity="other">Smazány %1$d nahrávky</item>
+        <item quantity="one">Smazána %1$d nahrávka</item>
+        <item quantity="few">Smazáno %1$d nahrávek</item>
+        <item quantity="many">Smazáno %1$d nahrávek</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">zprávy o jednorázovém heslu smazány</item>
+        <item quantity="one">zpráva o jednorázovém heslu smazána</item>
+        <item quantity="few">zpráv o jednorázovém heslu smazáno</item>
+        <item quantity="many">zpráv o jednorázovém heslu smazáno</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">smazané propagační zprávy</item>
+        <item quantity="one">Propagační zpráva smazána</item>
+        <item quantity="few">Propagační zprávy smazány</item>
+        <item quantity="many">propagačních zpráv smazány</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">spamové zprávy smazány</item>
+        <item quantity="one">spamová zpráva smazána</item>
+        <item quantity="few">spamových zpráv smazáno</item>
+        <item quantity="many">spamových zpráv smazáno</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d zprávy</item>
+        <item quantity="one">%d zpráva</item>
+        <item quantity="few">%d zpráv</item>
+        <item quantity="many">%d zpráv</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d jednorázová hesla</item>
+        <item quantity="one">%d jednorázové heslo</item>
+        <item quantity="few">%d jednorázových hesel</item>
+        <item quantity="many">%d jednorázových hesel</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_promotional">
+        <item quantity="other">%d propagační zprávy</item>
+        <item quantity="one">%d propagační zpráva</item>
+        <item quantity="few">%d propagační zprávy</item>
+        <item quantity="many">%d propagačních zpráv</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d spamové zprávy</item>
+        <item quantity="one">%d spamová zpráva</item>
+        <item quantity="few">%d spamových zpráv</item>
+        <item quantity="many">%d spamových zpráv</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d zprávy byly smazány</item>
+        <item quantity="one">%d zpráva byla smazána</item>
+        <item quantity="few">%d zpráv bylo smazáno</item>
+        <item quantity="many">%d zpráv bylo smazáno</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">Pozvánky</item>
+        <item quantity="one">Pozvánka</item>
+        <item quantity="few">Pozvánek</item>
+        <item quantity="many">Pozvánek</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="other">za %d dny</item>
+        <item quantity="one">zítra</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="other">za %d hod.</item>
+        <item quantity="one">za 1 hodinu</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="other">za %d min</item>
+        <item quantity="one">za 1 min</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="other">za %d s</item>
+        <item quantity="one">za 1 s</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="other">před %d dny</item>
+        <item quantity="one">včera</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="other">před %d h</item>
+        <item quantity="one">před 1 h</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="other">před %d min</item>
+        <item quantity="one">před 1 min</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="other">před %d s</item>
+        <item quantity="one">před 1 s</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">1 hodina</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">1 minuta</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="other">%d s</item>
+        <item quantity="one">1 sekunda</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="other">za %d dny</item>
+        <item quantity="one">zítra</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="other">za %d hod.</item>
+        <item quantity="one">za 1 hodinu</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="other">za %d min</item>
+        <item quantity="one">za 1 minutu</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="other">za %d s</item>
+        <item quantity="one">za 1 sekundu</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="other">před %d dny</item>
+        <item quantity="one">včera</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="other">před %d h</item>
+        <item quantity="one">před 1 h</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="other">před %d min</item>
+        <item quantity="one">před 1 min</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="other">před %d s</item>
+        <item quantity="one">před 1 sekundou</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">Chystáte se smazat vybrané soubory a %d související zprávy</item>
+        <item quantity="one">Chystáte se smazat vybrané soubory a související zprávu</item>
+        <item quantity="few">Chystáte se smazat vybrané soubory a %d souvisejících zpráv</item>
+        <item quantity="many">Chystáte se smazat vybrané soubory a %d souvisejících zpráv</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">Smazat zprávy?</item>
+        <item quantity="one">Smazat zprávu?</item>
+        <item quantity="few">Smazat zprávy?</item>
+        <item quantity="many">Smazat zprávy?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nových oznámení</item>
+        <item quantity="one">%d nové oznámení</item>
+        <item quantity="few">%d nová oznámení</item>
+        <item quantity="many">%d nového oznámení</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">dny</item>
+        <item quantity="one">den</item>
+        <item quantity="few">dnů</item>
+        <item quantity="many">dnů</item>
+    </plurals>
+    <plurals name="spam_counts">
+        <item quantity="other">%d spamové hlášení</item>
+        <item quantity="one">%d spamové hlášení</item>
+        <item quantity="few">%d spamových hlášení</item>
+        <item quantity="many">%d spamových hlášení</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">Zrušena archivace %s konverzací</item>
+        <item quantity="one">Zrušena archivace %s konverzace</item>
+        <item quantity="few">Zrušena archivace %s konverzací</item>
+        <item quantity="many">Zrušena archivace %s konverzací</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">Přijaty zprávy</item>
+        <item quantity="one">Přijata zpráva</item>
+        <item quantity="few">Přijato zpráv</item>
+        <item quantity="many">Přijato zpráv</item>
+    </plurals>
+    <plurals name="voip_group_launcher_person">
+        <item quantity="other">účastníci</item>
+        <item quantity="one">účastník</item>
+        <item quantity="few">účastníků</item>
+        <item quantity="many">účastníků</item>
+    </plurals>
+    <plurals name="voip_notification_missed_grouped_title">
+        <item quantity="other">Zmeškané hovory %1$s</item>
+        <item quantity="one">Zmeškaný hovor %1$s</item>
+        <item quantity="few">Zmeškaných hovorů %1$s</item>
+        <item quantity="many">Zmeškaných hovorů %1$s</item>
+    </plurals>
+    <plurals name="voip_notification_title_other">
+        <item quantity="other">%1$s další</item>
+        <item quantity="one">%1$s další</item>
+        <item quantity="few">%1$s další</item>
+        <item quantity="many">%1$s dalších</item>
+    </plurals>
+</resources>

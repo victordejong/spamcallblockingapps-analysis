@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/doubleSpace" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="280.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Stats" />
+    <TextView android:textSize="14.0sp" android:id="@id/statsView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" />
+</LinearLayout>

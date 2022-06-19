@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="280.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="79.0dip" android:src="@drawable/record_remark" />
+        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:id="@id/dialog_remark_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:text="@string/Notes" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+                <com.allinone.callerid.customview.BaseEditText android:theme="@style/MyEditText" android:textSize="14.0sp" android:textColorHint="?color_weak" android:id="@id/dialog_remark_et" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/Take_notes_of_this_record" />
+                <TextView android:textSize="12.0sp" android:textColor="?color_weak" android:layout_gravity="end" android:id="@id/dialog_remark_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0/200" />
+            </LinearLayout>
+        </ScrollView>
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/dialog_remark_submit_fl" android:background="?bg_start" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:foreground="@drawable/card_foreground" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="?color_button" android:layout_gravity="center" android:id="@id/open_agree_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/suggest_submit" />
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="end" android:id="@id/dialog_remark_close" android:background="?card_foreground" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nav_close_white" android:contentDescription="@string/close" />
+</FrameLayout>

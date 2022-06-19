@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?bg_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textColor="?color_333333" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:text="@string/backup_frequency" android:layout_marginStart="24.0dip" />
+    <FrameLayout android:id="@id/fl_never" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="6.0dip" android:foreground="?card_foreground">
+        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="start|center" android:id="@id/tv_never" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:text="@string/never" android:layout_marginStart="24.0dip" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/fl_only_tap" android:layout_width="fill_parent" android:layout_height="48.0dip" android:foreground="?card_foreground">
+        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="start|center" android:id="@id/tv_only_tap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:text="@string/only_tap" android:layout_marginStart="24.0dip" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/fl_daily" android:layout_width="fill_parent" android:layout_height="48.0dip" android:foreground="?card_foreground">
+        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="start|center" android:id="@id/tv_daily" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:text="@string/daily" android:layout_marginStart="24.0dip" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/fl_weekly" android:layout_width="fill_parent" android:layout_height="48.0dip" android:foreground="?card_foreground">
+        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="start|center" android:id="@id/tv_weekly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:text="@string/weekly" android:layout_marginStart="24.0dip" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/fl_monthly" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginBottom="8.0dip" android:foreground="?card_foreground">
+        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="start|center" android:id="@id/tv_monthly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:text="@string/monthly" android:layout_marginStart="24.0dip" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_action_refresh" android:id="@id/action_refresh" android:title="@string/StrRefresh" android:showAsAction="ifRoom" app:showAsAction="ifRoom" />
+    <item android:id="@id/action_mark_all_read" android:title="@string/NotificationsMarkAllRead" android:showAsAction="never" app:showAsAction="never" />
+    <item android:id="@id/action_mark_all_unread" android:title="@string/NotificationsMarkAllUnread" android:showAsAction="never" app:showAsAction="never" />
+</menu>

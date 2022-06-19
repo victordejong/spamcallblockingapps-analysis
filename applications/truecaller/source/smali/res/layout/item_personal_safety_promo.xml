@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.truecaller.common.ui.banner.BannerViewX android:id="@id/bannerView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/doubleSpace" app:bannerViewImage="?banner_personalSafetyPromo" app:bannerViewPrimaryButton="@string/personal_safety_promo_positive_button" app:bannerViewSecondaryButton="@string/personal_safety_promo_negative_button" app:bannerViewSubtitle="@string/personal_safety_promo_text" app:bannerViewTitle="@string/personal_safety_promo_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

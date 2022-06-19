@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">Φραγή &amp; αναφορά %d αριθμών ως spam;</item>
+        <item quantity="one">Φραγή &amp; αναφορά %d αριθμών ως spam;</item>
+    </plurals>
+    <plurals name="ConversationCallsHistoryCount">
+        <item quantity="other">%d κλήσεις</item>
+        <item quantity="one">%d κλήση</item>
+    </plurals>
+    <plurals name="ConversationFlashHistoryCount">
+        <item quantity="other">%d μηνύματα Flash</item>
+        <item quantity="one">%d μήνυμα Flash</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">Τα μηνύματα προστέθηκαν στην καρτέλα Σημαντικών</item>
+        <item quantity="one">Το μήνυμα προστέθηκε στην καρτέλα Σημαντικών</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d συνομιλίες επισημάνθηκαν ως αναγνωσμένες</item>
+        <item quantity="one">%d συνομιλία επισημάνθηκε ως αναγνωσμένη</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">%d καταχωρήσεις διαγράφηκαν</item>
+        <item quantity="one">%d καταχώρηση διαγράφηκε</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">Διαγραφή %d καταχωρήσεων;</item>
+        <item quantity="one">Διαγραφή καταχώρησης;</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">Οι συνομιλίες καρφιτσώθηκαν</item>
+        <item quantity="one">Η συνομιλία καρφιτσώθηκε</item>
+    </plurals>
+    <plurals name="ConversationReportNotSpamConfirmation">
+        <item quantity="other">%d μηνύματα αναφέρθηκαν ως ανεπιθύμητα</item>
+        <item quantity="one">%d μήνυμα αναφέρθηκε ως ανεπιθύμητο</item>
+    </plurals>
+    <plurals name="ConversationReportSpamConfirmation">
+        <item quantity="other">%d μηνύματα αναφέρθηκαν ως ανεπιθύμητα</item>
+        <item quantity="one">%d μήνυμα αναφέρθηκε ως ανεπιθύμητο</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">Αποθήκευση όλων των επαφών</item>
+        <item quantity="one">@string/ConversationSaveContact</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">Οι συνομιλίες ξεκαρφιτσώθηκαν</item>
+        <item quantity="one">Η συνομιλία ξεκαρφιτσώθηκε</item>
+    </plurals>
+    <plurals name="DeleteConversationsConfirmation">
+        <item quantity="other">%d συνομιλές διαγράφηκαν</item>
+        <item quantity="one">%d συνομιλία διαγράφηκε</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">Διαγραφή %d συνομιλιών;</item>
+        <item quantity="one">Διαγραφή %d συνομιλίας;</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">%d αριθμοί αναγνωρίστηκαν</item>
+        <item quantity="one">%d αριθμος αναγνωρίστηκε</item>
+    </plurals>
+    <plurals name="HistoryActionConfirmDeleteMessage">
+        <item quantity="other">Διαγραφή %d αρχείων;</item>
+        <item quantity="one">Διαγραφή %d αρχείου;</item>
+    </plurals>
+    <plurals name="HistoryActionDeleted">
+        <item quantity="other">%d αρχεία διαγράφηκαν</item>
+        <item quantity="one">%d αρχείο διεγράφη</item>
+    </plurals>
+    <plurals name="HistoryActionSelected">
+        <item quantity="other">Επιλογή %d αρχείων</item>
+        <item quantity="one">Επιλογή %d αρχείου</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">Θέλετε σίγουρα να ακυρώσετε τη φραγή σε αυτούς τους αριθμούς;</item>
+        <item quantity="one">Θέλετε σίγουρα να ακυρώσετε τη φραγή σε αυτό τον αριθμό;</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteCallRecordings">
+        <item quantity="other">Σίγουρα επιθυμείτε να διαγράψετε %s εγγραφές κλήσεων;</item>
+        <item quantity="one">Σίγουρα επιθυμείτε να διαγράψετε %s εγγραφή κλήσης;</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">Σίγουρα επιθυμείτε να διαγράψετε %s γλωσσικά αρχεία;</item>
+        <item quantity="one">Σίγουρα επιθυμείτε να διαγράψετε %s γλωσσικό αρχείο;</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">%d SMS υπέστησαν φραγή</item>
+        <item quantity="one">Το SMS υπέστη φραγή από το Truecaller</item>
+    </plurals>
+    <plurals name="MessageNotificationNewMessages">
+        <item quantity="other">+%1$d επιπλέον νέα μηνύματα</item>
+        <item quantity="one">+1 επιπλέον νέο μήνυμα</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$s κάλεσε %2$d ώρες πριν. Πάτησε για να δεις στο Truecaller</item>
+        <item quantity="one">%1$s κάλεσε %2$d ώρα πριν. Πάτησε για να δεις στο Truecaller</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d επαφές</item>
+        <item quantity="one">%d επαφή</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d συνημμένα</item>
+        <item quantity="one">%1$d συνημμένο</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">%d άλλες επαφές</item>
+        <item quantity="one">%d άλλη επαφή</item>
+    </plurals>
+    <plurals name="NewImGroupMemberCount">
+        <item quantity="other">%d μέλη</item>
+        <item quantity="one">%d μέλος</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">%d αριθμοί προστέθηκαν στη λίστα φραγμών</item>
+        <item quantity="one">Ο αριθμός προστέθηκε στη λίστα φραγμών</item>
+    </plurals>
+    <plurals name="OSNotificationTextNew">
+        <item quantity="other">Έχετε %d νέες ειδοποιήσεις</item>
+        <item quantity="one">Έχετε μία νέα ειδοποίηση</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d κλήσεις με φραγή</item>
+        <item quantity="one">%d κλήση με φραγή</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d αθόρυβες κλήσεις</item>
+        <item quantity="one">%d αθόρυβη κλήση</item>
+    </plurals>
+    <plurals name="PremiumAbbreviatedOfferPriceOverMonth">
+        <item quantity="other">%1$s/μήνες</item>
+        <item quantity="one">%1$s/μήνα</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">%1$d ημέρες δωρεάν δοκιμή μόνο για νέους συνδρομητές</item>
+        <item quantity="one">%1$d ημέρα δωρεάν δοκιμή μόνο για νέους συνδρομητές</item>
+    </plurals>
+    <plurals name="PremiumFeatureContactRequestLeft">
+        <item quantity="other">Απομένουν %1$d αιτήματα</item>
+        <item quantity="one">Αππομένει %1$d αίτημα</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">%1$d νέες επισκέψεις προφίλ</item>
+        <item quantity="one">1 νέα επίσκεψη προφίλ</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">%1$d άτομα επισκέφθηκαν το προφίλ σας πρόσφατα</item>
+        <item quantity="one">Κάποιος επισκέφθηκε το προφίλ σας πρόσφατα</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d άτομα (%3$d στη/στο %2$s) επισκέφθηκαν το προφίλ σας πρόσφατα</item>
+        <item quantity="one">Κάποιος από %2$s επισκέφθηκε το προφίλ σας πρόσφατα</item>
+    </plurals>
+    <plurals name="SettingPendingGroupInvitationsMessage">
+        <item quantity="other">Έχετε %d εκκρεμεις ομαδικές προσκλήσεις. Θέλετε να τις αποδεχθείτε;</item>
+        <item quantity="one">Έχετε %d εκκρεμή ομαδική πρόσκληση. Θέλετε να την αποδεχθείτε;</item>
+    </plurals>
+    <plurals name="SpamSmsFound">
+        <item quantity="other">βρέθηκαν %d ανεπιθύμητα μηνύματα</item>
+        <item quantity="one">βρέθηκε %d ανεπιθύμητο μήνυμα</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByMultiple">
+        <item quantity="other">Ο/Η %1$s και %2$d άλλοι προστέθηκαν στην ομάδα από τον/την %3$s</item>
+        <item quantity="one">Ο/Η %1$s και %2$d άλλος προστέθηκε στην ομάδα από τον/την %3$s</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByYouMultiple">
+        <item quantity="other">Προσκαλέσατε %1$s και %2$d άλλους στην ομάδα</item>
+        <item quantity="one">Προσκαλέσατε %1$s και %2$d άλλον στην ομάδα</item>
+    </plurals>
+    <plurals name="StrPhoneNumberAndMore">
+        <item quantity="other">%1$s &lt;b>+%2$dπερισσότερο&lt;/b></item>
+        <item quantity="one">%1$s &lt;b>+%2$dπερισσότερο&lt;/b></item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">ημέρες</item>
+        <item quantity="one">ημέρα</item>
+    </plurals>
+    <plurals name="StrPluralHour">
+        <item quantity="other">ώρες</item>
+        <item quantity="one">ώρα</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">μήνες</item>
+        <item quantity="one">μήνας</item>
+    </plurals>
+    <plurals name="StrPluralWeek">
+        <item quantity="other">εβδομάδες</item>
+        <item quantity="one">εβδομάδα</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">έτη</item>
+        <item quantity="one">έτος</item>
+    </plurals>
+    <plurals name="UnreadConversations">
+        <item quantity="other">%d μη διαβασμένες συνομιλίες</item>
+        <item quantity="one">%d μη διαβασμένη συνομιλία</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">Έχετε υπερβεί το όριο προσπαθειών επιβεβαίωσης. Ξαναδοκιμάστε σε %dώ.</item>
+        <item quantity="one">Έχετε υπερβεί το όριο προσπαθειών επιβεβαίωσης. Ξαναδοκιμάστε σε %dώ.</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d άτομα επισκέφθηκαν το προφίλ σας</item>
+        <item quantity="one">Κάποιος επισκέφθηκε το προφίλ σας</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d άτομα (1 in %2$s) επισκέφθηκαν το προφίλ σας</item>
+        <item quantity="one">%1$d άτομο από %2$s επιδκέφθηκε το προφίλ σας</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d άτομα επισκέφθηκαν το προφίλ σας. Μάθετε περισσότερα.</item>
+        <item quantity="one">1 άτομο επισκέφτηκε το προφιλ σας. Μάθετε ποιος!</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d άτομα (%3$d in %2$s) επισκέφθηκαν το προφίλ σας. Μάθετε περισσότερα.</item>
+        <item quantity="one">1 άτομο από %2$s επισκέφθηκε το προφίλ σας. Μάθετε περισσότερα.</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaption">
+        <item quantity="other">%1$d νέες επισκέψεις</item>
+        <item quantity="one">%1$d νέα επίσκεψη</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaptionWithLocation">
+        <item quantity="other">%1$d νέες επισκέψεις • %2$d από %3$s</item>
+        <item quantity="one">%1$d νέα επίσκεψη • %2$d από %3$s</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">To reCaptcha απέτυχε πολλές φορές, ξαναδοκιμάστε σε %1$d ώρες</item>
+        <item quantity="one">To reCaptcha απέτυχε πολλές φορές, ξαναδοκιμάστε σε %1$d ώρα</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%s συνομιλίες αρχειοθετήθηκαν</item>
+        <item quantity="one">%s συνομιλία αρχειοθετήθηκε</item>
+    </plurals>
+    <plurals name="biz_govt_contacts_count">
+        <item quantity="other">%1$d επαφές</item>
+        <item quantity="one">%1$d επαφή</item>
+    </plurals>
+    <plurals name="call_recording_toast_items_deleted">
+        <item quantity="other">Διαγράφηκαν %1$d ηχογραφήσεις</item>
+        <item quantity="one">Διαγράφηκε %1$d ηχογράφηση</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">OTP μηνύματα διαφράφηκαν</item>
+        <item quantity="one">OTP μήνυμα διαφράφηκε</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">Μηνύματα προωθητικών ενεργειών διαγράφηκαν</item>
+        <item quantity="one">Μήνυμα προωθητικής ενέργειας διαγράφηκε</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">Διαγράφηκαν ανεπιθύμητα μηνύματα</item>
+        <item quantity="one">Διαγράφηκε ανεπιθύμητο μήνυμα</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d μηνύματα</item>
+        <item quantity="one">%d μήνυμα</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d OTP</item>
+        <item quantity="one">%d OTP</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_promotional">
+        <item quantity="other">%d Μηνύματα προωθητικών ενεργειών</item>
+        <item quantity="one">%d Μήνυμα προωθητικής ενέργειας</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d ανεπιθύμητα μηνύματα</item>
+        <item quantity="one">%d ανεπιθύμητο μήνυμα</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d μηνύματα διαγράφηκαν</item>
+        <item quantity="one">%d μήνυμα διαγράφηκε</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">Προσκλήσεις</item>
+        <item quantity="one">Πρόσκληση</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="other">σε %d ημέρες</item>
+        <item quantity="one">αύριο</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="other">σε %d ώρες</item>
+        <item quantity="one">σε 1 ώρα</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="other">σε %d λεπτά</item>
+        <item quantity="one">σε 1 λεπτό</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="other">σε %d δευτερόλεπτα</item>
+        <item quantity="one">σε 1 δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="other">πριν από %d ημέρες</item>
+        <item quantity="one">χθες</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="other">πριν από %d ώρες</item>
+        <item quantity="one">πριν από 1 ώρα</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="other">πριν από %d λεπτά</item>
+        <item quantity="one">πριν από 1 λεπτό</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="other">πριν από %d δευτερόλεπτα</item>
+        <item quantity="one">πριν από 1 δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="other">%d ώρες</item>
+        <item quantity="one">1 ώρα</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="other">%d λεπτά</item>
+        <item quantity="one">1 λεπτό</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="other">%d δευτερόλεπτα</item>
+        <item quantity="one">1 δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="other">σε %d ημέρες</item>
+        <item quantity="one">αύριο</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="other">σε %d ώρες</item>
+        <item quantity="one">σε 1 ώρα</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="other">σε %d λεπτά</item>
+        <item quantity="one">σε 1 λεπτό</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="other">σε %d δευτερόλεπτα</item>
+        <item quantity="one">σε 1 δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="other">πριν από %d ημέρες</item>
+        <item quantity="one">χθες</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="other">πριν από %d ώρες</item>
+        <item quantity="one">πριν από 1 ώρα</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="other">πριν από %d λεπτά</item>
+        <item quantity="one">πριν από 1 λεπτό</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="other">πριν από %d δευτερόλεπτα</item>
+        <item quantity="one">πριν από 1 δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">Πρόκειται να διαγράψετε τα επιλεγμένα αρχεία και τα %d σχετικά μηνύματα</item>
+        <item quantity="one">Πρόκειται να διαγράψετε τα επιλεγμένα αρχεία και το σχετικό μήνυμα</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">Διαγραφή μηνυμάτων;</item>
+        <item quantity="one">Διαγραφή μηνύματος;</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d νέες ειδοποιήσεις</item>
+        <item quantity="one">%d νέα ειδοποίηση</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">φίλοι</item>
+        <item quantity="one">φίλος</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">ημέρες</item>
+        <item quantity="one">ημέρα</item>
+    </plurals>
+    <plurals name="spam_counts">
+        <item quantity="other">%d αναφορές spam</item>
+        <item quantity="one">%d αναφορά spam</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">αναίρεση αρχειοθέτησης %s συνομιλιών</item>
+        <item quantity="one">αναίρεση αρχειοθέτησης %s συνομιλίας</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">Τα μηνύματα ελήφθησαν</item>
+        <item quantity="one">Το μήνυμα ελήφθη</item>
+    </plurals>
+    <plurals name="voip_group_launcher_person">
+        <item quantity="other">συμμετέχοντες</item>
+        <item quantity="one">συμμετέχων</item>
+    </plurals>
+    <plurals name="voip_notification_missed_grouped_title">
+        <item quantity="other">Αναπάντητες %1$s κλήσεις</item>
+        <item quantity="one">Ανανπάντητη %1$s κλήση</item>
+    </plurals>
+    <plurals name="voip_notification_title_other">
+        <item quantity="other">%1$s άλλοι</item>
+        <item quantity="one">%1$sάλλος</item>
+    </plurals>
+</resources>

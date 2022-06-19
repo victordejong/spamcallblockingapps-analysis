@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="@drawable/color_biztime_spinner" android:ellipsize="marquee" android:id="@id/timeText" android:padding="@dimen/space" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="inherit" style="@style/StyleX.Text.Body.B2"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

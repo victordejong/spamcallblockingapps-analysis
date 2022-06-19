@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">%d ಸಂಖ್ಯೆಗಳನ್ನು ಸ್ಪ್ಯಾಮ್ ಆಗಿ ನಿರ್ಬಂಧಿಸುವುದೇ ಅಥವಾ ವರದಿ ಮಾಡುವುದೇ?</item>
+        <item quantity="one">%d ಸಂಖ್ಯೆಗಳನ್ನು ಸ್ಪ್ಯಾಮ್ ಆಗಿ ನಿರ್ಬಂಧಿಸುವುದೇ ಅಥವಾ ವರದಿ ಮಾಡುವುದೇ?</item>
+    </plurals>
+    <plurals name="ConversationCallsHistoryCount">
+        <item quantity="other">%d ಕರೆಗಳು</item>
+        <item quantity="one">%d ಕರೆ</item>
+    </plurals>
+    <plurals name="ConversationFlashHistoryCount">
+        <item quantity="other">%d ಫ್ಲ್ಯಾಶ್ ಸಂದೇಶಗಳು</item>
+        <item quantity="one">%d ಫ್ಲ್ಯಾಶ್ ಸಂದೇಶ</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">ಸಂದೇಶಗಳನ್ನು ಮುಖ್ಯ ಟ್ಯಾಬ್‍ಗೆ ಸೇರಿಸಲಾಗಿದೆ</item>
+        <item quantity="one">ಸಂದೇಶವನ್ನು ಮುಖ್ಯ ಟ್ಯಾಬ್‍ಗೆ ಸೇರಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d ಸಂಭಾಷಣೆಗಳನ್ನು ಓದಲಾಗಿದೆ ಎಂಬುದಾಗಿ ಗುರುತು ಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="one">%d ಸಂಭಾಷಣೆಯನ್ನು ಓದಲಾಗಿದೆ ಎಂಬುದಾಗಿ ಗುರುತು ಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">%d ನಮೂದುಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ</item>
+        <item quantity="one">%d ನಮೂದನ್ನು ಅಳಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">%d ನಮೂದುಗಳನ್ನು ಅಳಿಸುವುದೇ?</item>
+        <item quantity="one">ನಮೂದನ್ನು ಅಳಿಸುವುದೇ?</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">ಸಂಭಾಷಣೆಗಳು ಪಿನ್ ಆಗಿವೆ</item>
+        <item quantity="one">ಸಂಭಾಷಣೆ ಪಿನ್ ಆಗಿದೆ</item>
+    </plurals>
+    <plurals name="ConversationReportNotSpamConfirmation">
+        <item quantity="other">%d ಸಂದೇಶಗಳು ಸ್ಪ್ಯಾಮ್ ಅಲ್ಲ ಎಂದು ವರದಿಯಾಗಿವೆ</item>
+        <item quantity="one">%d ಸಂದೇಶ ಸ್ಪ್ಯಾಮ್ ಅಲ್ಲ ಎಂದು ವರದಿಯಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="ConversationReportSpamConfirmation">
+        <item quantity="other">%d ಸಂದೇಶಗಳು ಸ್ಪ್ಯಾಮ್ ಎಂದು ವರದಿಯಾಗಿವೆ</item>
+        <item quantity="one">%d ಸಂದೇಶ ಸ್ಪ್ಯಾಮ್ ಎಂದು ವರದಿಯಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">ಎಲ್ಲಾ ಸಂಪರ್ಕಗಳನ್ನು ಉಳಿಸಿ</item>
+        <item quantity="one">@string/ConversationSaveContact</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">ಸಂಭಾಷಣೆಗಳು ಅನ್‍ಪಿನ್ ಆಗಿವೆ</item>
+        <item quantity="one">ಸಂಭಾಷಣೆ ಅನ್‍ಪಿನ್ ಆಗಿದೆ</item>
+    </plurals>
+    <plurals name="DeleteConversationsConfirmation">
+        <item quantity="other">%d ಸಂಭಾಷಣೆಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ</item>
+        <item quantity="one">%d ಸಂಭಾಷಣೆಯನ್ನು ಅಳಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">%d ಸಂಭಾಷಣೆಗಳನ್ನು ಅಳಿಸುವುದೇ?</item>
+        <item quantity="one">%d ಸಂಭಾಷಣೆಯನ್ನು ಅಳಿಸುವುದೇ?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">%d ಸಂಖ್ಯೆಗಳು ಕಂಡುಬಂದಿದೆ</item>
+        <item quantity="one">%d ಸಂಖ್ಯೆ ಕಂಡುಬಂದಿದೆ</item>
+    </plurals>
+    <plurals name="HistoryActionConfirmDeleteMessage">
+        <item quantity="other">%d ಐಟಂಗಳನ್ನು ಅಳಿಸುವುದೇ?</item>
+        <item quantity="one">%d ಐಟಂ ಅಳಿಸುವುದೇ?</item>
+    </plurals>
+    <plurals name="HistoryActionDeleted">
+        <item quantity="other">%d ಐಟಂಗಳು ಅಳಿಸಲಾಗಿದೆ</item>
+        <item quantity="one">%d ಐಟಂ ಅಳಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="HistoryActionSelected">
+        <item quantity="other">%d ಐಟಂಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="one">%d ಐಟಂ ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">%d ಸಂಖ್ಯೆಗಳನ್ನು ಅನ್‍ಬ್ಲಾಕ್ ಮಾಡಲು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?</item>
+        <item quantity="one">ಈ ಸಂಖ್ಯೆಯನ್ನು ಅನ್‍ಬ್ಲಾಕ್ ಮಾಡಲು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteCallRecordings">
+        <item quantity="other">%s ಕರೆ ರೆಕಾರ್ಡಿಂಗ್ ಗಳನ್ನು ಅಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?</item>
+        <item quantity="one">%s ಕರೆ ರೆಕಾರ್ಡಿಂಗ್ ಅಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">%s ಭಾಷಾ ಫೈಲ್ ಗಳನ್ನು ಅಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?</item>
+        <item quantity="one">%s ಭಾಷಾ ಫೈಲ್ ಅಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">%d ಎಸ್ ಎಂ ಎಸ್ ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ</item>
+        <item quantity="one">Truecaller ಎಸ್ ಎಂ ಎಸ್ ಅನ್ನು ನಿರ್ಬಂಧಿಸಿದೆ</item>
+    </plurals>
+    <plurals name="MessageNotificationNewMessages">
+        <item quantity="other">+%1$d ಇನ್ನೂ ಹೆಚ್ಚಿನ ಹೊಸ ಸಂದೇಶಗಳು</item>
+        <item quantity="one">+1 ಇನ್ನೂ ಹೆಚ್ಚಿನ ಹೊಸ ಸಂದೇಶ</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">ಒಂದು ಗಂಟೆಯ ಹಿಂದೆ %1$s ಇವರು %2$d ಗೆ ಕರೆ ಮಾಡಿದರು. Truecaller ನಲ್ಲಿ ವೀಕ್ಷಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ</item>
+        <item quantity="one">ಒಂದು ಗಂಟೆಯ ಹಿಂದೆ %1$s ಇವರು %2$d ಗೆ ಕರೆ ಮಾಡಿದರು. Truecaller ನಲ್ಲಿ ವೀಕ್ಷಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d ಸಂಪರ್ಕಗಳು</item>
+        <item quantity="one">%d ಸಂಪರ್ಕ</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d ಲಗತ್ತುಗಳು</item>
+        <item quantity="one">%1$d ಲಗತ್ತು</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">%d ಇತರ ಸಂಪರ್ಕಗಳು</item>
+        <item quantity="one">%d ಇತರ ಸಂಪರ್ಕ</item>
+    </plurals>
+    <plurals name="NewImGroupMemberCount">
+        <item quantity="other">%d ಸದಸ್ಯರು</item>
+        <item quantity="one">%d ಸದಸ್ಯ</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">%d ಸಂಖ್ಯೆಗಳನ್ನು ನಿರ್ಬಂಧ ಪಟ್ಟಿಗೆ ಸೇರಿಸಲಾಗಿದೆ</item>
+        <item quantity="one">ನಿರ್ಬಂಧ ಪಟ್ಟಿಗೆ ಸಂಖ್ಯೆಯನ್ನು ಸೇರಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="OSNotificationTextNew">
+        <item quantity="other">ನೀವು %d ಹೊಸ ಅಧಿಸೂಚನೆಗಳನ್ನು ಪಡೆದಿದ್ದೀರಿ</item>
+        <item quantity="one">ನೀವು ಒಂದು ಹೊಸ ಅಧಿಸೂಚನೆ ಪಡೆದಿದ್ದೀರಿ</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d ಬ್ಲಾಕ್ ಮಾಡಿರುವ ಕರೆಗಳು</item>
+        <item quantity="one">%d ಬ್ಲಾಕ್ ಮಾಡಿರುವ ಕರೆ</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d ಮ್ಯೂಟ್ ಕರೆಗಳು</item>
+        <item quantity="one">%d ಮ್ಯೂಟ್ ಕರೆ</item>
+    </plurals>
+    <plurals name="PremiumAbbreviatedOfferPriceOverMonth">
+        <item quantity="other">%1$s/mos</item>
+        <item quantity="one">%1$s/mo</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">ಹೊಸ ಚಂದಾದಾರರಿಗೆ ಮಾತ್ರ %1$d ದಿನಗಳ ಉಚಿತ ಟ್ರಯಲ್</item>
+        <item quantity="one">ಹೊಸ ಚಂದಾದಾರರಿಗೆ ಮಾತ್ರ %1$d ದಿನದ ಉಚಿತ ಟ್ರಯಲ್</item>
+    </plurals>
+    <plurals name="PremiumFeatureContactRequestLeft">
+        <item quantity="other">%1$d ಕೋರಿಕೆಗಳು ಉಳಿದಿವೆ</item>
+        <item quantity="one">%1$d ಕೋರಿಕೆ ಉಳಿದಿದೆ</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">%1$d ಹೊಸ ಪ್ರೊಫೈಲ್ ವೀಕ್ಷಣೆಗಳು</item>
+        <item quantity="one">1 ಹೊಸ ಪ್ರೊಫೈಲ್ ವೀಕ್ಷಣೆ</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">ಇತ್ತೀಚೆಗೆ %1$d ಮಂದಿ ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ವೀಕ್ಷಿಸಿದ್ದಾರೆ</item>
+        <item quantity="one">ಇತ್ತೀಚೆಗೆ ಯಾರೋ ಒಬ್ಬರು ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ವೀಕ್ಷಿಸಿದ್ದಾರೆ</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d ಜನರು (%3$d ನಲ್ಲಿ %2$s) ಇತ್ತೀಚೆಗೆ ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಅನ್ನು ವೀಕ್ಷಿಸಿದ್ದಾರೆ</item>
+        <item quantity="one">%2$s ಇಲ್ಲಿನ ಯಾರೋ ಒಬ್ಬರು ಇತ್ತೀಚೆಗೆ ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಅನ್ನು ವೀಕ್ಷಿಸಿದ್ದಾರೆ</item>
+    </plurals>
+    <plurals name="SettingPendingGroupInvitationsMessage">
+        <item quantity="other">ನೀವು %d ಗ್ರೂಪ್ ಆಹ್ವಾನಗಳನ್ನು ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. ಅವನ್ನು ಸ್ವೀಕರಿಸಲು ಬಯಸುತ್ತೀರಾ?</item>
+        <item quantity="one">ನೀವು %d ಗ್ರೂಪ್ ಆಹ್ವಾನ ಇನ್ನೂ ಸ್ವೀಕರಿಸಿಲ್ಲ. ಅವನ್ನು ಸ್ವೀಕರಿಸಲು ಬಯಸುತ್ತೀರಾ?</item>
+    </plurals>
+    <plurals name="SpamSmsFound">
+        <item quantity="other">%d ಸ್ಪ್ಯಾಮ್ ಸಂದೇಶಗಳು ಕಂಡುಬಂದಿವೆ</item>
+        <item quantity="one">%d ಸ್ಪ್ಯಾಮ್ ಸಂದೇಶಗಳು ಕಂಡುಬಂದಿವೆ</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByMultiple">
+        <item quantity="other">%1$s ಮತ್ತು ಬೇರೆ %2$d ನ್ನು %3$s ರವರು ಗ್ರೂಪ್‍ಗೆ ಆಹ್ವಾನಿಸಿದ್ದಾರೆ</item>
+        <item quantity="one">%1$s ಮತ್ತು ಬೇರೆ %2$d ನ್ನು %3$s ರವರು ಗ್ರೂಪ್‍ಗೆ ಆಹ್ವಾನಿಸಿದ್ದಾರೆ</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByYouMultiple">
+        <item quantity="other">ನೀವು %1$s ಮತ್ತು ಬೇರೆ %2$d ರನ್ನು ಗ್ರೂಪ್‍ಗೆ ಆಹ್ವಾನಿಸಿದಿರಿ</item>
+        <item quantity="one">ನೀವು %1$s ಮತ್ತು ಬೇರೆ %2$d ರನ್ನು ಗ್ರೂಪ್‍ಗೆ ಆಹ್ವಾನಿಸಿದಿರಿ</item>
+    </plurals>
+    <plurals name="StrPhoneNumberAndMore">
+        <item quantity="other">%1$s &lt;b>+%2$d ಹೆಚ್ಚು&lt;/b></item>
+        <item quantity="one">%1$s &lt;b>+%2$d ಹೆಚ್ಚು&lt;/b></item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">ದಿನಗಳು</item>
+        <item quantity="one">ದಿನ</item>
+    </plurals>
+    <plurals name="StrPluralHour">
+        <item quantity="other">ಗಂಟೆಗಳು</item>
+        <item quantity="one">ಗಂಟೆ</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">ತಿಂಗಳುಗಳು</item>
+        <item quantity="one">ತಿಂಗಳು</item>
+    </plurals>
+    <plurals name="StrPluralWeek">
+        <item quantity="other">ವಾರಗಳು</item>
+        <item quantity="one">ವಾರ</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">ವರ್ಷಗಳು</item>
+        <item quantity="one">ವರ್ಷ</item>
+    </plurals>
+    <plurals name="UndoMarkAsStarredNotification">
+        <item quantity="other">ಅನ್‍ಸ್ಟಾರ್ ಮಾಡಿರುವ ಸಂದೇಶಗಳು</item>
+        <item quantity="one">ಅನ್‍ಸ್ಟಾರ್ ಮಾಡಿರುವ ಸಂದೇಶ</item>
+    </plurals>
+    <plurals name="UnreadConversations">
+        <item quantity="other">%d ಓದದ ಸಂಭಾಷಣೆಗಳು</item>
+        <item quantity="one">%d ಓದದ ಸಂಭಾಷಣೆ</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">ನೀವು ವೆರಿಫಿಕೇಶನ್ ಪ್ರಯತ್ನಗಳ ಗರಿಷ್ಠ ಮಿತಿ ತಲುಪಿದ್ದೀರಿ.ದಯವಿಟ್ಟು %dh ಬಳಿಕ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ</item>
+        <item quantity="one">ನೀವು ವೆರಿಫಿಕೇಶನ್ ಪ್ರಯತ್ನಗಳ ಗರಿಷ್ಠ ಮಿತಿ ತಲುಪಿದ್ದೀರಿ.ದಯವಿಟ್ಟು %dh ಬಳಿಕ ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d ಮಂದಿ ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ವೀಕ್ಷಿಸಿದ್ದಾರೆ</item>
+        <item quantity="one">ಯಾರೋ ಒಬ್ಬರು ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ವೀಕ್ಷಿಸಿದ್ದಾರೆ</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d ಮಂದಿ (%2$s ರಲ್ಲಿ 1) ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ವೀಕ್ಷಿಸಿದರು</item>
+        <item quantity="one">%2$s ನ %1$dಮಂದಿ ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ವೀಕ್ಷಿಸಿದರು</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%ವ್ಯಕ್ತಿ ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ವೀಕ್ಷಿಸಿದ್ದಾರೆ. ಇನ್ನಷ್ಟು ಮಂದಿಯನ್ನು ಕಂಡುಕೊಳ್ಳಿ.</item>
+        <item quantity="one">1 ವ್ಯಕ್ತಿ ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ವೀಕ್ಷಿಸಿದ್ದಾರೆ. ಇನ್ನಷ್ಟು ಮಂದಿಯನ್ನು ಕಂಡುಕೊಳ್ಳಿ.</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d ಮಂದಿ (%3$d in %2$s) ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ವೀಕ್ಷಿಸಿದ್ದಾರೆ. ಇನ್ನಷ್ಟು ಮಂದಿಯನ್ನು ಕಂಡುಕೊಳ್ಳಿ.</item>
+        <item quantity="one">%2$s ನಿಂದ 1 ವ್ಯಕ್ತಿ ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ವೀಕ್ಷಿಸಿದ್ದಾರೆ. ಇನ್ನಷ್ಟು ಮಂದಿಯನ್ನು ಕಂಡುಕೊಳ್ಳಿ.</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaption">
+        <item quantity="other">%1$d ಹೊಸ ವೀಕ್ಷಣೆಗಳು</item>
+        <item quantity="one">%1$d ಹೊಸ ವೀಕ್ಷಣೆ</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaptionWithLocation">
+        <item quantity="other">%1$d ಹೊಸ ವೀಕ್ಷಣೆಗಳು • %3$s ನಿಂದ %2$d</item>
+        <item quantity="one">%1$d ಹೊಸ ವೀಕ್ಷಣೆ • %3$s ನಿಂದ %2$d</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">reCaptcha ಹಲವು ಬಾರಿ ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು %1$d ಗಂಟೆಗಳಲ್ಲಿ ಪುನಃ ಪ್ರಯತ್ನಿಸಿ</item>
+        <item quantity="one">reCaptcha ಹಲವು ಬಾರಿ ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು %1$d ಗಂಟೆಯಲ್ಲಿ ಪುನಃ ಪ್ರಯತ್ನಿಸಿ</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%s ಸಂಭಾಷಣೆಗಳನ್ನು ಆರ್ಕೈವ್ ಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="one">%s ಸಂಭಾಷಣೆಯನ್ನು ಆರ್ಕೈವ್ ಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="biz_govt_contacts_count">
+        <item quantity="other">%1$d ಸಂಪರ್ಕಗಳು</item>
+        <item quantity="one">%1$d ಸಂಪರ್ಕ</item>
+    </plurals>
+    <plurals name="call_recording_toast_items_deleted">
+        <item quantity="other">%1$d ರೆಕಾರ್ಡಿಂಗ್‍ಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ</item>
+        <item quantity="one">%1$d ರೆಕಾರ್ಡಿಂಗ್ ಅಳಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">ಒಟಿಪಿ ಸಂದೇಶಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ</item>
+        <item quantity="one">ಒಟಿಪಿ ಸಂದೇಶ ಅಳಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">ಜಾಹೀರಾತು ಸಂದೇಶಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ</item>
+        <item quantity="one">ಜಾಹೀರಾತು ಸಂದೇಶ ಅಳಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">ಸ್ಪ್ಯಾಮ್ ಸಂದೇಶಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ</item>
+        <item quantity="one">ಸ್ಪ್ಯಾಮ್ ಸಂದೇಶವನ್ನು ಅಳಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d ಸಂದೇಶಗಳು</item>
+        <item quantity="one">%d ಸಂದೇಶ</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d ಒಟಿಪಿಗಳು</item>
+        <item quantity="one">%d ಒಟಿಪಿ</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_promotional">
+        <item quantity="other">%d ಜಾಹೀರಾತು ಸಂದೇಶಗಳು</item>
+        <item quantity="one">%d ಜಾಹೀರಾತು ಸಂದೇಶ</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d ಸ್ಪ್ಯಾಮ್ ಸಂದೇಶಗಳು</item>
+        <item quantity="one">%d ಸ್ಪ್ಯಾಮ್ ಸಂದೇಶ</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d ಸಂದೇಶಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ</item>
+        <item quantity="one">%d ಸಂದೇಶ ಅಳಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">ಆಮಂತ್ರಣಗಳು</item>
+        <item quantity="one">ಆಮಂತ್ರಣ</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">ಆಯ್ದ ಫೈಲ್‍ಗಳನ್ನು ಮತ್ತು %d ಸಂಬಂಧಪಟ್ಟ ಸಂದೇಶಗಳನ್ನು ನೀವು ಅಳಿಸುವವರಿದ್ದಿರಿ</item>
+        <item quantity="one">ಆಯ್ದ ಫೈಲ್‍ಗಳನ್ನು ಮತ್ತು ಸಂಬಂಧಪಟ್ಟ ಸಂದೇಶವನ್ನು ನೀವು ಅಳಿಸುವವರಿದ್ದಿರಿ</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">ಸಂದೇಶಗಳನ್ನು ಅಳಿಸುವುದೇ?</item>
+        <item quantity="one">ಸಂದೇಶವನ್ನು ಅಳಿಸುವುದೇ?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d ಹೊಸ ಅಧಿಸೂಚನೆಗಳು</item>
+        <item quantity="one">%d ಹೊಸ ಅಧಿಸೂಚನೆಗಳು</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">ಸ್ನೇಹಿತರು</item>
+        <item quantity="one">ಸ್ನೇಹಿತ</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">ದಿನಗಳು</item>
+        <item quantity="one">ದಿನ</item>
+    </plurals>
+    <plurals name="spam_counts">
+        <item quantity="other">%d ಸ್ಪ್ಯಾಮ್ ವರದಿಗಳು</item>
+        <item quantity="one">%d ಸ್ಪ್ಯಾಮ್ ವರದಿ</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">%s ಸಂಭಾಷಣೆಗಳನ್ನು ಅನ್‍ಆರ್ಕೈವ್ ಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="one">%s ಸಂಭಾಷಣೆಯನ್ನು ಅನ್‍ಆರ್ಕೈವ್ ಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">ಸಂದೇಶಗಳನ್ನು ಪಡೆಯಲಾಗಿದೆ</item>
+        <item quantity="one">ಸಂದೇಶ ಪಡೆಯಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="voip_group_launcher_person">
+        <item quantity="other">ಭಾಗಿಗಳು</item>
+        <item quantity="one">ಭಾಗಿ</item>
+    </plurals>
+    <plurals name="voip_notification_missed_grouped_title">
+        <item quantity="other">ತಪ್ಪಿದ %1$s ಕರೆಗಳು</item>
+        <item quantity="one">ತಪ್ಪಿದ %1$s ಕರೆ</item>
+    </plurals>
+    <plurals name="voip_notification_title_other">
+        <item quantity="other">%1$s ಇತರ</item>
+        <item quantity="one">%1$s ಇತರ</item>
+    </plurals>
+</resources>

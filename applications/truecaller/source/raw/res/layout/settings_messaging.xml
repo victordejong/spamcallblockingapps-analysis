@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/settingsMessaging" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView app:cardBackgroundColor="?theme_accentColor" style="@style/Widget.Truecaller.CardView">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.truecaller.ui.view.TintedImageView android:id="@id/settingMessagingDefaultSMSIcon" android:paddingBottom="@dimen/control_space" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_doublespace" android:src="@drawable/ic_sms" android:scaleType="center" android:layout_marginStart="@dimen/control_doublespace" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="?theme_textColorAccentedControl" />
+            <TextView android:textSize="@dimen/list_secondary" android:textColor="?theme_textColorAccentedControl" android:layout_gravity="center_vertical" android:id="@id/settingsMessagingDefaultSMS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SettingsDefaultSMSTitle" android:layout_marginStart="@dimen/control_space" app:layout_constraintBottom_toBottomOf="@id/settingMessagingDefaultSMSIcon" app:layout_constraintStart_toEndOf="@id/settingMessagingDefaultSMSIcon" app:layout_constraintTop_toTopOf="@id/settingMessagingDefaultSMSIcon" app:layout_constraintVertical_bias="0.1" />
+            <androidx.cardview.widget.CardView android:id="@id/settingsMessagingMakeTCDefaultSMS" android:background="?selectableItemBackground" android:layout_marginBottom="@dimen/control_space" android:layout_marginStart="@dimen/control_space" android:layout_marginEnd="@dimen/control_space" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/settingMessagingDefaultSMSIcon" app:layout_constraintVertical_bias="0.0" style="@style/Widget.Truecaller.CardView">
+                <TextView android:textColor="?theme_textColorPrimary" android:layout_gravity="center_vertical" android:id="@id/settingsMessagingDefaultSmsState" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="@dimen/control_extraspace" android:text="@string/SettingsMakeTCDefaultSMS" android:drawablePadding="@dimen/control_extraspace" app:drawableStartCompat="@drawable/ic_red_error" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@id/settingsOpenMessagingSupport" android:background="?selectableItemBackground" android:layout_marginBottom="@dimen/control_space" android:layout_marginStart="@dimen/control_space" android:layout_marginEnd="@dimen/control_space" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/settingsMessagingMakeTCDefaultSMS" app:layout_constraintVertical_bias="0.0" style="@style/Widget.Truecaller.CardView">
+                <LinearLayout android:orientation="horizontal" android:padding="@dimen/control_extraspace" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.truecaller.ui.view.TintedImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_help_center" android:scaleType="center" android:layout_marginEnd="@dimen/control_extraspace" app:tint="@color/truecaller_blue_all_themes" />
+                    <TextView android:textColor="?theme_textColorPrimary" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/VisitHelpCenter" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView style="@style/Widget.Truecaller.CardView">
+        <LinearLayout android:background="?selectableItemBackground" android:paddingBottom="@dimen/control_doublespace" style="@style/Widget.Truecaller.ContainerWrap">
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/settingsShowCallHistorySwitch" android:focusable="true" android:clickable="true" android:text="@string/SettingsShowCallHistoryTitle" style="@style/Widget.Truecaller.Switch.Settings" />
+            <TextView android:text="@string/SettingsShowCallHistory" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/settingsMessagingPromotional" style="@style/Widget.Truecaller.CardView">
+        <LinearLayout android:background="?selectableItemBackground" android:paddingBottom="@dimen/control_doublespace" style="@style/Widget.Truecaller.ContainerWrap">
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/settingsPromotionalNotificationsSwitch" android:focusable="true" android:clickable="true" android:text="@string/SettingsPromotionalNotificationsTitle" style="@style/Widget.Truecaller.Switch.Settings" />
+            <TextView android:text="@string/SettingsPromotionalNotifications" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/settingsMessagingUrgentMessagesSection" style="@style/Widget.Truecaller.CardView">
+        <LinearLayout style="@style/Widget.Truecaller.ContainerWrap">
+            <TextView android:paddingLeft="@dimen/control_space" android:paddingTop="@dimen/control_space" android:paddingRight="@dimen/control_space" android:layout_margin="@dimen/control_space" android:text="@string/SettingsUrgentMessages" style="@style/Widget.Truecaller.TextView.SettingsGroupTitle" />
+            <LinearLayout android:id="@id/settingsUrgentMessages" android:background="?selectableItemBackground" android:paddingBottom="@dimen/control_doublespace" style="@style/Widget.Truecaller.ContainerWrap">
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/settingsUrgentMessagesSwitch" android:text="@string/SettingsUrgentMessages" style="@style/Widget.Truecaller.Switch.Settings" />
+                <TextView android:text="@string/SettingsUrgentMessagesText" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/settingsUrgentMessagesSwish" android:background="?selectableItemBackground" android:paddingBottom="@dimen/control_doublespace" style="@style/Widget.Truecaller.ContainerWrap">
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/settingsUrgentMessagesSwishSwitch" android:text="@string/SettingsUrgentMessagesSwish" style="@style/Widget.Truecaller.Switch.Settings" />
+                <TextView android:text="@string/SettingsUrgentMessagesSwishText" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/settingsMessagingGeneral" style="@style/Widget.Truecaller.CardView">
+        <LinearLayout style="@style/Widget.Truecaller.ContainerWrap">
+            <TextView android:paddingLeft="@dimen/control_space" android:paddingTop="@dimen/control_space" android:paddingRight="@dimen/control_space" android:layout_margin="@dimen/control_space" android:text="@string/SettingSmsTitle" style="@style/Widget.Truecaller.TextView.SettingsGroupTitle" />
+            <com.truecaller.ui.components.ComboBase android:id="@id/settingsReplyToGroupTransport" android:background="?selectableItemBackground" android:text="@string/SettingReplyToGroupMessageTitle" style="@style/TCComboBox" />
+            <LinearLayout android:id="@id/smsUserFeedback" android:background="?selectableItemBackground" android:paddingBottom="@dimen/control_doublespace" android:visibility="gone" style="@style/Widget.Truecaller.ContainerWrap">
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/smsFeedbackConsentSwitch" android:text="@string/insights_share_sms_via_feedback" style="@style/Widget.Truecaller.Switch.Settings" />
+                <TextView android:text="@string/insights_smsFeedbackConsent" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/settingsMessagingSecurity" style="@style/Widget.Truecaller.CardView">
+        <LinearLayout style="@style/Widget.Truecaller.ContainerWrap">
+            <TextView android:paddingLeft="@dimen/control_space" android:paddingTop="@dimen/control_space" android:paddingRight="@dimen/control_space" android:layout_margin="@dimen/control_space" android:text="@string/SettingsMessagingSmartSms" style="@style/Widget.Truecaller.TextView.SettingsGroupTitle" />
+            <LinearLayout android:id="@id/settingsShowSmartNotification" android:background="?selectableItemBackground" android:paddingBottom="@dimen/control_doublespace" style="@style/Widget.Truecaller.ContainerWrap">
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/settingsShowSmartNotificationSwitch" android:text="@string/SettingsSmartNotifications" style="@style/Widget.Truecaller.Switch.Settings" />
+                <TextView android:text="@string/SettingsSmartNotificationsText" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/security" android:background="?selectableItemBackground" android:paddingBottom="@dimen/control_doublespace" android:visibility="gone" style="@style/Widget.Truecaller.ContainerWrap">
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/hideTransactionSwitch" android:text="@string/SettingsAutoHideTransaction" style="@style/Widget.Truecaller.Switch.Settings" />
+                <TextView android:text="@string/SettingsAutoHideDescription" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/smartReminders" android:background="?selectableItemBackground" android:paddingBottom="@dimen/control_doublespace" android:visibility="visible" style="@style/Widget.Truecaller.ContainerWrap">
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/smartRemindersSwitch" android:text="@string/SettingsSmartReminders" style="@style/Widget.Truecaller.Switch.Settings" />
+                <TextView android:text="@string/SettingsSmartRemindersDescription" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/settingsMessagingSimOne" android:visibility="gone" style="@style/Widget.Truecaller.CardView">
+        <LinearLayout style="@style/Widget.Truecaller.ContainerWrap">
+            <TextView android:paddingLeft="@dimen/control_space" android:paddingTop="@dimen/control_space" android:paddingRight="@dimen/control_space" android:layout_margin="@dimen/control_space" android:text="@string/SettingsMessagingSimOne" style="@style/Widget.Truecaller.TextView.SettingsGroupTitle" />
+            <LinearLayout android:id="@id/simOneSettingsSmsDelivery" android:background="?selectableItemBackground" android:paddingBottom="@dimen/control_doublespace" android:visibility="gone" style="@style/Widget.Truecaller.ContainerWrap">
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/simOneSettingsSmsDeliverySwitch" android:focusable="true" android:clickable="true" android:text="@string/SettingsSmsDeliveryTitle" style="@style/Widget.Truecaller.Switch.Settings" />
+                <TextView android:text="@string/SettingsSmsDeliveryText" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+            </LinearLayout>
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/simOneSettingsMessagingAutoDownloadSwitch" android:paddingTop="@dimen/control_space" android:focusable="true" android:clickable="true" android:text="@string/SettingsMmsAutodownload" style="@style/Widget.Truecaller.Switch.Settings" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/simOneSettingsMessagingAutoDownloadWhenRoamingSwitch" android:paddingTop="@dimen/control_space" android:focusable="true" android:clickable="true" android:text="@string/SettingsMmsAutodownloadWhenRoaming" style="@style/Widget.Truecaller.Switch.Settings" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/settingsMessagingSimTwo" android:visibility="gone" style="@style/Widget.Truecaller.CardView">
+        <LinearLayout style="@style/Widget.Truecaller.ContainerWrap">
+            <TextView android:paddingLeft="@dimen/control_space" android:paddingTop="@dimen/control_space" android:paddingRight="@dimen/control_space" android:layout_margin="@dimen/control_space" android:text="@string/SettingsMessagingSimTwo" style="@style/Widget.Truecaller.TextView.SettingsGroupTitle" />
+            <LinearLayout android:id="@id/simTwoSettingsSmsDelivery" android:background="?selectableItemBackground" android:paddingBottom="@dimen/control_doublespace" android:visibility="gone" style="@style/Widget.Truecaller.ContainerWrap">
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/simTwoSettingsSmsDeliverySwitch" android:focusable="true" android:clickable="true" android:text="@string/SettingsSmsDeliveryTitle" style="@style/Widget.Truecaller.Switch.Settings" />
+                <TextView android:text="@string/SettingsSmsDeliveryText" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+            </LinearLayout>
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/simTwoSettingsMessagingAutoDownloadSwitch" android:paddingTop="@dimen/control_space" android:focusable="true" android:clickable="true" android:text="@string/SettingsMmsAutodownload" style="@style/Widget.Truecaller.Switch.Settings" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/simTwoSettingsMessagingAutoDownloadWhenRoamingSwitch" android:paddingTop="@dimen/control_space" android:focusable="true" android:clickable="true" android:text="@string/SettingsMmsAutodownloadWhenRoaming" style="@style/Widget.Truecaller.Switch.Settings" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/settingsMessagingChat" android:visibility="gone" style="@style/Widget.Truecaller.CardView">
+        <LinearLayout style="@style/Widget.Truecaller.ContainerWrap">
+            <TextView android:paddingLeft="@dimen/control_space" android:paddingTop="@dimen/control_space" android:paddingRight="@dimen/control_space" android:layout_margin="@dimen/control_space" android:text="@string/SettingChatTitle" style="@style/Widget.Truecaller.TextView.SettingsGroupTitle" />
+            <LinearLayout android:id="@id/settingsGroupAutoJoin" android:background="?selectableItemBackground" android:paddingBottom="@dimen/control_doublespace" style="@style/Widget.Truecaller.ContainerWrap">
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/settingsGroupAutoJoinSwitch" android:paddingTop="@dimen/control_space" android:focusable="true" android:clickable="true" android:text="@string/SettingGroupAutoJoin" style="@style/Widget.Truecaller.Switch.Settings" />
+                <TextView android:text="@string/SettingGroupAutoDescription" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/settingsChatReadReceipts" android:background="?selectableItemBackground" android:paddingBottom="@dimen/control_doublespace" style="@style/Widget.Truecaller.ContainerWrap">
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/settingsChatReadReceiptsSwitch" android:paddingTop="@dimen/control_space" android:focusable="true" android:clickable="true" android:text="@string/SettingChatReadReceipts" style="@style/Widget.Truecaller.Switch.Settings" />
+                <TextView android:text="@string/SettingChatReadReceiptsDescription" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/settingsChatTypingIndicator" android:background="?selectableItemBackground" android:paddingBottom="@dimen/control_doublespace" style="@style/Widget.Truecaller.ContainerWrap">
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/settingsChatTypingIndicatorSwitch" android:paddingTop="@dimen/control_space" android:focusable="true" android:clickable="true" android:text="@string/SettingChatTypingIndicator" style="@style/Widget.Truecaller.Switch.Settings" />
+                <TextView android:text="@string/SettingChatTypingIndicatorDescription" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/settingsChatGIF" android:background="?selectableItemBackground" android:paddingBottom="@dimen/control_doublespace" style="@style/Widget.Truecaller.ContainerWrap">
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/settingsChatGIFSwitch" android:paddingTop="@dimen/control_space" android:focusable="true" android:clickable="true" android:text="@string/SettingChatTenorGif" style="@style/Widget.Truecaller.Switch.Settings" />
+                <TextView android:text="@string/SettingChatTenorGifDescription" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

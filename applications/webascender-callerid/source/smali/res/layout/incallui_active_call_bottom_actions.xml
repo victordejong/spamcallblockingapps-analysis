@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/dialPadSpeaker" android:background="?android:selectableItemBackgroundBorderless" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="35.0dip" android:src="@drawable/incallui_action_speaker" android:contentDescription="@string/incallui_speaker" />
+    <Button android:textSize="13.0sp" android:textStyle="normal" android:textColor="#ffffffff" android:layout_gravity="bottom|center" android:id="@id/endCall" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/incallui_end_call" android:drawableTop="@drawable/incallui_end_call_button" android:drawablePadding="10.0dip" android:textAllCaps="false" android:fontFamily="sans-serif" />
+    <ImageButton android:id="@id/dialPadMute" android:background="?android:selectableItemBackgroundBorderless" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="35.0dip" android:src="@drawable/incallui_action_mute" android:contentDescription="@string/incallui_mute" />
+    <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+</LinearLayout>

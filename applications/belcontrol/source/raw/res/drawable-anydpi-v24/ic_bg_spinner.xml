@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="429.0dip" android:width="396.0dip" android:viewportWidth="396.0" android:viewportHeight="429.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_bg_spinner__0" android:pathData="M396,5C396,2.239 393.761,0 391,0H5C2.239,0 0,2.239 0,5V424C0,426.761 2.239,429 5,429H391C393.761,429 396,426.761 396,424V5Z" />
+</vector>

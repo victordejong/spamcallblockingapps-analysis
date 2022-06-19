@@ -1,0 +1,50 @@
+package com.google.android.gms.internal.ads;
+
+import java.nio.ByteBuffer;
+/* loaded from: classes2-dex2jar.jar:com/google/android/gms/internal/ads/zzxo.class */
+public final class zzxo {
+    /* JADX WARN: Type inference failed for: r0v2, types: [long] */
+    /* JADX WARN: Type inference failed for: r0v8, types: [long] */
+    public static long zza(ByteBuffer byteBuffer) {
+        ?? r0 = byteBuffer.getInt();
+        char c = r0;
+        if (r0 < 0) {
+            c = r0 + 4294967296L;
+        }
+        return c;
+    }
+
+    public static int zzb(ByteBuffer byteBuffer) {
+        return zzc(byteBuffer.get()) + (zzc(byteBuffer.get()) << 8);
+    }
+
+    /* JADX WARN: Multi-variable type inference failed */
+    /* JADX WARN: Type inference failed for: r0v4, types: [int] */
+    public static int zzc(byte b) {
+        byte b2 = b;
+        if (b < 0) {
+            b2 = b + 256;
+        }
+        return b2;
+    }
+
+    public static long zzd(ByteBuffer byteBuffer) {
+        long zza = zza(byteBuffer) << 32;
+        if (zza >= 0) {
+            return zza(byteBuffer) + zza;
+        }
+        throw new RuntimeException("I don't know how to deal with UInt64! long is not sufficient and I don't want to use BigInt");
+    }
+
+    public static double zze(ByteBuffer byteBuffer) {
+        byte[] bArr = new byte[4];
+        byteBuffer.get(bArr);
+        return (((((bArr[0] << 24) & (-16777216)) | ((bArr[1] << 16) & 16711680)) | ((bArr[2] << 8) & 65280)) | (bArr[3] & 255)) / 65536.0d;
+    }
+
+    public static double zzf(ByteBuffer byteBuffer) {
+        byte[] bArr = new byte[4];
+        byteBuffer.get(bArr);
+        return (((((bArr[0] << 24) & (-16777216)) | ((bArr[1] << 16) & 16711680)) | ((bArr[2] << 8) & 65280)) | (bArr[3] & 255)) / 1.073741824E9d;
+    }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="72.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.common.ui.avatar.AvatarXView android:id="@id/avatar" android:layout_width="@dimen/add_group_photo_size" android:layout_height="@dimen/add_group_photo_size" app:layout_constraintBottom_toTopOf="@id/nameText" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="12.0sp" android:gravity="center" android:id="@id/nameText" android:padding="@dimen/semiSpace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/avatar" style="@style/StyleX.Text.Subtitle" />
+    <ImageView android:id="@id/removeButton" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="centerInside" android:contentDescription="@string/btn_delete" android:translationX="-16.0dip" app:layout_constraintStart_toEndOf="@id/avatar" app:layout_constraintTop_toTopOf="@id/avatar" app:srcCompat="@drawable/ic_group_participant_remove_16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

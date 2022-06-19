@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/format_bold" android:title="@string/MessageFormatBold" app:showAsAction="ifRoom" />
+    <item android:id="@id/format_italic" android:title="@string/MessageFormatItalic" app:showAsAction="ifRoom" />
+    <item android:id="@id/format_monospace" android:title="@string/MessageFormatMonospace" app:showAsAction="ifRoom" />
+    <item android:id="@id/format_strikethrough" android:title="@string/MessageFormatStrikethrough" app:showAsAction="ifRoom" />
+    <item android:id="@id/format_underline" android:title="@string/MessageFormatUnderline" app:showAsAction="ifRoom" />
+    <item android:id="@id/format_link" android:title="@string/MessageFormatLink" app:showAsAction="ifRoom" />
+</menu>

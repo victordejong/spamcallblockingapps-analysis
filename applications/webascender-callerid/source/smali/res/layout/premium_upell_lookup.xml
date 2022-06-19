@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@dimen/list_item_margin_left_right" android:paddingTop="@dimen/list_item_margin_left_right" android:paddingRight="@dimen/list_item_margin_left_right" android:paddingBottom="8.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/premium_contact_detail_upsell_back" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="20.0sp" android:textStyle="normal" android:textColor="@color/colorPrimaryExtraDark" android:id="@id/upsellTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/premium_upsell_lookup_title" android:fontFamily="sans-serif-medium" />
+        <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="#ff000000" android:id="@id/upsellBody" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/premium_upsell_lookup_body" android:fontFamily="sans-serif" />
+        <androidx.appcompat.widget.AppCompatButton android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/upsellIdentifyButton" android:background="@drawable/rounded_corners" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:text="@string/premium_upsell_lookup_button" android:textAllCaps="false" android:fontFamily="sans-serif" app:backgroundTint="@color/blue" />
+    </LinearLayout>
+</FrameLayout>

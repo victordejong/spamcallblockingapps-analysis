@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>OTP</item>
+        <item>Συναλλαγή</item>
+        <item>Άλλα</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>ιαν</item>
+        <item>φεβ</item>
+        <item>μαρ</item>
+        <item>απρ</item>
+        <item>μάι</item>
+        <item>ιούν</item>
+        <item>ιούλ</item>
+        <item>αυγ</item>
+        <item>σεπ</item>
+        <item>οκτ</item>
+        <item>νοε</item>
+        <item>δεκ</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Σύνδεση στο %s</item>
+        <item>Εγγραφή με %s</item>
+        <item>Συνδεθείτε στο %s</item>
+        <item>Επιβεβαιώστε τον αριθμό με %s</item>
+        <item>Εγγραφή με %s</item>
+        <item>Ξεκινήστε με %s</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>Κλήση</item>
+        <item>Εμφάνιση προφίλ</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>Είναι σημαντικό</item>
+        <item>Λυπάμαι</item>
+        <item>Πού είσαι;</item>
+        <item>Έχω μία ερώτηση</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>ένας</item>
+        <item>δύο</item>
+        <item>τρεις</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>Γεια σας &amp;#128075 ;, Είναι επείγον 🚨</item>
+        <item>Γεια σας 👋 Η παραγγελία σας είναι έτοιμη!</item>
+        <item>Είσαι ελεύθερος/η τώρα; Είμαι κάτω!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Aθόρυβο</item>
+        <item>Μόνο δόνηση</item>
+        <item>Ήχος μόνο</item>
+        <item>Ήχος και δόνηση</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>Χρησιμοποιήστε Flash όταν θέλετε εξασφαλισμένη απάντηση μέσα σε ένα λεπτό</item>
+        <item>Χρησιμοποιήστε Flash για σημαντικά πράγματα που πρέπει να πείτε γρήγορα</item>
+        <item>To ξέρατε; Μπορείτε να μοιραστείτε γρήγορα την τοποθεσία σας με ένα απλό πάτημα</item>
+        <item>Συμβουλή: Στείλτε Emoji ή πληκτρολογήστε για να εκφραστείτε</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>Ταξινόμηση ανά όνομα</item>
+        <item>Ταξινόμηση ανά επώνυμο</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>Αποθηκεύτηκε</item>
+        <item>Αναγνωρίστηκε</item>
+    </string-array>
+</resources>

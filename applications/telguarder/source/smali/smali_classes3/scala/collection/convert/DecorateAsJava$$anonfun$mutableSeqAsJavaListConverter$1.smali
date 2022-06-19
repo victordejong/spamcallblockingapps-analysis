@@ -1,0 +1,82 @@
+.class public final Lscala/collection/convert/DecorateAsJava$$anonfun$mutableSeqAsJavaListConverter$1;
+.super Lscala/runtime/AbstractFunction0;
+.source "DecorateAsJava.scala"
+
+# interfaces
+.implements Lscala/Serializable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lscala/collection/convert/DecorateAsJava;->mutableSeqAsJavaListConverter(Lscala/collection/mutable/Seq;)Lscala/collection/convert/Decorators$AsJava;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x11
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lscala/runtime/AbstractFunction0<",
+        "Ljava/util/List<",
+        "TA;>;>;",
+        "Lscala/Serializable;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final serialVersionUID:J
+
+
+# instance fields
+.field private final b$2:Lscala/collection/mutable/Seq;
+
+
+# direct methods
+.method public constructor <init>(Lscala/collection/convert/DecorateAsJava;Lscala/collection/mutable/Seq;)V
+    .locals 0
+
+    .line 165
+    iput-object p2, p0, Lscala/collection/convert/DecorateAsJava$$anonfun$mutableSeqAsJavaListConverter$1;->b$2:Lscala/collection/mutable/Seq;
+
+    invoke-direct {p0}, Lscala/runtime/AbstractFunction0;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic apply()Ljava/lang/Object;
+    .locals 1
+
+    .line 165
+    invoke-virtual {p0}, Lscala/collection/convert/DecorateAsJava$$anonfun$mutableSeqAsJavaListConverter$1;->apply()Ljava/util/List;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final apply()Ljava/util/List;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "TA;>;"
+        }
+    .end annotation
+
+    .line 165
+    sget-object v0, Lscala/collection/convert/WrapAsJava$;->MODULE$:Lscala/collection/convert/WrapAsJava$;
+
+    iget-object v1, p0, Lscala/collection/convert/DecorateAsJava$$anonfun$mutableSeqAsJavaListConverter$1;->b$2:Lscala/collection/mutable/Seq;
+
+    invoke-virtual {v0, v1}, Lscala/collection/convert/WrapAsJava$;->mutableSeqAsJavaList(Lscala/collection/mutable/Seq;)Ljava/util/List;
+
+    move-result-object v0
+
+    return-object v0
+.end method

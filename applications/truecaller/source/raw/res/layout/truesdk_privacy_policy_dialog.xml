@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/textDisclaimerContainer" android:background="@color/sdk_disclaimer_bg" android:paddingTop="@dimen/com_truecaller_truebutton_margin" android:paddingBottom="@dimen/com_truecaller_truebutton_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/buttonDismiss" android:layout_width="@dimen/sdk_close_button_size" android:layout_height="@dimen/sdk_close_button_size" android:layout_marginRight="5.0dip" android:src="@drawable/ic_sdk_close" android:layout_alignParentRight="true" android:layout_marginEnd="5.0dip" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="@dimen/sdk_privacy_text_size" android:textColor="@color/white" android:gravity="center" android:id="@id/textDisclaimer" android:paddingTop="@dimen/com_truecaller_truebutton_padding" android:paddingBottom="@dimen/com_truecaller_truebutton_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/buttonDismiss" android:layout_toStartOf="@id/buttonDismiss" />
+</RelativeLayout>

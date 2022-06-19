@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_array">
+        <item>Prywatny</item>
+        <item>Kolekcjonerzy/Banki</item>
+        <item>Reklama/Spam</item>
+        <item>Ciche połączenia</item>
+        <item>Oszustwa</item>
+        <item>Usługi finansowe</item>
+        <item>Inne..</item>
+    </string-array>
+    <string-array name="category_feedback_array">
+        <item>Bez kategorii</item>
+        <item>Kolekcjonerzy/Banki</item>
+        <item>Reklama/Spam</item>
+        <item>Ciche połączenia</item>
+        <item>Oszustwa</item>
+        <item>Usługi finansowe</item>
+        <item>Inne..</item>
+    </string-array>
+    <string-array name="posneg_array">
+        <item>Negatywna</item>
+        <item>Neutralna</item>
+        <item>Pozytywna</item>
+    </string-array>
+    <string-array name="settings_block_methods_array">
+        <item>Zakończ połączenie (odrzuć)</item>
+        <item>Cichy dzwonek</item>
+    </string-array>
+</resources>

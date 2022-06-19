@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/ripple_or_holo_masked_rect" android:paddingLeft="@dimen/slide_menu_list_padding_horizontal_with_strip" android:paddingRight="@dimen/slide_menu_list_padding_horizontal_with_strip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.callapp.contacts.widget.ColorStripContainer android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:colors_array="@array/strip_widget_colors" app:radius="4.0dip" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:background="@drawable/ripple_or_holo_masked_rect" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:id="@id/row_divider" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentTop="true" />
+                <ImageView android:id="@id/row_icon" android:paddingRight="@dimen/slide_menu_list_padding_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:gravity="center_vertical" android:id="@id/row_title" android:layout_width="wrap_content" android:layout_height="@dimen/slide_menu_item_height" android:layout_toRightOf="@id/row_icon" android:layout_alignWithParentIfMissing="true" style="@style/Body2.Name_text" />
+                <TextView android:gravity="center" android:id="@id/row_notification" android:background="@drawable/shape_rounded_rect" android:paddingLeft="@dimen/slide_menu_item_notification_left_right_padding" android:paddingRight="@dimen/slide_menu_item_notification_left_right_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/slide_menu_item_notification_height" android:includeFontPadding="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/Caption.Contact_subtitle" />
+            </RelativeLayout>
+        </FrameLayout>
+    </com.callapp.contacts.widget.ColorStripContainer>
+</FrameLayout>

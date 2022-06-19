@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?bg_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/record_long_record_click" android:layout_width="fill_parent" android:layout_height="48.0dip" android:foreground="?card_foreground">
+        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/record_long_record" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/Notes" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/record_long_share_clcik" android:layout_width="fill_parent" android:layout_height="48.0dip" android:foreground="?card_foreground">
+        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/record_long_share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/share" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/record_long_delete_click" android:layout_width="fill_parent" android:layout_height="48.0dip" android:foreground="?card_foreground">
+        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/record_long_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/block_delete" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+    </FrameLayout>
+</LinearLayout>

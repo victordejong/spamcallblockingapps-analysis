@@ -1,0 +1,22 @@
+{
+  "version": "1",
+  "countryConfigurations": [{
+    "countryCode": "NG",
+    "configuration": [{
+      "updateClass": "Security Alert",
+      "allowedSenders": ["MTNSecurity", "CNLSECURITY"]
+    }]
+  }, {
+    "countryCode": "KE",
+    "configuration": [{
+      "updateClass": "Vaccine",
+      "allowedSenders": ["TSCKenya", "CBK", "MOHCHANJO"]
+    }]
+  }, {
+    "countryCode": "US",
+    "configuration": [{
+      "updateClass": "Vaccine",
+      "allowedSenders": ["60989", "287277", "99501", "89361", "72932"]
+    }]
+  }]
+}

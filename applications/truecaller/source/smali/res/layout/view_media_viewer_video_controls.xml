@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/media_viewer_toolbar_background" android:paddingTop="14.0dip" android:paddingBottom="14.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/doubleSpace" android:paddingEnd="@dimen/doubleSpace"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/tcx_textPrimary_dark" android:id="@id/exo_position" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginEnd="@dimen/extraSpace" style="@style/StyleX.Text.Body.B2" />
+    <com.google.android.exoplayer2.ui.DefaultTimeBar android:id="@id/exo_progress" android:layout_width="0.0dip" android:layout_height="26.0dip" android:layout_weight="1.0" app:buffered_color="@color/media_viewer_progress_unplayed" app:unplayed_color="@color/media_viewer_progress_unplayed" />
+    <TextView android:textColor="@color/tcx_textPrimary_dark" android:id="@id/exo_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="@dimen/extraSpace" style="@style/StyleX.Text.Body.B2" />
+</LinearLayout>

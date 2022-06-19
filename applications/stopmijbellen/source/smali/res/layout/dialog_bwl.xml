@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView android:id="@id/nameEdit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/dialog_name" android:maxLines="1" android:maxLength="50" app:met_errorColor="@color/red_btn_bg_pressed_color" app:met_floatingLabel="highlight" app:met_floatingLabelText="Наименование" app:met_primaryColor="@color/colorPrimary" app:met_singleLineEllipsis="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.rengwuxian.materialedittext.MaterialEditText android:id="@id/maskEdit" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:maxLength="30" android:digits="+*0123456789" android:layout_weight="20.0" android:inputType="phone" app:met_errorColor="@color/red_btn_bg_pressed_color" app:met_floatingLabel="highlight" app:met_primaryColor="@color/colorPrimary" app:met_singleLineEllipsis="true" />
+        <ImageView android:id="@id/maskImageView" android:layout_width="36.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_mask" android:scaleType="fitCenter" android:contentDescription="maskImageView" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/mglab_category_frame" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/mglab_btn_bg_color" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/category" />
+            <Spinner android:entries="@array/category_array" android:layout_gravity="center_vertical" android:id="@id/category_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:spinnerMode="dropdown" />
+            <androidx.appcompat.widget.SwitchCompat android:enabled="false" android:textColor="@color/mglab_btn_bg_color" android:id="@id/social_switch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:checked="false" android:text="@string/dialog_bwl_social" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

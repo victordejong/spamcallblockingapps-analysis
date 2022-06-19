@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:bottomLeftRadius="@dimen/attachment_option_preview_radius" android:bottomRightRadius="@dimen/attachment_option_preview_radius" />
+            <solid android:color="@color/duration_indicator_background_all_themes" />
+        </shape>
+    </item>
+</layer-list>

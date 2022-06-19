@@ -1,0 +1,44 @@
+.class final synthetic Lcom/google/android/gms/internal/ads/wu;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/android/gms/internal/ads/wo$b;
+
+
+# static fields
+.field static final a:Lcom/google/android/gms/internal/ads/wo$b;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lcom/google/android/gms/internal/ads/wu;
+
+    invoke-direct {v0}, Lcom/google/android/gms/internal/ads/wu;-><init>()V
+
+    sput-object v0, Lcom/google/android/gms/internal/ads/wu;->a:Lcom/google/android/gms/internal/ads/wo$b;
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lcom/google/android/gms/internal/ads/afl;)Ljava/lang/Object;
+    .locals 0
+
+    invoke-interface {p1}, Lcom/google/android/gms/internal/ads/afl;->a()Ljava/lang/String;
+
+    move-result-object p1
+
+    return-object p1
+.end method

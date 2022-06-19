@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>رمز یکبار مصرف</item>
+        <item>تراکنش</item>
+        <item>سایر</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>ژانویه</item>
+        <item>فوریه</item>
+        <item>مارس</item>
+        <item>آوریل</item>
+        <item>مه</item>
+        <item>ژوئن</item>
+        <item>ژوئیه</item>
+        <item>آگوست</item>
+        <item>سپتامبر</item>
+        <item>اکتبر</item>
+        <item>نوامبر</item>
+        <item>دسامبر</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>ورود به %s</item>
+        <item>ثبت‌نام از طریق %s</item>
+        <item>ورود به %s</item>
+        <item>تأیید شماره از طریق %s</item>
+        <item>ثبت‌نام از طریق %s</item>
+        <item>شروع از طریق %s</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>تماس</item>
+        <item>مشاهده پروفایل</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>مهم است</item>
+        <item>متأسفم</item>
+        <item>کجایی؟</item>
+        <item>سؤال دارم</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>یک</item>
+        <item>دو</item>
+        <item>سه</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>سلام 👋, کار ضروری دارم 🚨</item>
+        <item>سلام 👋 سفارشتان آماده است!</item>
+        <item>الان وقتتان آزاد است؟ پایین پله‌ها هستم!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>حالت سکوت</item>
+        <item>فقط لرزش</item>
+        <item>فقط صدا</item>
+        <item>صدا و لرزش</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>هنگامی که به پاسخ قطعی ظرف یک دقیقه نیاز دارید از Flash استفاده کنید</item>
+        <item>از Flash برای چیزهای مهمی که باید سریعاً بگویید استفاده کنید</item>
+        <item>آیا می‌دانید: شما می‌توانید مکان خود را تنها با یک ضربه به اشتراک بگذارید</item>
+        <item>نکته: برای بیان منظور خود، شکلک ارسال کرده یا متنی تایپ کنید</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>سیم‌کارت 1</item>
+        <item>سیم‌کارت 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>سیم کارت 1</item>
+        <item>سیم کارت 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>مرتب‌سازی بر اساس نام</item>
+        <item>مرتب‌سازی بر اساس نام خانوادگی</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>ذخیره‌شده</item>
+        <item>شناسایی‌شده</item>
+    </string-array>
+</resources>

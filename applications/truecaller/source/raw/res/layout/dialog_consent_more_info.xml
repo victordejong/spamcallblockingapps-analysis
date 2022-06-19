@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/doubleSpace" android:text="@string/ConsentRefreshMoreDialogText" style="@style/Wizard.TextViewLegalSubtitle" />
+    <Button android:gravity="end" android:id="@id/deactivateButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ConsentRefreshDialogDeactivate" style="@style/Wizard.Button.Borderless" />
+    <Button android:gravity="end" android:id="@id/downloadDataButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/SettingsDownloadMyData" style="@style/Wizard.Button.Borderless" />
+    <Button android:textColor="@color/wizard_button" android:gravity="end" android:id="@id/cancelButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cancel" style="@style/Wizard.Button.Borderless" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/bottomContainer" android:layout_width="fill_parent" android:layout_height="@dimen/overlay_footer_during_call_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/spamViewstub" android:layout="@layout/include_spam_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/nonSpammerContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/phoneInfo" android:paddingLeft="@dimen/overlay_footer_during_call_padding" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/Caption.Number_text" />
+        <ImageView android:id="@id/callIcon" android:paddingRight="@dimen/overlay_footer_during_call_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:id="@id/timeText" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/callIcon" android:layout_centerVertical="true" style="@style/Caption.Number_text" />
+    </RelativeLayout>
+</LinearLayout>

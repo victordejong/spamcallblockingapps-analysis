@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:tag="layout/about_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/appToolbar" style="@style/appBarToolbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" style="@style/llActivity">
+        <LinearLayout style="@style/llMainContent">
+            <LinearLayout style="@style/llSection">
+                <LinearLayout style="@style/llParentWidthHorizontalCenter">
+                    <ImageView android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/logo_big" />
+                    <LinearLayout style="@style/llParentWidthCenter">
+                        <TextView android:text="@string/activity_about_tv_main_title" android:height="40.0dip" style="@style/textViewStyleAutosizedSingleLineCentered" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout style="@style/llSection">
+                <View style="@style/dividerTop" />
+                <androidx.appcompat.widget.AppCompatButton android:id="@id/butHelpCommunity" android:text="@string/activity_about_but_promo" style="@style/buttonSettings" />
+                <View style="@style/dividerBottom" />
+            </LinearLayout>
+            <LinearLayout style="@style/llSection">
+                <View style="@style/dividerTop" />
+                <androidx.appcompat.widget.AppCompatButton android:id="@id/butAboutApp" android:visibility="gone" android:text="@string/activity_about_but_about_application" style="@style/buttonSettings" />
+                <androidx.appcompat.widget.AppCompatButton android:id="@id/butPrivacy" android:text="@string/activity_about_but_privacy" style="@style/buttonSettings" />
+                <androidx.appcompat.widget.AppCompatButton android:id="@id/butFollowFacebook" android:text="@string/activity_about_but_follow_facebook" style="@style/buttonSettings" />
+                <androidx.appcompat.widget.AppCompatButton android:id="@id/butTermsOfUse" android:text="@string/activity_about_but_terms" style="@style/buttonSettings" />
+                <View style="@style/dividerBottom" />
+            </LinearLayout>
+            <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                <androidx.appcompat.widget.AppCompatTextView android:text="@string/mister_group_s_r_o" style="@style/textViewStyle" />
+                <ImageButton android:id="@id/butAboutProjectMoreInfo" style="@style/buttonHelp" />
+                <LinearLayout style="@style/llMaxWidth" />
+                <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvAppVersion" android:text="Small Text" style="@style/textViewStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

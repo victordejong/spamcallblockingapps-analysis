@@ -1,0 +1,50 @@
+.class public Lzendesk/support/IdUtil;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method private static generateUniqueId()Ljava/util/UUID;
+    .locals 1
+
+    .line 1
+    invoke-static {}, Ljava/util/UUID;->randomUUID()Ljava/util/UUID;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public static newLongId()J
+    .locals 4
+
+    .line 1
+    invoke-static {}, Lzendesk/support/IdUtil;->generateUniqueId()Ljava/util/UUID;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/util/UUID;->getMostSignificantBits()J
+
+    move-result-wide v0
+
+    const-wide v2, 0x7fffffffffffffffL
+
+    and-long/2addr v0, v2
+
+    return-wide v0
+.end method
+
+.method public static newStringId()Ljava/lang/String;
+    .locals 1
+
+    .line 1
+    invoke-static {}, Lzendesk/support/IdUtil;->generateUniqueId()Ljava/util/UUID;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/util/UUID;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

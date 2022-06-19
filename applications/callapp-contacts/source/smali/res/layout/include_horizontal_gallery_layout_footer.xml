@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/hg_footer_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/include_divider" />
+    <LinearLayout android:background="@drawable/ripple_or_holo_masked_rect" android:paddingLeft="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:layout_gravity="center_vertical" android:id="@id/hg_footer_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Button.Buttons" />
+        <ImageView android:id="@id/hg_footer_icon" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_go_to" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_alignParentEnd="true" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:id="@id/tv_suggest_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginBottom="20.0dip" android:text="@string/suggest_title" android:layout_marginStart="24.0dip" />
+        <ImageView android:id="@id/lb_close" android:background="?card_foreground" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/ic_tag_close" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/close" android:layout_marginEnd="6.0dip" android:layout_alignParentEnd="true" app:tint="?icon_color_gray" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/fl_name1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="48.0dip">
+            <RadioButton android:id="@id/radio_name1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:checked="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="24.0dip" android:layout_alignParentEnd="true" android:buttonTint="?color_action" />
+            <TextView android:textSize="16.0sp" android:textColor="?color_666666" android:id="@id/tv_name1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:text="" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="24.0dip" android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/fl_name2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="48.0dip">
+            <RadioButton android:id="@id/radio_name2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:checked="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="24.0dip" android:layout_alignParentEnd="true" android:buttonTint="?color_action" />
+            <TextView android:textSize="16.0sp" android:textColor="?color_666666" android:id="@id/tv_name2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:text="" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="24.0dip" android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/fl_name3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?card_foreground">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="48.0dip">
+            <RadioButton android:id="@id/radio_name3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24.0dip" android:checked="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="24.0dip" android:layout_alignParentEnd="true" android:buttonTint="?color_action" />
+            <TextView android:textSize="16.0sp" android:textColor="?color_666666" android:id="@id/tv_name3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:text="" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="24.0dip" android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <RelativeLayout android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:paddingStart="24.0dip" android:paddingEnd="24.0dip">
+        <com.allinone.callerid.customview.DeletableEditText android:textSize="14.0sp" android:textColor="?color_666666" android:textColorHint="?color_999999" android:id="@id/edit_name" android:background="@null" android:paddingTop="8.0dip" android:paddingRight="8.0dip" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="48.0dip" android:hint="@string/suggest_name_title" android:singleLine="true" android:drawableRight="@drawable/ic_tag_close" android:drawablePadding="6.0dip" android:textCursorDrawable="@null" android:drawableEnd="@drawable/ic_tag_close" android:paddingEnd="8.0dip" />
+        <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:paddingLeft="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:paddingStart="24.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RadioButton android:textColor="?color_666666" android:gravity="center" android:id="@id/radio_person" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/person_name" android:buttonTint="?color_action" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/ll" android:layout_marginStart="10.0dip" android:layout_toEndOf="@id/ll">
+            <RadioButton android:textColor="?color_666666" android:gravity="center" android:id="@id/radio_business" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="@string/business_name" android:buttonTint="?color_action" />
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/btn_submit" android:background="?bg_suggest_name" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="16.0dip" android:foreground="?card_foreground_radius_24" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="?color_button" android:layout_gravity="center" android:id="@id/tv_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/suggest_submit" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>OTP</item>
+        <item>Transactie</item>
+        <item>Overigen</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>jan</item>
+        <item>feb</item>
+        <item>mrt</item>
+        <item>apr</item>
+        <item>mei</item>
+        <item>jun</item>
+        <item>jul</item>
+        <item>aug</item>
+        <item>sep</item>
+        <item>okt</item>
+        <item>nov</item>
+        <item>dec</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Inloggen op %s</item>
+        <item>Registreren met %s</item>
+        <item>Aanmelden bij %s</item>
+        <item>Nummer verifiëren met %s</item>
+        <item>Registreren met %s</item>
+        <item>Aan de slag met %s</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>Bellen</item>
+        <item>Profiel bekijken</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>Dit is belangrijk</item>
+        <item>Sorry</item>
+        <item>Waar ben je?</item>
+        <item>Ik heb een vraag</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>één</item>
+        <item>twee</item>
+        <item>drie</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>Hallo 👋, Het is dringend 🚨</item>
+        <item>Hallo 👋 Je bestelling is klaar!</item>
+        <item>Heb je tijd? Ik sta beneden!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Stil</item>
+        <item>Alleen trillen</item>
+        <item>Alleen geluid</item>
+        <item>Geluid en trillen</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>Gebruik Flash als je binnen een minuut reactie wilt</item>
+        <item>Gebruik Flash voor belangrijke dingen die je snel moet zeggen</item>
+        <item>Wist je dat: je je locatie snel met één klik kunt delen</item>
+        <item>Tip: stuur emoji of typ een tekst om je te uiten</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>Op voornaam sorteren</item>
+        <item>Op achternaam sorteren</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>Opgeslagen</item>
+        <item>Geïdentificeerd</item>
+    </string-array>
+</resources>

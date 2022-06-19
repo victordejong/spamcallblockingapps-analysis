@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/actionContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/actionTextView" app:layout_constraintEnd_toEndOf="@id/actionTextView" app:layout_constraintStart_toStartOf="@id/actionTextView" app:layout_constraintTop_toTopOf="parent">
+        <ViewStub android:id="@id/actionToggleButtonViewStub" android:layout="@layout/view_ongoing_toggle_button" android:inflatedId="@id/actionToggleButton" android:layout_width="@dimen/incallui_ongoing_action_button_size" android:layout_height="@dimen/incallui_ongoing_action_button_size" />
+        <ViewStub android:id="@id/actionImageButtonViewStub" android:layout="@layout/view_ongoing_image_action_button" android:inflatedId="@id/actionImageButton" android:layout_width="@dimen/incallui_ongoing_action_button_size" android:layout_height="@dimen/incallui_ongoing_action_button_size" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/incallui_ongoing_action_font_size" android:gravity="center_horizontal" android:id="@id/actionTextView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/incallui_action_button_text_margin_top" android:singleLine="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/actionContainer" style="@style/InCallUITextSecondaryWithState" />
+</merge>

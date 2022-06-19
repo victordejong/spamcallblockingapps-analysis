@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/resend" android:orderInCategory="99" android:title="@string/menu_item_resend" />
+    <item android:id="@id/remove" android:orderInCategory="100" android:title="@string/menu_item_delete" />
+</menu>

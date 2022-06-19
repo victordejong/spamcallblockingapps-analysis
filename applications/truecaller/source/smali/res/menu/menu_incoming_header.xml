@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@id/header_action_group">
+        <item android:icon="@drawable/flash_ic_call_24dp" android:id="@id/action_phone_call" android:title="@string/call_back" app:showAsAction="ifRoom" />
+        <item android:id="@id/action_block_contact" android:title="@string/menu_block_flash" app:showAsAction="never" />
+        <item android:id="@id/action_view_profile" android:title="@string/menu_view_profile" app:showAsAction="never" />
+        <item android:id="@id/action_download" android:visible="false" android:title="@string/menu_download_image" app:showAsAction="never" />
+    </group>
+</menu>

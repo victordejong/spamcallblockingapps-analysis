@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/include_edit_text_and_delete_buttons_view" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/dialpadSearchActionsContainer" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/dialerVoiceSearch" android:background="@drawable/ripple_or_holo" android:visibility="visible" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/ic_voice" android:scaleType="centerInside" />
+        <ImageView android:state_enabled="false" android:id="@id/dialpadSearchActionsButton" android:background="@drawable/ripple_or_holo" android:visibility="visible" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@drawable/ic_top_bar_overflow" android:scaleType="centerInside" />
+    </FrameLayout>
+    <com.callapp.contacts.widget.NoKeyboardEditText android:id="@id/digitsField" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_weight="500.0" ex:resizing_text_hint_max_size="@dimen/dialpad_search_hint_max_text_size" ex:resizing_text_hint_min_size="@dimen/dialpad_search_hint_min_text_size" ex:resizing_text_min_size="@dimen/dialpad_digits_text_min_size" style="@style/DialtactsDigitsText" xmlns:ex="http://schemas.android.com/apk/res-auto" />
+    <ImageView android:state_enabled="false" android:id="@id/deleteButton" android:background="@drawable/ripple_or_holo" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_delete" android:scaleType="centerInside" android:layout_weight="1.0" />
+</LinearLayout>

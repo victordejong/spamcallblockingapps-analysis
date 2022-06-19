@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="end" android:id="@id/popover_tv" android:background="@drawable/bg_rect" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:text="@string/tv_yindao" android:layout_marginEnd="18.0dip" />
+    <ImageView android:layout_gravity="end" android:id="@id/popover_iv" android:layout_width="12.299988dip" android:layout_height="5.299988dip" android:layout_marginRight="34.0dip" android:src="@drawable/ic_sanjiao_blue" android:layout_centerHorizontal="true" android:rotation="180.0" android:layout_marginEnd="34.0dip" />
+</LinearLayout>

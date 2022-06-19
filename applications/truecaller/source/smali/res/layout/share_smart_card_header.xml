@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/dp16" android:layout_width="fill_parent" android:layout_height="@dimen/dp40" android:paddingStart="@dimen/dp16" android:paddingEnd="@dimen/dp16"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.common.ui.avatar.AvatarXView android:id="@id/iconIv" android:layout_width="@dimen/dp20" android:layout_height="@dimen/dp20" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:ellipsize="end" android:id="@id/senderNameTv" android:layout_width="@dimen/dp0" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_marginStart="@dimen/dp8" app:layout_constraintBottom_toBottomOf="@id/iconIv" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/iconIv" app:layout_constraintTop_toTopOf="@id/iconIv" app:layout_constraintVertical_chainStyle="packed" style="@style/StyleX.Text.Subtitle.S2.Normal" />
+</androidx.constraintlayout.widget.ConstraintLayout>

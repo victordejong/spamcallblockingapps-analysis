@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <carbon.widget.TextView android:textAppearance="?carbon_textAppearanceTitle" android:gravity="center_vertical" android:id="@id/carbon_bottomSheetTitle" android:paddingLeft="@dimen/carbon_windowPadding" android:paddingRight="@dimen/carbon_windowPadding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/carbon_toolbarHeight" android:maxLines="1" />
+    <carbon.widget.RecyclerView android:id="@id/carbon_bottomSheetRecycler" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

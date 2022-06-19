@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:padding="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/delete_history_main_text" android:text="@string/settings_delete_call_history_dialog_message" android:lineSpacingExtra="5.0dip" style="@style/DialogActionText.Content.Black" />
-    <Button android:id="@id/cancel_button" android:layout_below="@id/delete_history_main_text" android:layout_toStartOf="@id/delete_history_button" style="@style/DialogActionButton.Cancel" />
-    <Button android:id="@id/delete_history_button" android:text="@string/delete" android:layout_below="@id/delete_history_main_text" android:contentDescription="@string/delete" style="@style/DialogActionButton.Accept" />
-</RelativeLayout>

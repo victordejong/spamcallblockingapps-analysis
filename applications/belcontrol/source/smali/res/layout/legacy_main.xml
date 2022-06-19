@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/top_nav" />
+    <GridView android:layout_gravity="center" android:id="@id/legacy_menu" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="32.0dip" android:horizontalSpacing="10.0dip" android:verticalSpacing="20.0dip" android:stretchMode="columnWidth" android:columnWidth="84.0dip" android:numColumns="auto_fit" android:layout_above="@id/upgrade_cta" android:layout_below="@id/topNav" />
+    <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/upgrade_cta" android:background="@android:color/darker_gray" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-32.0dip" android:text="@string/legacy_premium_users_cta" android:layout_alignParentBottom="true" />
+</RelativeLayout>

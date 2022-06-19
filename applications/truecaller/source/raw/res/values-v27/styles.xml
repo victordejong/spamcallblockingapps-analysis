@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeX" parent="@style/ThemeXBase">
+        <item name="android:statusBarColor">?tcx_statusBarColor</item>
+        <item name="android:navigationBarColor">?tcx_navigationBarColor</item>
+    </style>
+</resources>

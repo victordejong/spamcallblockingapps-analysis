@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatCheckedTextView android:gravity="center_vertical" android:id="@id/checkbox" android:paddingTop="@dimen/sdk_common_margin_l" android:paddingBottom="@dimen/sdk_common_margin_l" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:checkMark="?android:listChoiceIndicatorMultiple" android:layout_marginStart="@dimen/sdk_common_margin_xxl" android:layout_marginEnd="@dimen/sdk_common_margin_xxl" style="@style/StyleOAuthPrimary.Subtitle" />
+    <View android:id="@id/divider" android:layout_width="fill_parent" android:layout_marginStart="@dimen/sdk_common_margin_xxl" style="@style/StyleOAuthDivider" />
+</LinearLayout>

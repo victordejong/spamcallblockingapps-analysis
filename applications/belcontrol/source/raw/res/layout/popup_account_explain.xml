@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" app:cardCornerRadius="10.0dip" app:cardElevation="10.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="20.0sp" android:textColor="@color/colorDefaultBlack" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/why_do_i_need_an_account" android:fontFamily="@font/google_sans_medium" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/colorDefaultBlack" android:paddingTop="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/why_do_i_need_account" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/colorDefaultBlack" android:paddingTop="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/why_do_i_need_account_details_1" android:drawablePadding="6.0dip" android:drawableStart="@drawable/ic_checklist" android:textAlignment="textStart" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/colorDefaultBlack" android:paddingTop="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/why_do_i_need_account_details_2" android:drawablePadding="6.0dip" android:drawableStart="@drawable/ic_checklist" android:textAlignment="textStart" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/colorDefaultBlack" android:paddingTop="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/why_do_i_need_account_details_3" android:drawablePadding="6.0dip" android:drawableStart="@drawable/ic_checklist" android:textAlignment="textStart" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" />
+            <Button android:textColor="@color/colorPrimary" android:layout_gravity="end" android:id="@id/got_it_btn" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="24.0dip" android:text="@string/ok_got_it" style="@style/ButtonTheme" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

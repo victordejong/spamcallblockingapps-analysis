@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <ImageView android:id="@id/header_left_about" android:background="?card_foreground" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ic_back" android:layout_centerVertical="true" android:contentDescription="@string/close" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" app:tint="?icon_color_white" />
+        <FrameLayout android:id="@id/rl_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/ib_submit" android:layout_toRightOf="@id/header_left_about" android:layout_toStartOf="@id/ib_submit" android:layout_toEndOf="@id/header_left_about">
+            <TextView android:layout_gravity="center_vertical" android:id="@id/tv_title_about" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/report" android:layout_marginStart="8.0dip" style="@style/headerbar_text_style" />
+        </FrameLayout>
+        <ImageView android:id="@id/ib_submit" android:background="?card_foreground" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ic_send_white_24dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/send_your_comment" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" android:layout_alignParentEnd="true" app:tint="?icon_color_white" />
+    </RelativeLayout>
+    <FrameLayout android:background="?color_ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/rl_comment_title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:id="@id/tv_comment_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="14.0dip" android:text="@string/comment_title" android:lineSpacingExtra="6.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            </FrameLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:id="@id/fl_spam" android:layout_width="0.0dip" android:layout_height="wrap_content" android:foreground="?card_foreground" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/fl_scam" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                    <FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip">
+                        <ImageView android:layout_gravity="center_horizontal" android:id="@id/im_spam" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/comment_spam_gray_40dp" />
+                        <TextView android:textSize="12.0sp" android:textColor="?color_666666" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_spam" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="46.0dip" android:text="@string/spam" />
+                    </FrameLayout>
+                </FrameLayout>
+                <FrameLayout android:id="@id/fl_scam" android:layout_width="0.0dip" android:layout_height="wrap_content" android:foreground="?card_foreground" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/fl_telemarket" app:layout_constraintStart_toEndOf="@id/fl_spam" app:layout_constraintTop_toTopOf="parent">
+                    <FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip">
+                        <ImageView android:layout_gravity="center_horizontal" android:id="@id/im_scam" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/comment_scam_gray_40dp" />
+                        <TextView android:textSize="12.0sp" android:textColor="?color_666666" android:layout_gravity="center_horizontal" android:id="@id/tv_scam" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="46.0dip" android:text="@string/scam" />
+                    </FrameLayout>
+                </FrameLayout>
+                <FrameLayout android:id="@id/fl_telemarket" android:layout_width="0.0dip" android:layout_height="wrap_content" android:foreground="?card_foreground" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/fl_normal" app:layout_constraintStart_toEndOf="@id/fl_scam" app:layout_constraintTop_toTopOf="parent">
+                    <FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip">
+                        <ImageView android:layout_gravity="center_horizontal" android:id="@id/im_telemarket" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/comment_telemarketing_gray_40dp" />
+                        <TextView android:textSize="12.0sp" android:textColor="?color_666666" android:layout_gravity="center_horizontal" android:id="@id/tv_telemarket" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="46.0dip" android:text="@string/telemarketing" />
+                    </FrameLayout>
+                </FrameLayout>
+                <FrameLayout android:id="@id/fl_normal" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:foreground="?card_foreground" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/fl_telemarket" app:layout_constraintTop_toTopOf="parent">
+                    <FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip">
+                        <ImageView android:layout_gravity="center_horizontal" android:id="@id/im_normal" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/comment_normal_gray_40dp" />
+                        <TextView android:textSize="12.0sp" android:textColor="?color_666666" android:layout_gravity="center_horizontal" android:id="@id/tv_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="46.0dip" android:text="@string/comment_normal" />
+                    </FrameLayout>
+                </FrameLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <View android:id="@id/view_mid" android:layout_width="fill_parent" android:layout_height="24.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="?color_999999" android:layout_gravity="end" android:id="@id/tv_max" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_marginBottom="2.0dip" android:text="0/500" android:layout_marginEnd="16.0dip" />
+            <FrameLayout android:id="@id/rl_edit_bg" android:background="?bg_comment_edit" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+                <EditText android:textSize="14.0sp" android:textColor="?color_333333" android:textColorHint="?color_weak" android:ellipsize="end" android:gravity="start" android:id="@id/et_comment" android:background="?color_f2f2f2" android:paddingLeft="8.0dip" android:paddingTop="5.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" android:maxHeight="200.0dip" android:minHeight="92.0dip" android:text="" android:hint="@string/comment_hint" android:maxLength="500" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/rl_comment_tip_error" android:background="?bg_comment_edit_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="24.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="?color_ffffff" android:id="@id/tv_comment_tip_error" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="20.0dip" android:text="@string/comment_text_flew" android:lineSpacingExtra="4.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+            </FrameLayout>
+        </LinearLayout>
+        <View android:background="@drawable/tab" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    </FrameLayout>
+</LinearLayout>

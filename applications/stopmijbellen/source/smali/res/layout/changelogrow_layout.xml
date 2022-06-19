@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/chg_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall">
+        <TextView android:textAppearance="@android:style/TextAppearance.Small" android:gravity="center_vertical" android:id="@id/chg_textbullet" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_marginRight="2.0dip" android:text="@string/changelog_row_bulletpoint" />
+        <TextView android:textAppearance="@android:style/TextAppearance.Small" android:gravity="center_vertical" android:id="@id/chg_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="5.0dip" android:minHeight="?android:listPreferredItemHeightSmall" />
+    </LinearLayout>
+    <View android:background="@color/chglib_background_default_divider_color" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="1.0dip" />
+</LinearLayout>

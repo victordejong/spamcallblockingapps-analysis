@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_checked="true" android:drawable="@drawable/ic_tcx_voip_phone_checked_outline_24dp" />
+    <item android:state_enabled="false" android:drawable="@drawable/ic_tcx_voip_phone_disabled_outline_24dp" />
+    <item android:state_checked="false" android:drawable="@drawable/ic_tcx_voip_phone_checked_outline_24dp" />
+</selector>

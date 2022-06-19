@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="2.0dip" />
+    <padding android:left="0.75dip" android:top="0.75dip" android:right="0.75dip" android:bottom="0.75dip" />
+    <stroke android:width="0.75dip" android:color="@color/AdBorder" />
+</shape>

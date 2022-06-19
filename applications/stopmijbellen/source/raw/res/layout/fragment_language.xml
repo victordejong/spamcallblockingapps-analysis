@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbarThumbVertical="@drawable/scrollbar" android:scrollbarStyle="outsideInset" android:id="@id/settingsScrollView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/enRelativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:gravity="center" android:id="@id/enCheckBox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                <ImageView android:id="@id/enImageView" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/flag_gb" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginStart="5.0dip" android:layout_toStartOf="@id/enCheckBox" android:layout_toEndOf="@id/enImageView">
+                    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/language_en" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/caRelativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:gravity="center" android:id="@id/caCheckBox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                <ImageView android:id="@id/caImageView" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/flag_es" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_toStartOf="@id/caCheckBox" android:layout_toEndOf="@id/caImageView">
+                    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_ca_rES" />
+                    <TextView android:textColor="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_ca_rES_translator" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/daRelativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:gravity="center" android:id="@id/daCheckBox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                <ImageView android:id="@id/daImageView" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/flag_da" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_toStartOf="@id/daCheckBox" android:layout_toEndOf="@id/daImageView">
+                    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_da" />
+                    <TextView android:textColor="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_da_translator" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/frRelativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:gravity="center" android:id="@id/frCheckBox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                <ImageView android:id="@id/frImageView" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/flag_fr" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_toStartOf="@id/frCheckBox" android:layout_toEndOf="@id/frImageView">
+                    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_fr" />
+                    <TextView android:textColor="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_fr_translator" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/deRelativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:gravity="center" android:id="@id/deCheckBox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                <ImageView android:id="@id/deImageView" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/flag_de" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_toStartOf="@id/deCheckBox" android:layout_toEndOf="@id/deImageView">
+                    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_de" />
+                    <TextView android:textColor="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_de_translator" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/elRelativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:gravity="center" android:id="@id/elCheckBox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                <ImageView android:id="@id/elImageView" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/flag_el" android:baselineAlignBottom="false" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_toStartOf="@id/elCheckBox" android:layout_toEndOf="@id/elImageView">
+                    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_el_rGR" />
+                    <TextView android:textColor="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_el_rGR_translator" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/itRelativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:gravity="center" android:id="@id/itCheckBox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                <ImageView android:id="@id/itImageView" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/flag_it" android:baselineAlignBottom="false" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_toStartOf="@id/itCheckBox" android:layout_toEndOf="@id/itImageView">
+                    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_it" />
+                    <TextView android:textColor="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_it_translator" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/nlRelativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:gravity="center" android:id="@id/nlCheckBox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                <ImageView android:id="@id/nlImageView" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/flag_nl" android:baselineAlignBottom="false" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_toStartOf="@id/nlCheckBox" android:layout_toEndOf="@id/nlImageView">
+                    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_nl_rNL" />
+                    <TextView android:textColor="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_nl_rNL_translator" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/plRelativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:gravity="center" android:id="@id/plCheckBox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                <ImageView android:id="@id/plImageView" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/flag_pl" android:baselineAlignBottom="false" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_toStartOf="@id/plCheckBox" android:layout_toEndOf="@id/plImageView">
+                    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_pl" />
+                    <TextView android:textColor="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_pl_translator" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/brRelativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:gravity="center" android:id="@id/brCheckBox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                <ImageView android:id="@id/brImageView" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/flag_br" android:baselineAlignBottom="false" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_toStartOf="@id/brCheckBox" android:layout_toEndOf="@id/brImageView">
+                    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_pt_rBR" />
+                    <TextView android:textColor="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_pt_rBR_translator" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/ruRelativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:gravity="center" android:id="@id/ruCheckBox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                <ImageView android:id="@id/ruImageView" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/flag_ru" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginStart="5.0dip" android:layout_toStartOf="@id/ruCheckBox" android:layout_toEndOf="@id/ruImageView">
+                    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/language_ru" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/skRelativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:gravity="center" android:id="@id/skCheckBox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                <ImageView android:id="@id/skImageView" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/flag_sk" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_toStartOf="@id/skCheckBox" android:layout_toEndOf="@id/skImageView">
+                    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_sk" />
+                    <TextView android:textColor="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_sk_translator" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/esRelativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:gravity="center" android:id="@id/esCheckBox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                <ImageView android:id="@id/esImageView" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/flag_es" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_toStartOf="@id/esCheckBox" android:layout_toEndOf="@id/esImageView">
+                    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_es" />
+                    <TextView android:textColor="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_es_translator" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/ukRelativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:gravity="center" android:id="@id/ukCheckBox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                <ImageView android:id="@id/ukImageView" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/flag_uk" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_toStartOf="@id/ukCheckBox" android:layout_toEndOf="@id/ukImageView">
+                    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_uk" />
+                    <TextView android:textColor="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_uk_translator" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/viRelativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:gravity="center" android:id="@id/viCheckBox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                <ImageView android:id="@id/viImageView" android:layout_width="46.0dip" android:layout_height="46.0dip" android:src="@drawable/flag_vi" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_toStartOf="@id/viCheckBox" android:layout_toEndOf="@id/viImageView">
+                    <TextView android:textSize="16.0sp" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_vi" />
+                    <TextView android:textColor="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/language_vi_translator" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <Button android:textSize="18.0sp" android:textColor="@color/colorWhite" android:id="@id/buttonTranslation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/translation" android:layout_alignParentBottom="true" android:drawableStart="@drawable/ic_foreign" android:layout_alignParentStart="true" style="@style/Widget.AppCompat.Button.Colored" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

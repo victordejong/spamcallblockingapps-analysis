@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="?tcx_backgroundPrimary" />
+        </shape>
+    </item>
+    <item android:top="5.0dip" android:bottom="5.0dip" android:start="5.0dip" android:end="5.0dip">
+        <shape android:shape="oval">
+            <solid android:color="@color/incallui_header_color" />
+        </shape>
+    </item>
+</layer-list>

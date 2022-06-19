@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="90.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.rey.material.widget.Button android:id="@id/ripple_bg" android:background="@null" android:layout_width="fill_parent" android:layout_height="108.0dip" android:contentDescription="@string/view" style="@style/LightFlatWaveButtonRippleNoRadiusStyle" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <RelativeLayout android:layout_gravity="center" android:id="@id/photo_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip">
+            <ImageView android:id="@id/result_photo_view" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="?touxiang_gray" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:id="@id/result_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                <TextView android:textSize="12.0sp" android:textColor="?color_666666" android:id="@id/result_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="" />
+                <TextView android:textSize="12.0sp" android:textColor="?color_666666" android:id="@id/result_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="" />
+                <TextView android:textSize="12.0sp" android:textColor="?color_report_spam" android:id="@id/result_complaint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

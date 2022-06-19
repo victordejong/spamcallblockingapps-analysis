@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.exoplayer2.ui.PlayerView android:id="@id/playerView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:auto_show="false" app:hide_on_touch="false" app:show_timeout="-1" app:surface_type="texture_view" app:use_controller="false" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/unavailableView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="72.0dip" android:layout_height="72.0dip" android:contentDescription="@null" app:srcCompat="@drawable/ic_tcx_insert_photo_outline_24dp" app:tint="@color/tcx_textQuarternary_dark" />
+        <TextView android:textColor="@color/tcx_textSecondary_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" android:text="@string/media_viewer_media_unavailable" style="@style/StyleX.Text.Caption" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/fileView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <ImageView android:id="@id/fileImageView" android:layout_width="72.0dip" android:layout_height="72.0dip" android:scaleType="fitCenter" android:contentDescription="@null" />
+        <TextView android:textColor="@color/tcx_textPrimary_dark" android:gravity="center" android:id="@id/fileTitleView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" style="@style/StyleX.Text.Subtitle.S2" />
+        <TextView android:textColor="@color/tcx_textSecondary_dark" android:id="@id/fileSubtitleView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" style="@style/StyleX.Text.Caption" />
+    </LinearLayout>
+</merge>

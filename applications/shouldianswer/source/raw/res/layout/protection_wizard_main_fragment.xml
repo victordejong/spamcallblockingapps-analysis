@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/protection_wizard_main_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_1" android:scaleType="fitXY" android:foregroundGravity="bottom" />
+    <LinearLayout android:gravity="center" android:id="@id/llMain" style="@style/llMainContent">
+        <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/textAppearanceSpartan" android:textSize="@dimen/fontBiggest2" android:textStyle="bold" android:textColor="@color/colorAccentLight" android:layout_width="fill_parent" android:text="@string/choose_the_level_of_protection" style="@style/textViewStyleCenter" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontMedium" android:layout_width="fill_parent" android:text="@string/you_can_change_it_in_settings_any_time" style="@style/textViewStyleCenter" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/flActiveProtection" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spaceBiggest">
+                <ImageView android:id="@id/ivActiveProtection" android:paddingTop="12.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/wizard_protection_but1" android:scaleType="centerCrop" android:foregroundGravity="bottom" />
+                <androidx.appcompat.widget.AppCompatButton android:textSize="@dimen/fontBig" android:textStyle="bold" android:textColor="@color/colorTextPrimaryDark" android:gravity="center_vertical" android:id="@id/butActiveProtection" android:paddingLeft="20.0dip" android:text="@string/active_protection" android:drawableTint="@color/colorTextPrimaryDark" style="@style/buttonSettings" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontBig" android:layout_gravity="top" android:layout_width="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="55.0dip" android:layout_marginRight="10.0dip" android:text="@string/the_app_can_block_spam_calls" style="@style/textViewStyleSecondary" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/flPassiveProtection" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spaceBiggest">
+                <ImageView android:id="@id/ivPassiveProtection" android:paddingTop="12.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/wizard_protection_but2" android:scaleType="centerCrop" android:foregroundGravity="bottom" />
+                <androidx.appcompat.widget.AppCompatButton android:textSize="@dimen/fontBig" android:textStyle="bold" android:textColor="@color/colorTextPrimaryDark" android:gravity="center_vertical" android:id="@id/butPassiveProtection" android:paddingLeft="20.0dip" android:text="@string/passive_protection" android:drawableTint="@color/colorTextPrimaryDark" style="@style/buttonSettings" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontBig" android:layout_gravity="top" android:layout_width="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="55.0dip" android:layout_marginRight="10.0dip" android:text="@string/the_app_only_warns_you_against_spam" style="@style/textViewStyleSecondary" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/flNoProtection" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spaceBiggest">
+                <ImageView android:id="@id/ivNoProtection" android:paddingTop="12.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/wizard_protection_but3" android:scaleType="centerCrop" android:foregroundGravity="bottom" />
+                <androidx.appcompat.widget.AppCompatButton android:textSize="@dimen/fontBig" android:textStyle="bold" android:textColor="@color/colorTextPrimaryDark" android:gravity="center_vertical" android:id="@id/butNoProtection" android:paddingLeft="20.0dip" android:text="@string/no_protection" android:drawableTint="@color/colorTextPrimaryDark" style="@style/buttonSettings" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontBig" android:layout_gravity="top" android:layout_width="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="55.0dip" android:layout_marginRight="10.0dip" android:text="@string/the_app_can_t_protect_you_at_all" style="@style/textViewStyleSecondary" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

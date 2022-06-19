@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:ellipsize="end" android:id="@id/title" android:layout_width="@dimen/dp0" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:text="featureInsightsRoW" android:layout_marginStart="@dimen/dp20" android:layout_marginEnd="@dimen/dp16" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Text.Headline.H4" />
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/flagValueContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp20" android:hint="featureInsightsX1|featureInsightsX2" android:layout_marginStart="@dimen/dp20" android:layout_marginEnd="@dimen/dp16" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title">
+        <com.google.android.material.textfield.TextInputEditText android:textColor="?tcx_textPrimary" android:id="@id/flagValue" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button android:id="@id/saveBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp20" android:text="Save" android:layout_marginStart="@dimen/dp20" android:layout_marginEnd="@dimen/dp16" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/flagValueContainer" style="@style/StyleX.Button.Secondary" />
+</androidx.constraintlayout.widget.ConstraintLayout>

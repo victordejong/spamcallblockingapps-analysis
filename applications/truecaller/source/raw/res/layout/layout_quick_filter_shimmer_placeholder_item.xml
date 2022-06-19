@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.truecaller.common.ui.ShimmerLoadingView android:id="@id/loadingItem" android:layout_width="wrap_content" android:layout_height="32.0dip" app:shimmerAnimationDuration="1500" app:shimmerColorEnd="?shimmer_loading_color_end" app:shimmerColorMiddle="?shimmer_loading_color_middle" app:shimmerLayout="@layout/layout_quick_filter_placeholder_item"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

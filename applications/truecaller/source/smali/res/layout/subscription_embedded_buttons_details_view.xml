@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Truecaller.CardView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.premium.ui.embedded.EmbeddedPurchaseView android:layout_width="fill_parent" android:layout_height="wrap_content" app:embeddedSubsButtonContext="CONTACT_DETAIL_CONTACT_REQ" app:embeddedSubsButtonsFallBackText="@string/CallerBadgeDialogGetPremiumToAskForContactDetails" app:embeddedSubsButtonsLayout="@layout/subscription_buttons_embedded_detail_view_include_legacy" />
+</androidx.cardview.widget.CardView>

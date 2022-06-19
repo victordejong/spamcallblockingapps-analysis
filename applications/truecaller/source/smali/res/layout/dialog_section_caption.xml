@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@id/dialogTitle" android:background="@drawable/dialog_bg_caption" android:padding="@dimen/control_doublespace" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance.Truecaller.ListItem.Primary.Ellipsize"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

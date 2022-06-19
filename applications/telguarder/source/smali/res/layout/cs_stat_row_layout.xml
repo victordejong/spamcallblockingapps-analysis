@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/cardView" android:background="@color/post_call_light_background" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:backgroundTint="@color/post_call_light_background" ap:cardElevation="0.0dip" ap:cardMaxElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto" xmlns:ap="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/plot_layout" android:background="@color/post_call_light_background" android:paddingTop="@dimen/margin_medium" android:paddingBottom="@dimen/margin_medium" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/margin_screen_sides" android:paddingEnd="@dimen/margin_screen_sides">
+        <TextView android:textSize="10.0sp" android:textStyle="bold" android:textColor="@color/post_call_light_text" android:gravity="center" android:id="@id/daily_stat_header" android:background="@color/post_call_light_background" android:paddingTop="@dimen/margin_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_small" android:text="@string/call_stat_daily_stat" android:layout_weight="1.0" />
+        <com.androidplot.xy.XYPlot android:id="@id/plot" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginTop="-10.0dip" android:layout_weight="1.0" ap:backgroundColor="@color/transparent" ap:drawGridOnTop="true" ap:gridClippingEnabled="false" ap:gridInsetLeft="5.0dip" ap:gridInsetRight="5.0dip" ap:title="" style="@style/APDefacto.Light" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="@color/post_call_light_background" android:layout_width="fill_parent" android:layout_height="@dimen/margin_medium">
+        <LinearLayout android:layout_gravity="bottom" android:background="@color/post_call_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

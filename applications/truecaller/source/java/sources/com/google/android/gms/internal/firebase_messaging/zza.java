@@ -1,0 +1,146 @@
+package com.google.android.gms.internal.firebase_messaging;
+
+import com.huawei.hms.push.constant.RemoteMessageConst;
+import e.m.d.r.d;
+import e.m.d.r.e;
+import e.m.d.r.f;
+import e.m.d.y.e1.a;
+import java.io.IOException;
+import java.util.Collections;
+import java.util.HashMap;
+import p193e.p1432d.p1439c.p1440a.C22128a;
+/* loaded from: classes2-dex2jar.jar:com/google/android/gms/internal/firebase_messaging/zza.class */
+public final class zza implements e<a> {
+    public static final zza zza = new zza();
+    private static final d zzb;
+    private static final d zzc;
+    private static final d zzd;
+    private static final d zze;
+    private static final d zzf;
+    private static final d zzg;
+    private static final d zzh;
+    private static final d zzi;
+    private static final d zzj;
+    private static final d zzk;
+    private static final d zzl;
+    private static final d zzm;
+    private static final d zzn;
+    private static final d zzo;
+    private static final d zzp;
+
+    static {
+        zzo zzoVar = new zzo();
+        zzoVar.zza(1);
+        zzs zzb2 = zzoVar.zzb();
+        HashMap hashMap = new HashMap();
+        hashMap.put(zzb2.annotationType(), zzb2);
+        zzb = new d("projectNumber", hashMap == null ? Collections.emptyMap() : C22128a.m8637c0(hashMap), (d.a) null);
+        zzo zzoVar2 = new zzo();
+        zzoVar2.zza(2);
+        zzs zzb3 = zzoVar2.zzb();
+        HashMap hashMap2 = new HashMap();
+        hashMap2.put(zzb3.annotationType(), zzb3);
+        zzc = new d("messageId", hashMap2 == null ? Collections.emptyMap() : C22128a.m8637c0(hashMap2), (d.a) null);
+        zzo zzoVar3 = new zzo();
+        zzoVar3.zza(3);
+        zzs zzb4 = zzoVar3.zzb();
+        HashMap hashMap3 = new HashMap();
+        hashMap3.put(zzb4.annotationType(), zzb4);
+        zzd = new d("instanceId", hashMap3 == null ? Collections.emptyMap() : C22128a.m8637c0(hashMap3), (d.a) null);
+        zzo zzoVar4 = new zzo();
+        zzoVar4.zza(4);
+        zzs zzb5 = zzoVar4.zzb();
+        HashMap hashMap4 = new HashMap();
+        hashMap4.put(zzb5.annotationType(), zzb5);
+        zze = new d("messageType", hashMap4 == null ? Collections.emptyMap() : C22128a.m8637c0(hashMap4), (d.a) null);
+        zzo zzoVar5 = new zzo();
+        zzoVar5.zza(5);
+        zzs zzb6 = zzoVar5.zzb();
+        HashMap hashMap5 = new HashMap();
+        hashMap5.put(zzb6.annotationType(), zzb6);
+        zzf = new d("sdkPlatform", hashMap5 == null ? Collections.emptyMap() : C22128a.m8637c0(hashMap5), (d.a) null);
+        zzo zzoVar6 = new zzo();
+        zzoVar6.zza(6);
+        zzs zzb7 = zzoVar6.zzb();
+        HashMap hashMap6 = new HashMap();
+        hashMap6.put(zzb7.annotationType(), zzb7);
+        zzg = new d("packageName", hashMap6 == null ? Collections.emptyMap() : C22128a.m8637c0(hashMap6), (d.a) null);
+        zzo zzoVar7 = new zzo();
+        zzoVar7.zza(7);
+        zzs zzb8 = zzoVar7.zzb();
+        HashMap hashMap7 = new HashMap();
+        hashMap7.put(zzb8.annotationType(), zzb8);
+        zzh = new d(RemoteMessageConst.COLLAPSE_KEY, hashMap7 == null ? Collections.emptyMap() : C22128a.m8637c0(hashMap7), (d.a) null);
+        zzo zzoVar8 = new zzo();
+        zzoVar8.zza(8);
+        zzs zzb9 = zzoVar8.zzb();
+        HashMap hashMap8 = new HashMap();
+        hashMap8.put(zzb9.annotationType(), zzb9);
+        zzi = new d(RemoteMessageConst.Notification.PRIORITY, hashMap8 == null ? Collections.emptyMap() : C22128a.m8637c0(hashMap8), (d.a) null);
+        zzo zzoVar9 = new zzo();
+        zzoVar9.zza(9);
+        zzs zzb10 = zzoVar9.zzb();
+        HashMap hashMap9 = new HashMap();
+        hashMap9.put(zzb10.annotationType(), zzb10);
+        zzj = new d(RemoteMessageConst.TTL, hashMap9 == null ? Collections.emptyMap() : C22128a.m8637c0(hashMap9), (d.a) null);
+        zzo zzoVar10 = new zzo();
+        zzoVar10.zza(10);
+        zzs zzb11 = zzoVar10.zzb();
+        HashMap hashMap10 = new HashMap();
+        hashMap10.put(zzb11.annotationType(), zzb11);
+        zzk = new d("topic", hashMap10 == null ? Collections.emptyMap() : C22128a.m8637c0(hashMap10), (d.a) null);
+        zzo zzoVar11 = new zzo();
+        zzoVar11.zza(11);
+        zzs zzb12 = zzoVar11.zzb();
+        HashMap hashMap11 = new HashMap();
+        hashMap11.put(zzb12.annotationType(), zzb12);
+        zzl = new d("bulkId", hashMap11 == null ? Collections.emptyMap() : C22128a.m8637c0(hashMap11), (d.a) null);
+        zzo zzoVar12 = new zzo();
+        zzoVar12.zza(12);
+        zzs zzb13 = zzoVar12.zzb();
+        HashMap hashMap12 = new HashMap();
+        hashMap12.put(zzb13.annotationType(), zzb13);
+        zzm = new d("event", hashMap12 == null ? Collections.emptyMap() : C22128a.m8637c0(hashMap12), (d.a) null);
+        zzo zzoVar13 = new zzo();
+        zzoVar13.zza(13);
+        zzs zzb14 = zzoVar13.zzb();
+        HashMap hashMap13 = new HashMap();
+        hashMap13.put(zzb14.annotationType(), zzb14);
+        zzn = new d("analyticsLabel", hashMap13 == null ? Collections.emptyMap() : C22128a.m8637c0(hashMap13), (d.a) null);
+        zzo zzoVar14 = new zzo();
+        zzoVar14.zza(14);
+        zzs zzb15 = zzoVar14.zzb();
+        HashMap hashMap14 = new HashMap();
+        hashMap14.put(zzb15.annotationType(), zzb15);
+        zzo = new d("campaignId", hashMap14 == null ? Collections.emptyMap() : C22128a.m8637c0(hashMap14), (d.a) null);
+        zzo zzoVar15 = new zzo();
+        zzoVar15.zza(15);
+        zzs zzb16 = zzoVar15.zzb();
+        HashMap hashMap15 = new HashMap();
+        hashMap15.put(zzb16.annotationType(), zzb16);
+        zzp = new d("composerLabel", hashMap15 == null ? Collections.emptyMap() : C22128a.m8637c0(hashMap15), (d.a) null);
+    }
+
+    private zza() {
+    }
+
+    public final void encode(Object obj, Object obj2) throws IOException {
+        a aVar = (a) obj;
+        f fVar = (f) obj2;
+        fVar.add(zzb, aVar.a);
+        fVar.add(zzc, aVar.b);
+        fVar.add(zzd, aVar.c);
+        fVar.add(zze, aVar.d);
+        fVar.add(zzf, aVar.e);
+        fVar.add(zzg, aVar.f);
+        fVar.add(zzh, aVar.g);
+        fVar.add(zzi, aVar.h);
+        fVar.add(zzj, aVar.i);
+        fVar.add(zzk, aVar.j);
+        fVar.add(zzl, aVar.k);
+        fVar.add(zzm, aVar.l);
+        fVar.add(zzn, aVar.m);
+        fVar.add(zzo, aVar.n);
+        fVar.add(zzp, aVar.o);
+    }
+}

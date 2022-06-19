@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:id="@id/layout_background" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <RelativeLayout android:id="@id/layout_progress_holder" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <LinearLayout android:orientation="horizontal" android:id="@id/layout_secondary_progress" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <LinearLayout android:orientation="horizontal" android:id="@id/layout_progress" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        <com.callapp.contacts.widget.ProfilePictureView android:layout_gravity="center_vertical" android:id="@id/profilePictureProgressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_marginEnd="-45.0dip" android:layout_alignParentEnd="true" app:presetSize="xx_small" />
-    </RelativeLayout>
-</LinearLayout>

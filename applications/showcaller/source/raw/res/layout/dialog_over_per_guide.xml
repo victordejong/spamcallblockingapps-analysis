@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_centerInParent="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <RelativeLayout android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="104.0dip">
+            <ImageView android:layout_width="125.0dip" android:layout_height="92.0dip" android:src="@drawable/per_over_guide" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/lib_close" android:background="@drawable/card_foreground" android:padding="8.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/nav_close_white" android:layout_alignParentRight="true" android:contentDescription="@string/close" android:layout_marginEnd="4.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:background="?bg_dialog_share_bottom" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:textColor="?color_333333" android:layout_gravity="center_horizontal" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" android:text="@string/enable_caller_id" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_horizontal" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="24.0dip" android:text="@string/you_must_enable" android:lineSpacingExtra="4.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+            <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:layout_marginEnd="16.0dip">
+                <FrameLayout android:id="@id/flayout_cancel" android:visibility="visible" android:layout_width="88.0dip" android:layout_height="36.0dip" android:layout_marginRight="16.0dip" android:foreground="@drawable/card_foreground" android:layout_marginEnd="16.0dip">
+                    <TextView android:textSize="14.0sp" android:textColor="?color_weak" android:layout_gravity="center" android:id="@id/tv_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/cancel_dialog" android:textAllCaps="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+                </FrameLayout>
+                <FrameLayout android:id="@id/flayout_enable" android:visibility="visible" android:layout_width="88.0dip" android:layout_height="36.0dip" android:foreground="@drawable/card_foreground">
+                    <TextView android:textSize="14.0sp" android:textColor="?color_action" android:layout_gravity="center" android:id="@id/tv_enable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/enable" android:textAllCaps="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/left_image_wrapper" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_marginLeft="@dimen/dimen_14_dp" android:foreground="@drawable/ripple_circular" android:layout_marginStart="@dimen/dimen_14_dp">
+        <ImageView android:layout_gravity="center" android:id="@id/left_image" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/ic_ms_call_b" android:scaleType="fitXY" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/right_image_wrapper" android:focusable="true" android:clickable="true" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_marginRight="@dimen/dimen_12_dp" android:foreground="@drawable/ripple_circular" android:layout_marginEnd="@dimen/dimen_12_dp">
+        <ImageView android:layout_gravity="center" android:id="@id/right_image" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/ic_ms_call_b" android:scaleType="fitXY" />
+    </FrameLayout>
+</LinearLayout>

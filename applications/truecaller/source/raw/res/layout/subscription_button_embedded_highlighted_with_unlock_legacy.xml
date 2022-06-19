@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/list_secondary" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/text">
+        <TextView android:textSize="@dimen/list_tertiary" android:textColor="@color/white" android:id="@id/subTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif" android:layout_marginEnd="@dimen/control_space" />
+        <TextView android:textSize="@dimen/list_quaternary" android:textColor="@color/white" android:gravity="center" android:id="@id/profit" android:background="@drawable/bg_premium_subscription_button_profit_themed" android:paddingTop="@dimen/control_semi_space" android:paddingBottom="@dimen/control_semi_space" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:fontFamily="sans-serif-medium" android:paddingStart="@dimen/control_space" android:paddingEnd="@dimen/control_space" />
+    </LinearLayout>
+</merge>

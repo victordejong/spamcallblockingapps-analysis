@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/cred_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/cred_detail_bkg" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="@dimen/detail_view_header_padding" android:paddingBottom="@dimen/control_space" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/control_space" android:paddingEnd="@dimen/control_space">
+        <FrameLayout android:layout_gravity="center|top" android:id="@id/avatar_container" android:layout_width="@dimen/control_enneaspace" android:layout_height="@dimen/control_enneaspace">
+            <com.truecaller.common.ui.avatar.AvatarXView android:layout_gravity="center" android:id="@id/avatar" android:focusable="true" android:clickable="true" android:layout_width="@dimen/control_enneaspace" android:layout_height="@dimen/control_enneaspace" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_mini_space">
+            <TextView android:textSize="@dimen/detail_view_header_name_size" android:ellipsize="marquee" android:id="@id/name_or_number" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:drawablePadding="@dimen/control_semispace" android:layout_weight="1.0" android:marqueeRepeatLimit="marquee_forever" style="@style/Widget.Truecaller.TextView.DetailsHeader" />
+            <ImageButton android:id="@id/suggest_name_button" android:background="@drawable/list_selector_unbounded" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp3" android:src="@drawable/ic_name_suggest" android:contentDescription="@string/SuggestNameTitle" android:layout_marginStart="@dimen/dp6" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/add_name_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_semispace" />
+        <FrameLayout android:id="@id/tag_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_semispace" />
+        <TextView android:textColor="?theme_spamColor" android:id="@id/spam_count" style="@style/Widget.Truecaller.TextView.DetailsHeader" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/private_info" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.truecaller.ui.view.TintedImageView android:id="@id/ic_lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp2" android:src="@drawable/ic_private" android:contentDescription="@null" app:imgTint="?theme_textColorSecondary" />
+            <TextView android:textColor="?theme_textColorSecondary" android:id="@id/info" android:text="@string/CallerProfilePrivateInformation" android:layout_marginStart="@dimen/control_semispace" style="@style/Widget.Truecaller.TextView.DetailsHeader" />
+        </LinearLayout>
+        <TextView android:textColor="?theme_textColorSecondary" android:id="@id/availability_indicator" style="@style/Widget.Truecaller.TextView.DetailsHeader" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

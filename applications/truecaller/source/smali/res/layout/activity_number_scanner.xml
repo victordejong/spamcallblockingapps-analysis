@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/topLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.scanner.ScannerView android:id="@id/camera_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageButton android:layout_gravity="end" android:id="@id/close_camera" android:background="?selectableItemBackground" android:padding="@dimen/control_space" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_triplespace" android:layout_marginEnd="@dimen/control_space" app:srcCompat="@drawable/ic_close_camera" />
+    <TextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom" android:id="@id/camera_footnote" android:background="@color/black_20" android:padding="@dimen/control_doublespace" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/scanner_Tooltip" android:shadowColor="@color/black" />
+</FrameLayout>

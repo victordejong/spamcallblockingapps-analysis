@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/analyze_root_layout" android:background="@color/colorAccent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:theme="@style/ThemeOverlay.AppCompat.ActionBar" android:id="@id/analyze_toolbar" android:background="?android:colorAccent" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:elevation="0.0dip" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    <FrameLayout android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.telguarder.helpers.web.LollipopFixedWebView android:id="@id/analyze_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.telguarder.helpers.ui.RealtimeBlurView android:layout_gravity="bottom" android:id="@id/bottom_view_to_blur" android:layout_width="fill_parent" android:layout_height="0.0dip" app:realtimeBlurRadius="20.0dip" app:realtimeOverlayColor="@color/colorPrimaryDarkOverlay" />
+    </FrameLayout>
+</LinearLayout>

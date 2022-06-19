@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView app:cardBackgroundColor="?theme_dialogColor" style="@style/Widget.Truecaller.CardView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/doubleSpace" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/tv_phone_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_space" android:layout_marginStart="@dimen/control_space" style="@style/TextAppearance.Truecaller.ListItem.Primary.Ellipsize" />
+        <TextView android:id="@id/tv_contact_details" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/control_space" style="@style/TextAppearance.Truecaller.ListItem.Secondary" />
+        <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_triplespace">
+            <Button android:textColor="?theme_textColorSecondary" android:id="@id/button_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/StrCancel" android:drawablePadding="@dimen/control_extraspace" android:drawableStart="@drawable/ic_action_close" style="@style/Widget.Truecaller.Button.Borderless" />
+            <Button android:id="@id/button_call" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/StrCall" android:drawablePadding="@dimen/control_extraspace" android:drawableStart="@drawable/ic_call" style="@style/Widget.Truecaller.Button.Borderless" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

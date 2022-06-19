@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/flash_ic_send_button"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="@string/send_message" android:animation="@animator/trim_path_start" />
+</animated-vector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="wrap_content" android:layout_height="@dimen/dp32" app:cardCornerRadius="@dimen/dp16" app:cardElevation="@dimen/dp0" app:strokeColor="?tcx_fillPrimaryBackground" app:strokeWidth="@dimen/dp1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/dp32">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/secondaryBtnIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp6" android:layout_marginStart="@dimen/dp6" app:tint="?tcx_brandBackgroundBlue" />
+        <TextView android:textColor="?tcx_textPrimary" android:id="@id/secondaryBtnTitle" android:paddingTop="@dimen/dp2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp4" android:layout_marginEnd="@dimen/dp8" style="@style/StyleX.Text.Body.B2" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

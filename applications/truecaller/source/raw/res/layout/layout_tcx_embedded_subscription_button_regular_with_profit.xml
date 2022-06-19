@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?tcx_subscriptionButtonRegularTextColor" android:gravity="center_horizontal" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StyleX.Text.Subtitle.S2" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+        <TextView android:textColor="?tcx_subscriptionButtonRegularTextColor" android:layout_gravity="center_horizontal" android:id="@id/subTitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StyleX.Text.Caption" />
+        <TextView android:textColor="@color/tcx_subscriptionButtonTextHighlighted" android:gravity="center" android:id="@id/profit" android:background="@drawable/shape_tcx_subscription_button_profit_regular" android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_marginStart="8.0dip" style="@style/StyleX.Text.Caption" />
+    </LinearLayout>
+</LinearLayout>

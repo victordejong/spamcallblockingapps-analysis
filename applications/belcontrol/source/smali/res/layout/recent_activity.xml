@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/recent_activity_layout" android:background="@color/white_transparent_bg" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/top_nav" />
+    <FrameLayout android:orientation="vertical" android:id="@id/recent_activity_header" android:background="@drawable/blue_back" android:layout_width="fill_parent" android:layout_height="250.0dip" android:animateLayoutChanges="true">
+        <LinearLayout android:layout_gravity="bottom" android:background="@color/grey" android:layout_width="fill_parent" android:layout_height="25.0dip" />
+        <com.kedlin.cca.ui.MultiStateButton android:textStyle="bold" android:layout_gravity="bottom" android:id="@id/protectionStatusLabel" android:clickable="false" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" />
+        <RelativeLayout android:paddingBottom="70.0dip" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/recent_activity_title" android:paddingTop="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+                <TextView android:textSize="20.0sp" android:textColor="@color/colorAccent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_name" android:textAllCaps="true" android:fontFamily="@font/google_sans_medium" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/colorAccent" android:gravity="top" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/reg_mark" android:fontFamily="@font/google_sans_medium" />
+            </LinearLayout>
+            <ImageView android:id="@id/stats_shield" android:background="@drawable/brand_logo_new" android:layout_width="94.0dip" android:layout_height="102.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="16.0dip" android:scaleType="fitXY" android:layout_below="@id/recent_activity_title" android:layout_centerHorizontal="true" />
+            <com.kedlin.cca.ui.AutoComplete android:textColor="@color/black_60_percent_transparent" android:gravity="center" android:id="@id/lookup_number" android:background="@drawable/recent_call_rounded" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:minHeight="30.0dip" android:hint="@string/recent_activity_enter_number" android:maxLines="2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:inputType="phone|textAutoComplete" android:dropDownHeight="wrap_content" />
+        </RelativeLayout>
+    </FrameLayout>
+    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/black_transparent_bg" android:gravity="center" android:id="@id/no_internet" android:background="@color/white_transparent_bg" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="@string/msg_no_internet_connection" />
+    <include layout="@layout/recent_activity_tabs" />
+    <RelativeLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeContainer" android:background="@color/white_fontcolor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recentActivityItems" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        <LinearLayout android:id="@id/footer" android:background="@drawable/blue_back" android:visibility="invisible" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="90.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true">
+            <TextView android:textColor="@color/white_fontcolor" android:id="@id/footer_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/report_activity_monitor_footer" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/policeman" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

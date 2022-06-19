@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@color/tcx_textSecondary_light" android:id="@id/btnRequestCallMeBack" android:background="@drawable/bg_facs_button_call_me_back" android:layout_width="wrap_content" android:layout_height="fill_parent" android:foreground="?selectableItemBackgroundBorderless" android:text="@string/biz_acs_call_me_back" android:textAllCaps="false" android:paddingStart="@dimen/doubleSpace" android:paddingEnd="@dimen/doubleSpace" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/layoutCallMeBackLoading" android:background="@drawable/bg_facs_button_call_me_back" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="@dimen/biz_facs_call_me_back_pb_size" android:layout_height="@dimen/biz_facs_call_me_back_pb_size" android:indeterminateTint="@color/tcx_textSecondary_light" />
+    </FrameLayout>
+    <ImageButton android:id="@id/btnResponseDone" android:background="@drawable/bg_transparent_rectangle" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_done_white_tick" android:scaleType="centerInside" android:adjustViewBounds="true" android:paddingStart="@dimen/doubleSpace" android:paddingEnd="@dimen/doubleSpace" />
+</merge>

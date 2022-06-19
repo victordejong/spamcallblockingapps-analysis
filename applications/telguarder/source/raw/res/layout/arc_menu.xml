@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/arc_menu_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/control_layout_background" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_centerInParent="true" />
+    <com.capricorn.ArcLayout android:id="@id/item_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" custom:childSize="44.0px" custom:fromDegrees="270.0" custom:toDegrees="360.0" xmlns:custom="http://schemas.android.com/apk/res-auto" />
+    <FrameLayout android:id="@id/control_layout" android:background="@drawable/composer_button" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center" android:id="@id/control_hint" android:duplicateParentState="true" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/composer_icn_plus" />
+    </FrameLayout>
+</RelativeLayout>

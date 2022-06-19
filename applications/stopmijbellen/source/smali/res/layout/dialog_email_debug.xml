@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.rengwuxian.materialedittext.MaterialEditText android:id="@id/debugEdit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/dialog_email_debug_text" android:maxLines="3" android:maxLength="50" app:met_errorColor="@color/red_btn_bg_pressed_color" app:met_floatingLabel="highlight" app:met_floatingLabelText="@string/dialog_email_debug_text" app:met_primaryColor="@color/colorPrimary" />
+    <TextView android:id="@id/debugTV" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

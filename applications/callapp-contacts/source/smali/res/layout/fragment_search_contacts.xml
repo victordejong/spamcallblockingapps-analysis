@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/searchFragmentContainer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.callapp.contacts.activity.fastscroll.FastScrollRecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/sticky_permission_container" app:bubbleTextColor="@color/white_callapp" app:handleColor="#ff999999" app:showTrack="false" app:trackColor="#ffbbbbbb" />
+    <TextView android:gravity="bottom|center" android:id="@id/noSearchResultsView" android:paddingTop="@dimen/dimen_16_dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/sticky_permission_container" android:layout_alignParentTop="true" />
+    <include android:id="@id/loadingPlacesContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/sticky_permission_container" android:layout_alignParentTop="true" layout="@layout/item_loading_places" />
+    <include android:id="@id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/sticky_permission_container" layout="@layout/layout_empty_search" />
+    <FrameLayout android:id="@id/sticky_permission_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</RelativeLayout>

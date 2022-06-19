@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>OTP</item>
+        <item>लेनदेन</item>
+        <item>अरुहरु</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>जनवरी</item>
+        <item>फेब्रुअरी</item>
+        <item>मार्च</item>
+        <item>अप्रिल</item>
+        <item>मई</item>
+        <item>जुन</item>
+        <item>जुलाई</item>
+        <item>आगस्त</item>
+        <item>सेप्टेम्बर</item>
+        <item>अक्टोबर</item>
+        <item>नोवेम्बर</item>
+        <item>डिसेम्बर</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>%s लग-इन</item>
+        <item>%s मा साइन अप</item>
+        <item>%s मा साइनइन</item>
+        <item>%s संग प्रमाणित गर्नुहोस्</item>
+        <item>%s संग दर्ता गर्नुहोस्</item>
+        <item>%s संग सुरू गर्नुहोस्</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>कल</item>
+        <item>प्रोफाइल हेर्नुहोस</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>यो महत्वपूर्ण छ</item>
+        <item>माफ गर्नुहोस्</item>
+        <item>तपाई कहाँ हुनुहुन्छ ?</item>
+        <item>मेरो एउटा प्रश्न छ</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>एक</item>
+        <item>दुई</item>
+        <item>तिन</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>हेल्लो 👋, यो जरुरी छ 🚨</item>
+        <item>हेल्लो 👋 तपाईंको अर्डर तयार छ!</item>
+        <item>के तपाईको अहिले फुर्सद छ ? म तलामा छु !</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>मौन</item>
+        <item>भाइब्रेट मात्र</item>
+        <item>ध्वनि मात्र</item>
+        <item>ध्वनि र भाइब्रेट</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>जब तपाइँ १ मिनेट भित्रमै प्रतिक्रिया चाहनुहुन्छ Flash को प्रयोग गर्नुहोस्</item>
+        <item>कुनै महत्त्वपूर्ण कुरा छिट्टो भन्नको लागि Flash प्रयोग गर्नुहोस्</item>
+        <item>के तपाईलाई थाहा छ: केवल एक ट्यापको भरमा आफ्नो स्थानको जानकारी बांडन सक्नुहुन्छ</item>
+        <item>सुझाब: आफैलाई बेक्त गर्न एमोजी या संदेश पठाऊनुहोस</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>सिम १</item>
+        <item>सिम २</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM १</item>
+        <item>SIM २</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>पछिल्लो नामबाट क्रमबद्ध</item>
+        <item>पछिल्लो नामबाट क्रमबद्ध</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>सेभ भयो</item>
+        <item>पहिचान गरियो</item>
+    </string-array>
+</resources>

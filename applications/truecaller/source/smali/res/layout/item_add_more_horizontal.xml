@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon" android:padding="@dimen/control_space" android:layout_width="@dimen/contact_photo_size" android:layout_height="@dimen/contact_photo_size" android:src="@drawable/ic_add_friend" android:contentDescription="@null" app:tint="@color/accent_default" />
+    <TextView android:textStyle="bold" android:textColor="@color/accent_default" android:gravity="center_vertical" android:id="@id/text" android:paddingLeft="@dimen/control_doublespace" android:paddingRight="@dimen/control_doublespace" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/StrAddFriends" android:textAllCaps="true" />
+</LinearLayout>

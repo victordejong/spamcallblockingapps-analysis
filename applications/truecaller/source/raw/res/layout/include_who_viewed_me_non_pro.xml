@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/non_pro_list_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/ic_who_viewed_img" android:paddingLeft="@dimen/control_extraspace" android:paddingRight="@dimen/control_extraspace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wvm_image_large" android:contentDescription="@null" />
+        <TextView android:gravity="center" android:id="@id/profile_view_count_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" style="@style/StyleX.Text.Headline.H6" />
+        <TextView android:gravity="center" android:id="@id/upgrade_premium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/WhoViewedMeTextUpgradeToPremium" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" style="@style/StyleX.Text.Body.B2" />
+        <Button android:id="@id/learn_more_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/WhoViewedMeLearnMore" style="@style/StyleX.Button.Small.Action" />
+        <com.truecaller.premium.ui.embedded.EmbeddedPurchaseView android:id="@id/premiumFloatingButtons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:embeddedSubsButtonContext="WHO_VIEWED_ME" app:embeddedSubsButtonsLayout="@layout/layout_tcx_subscription_buttons_wvm" />
+    </LinearLayout>
+</ScrollView>

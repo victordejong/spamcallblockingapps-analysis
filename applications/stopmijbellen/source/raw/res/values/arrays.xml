@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_array">
+        <item>Private</item>
+        <item>Collectors/Banks</item>
+        <item>Advertisement/Spam</item>
+        <item>Silent calls</item>
+        <item>Frauds</item>
+        <item>Financial services</item>
+        <item>Other..</item>
+    </string-array>
+    <string-array name="category_feedback_array">
+        <item>No category</item>
+        <item>Collectors/Banks</item>
+        <item>Advertisement/Spam</item>
+        <item>Silent calls</item>
+        <item>Frauds</item>
+        <item>Financial services</item>
+        <item>Other..</item>
+    </string-array>
+    <string-array name="posneg_array">
+        <item>Negative</item>
+        <item>Neutral</item>
+        <item>Positive</item>
+    </string-array>
+    <string-array name="settings_block_methods_array">
+        <item>End call (reject)</item>
+        <item>Silence ringer</item>
+    </string-array>
+</resources>

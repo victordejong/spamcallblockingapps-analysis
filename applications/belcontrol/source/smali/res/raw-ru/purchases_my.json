@@ -1,0 +1,33 @@
+{
+    "top" : "Подключите Pro Аккаунт с целым набором полезных функций:",
+
+    "sections" : [
+        {
+            "img" : "shield",
+            "descr" : "Community Blocking",
+            "width": "40",
+            "height": "40"
+        },
+        {
+            "img" : "list",
+            "descr" : "Неограниченный список Блокируемых",
+            "width": "40",
+            "height": "40"
+
+        },
+        {
+            "img" : "cloud",
+            "descr" : "Резервные копии в облаке",
+            "width": "40",
+            "height": "40"
+        },
+        {
+            "img" : "caller_id",
+            "descr" : "Идентификатор звонков",
+            "width": "40",
+            "height": "40"
+        }
+    ],
+
+    "bottom" : ""
+}

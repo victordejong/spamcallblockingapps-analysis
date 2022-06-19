@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_tcx_toolbar" />
+    <EditText android:id="@id/searchEditText" android:layout_width="fill_parent" android:hint="@string/SearchCountryTip" android:drawableEnd="@drawable/wizard_ic_country_search" style="@style/FilterableDialog.Filter" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/countriesRecyclerView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

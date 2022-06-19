@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp16" android:layout_marginEnd="@dimen/dp16" app:cardBackgroundColor="?tcx_backgroundTertiary" app:cardCornerRadius="@dimen/dp8" app:cardElevation="@dimen/dp4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recentTransactionRecyclerView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.truecaller.callrecording.ui.bubble.BubbleLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.callrecording.ui.floatingbutton.CallRecordingFloatingButton android:layout_gravity="center" android:id="@id/call_recording_control" android:padding="16.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" app:startButtonBackground="@drawable/ic_record_floating_background" />
+</com.truecaller.callrecording.ui.bubble.BubbleLayout>

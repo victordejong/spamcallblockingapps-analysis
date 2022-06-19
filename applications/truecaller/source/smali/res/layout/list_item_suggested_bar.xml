@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:paddingStart="0.0dip" android:paddingEnd="@dimen/doubleSpace" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/linear_layout_empty_state" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" android:layout_marginBottom="11.0dip">
+        <com.truecaller.ui.view.TintedImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_empty_recent" android:layout_marginStart="16.0dip" android:layout_marginEnd="14.0dip" app:imgTint="?tcx_textTertiary" app:tintMode="src_in" />
+        <TextView android:textSize="12.0sp" android:textColor="?tcx_textSecondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/SuggestedEmpty" android:layout_marginEnd="@dimen/doubleSpace" />
+    </LinearLayout>
+</LinearLayout>

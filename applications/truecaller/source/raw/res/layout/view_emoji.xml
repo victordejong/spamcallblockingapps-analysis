@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="@dimen/emoji_size" android:layout_height="@dimen/emoji_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageView" android:background="?selectableItemBackgroundBorderless" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="4.0dip" android:scaleType="fitCenter" android:contentDescription="@null" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end|bottom|center" android:id="@id/variantsIndicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:src="@drawable/ic_emoji_variants_indicator" android:tint="?emojiDivider" android:tintMode="src_in" />
+</merge>

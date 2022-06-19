@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/about_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" style="@style/Title.Topbar_title" />
+    <TextView android:id="@id/about_version" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Body2.Topbar_subtitle" />
+    <ImageView android:layout_width="96.0dip" android:layout_height="96.0dip" android:layout_margin="24.0dip" android:src="@drawable/ic_app_icon" />
+    <TextView android:gravity="center_horizontal" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" style="@style/Body2.Topbar_subtitle" />
+    <TextView android:textColor="@color/white_callapp" android:id="@id/about_terms" android:background="@drawable/ripple_or_holo_masked_rect" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Button" />
+    <TextView android:textColor="@color/white_callapp" android:id="@id/user_report" android:background="@drawable/ripple_or_holo_masked_rect" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_10_dp" style="@style/Button" />
+</LinearLayout>

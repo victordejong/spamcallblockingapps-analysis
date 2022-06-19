@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">%d nummers blokkeren en als spam melden?</item>
+        <item quantity="one">%d nummer blokkeren en als spam melden?</item>
+    </plurals>
+    <plurals name="ConversationCallsHistoryCount">
+        <item quantity="other">%d oproepen</item>
+        <item quantity="one">%d oproep</item>
+    </plurals>
+    <plurals name="ConversationFlashHistoryCount">
+        <item quantity="other">%s Flashberichten</item>
+        <item quantity="one">%s Flashbericht</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">Berichten zijn toegevoegd aan tabblad Belangrijk</item>
+        <item quantity="one">Bericht is toegevoegd aan tabblad Belangrijk</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d gesprekken gemarkeerd als gelezen</item>
+        <item quantity="one">%d gesprek gemarkeerd als gelezen</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">%d items zijn verwijderd</item>
+        <item quantity="one">%d item is verwijderd</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">%d items verwijderen</item>
+        <item quantity="one">Item verwijderen?</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">Gesprekken vastgemaakt</item>
+        <item quantity="one">Gesprek vastgemaakt</item>
+    </plurals>
+    <plurals name="ConversationReportNotSpamConfirmation">
+        <item quantity="other">%d berichten gemeld als niet-spam</item>
+        <item quantity="one">%d bericht gemeld als niet-spam</item>
+    </plurals>
+    <plurals name="ConversationReportSpamConfirmation">
+        <item quantity="other">%d berichten gemeld als spam</item>
+        <item quantity="one">%d bericht gemeld als spam</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">Alle contactpersonen opslaan</item>
+        <item quantity="one">@string/ConversationSaveContact</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">Gesprekken losgemaakt</item>
+        <item quantity="one">Gesprek losgemaakt</item>
+    </plurals>
+    <plurals name="DeleteConversationsConfirmation">
+        <item quantity="other">%d gesprekken zijn verwijderd</item>
+        <item quantity="one">%d gesprek is verwijderd</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">%d gesprekken verwijderen?</item>
+        <item quantity="one">%d gesprek verwijderen?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">%d nummers geïdentificeerd</item>
+        <item quantity="one">%d nummer geïdentificeerd</item>
+    </plurals>
+    <plurals name="HistoryActionConfirmDeleteMessage">
+        <item quantity="other">Verwijder %d items?</item>
+        <item quantity="one">Verwijder %d item?</item>
+    </plurals>
+    <plurals name="HistoryActionDeleted">
+        <item quantity="other">%d items verwijderd</item>
+        <item quantity="one">%d item verwijderd</item>
+    </plurals>
+    <plurals name="HistoryActionSelected">
+        <item quantity="other">%d items geselecteerd</item>
+        <item quantity="one">%d item geselecteerd</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">Weet je zeker dat je %d nummer wilt deblokkeren?</item>
+        <item quantity="one">Weet je zeker dat je dit nummer wilt deblokkeren?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteCallRecordings">
+        <item quantity="other">Weet je zeker dat je %s opnamen wilt verwijderen</item>
+        <item quantity="one">Weet je zeker dat je %s opname wilt verwijderen</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">Weet je zeker dat je %s taalbestanden wilt verwijderen</item>
+        <item quantity="one">Weet je zeker dat je %s taalbestand wilt verwijderen</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">"%d sms'jes geblokkeerd"</item>
+        <item quantity="one">Sms door Truecaller geblokkeerd</item>
+    </plurals>
+    <plurals name="MessageNotificationNewMessages">
+        <item quantity="other">+ nog %1$d nieuwe berichten</item>
+        <item quantity="one">+ nog 1 nieuw bericht</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$s belde %2$d uur geleden. Tik om in Truecaller te bekijken</item>
+        <item quantity="one">%1$s belde %2$d uur geleden. Tik om in Truecaller te bekijken</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d contacten</item>
+        <item quantity="one">%d contact</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d bijlagen</item>
+        <item quantity="one">%1$d bijlage</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">%d andere contactpersonen</item>
+        <item quantity="one">%d andere contactpersoon</item>
+    </plurals>
+    <plurals name="NewImGroupMemberCount">
+        <item quantity="other">%d leden</item>
+        <item quantity="one">%d lid</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">%d nummers aan de blokkeringslijst toegevoegd</item>
+        <item quantity="one">Nummer aan de blokkeringslijst toegevoegd</item>
+    </plurals>
+    <plurals name="OSNotificationTextNew">
+        <item quantity="other">Je hebt %d nieuwe berichten</item>
+        <item quantity="one">Je hebt één nieuw bericht</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d geblokkeerde oproepen</item>
+        <item quantity="one">%d geblokkeerde oproep</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d gedempte oproepen</item>
+        <item quantity="one">%d gedempte oproep</item>
+    </plurals>
+    <plurals name="PremiumAbbreviatedOfferPriceOverMonth">
+        <item quantity="other">%1$s/maanden</item>
+        <item quantity="one">%1$s/maand</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">%1$d dagen gratis op proef alleen voor nieuwe abonnees</item>
+        <item quantity="one">%1$d dag gratis op proef alleen voor nieuwe abonnees</item>
+    </plurals>
+    <plurals name="PremiumFeatureContactRequestLeft">
+        <item quantity="other">nog %1$d verzoeken</item>
+        <item quantity="one">nog %1$d verzoek</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">%1$d nieuwe profielweergaven</item>
+        <item quantity="one">1 nieuwe profielweergave</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">%1$d mensen hebben je profiel recentelijk bekeken</item>
+        <item quantity="one">Iemand heeft je profiel recentelijk bekeken</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d personen (%3$d in %2$s) hebben je profiel onlangs bekeken</item>
+        <item quantity="one">Iemand in %2$s heeft je profiel onlangs bekeken</item>
+    </plurals>
+    <plurals name="SettingPendingGroupInvitationsMessage">
+        <item quantity="other">Je hebt %d actieve groepsuitnodigingen. Wil je deze accepteren?</item>
+        <item quantity="one">Je hebt %d actieve groepsuitnodiging. Wil je deze accepteren?</item>
+    </plurals>
+    <plurals name="SpamSmsFound">
+        <item quantity="other">%d spamberichten gevonden</item>
+        <item quantity="one">%d spambericht gevonden</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByMultiple">
+        <item quantity="other">%1$s en nog %2$s anderen zijn door %3$s uitgenodigd voor de groep</item>
+        <item quantity="one">%1$s en nog %2$s iemand zijn door %3$s uitgenodigd voor de groep</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByYouMultiple">
+        <item quantity="other">Je hebt %1$s en nog %2$d anderen uitgenodigd voor de groep</item>
+        <item quantity="one">Je hebt %1$s en nog %2$d iemand uitgenodigd voor de groep</item>
+    </plurals>
+    <plurals name="StrPhoneNumberAndMore">
+        <item quantity="other">%1$s &lt;b>+%2$d meer&lt;/b></item>
+        <item quantity="one">%1$s &lt;b>+%2$d meer&lt;/b></item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">dagen</item>
+        <item quantity="one">dag</item>
+    </plurals>
+    <plurals name="StrPluralHour">
+        <item quantity="other">uur</item>
+        <item quantity="one">uur</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">maanden</item>
+        <item quantity="one">maand</item>
+    </plurals>
+    <plurals name="StrPluralWeek">
+        <item quantity="other">weken</item>
+        <item quantity="one">week</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">jaar</item>
+        <item quantity="one">jaar</item>
+    </plurals>
+    <plurals name="UnreadConversations">
+        <item quantity="other">%d ongelezen gesprekken</item>
+        <item quantity="one">%d ongelezen gesprek</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">U hebt het aantal verificatiepogingen overschreden. Probeer het over %dh opnieuw.</item>
+        <item quantity="one">U hebt het aantal verificatiepogingen overschreden. Probeer het over %dh opnieuw.</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d mensen hebben je profiel bekeken</item>
+        <item quantity="one">Iemand heeft je profiel bekeken</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d personen (1 in %2$s) hebben je profiel bekeken</item>
+        <item quantity="one">%1$d persoon uit %2$s heeft je profiel bekeken</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d mensen hebben je profiel bekeken. Meer informatie</item>
+        <item quantity="one">1 persoon heeft je profiel bekeken. Meer informatie.</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d mensen (%3$d van %2$s) hebben je profiel bekeken. Meer informatie.</item>
+        <item quantity="one">1 persoon uit %2$s heeft je profiel bekeken. Meer informatie.</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaption">
+        <item quantity="other">%1$d nieuwe weergaven</item>
+        <item quantity="one">%1$d nieuwe weergave</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaptionWithLocation">
+        <item quantity="other">%1$d nieuwe weergaven • %2$d van %3$s</item>
+        <item quantity="one">%1$d nieuwe weergave • %2$d van %3$s</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">reCaptcha te vaak mislukt. Probeer het over %1$d uur opnieuw</item>
+        <item quantity="one">reCaptcha te vaak mislukt. Probeer het over %1$d uur opnieuw</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%s gesprekken gearchiveerd</item>
+        <item quantity="one">%s gesprek gearchiveerd</item>
+    </plurals>
+    <plurals name="biz_govt_contacts_count">
+        <item quantity="other">%1$d contactpersonen</item>
+        <item quantity="one">%1$d contactpersoon</item>
+    </plurals>
+    <plurals name="call_recording_toast_items_deleted">
+        <item quantity="other">1%$d opnames verwijderd</item>
+        <item quantity="one">1%$d opname verwijderd</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">OTP-berichten verwijderen</item>
+        <item quantity="one">OTP-bericht verwijderd</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">reclameberichten verwijderd</item>
+        <item quantity="one">reclamebericht verwijderd</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">Spamberichten verwijderd</item>
+        <item quantity="one">Spambericht verwijderd</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d berichten</item>
+        <item quantity="one">%d bericht</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">"%d OTP's"</item>
+        <item quantity="one">%d OTP</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_promotional">
+        <item quantity="other">%d reclameberichten</item>
+        <item quantity="one">%d reclamebericht</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d spamberichten</item>
+        <item quantity="one">%d spambericht</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d berichten verwijderd</item>
+        <item quantity="one">%d bericht verwijderd</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">Uitnodigingen</item>
+        <item quantity="one">Uitnodiging</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="other">over %d dagen</item>
+        <item quantity="one">morgen</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="other">over %d uur</item>
+        <item quantity="one">over 1 uur</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="other">over %d minuten</item>
+        <item quantity="one">over 1 minuut</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="other">over %d seconden</item>
+        <item quantity="one">over 1 seconde</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="other">%d dagen geleden</item>
+        <item quantity="one">gisteren</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="other">%d uur geleden</item>
+        <item quantity="one">1 uur geleden</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="other">%d minuten geleden</item>
+        <item quantity="one">1 minuut geleden</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="other">%d seconden geleden</item>
+        <item quantity="one">1 seconde geleden</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="other">%d uur</item>
+        <item quantity="one">1 uur</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="other">%d minuten</item>
+        <item quantity="one">1 minuut</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="other">%d seconden</item>
+        <item quantity="one">1 seconde</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="other">over %d dagen</item>
+        <item quantity="one">morgen</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="other">over %d uur</item>
+        <item quantity="one">over 1 uur</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="other">over %d minuten</item>
+        <item quantity="one">over 1 minuut</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="other">over %d seconden</item>
+        <item quantity="one">over 1 seconde</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="other">%d dagen geleden</item>
+        <item quantity="one">gisteren</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="other">%d uur geleden</item>
+        <item quantity="one">1 uur geleden</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="other">%d minuten geleden</item>
+        <item quantity="one">1 minuut geleden</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="other">%d seconden geleden</item>
+        <item quantity="one">1 seconde geleden</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">Je staat op het punt om de geselecteerde bestanden en de %d bijbehorende berichten te verwijderen</item>
+        <item quantity="one">Je staat op het punt om de geselecteerde bestanden en het bijbehorende bericht te verwijderen</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">Berichten verwijderen?</item>
+        <item quantity="one">Bericht verwijderen?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nieuwe meldingen</item>
+        <item quantity="one">%d nieuwe melding</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">vrienden</item>
+        <item quantity="one">vriend</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">dagen</item>
+        <item quantity="one">dag</item>
+    </plurals>
+    <plurals name="spam_counts">
+        <item quantity="other">%d spammeldingen</item>
+        <item quantity="one">%d spammelding</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">%s gesprekken gedearchiveerd</item>
+        <item quantity="one">%s gesprek gedearchiveerd</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">Berichten ontvangen</item>
+        <item quantity="one">Bericht ontvangen</item>
+    </plurals>
+    <plurals name="voip_group_launcher_person">
+        <item quantity="other">deelnemers</item>
+        <item quantity="one">deelnemer</item>
+    </plurals>
+    <plurals name="voip_notification_missed_grouped_title">
+        <item quantity="other">%1$s oproepen gemist</item>
+        <item quantity="one">%1$s oproep gemist</item>
+    </plurals>
+    <plurals name="voip_notification_title_other">
+        <item quantity="other">%1$s anderen</item>
+        <item quantity="one">%1$s iemand anders</item>
+    </plurals>
+</resources>

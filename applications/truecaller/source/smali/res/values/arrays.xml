@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="BlockAdvancedTypes">
+        <item>@string/BlockAdvancedStartTitle</item>
+        <item>@string/BlockAdvancedContainTitle</item>
+        <item>@string/BlockAdvancedEndTitle</item>
+    </string-array>
+    <string-array name="BusinessEditProfile_time">
+        <item>10:30 am</item>
+        <item>11:00 am</item>
+        <item>11:30 am</item>
+        <item>12:00 pm</item>
+        <item>12:30 pm</item>
+        <item>01:00 pm</item>
+        <item>01:30 pm</item>
+        <item>02:00 pm</item>
+        <item>02:30 pm</item>
+        <item>03:00 pm</item>
+        <item>03:30 pm</item>
+        <item>04:00 pm</item>
+        <item>04:30 pm</item>
+        <item>05:00 pm</item>
+        <item>05:30 pm</item>
+        <item>06:00 pm</item>
+        <item>06:30 pm</item>
+        <item>07:00 pm</item>
+        <item>07:30 pm</item>
+        <item>08:00 pm</item>
+        <item>08:30 pm</item>
+        <item>09:00 pm</item>
+        <item>09:30 pm</item>
+        <item>10:00 pm</item>
+        <item>10:30 pm</item>
+        <item>11:00 pm</item>
+        <item>11:30 pm</item>
+        <item>12:00 am</item>
+        <item>12:30 am</item>
+        <item>01:00 am</item>
+        <item>01:30 am</item>
+        <item>02:00 am</item>
+        <item>02:30 am</item>
+        <item>03:00 am</item>
+        <item>03:30 am</item>
+        <item>04:00 am</item>
+        <item>04:30 am</item>
+        <item>05:00 am</item>
+        <item>05:30 am</item>
+        <item>06:00 am</item>
+        <item>06:30 am</item>
+        <item>07:00 am</item>
+        <item>07:30 am</item>
+        <item>08:00 am</item>
+        <item>08:30 am</item>
+        <item>09:00 am</item>
+        <item>09:30 am</item>
+        <item>10:00 am</item>
+    </string-array>
+    <string-array name="DaysOfWeek">
+        <item>@string/Sunday</item>
+        <item>@string/Monday</item>
+        <item>@string/Tuesday</item>
+        <item>@string/Wednesday</item>
+        <item>@string/Thursday</item>
+        <item>@string/Friday</item>
+        <item>@string/Saturday</item>
+    </string-array>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>OTP</item>
+        <item>Transaction</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="ImGroupNotificationsDialogOptions">
+        <item>@string/ImGroupNotificationsAllMessages</item>
+        <item>@string/ImGroupNotificationsMentionsOnly</item>
+        <item>@string/ImGroupNotificationsNone</item>
+    </string-array>
+    <string-array name="MediaControlView_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="MmsEmptySubject">
+        <item>no title</item>
+        <item>untitled</item>
+        <item>no subject</item>
+        <item>nosubject</item>
+        <item>geen onderwerp nie</item>
+        <item>ርዕሰ-ጉዳይ የሌለው</item>
+        <item>ምንም ርእስ የለውም</item>
+        <item>بدون موضوع</item>
+        <item>mövzu yoxdur</item>
+        <item>без тема</item>
+        <item>няма тема</item>
+        <item>কোনো বিষয় নেই</item>
+        <item>বিষয়হীন</item>
+        <item>sense assumpte</item>
+        <item>bez předmětu</item>
+        <item>bezpředmětu</item>
+        <item>intet emne</item>
+        <item>kein betreff</item>
+        <item>χωρίς θέμα</item>
+        <item>sin asunto</item>
+        <item>sinasunto</item>
+        <item>teema puudub</item>
+        <item>gairik ez</item>
+        <item>بدون موضوع</item>
+        <item>ei aihetta</item>
+        <item>aucun objet</item>
+        <item>sans objet</item>
+        <item>sen asunto</item>
+        <item>senasunto</item>
+        <item>કોઇ વિષય નહીં</item>
+        <item>વિષય નથી</item>
+        <item>कोई विषय नहीं</item>
+        <item>nema predmeta</item>
+        <item>nincs tárgy</item>
+        <item>անվերնագիր</item>
+        <item>tanpa subjek</item>
+        <item>ekkert efni</item>
+        <item>ekkertefni</item>
+        <item>nessun oggetto</item>
+        <item>ללא נושא</item>
+        <item>件名なし</item>
+        <item>უსათაურო</item>
+        <item>тақырыпсыз</item>
+        <item>тақырып жоқ</item>
+        <item>គ្មាន​ប្រធានបទ</item>
+        <item>제목 없음</item>
+        <item>темасы жок</item>
+        <item>темасыжок</item>
+        <item>ບໍ່ມີຫົວຂໍ້</item>
+        <item>nėra temos</item>
+        <item>bez temata</item>
+        <item>без наслов</item>
+        <item>без тема</item>
+        <item>വിഷയമില്ല</item>
+        <item>വിഷയമൊന്നുമില്ല</item>
+        <item>гарчиггүй</item>
+        <item>कोणताही विषय नाही</item>
+        <item>tiada subjek</item>
+        <item>အကြောင်းအရာ မရှိ</item>
+        <item>အကြောင်းအရာမဲ့</item>
+        <item>emne mangler</item>
+        <item>ikke noe emne</item>
+        <item>शीर्षक नभएको</item>
+        <item>विषय छैन</item>
+        <item>geen onderwerp</item>
+        <item>geenonderwerp</item>
+        <item>ਕੋਈ ਵਿਸ਼ਾ ਨਹੀਂ</item>
+        <item>brak tematu</item>
+        <item>braktematu</item>
+        <item>sem assunto</item>
+        <item>fără subiect</item>
+        <item>без темы</item>
+        <item>කාරණාවක් නොමැත</item>
+        <item>bez predmetu</item>
+        <item>žiadny predmet</item>
+        <item>brez zadeve</item>
+        <item>nizadeve</item>
+        <item>pa subjekt</item>
+        <item>без наслова</item>
+        <item>нема наслова</item>
+        <item>inget ämne</item>
+        <item>kichwa hakijaongezwa</item>
+        <item>தலைப்பு இல்லை</item>
+        <item>ไม่มีเรื่อง</item>
+        <item>ไม่มีชื่อเรื่อง</item>
+        <item>walang paksa</item>
+        <item>konu yok</item>
+        <item>без теми</item>
+        <item>بلا عنوان</item>
+        <item>mavzu yo‘q</item>
+        <item>không có chủ đề</item>
+        <item>无主题</item>
+        <item>沒有主旨</item>
+        <item>無主旨</item>
+        <item>asikho isihloko</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>jan</item>
+        <item>feb</item>
+        <item>mar</item>
+        <item>apr</item>
+        <item>may</item>
+        <item>jun</item>
+        <item>jul</item>
+        <item>aug</item>
+        <item>sep</item>
+        <item>oct</item>
+        <item>nov</item>
+        <item>dec</item>
+    </string-array>
+    <string-array name="Profile_PhotoMenu">
+        <item>@string/Profile_TakePhoto</item>
+        <item>@string/Profile_SelectFromGallery</item>
+    </string-array>
+    <string-array name="Profile_PhotoMenuWithRemove">
+        <item>@string/Profile_TakePhoto</item>
+        <item>@string/Profile_SelectFromGallery</item>
+        <item>@string/Profile_RemovePhoto</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>Proceed</item>
+        <item>Continue</item>
+        <item>Accept</item>
+        <item>Confirm</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>Use %s</item>
+        <item>Continue with %s</item>
+        <item>Proceed with %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Login to %s</item>
+        <item>Signup with %s</item>
+        <item>Sign In to %s</item>
+        <item>Verify number with %s</item>
+        <item>Register with %s</item>
+        <item>Get Started with %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>To get started</item>
+        <item>To continue</item>
+        <item>To place order</item>
+        <item>To complete your purchase</item>
+        <item>To checkout</item>
+        <item>To complete your booking</item>
+        <item>To proceed with your booking</item>
+        <item>To continue with your booking</item>
+        <item>To get details</item>
+        <item>To view more</item>
+        <item>To continue reading</item>
+        <item>To proceed</item>
+        <item>For new updates</item>
+        <item>To get updates</item>
+        <item>To subscribe</item>
+        <item>To subscribe &amp; get updates</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>please verify mobile number</item>
+        <item>please login</item>
+        <item>please signup</item>
+        <item>please login/signup</item>
+        <item>please register</item>
+        <item>please sign in</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>Call</item>
+        <item>View profile</item>
+    </string-array>
+    <string-array name="assistant_shortcut_call">
+        <item>Call</item>
+        <item>Audio</item>
+    </string-array>
+    <string-array name="assistant_shortcut_messages">
+        <item>Messages</item>
+        <item>Conversations</item>
+        <item>Sms</item>
+    </string-array>
+    <string-array name="assistant_shortcut_text">
+        <item>Text</item>
+        <item>Message</item>
+        <item>Sms</item>
+        <item>Mms</item>
+        <item>Chat</item>
+    </string-array>
+    <string-array name="carrier_telenor_actions">
+        <item>3G Weekly</item>
+        <item>3G 3 Day</item>
+        <item>3G Daily</item>
+    </string-array>
+    <string-array name="carrier_telenor_links">
+        <item>smsto:5221?body=3G_WEEKLY</item>
+        <item>smsto:5221?body=3G_3DAY</item>
+        <item>smsto:5221?body=DailyLite_Bundle</item>
+    </string-array>
+    <string-array name="carrier_tim_actions">
+        <item>TIM Avisa Premium</item>
+        <item>Meu Saldo</item>
+        <item>Recarga</item>
+        <item>Meu Tim</item>
+    </string-array>
+    <string-array name="carrier_tim_links">
+        <item>http://wap.tim.com.br/lp/truecallerapp</item>
+        <item>http://www.tim.com.br/rj/para-voce/servicos-tim/facilidades/consulta-de-saldo</item>
+        <item>http://www.tim.com.br/rj/para-voce/recarga/recarga-express</item>
+        <item>https://meutim.tim.com.br/login</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>"It's important"</item>
+        <item>Sorry</item>
+        <item>Where are you?</item>
+        <item>I have a question</item>
+    </string-array>
+    <integer-array name="context_call_picker_reasons_ondemand_ids">
+        <item>1000</item>
+        <item>1001</item>
+        <item>1002</item>
+        <item>1003</item>
+    </integer-array>
+    <string-array name="context_call_picker_reasons_ondemand_mid_second_call">
+        <item>It’s important 🚨</item>
+        <item>👋 Can we talk? 🤔</item>
+    </string-array>
+    <integer-array name="context_call_picker_reasons_ondemand_mid_second_call_ids">
+        <item>1004</item>
+        <item>1005</item>
+    </integer-array>
+    <string-array name="context_call_picker_reasons_ondemand_missed_call">
+        <item>👋 I got your call</item>
+        <item>Sorry, I was busy!</item>
+    </string-array>
+    <integer-array name="context_call_picker_reasons_ondemand_missed_call_ids">
+        <item>1006</item>
+        <item>1007</item>
+    </integer-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>"Hello 👋, It's urgent 🚨"</item>
+        <item>Hello 👋 Your order is ready!</item>
+        <item>"Are you free now? I'm downstairs!"</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Silent</item>
+        <item>Vibrate only</item>
+        <item>Sound only</item>
+        <item>Sound and Vibrate</item>
+    </string-array>
+    <array name="emojiicons">
+        <item>@drawable/ic_emoji_recent_light</item>
+        <item>@drawable/ic_emoji_people_light</item>
+        <item>@drawable/ic_emoji_nature_light</item>
+        <item>@drawable/ic_emoji_objects_light</item>
+        <item>@drawable/ic_emoji_places_light</item>
+        <item>@drawable/ic_emoji_symbols_light</item>
+        <item>@drawable/sym_keyboard_delete_holo_dark</item>
+    </array>
+    <string-array name="flash_tips">
+        <item>Use Flash when you want an assured response within a minute</item>
+        <item>Use Flash for important things you need to say quickly</item>
+        <item>Did you know: You can share your location quickly with just a tap</item>
+        <item>Tip: Send Emoji or type text to express yourself</item>
+    </string-array>
+    <array name="fullscreen_acs_caller_gradient_gold">
+        <item>#fff6e27a</item>
+        <item>#ffe0bd65</item>
+        <item>#dbcb9b51</item>
+        <item>#00000000</item>
+    </array>
+    <array name="fullscreen_acs_caller_gradient_identified">
+        <item>#ff0087ff</item>
+        <item>#cc0674d7</item>
+        <item>#00202124</item>
+    </array>
+    <array name="fullscreen_acs_caller_gradient_phonebook">
+        <item>#e6000000</item>
+        <item>#00000000</item>
+        <item>#e6000000</item>
+    </array>
+    <array name="fullscreen_acs_caller_gradient_priority">
+        <item>#ffa35bff</item>
+        <item>#cc7848b7</item>
+        <item>#00202124</item>
+    </array>
+    <array name="fullscreen_acs_caller_gradient_spam">
+        <item>#ffff6759</item>
+        <item>#ccc4554b</item>
+        <item>#00202124</item>
+    </array>
+    <array name="fullscreen_acs_caller_gradient_verified_business">
+        <item>#ff119d62</item>
+        <item>#cc185e47</item>
+        <item>#00202124</item>
+    </array>
+    <array name="fullscreen_video_gradient">
+        <item>#33000000</item>
+        <item>#00000000</item>
+        <item>#33000000</item>
+    </array>
+    <string-array name="incallui_button_message_options">
+        <item>@string/incallui_reject_message_first_option</item>
+        <item>@string/incallui_reject_message_second_option</item>
+        <item>@string/incallui_reject_message_third_option</item>
+        <item>@string/incallui_reject_message_custom_option</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <integer-array name="media2_widget_speed_multiplied_by_100">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </integer-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>Sort by first name</item>
+        <item>Sort by last name</item>
+    </string-array>
+    <string-array name="swish_flash_buttons">
+        <item>Thanks</item>
+        <item>Great!</item>
+        <item>Cool</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>Saved</item>
+        <item>Identified</item>
+    </string-array>
+    <string-array name="voip_button_message_options">
+        <item>@string/voip_reject_message_first_option</item>
+        <item>@string/voip_reject_message_second_option</item>
+        <item>@string/voip_reject_message_third_option</item>
+        <item>@string/voip_reject_message_custom_option</item>
+    </string-array>
+    <string-array name="wizard_restore_failed_options">
+        <item>@string/restore_onboarding_button_change_account</item>
+        <item>@string/StrRetry</item>
+        <item>@string/StrCancel</item>
+    </string-array>
+</resources>

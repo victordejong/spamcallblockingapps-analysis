@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?theme_dialogColor" android:padding="@dimen/control_doublespace" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/actionClose" android:padding="@dimen/control_space" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/control_space" android:contentDescription="@null" app:srcCompat="@drawable/ic_action_close" app:tint="?theme_textColorSecondary" />
+    <androidx.core.widget.NestedScrollView android:fadingEdgeLength="@dimen/control_quadspace" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:requiresFadingEdge="horizontal|vertical">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/promo_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <include android:id="@id/single_contact_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_doublespace" layout="@layout/item_single_contact" />
+            <View android:id="@id/divider" android:background="?theme_dividerColor" android:layout_width="fill_parent" android:layout_height="@dimen/control_hairline_micro" android:layout_marginTop="@dimen/control_doublespace" android:layout_marginBottom="@dimen/control_doublespace" />
+            <TextView android:id="@id/invite_more_friends" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/control_doublespace" style="@style/TextAppearance.Truecaller.ListItem.Secondary" />
+            <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/loader" android:padding="@dimen/control_space" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_triplespace" android:indeterminate="true" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/group_contacts_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toStartOf="@id/reveal_more" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+                <Button android:id="@id/reveal_more" android:background="@drawable/ic_expand_more" android:layout_width="@dimen/close_button" android:layout_height="@dimen/close_button" android:layout_centerVertical="true" android:layout_marginStart="@dimen/control_space" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button android:enabled="false" android:id="@id/invite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_space" android:text="@string/referral_invite_v1" style="@style/Widget.Truecaller.NonAppCompatButton.Action" />
+</LinearLayout>

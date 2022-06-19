@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/control_triplespace" android:paddingTop="20.0dip" android:paddingRight="@dimen/control_triplespace" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StyleX.Text.Body.B1" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/SpeedDialDialog_AssignNumber" style="@style/StyleX.Text.Body.B2" />
+    <EditText android:id="@id/number_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_space" android:maxLines="1" android:selectAllOnFocus="true" android:inputType="phone" android:imeOptions="actionDone" style="@style/StyleX.Input.Outline" />
+</LinearLayout>

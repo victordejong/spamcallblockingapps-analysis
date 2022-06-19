@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/data_layout" android:paddingBottom="@dimen/dimen_16_dp" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/favorite_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_12_dp" android:layout_marginBottom="@dimen/dimen_28_dp" android:paddingStart="@dimen/dimen_12_dp" android:paddingEnd="@dimen/dimen_12_dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_12_dp">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_12_dp" android:src="@drawable/ic_a_freq" />
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/dimen_16_dp" android:textStyle="bold" android:id="@id/favorite_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="@dimen/dimen_14_dp" android:id="@id/favorite_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:id="@id/divider_favorite" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <androidx.fragment.app.FragmentContainerView android:name="com.callapp.contacts.activity.analytics.progressGraph.fragment.GraphFragment" android:id="@id/graphFragmentFavorite" android:tag="analytics_graph" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/frequent_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_6_dp" android:layout_marginBottom="@dimen/dimen_28_dp" android:paddingStart="@dimen/dimen_12_dp" android:paddingEnd="@dimen/dimen_12_dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_12_dp">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_12_dp" android:src="@drawable/ic_a_fav" />
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/dimen_16_dp" android:textStyle="bold" android:id="@id/frequent_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="@dimen/dimen_14_dp" android:id="@id/frequent_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:id="@id/divider_frequent" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="@dimen/dimen_8_dp" />
+            <TextView android:textSize="@dimen/dimen_14_dp" android:id="@id/who_i_call_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_10_dp" />
+            <androidx.fragment.app.FragmentContainerView android:name="com.callapp.contacts.activity.analytics.circleGraph.fragment.CircleGraphFragment" android:id="@id/graphFragmentFrequentCallersA" android:tag="analytics_graph" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_12_dp" />
+            <TextView android:textSize="@dimen/dimen_14_dp" android:id="@id/who_call_me_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_10_dp" />
+            <androidx.fragment.app.FragmentContainerView android:name="com.callapp.contacts.activity.analytics.circleGraph.fragment.CircleGraphFragment" android:id="@id/graphFragmentFrequentCallersB" android:tag="analytics_graph" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/call_time_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_6_dp" android:paddingStart="@dimen/dimen_12_dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_12_dp">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_12_dp" android:src="@drawable/ic_a_cal_time" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/dimen_16_dp" android:textStyle="bold" android:id="@id/call_time_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="@dimen/dimen_14_dp" android:id="@id/call_time_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:id="@id/divider_call_time" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <androidx.fragment.app.FragmentContainerView android:name="com.callapp.contacts.activity.analytics.progressGraph.fragment.CallDurationGraphFragment" android:id="@id/graphFragmentCallTime" android:tag="analytics_graph" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/empty_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/firstPlaceHolder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+        <ImageView android:layout_gravity="center" android:id="@id/secondPlaceHolder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+        <ImageView android:layout_gravity="center" android:id="@id/thirdPlaceHolder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/lb_setting_back" android:background="?card_foreground" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ic_back" android:contentDescription="@string/back" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" app:tint="?icon_color_white" />
+        <TextView android:id="@id/tv_title_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/generalset" android:layout_marginStart="8.0dip" style="@style/headerbar_text_style" />
+    </LinearLayout>
+    <FrameLayout android:background="?color_ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:id="@id/fl_copy" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:foreground="?card_foreground" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                    <ImageView android:layout_gravity="start|center" android:id="@id/copy" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/home_search_icon" app:tint="?icon_color_gray" />
+                    <LinearLayout android:layout_gravity="start|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="56.0dip" android:layout_marginStart="56.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:id="@id/tv_copy_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/copy_title" />
+                        <TextView android:textSize="12.0sp" android:textColor="?color_666666" android:id="@id/tv_copy_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/copy_tip" />
+                    </LinearLayout>
+                    <Switch android:theme="@style/mySwitch" android:layout_gravity="end|center" android:id="@id/switch_copy" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:contentDescription="@string/copy_title" />
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" android:layout_marginLeft="72.0dip" android:layout_marginStart="72.0dip" />
+                <FrameLayout android:id="@id/fl_notifi" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:foreground="?card_foreground" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                    <ImageView android:layout_gravity="start|center" android:id="@id/notifi" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_notifi" app:tint="?icon_color_gray" />
+                    <LinearLayout android:layout_gravity="start|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="56.0dip" android:layout_marginStart="56.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:id="@id/tv_notifi_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rate_tiele" />
+                        <TextView android:textSize="12.0sp" android:textColor="?color_666666" android:id="@id/tv_notifi_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/rate_tip" />
+                    </LinearLayout>
+                    <Switch android:theme="@style/mySwitch" android:layout_gravity="end|center" android:id="@id/switch_notifi" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:contentDescription="@string/rate_tiele" />
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" android:layout_marginLeft="72.0dip" android:layout_marginStart="72.0dip" />
+                <FrameLayout android:id="@id/fl_theme" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="72.0dip" android:foreground="?card_foreground" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                    <ImageView android:layout_gravity="start|center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_theme" app:tint="?icon_color_gray" />
+                    <LinearLayout android:layout_gravity="start|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="56.0dip" android:layout_marginStart="56.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:id="@id/tv_theme" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/theme" />
+                        <TextView android:textSize="12.0sp" android:textColor="?color_666666" android:id="@id/tv_theme_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/system_default" />
+                    </LinearLayout>
+                    <Switch android:theme="@style/mySwitch" android:layout_gravity="end|center" android:id="@id/switch_theme" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:contentDescription="@string/rate_tiele" />
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" android:layout_marginLeft="72.0dip" android:layout_marginStart="72.0dip" />
+                <FrameLayout android:id="@id/fl_push" android:layout_width="fill_parent" android:layout_height="72.0dip" android:foreground="?card_foreground">
+                    <ImageView android:layout_gravity="start|center" android:id="@id/iv_push" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/setting_push" android:layout_marginStart="16.0dip" app:tint="?icon_color_gray" />
+                    <LinearLayout android:layout_gravity="start|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginStart="72.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:id="@id/tv_push" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notification" />
+                        <TextView android:textSize="12.0sp" android:textColor="?color_666666" android:id="@id/tv_push_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/notification_des" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" android:layout_marginLeft="72.0dip" android:layout_marginStart="72.0dip" />
+                <FrameLayout android:id="@id/fl_select_sim" android:layout_width="fill_parent" android:layout_height="72.0dip" android:foreground="?card_foreground">
+                    <ImageView android:layout_gravity="start|center" android:id="@id/iv_select_sim" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/card" android:layout_marginStart="16.0dip" app:tint="?icon_color_gray" />
+                    <LinearLayout android:layout_gravity="start|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginStart="72.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/selectsim" />
+                        <TextView android:textSize="12.0sp" android:textColor="?color_666666" android:id="@id/tv_sim" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/sim_ask" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:id="@id/select_sim_line" android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" android:layout_marginLeft="72.0dip" android:layout_marginStart="72.0dip" />
+                <FrameLayout android:id="@id/ib_offline" android:layout_width="fill_parent" android:layout_height="72.0dip" android:foreground="?card_foreground">
+                    <ImageView android:layout_gravity="start|center" android:id="@id/iv_offline" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_block_list" android:layout_marginStart="16.0dip" app:tint="?icon_color_gray" />
+                    <LinearLayout android:layout_gravity="start|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginStart="72.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:id="@id/tv_offline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/offline" />
+                        <TextView android:textSize="12.0sp" android:textColor="?color_666666" android:id="@id/tv_offline_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="?color_line" android:layout_width="fill_parent" android:layout_height="0.39999998dip" android:layout_marginLeft="72.0dip" android:layout_marginStart="72.0dip" />
+                <FrameLayout android:id="@id/ib_about" android:layout_width="fill_parent" android:layout_height="72.0dip" android:foreground="?card_foreground">
+                    <ImageView android:layout_gravity="start|center" android:id="@id/about" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/iv_about" android:layout_marginStart="16.0dip" app:tint="?icon_color_gray" />
+                    <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="start|center" android:id="@id/tv_about" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:text="@string/setting_about" android:layout_marginStart="72.0dip" />
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="64.0dip" android:layout_marginStart="64.0dip">
+                    <TextView android:textSize="14.0sp" android:textColor="?color_999999" android:id="@id/tv_privacy" android:background="?android:selectableItemBackground" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/privacy_policy" />
+                    <TextView android:textSize="14.0sp" android:textColor="?color_999999" android:id="@id/tv_terms" android:background="?android:selectableItemBackground" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/terms_of_use" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <View android:background="@drawable/tab" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    </FrameLayout>
+</LinearLayout>

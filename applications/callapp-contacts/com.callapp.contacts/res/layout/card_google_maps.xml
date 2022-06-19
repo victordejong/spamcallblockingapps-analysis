@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="20.0dip" app:cardElevation="0.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <com.google.android.gms.maps.MapView android:id="@id/map_view" android:layout_width="fill_parent" android:layout_height="@dimen/google_maps_card_view_height" app:liteMode="true" />
-</androidx.cardview.widget.CardView>

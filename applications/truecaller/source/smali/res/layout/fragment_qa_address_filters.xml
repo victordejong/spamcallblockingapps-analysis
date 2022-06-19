@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:padding="@dimen/dp16" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <TextView android:id="@id/senderId" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Text.Headline.H6" />
+        <TextView android:id="@id/filtersDetails" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp16" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/senderId" style="@style/StyleX.Text.Body.B1" />
+        <Button android:id="@id/copy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Copy" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/filtersDetails" style="@style/StyleX.Button.Primary" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

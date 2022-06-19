@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_star_white_24dp" android:id="@id/menu_item_favorites" android:title="@string/favorites" android:titleCondensed="" />
+    <item android:icon="@drawable/ic_history_white_24dp" android:id="@id/menu_item_recent" android:title="@string/recent" android:titleCondensed="" />
+    <item android:icon="@drawable/ic_people_white_24dp" android:id="@id/menu_item_contacts" android:title="@string/contacts" android:titleCondensed="" />
+</menu>

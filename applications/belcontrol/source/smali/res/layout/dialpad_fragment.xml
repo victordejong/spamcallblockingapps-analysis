@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.flexaspect.android.everycallcontrol.ui.fragments.dialpad.DialpadFragment$DialpadSlidingRelativeLayout" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/txtCreateAccount" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/imageView39" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:src="@drawable/ic_user_plus" android:paddingStart="32.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/colorPrimary" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/create_new_account_dialpad" android:paddingStart="12.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/txtBlockAndReport" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/imageView40" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_stop_ico" android:paddingStart="32.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/colorPrimary" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/block_amp_report_dialpad" android:paddingStart="12.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/txtLookup" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/imageView41" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_lookup_dialpad" android:paddingStart="32.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/colorPrimary" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/a_lookup" android:paddingStart="12.0dip" />
+        </LinearLayout>
+        <View android:id="@id/spacer" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <View android:background="@drawable/shadow_fade_up" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+        <include layout="@layout/dialpad_view" />
+        <ListView android:id="@id/dialpadChooser" android:background="@color/colorAccent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Space android:id="@id/dialpad_floating_action_button_margin_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/floating_action_button_margin_bottom" android:layout_alignParentBottom="true" />
+    <FrameLayout android:id="@id/dialpad_floating_action_button_container" android:background="@drawable/ic_fab_answer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/dialpad_floating_action_button_margin_bottom" android:layout_centerHorizontal="true">
+        <ImageButton android:id="@id/dialpad_floating_action_button" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_fab_answer" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/containerDialpad" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</view>

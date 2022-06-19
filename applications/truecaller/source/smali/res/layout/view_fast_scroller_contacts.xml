@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fast_scroller_bubble" android:visibility="invisible" android:layout_width="@dimen/fast_scroller_bubble_size" android:layout_height="@dimen/fast_scroller_bubble_size" android:layout_toStartOf="@id/fast_scroller_bar">
+        <com.truecaller.ui.view.TintedImageView android:id="@id/fast_scroller_bubble_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/fast_scroller_bubble" app:imgTint="?tcx_brandBackgroundBlue" />
+        <TextView android:textSize="@dimen/fast_scroller_bubble_text_size" android:textColor="?tcx_backgroundPrimary" android:gravity="center" android:id="@id/fast_scroller_bubble_text" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <com.truecaller.ui.view.TintedImageView android:id="@id/fast_scroller_bar" android:layout_width="@dimen/control_semispace" android:layout_height="@dimen/control_quadspace" android:src="@drawable/rounded_rectangle" android:layout_marginStart="@dimen/control_space" android:layout_marginEnd="@dimen/control_semispace" android:layout_alignParentEnd="true" app:imgTint="?tcx_textSecondary" />
+</merge>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@mipmap/ic_favorites_launcher" android:enabled="true" android:shortcutId="favorite" android:shortcutShortLabel="@string/favorites_app_name">
+        <intent android:targetPackage="com.callapp.contacts" android:action="android.intent.action.MAIN" android:targetClass="com.callapp.contacts.activity.proxy.FavoritesSubActivity" />
+        <categories android:name="android.intent.category.LAUNCHER" />
+    </shortcut>
+    <shortcut android:icon="@mipmap/ic_call_log_launcher" android:enabled="true" android:shortcutId="calllog" android:shortcutShortLabel="@string/calllog_app_name">
+        <intent android:targetPackage="com.callapp.contacts" android:action="android.intent.action.MAIN" android:targetClass="com.callapp.contacts.activity.proxy.CallLogSubActivity" />
+        <categories android:name="android.intent.category.LAUNCHER" />
+    </shortcut>
+    <shortcut android:icon="@mipmap/ic_dialer_launcher" android:enabled="true" android:shortcutId="dialer" android:shortcutShortLabel="@string/dialer_app_name">
+        <intent android:targetPackage="com.callapp.contacts" android:action="android.intent.action.DIAL" android:targetClass="com.callapp.contacts.activity.proxy.DialerSubActivity" />
+        <categories android:name="android.intent.category.DEFAULT" />
+    </shortcut>
+</shortcuts>

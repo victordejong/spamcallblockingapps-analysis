@@ -1,0 +1,266 @@
+.class public final Lg/g/a/a/i/k/d$b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lg/g/a/a/i/k/d;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "b"
+.end annotation
+
+
+# instance fields
+.field private cachedProfileTag:Ljava/lang/String;
+
+.field private clientSignal:Ljava/lang/String;
+
+.field private clientTag:Ljava/lang/String;
+
+.field private dispositionDTO:Lg/g/a/a/i/k/b;
+
+.field private eventProfileEvent:Lg/g/a/a/i/k/c;
+
+.field private profileTag:Ljava/lang/String;
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method synthetic constructor <init>(Lg/g/a/a/i/k/d$a;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lg/g/a/a/i/k/d$b;-><init>()V
+
+    return-void
+.end method
+
+.method static synthetic access$100(Lg/g/a/a/i/k/d$b;)Lg/g/a/a/i/k/c;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lg/g/a/a/i/k/d$b;->eventProfileEvent:Lg/g/a/a/i/k/c;
+
+    return-object p0
+.end method
+
+.method static synthetic access$200(Lg/g/a/a/i/k/d$b;)Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lg/g/a/a/i/k/d$b;->profileTag:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method static synthetic access$300(Lg/g/a/a/i/k/d$b;)Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lg/g/a/a/i/k/d$b;->cachedProfileTag:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method static synthetic access$400(Lg/g/a/a/i/k/d$b;)Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lg/g/a/a/i/k/d$b;->clientTag:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method static synthetic access$500(Lg/g/a/a/i/k/d$b;)Lg/g/a/a/i/k/b;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lg/g/a/a/i/k/d$b;->dispositionDTO:Lg/g/a/a/i/k/b;
+
+    return-object p0
+.end method
+
+.method static synthetic access$600(Lg/g/a/a/i/k/d$b;)Ljava/lang/String;
+    .locals 0
+
+    .line 1
+    iget-object p0, p0, Lg/g/a/a/i/k/d$b;->clientSignal:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public build()Lg/g/a/a/i/k/d;
+    .locals 2
+
+    .line 1
+    new-instance v0, Lg/g/a/a/i/k/d;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, p0, v1}, Lg/g/a/a/i/k/d;-><init>(Lg/g/a/a/i/k/d$b;Lg/g/a/a/i/k/d$a;)V
+
+    return-object v0
+.end method
+
+.method public withCachedProfileTag(Ljava/lang/String;)Lg/g/a/a/i/k/d$b;
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lg/g/a/a/i/k/d$b;->cachedProfileTag:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method public withClientSignal(Ljava/lang/String;)Lg/g/a/a/i/k/d$b;
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lg/g/a/a/i/k/d$b;->clientSignal:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method public withClientTag(Ljava/lang/String;)Lg/g/a/a/i/k/d$b;
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lg/g/a/a/i/k/d$b;->clientTag:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method public withClientTag(Ljava/util/Map;)Lg/g/a/a/i/k/d$b;
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ">;)",
+            "Lg/g/a/a/i/k/d$b;"
+        }
+    .end annotation
+
+    .line 2
+    invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
+
+    move-result-object p1
+
+    invoke-interface {p1}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
+    move-result-object p1
+
+    .line 3
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 4
+    :cond_0
+    :goto_0
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_1
+
+    .line 5
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/util/Map$Entry;
+
+    .line 6
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/String;
+
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 7
+    invoke-static {}, Lg/g/a/a/i/k/d;->access$700()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {v0, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 8
+    invoke-interface {v1}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 9
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    .line 10
+    invoke-static {}, Lg/g/a/a/i/k/d;->access$800()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    goto :goto_0
+
+    .line 11
+    :cond_1
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lg/g/a/a/i/k/d$b;->clientTag:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method public withDispositionDTO(Lg/g/a/a/i/k/b;)Lg/g/a/a/i/k/d$b;
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lg/g/a/a/i/k/d$b;->dispositionDTO:Lg/g/a/a/i/k/b;
+
+    return-object p0
+.end method
+
+.method public withEventProfileEvent(Lg/g/a/a/i/k/c;)Lg/g/a/a/i/k/d$b;
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lg/g/a/a/i/k/d$b;->eventProfileEvent:Lg/g/a/a/i/k/c;
+
+    return-object p0
+.end method
+
+.method public withProfileTag(Ljava/lang/String;)Lg/g/a/a/i/k/d$b;
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lg/g/a/a/i/k/d$b;->profileTag:Ljava/lang/String;
+
+    return-object p0
+.end method

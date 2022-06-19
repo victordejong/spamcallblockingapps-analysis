@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/drawable_highlights_privacy_rounded_border" android:paddingBottom="@dimen/dp16" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.ui.view.TintedImageView android:id="@id/privacyIv" android:padding="@dimen/dp4" android:layout_width="@dimen/dp28" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp16" android:src="@drawable/ic_highlights_security" android:layout_marginStart="@dimen/dp16" app:imgTint="?tcx_textPrimary" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textColor="?tcx_textSecondary" android:id="@id/privacyTv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/security_offline_text" android:layout_marginStart="@dimen/dp16" android:layout_marginEnd="@dimen/dp16" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/privacyIv" app:layout_constraintTop_toTopOf="@id/privacyIv" style="@style/StyleX.Text.Caption" />
+</androidx.constraintlayout.widget.ConstraintLayout>

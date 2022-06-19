@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/linearLayout12" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.mopub.mobileads.MoPubView android:id="@id/mopub_adview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginBottom="16.0dip" android:layout_alignParentTop="true" />
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/mopub_adview" app:cardBackgroundColor="@android:color/transparent" app:cardCornerRadius="15.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/community_name_suggestion_layout1" android:background="@drawable/ic_missed_overlay_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/imageView9" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_waves" android:scaleType="fitXY" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+                <TextView android:textSize="14.0dip" android:textColor="@color/colorWhite" android:gravity="start|center" android:id="@id/missed_call" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/suggestion_name_dialog_title" android:alpha="0.7" android:fontFamily="@font/google_sans_regular" android:layout_marginStart="24.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <FrameLayout android:id="@id/frameLayout9" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="@id/missed_call" app:layout_constraintTop_toBottomOf="@id/missed_call">
+                    <include android:id="@id/missedLayTop" layout="@layout/missed_lay_top" />
+                    <include android:id="@id/editLayTop" android:visibility="gone" layout="@layout/missed_edit_lay" />
+                    <include android:id="@id/notPremiumLay" android:visibility="gone" layout="@layout/missed_premium_lay" />
+                    <include android:id="@id/privateLayTop" android:visibility="gone" layout="@layout/missed_private_lay_top" />
+                </FrameLayout>
+                <ImageView android:id="@id/imgClose" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close_btn" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="@id/missed_call" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/missed_call" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <FrameLayout android:id="@id/missed_lay_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+                <include android:id="@id/missed_lay" layout="@layout/missed_lay" />
+                <include android:id="@id/missedEditLayBottom" android:visibility="gone" layout="@layout/missed_edit_lay_bottom" />
+                <include android:id="@id/missedPrivateLay" android:visibility="gone" layout="@layout/missed_private_lay" />
+            </FrameLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="end|bottom|center" android:id="@id/imageView11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:src="@drawable/ic_brand_logo_no_shadow" android:scaleType="fitXY" android:layout_marginEnd="16.0dip" />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

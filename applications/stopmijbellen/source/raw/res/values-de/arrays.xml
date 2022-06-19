@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_array">
+        <item>Privat</item>
+        <item>Sammler/Banken</item>
+        <item>Werbung/SPAM</item>
+        <item>Stille Anrufe</item>
+        <item>Betrug</item>
+        <item>Finanzdienstleistungen</item>
+        <item>Sonstige …</item>
+    </string-array>
+    <string-array name="category_feedback_array">
+        <item>Keine Kategorie</item>
+        <item>Sammler/Banken</item>
+        <item>Werbung/SPAM</item>
+        <item>Stille Anrufe</item>
+        <item>Betrug</item>
+        <item>Finanzdienstleistungen</item>
+        <item>Sonstige …</item>
+    </string-array>
+    <string-array name="posneg_array">
+        <item>Negativ</item>
+        <item>Neutral</item>
+        <item>Positiv</item>
+    </string-array>
+    <string-array name="settings_block_methods_array">
+        <item>Anruf beenden (Ablehnen)</item>
+        <item>Klingelton stummschalten</item>
+    </string-array>
+</resources>

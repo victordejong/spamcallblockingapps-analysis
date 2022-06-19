@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/welcome_slide3_fragment_0" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/wizard_bg_3" android:scaleType="fitStart" android:foregroundGravity="bottom" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/textAppearanceSpartan" android:textStyle="bold" android:textColor="@color/colorAccentLight" android:text="@string/privacy" android:height="40.0dip" style="@style/textViewStyleAutosizedSingleLineCentered" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0dip" android:layout_gravity="center" android:layout_width="300.0dip" android:layout_marginBottom="@dimen/spaceMedium" android:text="@string/the_app_works_on_an_anonymous_basis_we_never_share_your_private_data_with_anyone" style="@style/textViewStyleCenter" />
+    </LinearLayout>
+</FrameLayout>

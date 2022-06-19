@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="@style/StyleX.Text.Subtitle.S1" android:textColor="?tcx_textSecondary" android:gravity="center_vertical" android:id="@id/header_text" android:background="?tcx_backgroundPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:paddingStart="@dimen/doubleSpace" android:paddingEnd="@dimen/doubleSpace"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

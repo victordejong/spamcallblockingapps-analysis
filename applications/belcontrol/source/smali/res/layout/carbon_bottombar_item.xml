@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.RelativeLayout android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/carbon_bottomBarInactiveMinWidth" app:carbon_maxWidth="@dimen/carbon_bottomBarInactiveMaxWidth" app:carbon_rippleColor="?carbon_rippleColor" app:carbon_rippleStyle="borderless"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <carbon.widget.TextMarker android:id="@id/carbon_bottomTextMarker" android:layout_width="1.0dip" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true" app:carbon_text="I" app:carbon_textView="@id/carbon_bottomText" />
+    <carbon.widget.TextView android:textSize="12.0sp" android:textColor="?carbon_iconColorInverse" android:id="@id/carbon_bottomText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/carbon_bottomTextMarker" android:layout_centerHorizontal="true" app:carbon_fontFamily="RobotoRegular" />
+    <carbon.widget.ImageView android:id="@id/carbon_bottomIcon" android:layout_width="@dimen/carbon_iconSize" android:layout_height="@dimen/carbon_iconSize" android:layout_marginBottom="6.0dip" android:layout_above="@id/carbon_bottomTextMarker" android:layout_centerHorizontal="true" app:carbon_tint="?carbon_iconColorInverse" />
+</carbon.widget.RelativeLayout>

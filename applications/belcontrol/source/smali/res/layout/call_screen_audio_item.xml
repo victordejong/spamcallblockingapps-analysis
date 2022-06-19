@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/call_screen_audio_item_image" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_margin="2.0dip" android:src="@drawable/callscreen_speaker" android:scaleType="fitCenter" android:adjustViewBounds="true" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/call_screen_grey_text" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/call_screen_audio_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:text="" android:maxLines="1" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:padding="@dimen/control_space" android:duplicateParentState="true" style="@style/Widget.Truecaller.ContainerWrap"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/comboTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/BlockFragmentBlockMethod" style="@style/StyleX.Text.Subtitle.S1.Medium" />
+    <TextView android:textColor="?tcx_textSecondary" android:id="@id/listItemTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_space" style="@style/StyleX.Text.Caption" />
+    <ImageView android:id="@id/listItemIcon" android:layout_width="@dimen/control_triplespace" android:layout_height="@dimen/control_triplespace" android:contentDescription="@string/AppName" android:layout_marginStart="@dimen/control_semispace" android:layout_marginEnd="0.0dip" />
+</LinearLayout>

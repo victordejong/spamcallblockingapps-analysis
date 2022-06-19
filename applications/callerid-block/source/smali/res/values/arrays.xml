@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bg_window">
+        <item>@drawable/bg_window_light</item>
+        <item>@drawable/bg_window_dark</item>
+    </array>
+    <array name="in_colors_dark">
+        <item>#4b00e5ff</item>
+        <item>#3300e5ff</item>
+        <item>#1900e5ff</item>
+    </array>
+    <array name="in_colors_light">
+        <item>#4b03a9f4</item>
+        <item>#3303a9f4</item>
+        <item>#1903a9f4</item>
+    </array>
+    <array name="listview">
+        <item>@style/LightListView</item>
+        <item>@style/DarkListView</item>
+    </array>
+    <array name="pv_circular_in">
+        <item>@style/LightInCircularProgressView</item>
+        <item>@style/DarkInCircularProgressView</item>
+    </array>
+    <array name="switches">
+        <item>@style/LightSwitch</item>
+        <item>@style/DarkSwitch</item>
+    </array>
+    <array name="tab_indicator">
+        <item>@style/LightTabPageIndicator</item>
+        <item>@style/DarkTabPageIndicator</item>
+    </array>
+</resources>

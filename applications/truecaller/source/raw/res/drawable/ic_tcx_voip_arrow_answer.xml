@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_tcx_arrow" android:bottom="@dimen/voip_incoming_arrow_drawable_bottom_margin_0" />
+    <item android:drawable="@drawable/ic_tcx_arrow" android:top="@dimen/voip_incoming_arrow_drawable_bottom_margin_1" android:bottom="@dimen/voip_incoming_arrow_drawable_top_margin_1" />
+    <item android:drawable="@drawable/ic_tcx_arrow" android:top="@dimen/voip_incoming_arrow_drawable_top_margin_2" />
+</layer-list>

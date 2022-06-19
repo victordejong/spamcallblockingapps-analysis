@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widgetRowContainer" android:paddingTop="@dimen/control_space" android:paddingBottom="@dimen/control_space" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/control_semispace" android:paddingEnd="@dimen/control_semispace"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/rowType" android:padding="@dimen/control_space" android:layout_centerVertical="true" android:contentDescription="@string/AppName" style="@style/ActionButton" />
+    <ImageView android:id="@id/rowPicture" android:layout_width="@dimen/widget_avatar" android:layout_height="@dimen/widget_avatar" android:contentDescription="@string/AppName" android:layout_toEndOf="@id/rowType" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/text_accented_control_default" android:ellipsize="end" android:id="@id/rowTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignTop="@id/rowType" android:paddingStart="@dimen/control_space" android:paddingEnd="@dimen/control_space" android:layout_toEndOf="@id/rowPicture" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="12.0sp" android:ellipsize="end" android:id="@id/rowDetails" android:maxLines="1" android:layout_below="@id/rowTitle" android:paddingStart="@dimen/control_space" android:paddingEnd="@dimen/control_space" android:layout_toEndOf="@id/rowPicture" android:layout_alignParentEnd="true" style="@style/Widget.Truecaller.TextView.CallerIdHeaderText.Subtitle" />
+</RelativeLayout>

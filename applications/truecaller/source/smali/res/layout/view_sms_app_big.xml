@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="?theme_cardColor" android:paddingLeft="@dimen/quadrupleSpace" android:paddingTop="@dimen/main_toolbar_height" android:paddingRight="@dimen/quadrupleSpace" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" app:lottie_autoPlay="true" app:lottie_fileName="animations/sms_roadblock.json" app:lottie_loop="false" />
+    <TextView android:textSize="24.0sp" android:textColor="?android:textColorPrimary" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SmsAppTitle" android:fontFamily="sans-serif-light" />
+    <TextView android:textSize="14.0sp" android:textColor="?theme_textColorPrimary" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" android:maxWidth="240.0dip" android:text="@string/SmsAppText" />
+    <Button android:theme="?actionButtonTheme" android:id="@id/sms_app_button" android:paddingLeft="@dimen/control_hexaspace" android:paddingRight="@dimen/control_hexaspace" android:layout_width="wrap_content" android:layout_height="54.0dip" android:layout_marginTop="@dimen/quadrupleSpace" android:text="@string/StrContinue" />
+    <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.2" />
+</LinearLayout>

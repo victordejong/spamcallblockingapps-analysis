@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="245.0dip" android:width="136.0dip" android:viewportWidth="160.0" android:viewportHeight="288.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="Theme-picker" android:translateX="-100.0" android:translateY="-112.0">
+        <group android:name="Group-2" android:translateX="100.0" android:translateY="112.0">
+            <path android:name="phone_number_bg" android:fillColor="#ffffffff" android:pathData="M 8 136 H 152 V 264 H 8 V 136 Z" android:strokeWidth="1.0" android:fillType="evenOdd" />
+        </group>
+    </group>
+</vector>

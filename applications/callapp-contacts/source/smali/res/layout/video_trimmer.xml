@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/black_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/videoViewContainer" android:background="@color/black_overlay" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/backgroundView" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <VideoView android:layout_gravity="center" android:id="@id/videoView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="center" android:id="@id/playIndicatorView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_video_play" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/backgroundView" android:background="@color/black_overlay" android:paddingTop="@dimen/dimen_10_dp" android:paddingBottom="@dimen/dimen_20_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <FrameLayout android:id="@id/trimmingContainer" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <com.lb.video_trimmer_library.view.TimeLineView android:id="@id/timeLineView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.lb.video_trimmer_library.view.RangeSeekBarView android:id="@id/rangeSeekBarView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/timeTextContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_20_dp" android:layout_marginTop="@dimen/dimen_5_dp" android:layout_marginRight="@dimen/dimen_20_dp">
+            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_gravity="end" android:id="@id/videoFileSizeTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center" android:id="@id/trimTimeRangeTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_gravity="start" android:id="@id/playbackTimeTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <RelativeLayout android:orientation="horizontal" android:id="@id/actionButtons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_16_dp" android:layout_marginTop="@dimen/dimen_12_dp" android:layout_marginRight="@dimen/dimen_16_dp">
+            <FrameLayout android:id="@id/cancelButtonFrame" android:background="@drawable/ripple_or_holo" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0dip" android:textColor="@color/white_callapp" android:gravity="center" android:id="@id/cancelButton" android:layout_width="100.0dip" android:layout_height="32.0dip" android:text="@string/cancel" android:textAllCaps="true" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/doneButtonFrame" android:background="@drawable/ripple_or_holo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                <TextView android:textSize="16.0dip" android:textColor="@color/white_callapp" android:gravity="center" android:id="@id/doneButton" android:background="@drawable/primary_rounded_rect" android:layout_width="100.0dip" android:layout_height="32.0dip" android:text="@string/doneAllCaps" android:textAllCaps="true" />
+            </FrameLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

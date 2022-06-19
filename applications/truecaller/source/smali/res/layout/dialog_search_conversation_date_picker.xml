@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tripleSpace" style="@style/StyleX.Text.Headline.H6" />
+    <DatePicker android:layout_gravity="center" android:id="@id/datePicker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:calendarViewShown="false" android:datePickerMode="spinner" />
+    <View android:background="?tcx_fillQuarternaryBackground" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <Button android:id="@id/negativeButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/actionCancel" style="@style/StyleX.Button.Small.Action" />
+    <View android:background="?tcx_fillQuarternaryBackground" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <Button android:id="@id/positiveButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/search_conversation_jump_to_date" style="@style/StyleX.Button.Small.Action" />
+</LinearLayout>

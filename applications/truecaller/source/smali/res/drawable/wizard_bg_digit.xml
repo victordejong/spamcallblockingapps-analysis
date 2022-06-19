@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:enterFadeDuration="@integer/wizard_animation_duration_short" android:exitFadeDuration="@integer/wizard_animation_duration_short"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/wizard_digit_frame_grey" android:state_activated="true" />
+    <item android:drawable="@drawable/wizard_digit_frame_blue" />
+</selector>

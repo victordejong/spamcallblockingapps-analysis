@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginBottom="6.0dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/amount" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/progressBar" style="@style/Caption.Number_text" />
+    <TextView android:gravity="center" android:id="@id/percents" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/stopBtn" android:layout_above="@id/progressBar" style="@style/Caption.Number_text" />
+    <ImageView android:id="@id/stopBtn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:src="@drawable/ic_remove" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <ProgressBar android:id="@id/progressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="12.0dip" android:max="100" android:progress="0" android:indeterminate="false" android:layout_toLeftOf="@id/stopBtn" android:layout_alignParentBottom="true" style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal" />
+    <TextView android:gravity="center_horizontal" android:id="@id/downloading_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="22.0dip" android:layout_alignParentBottom="true" style="@style/Caption.Number_text" />
+</RelativeLayout>

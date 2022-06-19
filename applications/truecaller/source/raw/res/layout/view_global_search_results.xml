@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:background="?tcx_backgroundPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/history_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:paddingTop="@dimen/control_space" android:paddingBottom="@dimen/control_space" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

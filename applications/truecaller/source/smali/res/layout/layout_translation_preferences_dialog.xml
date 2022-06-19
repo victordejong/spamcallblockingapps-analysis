@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="?tcx_backgroundPrimary" app:cardPreventCornerOverlap="false" style="@style/StyleX.CardView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="start" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tripleSpace" android:text="@string/SettingsDownloadPreferences" android:layout_marginStart="@dimen/tripleSpace" android:layout_marginEnd="@dimen/tripleSpace" style="@style/StyleX.Text.Headline.H6" />
+        <RadioGroup android:orientation="vertical" android:id="@id/radioGroup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" android:layout_marginStart="@dimen/tripleSpace" android:layout_marginEnd="@dimen/tripleSpace">
+            <RadioButton android:textSize="@dimen/text_size_head5" android:id="@id/radio_wifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SettingDownloadTranslationsWifi" android:buttonTint="?tcx_brandBackgroundBlue" />
+            <RadioButton android:textSize="@dimen/text_size_head5" android:id="@id/radio_wifi_mobile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space" android:checked="true" android:text="@string/SettingDownloadTranslationsWifiMobile" android:buttonTint="?tcx_brandBackgroundBlue" />
+        </RadioGroup>
+        <CheckBox android:textSize="@dimen/text_size_head5" android:id="@id/checkbox" android:layout_width="fill_parent" android:layout_height="@dimen/control_hexaspace" android:layout_marginTop="@dimen/space" android:checked="true" android:text="@string/SettingTranslationsRememberThisSetting" android:layout_marginStart="@dimen/tripleSpace" android:layout_marginEnd="@dimen/tripleSpace" />
+        <View android:theme="?tcx_theme" android:background="?tcx_fillQuarternaryBackground" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/space" />
+        <Button android:textSize="14.0sp" android:textColor="?tcx_textSecondary" android:id="@id/cancelButton" android:layout_width="fill_parent" android:layout_height="@dimen/quintSpace" android:text="@string/StrCancel" style="@style/StyleX.Button.Small.Action" />
+        <View android:theme="?tcx_theme" android:background="?tcx_fillQuarternaryBackground" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <Button android:textSize="14.0sp" android:id="@id/downloadButton" android:layout_width="fill_parent" android:layout_height="@dimen/quintSpace" android:text="@string/menu_download" style="@style/StyleX.Button.Small.Action" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

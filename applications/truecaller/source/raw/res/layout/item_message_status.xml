@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.android.truemoji.widget.EmojiTextView android:textSize="@dimen/textExtraSmall" android:textColor="?tcx_textSecondary" android:gravity="start|center" android:layout_gravity="center" android:id="@id/content_text" android:background="@drawable/conversation_header_background" android:paddingTop="@dimen/semiSpace" android:paddingBottom="@dimen/semiSpace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/message_spacing" android:layout_marginBottom="@dimen/message_spacing" android:minHeight="24.0dip" android:drawablePadding="@dimen/semiSpace" android:drawableStart="@drawable/ic_snippet_group_16dp" android:paddingStart="@dimen/space" android:paddingEnd="@dimen/space" android:layout_marginStart="@dimen/doubleSpace" android:layout_marginEnd="@dimen/doubleSpace" app:drawableTint="?tcx_brandBackgroundBlue" />
+    <FrameLayout android:id="@id/active_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" />
+</FrameLayout>

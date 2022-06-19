@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/signup" android:visibility="gone" style="@style/Widget.Truecaller.CardView" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.truecaller.ui.view.TintedImageView android:id="@id/signupImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_lock" android:layout_centerVertical="true" android:paddingStart="@dimen/control_doublespace" android:paddingEnd="@dimen/control_doublespace" app:imgTint="?theme_textColorSecondary" />
+        <TextView android:textSize="?list_secondaryTextSize" android:textColor="?theme_textColorPrimary" android:id="@id/signupFirstLine" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_triplespace" android:text="@string/SignUpToTruecallerFirstLine" android:layout_toEndOf="@id/signupImage" />
+        <TextView android:textSize="?list_secondaryTextSize" android:textStyle="bold" android:textColor="?theme_textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/control_triplespace" android:text="@string/SignUpToTruecallerSecondLine" android:layout_below="@id/signupFirstLine" android:layout_toEndOf="@id/signupImage" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

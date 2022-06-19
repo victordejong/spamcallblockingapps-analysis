@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_gravity="center|left" android:id="@id/settingsRowSwitchContainer" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/settings_switch" android:layout_centerVertical="true" android:layout_toStartOf="@id/settings_switch" layout="@layout/settings_row_view" />
-    <Switch android:id="@id/settings_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:textOn="" android:textOff="" android:thumb="@drawable/layers_switch_thumb" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:track="@drawable/ic_toggle_bg" android:switchMinWidth="46.0dip" android:layout_alignParentEnd="true" />
-</RelativeLayout>

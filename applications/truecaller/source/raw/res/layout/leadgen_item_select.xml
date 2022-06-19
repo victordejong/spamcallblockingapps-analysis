@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="#ff5f7d8c" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Spinner android:textColor="#ff212121" android:id="@id/value" android:layout_width="fill_parent" android:layout_height="wrap_content" android:popupBackground="#ffffffff" />
+</LinearLayout>

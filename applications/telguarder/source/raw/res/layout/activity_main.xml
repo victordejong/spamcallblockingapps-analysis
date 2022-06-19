@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/blurred_top_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/top_logo_layout" android:paddingTop="10.0dip" android:paddingBottom="27.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.7">
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/app_name" app:srcCompat="@drawable/ic_tg_logo_vector_center" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/analyze_layout" android:background="@color/colorAccent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.8">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="17.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/textview_analyze" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/analyze_button_title" android:layout_weight="1.0" android:textAlignment="center" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingBottom="21.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-10.0dip" android:layout_weight="1.0" android:paddingStart="35.0dip" android:paddingEnd="35.0dip">
+            <com.telguarder.features.phoneNumberAnalyzer.AnalyzeButton android:textSize="18.0sp" android:textColor="@color/colorPrimary" android:id="@id/button_analyze" android:background="@drawable/selector_analyze_button" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/analyze_button_text" android:layout_weight="1.0" android:transitionName="transition" app:finalCornerAngle="50.0dip" app:initialCornerAngle="50.0dip" app:spinning_bar_color="@color/colorPrimaryRed" app:spinning_bar_padding="0.0dip" app:spinning_bar_width="5.0dip" />
+            <com.telguarder.features.phoneNumberAnalyzer.AnalyzeEditText android:textSize="18.0sp" android:textColor="@color/textColorDark" android:id="@id/edit_analyze" android:background="@drawable/analyze_editbox_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:ems="10" android:layout_weight="1.0" android:inputType="phone" android:textAlignment="center" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/blurred_button_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/button_layout" android:background="@color/colorPrimaryDark" android:paddingTop="25.0dip" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.5">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:layout_weight="0.6" android:paddingStart="30.0dip" android:paddingEnd="30.0dip">
+            <LinearLayout android:gravity="center|top" android:layout_gravity="center|top" android:orientation="vertical" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageButton android:id="@id/button_call_list" android:background="@android:color/transparent" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_weight="0.3" android:contentDescription="@string/call_list" app:srcCompat="@drawable/selector_call_list_button" />
+                <TextView android:textColor="@color/colorAccent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-6.0dip" android:layout_marginBottom="-10.0dip" android:text="@string/call_list" android:layout_weight="0.7" android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center|top" android:layout_gravity="center|top" android:orientation="vertical" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageButton android:id="@id/button_spam_calls" android:background="@android:color/transparent" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_weight="0.3" android:contentDescription="@string/spam_calls" app:srcCompat="@drawable/selector_spam_calls_button" />
+                <TextView android:textColor="@color/colorAccent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-6.0dip" android:layout_marginBottom="-10.0dip" android:text="@string/spam_calls" android:layout_weight="0.7" android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center|top" android:layout_gravity="center|top" android:orientation="vertical" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageButton android:id="@id/button_block_list" android:background="@android:color/transparent" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_weight="0.3" android:contentDescription="@string/block_list" app:srcCompat="@drawable/selector_block_list_button" />
+                <TextView android:textColor="@color/colorAccent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-6.0dip" android:layout_marginBottom="-10.0dip" android:text="@string/block_list" android:layout_weight="0.7" android:textAlignment="center" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:layout_weight="0.6" android:paddingStart="30.0dip" android:paddingEnd="30.0dip">
+            <LinearLayout android:gravity="center|top" android:layout_gravity="center|top" android:orientation="vertical" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center|top" android:layout_gravity="center|top" android:orientation="vertical" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.8">
+                <ImageButton android:id="@id/button_trending" android:background="@android:color/transparent" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_weight="0.3" android:contentDescription="@string/trending" app:srcCompat="@drawable/ic_trending" />
+                <TextView android:textColor="@color/colorAccent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-6.0dip" android:layout_marginBottom="-10.0dip" android:text="@string/trending" android:layout_weight="0.7" android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center|top" android:layout_gravity="center|top" android:orientation="vertical" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.8">
+                <ImageButton android:id="@id/button_settings" android:background="@android:color/transparent" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_weight="0.3" android:contentDescription="@string/settings" app:srcCompat="@drawable/selector_settings_button" />
+                <TextView android:textColor="@color/colorAccent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-6.0dip" android:layout_marginBottom="-10.0dip" android:text="@string/settings" android:layout_weight="0.7" android:textAlignment="center" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center|top" android:layout_gravity="center|top" android:orientation="vertical" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="0.9">
+            <TextView android:textSize="12.0sp" android:textColor="@color/textColorLight" android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/copyright_text_line" android:lines="1" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

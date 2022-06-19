@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/background" android:background="@color/incallui_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/callsOnHold" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/incallui_calls_on_hold_view" />
+        <include android:id="@id/callerId" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/incallui_active_caller_id_margin_top" layout="@layout/incallui_caller_id" />
+        <Space android:id="@id/topSpace" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <include android:layout_gravity="center|top" android:id="@id/dialPadContainer" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="35.0dip" android:layout_weight="1.0" layout="@layout/incallui_dialpad_view" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/callActions" android:paddingLeft="32.0dip" android:paddingRight="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textStyle="normal" android:textColor="@color/incallui_action" android:id="@id/speaker" android:background="?android:selectableItemBackgroundBorderless" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/incallui_speaker" android:drawableTop="@drawable/incallui_action_speaker" android:layout_weight="1.0" android:textAllCaps="false" android:fontFamily="sans-serif" />
+                <Button android:textStyle="normal" android:textColor="@color/incallui_action" android:id="@id/showDialPad" android:background="?android:selectableItemBackgroundBorderless" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/incallui_keypad" android:drawableTop="@drawable/incallui_action_keypad" android:layout_weight="1.0" android:textAllCaps="false" android:fontFamily="sans-serif" />
+                <Button android:textStyle="normal" android:textColor="@color/incallui_action" android:id="@id/mute" android:background="?android:selectableItemBackgroundBorderless" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/incallui_mute" android:drawableTop="@drawable/incallui_action_mute" android:layout_weight="1.0" android:textAllCaps="false" android:fontFamily="sans-serif" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textStyle="normal" android:textColor="@color/incallui_action" android:id="@id/swapCalls" android:background="?android:selectableItemBackgroundBorderless" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/incallui_swap_calls" android:drawableTop="@drawable/incallui_action_swap_calls" android:layout_weight="1.0" android:textAllCaps="false" android:fontFamily="sans-serif" />
+                <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <Space android:id="@id/bottomSpace" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.3" />
+        <include android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:id="@id/bottomActions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" layout="@layout/incallui_active_call_bottom_actions" />
+        <include android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:id="@id/bottomActionsWithReportButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" layout="@layout/incallui_active_call_bottom_actions_with_report_button" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/reportSheetUiBlock" android:background="#5a000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:layout_gravity="bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/incallui_report_action_sheet" />
+</FrameLayout>

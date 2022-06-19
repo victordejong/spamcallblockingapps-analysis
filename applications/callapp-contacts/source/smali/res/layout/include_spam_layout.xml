@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/spamContainer" android:layout_width="fill_parent" android:layout_height="@dimen/overlay_footer_during_call_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center_vertical" android:id="@id/spamIcon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/ic_spam" />
+    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/spamTextview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" style="@style/Caption.Contact_subtitle" />
+</LinearLayout>

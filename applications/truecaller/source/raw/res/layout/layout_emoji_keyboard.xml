@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/emojis_tab" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageButton android:id="@id/tab_recents" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_emoji_recent_light" android:scaleType="center" android:layout_weight="1.0" />
+        <View android:background="@color/bg_light_accent" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/tab_people" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_emoji_people_light" android:scaleType="center" android:layout_weight="1.0" />
+        <View android:background="@color/bg_light_accent" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/tab_nature" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_emoji_nature_light" android:scaleType="center" android:layout_weight="1.0" />
+        <View android:background="@color/bg_light_accent" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/tab_objects" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_emoji_objects_light" android:scaleType="center" android:layout_weight="1.0" />
+        <View android:background="@color/bg_light_accent" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/tab_cars" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_emoji_places_light" android:scaleType="center" android:layout_weight="1.0" />
+        <View android:background="@color/bg_light_accent" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/tab_punctuation" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_emoji_symbols_light" android:scaleType="center" android:layout_weight="1.0" />
+        <View android:background="@color/bg_light_accent" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <ImageButton android:id="@id/backspace" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/sym_keyboard_delete_holo_dark" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="@color/bg_light_accent" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/pager" android:padding="2.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

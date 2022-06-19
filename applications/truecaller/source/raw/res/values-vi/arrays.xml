@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>OTP</item>
+        <item>Giao dịch</item>
+        <item>Khác</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>tháng 1</item>
+        <item>tháng 2</item>
+        <item>tháng 3</item>
+        <item>tháng 4</item>
+        <item>tháng 5</item>
+        <item>tháng 6</item>
+        <item>tháng 7</item>
+        <item>tháng 8</item>
+        <item>tháng 9</item>
+        <item>tháng 10</item>
+        <item>tháng 11</item>
+        <item>tháng 12</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Đăng nhập vào %s</item>
+        <item>Đăng ký với %s</item>
+        <item>Đăng nhập vào %s</item>
+        <item>Xác nhận số với %s</item>
+        <item>Đăng ký với %s</item>
+        <item>Bắt đầu với %s</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>Gọi</item>
+        <item>Hiển thị hồ sơ</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>Điều đó quan trọng</item>
+        <item>Lấy làm tiếc</item>
+        <item>Bạn ở đâu?</item>
+        <item>Tôi có thắc mắc</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>một</item>
+        <item>hai</item>
+        <item>ba</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>Xin chào 👋, Đây là &amp;#128680 khẩn cấp;</item>
+        <item>Xin chào 👋 Đơn đặt hàng của bạn đã sẵn sàng!</item>
+        <item>Bây giờ bạn có rảnh không? Tôi đang ở dưới nhà!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Im lặng</item>
+        <item>Chỉ rung</item>
+        <item>Chỉ có âm thanh</item>
+        <item>Âm thanh và Rung</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>Sử dụng Flash khi bạn muốn một phản hồi đảm bảo chỉ trong giây lát</item>
+        <item>Sử dụng Flash cho những việc quan trọng bạn cần nói nhanh</item>
+        <item>Bạn có biết: Bạn có thể chia sẻ địa điểm của mình nhanh chóng chỉ với một lần chạm</item>
+        <item>Mẹo: Gửi Emoji hoặc gõ văn bản để bày tỏ bản thân</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>Sắp xếp theo tên</item>
+        <item>Sắp xếp theo họ</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>Đã lưu</item>
+        <item>Được nhận biết</item>
+    </string-array>
+</resources>

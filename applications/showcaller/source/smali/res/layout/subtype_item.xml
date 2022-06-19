@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_bg" android:background="@drawable/shape_subtype_yinse" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="12.0dip" android:layout_marginStart="8.0dip">
+        <ProgressBar android:id="@id/my_progress" android:layout_width="0.0dip" android:layout_height="36.0dip" android:max="100" android:progressDrawable="@drawable/myprocess_bar_style" style="@android:style/Widget.ProgressBar.Horizontal" />
+        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:ellipsize="end" android:id="@id/tvtv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="" android:singleLine="true" android:layout_centerInParent="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:textColor="#ffd92f1c" android:id="@id/mark_count" android:background="@drawable/shape_subtype_red_circle" android:paddingLeft="5.0dip" android:paddingTop="0.5dip" android:paddingRight="5.0dip" android:paddingBottom="0.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-25.0dip" android:text="" android:layout_toRightOf="@id/rl_bg" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" android:layout_marginStart="-25.0dip" android:layout_toEndOf="@id/rl_bg" />
+</RelativeLayout>

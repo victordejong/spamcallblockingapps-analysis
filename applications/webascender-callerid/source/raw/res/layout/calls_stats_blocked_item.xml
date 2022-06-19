@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="12.0dip" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="58.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/icon_imageview" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_centerVertical="true" android:contentDescription="@string/blocked" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="18.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Text.Title" />
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/stone_grey" android:id="@id/subtitle_tv" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/divider" android:background="@color/borderline_grey" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="54.0dip" />
+</FrameLayout>

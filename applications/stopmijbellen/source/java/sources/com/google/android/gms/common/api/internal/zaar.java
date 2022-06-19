@@ -1,0 +1,355 @@
+package com.google.android.gms.common.api.internal;
+
+import android.content.Context;
+import android.os.Bundle;
+import android.os.Looper;
+import android.support.p012v4.media.C0082b;
+import android.util.Log;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GoogleApiAvailabilityLight;
+import com.google.android.gms.common.api.Api;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.Result;
+import com.google.android.gms.common.api.internal.BaseImplementation;
+import com.google.android.gms.common.internal.ClientSettings;
+import com.google.android.gms.common.internal.IAccountAccessor;
+import com.google.android.gms.common.internal.Preconditions;
+import com.google.android.gms.common.internal.zab;
+import com.google.android.gms.common.internal.zav;
+import com.google.android.gms.signin.SignInOptions;
+import com.google.android.gms.signin.internal.zak;
+import com.google.android.gms.signin.zae;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+import java.util.concurrent.Future;
+import java.util.concurrent.locks.Lock;
+import javax.annotation.concurrent.GuardedBy;
+import p007a6.C0028d;
+/* loaded from: classes-dex2jar.jar:com/google/android/gms/common/api/internal/zaar.class */
+public final class zaar implements zaba {
+    private final zabd zaa;
+    private final Lock zab;
+    private final Context zac;
+    private final GoogleApiAvailabilityLight zad;
+    private ConnectionResult zae;
+    private int zaf;
+    private int zah;
+    private zae zak;
+    private boolean zal;
+    private boolean zam;
+    private boolean zan;
+    private IAccountAccessor zao;
+    private boolean zap;
+    private boolean zaq;
+    private final ClientSettings zar;
+    private final Map<Api<?>, Boolean> zas;
+    private final Api.AbstractClientBuilder<? extends zae, SignInOptions> zat;
+    private int zag = 0;
+    private final Bundle zai = new Bundle();
+    private final Set<Api.AnyClientKey> zaj = new HashSet();
+    private final ArrayList<Future<?>> zau = new ArrayList<>();
+
+    public zaar(zabd zabdVar, ClientSettings clientSettings, Map<Api<?>, Boolean> map, GoogleApiAvailabilityLight googleApiAvailabilityLight, Api.AbstractClientBuilder<? extends zae, SignInOptions> abstractClientBuilder, Lock lock, Context context) {
+        this.zaa = zabdVar;
+        this.zar = clientSettings;
+        this.zas = map;
+        this.zad = googleApiAvailabilityLight;
+        this.zat = abstractClientBuilder;
+        this.zab = lock;
+        this.zac = context;
+    }
+
+    @GuardedBy("mLock")
+    public final void zaA() {
+        if (this.zah != 0) {
+            return;
+        }
+        if (this.zam && !this.zan) {
+            return;
+        }
+        ArrayList arrayList = new ArrayList();
+        this.zag = 1;
+        this.zah = this.zaa.zaa.size();
+        for (Api.AnyClientKey<?> anyClientKey : this.zaa.zaa.keySet()) {
+            if (!this.zaa.zab.containsKey(anyClientKey)) {
+                arrayList.add(this.zaa.zaa.get(anyClientKey));
+            } else if (zaz()) {
+                zaB();
+            }
+        }
+        if (arrayList.isEmpty()) {
+            return;
+        }
+        this.zau.add(zabe.zaa().submit(new zaam(this, arrayList)));
+    }
+
+    @GuardedBy("mLock")
+    private final void zaB() {
+        this.zaa.zap();
+        zabe.zaa().execute(new zaah(this));
+        zae zaeVar = this.zak;
+        if (zaeVar != null) {
+            if (this.zap) {
+                zaeVar.zab((IAccountAccessor) Preconditions.checkNotNull(this.zao), this.zaq);
+            }
+            zaG(false);
+        }
+        for (Api.AnyClientKey<?> anyClientKey : this.zaa.zab.keySet()) {
+            ((Api.Client) Preconditions.checkNotNull(this.zaa.zaa.get(anyClientKey))).disconnect();
+        }
+        this.zaa.zah.zaa(this.zai.isEmpty() ? null : this.zai);
+    }
+
+    @GuardedBy("mLock")
+    public final void zaC(ConnectionResult connectionResult, Api<?> api, boolean z) {
+        int priority = api.zaa().getPriority();
+        if ((!z || connectionResult.hasResolution() || this.zad.getErrorResolutionIntent(connectionResult.getErrorCode()) != null) && (this.zae == null || priority < this.zaf)) {
+            this.zae = connectionResult;
+            this.zaf = priority;
+        }
+        this.zaa.zab.put(api.zac(), connectionResult);
+    }
+
+    @GuardedBy("mLock")
+    public final void zaD() {
+        this.zam = false;
+        this.zaa.zag.zad = Collections.emptySet();
+        for (Api.AnyClientKey<?> anyClientKey : this.zaj) {
+            if (!this.zaa.zab.containsKey(anyClientKey)) {
+                this.zaa.zab.put(anyClientKey, new ConnectionResult(17, null));
+            }
+        }
+    }
+
+    @GuardedBy("mLock")
+    public final boolean zaE(ConnectionResult connectionResult) {
+        return this.zal && !connectionResult.hasResolution();
+    }
+
+    @GuardedBy("mLock")
+    public final void zaF(ConnectionResult connectionResult) {
+        zaH();
+        zaG(!connectionResult.hasResolution());
+        this.zaa.zaq(connectionResult);
+        this.zaa.zah.zab(connectionResult);
+    }
+
+    @GuardedBy("mLock")
+    private final void zaG(boolean z) {
+        zae zaeVar = this.zak;
+        if (zaeVar != null) {
+            if (zaeVar.isConnected() && z) {
+                zaeVar.zac();
+            }
+            zaeVar.disconnect();
+            ClientSettings clientSettings = (ClientSettings) Preconditions.checkNotNull(this.zar);
+            this.zao = null;
+        }
+    }
+
+    private final void zaH() {
+        ArrayList<Future<?>> arrayList = this.zau;
+        int size = arrayList.size();
+        for (int i = 0; i < size; i++) {
+            arrayList.get(i).cancel(true);
+        }
+        this.zau.clear();
+    }
+
+    @GuardedBy("mLock")
+    public final boolean zaI(int i) {
+        if (this.zag != i) {
+            Log.w("GACConnecting", this.zaa.zag.zae());
+            String valueOf = String.valueOf(this);
+            StringBuilder sb = new StringBuilder(valueOf.length() + 23);
+            sb.append("Unexpected callback in ");
+            sb.append(valueOf);
+            Log.w("GACConnecting", sb.toString());
+            C0028d.m8913g(33, "mRemainingConnections=", this.zah, "GACConnecting");
+            new StringBuilder(zaJ(this.zag).length() + 70 + zaJ(i).length());
+            new Exception();
+            zaF(new ConnectionResult(8, null));
+            return false;
+        }
+        return true;
+    }
+
+    private static final String zaJ(int i) {
+        return i != 0 ? "STEP_GETTING_REMOTE_SERVICE" : "STEP_SERVICE_BINDINGS_AND_SIGN_IN";
+    }
+
+    public static /* synthetic */ Set zap(zaar zaarVar) {
+        HashSet hashSet;
+        ClientSettings clientSettings = zaarVar.zar;
+        if (clientSettings == null) {
+            hashSet = Collections.emptySet();
+        } else {
+            HashSet hashSet2 = new HashSet(clientSettings.getRequiredScopes());
+            Map<Api<?>, zab> zaa = zaarVar.zar.zaa();
+            for (Api<?> api : zaa.keySet()) {
+                if (!zaarVar.zaa.zab.containsKey(api.zac())) {
+                    hashSet2.addAll(zaa.get(api).zaa);
+                }
+            }
+            hashSet = hashSet2;
+        }
+        return hashSet;
+    }
+
+    public static /* synthetic */ void zay(zaar zaarVar, zak zakVar) {
+        if (!zaarVar.zaI(0)) {
+            return;
+        }
+        ConnectionResult zaa = zakVar.zaa();
+        if (!zaa.isSuccess()) {
+            if (!zaarVar.zaE(zaa)) {
+                zaarVar.zaF(zaa);
+                return;
+            }
+            zaarVar.zaD();
+            zaarVar.zaA();
+            return;
+        }
+        zav zavVar = (zav) Preconditions.checkNotNull(zakVar.zab());
+        ConnectionResult zab = zavVar.zab();
+        if (!zab.isSuccess()) {
+            String valueOf = String.valueOf(zab);
+            Log.wtf("GACConnecting", C0082b.m8754h(new StringBuilder(valueOf.length() + 48), "Sign-in succeeded with resolve account failure: ", valueOf), new Exception());
+            zaarVar.zaF(zab);
+            return;
+        }
+        zaarVar.zan = true;
+        zaarVar.zao = (IAccountAccessor) Preconditions.checkNotNull(zavVar.zaa());
+        zaarVar.zap = zavVar.zac();
+        zaarVar.zaq = zavVar.zad();
+        zaarVar.zaA();
+    }
+
+    @GuardedBy("mLock")
+    public final boolean zaz() {
+        int i = this.zah - 1;
+        this.zah = i;
+        if (i > 0) {
+            return false;
+        }
+        if (i < 0) {
+            Log.w("GACConnecting", this.zaa.zag.zae());
+            Log.wtf("GACConnecting", "GoogleApiClient received too many callbacks for the given step. Clients may be in an unexpected state; GoogleApiClient will now disconnect.", new Exception());
+            zaF(new ConnectionResult(8, null));
+            return false;
+        }
+        ConnectionResult connectionResult = this.zae;
+        if (connectionResult == null) {
+            return true;
+        }
+        this.zaa.zaf = this.zaf;
+        zaF(connectionResult);
+        return false;
+    }
+
+    @Override // com.google.android.gms.common.api.internal.zaba
+    @GuardedBy("mLock")
+    public final void zaa() {
+        this.zaa.zab.clear();
+        this.zam = false;
+        this.zae = null;
+        this.zag = 0;
+        this.zal = true;
+        this.zan = false;
+        this.zap = false;
+        HashMap hashMap = new HashMap();
+        boolean z = false;
+        for (Api<?> api : this.zas.keySet()) {
+            Api.Client client = (Api.Client) Preconditions.checkNotNull(this.zaa.zaa.get(api.zac()));
+            z |= api.zaa().getPriority() == 1;
+            boolean booleanValue = this.zas.get(api).booleanValue();
+            if (client.requiresSignIn()) {
+                this.zam = true;
+                if (booleanValue) {
+                    this.zaj.add(api.zac());
+                } else {
+                    this.zal = false;
+                }
+            }
+            hashMap.put(client, new zaai(this, api, booleanValue));
+        }
+        if (z) {
+            this.zam = false;
+        }
+        if (this.zam) {
+            Preconditions.checkNotNull(this.zar);
+            Preconditions.checkNotNull(this.zat);
+            this.zar.zae(Integer.valueOf(System.identityHashCode(this.zaa.zag)));
+            zaap zaapVar = new zaap(this, null);
+            Api.AbstractClientBuilder<? extends zae, SignInOptions> abstractClientBuilder = this.zat;
+            Context context = this.zac;
+            Looper looper = this.zaa.zag.getLooper();
+            ClientSettings clientSettings = this.zar;
+            this.zak = abstractClientBuilder.buildClient(context, looper, clientSettings, (ClientSettings) clientSettings.zac(), (GoogleApiClient.ConnectionCallbacks) zaapVar, (GoogleApiClient.OnConnectionFailedListener) zaapVar);
+        }
+        this.zah = this.zaa.zaa.size();
+        this.zau.add(zabe.zaa().submit(new zaal(this, hashMap)));
+    }
+
+    @Override // com.google.android.gms.common.api.internal.zaba
+    public final <A extends Api.AnyClient, R extends Result, T extends BaseImplementation.ApiMethodImpl<R, A>> T zab(T t) {
+        this.zaa.zag.zaa.add(t);
+        return t;
+    }
+
+    @Override // com.google.android.gms.common.api.internal.zaba
+    public final <A extends Api.AnyClient, T extends BaseImplementation.ApiMethodImpl<? extends Result, A>> T zac(T t) {
+        throw new IllegalStateException("GoogleApiClient is not connected yet.");
+    }
+
+    @Override // com.google.android.gms.common.api.internal.zaba
+    @GuardedBy("mLock")
+    public final boolean zad() {
+        zaH();
+        zaG(true);
+        this.zaa.zaq(null);
+        return true;
+    }
+
+    @Override // com.google.android.gms.common.api.internal.zaba
+    public final void zae() {
+    }
+
+    @Override // com.google.android.gms.common.api.internal.zaba
+    @GuardedBy("mLock")
+    public final void zaf(Bundle bundle) {
+        if (!zaI(1)) {
+            return;
+        }
+        if (bundle != null) {
+            this.zai.putAll(bundle);
+        }
+        if (!zaz()) {
+            return;
+        }
+        zaB();
+    }
+
+    @Override // com.google.android.gms.common.api.internal.zaba
+    @GuardedBy("mLock")
+    public final void zag(ConnectionResult connectionResult, Api<?> api, boolean z) {
+        if (!zaI(1)) {
+            return;
+        }
+        zaC(connectionResult, api, z);
+        if (!zaz()) {
+            return;
+        }
+        zaB();
+    }
+
+    @Override // com.google.android.gms.common.api.internal.zaba
+    @GuardedBy("mLock")
+    public final void zah(int i) {
+        zaF(new ConnectionResult(8, null));
+    }
+}

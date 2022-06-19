@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/top_nav" />
+    <LinearLayout android:orientation="vertical" android:id="@id/contacts_fragment" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.kedlin.cca.ui.RecentCallsAndMessagesPicker android:id="@id/recent_calls_and_messages_picker" android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/plusPlaceholder" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="28.0dip" android:layout_alignParentRight="true" />
+            <EditText android:theme="@style/EditTextTheme" android:id="@id/searchTxtBox" android:visibility="visible" android:longClickable="false" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:text="" android:hint="@string/search_hint" android:singleLine="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/groups" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/contact_image" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_action_social_group" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:contentDescription="@string/contactImagePlaceholder" />
+            <TextView android:gravity="center_vertical" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="48.0dip" android:text="@string/groups" android:layout_toRightOf="@id/contact_image" android:layout_centerVertical="true" style="@style/ListItemTextTitle" />
+            <ImageView android:id="@id/next_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_next" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/detail" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@android:id/list" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:fastScrollEnabled="true" />
+            <com.kedlin.cca.ui.AlphabeticalIndexView android:id="@id/alpha_index" android:background="@android:color/transparent" android:layout_width="24.0dip" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+                <TextView android:gravity="center" android:id="@id/ask_for_permission_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/allow_contact_permission_title" style="@style/permissions_title" />
+                <TextView android:ellipsize="none" android:gravity="center" android:id="@id/empty" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/msg_listEmpty" style="@style/standard_color_and_text_size" />
+                <Button android:layout_gravity="center" android:id="@id/ask_for_permission_btn" android:paddingLeft="32.0dip" android:paddingRight="32.0dip" android:visibility="gone" android:layout_width="wrap_content" android:text="@string/btn_cc_allow_contacts_permission" android:layout_centerHorizontal="true" style="@style/welcome_page_button" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

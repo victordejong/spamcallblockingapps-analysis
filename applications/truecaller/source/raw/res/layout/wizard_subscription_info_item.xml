@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="46.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/wizard_subscription_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="?dialogPreferredPadding" android:layout_marginRight="@dimen/space" android:src="@drawable/ic_sim_questionmark" android:layout_centerVertical="true" android:layout_marginStart="?dialogPreferredPadding" android:layout_marginEnd="@dimen/space" app:tint="#ffa8a8a8" />
+    <TextView android:textAppearance="?android:textAppearanceSmallPopupMenu" android:ellipsize="middle" android:id="@id/wizard_subscription_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toRightOf="@id/wizard_subscription_icon" android:layout_centerVertical="true" android:layout_toEndOf="@id/wizard_subscription_icon" />
+</RelativeLayout>

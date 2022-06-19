@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    <changelogversion changeDate="March 10,2022" versionName="2.3.21[382]">
+        <changelogbug>Launcher &amp; notification icon</changelogbug>
+    </changelogversion>
+    <changelogversion
+        changeDate="March 7,2022"
+        versionName="2.3.20[381]">
+        <changelogtext>Build &amp; target SDK changed to 32</changelogtext>
+        <changelogtext>Ask for CONTACTS permission if trying to add contact to BWL</changelogtext>
+        <changelogbug>Launcher icon</changelogbug>
+        <changelogbug>&#128027;Out of index (AppSettings.setValue:766)</changelogbug>
+        <changelogtext>DEV: x2 DB</changelogtext>
+        <changelogtext>Upgrade Gradle version to 7.2</changelogtext>
+        <changelogtext>Upgrade AGP dependency from 7.0.4 to 7.1.2</changelogtext>
+        <changelogtext>com.google.firebase:firebase-ads:20.5.0 to 20.6.0</changelogtext>
+        <changelogtext>com.google.firebase:firebase-crashlytics-gradle:2.8.0 to 2.8.1</changelogtext>
+        <changelogtext>com.google.android.play:core:1.10.2 to 1.10.3</changelogtext>
+        <changelogtext>com.google.android.material:material:1.4.0 to 1.5.0</changelogtext>
+        <changelogtext>com.google.android.gms:play-services-ads-lite:20.5.0 to 20.6.0</changelogtext>
+        <changelogtext>com.google.android.gms:play-services-ads-identifier:18.0.0 to 18.0.1</changelogtext>
+        <changelogtext>androidx.appcompat:appcompat:1.4.0 to 1.4.1</changelogtext>
+        <changelogtext>com.android.billingclient:billing:4.0.0 to 4.1.0</changelogtext>
+        <changelogtext>androidx.constraintlayout:constraintlayout:2.1.2 to 2.1.3</changelogtext>
+        <changelogtext>com.google.ads.mediation:applovin:10.3.5.0 to 11.1.3.0</changelogtext>
+    </changelogversion>
+    <changelogversion
+        changeDate="December 25,2021"
+        versionName="2.3.19[380]">
+        <changelogbug>&#128027; Android S PendingIntent (GLib, MGNotification)</changelogbug>
+    </changelogversion>
+    <changelogversion
+        changeDate="December 25,2021"
+        versionName="2.3.18[379]">
+        <changelogtext>Brazilian Portuguese translation improved</changelogtext>
+        <changelogtext>Upgrade AGP dependency from 7.0.3 to 7.0.4</changelogtext>
+        <changelogtext>com.google.firebase:firebase-crashlytics-gradle:2.8.0 to 2.8.1</changelogtext>
+        <changelogtext>com.google.firebase:firebase-ads:20.4.0 to 20.5.0</changelogtext>
+        <changelogtext>com.google.android.gms:play-services-ads-lite:20.4.0 to 20.5.0</changelogtext>
+        <changelogtext>com.google.android.gms:play-services-ads-identifier:17.1.0 to 18.0.0</changelogtext>
+        <changelogtext>androidx.appcompat:appcompat:1.3.1 to 1.4.0</changelogtext>
+        <changelogtext>androidx.constraintlayout:constraintlayout:2.1.1 to 2.1.2</changelogtext>
+        <changelogtext>androidx.sqlite:sqlite:2.1.0 to 2.2.0</changelogtext>
+        <changelogtext>com.google.ads.mediation:applovin:10.3.4.0 to 10.3.5.0</changelogtext>
+        <changelogbug>&#128027; update with empty feedback (FragmentSocial:updateNamesFromFeedback:79)</changelogbug>
+        <changelogbug>&#128027; sync contacts improved CCO:ONCHANGE_THRESHOLD_TIME:22 set from minute to 1 sec</changelogbug>
+        <changelogtext>CCO:CALL_THRESHOLD_TIME:21 changed from 3 to 2 sec</changelogtext>
+        <changelogtext>compileSdkVersion, targetSdkVersion 30 to 31</changelogtext>
+        <changelogtext>AndroidManifest added exported for MainActivity, Service</changelogtext>
+    </changelogversion>
+    <changelogversion
+        changeDate="November 14,2021"
+        versionName="2.3.17[378]">
+        <changelogtext>All translation improved (Stop call me - Stop Calling me)</changelogtext>
+        <changelogtext>Brazilian Portuguese translation improved</changelogtext>
+        <changelogbug>&#128027; ;jverstat=TN-Validation-Passed (ForegroundService.blockNumber:141)</changelogbug>
+        <changelogtext>com.android.tools.build:gradle:7.0.2 to 7.0.3</changelogtext>
+        <changelogtext>com.google.firebase:firebase-crashlytics-gradle:2.7.1 to 2.8.0</changelogtext>
+        <changelogtext>com.google.firebase:firebase-ads:20.3.0 to 20.4.0</changelogtext>
+        <changelogtext>com.google.android.gms:play-services-ads-lite:20.3.0 to 20.4.0</changelogtext>
+        <changelogtext>com.google.android.play:core:1.10.1 to 1.10.2</changelogtext>
+        <changelogtext>com.google.android.gms:play-services-ads-identifier:17.0.1 to 17.1.0</changelogtext>
+        <changelogtext>androidx.constraintlayout:constraintlayout:2.1.0 to 2.1.1</changelogtext>
+        <changelogtext>com.google.ads.mediation:adcolony:4.6.5.0</changelogtext>
+        <changelogtext>com.google.ads.mediation:applovin:10.3.3.0 to 10.3.4.0</changelogtext>
+        <changelogtext>com.google.ads.mediation:facebook:6.6.0.0 to 6.8.0.0</changelogtext>
+    </changelogversion>
+    <changelogversion
+        changeDate="September 29,2021"
+        versionName="2.3.16[377]">
+        <changelogtext>Brazilian Portuguese, Slovak translation improved</changelogtext>
+        <changelogtext>Logs: PresetNo</changelogtext>
+        <changelogtext>Dev: update contacts</changelogtext>
+        <changelogbug>&#128027; Multiply contacts (MGDB.SyncContacts)</changelogbug>
+        <changelogbug>&#128027; Add to BWL from CallLog (MGDialog.prepareCallLog)</changelogbug>
+    </changelogversion>
+    <changelogversion
+        changeDate="September 12,2021"
+        versionName="2.3.15[376]">
+        <changelogtext>AGP upgrade 7.0.1 to 7.0.2</changelogtext>
+        <changelogtext>com.google.gms:google-services:4.3.18 to 4.3.10</changelogtext>
+        <changelogtext>com.google.firebase:firebase-ads:20.2.0 to 20.3.0</changelogtext>
+        <changelogtext>com.google.android.play:core:1.10.1</changelogtext>
+        <changelogtext>com.google.android.gms:play-services-ads-lite:20.2.0 to 20.3.0</changelogtext>
+        <changelogtext>com.google.ads.mediation:facebook:6.5.1.0 еto 6.5.1.1</changelogtext>
+        <changelogtext>com.google.ads.mediation:adcolony:4.5.0.0 to 4.6.0.0</changelogtext>
+        <changelogtext>com.google.ads.mediation:applovin:10.3.2.0 to 10.3.3.0</changelogtext>
+        <changelogtext>com.google.ads.mediation:facebook:6.5.1.1 to 6.6.0.0</changelogtext>
+        <changelogbug>&#128176; Billing isAcknowledged</changelogbug>
+        <changelogbug>&#128027; MGDB.isShortOrEqualNumber(MGDB.java:828)</changelogbug>
+    </changelogversion>
+    <changelogversion
+        changeDate="September 01,2021"
+        versionName="2.3.14[375]">
+        <changelogtext>AGP upgrade 7.0.0 to 7.0.1</changelogtext>
+        <changelogtext>com.jakewharton:butterknife:10.2.1 to 10.2.3</changelogtext>
+        <changelogbug>&#128176; Billing isAcknowledged</changelogbug>
+        <changelogbug>&#127482;&#127462; % s &#128027;</changelogbug>
+    </changelogversion>
+    <changelogversion
+        changeDate="August 16,2021"
+        versionName="2.3.13[374] SUN&amp;MON &#128027; &amp; &#127867;  &#129683;">
+        <changelogtext>google.ads.mediation:applovin:10.3.1.0 to 10.3.2.0</changelogtext>
+        <changelogbug>&#128176; Billing API improvement</changelogbug>
+        <changelogbug>Android 10 intro infinity first call log loading (MGDB:620), maybe it concern Android >= 11</changelogbug>
+    </changelogversion>
+    <changelogversion
+        changeDate="August 6,2021"
+        versionName="2.3.12[373]">
+        <changelogtext>GDPR consent</changelogtext>
+        <changelogtext>Mediation ad networks: AdColony, Applovin, Facebook</changelogtext>
+        <changelogtext>Italian translation improved</changelogtext>
+        <changelogtext>androidx.constraintlayout:constraintlayout:2.0.4 to 2.1.0</changelogtext>
+    </changelogversion>
+    <changelogversion
+        changeDate="August 1,2021"
+        versionName="2.3.11[372]">
+        <changelogbug>Android 10 intro crash (MGDB:564)</changelogbug>
+        <changelogbug>VideAds in Pro</changelogbug>
+    </changelogversion>
+    <changelogversion
+        changeDate="Jule 31,2021"
+        versionName="2.3.10[371]">
+        <changelogbug>BuyPro layout</changelogbug>
+        <changelogtext>Brazilian Portuguese translation improved</changelogtext>
+    </changelogversion>
+    <changelogversion
+        changeDate="Jule 30,2021"
+        versionName="2.3.9[368-370]">
+        <changelogbug>Export with null bl,wl name</changelogbug>
+        <changelogimprovement>Video Ads</changelogimprovement>
+        <changelogimprovement>Vacuum initial DB after delete</changelogimprovement>
+        <changelogimprovement>GLib: debug copyDB()</changelogimprovement>
+        <changelogtext>CallItem layout</changelogtext>
+        <changelogtext>Brazilian Portuguese translation improved</changelogtext>
+        <changelogtext>BuyPro fragment - continue button moved up</changelogtext>
+        <changelogtext>com.google.android.material:material:1.3.0 to 1.4.0</changelogtext>
+        <changelogtext>androidx.appcompat:appcompat:1.3.0 to 1.3.1</changelogtext>
+        <changelogtext>AGP 4.2.2 to 7.0.0</changelogtext>
+    </changelogversion>
+    <changelogversion
+        changeDate="Jule 23,2021"
+        versionName="2.3.8[360-367]">
+        <changelogbug>Enter to settings crush: GLib.isDefaultPhoneApp</changelogbug>
+        <changelogtext>Debug info for export_settings</changelogtext>
+        <changelogtext>Brazilian Portuguese translation improved</changelogtext>
+    </changelogversion>
+    <changelogversion
+        changeDate="Jule 13,2021"
+        versionName="2.3.7[359]">
+        <changelogimprovement>ON/OFF button on Notification</changelogimprovement>
+        <changelogimprovement>Firebase analytics logs for AJIS_intervals, AJIS_interval_zero</changelogimprovement>
+        <changelogtext>Android Gradle Plugin 4.2.1 to 4.2.2</changelogtext>
+        <changelogtext>Purchases info also in debug</changelogtext>
+        <changelogtext>API needid moved back to init from preinit</changelogtext>
+        <changelogbug>always active all presets after backwards from PresetFragment [AppSettings.fillPresetItem]</changelogbug>
+    </changelogversion>
+    <changelogversion
+        changeDate="Jule 10,2021"
+        versionName="2.3.6[358]">
+        <changelogtext>API (needid, needsp) moved from init to preinit</changelogtext>
+    </changelogversion>
+    <changelogversion
+        changeDate="Jule 8,2021"
+        versionName="2.3.5[357]">
+        <changelogbug>disablePro turn off settings on Pro</changelogbug>
+        <changelogbug>FirebaseRemoteConfig</changelogbug>
+    </changelogversion>
+    <changelogversion
+        changeDate="Jule 2,2021"
+        versionName="2.3.4[355-356]">
+        <changelogimprovement>Firebase Remote Config: app_update_repeat_interval_hrs, AJIS_interval_default_hrs, AJIS_interval_short_min, AJIS_need_start_now_interval_hrs</changelogimprovement>
+        <changelogtext>PreInit API {gauri / PREINIT_GOOGLE_APP_UPDATE_REPEAT_INTERVAL} removed</changelogtext>
+        <changelogtext>NEW_VERSION_NOTIFICATION_REPEAT_INTERVAL set back to 7</changelogtext>
+    </changelogversion>
+    <changelogversion
+        changeDate="June 29,2021"
+        versionName="2.3.3[354]">
+        <changelogimprovement>Splash screen</changelogimprovement>
+        <changelogimprovement>Initial DB in assets</changelogimprovement>
+        <changelogtext>NEW_VERSION_NOTIFICATION_REPEAT_INTERVAL set to 2</changelogtext>
+        <changelogtext>New API: needsp (check docs)</changelogtext>
+        <changelogbug>Translation: Netherlands</changelogbug>
+        <changelogtext>inAppRateUs disabled</changelogtext>
+        <changelogtext>com.google.firebase:firebase-crashlytics:18.0.1 to 18.1.0</changelogtext>
+        <changelogtext>com.google.firebase:firebase-crashlytics-gradle:2.6.1 to 2.7.1</changelogtext>
+    </changelogversion>
+    <changelogversion
+        changeDate="June 22,2021"
+        versionName="2.3.2[349-353]">
+        <changelogbug>Sale expire date</changelogbug>
+        <changelogtext>Intro back button returned</changelogtext>
+        <changelogtext>Link to dontkillmyapp.com disabled</changelogtext>
+    </changelogversion>
+    <changelogversion
+        changeDate="June 18,2021"
+        versionName="2.3.1[345-348]">
+        <changelogtext>com.google.android.gms:play-services-ads changed to ..ads-lite </changelogtext>
+        <changelogimprovement>inApp review</changelogimprovement>
+        <changelogtext>Disable Ads purchase removed</changelogtext>
+        <changelogtext>permission.WRITE_EXTERNAL_STORAGE removed</changelogtext>
+        <changelogimprovement>Import/export now use Storage Access Framework (SAF)</changelogimprovement>
+        <changelogbug>MGDB.updateLogWithCallLog: ContentResolver.query() method throws \"Invalid token limit\" error</changelogbug>
+        <changelogtext>SQLCipher code completely removed</changelogtext>
+        <changelogtext>WatchDog removed</changelogtext>
+        <changelogimprovement>Danish (Dansk) translation</changelogimprovement>
+        <changelogtext>Smart banner replaced to adaptive</changelogtext>
+        <changelogtext>com.google.android.gms:play-services-ads-identifier:17.0.0 to 17.0.1</changelogtext>
+        <changelogtext>com.google.firebase:firebase-ads:20.1.0 to 20.2.0</changelogtext>
+        <changelogtext>com.google.firebase:firebase-perf:20.0.0 to 20.0.1</changelogtext>
+        <changelogtext>com.google.firebase:firebase-crashlytics:18.0.0 to 18.0.1</changelogtext>
+        <changelogtext>com.google.android.gms:play-services-ads-lite:20.1.0 to 20.2.0</changelogtext>
+        <changelogtext>com.google.android.gms:play-services-ads:20.1.0 to 20.2.0</changelogtext>
+    </changelogversion>
+    <changelogversion
+        changeDate="May 19,2021"
+        versionName="2.3.0[344]">
+        <changelogtext>com.koushikdutta.ion:ion:3.0.9 to 3.1.0</changelogtext>
+        <changelogtext>videoAds temporary REMOVED</changelogtext>
+        <changelogtext>buildToolsVersion 30.0.1 to 30.0.2</changelogtext>
+        <changelogtext>com.android.tools.build:gradle:4.1.1 to 4.2.1</changelogtext>
+        <changelogtext>Gradle to 6.7.1</changelogtext>
+        <changelogtext>AGP dependency 4.1.1 to 4.2.1</changelogtext>
+        <changelogtext>com.google.gms:google-services:4.3.4 to 4.3.8</changelogtext>
+        <changelogtext>com.google.firebase:firebase-crashlytics-gradle:2.4.1 to 2.6.1</changelogtext>
+        <changelogtext>com.google.firebase:firebase-core:18.0.0 to 19.0.0</changelogtext>
+        <changelogtext>com.google.firebase:firebase-ads:19.6.0 to 20.1.0</changelogtext>
+        <changelogtext>com.google.firebase:firebase-perf:19.0.11 to 20.0.0</changelogtext>
+        <changelogtext>com.google.firebase:firebase-analytics:18.0.0 to 19.0.0</changelogtext>
+        <changelogtext>com.google.firebase:firebase-crashlytics:17.3.0 to 18.0.0</changelogtext>
+        <changelogtext>com.google.android.play:core:1.10.0 to </changelogtext>
+        <changelogtext>com.google.android.material:material:1.2.1 to 1.3.0</changelogtext>
+        <changelogtext>androidx.appcompat:appcompat:1.2.0 to 1.3.0</changelogtext>
+    </changelogversion>
+</changelog>

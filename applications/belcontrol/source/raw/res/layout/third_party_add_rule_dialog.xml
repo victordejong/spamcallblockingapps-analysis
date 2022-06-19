@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="12.0dip" android:paddingTop="2.0dip" android:paddingRight="12.0dip" android:paddingBottom="4.0dip" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/colorDefaultBlack" android:id="@id/third_party_add_rule_title" android:paddingTop="32.0dip" android:paddingBottom="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:fontFamily="@font/google_sans_medium" android:textAlignment="textStart" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/colorDefaultBlack" android:id="@id/third_party_add_rule_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/third_party_add_rule_title" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+</RelativeLayout>

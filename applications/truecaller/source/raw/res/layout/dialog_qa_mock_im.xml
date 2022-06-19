@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="280.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/existing_conversations_check_box" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="@dimen/doubleSpace" android:text="Add to existing conversations" android:layout_marginStart="@dimen/tripleSpace" android:layout_marginEnd="@dimen/tripleSpace" />
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" android:layout_marginStart="@dimen/tripleSpace" android:layout_marginEnd="@dimen/tripleSpace">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/conversations_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Conversations" android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" android:layout_marginStart="@dimen/tripleSpace" android:layout_marginEnd="@dimen/tripleSpace">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/messages_per_conversation_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Messages per conversation" android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button android:layout_gravity="end" android:id="@id/add_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/space" android:text="Add messages" android:paddingStart="@dimen/space" android:paddingEnd="@dimen/space" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+</LinearLayout>

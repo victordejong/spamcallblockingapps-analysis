@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <cache-path name="temporary-image" path="." />
+    <external-path name="hprof-dumps" path="." />
+    <external-path name="call-recordings" path="./TCCalls" />
+    <external-cache-path name="share" path="." />
+    <external-files-path name="im-media" path="im-media/" />
+    <external-files-path name="temporary" path="temporary/" />
+</paths>

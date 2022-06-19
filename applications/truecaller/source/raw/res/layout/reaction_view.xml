@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/semiSpace" android:paddingBottom="@dimen/semiSpace" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/space" android:paddingEnd="@dimen/space">
+        <TextView android:textColor="?tcx_textSecondary" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tip_view" android:paddingBottom="@dimen/space" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reactions_tip" style="@style/StyleX.Text.Caption.C1" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/emojis_holder" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

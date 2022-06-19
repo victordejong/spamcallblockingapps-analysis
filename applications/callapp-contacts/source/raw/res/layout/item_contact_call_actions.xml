@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/callActions" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/upperDivider" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_alignParentTop="true" />
+    <View android:id="@id/lowerDivider" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/smsIcon" android:background="@drawable/ripple_or_holo" android:layout_marginRight="28.0dip" android:src="@drawable/ic_swipe_sms" android:layout_alignParentRight="true" style="@style/ContactList.OperationIcon" />
+    <ImageView android:id="@id/callIcon" android:background="@drawable/ripple_or_holo" android:layout_marginLeft="28.0dip" android:src="@drawable/ic_swipe_call" android:layout_alignParentLeft="true" style="@style/ContactList.OperationIcon" />
+</RelativeLayout>

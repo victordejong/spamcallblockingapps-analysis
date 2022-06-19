@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>Jednokratna lozinka</item>
+        <item>Transakcija</item>
+        <item>Ostalo</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>sij</item>
+        <item>velj</item>
+        <item>ožu</item>
+        <item>tra</item>
+        <item>svi</item>
+        <item>lip</item>
+        <item>srp</item>
+        <item>kol</item>
+        <item>ruj</item>
+        <item>lis</item>
+        <item>stu</item>
+        <item>pro</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Prijava u %s</item>
+        <item>Prijava s %s</item>
+        <item>Prijavi se na %s</item>
+        <item>Potvrdite broj sa %s</item>
+        <item>Registrirajte se sa %s</item>
+        <item>Započnite sa %s</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>Poziv</item>
+        <item>Prikaži profil</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>Važno je</item>
+        <item>Žao mi je!</item>
+        <item>Gdje si?</item>
+        <item>Imam pitanje</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>jedan</item>
+        <item>dva</item>
+        <item>tri</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>Zdravo 👋, Hitno je 🚨</item>
+        <item>Zdravo 👋 Vaša narudžba je spremna!</item>
+        <item>Jesi li sada slobodan/slobodna? Dolje sam!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Bez zvuka</item>
+        <item>Samo vibracija</item>
+        <item>Samo zvuk</item>
+        <item>Zvuk i vibracija</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>Koristite Flash ako želite siguran odgovor u roku od jedne minute</item>
+        <item>Koristite Flash za važne stvari koje želite brzo reći</item>
+        <item>Jeste li znali: svoju lokaciju možete brzo podijeliti jednim dodirom</item>
+        <item>Savjet: pošaljite emotikon ili napišite tekst kako biste se izrazili</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1\u0009</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>Sortiraj po imenu</item>
+        <item>Sortiraj po prezimenu</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>Spremljeno</item>
+        <item>Identificirano</item>
+    </string-array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/infoTypeLHS" android:textAlignment="viewStart" android:layout_marginEnd="@dimen/dp30" app:layout_constraintEnd_toStartOf="@id/infoTypeRHS" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/messageType" />
+    <TextView android:id="@id/infoValueLHS" android:textAlignment="viewStart" android:layout_marginEnd="@dimen/dp8" app:layout_constraintEnd_toStartOf="@id/infoValueRHS" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/infoTypeLHS" style="@style/messageValue" />
+    <TextView android:id="@id/infoTypeRHS" android:textAlignment="viewEnd" android:layout_marginStart="@dimen/dp30" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/infoTypeLHS" app:layout_constraintTop_toTopOf="parent" style="@style/messageType" />
+    <TextView android:id="@id/infoValueRHS" android:textAlignment="viewEnd" android:layout_marginStart="@dimen/dp8" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/infoValueLHS" app:layout_constraintTop_toBottomOf="@id/infoTypeRHS" style="@style/messageValue" />
+</androidx.constraintlayout.widget.ConstraintLayout>

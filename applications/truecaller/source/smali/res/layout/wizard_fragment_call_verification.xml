@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/call_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wizard_anim_circular_background" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/handle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" android:src="@drawable/wizard_anim_phone_handle" android:scaleType="center" android:layout_alignTop="@id/background" android:layout_alignBottom="@id/background" android:layout_alignStart="@id/background" android:layout_alignEnd="@id/background" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wizard_anim_phone_body" android:scaleType="center" android:layout_alignTop="@id/background" android:layout_alignBottom="@id/background" android:layout_alignStart="@id/background" android:layout_alignEnd="@id/background" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:id="@id/title" android:layout_marginTop="@dimen/space" android:text="@string/CallVerification_title1" android:layout_alignParentTop="true" style="@style/Wizard.TextViewTitle" />
+        <TextView android:id="@id/details" android:layout_below="@id/title" style="@style/Wizard.TextViewDetails" />
+        <ImageView android:id="@id/robot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wizard_robot" android:layout_alignParentBottom="true" android:translationX="-200.0dip" android:translationY="200.0dip" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</LinearLayout>

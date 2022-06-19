@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textColor="@color/green" android:ellipsize="end" android:gravity="center|right" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" style="@style/Caption.Number_text"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

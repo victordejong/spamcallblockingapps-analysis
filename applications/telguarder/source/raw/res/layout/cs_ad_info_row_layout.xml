@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/cardView" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" card_view:cardElevation="0.0dip" card_view:cardMaxElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center|top" android:id="@id/ad_info_layout" android:background="@color/post_call_divider" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_extra_small" android:textColor="@color/post_call_blue_text" android:gravity="center|top" android:id="@id/tv_why_do_we_show_ads" android:background="@color/post_call_divider" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_centerInParent="true" android:textAlignment="center" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

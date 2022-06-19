@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flexaspect.android.everycallcontrol.ui.customview.dialpad.DialpadKeyButton android:id="@id/one" style="@style/DialpadKeyButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/DialpadKeyInternalLayoutStyle">
+        <com.flexaspect.android.everycallcontrol.ui.customview.dialpad.DialpadTextView android:id="@id/dialpad_key_number" style="@style/DialpadKeyNumberStyle" />
+        <ImageView android:id="@id/dialpad_key_voicemail" android:paddingTop="@dimen/dialpad_voicemail_icon_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_voicemail_ico" android:scaleType="fitCenter" android:alpha="0.7" />
+    </LinearLayout>
+</com.flexaspect.android.everycallcontrol.ui.customview.dialpad.DialpadKeyButton>

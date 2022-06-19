@@ -1,0 +1,12 @@
+{
+  "client": {
+    "cp_id": "890046000000000021",
+    "product_id": "9105163812218571340",
+    "client_id": "215828642020721664",
+    "client_secret": "BA167240D7780439EF366B4E02BC8FF147A7E91EFDA7F38B80DBFDA01916595E",
+    "app_id": "100092959",
+    "package_name": "com.truecaller",
+    "api_key": "CV5GV+J1AUDgNAJHlmZxIWL3e2IvTJaUWp07YYsTHP66fEon2EldL6UhBkHM+FoSD2vylH4E49xsEVA0iVipRNrpmraj"
+  },
+  "configuration_version": "1.0"
+}

@@ -1,0 +1,16 @@
+.class public interface abstract Le/a/a/m/g2;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Le/a/a/m/g2$a;
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract c(Ljava/lang/String;)V
+.end method

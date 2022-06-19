@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/btn_dialer_pressed" />
+            <stroke android:width="2.0dip" android:color="@color/btn_dialer_pressed" />
+            <corners android:radius="1.0dip" android:topLeftRadius="15.0dip" android:topRightRadius="15.0dip" android:bottomLeftRadius="15.0dip" android:bottomRightRadius="15.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/newdesign_green" />
+            <stroke android:width="2.0dip" android:color="@color/newdesign_green" />
+            <corners android:radius="1.0dip" android:topLeftRadius="15.0dip" android:topRightRadius="15.0dip" android:bottomLeftRadius="15.0dip" android:bottomRightRadius="15.0dip" />
+        </shape>
+    </item>
+</selector>

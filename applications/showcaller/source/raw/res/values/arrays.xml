@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnername">
+        <item>@string/beginwith</item>
+        <item>@string/containwith</item>
+        <item>@string/endwith</item>
+        <item>@string/blockforeign</item>
+    </string-array>
+</resources>

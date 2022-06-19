@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@mipmap/ic_launcher_messages" android:enabled="true" android:shortcutId="shortcut-messages-id" android:shortcutShortLabel="@string/TabBarMessaging" android:shortcutLongLabel="@string/TabBarMessaging">
+        <intent android:targetPackage="com.truecaller" android:action="android.intent.action.MAIN" android:targetClass="com.truecaller.messaging.MessagesActivity" />
+        <categories android:name="android.shortcut.conversation" />
+        <capability-binding android:key="actions.intent.OPEN_APP_FEATURE">
+            <parameter-binding android:value="@array/assistant_shortcut_messages" android:key="feature" />
+        </capability-binding>
+    </shortcut>
+    <capability android:name="actions.intent.OPEN_APP_FEATURE">
+        <intent android:targetPackage="com.truecaller" android:action="android.intent.action.VIEW" android:targetClass="com.truecaller.messaging.MessagesActivity">
+            <parameter android:name="feature" android:key="feature" />
+        </intent>
+    </capability>
+    <capability android:name="actions.intent.GET_THING">
+        <intent android:targetPackage="com.truecaller" android:targetClass="com.truecaller.messaging.GoogleActionsActivity">
+            <parameter android:name="thing.name" android:key="query" />
+        </intent>
+    </capability>
+    <capability android:name="actions.intent.CREATE_MESSAGE">
+        <intent android:targetPackage="com.truecaller" android:action="android.intent.action.VIEW" android:targetClass="com.truecaller.messaging.GoogleActionsActivity">
+            <parameter android:name="message.text" android:key="text" />
+            <parameter android:name="message.disambiguatingDescription" android:key="disambiguatingDescription" />
+            <parameter android:name="message.recipient.name" android:key="name" />
+            <parameter android:name="message.recipient.email" android:key="email" />
+            <parameter android:name="message.recipient.telephone" android:key="telephone" />
+        </intent>
+    </capability>
+    <shortcut android:shortcutId="shortcut-send-message" android:shortcutShortLabel="@string/assistant_shortcut_send_message" android:shortcutLongLabel="@string/assistant_shortcut_send_message">
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE">
+            <parameter-binding android:value="@array/assistant_shortcut_text" android:key="message.disambiguatingDescription" />
+        </capability-binding>
+    </shortcut>
+    <capability android:name="actions.intent.CREATE_CALL">
+        <intent android:targetPackage="com.truecaller" android:action="android.intent.action.VIEW" android:targetClass="com.truecaller.messaging.GoogleActionsActivity">
+            <parameter android:name="call.callFormat" android:key="callFormat" />
+            <parameter android:name="call.participant.name" android:key="name" />
+            <parameter android:name="call.participant.telephone" android:key="telephone" />
+            <parameter android:name="call.participant.identifier" android:key="identifier" />
+        </intent>
+    </capability>
+    <shortcut android:shortcutId="shortcut-call-number" android:shortcutShortLabel="@string/assistant_shortcut_call_number" android:shortcutLongLabel="@string/assistant_shortcut_call_number">
+        <capability-binding android:key="actions.intent.CREATE_CALL">
+            <parameter-binding android:value="@array/assistant_shortcut_call" android:key="call.callFormat" />
+        </capability-binding>
+    </shortcut>
+    <shortcut android:icon="@mipmap/ic_launcher_contacts" android:enabled="true" android:shortcutId="shortcut-contacts-id" android:shortcutShortLabel="@string/tab_contacts" android:shortcutLongLabel="@string/tab_contacts">
+        <intent android:targetPackage="com.truecaller" android:action="android.intent.action.MAIN" android:targetClass="com.truecaller.ui.ContactsActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

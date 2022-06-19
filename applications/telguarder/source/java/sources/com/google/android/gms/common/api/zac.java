@@ -1,0 +1,12 @@
+package com.google.android.gms.common.api;
+/* loaded from: classes-dex2jar.jar:com/google/android/gms/common/api/zac.class */
+final /* synthetic */ class zac implements Runnable {
+    static final Runnable zaa = new zac();
+
+    private zac() {
+    }
+
+    @Override // java.lang.Runnable
+    public final void run() {
+    }
+}

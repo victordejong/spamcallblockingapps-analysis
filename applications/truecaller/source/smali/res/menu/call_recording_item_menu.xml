@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/item_share" android:title="@string/call_recording_items_menu_share" />
+    <item android:id="@id/item_delete" android:title="@string/call_recording_items_menu_delete" />
+    <item android:id="@id/item_view_profile" android:title="@string/call_recording_items_menu_view_profile" />
+</menu>

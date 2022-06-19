@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/spacer" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="@dimen/fu_doublespace" android:layout_marginBottom="@dimen/fu_space" android:src="@drawable/fu_logo_white" android:adjustViewBounds="true" android:layout_marginStart="@dimen/fu_doublespace" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/fu_bg_compact_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/fu_space" android:layout_marginEnd="@dimen/fu_space">
+        <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fu_triplespace" android:src="@drawable/fu_img_required_small" />
+        <TextView android:textColor="@color/fu_black" android:id="@id/title" android:layout_marginTop="@dimen/fu_triplespace" android:layout_marginStart="@dimen/fu_doublespace" android:layout_marginEnd="@dimen/fu_doublespace" style="@style/FUText.Title" />
+        <TextView android:textColor="@color/fu_grey_dark" android:id="@id/description" android:layout_marginTop="@dimen/fu_space" android:layout_marginBottom="@dimen/fu_triplespace" android:text="@string/fu_required_description" android:layout_marginStart="@dimen/fu_doublespace" android:layout_marginEnd="@dimen/fu_doublespace" style="@style/FUText" />
+    </LinearLayout>
+    <FrameLayout android:background="@drawable/fu_bg_compact_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="115.0dip" android:layout_marginStart="@dimen/fu_space" android:layout_marginEnd="@dimen/fu_space">
+        <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/btn_action" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/fu_semispace" app:cardBackgroundColor="@color/fu_truecaller" app:cardCornerRadius="@dimen/fu_rounding" app:cardElevation="3.0dip">
+            <TextView android:id="@id/btn_action_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FUText.Button" />
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+</LinearLayout>

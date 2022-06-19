@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivEmptySearch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_empty_state" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="?tcx_textPrimary" android:id="@id/tvEmptyText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" android:text="@string/biz_govt_empty_search_text" style="@style/StyleX.Text.Subtitle.S1.Medium" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="?tcx_textSecondary" android:id="@id/tvEmptySubText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space" android:text="@string/biz_govt_empty_search_subtext" style="@style/StyleX.Text.Subtitle.S2" />
+</LinearLayout>

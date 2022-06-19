@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>Kertasalasana</item>
+        <item>Tapahtuma</item>
+        <item>Muut</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>tammi</item>
+        <item>helmi</item>
+        <item>maalis</item>
+        <item>huhti</item>
+        <item>touko</item>
+        <item>kesä</item>
+        <item>heinä</item>
+        <item>elo</item>
+        <item>syys</item>
+        <item>loka</item>
+        <item>marras</item>
+        <item>joulu</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Kirjaudu sisään: %s</item>
+        <item>Luo tili: %s</item>
+        <item>Kirjaudu sisään: %s</item>
+        <item>Vahvista numero: %s</item>
+        <item>Luo tili: %s</item>
+        <item>Aloita: %s</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>Soita</item>
+        <item>Näytä profiili</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>Tämä on tärkeää</item>
+        <item>Pahoittelut</item>
+        <item>Missä olet?</item>
+        <item>Minulla on kysymys</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>yksi</item>
+        <item>kaksi</item>
+        <item>kolme</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>Hei 👋, asia on kiireellinen 🚨</item>
+        <item>Hei 👋 Tilauksesi on valmis!</item>
+        <item>Oletko vapaa nyt? Olen alakerrassa!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Äänetön</item>
+        <item>Vain värinä</item>
+        <item>Vain ääni</item>
+        <item>Ääni ja värinä</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>Käytä flashia, kun haluat varman vastauksen minuutissa</item>
+        <item>Käytä flashia nopeasti sanottaviin tärkeisiin asioihin</item>
+        <item>Tiesitkö: voit jakaa sijaintisi nopeasti vain yhdellä napautuksella</item>
+        <item>Vihje: lähetä hymiö tai ilmaise itseäsi kirjoittamalla tekstiä</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>Lajittele etunimen mukaan</item>
+        <item>Lajittele sukunimen mukaan</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>Tallennettu</item>
+        <item>Tunnistettu</item>
+    </string-array>
+</resources>

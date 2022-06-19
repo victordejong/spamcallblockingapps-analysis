@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView style="@style/Widget.Truecaller.CardView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/feature_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:id="@id/feature_item_task_id" android:paddingBottom="0.0dip" style="@style/Widget.Truecaller.Switch.Settings" />
+        <TextView android:id="@id/feature_item_description" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/feature_item_toggle_remote" android:focusable="true" android:clickable="true" android:foreground="?selectableItemBackground" android:text="Server" android:layout_weight="1.0" style="@style/Widget.Truecaller.Switch.Settings" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/feature_item_toggle_local" android:focusable="true" android:clickable="true" android:foreground="?selectableItemBackground" android:text="Local" android:layout_weight="1.0" style="@style/Widget.Truecaller.Switch.Settings" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/feature_item_toggle_insights" android:focusable="true" android:visibility="gone" android:clickable="true" android:foreground="?selectableItemBackground" android:text="Insights" android:layout_weight="1.0" style="@style/Widget.Truecaller.Switch.Settings" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,15 @@
+package com.google.android.gms.location;
+
+import android.content.Context;
+import android.os.Looper;
+import com.google.android.gms.common.api.Api;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.internal.ClientSettings;
+import com.google.android.gms.internal.location.zzaz;
+/* loaded from: classes2-dex2jar.jar:com/google/android/gms/location/zzbh.class */
+final class zzbh extends Api.AbstractClientBuilder<zzaz, Api.ApiOptions.NoOptions> {
+    @Override // com.google.android.gms.common.api.Api.AbstractClientBuilder
+    public final /* bridge */ /* synthetic */ zzaz buildClient(Context context, Looper looper, ClientSettings clientSettings, Api.ApiOptions.NoOptions noOptions, GoogleApiClient.ConnectionCallbacks connectionCallbacks, GoogleApiClient.OnConnectionFailedListener onConnectionFailedListener) {
+        return new zzaz(context, looper, connectionCallbacks, onConnectionFailedListener, "locationServices", clientSettings);
+    }
+}

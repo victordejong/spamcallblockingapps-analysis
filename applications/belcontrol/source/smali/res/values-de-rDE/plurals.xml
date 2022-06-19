@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="governing_contact">
+        <item quantity="other">Kontakte</item>
+        <item quantity="one">Kontakt</item>
+    </plurals>
+    <plurals name="governing_rule">
+        <item quantity="other">Regeln</item>
+        <item quantity="one">Regel</item>
+    </plurals>
+    <plurals name="lookups_left">
+        <item quantity="other">%1$s Restguthaben</item>
+        <item quantity="one">%1$s Restguthaben</item>
+    </plurals>
+    <plurals name="msg_multi_recipient_adapter">
+        <item quantity="other">%1$s+%2$d weitere</item>
+        <item quantity="one">%1$s+%2$d weiteres</item>
+    </plurals>
+    <plurals name="msg_multi_recipient_title">
+        <item quantity="other">%d Empfänger</item>
+        <item quantity="one">%d Empfänger</item>
+    </plurals>
+</resources>

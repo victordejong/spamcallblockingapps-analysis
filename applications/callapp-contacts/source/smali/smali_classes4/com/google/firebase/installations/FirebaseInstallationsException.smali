@@ -1,0 +1,53 @@
+.class public Lcom/google/firebase/installations/FirebaseInstallationsException;
+.super Lcom/google/firebase/FirebaseException;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/google/firebase/installations/FirebaseInstallationsException$a;
+    }
+.end annotation
+
+
+# instance fields
+.field private final a:Lcom/google/firebase/installations/FirebaseInstallationsException$a;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/firebase/installations/FirebaseInstallationsException$a;)V
+    .locals 0
+
+    .line 46
+    invoke-direct {p0}, Lcom/google/firebase/FirebaseException;-><init>()V
+
+    .line 47
+    iput-object p1, p0, Lcom/google/firebase/installations/FirebaseInstallationsException;->a:Lcom/google/firebase/installations/FirebaseInstallationsException$a;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;Lcom/google/firebase/installations/FirebaseInstallationsException$a;)V
+    .locals 0
+
+    .line 51
+    invoke-direct {p0, p1}, Lcom/google/firebase/FirebaseException;-><init>(Ljava/lang/String;)V
+
+    .line 52
+    iput-object p2, p0, Lcom/google/firebase/installations/FirebaseInstallationsException;->a:Lcom/google/firebase/installations/FirebaseInstallationsException$a;
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;Lcom/google/firebase/installations/FirebaseInstallationsException$a;Ljava/lang/Throwable;)V
+    .locals 0
+
+    .line 57
+    invoke-direct {p0, p1, p3}, Lcom/google/firebase/FirebaseException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    .line 58
+    iput-object p2, p0, Lcom/google/firebase/installations/FirebaseInstallationsException;->a:Lcom/google/firebase/installations/FirebaseInstallationsException$a;
+
+    return-void
+.end method

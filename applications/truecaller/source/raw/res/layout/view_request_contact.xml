@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/tcx_subscriptionButtonTextHighlighted" android:gravity="center" android:id="@id/requestContactDetailsBtn" android:background="@drawable/ripple_tcx_subscription_button_highlighted" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/details_view_caller_contact_ask_for_details_text" android:height="48.0dip" android:textAllCaps="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ProgressBar android:id="@id/requestContactProgressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="30.0dip" app:layout_constraintBottom_toBottomOf="@id/requestContactDetailsBtn" app:layout_constraintEnd_toEndOf="@id/requestContactDetailsBtn" app:layout_constraintStart_toStartOf="@id/requestContactDetailsBtn" app:layout_constraintTop_toTopOf="@id/requestContactDetailsBtn" />
+</merge>

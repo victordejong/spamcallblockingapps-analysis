@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:theme="@style/EditTextTheme" android:gravity="center|left|top" android:id="@id/user_feedback" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="200.0dip" android:minHeight="48.0dip" android:hint="@string/dialog_user_feedback_hint" android:maxLines="3" android:inputType="textMultiLine" />
+    <requestFocus />
+</LinearLayout>

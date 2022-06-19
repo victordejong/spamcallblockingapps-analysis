@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/welcome_slide1_fragment_0" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/wizard_bg_1" android:scaleType="fitStart" android:foregroundGravity="bottom" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/textAppearanceSpartan" android:textStyle="bold" android:textColor="@color/colorAccentLight" android:text="@string/security" android:height="40.0dip" style="@style/textViewStyleAutosizedSingleLineCentered" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0dip" android:layout_gravity="center" android:layout_width="300.0dip" android:layout_marginBottom="@dimen/spaceMedium" android:text="@string/protection_against_unwanted_calls_trusted_by_millions_of_users" style="@style/textViewStyleCenter" />
+        <androidx.appcompat.widget.AppCompatTextView android:text="@string/swipe_for_more_information" android:lines="1" android:height="20.0dip" style="@style/textViewStyleCenter" />
+    </LinearLayout>
+</FrameLayout>

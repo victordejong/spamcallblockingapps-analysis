@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>كلمة مرور لمرة واحدة</item>
+        <item>معاملة</item>
+        <item>آخرون</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>أبريل</item>
+        <item>ماي</item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>أغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>تقدم</item>
+        <item>يكمل</item>
+        <item>قبول</item>
+        <item>يتأكد</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>استخدم %s</item>
+        <item>واصل باستخدام %s</item>
+        <item>واصل باستخدام %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>تسجيل الدخول إلى %s</item>
+        <item>الاشتراك باستخدام %s</item>
+        <item>تسجيل الدخول إلى %s</item>
+        <item>مصادقة الرقم باستخدام %s</item>
+        <item>التسجيل باستخدام %s</item>
+        <item>ابدأ بـ %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>للبدء</item>
+        <item>للمواصلة</item>
+        <item>لوضع طلب</item>
+        <item>لإكمال الشراء</item>
+        <item>للدفع والخروج</item>
+        <item>لإكمال حجزك</item>
+        <item>لمواصلة حجزك</item>
+        <item>لمواصلة حجزك</item>
+        <item>للحصول على التفاصيل</item>
+        <item>لمشاهدة المزيد</item>
+        <item>لمواصلة القراءة</item>
+        <item>للمواصلة</item>
+        <item>للتحديثات الجديدة</item>
+        <item>للحصول على التحديثات</item>
+        <item>للاشتراك</item>
+        <item>للاشتراك والحصول على التحديثات</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>فضلاً قم بمصادقة رقم الهاتف</item>
+        <item>يرجى تسجيل الدخول</item>
+        <item>يرجى الاشتراك</item>
+        <item>يرجى تسجيل الدخول/الاشتراك</item>
+        <item>يرجى التسجيل</item>
+        <item>يرجى تسجيل الدخول</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>إتصال</item>
+        <item>عرض الملف الشخصي</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>هذا مهم</item>
+        <item>عذراً</item>
+        <item>أين أنت؟</item>
+        <item>لديّ سؤال</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>واحد</item>
+        <item>اثنان</item>
+        <item>ثلاثة</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>مرحباً 👋، الأمر عاجل 🚨</item>
+        <item>مرحباً &amp;#128075، طلبك جاهز!</item>
+        <item>هل أنت متفرغ الآن؟ أنا في الأسفل!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>صامت</item>
+        <item>إهتزاز فقط</item>
+        <item>صوتي فقط</item>
+        <item>صوت و إهتزاز</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>استخدم Flash عندما تريد رداً مضموناً في غضون دقيقة</item>
+        <item>استخدم Flash للأشياء الهامة التي تحتاج إلى قولها بسرعة</item>
+        <item>هل تعلم: أنك يمكنك مشاركة موقعك بسرعة بضغطة واحدة فقط</item>
+        <item>نصيحة: أرسل رموزاً تعبيرية أو اكتب نصاً للتعبير عن نفسك</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>شريحة 1</item>
+        <item>شريحة 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>شريحة 1</item>
+        <item>شريحة 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>الفرز حسب الاسم الأول</item>
+        <item>الفرز حسب الاسم الأخير</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>محفوظ</item>
+        <item>مُعرّف</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConstraintLayoutStates
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <State android:id="@id/defaultState" app:constraints="@layout/layout_conversation_input_bar_default" />
+    <State android:id="@id/extendedState" app:constraints="@layout/layout_conversation_input_bar_extended" />
+    <State android:id="@id/editState" app:constraints="@layout/layout_conversation_input_bar_edit" />
+</ConstraintLayoutStates>

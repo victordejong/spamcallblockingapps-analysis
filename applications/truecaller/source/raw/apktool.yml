@@ -1,0 +1,640 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: com.truecaller.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- META-INF/androidx.activity_activity-ktx.version
+- META-INF/androidx.activity_activity.version
+- META-INF/androidx.annotation_annotation-experimental.version
+- META-INF/androidx.appcompat_appcompat-resources.version
+- META-INF/androidx.appcompat_appcompat.version
+- META-INF/androidx.arch.core_core-runtime.version
+- META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version
+- META-INF/androidx.browser_browser.version
+- META-INF/androidx.camera_camera-camera2.version
+- META-INF/androidx.camera_camera-core.version
+- META-INF/androidx.camera_camera-lifecycle.version
+- META-INF/androidx.camera_camera-view.version
+- META-INF/androidx.cardview_cardview.version
+- META-INF/androidx.coordinatorlayout_coordinatorlayout.version
+- META-INF/androidx.core_core-ktx.version
+- META-INF/androidx.core_core.version
+- META-INF/androidx.cursoradapter_cursoradapter.version
+- META-INF/androidx.customview_customview.version
+- META-INF/androidx.databinding_baseAdapters.version
+- META-INF/androidx.databinding_library.version
+- META-INF/androidx.databinding_viewbinding.version
+- META-INF/androidx.documentfile_documentfile.version
+- META-INF/androidx.drawerlayout_drawerlayout.version
+- META-INF/androidx.dynamicanimation_dynamicanimation.version
+- META-INF/androidx.exifinterface_exifinterface.version
+- META-INF/androidx.fragment_fragment-ktx.version
+- META-INF/androidx.fragment_fragment.version
+- META-INF/androidx.hilt_hilt-work.version
+- META-INF/androidx.interpolator_interpolator.version
+- META-INF/androidx.legacy_legacy-support-core-ui.version
+- META-INF/androidx.legacy_legacy-support-core-utils.version
+- META-INF/androidx.legacy_legacy-support-v4.version
+- META-INF/androidx.lifecycle_lifecycle-extensions.version
+- META-INF/androidx.lifecycle_lifecycle-livedata-core-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-livedata-core.version
+- META-INF/androidx.lifecycle_lifecycle-livedata-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-livedata.version
+- META-INF/androidx.lifecycle_lifecycle-process.version
+- META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-runtime.version
+- META-INF/androidx.lifecycle_lifecycle-service.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel-ktx.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel.version
+- META-INF/androidx.loader_loader.version
+- META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version
+- META-INF/androidx.media2_media2-common.version
+- META-INF/androidx.media2_media2-exoplayer.version
+- META-INF/androidx.media2_media2-player.version
+- META-INF/androidx.media2_media2-session.version
+- META-INF/androidx.media2_media2-widget.version
+- META-INF/androidx.media_media.version
+- META-INF/androidx.paging_paging-runtime.version
+- META-INF/androidx.palette_palette.version
+- META-INF/androidx.print_print.version
+- META-INF/androidx.recyclerview_recyclerview.version
+- META-INF/androidx.room_room-ktx.version
+- META-INF/androidx.room_room-runtime.version
+- META-INF/androidx.savedstate_savedstate-ktx.version
+- META-INF/androidx.savedstate_savedstate.version
+- META-INF/androidx.slidingpanelayout_slidingpanelayout.version
+- META-INF/androidx.sqlite_sqlite-framework.version
+- META-INF/androidx.sqlite_sqlite.version
+- META-INF/androidx.startup_startup-runtime.version
+- META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version
+- META-INF/androidx.tracing_tracing.version
+- META-INF/androidx.transition_transition.version
+- META-INF/androidx.vectordrawable_vectordrawable-animated.version
+- META-INF/androidx.vectordrawable_vectordrawable.version
+- META-INF/androidx.versionedparcelable_versionedparcelable.version
+- META-INF/androidx.viewpager2_viewpager2.version
+- META-INF/androidx.viewpager_viewpager.version
+- META-INF/androidx.work_work-runtime-ktx.version
+- META-INF/androidx.work_work-runtime.version
+- META-INF/com.google.android.material_material.version
+- META-INF/com.google.dagger_dagger-android-support.version
+- META-INF/com.google.dagger_dagger-android.version
+- META-INF/com.google.dagger_dagger-lint-aar.version
+- META-INF/com.google.dagger_dagger.version
+- META-INF/com.google.dagger_hilt-android.version
+- META-INF/com.google.dagger_hilt-core.version
+- META-INF/services/e.k.a.b.e
+- META-INF/services/e.k.a.b.n
+- META-INF/services/p3.a.n0
+- META-INF/services/p3.a.s0
+- jpg
+- webp
+- assets/smartcards/alpha_filter.json
+- png
+- gif
+- res/raw/joda_atlantic_jan_mayen
+- res/raw/joda_est
+- res/raw/joda_etc_gmt
+- res/raw/joda_etc_gmt_1
+- res/raw/joda_etc_gmt_10
+- res/raw/joda_etc_gmt_11
+- res/raw/joda_etc_gmt_12
+- res/raw/joda_etc_gmt_13
+- res/raw/joda_etc_gmt_14
+- res/raw/joda_etc_gmt_2
+- res/raw/joda_etc_gmt_3
+- res/raw/joda_etc_gmt_4
+- res/raw/joda_etc_gmt_5
+- res/raw/joda_etc_gmt_6
+- res/raw/joda_etc_gmt_7
+- res/raw/joda_etc_gmt_8
+- res/raw/joda_etc_gmt_9
+- res/raw/joda_etc_gmtplus1
+- res/raw/joda_etc_gmtplus10
+- res/raw/joda_etc_gmtplus11
+- res/raw/joda_etc_gmtplus12
+- res/raw/joda_etc_gmtplus2
+- res/raw/joda_etc_gmtplus3
+- res/raw/joda_etc_gmtplus4
+- res/raw/joda_etc_gmtplus5
+- res/raw/joda_etc_gmtplus6
+- res/raw/joda_etc_gmtplus7
+- res/raw/joda_etc_gmtplus8
+- res/raw/joda_etc_gmtplus9
+- res/raw/joda_etc_uct
+- res/raw/joda_etc_utc
+- res/raw/joda_hst
+- res/raw/joda_mst
+- res/raw/joda_pacific_johnston
+- ogg
+- mp3
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '23'
+  targetSdkVersion: '30'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: '8'
+  HMSCore-availableupdate.properties: '0'
+  HMSCore-base.properties: '0'
+  HMSCore-device.properties: '0'
+  HMSCore-hatool.properties: '0'
+  HMSCore-log.properties: '0'
+  HMSCore-stats.properties: '0'
+  HMSCore-ui.properties: '0'
+  agconnect-core.properties: '0'
+  androidsupportmultidexversion.txt: '0'
+  billing-ktx.properties: '8'
+  billing.properties: '8'
+  common.properties: '8'
+  core-integrity.properties: '8'
+  firebase-abt.properties: '8'
+  firebase-analytics-ktx.properties: '8'
+  firebase-analytics.properties: '8'
+  firebase-annotations.properties: '8'
+  firebase-auth-interop.properties: '8'
+  firebase-common-ktx.properties: '8'
+  firebase-common.properties: '8'
+  firebase-components.properties: '8'
+  firebase-config-ktx.properties: '8'
+  firebase-config.properties: '8'
+  firebase-crashlytics.properties: '8'
+  firebase-datatransport.properties: '8'
+  firebase-dynamic-links.properties: '8'
+  firebase-encoders-json.properties: '8'
+  firebase-encoders-proto.properties: '8'
+  firebase-encoders.properties: '8'
+  firebase-iid-interop.properties: '8'
+  firebase-installations-interop.properties: '8'
+  firebase-installations.properties: '8'
+  firebase-invites.properties: '8'
+  firebase-measurement-connector.properties: '8'
+  firebase-messaging-ktx.properties: '8'
+  firebase-messaging.properties: '8'
+  firebase-perf-ktx.properties: '8'
+  firebase-perf.properties: '8'
+  language-id.properties: '8'
+  network-common.properties: '0'
+  network-framework-compat.properties: '8'
+  network-grs.properties: '0'
+  places.properties: '8'
+  play-services-ads-base.properties: '8'
+  play-services-ads-identifier.properties: '8'
+  play-services-ads-lite.properties: '8'
+  play-services-ads.properties: '8'
+  play-services-appinvite.properties: '8'
+  play-services-appset.properties: '8'
+  play-services-auth-api-phone.properties: '8'
+  play-services-auth-base.properties: '8'
+  play-services-auth.properties: '8'
+  play-services-base.properties: '8'
+  play-services-basement.properties: '8'
+  play-services-clearcut.properties: '8'
+  play-services-cloud-messaging.properties: '8'
+  play-services-flags.properties: '8'
+  play-services-identity.properties: '8'
+  play-services-location.properties: '8'
+  play-services-maps.properties: '8'
+  play-services-measurement-api.properties: '8'
+  play-services-measurement-base.properties: '8'
+  play-services-measurement-impl.properties: '8'
+  play-services-measurement-sdk-api.properties: '8'
+  play-services-measurement-sdk.properties: '8'
+  play-services-measurement.properties: '8'
+  play-services-phenotype.properties: '8'
+  play-services-places-placereport.properties: '8'
+  play-services-safetynet.properties: '8'
+  play-services-stats.properties: '8'
+  play-services-tasks.properties: '8'
+  play-services-vision-common.properties: '8'
+  play-services-vision.properties: '8'
+  play-services-wallet.properties: '8'
+  protolite-well-known-types.properties: '8'
+  prune_cross_lnk_seed.json: '8'
+  prune_dup_seed.json: '8'
+  prune_lnk_seed.json: '8'
+  translate.properties: '8'
+  transport-api.properties: '8'
+  transport-backend-cct.properties: '8'
+  transport-runtime.properties: '8'
+  user-messaging-platform.properties: '8'
+  stamp-cert-sha256: '8'
+  com/appsflyer/internal/a-: '0'
+  com/appsflyer/internal/b-: '0'
+  com/clevertap/android/sdk/certificates/DigiCertGlobalRootCA.crt: '8'
+  com/clevertap/android/sdk/certificates/DigiCertSHA2SecureServerCA.crt: '8'
+  com/google/api/client/googleapis/google.jks: '8'
+  com/google/i18n/phonenumbers/carrier/data/1242_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1246_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1264_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1268_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1284_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1340_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1345_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1441_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1473_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1649_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1658_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1659_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1664_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1670_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1671_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1684_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1758_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1767_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1784_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1787_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1809_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1868_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1869_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1876_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/1939_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/20_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/211_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/212_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/213_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/216_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/218_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/220_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/221_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/222_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/223_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/224_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/225_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/226_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/227_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/228_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/229_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/230_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/231_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/232_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/233_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/234_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/235_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/236_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/237_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/238_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/239_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/240_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/241_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/242_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/243_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/244_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/245_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/246_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/247_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/248_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/249_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/250_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/251_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/252_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/253_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/254_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/255_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/256_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/257_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/258_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/260_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/261_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/262_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/263_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/264_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/265_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/266_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/267_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/268_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/269_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/27_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/290_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/291_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/297_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/298_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/299_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/30_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/31_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/32_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/33_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/34_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/350_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/351_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/352_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/353_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/354_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/355_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/356_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/357_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/358_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/359_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/36_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/370_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/372_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/373_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/374_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/374_ru: '8'
+  com/google/i18n/phonenumbers/carrier/data/375_be: '8'
+  com/google/i18n/phonenumbers/carrier/data/375_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/375_ru: '8'
+  com/google/i18n/phonenumbers/carrier/data/376_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/377_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/378_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/380_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/380_uk: '8'
+  com/google/i18n/phonenumbers/carrier/data/381_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/382_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/383_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/385_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/386_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/387_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/389_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/39_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/40_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/41_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/420_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/421_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/423_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/43_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/44_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/45_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/46_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/47_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/48_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/49_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/500_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/501_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/502_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/503_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/504_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/505_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/506_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/507_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/508_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/509_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/51_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/53_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/55_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/56_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/57_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/58_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/590_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/591_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/592_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/593_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/594_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/595_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/596_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/597_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/598_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/599_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/60_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/61_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/62_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/63_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/64_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/65_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/66_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/670_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/672_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/673_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/674_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/675_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/676_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/677_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/678_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/679_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/680_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/681_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/682_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/683_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/685_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/686_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/687_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/688_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/689_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/690_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/691_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/692_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/7_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/7_ru: '8'
+  com/google/i18n/phonenumbers/carrier/data/81_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/82_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/82_ko: '8'
+  com/google/i18n/phonenumbers/carrier/data/84_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/850_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/852_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/852_zh: '8'
+  com/google/i18n/phonenumbers/carrier/data/852_zh_Hant: '8'
+  com/google/i18n/phonenumbers/carrier/data/853_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/855_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/856_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/86_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/86_zh: '8'
+  com/google/i18n/phonenumbers/carrier/data/86_zh_Hant: '8'
+  com/google/i18n/phonenumbers/carrier/data/880_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/881_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/882_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/886_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/90_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/91_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/92_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/93_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/93_fa: '8'
+  com/google/i18n/phonenumbers/carrier/data/94_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/95_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/960_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/961_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/962_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/963_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/964_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/965_ar: '8'
+  com/google/i18n/phonenumbers/carrier/data/965_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/966_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/967_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/968_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/970_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/971_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/972_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/973_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/974_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/975_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/976_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/977_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/98_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/98_fa: '8'
+  com/google/i18n/phonenumbers/carrier/data/992_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/993_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/994_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/995_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/996_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/998_en: '8'
+  com/google/i18n/phonenumbers/carrier/data/config: '8'
+  google/protobuf/any.proto: '8'
+  google/protobuf/api.proto: '8'
+  google/protobuf/duration.proto: '8'
+  google/protobuf/empty.proto: '8'
+  google/protobuf/field_mask.proto: '8'
+  google/protobuf/source_context.proto: '8'
+  google/protobuf/struct.proto: '8'
+  google/protobuf/timestamp.proto: '8'
+  google/protobuf/type.proto: '8'
+  google/protobuf/wrappers.proto: '8'
+  mozilla/public-suffix-list.txt: '8'
+  okhttp3/internal/publicsuffix/NOTICE: '8'
+  okhttp3/internal/publicsuffix/publicsuffixes.gz: '0'
+  org/apache/commons/codec/language/dmrules.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_any.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_common.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_cyrillic.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_english.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_french.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_german.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_hungarian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_polish.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_romanian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_russian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_approx_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_any.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_approx_common.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_common.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_cyrillic.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_english.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_french.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_german.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_hungarian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_polish.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_romanian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_russian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_exact_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/ash_hebrew_common.txt: '8'
+  org/apache/commons/codec/language/bm/ash_lang.txt: '8'
+  org/apache/commons/codec/language/bm/ash_languages.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_any.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_cyrillic.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_english.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_french.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_german.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_hungarian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_polish.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_romanian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_russian.txt: '8'
+  org/apache/commons/codec/language/bm/ash_rules_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_any.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_arabic.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_common.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_cyrillic.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_czech.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_dutch.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_english.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_french.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_german.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_greek.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_greeklatin.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_hungarian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_italian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_polish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_portuguese.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_romanian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_russian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_approx_turkish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_any.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_approx_common.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_arabic.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_common.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_cyrillic.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_czech.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_dutch.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_english.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_french.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_german.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_greek.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_greeklatin.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_hungarian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_italian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_polish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_portuguese.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_romanian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_russian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_exact_turkish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_hebrew_common.txt: '8'
+  org/apache/commons/codec/language/bm/gen_lang.txt: '8'
+  org/apache/commons/codec/language/bm/gen_languages.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_any.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_arabic.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_cyrillic.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_czech.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_dutch.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_english.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_french.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_german.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_greek.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_greeklatin.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_hungarian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_italian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_polish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_portuguese.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_romanian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_russian.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/gen_rules_turkish.txt: '8'
+  org/apache/commons/codec/language/bm/lang.txt: '8'
+  org/apache/commons/codec/language/bm/sep_approx_any.txt: '8'
+  org/apache/commons/codec/language/bm/sep_approx_common.txt: '8'
+  org/apache/commons/codec/language/bm/sep_approx_french.txt: '8'
+  org/apache/commons/codec/language/bm/sep_approx_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/sep_approx_italian.txt: '8'
+  org/apache/commons/codec/language/bm/sep_approx_portuguese.txt: '8'
+  org/apache/commons/codec/language/bm/sep_approx_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_any.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_approx_common.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_common.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_french.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_italian.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_portuguese.txt: '8'
+  org/apache/commons/codec/language/bm/sep_exact_spanish.txt: '8'
+  org/apache/commons/codec/language/bm/sep_hebrew_common.txt: '8'
+  org/apache/commons/codec/language/bm/sep_lang.txt: '8'
+  org/apache/commons/codec/language/bm/sep_languages.txt: '8'
+  org/apache/commons/codec/language/bm/sep_rules_any.txt: '8'
+  org/apache/commons/codec/language/bm/sep_rules_french.txt: '8'
+  org/apache/commons/codec/language/bm/sep_rules_hebrew.txt: '8'
+  org/apache/commons/codec/language/bm/sep_rules_italian.txt: '8'
+  org/apache/commons/codec/language/bm/sep_rules_portuguese.txt: '8'
+  org/apache/commons/codec/language/bm/sep_rules_spanish.txt: '8'
+  org/apache/http/version.properties: '8'
+  org/apache/http/client/version.properties: '8'
+  org/joda/time/format/messages.properties: '8'
+  org/joda/time/format/messages_cs.properties: '8'
+  org/joda/time/format/messages_da.properties: '8'
+  org/joda/time/format/messages_de.properties: '8'
+  org/joda/time/format/messages_en.properties: '0'
+  org/joda/time/format/messages_es.properties: '8'
+  org/joda/time/format/messages_fr.properties: '8'
+  org/joda/time/format/messages_it.properties: '8'
+  org/joda/time/format/messages_ja.properties: '8'
+  org/joda/time/format/messages_nl.properties: '8'
+  org/joda/time/format/messages_no.properties: '8'
+  org/joda/time/format/messages_pl.properties: '8'
+  org/joda/time/format/messages_pt.properties: '8'
+  org/joda/time/format/messages_ru.properties: '8'
+  org/joda/time/format/messages_tr.properties: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.6.0
+versionInfo:
+  versionCode: '1221006'
+  versionName: 12.21.6

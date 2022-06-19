@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bottom_sheet_rounded_corner_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:backgroundTint="?tcx_backgroundTertiary"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="350.0dip" android:layout_marginBottom="16.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/options" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:layout_width="92.0dip" android:layout_height="92.0dip" android:layout_marginTop="25.0dip" app:srcCompat="?tcx_premiumSpammersAcsPromoIcon" />
+            <TextView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="30.0dip" android:text="@string/PremiumSpammersAcsPromoDialogTitle" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/StyleX.Text.Headline.H6" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <TextView android:textColor="?tcx_textSecondary" android:gravity="center" android:id="@id/negativeButton" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/StrClose" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/StyleX.Button.Secondary" />
+    <com.google.android.material.button.MaterialButton android:gravity="center" android:id="@id/positiveButton" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginBottom="16.0dip" android:text="@string/PremiumSpammersAcsPromoDialogUnlockBtn" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/StyleX.Button.Primary" />
+</LinearLayout>

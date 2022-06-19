@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="?tcx_backgroundPrimary" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:id="@id/businessCardTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Own Business Card" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Text.Subtitle.S2" />
+    <androidx.constraintlayout.helper.widget.Flow android:orientation="horizontal" android:id="@id/labels_flow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:constraint_referenced_ids="         firstNameLabel,         lastNameLabel,         phoneNumberLabel,         badgesLabel,         cityLabel,         companyLabel,         jobTitleLabel,         videoIdLabel" app:flow_maxElementsWrap="1" app:flow_verticalGap="8.0dip" app:flow_wrapMode="chain" app:layout_constrainedWidth="true" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/businessCardTitle" />
+    <androidx.constraintlayout.helper.widget.Flow android:orientation="horizontal" android:id="@id/values_flow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="8.0dip" app:constraint_referenced_ids="         firstName,         lastName,         phoneNumber,         badges,         city,         company,         jobTitle,         videoId" app:flow_maxElementsWrap="1" app:flow_verticalGap="8.0dip" app:flow_wrapMode="chain" app:layout_constrainedWidth="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/labels_flow" app:layout_constraintTop_toBottomOf="@id/businessCardTitle" />
+    <TextView android:id="@id/firstNameLabel" android:text="First Name:" style="@style/CallAlertDebugNotificationItem" />
+    <TextView android:id="@id/firstName" style="@style/CallAlertDebugNotificationItem" />
+    <TextView android:id="@id/lastNameLabel" android:text="Last Name:" style="@style/CallAlertDebugNotificationItem" />
+    <TextView android:id="@id/lastName" style="@style/CallAlertDebugNotificationItem" />
+    <TextView android:id="@id/phoneNumberLabel" android:text="Phone Number:" style="@style/CallAlertDebugNotificationItem" />
+    <TextView android:id="@id/phoneNumber" style="@style/CallAlertDebugNotificationItem" />
+    <TextView android:id="@id/badgesLabel" android:text="Badges:" style="@style/CallAlertDebugNotificationItem" />
+    <TextView android:id="@id/badges" style="@style/CallAlertDebugNotificationItem" />
+    <TextView android:id="@id/cityLabel" android:text="City:" style="@style/CallAlertDebugNotificationItem" />
+    <TextView android:id="@id/city" style="@style/CallAlertDebugNotificationItem" />
+    <TextView android:id="@id/companyLabel" android:text="Company:" style="@style/CallAlertDebugNotificationItem" />
+    <TextView android:id="@id/company" style="@style/CallAlertDebugNotificationItem" />
+    <TextView android:id="@id/jobTitleLabel" android:text="Job Title:" style="@style/CallAlertDebugNotificationItem" />
+    <TextView android:id="@id/jobTitle" style="@style/CallAlertDebugNotificationItem" />
+    <TextView android:id="@id/videoIdLabel" android:text="Video Id: " style="@style/CallAlertDebugNotificationItem" />
+    <TextView android:id="@id/videoId" style="@style/CallAlertDebugNotificationItem" />
+</androidx.constraintlayout.widget.ConstraintLayout>

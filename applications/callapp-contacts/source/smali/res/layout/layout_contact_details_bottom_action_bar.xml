@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom|center" android:id="@id/bottomActionsContainerWithShadow" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/bottomActionsContainer" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/centerBottomAction" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/centerBottomActionSmallIcon" android:layout_width="@dimen/contact_details_bottom_action_bar_small_icons_sizes" android:layout_height="@dimen/contact_details_bottom_action_bar_small_icons_sizes" android:src="@drawable/shape_oval" />
+            <com.callapp.contacts.activity.contact.details.CallFabWithActionsView android:layout_gravity="center_horizontal" android:id="@id/centerBottomActionIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_fab_b_centered" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

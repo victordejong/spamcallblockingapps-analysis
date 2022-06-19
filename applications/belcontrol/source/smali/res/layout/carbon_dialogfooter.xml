@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <carbon.widget.Divider android:id="@id/carbon_bottomDivider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <carbon.widget.LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/carbon_buttonContainer" android:paddingLeft="@dimen/carbon_paddingHalf" android:paddingTop="@dimen/carbon_paddingHalf" android:paddingRight="@dimen/carbon_paddingHalf" android:paddingBottom="@dimen/carbon_paddingHalf" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <carbon.widget.Button android:textColor="?colorAccent" android:id="@id/carbon_buttonNegative" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/carbon_Button.Flat" />
+        <carbon.widget.Button android:textColor="?colorAccent" android:id="@id/carbon_buttonPositive" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/carbon_Button.Flat" />
+    </carbon.widget.LinearLayout>
+</carbon.widget.FrameLayout>

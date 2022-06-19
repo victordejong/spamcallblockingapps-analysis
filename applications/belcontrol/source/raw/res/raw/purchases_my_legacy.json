@@ -1,0 +1,27 @@
+{
+		"top" : "Enhanced Caller ID shows you who's calling when an unknown call comes in so you always know who's calling.",
+
+        "sections" : [
+            {
+                "img" : "glass",
+                "descr" : "Displays the name of unknown callers",
+                "width": "40",
+                "height": "40"
+            },
+            {
+                "img" : "group",
+                "descr" : "Millions of individuals and businesses",
+                "width": "40",
+                "height": "40"
+
+            },
+            {
+                "img" : "credits",
+                "descr" : "Get 10 bonus credits for manual lookups",
+                "width": "40",
+                "height": "40"
+            }
+        ],
+
+        "bottom" : ""
+}

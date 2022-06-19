@@ -1,0 +1,198 @@
+[
+  {
+    "grm": "GRM_BILL",
+    "baseFilter": {
+      "requiredValues": [
+        {
+          "columnName": "k",
+          "columnValues": [
+            "recharge_expiry",
+            "prepaid_bill"
+          ]
+        }
+      ],
+      "requiredColumns": [],
+      "optionalColumns": [
+        "datetime",
+        "o"
+      ]
+    }
+  },
+  {
+    "grm": "GRM_BILL",
+    "baseFilter": {
+      "requiredValues": [
+        {
+          "columnName": "k",
+          "columnValues": [
+            "payment_due",
+            "payment_notif"
+          ]
+        }
+      ],
+      "requiredColumns": [
+        "val3"
+      ],
+      "optionalColumns": [
+        "datetime",
+        "o"
+      ]
+    }
+  },
+  {
+    "grm": "GRM_BANK",
+    "baseFilter": {
+      "requiredValues": [
+        {
+          "columnName": "k",
+          "columnValues": [
+            "expense",
+            "transfer",
+            "income"
+          ]
+        }
+      ],
+      "requiredColumns": [
+        "o",
+        "val3"
+      ],
+      "optionalColumns": [
+        "datetime",
+        "val4",
+        "dff_val3"
+      ]
+    }
+  },
+  {
+    "grm": "GRM_OTP",
+    "baseFilter": {
+      "requiredColumns": [
+        "val1"
+      ],
+      "requiredValues": [
+        {
+          "columnName": "d",
+          "columnValues": [
+            "OTP"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "grm": "GRM_TRAVEL",
+    "baseFilter": {
+      "requiredValues": [
+        {
+          "columnName": "k",
+          "columnValues": [
+            "train",
+            "bus",
+            "flight",
+            "Train",
+            "Bus",
+            "Flight"
+          ]
+        }
+      ],
+      "requiredColumns": [
+        "p",
+        "c",
+        "o",
+        "datetime"
+      ],
+      "optionalColumns": [
+        "f",
+        "g",
+        "s",
+        "val1",
+        "val2",
+        "val3",
+        "val4",
+        "dff_val1",
+        "dff_val4",
+        "dff_val5"
+      ]
+    }
+  },
+  {
+    "grm": "GRM_TRAVEL",
+    "baseFilter": {
+      "requiredValues": [
+        {
+          "columnName": "k",
+          "columnValues": [
+            "alert"
+          ]
+        }
+      ],
+      "requiredColumns": [
+        "o",
+        "f"
+      ],
+      "optionalColumns": [
+        "g",
+        "s",
+        "val1",
+        "val2",
+        "val3",
+        "val4",
+        "dff_val1",
+        "dff_val4",
+        "dff_val5"
+      ]
+    }
+  },
+  {
+    "grm": "GRM_DELIVERY",
+    "baseFilter": {
+      "requiredValues": [
+        {
+          "columnName": "k",
+          "columnValues": [
+            "ordrcv",
+            "ordpck",
+            "ordshp",
+            "transit",
+            "delvrd",
+            "ordcancl",
+            "actionrqd",
+            "undelivered",
+            "returned",
+            "return"
+          ]
+        }
+      ],
+      "requiredColumns": [
+      ],
+      "optionalColumns": [
+        "p",
+        "o",
+        "f",
+        "s",
+        "val3",
+        "dff_val4",
+        "dff_val5",
+        "datetime"
+      ]
+    }
+  },
+  {
+    "grm": "GRM_EVENT",
+    "baseFilter": {
+      "requiredValues": [
+        {
+          "columnName": "k",
+          "columnValues": [
+            "vaccination"
+          ]
+        }
+      ],
+      "requiredColumns": [
+        "p"
+      ],
+      "optionalColumns": [
+      ]
+    }
+  }
+]

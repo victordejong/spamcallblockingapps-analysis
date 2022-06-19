@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?selectableItemBackground" android:paddingLeft="@dimen/list_item_margin_left_right" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/directoryImageView" android:layout_width="@dimen/local_icon_size" android:layout_height="@dimen/local_icon_size" android:layout_marginRight="@dimen/list_item_margin_left_right" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" android:layout_weight="7.0">
+        <TextView android:textSize="16.0sp" android:textColor="@color/dark_grey" android:ellipsize="end" android:id="@id/directoryNameTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include android:id="@id/directoryAdView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" layout="@layout/local_directory_ad_view" />
+            <ImageView android:id="@id/directoryRatingImageView" android:layout_width="76.0dip" android:layout_height="16.0dip" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/stone_grey" android:id="@id/directoryRatingTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="4.0dip" android:paddingEnd="2.0dip" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/stone_grey" android:id="@id/directoryDistanceTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="13.0sp" android:textColor="@color/stone_grey" android:id="@id/directoryPriceTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="2.0dip" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/stone_grey" android:id="@id/directoryTypeTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageButton android:layout_gravity="center_vertical" android:id="@id/directoryCallButton" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_call_24" android:contentDescription="@string/call" style="@style/search_call_button_padding" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/settingsFlash" style="@style/Widget.Truecaller.CardView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/firebase_string_feature_container" android:background="?selectableItemBackground" android:paddingBottom="@dimen/control_doublespace" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:id="@id/firebase_string_feature_item" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Widget.Truecaller.Switch.Settings" />
+        <TextView android:textStyle="bold" android:textColor="?theme_textColorAccentedControl" android:id="@id/firebase_string_feature_button" android:background="?theme_buttonAccent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/StrEdit" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" style="@style/Widget.AppCompat.Button.Colored" />
+        <TextView android:id="@id/firebase_string_feature_item_description" android:layout_below="@id/firebase_string_feature_item" android:layout_toStartOf="@id/firebase_string_feature_button" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+        <TextView android:id="@id/firebase_string_feature_item_info" android:layout_marginTop="8.0dip" android:layout_below="@id/firebase_string_feature_item_description" android:layout_toStartOf="@id/firebase_string_feature_button" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:focusable="false" android:clickable="false" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_margin="@dimen/tag_tcx_padding" />
+    <com.truecaller.common.ui.textview.GoldShineTextView android:layout_gravity="center_vertical" android:id="@id/title" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tag_tcx_padding" android:layout_marginBottom="@dimen/tag_tcx_padding" android:layout_marginEnd="@dimen/tag_tcx_padding_end" style="@style/StyleX.Text.Tag.Title" />
+</merge>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/favorite_layout_background" android:background="@color/favorite_list_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <FrameLayout android:paddingLeft="@dimen/dimen_8_dp" android:paddingTop="@dimen/dimen_8_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dimen_8_dp">
-        <com.callapp.contacts.activity.favorites.DragListView android:id="@id/dragListView" android:paddingBottom="@dimen/dimen_8_dp" android:layoutAnimation="@anim/grid_layout_animation_from_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-        <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="bottom|center|right" android:id="@id/floatingActionButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:layout_marginBottom="@dimen/dimen_4_dp" android:scaleType="fitXY" android:layout_marginEnd="18.0dip" app:elevation="@dimen/dimen_2_dp" app:fabCustomSize="50.0dip" />
-    </FrameLayout>
-</LinearLayout>

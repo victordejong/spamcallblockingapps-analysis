@@ -1,0 +1,33 @@
+{
+		"top" : "Atualize agora e desbloqueie um poderoso conjunto de recursos:",
+
+        "sections" : [
+            {
+                "img" : "shield",
+                "descr" : "Community Block List",
+                "width": "40",
+                "height": "40"
+            },
+            {
+                "img" : "list",
+                "descr" : "Lançamentos ilimitados à lista de bloqueios",
+                "width": "40",
+                "height": "40"
+
+            },
+            {
+                "img" : "cloud",
+                "descr" : "Backup online",
+                "width": "40",
+                "height": "40"
+            },
+            {
+                "img" : "caller_id",
+                "descr" : "Função ID Caller aprimorada",
+                "width": "40",
+                "height": "40"
+            }
+        ],
+
+        "bottom" : ""
+}

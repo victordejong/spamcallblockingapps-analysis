@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/container" android:paddingTop="@dimen/dimen_36_dp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="0.7">
+        <com.callapp.contacts.widget.ProgressCardView android:id="@id/downloader_cardview_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/progress_card_view_margin" app:cardElevation="2.0dip" app:layoutResId="@layout/include_preview_cardview_video_ringtone" />
+        <FrameLayout android:id="@id/video_ringtone_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/progress_card_view_margin" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="0.6">
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_personal_cover_on_phone_preview" />
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

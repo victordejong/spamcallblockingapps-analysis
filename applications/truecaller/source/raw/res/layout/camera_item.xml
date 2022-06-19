@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/attachment_image_item_background" android:layout_width="@dimen/attachment_option_preview_width" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/space"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/cameraCardView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardBackgroundColor="?tcx_brandBackgroundBlue" app:cardCornerRadius="@dimen/attachment_option_preview_radius">
+        <androidx.camera.view.PreviewView android:id="@id/previewView" android:background="@color/camera_preview_button_bg_all_themes" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:tint="@color/white" app:backgroundTint="@color/camera_preview_button_bg_all_themes" app:srcCompat="@drawable/ic_tcx_photo_camera_24dp" style="@style/Widget.Truecaller.AttachmentOption.Image" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

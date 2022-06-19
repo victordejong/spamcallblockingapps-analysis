@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?tcx_backgroundPrimary" android:padding="@dimen/control_doublespace" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/actionClose" android:padding="@dimen/control_space" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/control_space" android:contentDescription="@null" app:srcCompat="@drawable/ic_action_close" app:tint="?tcx_textSecondary" />
+    <ScrollView android:scrollbars="none" android:fadingEdgeLength="@dimen/control_quadspace" android:layout_width="fill_parent" android:layout_height="wrap_content" android:requiresFadingEdge="vertical">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/include" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/include_large_icon_with_title_subtitle_tcx" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_doublespace">
+                <View android:layout_gravity="center_vertical" android:background="?tcx_fillTertiaryBackground" android:layout_width="fill_parent" android:layout_height="@dimen/control_hairline_micro" />
+                <TextView android:textColor="?tcx_textSecondary" android:layout_gravity="center" android:id="@id/inviteVia" android:background="?tcx_backgroundPrimary" android:padding="@dimen/control_space" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/referral_invite_by" android:textAllCaps="false" style="@style/StyleX.Text.Caption" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_line" android:showDividers="middle" android:dividerPadding="@dimen/control_doublespace" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="governing_contact">
+        <item quantity="other">Contactos</item>
+        <item quantity="one">Contacto</item>
+    </plurals>
+    <plurals name="governing_rule">
+        <item quantity="other">Reglas</item>
+        <item quantity="one">Regla</item>
+    </plurals>
+    <plurals name="lookups_left">
+        <item quantity="other">%1$s créditos restantes</item>
+        <item quantity="one">%1$s crédito restante</item>
+    </plurals>
+    <plurals name="msg_multi_recipient_adapter">
+        <item quantity="other">%1$s + %2$d otros</item>
+        <item quantity="one">%1$s + %2$d otro</item>
+    </plurals>
+    <plurals name="msg_multi_recipient_title">
+        <item quantity="other">%d destinatarios</item>
+        <item quantity="one">%d destinatario</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d notificaciones nuevas</item>
+        <item quantity="one">%d notificación nueva</item>
+    </plurals>
+</resources>

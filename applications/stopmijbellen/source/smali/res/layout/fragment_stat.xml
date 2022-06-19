@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/stat" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/scrollbar_width" android:layout_marginEnd="@dimen/scrollbar_width" layout="@layout/stat" />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/stat"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ListView android:scrollbarThumbVertical="@drawable/scrollbar" android:scrollbarStyle="outsideInset" android:id="@id/listViewLog" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_below="@id/stat" android:layout_alignParentLeft="true" android:layout_alignParentStart="false" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <TextView android:gravity="center" android:id="@id/tv_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/empty_list" />
+    <ProgressBar android:id="@id/progressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" style="?android:progressBarStyle" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/fab_clear" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/ic_menu_delete" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,174 @@
+.class public final Lcom/criteo/publisher/context/EmailHasher;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    bv = {
+        0x1,
+        0x0,
+        0x3
+    }
+    d1 = {
+        "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0002\u0008\t\u0008\u00c6\u0002\u0018\u0000B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0008\u0010\tJ\u0017\u0010\u0003\u001a\u00020\u00012\u0006\u0010\u0002\u001a\u00020\u0001H\u0007\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u001b\u0010\u0006\u001a\u00020\u0001*\u00020\u00012\u0006\u0010\u0005\u001a\u00020\u0001H\u0002\u00a2\u0006\u0004\u0008\u0006\u0010\u0007\u00a8\u0006\n"
+    }
+    d2 = {
+        "Lcom/criteo/publisher/context/EmailHasher;",
+        "",
+        "email",
+        "hash",
+        "(Ljava/lang/String;)Ljava/lang/String;",
+        "type",
+        "toHash",
+        "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+        "<init>",
+        "()V",
+        "publisher-sdk_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x4,
+        0x0
+    }
+.end annotation
+
+
+# static fields
+.field public static final a:Lcom/criteo/publisher/context/EmailHasher;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lcom/criteo/publisher/context/EmailHasher;
+
+    invoke-direct {v0}, Lcom/criteo/publisher/context/EmailHasher;-><init>()V
+
+    sput-object v0, Lcom/criteo/publisher/context/EmailHasher;->a:Lcom/criteo/publisher/context/EmailHasher;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static final hash(Ljava/lang/String;)Ljava/lang/String;
+    .locals 3
+    .annotation build Landroidx/annotation/Keep;
+    .end annotation
+
+    const-string v0, "email"
+
+    invoke-static {p0, v0}, Ls1/z/c/l;->f(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    sget-object v0, Lcom/criteo/publisher/context/EmailHasher;->a:Lcom/criteo/publisher/context/EmailHasher;
+
+    invoke-static {p0}, Ls1/f0/v;->g0(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    sget-object v1, Ljava/util/Locale;->ROOT:Ljava/util/Locale;
+
+    const-string v2, "Locale.ROOT"
+
+    invoke-static {v1, v2}, Ls1/z/c/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
+
+    if-eqz p0, :cond_0
+
+    invoke-virtual {p0, v1}, Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+
+    move-result-object p0
+
+    const-string v1, "(this as java.lang.String).toLowerCase(locale)"
+
+    invoke-static {p0, v1}, Ls1/z/c/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v1, "MD5"
+
+    invoke-virtual {v0, p0, v1}, Lcom/criteo/publisher/context/EmailHasher;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    const-string v1, "SHA-256"
+
+    invoke-virtual {v0, p0, v1}, Lcom/criteo/publisher/context/EmailHasher;->a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+
+    :cond_0
+    new-instance p0, Ls1/p;
+
+    const-string v0, "null cannot be cast to non-null type java.lang.String"
+
+    invoke-direct {p0, v0}, Ls1/p;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    .locals 9
+
+    .line 1
+    invoke-static {p2}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+
+    move-result-object p2
+
+    .line 2
+    sget-object v0, Ls1/f0/b;->a:Ljava/nio/charset/Charset;
+
+    invoke-virtual {p1, v0}, Ljava/lang/String;->getBytes(Ljava/nio/charset/Charset;)[B
+
+    move-result-object p1
+
+    const-string v0, "(this as java.lang.String).getBytes(charset)"
+
+    invoke-static {p1, v0}, Ls1/z/c/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {p2, p1}, Ljava/security/MessageDigest;->digest([B)[B
+
+    move-result-object v1
+
+    const-string p1, "MessageDigest.getInstanc\u2026   .digest(toByteArray())"
+
+    invoke-static {v1, p1}, Ls1/z/c/l;->b(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 3
+    sget-object v7, Lcom/criteo/publisher/context/EmailHasher$a;->b:Lcom/criteo/publisher/context/EmailHasher$a;
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    const/4 v5, 0x0
+
+    const/4 v6, 0x0
+
+    const/16 v8, 0x1e
+
+    const-string v2, ""
+
+    invoke-static/range {v1 .. v8}, Le/q/f/a/d/a;->K1([BLjava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;ILjava/lang/CharSequence;Ls1/z/b/l;I)Ljava/lang/String;
+
+    move-result-object p1
+
+    return-object p1
+.end method

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <HorizontalScrollView android:scrollbarSize="2.0dip" android:scrollbarThumbHorizontal="@drawable/rectangle_rounded_corner" android:id="@id/scrollView" android:background="@drawable/selectable_background_outlined_view" android:paddingBottom="4.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:fadeScrollbars="false" android:overScrollMode="never" android:paddingStart="4.0dip" android:paddingEnd="4.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/viewSocialMedia" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fillViewport="true" />
+    </HorizontalScrollView>
+</merge>

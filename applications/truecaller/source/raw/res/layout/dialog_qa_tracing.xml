@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="280.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:text="Method Tracing" />
+    <CheckBox android:id="@id/sampling_check_box" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:checked="true" android:text="Enable sampling" />
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:hint="Sampling interval (μs)">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/sampling_interval_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="1000" android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button android:layout_gravity="end" android:id="@id/start_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/space" android:text="Start" android:paddingStart="@dimen/space" android:paddingEnd="@dimen/space" />
+</LinearLayout>

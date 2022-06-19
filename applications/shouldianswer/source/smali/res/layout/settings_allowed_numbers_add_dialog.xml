@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="layout/settings_allowed_numbers_add_dialog_0" android:padding="20.0dip" style="@style/llParentWidth"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <org.mistergroup.shouldianswer.utils.BetterEditText android:id="@id/editCaption" android:hint="@string/enter_phone_number" android:inputType="phone" app:met_floatingLabelText="Phone Number" style="@style/betterEditTextStyle" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spaceMedium" android:text="@string/you_can_enter_multiple_numbers_separated_by_comma_you_can_also_use_mask_like_123_or_420" style="@style/textViewStyleSecondary" />
+</LinearLayout>

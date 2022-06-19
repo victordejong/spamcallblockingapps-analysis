@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:id="@id/carbon_snackbarContent" android:background="?carbon_colorBackgroundInverse" android:paddingLeft="24.0dip" android:paddingRight="8.0dip" android:fitsSystemWindows="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="568.0dip" android:maxHeight="80.0dip" android:minWidth="288.0dip" android:minHeight="48.0dip" android:paddingStart="24.0dip" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <carbon.widget.TextView android:textAppearance="?carbon_textAppearanceBody2Inverse" android:gravity="center_vertical" android:id="@id/carbon_messageText" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="2" android:layout_weight="1.0" />
+    <carbon.widget.Button android:id="@id/carbon_actionButton" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip" style="@style/carbon_Button.Flat.Colored.Inverse" />
+</merge>

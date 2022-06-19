@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fl_record_list" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/invis1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <FrameLayout android:id="@id/fl_junk_admob" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="4.0dip" />
+            <View android:background="@drawable/tab" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+        <com.github.jdsjlzx.recyclerview.LRecyclerView android:id="@id/ob_listview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <ViewStub android:layout_gravity="center" android:id="@id/vs_no_calllog" android:layout="@layout/no_calllog" android:inflatedId="@id/fl_record_list" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_search" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:indeterminateTint="@color/colorPrimary" android:indeterminateTintMode="src_atop" />
+</FrameLayout>

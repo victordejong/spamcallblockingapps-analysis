@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/containerSend" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_flash_receive_imagev2" />
+    <include layout="@layout/layout_flash_receive_mapv2" />
+    <include layout="@layout/flash_toolbar" />
+    <com.truecaller.flashsdk.ui.customviews.FlashContactHeaderView android:id="@id/flash_contact_header_view" android:layout_width="fill_parent" android:layout_height="@dimen/flash_contact_header_height" android:layout_marginTop="@dimen/control_doublespace" android:layout_below="@id/toolbarMain" android:layout_marginStart="@dimen/control_doublespace" android:layout_marginEnd="@dimen/control_doublespace" style="@style/ContactHeaderToolbar" />
+    <ScrollView android:id="@id/body_container" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/flash_common_padding" android:layout_above="@id/footerView" android:layout_below="@id/flash_contact_header_view">
+        <FrameLayout android:layout_gravity="center" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/layout_flash_body_edit_text" />
+            <include layout="@layout/layout_flash_body_map" />
+            <include layout="@layout/layout_flash_body_youtube" />
+        </FrameLayout>
+    </ScrollView>
+    <com.truecaller.flashsdk.ui.customviews.FlashAddBackgroundButton android:id="@id/addPhoto" android:background="@drawable/bg_flash_contact_header_image_mode" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_space" android:layout_above="@id/footerView" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/flash_common_padding" android:layout_marginEnd="@dimen/flash_common_padding" />
+    <com.truecaller.flashsdk.ui.customviews.FlashSendFooterView android:id="@id/footerView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/flash_common_padding" android:minHeight="@dimen/flash_common_button_size" android:layout_alignParentBottom="true" />
+    <FrameLayout android:id="@id/waiting_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/flash_contact_header_view" />
+</RelativeLayout>

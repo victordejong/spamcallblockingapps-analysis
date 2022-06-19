@@ -1,0 +1,223 @@
+.class public final Le/a/k0/n/d/d/e;
+.super Le/a/k0/n/d/d/b;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    bv = {
+        0x1,
+        0x0,
+        0x3
+    }
+    d1 = {
+        "\u0000<\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\u0005\n\u0002\u0010\u0008\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008\u001e\u0010\u0018J!\u0010\u0007\u001a\u00020\u00062\u0006\u0010\u0003\u001a\u00020\u00022\u0008\u0010\u0005\u001a\u0004\u0018\u00010\u0004H\u0016\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\u000f\u0010\n\u001a\u00020\tH\u0016\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u000f\u0010\u000c\u001a\u00020\tH\u0016\u00a2\u0006\u0004\u0008\u000c\u0010\u000bJ\u000f\u0010\u000e\u001a\u00020\rH\u0016\u00a2\u0006\u0004\u0008\u000e\u0010\u000fJ\u000f\u0010\u0010\u001a\u00020\tH\u0016\u00a2\u0006\u0004\u0008\u0010\u0010\u000bJ\u000f\u0010\u0011\u001a\u00020\tH\u0016\u00a2\u0006\u0004\u0008\u0011\u0010\u000bJ\u0011\u0010\u0012\u001a\u0004\u0018\u00010\tH\u0016\u00a2\u0006\u0004\u0008\u0012\u0010\u000bJ\u000f\u0010\u0014\u001a\u00020\u0013H\u0016\u00a2\u0006\u0004\u0008\u0014\u0010\u0015J\u000f\u0010\u0016\u001a\u00020\rH\u0014\u00a2\u0006\u0004\u0008\u0016\u0010\u000fJ\u000f\u0010\u0017\u001a\u00020\u0006H\u0016\u00a2\u0006\u0004\u0008\u0017\u0010\u0018R\u001e\u0010\u001a\u001a\u0004\u0018\u00010\u00198\u0016@\u0016X\u0096\u0004\u00a2\u0006\u000c\n\u0004\u0008\u001a\u0010\u001b\u001a\u0004\u0008\u001c\u0010\u001d\u00a8\u0006\u001f"
+    }
+    d2 = {
+        "Le/a/k0/n/d/d/e;",
+        "Le/a/k0/n/d/d/b;",
+        "Landroid/view/View;",
+        "view",
+        "Landroid/os/Bundle;",
+        "savedInstanceState",
+        "Ls1/s;",
+        "onViewCreated",
+        "(Landroid/view/View;Landroid/os/Bundle;)V",
+        "",
+        "ZA",
+        "()Ljava/lang/String;",
+        "YA",
+        "",
+        "PA",
+        "()Z",
+        "TA",
+        "XA",
+        "WA",
+        "",
+        "QA",
+        "()Ljava/lang/Integer;",
+        "OA",
+        "bB",
+        "()V",
+        "Lcom/truecaller/startup_dialogs/analytics/StartupDialogEvent$Type;",
+        "analyticsType",
+        "Lcom/truecaller/startup_dialogs/analytics/StartupDialogEvent$Type;",
+        "cB",
+        "()Lcom/truecaller/startup_dialogs/analytics/StartupDialogEvent$Type;",
+        "<init>",
+        "truecaller_googlePlayRelease"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x4,
+        0x1
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Le/a/k0/n/d/d/b;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public OA()Z
+    .locals 1
+
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+.method public PA()Z
+    .locals 1
+
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+.method public QA()Ljava/lang/Integer;
+    .locals 1
+
+    .line 1
+    sget-object v0, Le/a/i5/a;->g:Le/a/i5/a;
+
+    invoke-static {}, Le/a/i5/a;->f()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    const v0, 0x7f0801ed
+
+    goto :goto_0
+
+    :cond_0
+    const v0, 0x7f0801ee
+
+    :goto_0
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public TA()Ljava/lang/String;
+    .locals 2
+
+    const v0, 0x7f120f57
+
+    .line 1
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "getString(R.string.start\u2026llrecording_enabled_info)"
+
+    invoke-static {v0, v1}, Ls1/z/c/l;->d(Ljava/lang/Object;Ljava/lang/String;)V
+
+    return-object v0
+.end method
+
+.method public WA()Ljava/lang/String;
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return-object v0
+.end method
+
+.method public XA()Ljava/lang/String;
+    .locals 2
+
+    const v0, 0x7f120f58
+
+    .line 1
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "getString(R.string.start\u2026cording_enabled_positive)"
+
+    invoke-static {v0, v1}, Ls1/z/c/l;->d(Ljava/lang/Object;Ljava/lang/String;)V
+
+    return-object v0
+.end method
+
+.method public YA()Ljava/lang/String;
+    .locals 2
+
+    const v0, 0x7f120f59
+
+    .line 1
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "getString(R.string.start\u2026cording_enabled_subtitle)"
+
+    invoke-static {v0, v1}, Ls1/z/c/l;->d(Ljava/lang/Object;Ljava/lang/String;)V
+
+    return-object v0
+.end method
+
+.method public ZA()Ljava/lang/String;
+    .locals 2
+
+    const v0, 0x7f120f5a
+
+    .line 1
+    invoke-virtual {p0, v0}, Landroidx/fragment/app/Fragment;->getString(I)Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v1, "getString(R.string.start\u2026lrecording_enabled_title)"
+
+    invoke-static {v0, v1}, Ls1/z/c/l;->d(Ljava/lang/Object;Ljava/lang/String;)V
+
+    return-object v0
+.end method
+
+.method public bB()V
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/truecaller/callrecording/ui/onboarding/CallRecordingOnBoardingMvp$Listener$Action;->CONFIRMATION_SETUP_COMPLETE:Lcom/truecaller/callrecording/ui/onboarding/CallRecordingOnBoardingMvp$Listener$Action;
+
+    invoke-virtual {p0, v0}, Le/a/k0/n/d/d/b;->dB(Lcom/truecaller/callrecording/ui/onboarding/CallRecordingOnBoardingMvp$Listener$Action;)V
+
+    .line 2
+    invoke-super {p0}, Le/a/d5/g/o;->bB()V
+
+    return-void
+.end method
+
+.method public cB()Lcom/truecaller/startup_dialogs/analytics/StartupDialogEvent$Type;
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return-object v0
+.end method
+
+.method public onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    .locals 1
+
+    const-string v0, "view"
+
+    invoke-static {p1, v0}, Ls1/z/c/l;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    invoke-super {p0, p1, p2}, Le/a/b0/a/a/a;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+
+    return-void
+.end method

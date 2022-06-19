@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/data_layout" android:paddingLeft="@dimen/dimen_12_dp" android:paddingTop="@dimen/dimen_16_dp" android:paddingRight="@dimen/dimen_12_dp" android:paddingBottom="@dimen/dimen_12_dp" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/dimen_16_dp" android:textStyle="bold" android:id="@id/youAvoidTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_2_dp" />
+        <TextView android:textSize="@dimen/dimen_14_dp" android:id="@id/youAvoidSubTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_4_dp" />
+        <View android:id="@id/youAvoidDivider" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_1_dp" android:layout_marginBottom="@dimen/dimen_14_dp" />
+        <androidx.fragment.app.FragmentContainerView android:name="com.callapp.contacts.activity.analytics.circleGraph.fragment.CircleGraphFragment" android:orientation="horizontal" android:id="@id/youAvoidFragment" android:tag="analytics_graph" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="80.0dip" />
+        <TextView android:textSize="@dimen/dimen_16_dp" android:textStyle="bold" android:id="@id/avoidYouTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_18_dp" android:layout_marginBottom="@dimen/dimen_2_dp" />
+        <TextView android:textSize="@dimen/dimen_14_dp" android:id="@id/avoidYouSubTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_4_dp" />
+        <View android:id="@id/avoidYouDivider" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_1_dp" android:layout_marginBottom="@dimen/dimen_14_dp" />
+        <androidx.fragment.app.FragmentContainerView android:name="com.callapp.contacts.activity.analytics.circleGraph.fragment.CircleGraphFragment" android:orientation="horizontal" android:id="@id/avoidYouLayout" android:tag="analytics_graph" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_14_dp" android:minHeight="80.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/empty_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/emptyImg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/unanswered_calls_card_placeholder" android:scaleType="center" />
+    </LinearLayout>
+</LinearLayout>

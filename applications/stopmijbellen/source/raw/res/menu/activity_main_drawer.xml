@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_sym_call_incoming_2" android:id="@id/nav_main" android:title="@string/action_incoming_calls" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_black_list" android:id="@id/nav_blacklist" android:title="@string/action_blacklist" />
+        <item android:icon="@drawable/ic_white_list" android:id="@id/nav_whitelist" android:title="@string/action_whitelist" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_settings_black_24dp" android:id="@id/nav_settings" android:title="@string/action_settings" />
+        <item android:icon="@android:drawable/ic_dialog_email" android:id="@id/nav_email" android:checkableBehavior="none" android:title="@string/action_email" android:checkable="false" />
+        <item android:icon="@drawable/ic_build_black_24dp" android:id="@id/nav_dev" android:title="@string/action_dev" />
+        <item android:icon="@drawable/ic_changelog" android:id="@id/nav_changelog" android:checkableBehavior="none" android:title="@string/action_changelog" android:checkable="false" />
+        <item android:icon="@drawable/ic_coins_s" android:id="@id/nav_donate" android:title="@string/action_donate" />
+        <item android:icon="@android:drawable/ic_dialog_info" android:id="@id/nav_about" android:title="@string/action_about" />
+    </group>
+</menu>

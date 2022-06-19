@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip">
+        <ImageView android:layout_width="fill_parent" android:layout_height="64.0dip" android:src="@mipmap/ic_launcher" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/app_name" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/colorPrimary" android:layout_gravity="center_horizontal" android:id="@id/versionTVPin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/versionName" />
+        <com.rengwuxian.materialedittext.MaterialEditText android:gravity="center_horizontal" android:id="@id/pinEdit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:hint="@string/dialog_pin_enter" android:maxLines="1" android:password="true" android:maxLength="10" android:digits="\ 0123456789" android:inputType="phone|textPassword" app:met_errorColor="@color/red_btn_bg_pressed_color" app:met_primaryColor="@color/colorPrimary" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="30.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="30.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <Button android:textSize="20.0sp" android:textStyle="bold" android:layout_gravity="center_vertical" android:id="@id/key1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="1" android:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Colored" />
+                <Button android:textSize="20.0sp" android:textStyle="bold" android:layout_gravity="center_vertical" android:id="@id/key2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="2" android:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Colored" />
+                <Button android:textSize="20.0sp" android:textStyle="bold" android:layout_gravity="center_vertical" android:id="@id/key3" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="3" android:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Colored" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <Button android:textSize="20.0sp" android:textStyle="bold" android:layout_gravity="center_vertical" android:id="@id/key4" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="4" android:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Colored" />
+                <Button android:textSize="20.0sp" android:textStyle="bold" android:layout_gravity="center_vertical" android:id="@id/key5" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="5" android:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Colored" />
+                <Button android:textSize="20.0sp" android:textStyle="bold" android:layout_gravity="center_vertical" android:id="@id/key6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="6" android:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Colored" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <Button android:textSize="20.0sp" android:textStyle="bold" android:layout_gravity="center_vertical" android:id="@id/key7" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="7" android:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Colored" />
+                <Button android:textSize="20.0sp" android:textStyle="bold" android:layout_gravity="center_vertical" android:id="@id/key8" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="8" android:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Colored" />
+                <Button android:textSize="20.0sp" android:textStyle="bold" android:layout_gravity="center_vertical" android:id="@id/key9" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="9" android:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Colored" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <Button android:textSize="20.0sp" android:textStyle="bold" android:layout_gravity="center_vertical" android:id="@id/keyC" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="c" android:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Colored" />
+                <Button android:textSize="20.0sp" android:textStyle="bold" android:layout_gravity="center_vertical" android:id="@id/key0" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="0" android:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Colored" />
+                <Button android:textSize="20.0sp" android:textStyle="bold" android:layout_gravity="center_vertical" android:id="@id/keyLess" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="&lt;" android:layout_weight="1.0" style="@style/Widget.AppCompat.Button.Colored" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/rect_background" android:drawable="@drawable/shape_rect" />
+    <item android:id="@id/default_profile_pic" android:drawable="@drawable/profile_pic_default" />
+</layer-list>

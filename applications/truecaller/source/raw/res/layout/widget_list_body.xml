@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/HistoryWidget"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/widgetHeader" layout="@layout/widget_header" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="5.0dip" android:src="@drawable/shadow_elevation" android:layout_below="@id/widgetHeader" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/widgetHeader">
+        <ListView android:id="@id/widgetList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" />
+        <TextView android:gravity="center" android:id="@id/widgetEmptyView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/HistoryListEmpty" style="@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle" />
+    </FrameLayout>
+</RelativeLayout>

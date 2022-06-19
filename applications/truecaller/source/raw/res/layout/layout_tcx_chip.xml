@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.common.ui.avatar.AvatarXView android:id="@id/avatar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginStart="2.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@id/title" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="10.0dip" app:layout_constraintBottom_toTopOf="@id/description" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/avatar" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Text.Chip.Title" />
+    <TextView android:id="@id/description" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/avatar" app:layout_constraintTop_toBottomOf="@id/title" style="@style/StyleX.Text.Chip.Description" />
+</merge>

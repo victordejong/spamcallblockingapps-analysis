@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:textAppearance="@style/TextStyleCallerDetails" android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/fallback" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/control_space" android:layout_marginTop="@dimen/control_minispace" android:layout_marginRight="@dimen/control_space" android:layout_marginBottom="@dimen/control_minispace" android:layout_centerVertical="true" style="@style/Widget.Truecaller.NonAppCompatButton.Action"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

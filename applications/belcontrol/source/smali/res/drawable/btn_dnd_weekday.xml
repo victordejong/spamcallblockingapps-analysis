@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:textColor="@color/grey_fontcolor" android:drawable="@color/grey_bg" android:color="@color/grey_fontcolor" app:state_off="true" />
+    <item android:textColor="@color/white_fontcolor" android:drawable="@drawable/ic_sun_drawable" android:color="@color/white_fontcolor" app:state_day="true" />
+    <item android:textColor="@color/white_fontcolor" android:drawable="@drawable/ic_moon_drawable" android:color="@color/white_fontcolor" app:state_night="true" />
+</selector>

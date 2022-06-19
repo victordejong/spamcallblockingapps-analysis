@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?selectableItemBackground" android:paddingLeft="@dimen/control_extraspace" android:paddingRight="@dimen/control_extraspace" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.ui.view.TintedImageView android:id="@id/phone_icon1" android:paddingLeft="@dimen/control_extraspace" android:paddingRight="@dimen/control_extraspace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_phone" app:imgTint="?tcx_textSecondary" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/text1" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StyleX.Text.Body.B1" />
+        <TextView android:textColor="?tcx_textSecondary" android:id="@id/text2" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StyleX.Text.Body.B2" />
+    </LinearLayout>
+</LinearLayout>

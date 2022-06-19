@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/control_triplespace" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/control_triplespace" android:paddingEnd="@dimen/control_triplespace"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/referral_code" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/referral_hint_code" android:ems="10" android:inputType="textPersonName" />
+    <Button android:layout_gravity="end" android:id="@id/apply_referral" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/referral_code_apply" style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+</LinearLayout>

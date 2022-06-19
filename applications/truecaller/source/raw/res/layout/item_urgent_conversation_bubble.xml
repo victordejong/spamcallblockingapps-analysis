@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="68.0dip" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/indicatorView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/urgent_message_bubble_indicator" android:contentDescription="@null" app:tint="?tcx_conversationInputBarBackground" />
+    <com.truecaller.common.ui.avatar.AvatarXView android:layout_gravity="center" android:id="@id/avatarView" android:layout_width="52.0dip" android:layout_height="52.0dip" />
+    <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:id="@id/progressIndicator" android:layout_width="wrap_content" android:layout_height="wrap_content" app:indicatorColor="?tcx_brandBackgroundBlue" app:indicatorDirectionCircular="counterclockwise" app:indicatorSize="55.0dip" app:trackColor="?tcx_messageUrgentProgressTrackColor" app:trackThickness="2.0dip" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/overflowView" android:background="@drawable/oval" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_tcx_group_24dp" android:scaleType="center" android:backgroundTint="?tcx_brandBackgroundBlue" />
+    <TextView android:textSize="14.0sp" android:textColor="?tcx_backgroundPrimary" android:gravity="center" android:layout_gravity="center" android:id="@id/badgeView" android:background="@drawable/flash_bubble_badge" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="18.0dip" android:layout_marginStart="18.0dip" />
+</FrameLayout>

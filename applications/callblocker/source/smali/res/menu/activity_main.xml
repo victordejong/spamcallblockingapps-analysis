@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_home_black_24dp" android:id="@id/menu_home" android:title="@string/tabbar.home" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/ic_search_primary_dark_24dp" android:id="@id/menu_search" android:title="@string/tabbar.search" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/ic_blocked_primary_dark_24dp" android:id="@id/menu_blocked" android:title="@string/tabbar.block" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/ic_lock_outline_black_24dp" android:id="@id/menu_global" android:title="@string/tabbar.global" app:showAsAction="always|withText" />
+    <item android:icon="@drawable/ic_shield_black_24dp" android:id="@id/menu_protection" android:title="@string/tabbar.protection" app:showAsAction="always|withText" />
+</menu>

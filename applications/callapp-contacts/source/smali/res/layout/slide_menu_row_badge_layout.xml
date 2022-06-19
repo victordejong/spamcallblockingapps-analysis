@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/ripple_or_holo_masked_rect" android:paddingLeft="@dimen/slide_menu_list_padding_horizontal" android:paddingRight="@dimen/slide_menu_list_padding_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/row_divider" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentTop="true" />
+    <RelativeLayout android:id="@id/badgeFrame" android:layout_width="40.0dip" android:layout_height="36.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/dimen_12_dp">
+        <ImageView android:id="@id/row_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_gift" android:scaleType="fitCenter" />
+        <TextView android:textSize="8.0sp" android:textColor="@color/white_callapp" android:gravity="center" android:id="@id/row_notification" android:background="@drawable/shape_rounded_rect" android:layout_width="@dimen/dimen_12_dp" android:layout_height="@dimen/dimen_12_dp" android:includeFontPadding="false" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView android:gravity="center_vertical" android:id="@id/row_title" android:layout_width="wrap_content" android:layout_height="@dimen/slide_menu_item_height" android:layout_toRightOf="@id/badgeFrame" android:layout_alignWithParentIfMissing="true" style="@style/Body2.Name_text" />
+</RelativeLayout>

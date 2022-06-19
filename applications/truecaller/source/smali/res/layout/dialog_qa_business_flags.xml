@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/hint" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="Enter phone number of business sender, then change flags to it." android:lines="1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <EditText android:id="@id/phone_business_sender" android:layout_width="fill_parent" android:layout_height="48.0dip" android:hint="Phone (ex +918595465225)" android:inputType="phone" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/hint" />
+    <TextView android:id="@id/flags_value" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="Current flag value: ?" android:lines="1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/phone_business_sender" />
+    <LinearLayout android:orientation="vertical" android:id="@id/flags_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/flags_value">
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/message" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="MESSAGE" />
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/image" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="ATTACHMENT_IMAGE" />
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/video" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="ATTACHMENT_VIDEO" />
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/file" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="ATTACHMENT_FILE" />
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/contact" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="ATTACHMENT_VCARD" />
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/location" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="ATTACHMENT_LOCATION" />
+        <TextView android:id="@id/new_flags_value" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="New flag value: ?" android:lines="1" />
+    </LinearLayout>
+    <Button android:id="@id/cancel" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/StrCancel" android:layout_marginEnd="4.0dip" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/ok" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/flags_list" />
+    <Button android:id="@id/ok" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/StrOK" android:layout_marginStart="4.0dip" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toEndOf="@id/cancel" app:layout_constraintTop_toBottomOf="@id/flags_list" />
+</androidx.constraintlayout.widget.ConstraintLayout>

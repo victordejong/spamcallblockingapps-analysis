@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:padding="@dimen/dp8" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textColor="?tcx_textPrimary" android:id="@id/malanaSeedType" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="isLocalSeedEnabled: " />
+        <View android:background="?tcx_textPrimary" android:layout_width="fill_parent" android:layout_height="@dimen/dp4" android:layout_margin="@dimen/dp4" />
+        <TextView android:textColor="?tcx_textPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="MalanaSeedData (LOCAL): " />
+        <TextView android:textColor="?tcx_textPrimary" android:ellipsize="end" android:id="@id/localSeedData" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="DATA" android:maxLines="5" />
+        <View android:background="?tcx_textPrimary" android:layout_width="fill_parent" android:layout_height="@dimen/dp4" android:layout_margin="@dimen/dp4" />
+        <TextView android:textColor="?tcx_textPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="MalanaSeedData (FIREBASE): " />
+        <TextView android:textColor="?tcx_textPrimary" android:ellipsize="end" android:id="@id/firebaseSeedData" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="DATA" android:maxLines="5" />
+        <View android:background="?tcx_textPrimary" android:layout_width="fill_parent" android:layout_height="@dimen/dp4" android:layout_margin="@dimen/dp4" />
+        <TextView android:textColor="?tcx_textPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="UpdatesSeedData" />
+        <TextView android:textColor="?tcx_textPrimary" android:ellipsize="end" android:id="@id/updatesSeedData" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="DATA" android:maxLines="5" />
+        <View android:background="?tcx_textPrimary" android:layout_width="fill_parent" android:layout_height="@dimen/dp4" android:layout_margin="@dimen/dp4" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

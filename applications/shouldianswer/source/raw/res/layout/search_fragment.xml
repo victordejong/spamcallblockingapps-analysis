@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:tag="layout/search_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:background="?colorBackgroundPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stateListAnimator="@drawable/appbar_always_elevated">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar android:theme="@style/Widget.AppCompat.Light.ActionBar" android:id="@id/appToolbar" android:background="#00000000" style="@style/appBarToolbar" />
+            <org.mistergroup.shouldianswer.utils.BetterEditText android:id="@id/editSearchText" android:layout_marginLeft="50.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="50.0dip" android:layout_marginBottom="5.0dip" android:hint="@string/enter_contact_name_or_phone_number" style="@style/betterEditTextStyle" />
+        </FrameLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/listView" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

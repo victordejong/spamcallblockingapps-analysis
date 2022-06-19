@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="auto_carousel_padding_horizontal">16.0dip</dimen>
+    <dimen name="chronometer_font_size">20.0sp</dimen>
+    <dimen name="five_cta_icon_margin">6.0dip</dimen>
+    <dimen name="flipper_height">232.0dip</dimen>
+    <dimen name="manual_carousel_arrow">36.0dip</dimen>
+    <dimen name="padding_vertical">8.0dip</dimen>
+    <dimen name="rating_big_img">108.0dip</dimen>
+</resources>

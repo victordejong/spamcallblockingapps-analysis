@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.unknownphone.callblocker.custom.CustomLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/borders_grayish_white_8dpc" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_width="48.0dip" android:layout_height="48.0dip" />
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:src="@drawable/ic_free_user_75dp" android:scaleType="center" android:layout_weight="1.0" />
+            <androidx.appcompat.widget.AppCompatImageButton android:layout_gravity="end" android:id="@id/finishActivityButton" android:background="#00000000" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close_black_24dp" android:tint="@color/whitish_gray" android:contentDescription="@string/report.popup_reporting.close" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:textColor="@color/primary_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/protection.popup_go_premium.free.user_type" style="@style/TextAppearance.AppCompat.Body2" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="8.0dip" android:layout_height="8.0dip" android:src="@drawable/tab_indicator_selected" />
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/tab_indicator_default" />
+        </LinearLayout>
+        <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="24.0dip" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/primary_dark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/protection.popup_go_premium.free.text" style="@style/TextAppearance.AppCompat.Body1" />
+                <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/primary_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/protection.popup_go_premium.free.text1" style="@style/TextAppearance.AppCompat.Body1" />
+                <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/primary_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/protection.popup_go_premium.free.text2" style="@style/TextAppearance.AppCompat.Body1" />
+            </LinearLayout>
+        </ScrollView>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/primary_dark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="26.0dip" android:text="@string/protection.popup_go_premium.protection_level" style="@style/TextAppearance.AppCompat.Body1" />
+        <ProgressBar android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginLeft="26.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="26.0dip" android:progress="40" android:progressDrawable="@drawable/progress_bar" style="@android:style/Widget.ProgressBar.Horizontal" />
+        <androidx.appcompat.widget.AppCompatButton android:textSize="16.0sp" android:textColor="@color/green" android:id="@id/showPremiumTabButton" android:background="@drawable/button_bg_transparent_with_green_borders_20dpc_3dps" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_margin="24.0dip" android:text="@string/protection.popup_go_premium.free.button" style="@style/TextAppearance.AppCompat.Widget.Button" />
+    </com.unknownphone.callblocker.custom.CustomLinearLayout>
+</RelativeLayout>

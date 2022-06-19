@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20.0sp" android:textColor="#e6000000" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tv_request_per" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="60.0dip" android:layout_marginRight="24.0dip" android:text="@string/request_per" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="205.69998dip" android:layout_height="134.69998dip" android:layout_marginTop="54.0dip" android:src="@drawable/ic_permission" />
+        <TextView android:textSize="16.0sp" android:textColor="#e6000000" android:layout_gravity="center_horizontal" android:id="@id/tv_request_per_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="28.0dip" android:layout_marginRight="16.0dip" android:text="@string/request_per_tip" android:lineSpacingExtra="8.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="#e6000000" android:id="@id/tv_request_per_security" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:text="@string/request_per_security" android:lineSpacingExtra="8.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/flayout_btn" android:background="?bg_start" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="48.0dip" android:foreground="@drawable/card_foreground" android:layout_alignParentBottom="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/tv_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tip_show2" android:textAllCaps="true" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="31" android:compileSdkVersionCodename="12" android:installLocation="internalOnly" package="com.truecaller" platformBuildVersionCode="31" platformBuildVersionName="12">
+    <queries>
+        <provider android:authorities="com.truecaller.partner"/>
+        <provider android:authorities="com.truecaller.partner.flag"/>
+        <intent>
+            <action android:name="com.android.camera.action.CROP"/>
+            <data android:mimeType="image/*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <data android:host="com.android.contacts" android:mimeType="vnd.android.cursor.item/*" android:scheme="content"/>
+        </intent>
+        <package android:name="se.bankgirot.swish"/>
+        <provider android:authorities="sms"/>
+        <package android:name="com.whatsapp"/>
+        <package android:name="com.truecaller"/>
+        <package android:name="com.truecaller.debug"/>
+        <package android:name="com.facebook.katana"/>
+        <intent>
+            <action android:name="android.intent.action.VIEW"/>
+            <category android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"/>
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.CustomTabsService"/>
+        </intent>
+        <intent>
+            <action android:name="android.media.browse.MediaBrowserService"/>
+        </intent>
+        <intent>
+            <action android:name="androidx.media2.session.MediaSessionService"/>
+        </intent>
+        <intent>
+            <action android:name="androidx.media2.session.MediaLibraryService"/>
+        </intent>
+        <intent>
+            <action android:name="com.appsflyer.oem.PRELOAD_PROVIDER"/>
+        </intent>
+        <package android:name="com.appnext.core"/>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+        </intent>
+        <intent>
+            <action android:name="com.apptouch.intent.action.update_hms"/>
+        </intent>
+        <intent>
+            <action android:name="com.huawei.appmarket.intent.action.AppDetail"/>
+        </intent>
+        <package android:name="com.hisilicon.android.hiRMService"/>
+        <intent>
+            <action android:name="com.huawei.hms.core.aidlservice"/>
+        </intent>
+        <intent>
+            <action android:name="com.huawei.hms.core"/>
+        </intent>
+    </queries>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS"/>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_MMS"/>
+    <uses-permission android:name="android.permission.MMS_SEND_OUTBOX_MSG"/>
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
+    <uses-permission android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <permission android:name="com.truecaller.permission.USE_NUMBER_SERVICE" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.truecaller.permission.USE_NUMBER_SERVICE"/>
+    <permission android:name="com.truecaller.permission.ENHANCED_NOTIFICATION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.truecaller.permission.ENHANCED_NOTIFICATION"/>
+    <uses-permission android:name="com.miui.mediaeditor.permission.CROP"/>
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false"/>
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.network" android:required="false"/>
+    <uses-feature android:name="android.hardware.screen.portrait" android:required="false"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <permission android:name="com.truecaller.permission.SDK_ACTION_HANDLER" android:protectionLevel="signature"/>
+    <permission android:name="com.truecaller.permission.sdk.internal.read_account_state" android:protectionLevel="normal"/>
+    <uses-permission android:name="com.truecaller.permission.SDK_ACTION_HANDLER"/>
+    <permission android:name="com.truecaller.permission.ACTION_HANDLER" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.truecaller.permission.ACTION_HANDLER"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission-sdk-23 android:name="android.permission.MANAGE_OWN_CALLS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"/>
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT"/>
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_APP_BADGE"/>
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ"/>
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE"/>
+    <permission android:name="com.truecaller.permission.EDIT_PROFILE" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.truecaller.permission.EDIT_PROFILE"/>
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES"/>
+    <uses-permission android:name="com.truecaller.permission.sdk.internal.read_account_state"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+    <permission android:name="com.truecaller.permission.PROCESS_PUSH_MSG" android:protectionLevel="signature"/>
+    <permission android:name="com.truecaller.permission.PUSH_PROVIDER" android:protectionLevel="signature"/>
+    <permission android:name="com.truecaller.permission.PUSH_WRITE_PROVIDER" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.truecaller.permission.PROCESS_PUSH_MSG"/>
+    <uses-permission android:name="com.truecaller.permission.PUSH_PROVIDER"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:backupAgent="com.truecaller.TruecallerBackupAgent" android:dataExtractionRules="@xml/data_extraction_rules" android:extractNativeLibs="true" android:fullBackupContent="@xml/backup_rules" android:fullBackupOnly="true" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="@string/AppName" android:name="com.truecaller.TrueApp" android:networkSecurityConfig="@xml/network_security_config" android:preserveLegacyExternalStorage="true" android:requestLegacyExternalStorage="true" android:requiredAccountType="@string/authenticator_account_type" android:resizeableActivity="true" android:supportsRtl="true" android:theme="@style/Theme.Truecaller">
+        <meta-data android:name="com.google.android.gms.vision.DEPENDENCIES" android:value="ocr"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <meta-data android:name="com.razorpay.ApiKey" android:value="rzp_live_AsQ1YyshWpGJNz"/>
+        <activity android:configChanges="keyboardHidden|locale|orientation|screenSize|uiMode" android:exported="true" android:launchMode="singleTop" android:name="com.truecaller.ui.TruecallerInit" android:screenOrientation="portrait" android:theme="@style/Theme.Truecaller.Splash" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="@string/flash_host" android:path="@string/flash_phone" android:scheme="http"/>
+                <data android:host="@string/flash_host" android:path="@string/flash_phone" android:scheme="https"/>
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/quick_shortcuts_main"/>
+        </activity>
+        <activity-alias android:enabled="true" android:exported="true" android:name="com.truecaller.DialerActivityAlias" android:targetActivity="com.truecaller.ui.TruecallerInit">
+            <intent-filter>
+                <action android:name="com.truecaller.OPEN_DIALER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="voicemail"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="vnd.android.cursor.item/phone"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CALL_BUTTON"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="true" android:exported="true" android:name="com.truecaller.TruecallerInitAlias" android:targetActivity="com.truecaller.ui.TruecallerInit">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="vnd.android.cursor.dir/calls"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.phone.action.RECENT_CALLS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/calls"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sec.android.app.dialertab.calllog.DetailViewActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sec.android.app.dialertab.calllog.LogsListActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:excludeFromRecents="true" android:exported="false" android:label="@string/scanner_Scanner" android:name="com.truecaller.scanner.NumberScannerActivity" android:screenOrientation="portrait" android:taskAffinity="com.truecaller.indie"/>
+        <activity android:exported="true" android:icon="@mipmap/ic_launcher_contacts" android:label="@string/tab_contacts" android:name="com.truecaller.ui.ContactsActivity" android:theme="@android:style/Theme.NoDisplay" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="com.truecaller.OPEN_CONTACTS"/>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:icon="@mipmap/ic_launcher_messages" android:label="@string/TabBarMessaging" android:name="com.truecaller.messaging.MessagesActivity" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:icon="@mipmap/ic_launcher" android:label="@string/AppName" android:name="com.truecaller.messaging.GoogleActionsActivity" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.truecaller.ui.WizardActivity" android:screenOrientation="portrait" android:theme="@style/WizardTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:name="com.truecaller.ui.SingleActivity" android:parentActivityName="com.truecaller.ui.TruecallerInit" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:name="com.truecaller.whoviewedme.WhoViewedMeActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.truecaller.premium.PremiumActivity" android:screenOrientation="portrait" android:theme="@style/PremiumTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="com.truecaller.premium.PremiumDialogActivity" android:theme="@style/PremiumThemeDialog"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.truecaller.aftercall.AfterCallPromotionActivity" android:taskAffinity="com.truecaller.AfterCallActivity" android:theme="@style/Theme.Transparent.NoAnim"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.truecaller.ui.CallMeBackActivity" android:taskAffinity="com.truecaller.CallMeBackActivity" android:theme="@style/Theme.Transparent.NoAnim"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTop" android:name="com.truecaller.old.ui.activities.DialogActivity" android:taskAffinity="com.truecaller.DialogActivity" android:theme="@style/Theme.Floating.SlideUp"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTop" android:name="com.truecaller.premium.ui.PremiumObtainedDialogActivity" android:taskAffinity="com.truecaller.ObtainedPremiumDialogActivity" android:theme="@style/Theme.Floating.SlideUp"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTop" android:name="com.truecaller.premium.gift.GoldGiftDialogActivity" android:taskAffinity="com.truecaller.GoldGiftDialogActivity" android:theme="@style/Theme.Floating.SlideUp.ExtraWide"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTop" android:name="com.truecaller.whatsappcallerid.WhatsAppCallerIdPermissionDialogActivity" android:taskAffinity="com.truecaller.WhatsAppCallerIdPermissionDialogActivity" android:theme="@style/Theme.Floating.SlideUp.ExtraWide"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTop" android:name="com.truecaller.old.ui.activities.DialogBrowserActivity" android:noHistory="true" android:taskAffinity="com.truecaller.DialogBrowserActivity" android:theme="@style/Theme.Floating.SlideUp"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTop" android:name="com.truecaller.ui.FeedbackDialogActivity" android:taskAffinity="com.truecaller.FeedbackDialogActivity" android:theme="@style/Theme.Transparent.NoAnim"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTop" android:name="com.truecaller.ui.AfterClipboardSearchActivity" android:taskAffinity="com.truecaller.AfterClipboardSearchActivity" android:theme="@style/Theme.Transparent.NoAnim"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.truecaller.permission.RequiredPermissionsActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.truecaller.notifications.enhancing.SourcedContactListActivity" android:theme="@style/Theme.Floating.SlideUp"/>
+        <activity android:name="com.truecaller.ui.clicktocall.CallConfirmationActivity" android:noHistory="true" android:theme="@style/Theme.Floating.SlideUp.Wide"/>
+        <activity android:name="com.truecaller.ui.NotificationAccessActivity"/>
+        <activity android:exported="true" android:icon="@mipmap/ic_launcher" android:label="@string/AppName" android:launchMode="singleTask" android:name="com.truecaller.deeplink.DeepLinkHandlerActivity" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="truecaller.com" android:pathPrefix="/d" android:scheme="http"/>
+                <data android:host="truecaller.com" android:pathPrefix="/d" android:scheme="https"/>
+                <data android:host="www.truecaller.com" android:pathPrefix="/d" android:scheme="http"/>
+                <data android:host="www.truecaller.com" android:pathPrefix="/d" android:scheme="https"/>
+                <data android:host="chat.truecaller.com" android:pathPrefix="/group" android:scheme="https"/>
+                <data android:host="chat.truecaller.com" android:pathPrefix="/group" android:scheme="http"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="truecaller"/>
+                <data android:scheme="truecallersdk"/>
+            </intent-filter>
+            <intent-filter android:icon="@mipmap/ic_launcher">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="@string/flash_mime_type"/>
+            </intent-filter>
+        </activity>
+        <activity android:documentLaunchMode="always" android:excludeFromRecents="true" android:exported="true" android:icon="@mipmap/ic_launcher" android:label="@string/AppName" android:name="com.truecaller.messaging.sharing.SharingActivity" android:theme="@style/Theme.Transparent.NoAnim">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+                <data android:mimeType="text/html"/>
+                <data android:mimeType="image/gif"/>
+                <data android:mimeType="image/png"/>
+                <data android:mimeType="image/jpeg"/>
+                <data android:mimeType="image/jpg"/>
+                <data android:mimeType="video/3gpp"/>
+                <data android:mimeType="video/mp4"/>
+                <data android:mimeType="video/mpeg"/>
+                <data android:mimeType="text/vcard"/>
+                <data android:mimeType="text/x-vcard"/>
+                <data android:mimeType="text/directory"/>
+                <data android:mimeType="text/directory; profile=vcard"/>
+                <data android:mimeType="application/vnd.ms-powerpoint"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+                <data android:mimeType="application/vnd.ms-excel"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+                <data android:mimeType="application/msword"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+                <data android:mimeType="application/pdf"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+                <data android:mimeType="text/html"/>
+                <data android:mimeType="image/gif"/>
+                <data android:mimeType="image/png"/>
+                <data android:mimeType="image/jpeg"/>
+                <data android:mimeType="image/jpg"/>
+                <data android:mimeType="video/3gpp"/>
+                <data android:mimeType="video/mp4"/>
+                <data android:mimeType="video/mpeg"/>
+                <data android:mimeType="application/vnd.ms-powerpoint"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.presentationml.presentation"/>
+                <data android:mimeType="application/vnd.ms-excel"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
+                <data android:mimeType="application/msword"/>
+                <data android:mimeType="application/vnd.openxmlformats-officedocument.wordprocessingml.document"/>
+                <data android:mimeType="application/pdf"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SENDTO"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="sms"/>
+                <data android:scheme="smsto"/>
+                <data android:scheme="mms"/>
+                <data android:scheme="mmsto"/>
+            </intent-filter>
+            <meta-data android:name="android.service.chooser.chooser_target_service" android:value="com.truecaller.calling.dialer.suggested_contacts.SuggestionsChooserTargetService"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.truecaller.search.global.GlobalSearchResultActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.truecaller.messaging.newconversation.NewConversationActivity" android:parentActivityName="com.truecaller.ui.TruecallerInit" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateVisible"/>
+        <activity android:allowEmbedded="true" android:exported="false" android:name="com.truecaller.messaging.conversation.ConversationActivity" android:parentActivityName="com.truecaller.ui.TruecallerInit" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.truecaller.OPEN_CONVERSATION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:name="com.truecaller.messaging.conversation.draft.DraftActivity" android:screenOrientation="portrait" android:theme="@style/DraftTheme" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:name="com.truecaller.messaging.conversation.draft.TextDraftActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysVisible|adjustResize"/>
+        <activity android:name="com.truecaller.messaging.messaginglist.MessagingListActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.truecaller.messaging.groupinfo.GroupInfoActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.truecaller.messaging.groupinfo.EditImGroupInfoActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.truecaller.messaging.imgroupinvitation.ImGroupInvitationActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.truecaller.messaging.imgrouplinkinvite.ImGroupLinkInviteActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.truecaller.messaging.mediaviewer.MediaViewerActivity" android:screenOrientation="behind" android:theme="@style/MediaViewerTheme"/>
+        <activity android:name="com.truecaller.messaging.mediamanager.MediaManagerActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.truecaller.messaging.inboxcleanup.InboxCleanupActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.truecaller.messaging.inboxcleanup.InboxCleanupPreviewActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.truecaller.messaging.conversation.search.SearchConversationActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/MessageClassZero" android:launchMode="singleTask" android:name="com.truecaller.messaging.notifications.ClassZeroActivity" android:taskAffinity="com.truecaller.MessagingClassZero" android:theme="@style/Theme.Transparent.NoAnim"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.truecaller.notifications.support.NotificationTrampolineActivity" android:taskAffinity="" android:theme="@style/Theme.Transparent.NoAnim"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:launchMode="singleTask" android:name="com.truecaller.messaging.insights.InsightsNotificationTrampolineActivity" android:taskAffinity="" android:theme="@style/Theme.Transparent.NoAnim"/>
+        <activity android:launchMode="singleTask" android:name="com.truecaller.filters.blockedevents.BlockedEventsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.truecaller.filters.blockedevents.BlockDialogActivity" android:parentActivityName="com.truecaller.filters.blockedevents.BlockedEventsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.truecaller.filters.blockedlist.BlockedListActivity" android:screenOrientation="portrait"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.truecaller.ui.DefaultSmsAppSendActivity" android:taskAffinity="com.truecaller.DefaultSmsAppSend" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:excludeFromRecents="true" android:name="com.truecaller.messaging.smspermission.SmsPermissionActivity" android:screenOrientation="portrait" android:taskAffinity="com.truecaller.SmsPermission"/>
+        <activity android:name="com.truecaller.messaging.defaultsms.DefaultSmsActivity" android:theme="@style/Theme.Transparent.NoAnim"/>
+        <activity android:name="com.truecaller.calling.initiate_call.SelectPhoneAccountActivity" android:theme="@style/Theme.Transparent.NoAnim"/>
+        <activity android:name="com.truecaller.feature_toggles.control_panel.FeaturesControlPanelActivity" android:screenOrientation="portrait"/>
+        <activity android:excludeFromRecents="true" android:label="" android:name="com.truecaller.ads.leadgen.LeadgenActivity" android:screenOrientation="portrait" android:taskAffinity="com.truecaller.LeadGen" android:windowSoftInputMode="adjustResize"/>
+        <activity android:launchMode="singleTask" android:name="com.truecaller.calling.recorder.CallRecordingSettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.truecaller.calling.recorder.CallRecordingListActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Truecaller"/>
+        <activity android:name="com.truecaller.consentrefresh.ConsentRefreshActivity" android:screenOrientation="portrait" android:theme="@style/WizardTheme"/>
+        <activity android:name="com.truecaller.ads.qa.QaCampaignsActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Truecaller"/>
+        <activity android:name="com.truecaller.ads.qa.QaKeywordsActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Truecaller"/>
+        <activity android:name="com.truecaller.placepicker.PlacePickerActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.truecaller.callerid.window.CallerIdPopupQaActivity"/>
+        <activity android:name="com.truecaller.ui.settings.callerid.CallerIdSettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="uiMode" android:name="com.truecaller.ui.settings.appearance.AppearanceSettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.truecaller.acs.qa.AcsQaActivity"/>
+        <activity android:name="com.truecaller.survey.qa.SurveyListQaActivity"/>
+        <activity android:name="com.truecaller.survey.qa.SurveyEntryQaActivity"/>
+        <activity android:name="com.truecaller.details_view.qa.DetailsViewQaActivity"/>
+        <activity android:name="com.truecaller.messaging.conversation.archive.ArchiveConversationListActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.truecaller.messaging.conversation.messageDetails.MessageDetailsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.truecaller.messaging.conversation.notifications.ConversationNotificationSettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.truecaller.messaging.conversation.imgrouplinkinvite.GroupInviteLinkDialogActivity" android:theme="@style/Theme.Transparent.X.Dialog"/>
+        <activity android:name="com.truecaller.ui.dialogs.QMActivity" android:theme="@style/Theme.AppCompat.Transparent"/>
+        <activity android:name="com.truecaller.messaging.storagemanager.StorageManagerActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.truecaller.messaging.storagemanager.callrec.CallRecStorageManagerActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.truecaller.messaging.storagemanager.media.MediaStorageManagerActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.truecaller.messaging.storagemanager.langpack.LangPackStorageManagerActivity" android:screenOrientation="portrait"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.truecaller.service.Receiver">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL"/>
+            </intent-filter>
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.intent.action.PHONE_STATE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.truecaller.intent.action.PHONE_NOTIFICATION_CANCELLED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.truecaller.service.AccountsChangedReceiver">
+            <intent-filter>
+                <action android:name="android.accounts.LOGIN_ACCOUNTS_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="false" android:name="com.truecaller.service.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.truecaller.service.AlarmReceiver"/>
+        <service android:enabled="@bool/accessibility_service_enabled" android:exported="false" android:label="@string/call_recording_accessibility_service_display_name" android:name="com.truecaller.callrecording.service.TrueAccessibilityService" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+            </intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/accessibility_service_config"/>
+        </service>
+        <receiver android:exported="false" android:label="@string/AppName" android:name="com.truecaller.service.WidgetListProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.truecaller.widget.UPDATE_DATA"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.truecaller.widget.UPDATE_HEADER"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_config"/>
+        </receiver>
+        <service android:name="com.truecaller.service.WidgetListService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <service android:exported="false" android:name="com.truecaller.presence.PresenceService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.truecaller.callhistory.service.CallHistoryService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.truecaller.util.CallMonitoringReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="@bool/ringer_mode_changed_receiver_enabled" android:exported="false" android:name="com.truecaller.util.RingerModeChangedReceiver">
+            <intent-filter>
+                <action android:name="android.media.RINGER_MODE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.truecaller.util.ScreenUnlockedBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.truecaller.callerid.callstate.TruecallerCallScreeningService" android:permission="android.permission.BIND_SCREENING_SERVICE">
+            <intent-filter>
+                <action android:name="android.telecom.CallScreeningService"/>
+            </intent-filter>
+        </service>
+        <service android:configChanges="locale|orientation" android:name="com.truecaller.callerid.CallerIdService"/>
+        <service android:name="com.truecaller.notifications.internal.InternalTruecallerNotificationsService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.truecaller.callerid.callstate.CallStateService"/>
+        <service android:name="com.truecaller.service.SyncPhoneBookService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:configChanges="locale|orientation" android:name="com.truecaller.clipboard.ClipboardService"/>
+        <service android:enabled="true" android:exported="true" android:name="com.truecaller.service.DialerNumberLookupService" android:permission="com.truecaller.permission.USE_NUMBER_SERVICE"/>
+        <service android:name="com.truecaller.common.tag.TagService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.truecaller.notifications.NotificationHandlerService" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.truecaller.service.MissedCallsNotificationService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.truecaller.service.PushNotificationLoggingService"/>
+        <service android:name="com.truecaller.referral.ReferralNotificationService"/>
+        <service android:name="com.truecaller.whoviewedme.ReceiveProfileViewService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.truecaller.whoviewedme.GenerateProfileViewService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.truecaller.premium.PremiumNotificationService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:name="com.truecaller.notifications.OTPCopierService"/>
+        <service android:name="com.truecaller.filters.FilterManagerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="true" android:name="com.truecaller.messaging.transport.sms.SmsReceiver" android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter android:priority="2147483647">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_DELIVER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.truecaller.messaging.SmsStatusReceived.SMS_SENT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.truecaller.messaging.SmsStatusReceived.SMS_STATUS"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.provider.action.DEFAULT_SMS_PACKAGE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.truecaller.messaging.transport.mms.MmsWapPushDeliverReceiver" android:permission="android.permission.BROADCAST_WAP_PUSH">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER"/>
+                <action android:name="android.provider.Telephony.WAP_PUSH_RECEIVED"/>
+                <data android:mimeType="application/vnd.wap.mms-message"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.truecaller.messaging.transport.mms.MmsStatusReceiver">
+            <intent-filter>
+                <action android:name="com.truecaller.messaging.transport.mms.MmsStatusReceiver.MMS_SENT"/>
+                <action android:name="com.truecaller.messaging.transport.mms.MmsStatusReceiver.MMS_DOWNLOAD"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.truecaller.messaging.transport.sms.NoConfirmationSmsSendService" android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE">
+            <intent-filter>
+                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="sms"/>
+                <data android:scheme="smsto"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.truecaller.messaging.notifications.NotificationBroadcastReceiver"/>
+        <receiver android:name="com.truecaller.messaging.insights.SmartNotifBroadcastReceiver"/>
+        <service android:exported="false" android:name="com.truecaller.messaging.transport.SendMessageService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.truecaller.messaging.transport.SendImService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.truecaller.calling.dialer.suggested_contacts.SuggestionsChooserTargetService" android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.chooser.ChooserTargetService"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.truecaller.messaging.transport.im.ImSubscriptionService"/>
+        <service android:exported="false" android:name="com.truecaller.fcm.FcmMessageListenerService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.truecaller.push.HuaweiMessageService">
+            <intent-filter>
+                <action android:name="com.huawei.push.action.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.truecaller.backup.RestoreService"/>
+        <service android:exported="false" android:name="com.truecaller.service.contact.RefreshContactIndexingService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="false" android:name="com.truecaller.callrecording.ui.bubble.BubblesService"/>
+        <service android:name="com.truecaller.messaging.urgent.service.UrgentMessageService"/>
+        <provider android:authorities="com.truecaller.provider" android:exported="false" android:grantUriPermissions="true" android:name="com.truecaller.freshchat.FreshChatFileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/freshchat_file_provider_paths"/>
+        </provider>
+        <provider android:authorities="com.truecaller" android:exported="false" android:name="com.truecaller.content.TruecallerContentProvider"/>
+        <provider android:authorities="com.truecaller.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/fileprovider"/>
+        </provider>
+        <provider android:authorities="com.truecaller.TempContentProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.truecaller.util.TempContentProvider"/>
+        <provider android:authorities="com.truecaller.attachmentprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.truecaller.messaging.data.providers.AttachmentProvider"/>
+        <meta-data android:name="android.max_aspect" android:value="3"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/FacebookApplicationId"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationName" android:value="@string/AppName"/>
+        <meta-data android:name="com.facebook.sdk.AutoInitEnabled" android:value="false"/>
+        <meta-data android:name="com.facebook.sdk.AutoLogAppEventsEnabled" android:value="false"/>
+        <meta-data android:name="com.facebook.sdk.AdvertiserIDCollectionEnabled" android:value="false"/>
+        <provider android:authorities="com.truecaller.mlkitinitprovider" android:enabled="false" android:exported="false" android:initOrder="99" android:name="com.google.mlkit.common.internal.MlKitInitProvider"/>
+        <meta-data android:name="firebase_crashlytics_collection_enabled" android:value="true"/>
+        <meta-data android:name="CHANNEL" android:value="GOOGLE_PLAY"/>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/google_api_key"/>
+        <receiver android:exported="true" android:name="com.appsflyer.MultipleInstallBroadcastReceiver" android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.truecaller.analytics.InstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.ads.AdActivity" android:noHistory="true" android:taskAffinity="" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:launchMode="singleTop" android:name="com.truecaller.callrecording.ui.onboarding.CallRecordingOnBoardingActivity" android:theme="@style/Theme.Transparent.X.NoAnim"/>
+        <activity android:name="com.truecaller.scanner.barcode.BarcodeCaptureActivity"/>
+        <receiver android:name="com.truecaller.calling.notifications.CallingNotificationsBroadcastReceiver"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTop" android:name="com.truecaller.voip.contacts.ui.VoipContactsActivity" android:resizeableActivity="false" android:screenOrientation="portrait" android:theme="@style/Theme.VoipContacts" android:windowSoftInputMode="adjustResize"/>
+        <activity android:exported="false" android:name="com.truecaller.util.background.qa.WorkActionStatusActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.truecaller.details_view.DetailsViewActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.truecaller.ui.settings.SettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.truecaller.messaging.urgent.conversations.UrgentConversationsActivity" android:taskAffinity="com.truecaller.UrgentConversationsActivity" android:theme="@style/UrgentConversationsTheme"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.truecaller.messaging.urgent.UrgentMessageKeyguardActivity" android:taskAffinity="com.truecaller.UrgentConversationsActivity" android:theme="@style/UrgentConversationsTheme"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.truecaller.messaging.urgent.DismissKeyguardActivity" android:taskAffinity="com.truecaller.UrgentConversationsActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.truecaller.ui.dialogs.QMTracingActivity"/>
+        <receiver android:exported="false" android:name="com.truecaller.analytics.ChosenComponentReceiver"/>
+        <receiver android:exported="false" android:name="com.truecaller.notifications.MissedCallsNotificationActionReceiver"/>
+        <receiver android:exported="false" android:name="com.truecaller.calling.missedcallreminder.MissedCallReminderNotificationReceiver"/>
+        <receiver android:exported="false" android:name="com.truecaller.presence.PresenceSchedulerReceiver">
+            <intent-filter>
+                <action android:name="com.truecaller.action.ACTION_UPDATE_PRESENCE_FOR_CURRENT_USER"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.truecaller.notifications.AnalyticsNotificationReceiver"/>
+        <receiver android:name="com.truecaller.messaging.notifications.ReactionBroadcastReceiver"/>
+        <receiver android:name="com.truecaller.messaging.transport.im.ImUnreadRemindersBroadcastReceiver"/>
+        <receiver android:name="com.truecaller.messaging.inboxcleanup.InboxCleanerBroadcastReceiver"/>
+        <receiver android:name="com.truecaller.messaging.nudgetosend.MessageToNudgeBroadcastReceiver"/>
+        <meta-data android:name="firebase_performance_logcat_enabled" android:value="false"/>
+        <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID" android:value="ca-app-pub-0569205814396397~2205230482"/>
+        <meta-data android:name="com.facebook.sdk.AutoLogAppEventsEnabled" android:value="false"/>
+        <meta-data android:name="com.facebook.sdk.AdvertiserIDCollectionEnabled" android:value="false"/>
+        <receiver android:exported="false" android:name="com.razorpay.RzpTokenReceiver">
+            <intent-filter>
+                <action android:name="rzp.device_token.share"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.razorpay.CheckoutActivity" android:theme="@style/CheckoutTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <data android:host="rzp.io" android:scheme="io.rzp"/>
+            </intent-filter>
+        </activity>
+        <service android:configChanges="locale|orientation" android:name="com.truecaller.ghost_call.GhostCallService"/>
+        <activity android:autoRemoveFromRecents="true" android:launchMode="singleTask" android:name="com.truecaller.ghost_call.GhostInCallUIActivity" android:screenOrientation="portrait" android:showWhenLocked="true" android:taskAffinity="com.truecaller.ghostcall" android:theme="@style/Theme.InCallUi" android:turnScreenOn="true" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <receiver android:name="com.truecaller.ghost_call.GhostCallBroadcastReceiver"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTop" android:name="com.truecaller.ghost_call.GhostCallAlarmPermissionActivity" android:taskAffinity="com.truecaller.GhostCallAlarmPermissionActivity" android:theme="@style/Theme.GhostCall.Transparent"/>
+        <activity android:autoRemoveFromRecents="true" android:excludeFromRecents="@bool/excludeFromRecents" android:launchMode="singleTask" android:name="com.truecaller.incallui.callui.InCallUIActivity" android:resizeableActivity="false" android:screenOrientation="portrait" android:showWhenLocked="true" android:taskAffinity="com.truecaller.incallui.InCallUI" android:theme="@style/Theme.InCallUi" android:turnScreenOn="true" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:autoRemoveFromRecents="true" android:excludeFromRecents="@bool/excludeFromRecents" android:launchMode="singleTask" android:name="com.truecaller.incallui.callui.phoneAccount.PhoneAccountsActivity" android:resizeableActivity="false" android:taskAffinity="com.truecaller.incallui.PhoneAccount" android:theme="@style/Theme.InCallUi.Transparent"/>
+        <service android:enabled="false" android:exported="true" android:name="com.truecaller.incallui.service.InCallUIService" android:permission="android.permission.BIND_INCALL_SERVICE">
+            <intent-filter>
+                <action android:name="android.telecom.InCallService"/>
+            </intent-filter>
+            <meta-data android:name="android.telecom.IN_CALL_SERVICE_UI" android:value="true"/>
+        </service>
+        <receiver android:name="com.truecaller.incallui.utils.notification.actionreceiver.NotificationActionReceiver"/>
+        <activity android:name="com.truecaller.editprofile.ui.EditProfileActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:autoRemoveFromRecents="true" android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.truecaller.acs.ui.popup.AfterCallPopupActivity" android:resizeableActivity="false" android:taskAffinity="com.truecaller.acs.AfterCallScreen" android:theme="@style/Theme.PopupAcs" android:windowSoftInputMode="adjustPan"/>
+        <activity android:autoRemoveFromRecents="true" android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.truecaller.acs.ui.fullscreen.AfterCallScreenActivity" android:resizeableActivity="false" android:screenOrientation="portrait" android:showWhenLocked="true" android:taskAffinity="com.truecaller.acs.AfterCallScreen" android:theme="@style/Theme.FullScreenAcs" android:turnScreenOn="true" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.truecaller.bizmon.governmentServices.ui.activities.GovernmentServicesActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.truecaller.bizmon.ui.profile.BusinessProfileOnboardingActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.truecaller.bizmon.ui.profile.CreateBusinessProfileActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.truecaller.bizmon.newBusiness.onboarding.ui.OnboardingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.truecaller.bizmon.newBusiness.onboarding.ui.SubCategoryActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.truecaller.bizmon.newBusiness.onboarding.ui.OnboardingIntroActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.truecaller.bizmon.newBusiness.onboarding.ui.OnboardingSuccessActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:name="com.truecaller.bizmon.newBusiness.profile.ui.BizProfileActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:name="com.truecaller.bizmon.newBusiness.profile.ui.tag.TagPickActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:name="com.truecaller.bizmon.newBusiness.editAddress.ui.EditBizAddressActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:name="com.truecaller.bizmon.newBusiness.awareness.ui.BusinessAwarenessDetailsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <receiver android:exported="false" android:name="com.truecaller.bizmon.AppUpdateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.truecaller.details_view.ui.comments.all.AllCommentsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.truecaller.contactfeedback.presentation.addcomment.AddCommentActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Transparent"/>
+        <activity android:name="com.truecaller.surveys.ui.bottomSheetSurvey.BottomSheetSurveyActivity" android:theme="@style/Theme.Transparent"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.truecaller.tagger.tagPicker.TaggerActivity" android:theme="@style/Theme.Transparent.NoAnim" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.truecaller.tagger.TagPickActivity" android:theme="@style/Theme.Transparent.NoAnim" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.truecaller.tagger.NameSuggestionActivity" android:theme="@style/Theme.Transparent.NoAnim" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.truecaller.ads.offline.common.ui.OfflineAdsActivity" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mopub.common.MoPubBrowser" android:theme="@style/MoPubFullscreenTheme"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.truecaller.ads.ads.ui.CustomNativeVideoAdActivity" android:screenOrientation="fullUser" android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name="com.amazon.device.ads.DTBAdActivity"/>
+        <activity android:name="com.truecaller.personalsafety.awareness.ui.PersonalSafetyAwarenessActivity" android:theme="@style/TransparentTheme"/>
+        <activity android:name="com.truecaller.social_media.presentation.view.SocialMediaLinksActivity" android:screenOrientation="portrait" android:theme="@style/ThemeX"/>
+        <activity android:configChanges="keyboardHidden|locale|screenSize" android:name="com.truecaller.insights.ui.markedimportantpage.view.MarkedImportantPageActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|locale|screenSize" android:name="com.truecaller.insights.ui.onboarding.view.TcXImportOnboardingActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|locale|screenSize" android:name="com.truecaller.insights.ui.financepage.view.FinanceActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|locale|screenSize" android:name="com.truecaller.insights.ui.updatespage.view.UpdatesActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|locale|screenSize" android:name="com.truecaller.insights.ui.smartfeed.view.InsightsSmartFeedActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|locale|screenSize" android:name="com.truecaller.insights.ui.reminders.view.RemindersActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|locale|screenSize" android:name="com.truecaller.insights.ui.qa.view.InsightsQAActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|locale|screenSize" android:name="com.truecaller.insights.ui.qa.view.PdoViewerActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|locale|screenSize" android:name="com.truecaller.insights.ui.financepage.search.view.SearchTrxActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustPan|stateVisible"/>
+        <activity android:configChanges="keyboardHidden|locale|screenSize" android:launchMode="singleTop" android:name="com.truecaller.insights.ui.semicard.view.WhatIsSmartSmsActivity" android:theme="@style/Insights.DialogActivity"/>
+        <activity android:configChanges="keyboardHidden|locale|screenSize" android:launchMode="singleTop" android:name="com.truecaller.insights.ui.categorizerupdatedialog.CategorizerUpdateActivity" android:theme="@style/Insights.DialogActivity"/>
+        <activity android:name="com.truecaller.swish.ui.input.SwishInputActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysVisible|adjustResize"/>
+        <activity android:name="com.truecaller.swish.deeplink.SwishResultActivity" android:theme="@android:style/Theme.NoDisplay"/>
+        <service android:name="com.truecaller.messaging.data.MessagesDataService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.truecaller.insights.reminders.receiver.InsightsReminderActionReceiver">
+            <intent-filter>
+                <action android:name="com.truecaller.insights.reminders.action.deeplink"/>
+                <action android:name="com.truecaller.insights.reminders.action.concrete"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.truecaller.insights.reminders.receiver.BillReminderReceiver">
+            <intent-filter>
+                <action android:name="com.truecaller.insights.reminders.alarm.type_bill_reminder"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.truecaller.insights.reminders.receiver.ReminderBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:launchMode="singleTop" android:name="com.truecaller.wizard.TruecallerWizard" android:theme="@style/WizardTheme"/>
+        <activity android:name="com.truecaller.wizard.AccessContactsActivity" android:theme="@style/WizardTheme"/>
+        <activity android:name="com.truecaller.wizard.countries.CountyListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="orientation|screenSize" android:excludeFromRecents="true" android:exported="true" android:name="com.truecaller.sdk.ConfirmProfileActivity" android:theme="@style/TrueCaller.Base.Popup.Light">
+            <intent-filter>
+                <action android:name="com.truecaller.android.sdk.intent.action.v1.SHARE_PROFILE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="com.truecaller.sdk.FullScreenConfirmActivity" android:theme="@style/TrueCaller.Base.Light">
+            <intent-filter>
+                <action android:name="com.truecaller.android.sdk.intent.action.v2.SHARE_PROFILE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="orientation|screenSize" android:excludeFromRecents="true" android:exported="true" android:name="com.truecaller.sdk.BottomSheetConfirmProfileActivity" android:theme="@style/TrueCaller.Base.BottomSheet">
+            <intent-filter>
+                <action android:name="com.truecaller.android.sdk.intent.action.v3.SHARE_PROFILE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:excludeFromRecents="true" android:exported="true" android:name="com.truecaller.sdk.oAuth.view.consentScreen.BottomSheetOAuthActivity" android:screenOrientation="locked" android:theme="@style/TrueCaller.Base.BottomSheet">
+            <intent-filter>
+                <action android:name="com.truecaller.android.sdk.intent.action.v1.oAuth"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="com.truecaller.sdk.ConfirmProfileService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.truecaller.sdk.push.SdkActionReceiver" android:permission="com.truecaller.permission.SDK_ACTION_HANDLER">
+            <intent-filter>
+                <action android:name="com.truecaller.sdk.web_request_reject"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.truecaller.TcAccountStateProvider;com.truecaller.TcInfoContentProvider" android:exported="true" android:name="com.truecaller.sdk.utils.TcInfoContentProvider" android:readPermission="com.truecaller.permission.sdk.internal.read_account_state"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:name="com.facebook.FacebookActivity" android:theme="@style/com_facebook_activity_theme"/>
+        <service android:exported="false" android:name="com.truecaller.flashsdk.core.KidFlashService"/>
+        <service android:exported="false" android:name="com.truecaller.flashsdk.core.FlashMediaService"/>
+        <receiver android:exported="false" android:name="com.truecaller.flashsdk.receiver.ActionReceiver" android:permission="com.truecaller.permission.ACTION_HANDLER">
+            <intent-filter>
+                <action android:name="com.truecaller.flashsdk.receiver.ACTION_DISMISS"/>
+                <action android:name="com.truecaller.flashsdk.receiver.ACTION_CALL_PHONE"/>
+                <action android:name="com.truecaller.flashsdk.receiver.ACTION_CALL_PHONE_CALL_ME"/>
+                <action android:name="com.truecaller.flashsdk.receiver.ACTION_DISMISS_SILENTLY"/>
+                <action android:name="com.truecaller.flashsdk.receiver.ACTION_FLASH"/>
+                <action android:name="com.truecaller.flashsdk.PAYMENT_REQUEST"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="false" android:exported="false" android:name="com.truecaller.flashsdk.receiver.PhoneStateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.truecaller.flashsdk.assist.FetchAddressIntentService"/>
+        <provider android:authorities="com.truecaller.flashsdk.provider" android:exported="false" android:name="com.truecaller.flashsdk.db.FlashProvider"/>
+        <activity android:excludeFromRecents="true" android:label="" android:name="com.truecaller.flashsdk.ui.incoming.FlashActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:label="" android:name="com.truecaller.flashsdk.ui.send.SendActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize"/>
+        <activity android:label="" android:name="com.truecaller.flashsdk.ui.onboarding.FlashOnBoardingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:label="" android:name="com.truecaller.flashsdk.ui.contactselector.FlashContactSelectorActivity" android:theme="@style/Theme.FlashSelector" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:label="" android:name="com.truecaller.flashsdk.ui.whatsnew.FlashWithFriendsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:autoRemoveFromRecents="true" android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.truecaller.callrecording.ui.accessibilityguide.CallRecordingAccessibilityGuideActivity" android:taskAffinity="com.truecaller.callrecording.ui.accessibilityguide.CallRecordingAccessibilityGuideActivity" android:theme="@style/Theme.CallRecorder.AccessibilityGuide"/>
+        <activity android:autoRemoveFromRecents="true" android:excludeFromRecents="false" android:launchMode="singleTask" android:name="com.truecaller.voip.ui.VoipActivity" android:resizeableActivity="false" android:screenOrientation="portrait" android:showWhenLocked="true" android:taskAffinity="com.truecaller.voip.Voip" android:theme="@style/Theme.VoIP" android:turnScreenOn="true"/>
+        <service android:foregroundServiceType="microphone|phoneCall" android:name="com.truecaller.voip.service.call.CallService"/>
+        <service android:foregroundServiceType="microphone|phoneCall" android:name="com.truecaller.voip.service.invitation.InvitationService"/>
+        <service android:foregroundServiceType="microphone|phoneCall" android:name="com.truecaller.voip.legacy.incall.LegacyVoipService"/>
+        <service android:foregroundServiceType="microphone|phoneCall" android:name="com.truecaller.voip.legacy.incoming.LegacyIncomingVoipService"/>
+        <receiver android:exported="false" android:name="com.truecaller.voip.notification.missed.MissedVoipCallMessageBroadcast"/>
+        <activity android:autoRemoveFromRecents="true" android:excludeFromRecents="false" android:launchMode="singleTask" android:name="com.truecaller.voip.legacy.incall.ui.LegacyVoipActivity" android:resizeableActivity="false" android:screenOrientation="portrait" android:showWhenLocked="true" android:taskAffinity="com.truecaller.voip.Voip" android:theme="@style/Theme.VoIP" android:turnScreenOn="true"/>
+        <activity android:autoRemoveFromRecents="true" android:excludeFromRecents="false" android:launchMode="singleTask" android:name="com.truecaller.voip.legacy.incoming.ui.LegacyIncomingVoipActivity" android:resizeableActivity="false" android:screenOrientation="portrait" android:showWhenLocked="true" android:taskAffinity="com.truecaller.voip.Voip" android:theme="@style/Theme.VoIP" android:turnScreenOn="true"/>
+        <activity android:name="com.truecaller.voip.ui.calldetails.VoipGroupCallDetailsActivity" android:resizeableActivity="false" android:theme="@style/ThemeX.Light"/>
+        <service android:exported="true" android:name="com.truecaller.voip.callconnection.VoipCallConnectionService" android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE">
+            <intent-filter>
+                <action android:name="android.telecom.ConnectionService"/>
+            </intent-filter>
+        </service>
+        <activity android:name="com.truecaller.spamcategories.ui.SpamCategoriesActivity" android:theme="@style/Theme.Transparent"/>
+        <activity android:name="com.truecaller.contactfeedback.presentation.ContactFeedbackActivity" android:theme="@style/Theme.Transparent"/>
+        <receiver android:exported="false" android:name="com.truecaller.call_alert.receive_notification.CallAlertDismissBroadcastReceiver"/>
+        <receiver android:exported="false" android:name="com.truecaller.call_alert.receive_notification.CallSilenceBroadcastReceiver"/>
+        <activity android:launchMode="singleTask" android:name="com.truecaller.contextcall.ui.ContextCallActivity" android:resizeableActivity="false" android:theme="@style/ThemeX.Transparent.ContextCall"/>
+        <activity android:launchMode="singleTask" android:name="com.truecaller.contextcall.ui.ContextCallAcsActivity" android:resizeableActivity="false" android:taskAffinity="com.truecaller.acs.AfterCallScreen" android:theme="@style/ThemeX.Transparent.ContextCall"/>
+        <activity android:name="com.truecaller.contextcall.ui.managecallreasons.ManageCallReasonsActivity" android:resizeableActivity="false" android:theme="@style/Theme.ContextCall"/>
+        <activity android:name="com.truecaller.contextcall.ui.hiddencontacts.HiddenContactsActivity" android:resizeableActivity="false" android:theme="@style/Theme.ContextCall"/>
+        <activity android:autoRemoveFromRecents="true" android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.truecaller.contextcall.ui.custommessage.ondemand.MidCallCustomMessageActivityContainer" android:taskAffinity="com.truecaller.contextcall.bottomsheet" android:theme="@style/ThemeX.PopupContextCallCustomMessageActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.truecaller.forcedupdate.ui.ForcedUpdateActivity" android:theme="@style/FUTheme"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.truecaller.forcedupdate.ui.SimpleForceUpdateActivity"/>
+        <activity android:launchMode="singleTop" android:name="com.truecaller.videocallerid.ui.onboarding.VideoIdOnboardingBottomSheetActivity" android:theme="@style/ThemeX.Transparent.NoAnim"/>
+        <activity android:name="com.truecaller.videocallerid.ui.manageincomingvideo.ManageIncomingVideoSettingsActivity" android:theme="@style/ThemeX"/>
+        <activity android:name="com.truecaller.videocallerid.ui.recording.RecordingActivity" android:screenOrientation="portrait" android:theme="@style/Theme.VideoCallerId.Recording"/>
+        <activity android:launchMode="singleTop" android:name="com.truecaller.videocallerid.ui.preview.PreviewActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTop" android:name="com.truecaller.videocallerid.ui.onboarding.VideoCallerIdOnboardingActivity" android:theme="@style/ThemeX.Transparent.NoAnim"/>
+        <activity android:name="com.truecaller.videocallerid.ui.fullscreenpopupvideo.FullScreenPopupVideoActivity" android:resizeableActivity="false" android:theme="@style/ThemeX.Vid.FullScreenPopupVideo" android:windowSoftInputMode="adjustPan"/>
+        <service android:name="com.truecaller.videocallerid.upload.VideoUploadService"/>
+        <activity android:name="com.truecaller.announce_caller_id.settings.AnnounceCallerIdSettingsActivity"/>
+        <activity android:launchMode="singleTask" android:name="com.truecaller.tcpermissions.AccessContactsActivity" android:theme="@style/WizardTheme"/>
+        <activity android:launchMode="singleTask" android:name="com.truecaller.tcpermissions.TcPermissionsHandlerActivity" android:theme="@style/Theme.Transparent"/>
+        <activity android:launchMode="singleTask" android:name="com.truecaller.tcpermissions.RoleRequesterActivity" android:theme="@style/Theme.Transparent"/>
+        <activity android:configChanges="keyboardHidden" android:name="com.clevertap.android.sdk.InAppNotificationActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="false" android:name="com.clevertap.android.sdk.pushnotification.CTNotificationIntentService">
+            <intent-filter>
+                <action android:name="com.clevertap.PUSH_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:enabled="true" android:exported="false" android:name="com.clevertap.android.sdk.pushnotification.CTPushNotificationReceiver"/>
+        <meta-data android:name="CLEVERTAP_NOTIFICATION_ICON" android:value="tc_notification_logo"/>
+        <meta-data android:name="CLEVERTAP_USE_GOOGLE_AD_ID" android:value="0"/>
+        <meta-data android:name="CLEVERTAP_DISABLE_APP_LAUNCHED" android:value="1"/>
+        <activity android:exported="true" android:name="com.truecaller.stats.StatsActivity" android:screenOrientation="portrait"/>
+        <receiver android:exported="false" android:name="com.truecaller.stats.IntentChooserReceiver"/>
+        <activity android:launchMode="singleTask" android:name="com.truecaller.social_login.facebook.FacebookLoginActivity" android:theme="@style/TransparentTheme.Social"/>
+        <activity android:launchMode="singleTask" android:name="com.truecaller.social_login.google.GoogleLoginActivity" android:theme="@style/TransparentTheme.Social"/>
+        <service android:exported="false" android:name="com.truecaller.common.account.TruecallerAccountAuthenticatorService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator"/>
+        </service>
+        <receiver android:name="com.truecaller.common.background.DelayedServiceBroadcastReceiver"/>
+        <activity android:name="com.truecaller.suspension.ui.SuspensionActivity" android:screenOrientation="portrait"/>
+        <service android:enabled="true" android:exported="false" android:name="com.truecaller.analytics.EventsTrackerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:exported="false" android:name="com.truecaller.dynamicfeaturesupport.qm.DynamicFeaturePanelActivity"/>
+        <activity android:name="com.freshchat.consumer.sdk.activity.ChannelListActivity" android:theme="@style/Theme.Freshchat.SelectedTheme"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.freshchat.consumer.sdk.activity.ConversationDetailActivity" android:theme="@style/Theme.Freshchat.SelectedTheme" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.freshchat.consumer.sdk.activity.DeeplinkInterstitialActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Freshchat.SelectedTheme"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.freshchat.consumer.sdk.activity.PictureAttachmentActivity" android:theme="@style/Theme.Freshchat.SelectedTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.freshchat.consumer.sdk.activity.CategoryListActivity" android:theme="@style/Theme.Freshchat.SelectedTheme"/>
+        <activity android:name="com.freshchat.consumer.sdk.activity.ArticleListActivity" android:theme="@style/Theme.Freshchat.SelectedTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.freshchat.consumer.sdk.activity.ArticleDetailActivity" android:theme="@style/Theme.Freshchat.SelectedTheme"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.freshchat.consumer.sdk.activity.InterstitialActivity" android:theme="@style/Freshchat.Theme.Transparent"/>
+        <activity android:name="com.freshchat.consumer.sdk.activity.BotFaqDetailsActivity" android:theme="@style/Theme.Freshchat.SelectedTheme"/>
+        <service android:name="com.freshchat.consumer.sdk.service.FreshchatService"/>
+        <receiver android:exported="false" android:name="com.freshchat.consumer.sdk.receiver.FreshchatReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.freshchat.consumer.sdk.receiver.FreshchatNetworkChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="com.truecaller.freshchat.initprovider" android:enabled="true" android:exported="false" android:multiprocess="true" android:name="com.freshchat.consumer.sdk.provider.FreshchatInitProvider"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.freshchat.consumer.sdk.activity.FAQCategoriesActivity" android:theme="@style/Theme.Freshchat.SelectedTheme"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.freshchat.consumer.sdk.activity.FAQListActivity" android:theme="@style/Theme.Freshchat.SelectedTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.freshchat.consumer.sdk.activity.FAQDetailsActivity" android:theme="@style/Theme.Freshchat.SelectedTheme"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.freshchat.consumer.sdk.activity.FAQSearchActivity" android:theme="@style/Theme.Freshchat.SelectedTheme" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden" android:name="com.clevertap.android.sdk.inbox.CTInboxActivity" android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"/>
+        <service android:exported="false" android:name="com.clevertap.android.sdk.pushnotification.amp.CTBackgroundIntentService" android:permission="android.permission.BIND_JOB_SERVICE">
+            <intent-filter>
+                <action android:name="com.clevertap.BG_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.clevertap.android.sdk.pushnotification.amp.CTBackgroundJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.clevertap.android.pushtemplates.PTPushNotificationReceiver"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.clevertap.android.pushtemplates.PushTemplateReceiver"/>
+        <activity android:exported="false" android:label="@string/places_autocomplete_label" android:name="com.google.android.libraries.places.widget.AutocompleteActivity" android:theme="@style/PlacesAutocompleteOverlay" android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.facebook.CustomTabMainActivity"/>
+        <activity android:exported="true" android:name="com.facebook.CustomTabActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="cct.com.truecaller" android:scheme="fbconnect"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mopub.mobileads.MoPubFullscreenActivity" android:theme="@style/MoPubFullscreenTheme"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mopub.common.privacy.ConsentDialogActivity" android:theme="@style/MoPubFullscreenTheme"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.components.ComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.perf.ktx.FirebasePerfKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.perf.FirebasePerfRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.ktx.FirebaseMessagingKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.ktx.FirebaseRemoteConfigKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <provider android:authorities="com.truecaller.firebaseperfprovider" android:exported="false" android:initOrder="101" android:name="com.google.firebase.perf.provider.FirebasePerfProvider"/>
+        <meta-data android:name="com.razorpay.plugin.googlepay_all" android:value="com.razorpay.RzpGpayMerged"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:visibleToInstantApps="true"/>
+        <meta-data android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule" android:value="GlideModule"/>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService">
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.nl.languageid.LanguageIdRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.nl.translate.NaturalLanguageTranslateRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.nl.translate.RemoteConfigRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+            <meta-data android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar" android:value="com.google.firebase.components.ComponentRegistrar"/>
+        </service>
+        <activity android:exported="true" android:name="com.google.android.gms.appinvite.PreviewActivity" android:theme="@style/Theme.AppInvite.Preview">
+            <intent-filter>
+                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.facebook.ads.AudienceNetworkActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.truecaller.AudienceNetworkContentProvider" android:exported="false" android:name="com.facebook.ads.AudienceNetworkContentProvider"/>
+        <provider android:authorities="com.truecaller.mobileadsinitprovider" android:exported="false" android:initOrder="100" android:name="com.google.android.gms.ads.MobileAdsInitProvider"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.ads.AdService"/>
+        <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementReceiver"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementService"/>
+        <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.criteo.publisher.CriteoInterstitialActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <provider android:authorities="com.truecaller.com.squareup.picasso" android:exported="false" android:name="com.squareup.picasso.PicassoProvider"/>
+        <meta-data android:name="com.google.android.play.billingclient.version" android:value="4.0.0"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.android.billingclient.api.ProxyBillingActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.truecaller.FacebookInitProvider" android:exported="false" android:name="com.facebook.internal.FacebookInitProvider"/>
+        <receiver android:exported="false" android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery">
+            <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
+        </service>
+        <service android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:exported="false" android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="true" android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver" android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="true" android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+        <provider android:authorities="com.truecaller.lifecycle-process" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
+        <service android:exported="false" android:name="com.clevertap.android.hms.CTHmsMessageService">
+            <intent-filter>
+                <action android:name="com.huawei.push.action.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <receiver android:directBootAware="true" android:exported="true" android:name="com.huawei.hms.support.api.push.PushMsgReceiver" android:permission="com.truecaller.permission.PROCESS_PUSH_MSG">
+            <intent-filter>
+                <action android:name="com.huawei.intent.action.PUSH_DELAY_NOTIFY"/>
+                <action android:name="com.huawei.intent.action.PUSH"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="true" android:exported="true" android:name="com.huawei.hms.support.api.push.PushReceiver" android:permission="com.truecaller.permission.PROCESS_PUSH_MSG">
+            <intent-filter>
+                <action android:name="com.huawei.android.push.intent.REGISTRATION"/>
+                <action android:name="com.huawei.android.push.intent.RECEIVE"/>
+            </intent-filter>
+        </receiver>
+        <service android:directBootAware="true" android:enabled="true" android:exported="true" android:name="com.huawei.hms.support.api.push.service.HmsMsgService" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.huawei.push.msg.NOTIFY_MSG"/>
+                <action android:name="com.huawei.push.msg.PASSBY_MSG"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.truecaller.huawei.push.provider" android:exported="true" android:name="com.huawei.hms.support.api.push.PushProvider" android:readPermission="com.truecaller.permission.PUSH_PROVIDER" android:writePermission="com.truecaller.permission.PUSH_WRITE_PROVIDER"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:push" android:value="push:6.3.0.301"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:push:push" android:value="1"/>
+        <activity android:exported="false" android:name="com.huawei.hms.support.api.push.TransActivity"/>
+        <service android:multiprocess="true" android:name="com.appnext.core.AdsService"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTop" android:name="com.appnext.core.ResultActivity"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTop" android:name="com.appnext.core.result.ResultPageActivity" android:screenOrientation="portrait"/>
+        <service android:exported="true" android:name="com.tenor.android.core.service.AaidServiceApi26" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:exported="true" android:name="com.tenor.android.core.service.AaidServiceCompat" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:safetydetect" android:value="safetydetect:6.3.0.301"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:safetydetect:safetydetect" android:value="1"/>
+        <meta-data android:name="com.huawei.hms.client.channel.androidMarket" android:value="false"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:opendevice" android:value="opendevice:6.3.0.301"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:opendevice:push" android:value="1"/>
+        <meta-data android:name="com.huawei.hms.client.service.name:base" android:value="base:6.3.0.303"/>
+        <meta-data android:name="com.huawei.hms.min_api_level:base:hmscore" android:value="1"/>
+        <activity android:enabled="false" android:exported="false" android:launchMode="singleInstance" android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity" android:process=":playcore_missing_splits_activity" android:stateNotNeeded="true"/>
+        <activity android:exported="false" android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity" android:stateNotNeeded="true" android:theme="@style/Theme.PlayCore.Transparent"/>
+        <service android:enabled="false" android:exported="true" android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService">
+            <meta-data android:name="com.google.android.play.core.assetpacks.versionCode" android:value="11002"/>
+        </service>
+        <service android:enabled="false" android:exported="false" android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"/>
+        <meta-data android:name="availableLoaded" android:value="yes"/>
+        <provider android:authorities="com.truecaller.hms.update.provider" android:exported="false" android:grantUriPermissions="true" android:name="com.huawei.hms.update.provider.UpdateProvider"/>
+        <activity android:configChanges="fontScale|layoutDirection|locale|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:excludeFromRecents="true" android:exported="false" android:hardwareAccelerated="true" android:name="com.huawei.hms.activity.BridgeActivity" android:screenOrientation="behind" android:theme="@style/Base_Translucent">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:name="com.huawei.hms.activity.EnableServiceActivity"/>
+        <provider android:authorities="com.truecaller.hms.device.validate.spoofprovider" android:exported="false" android:grantUriPermissions="false" android:name="com.huawei.hms.device.provider.CheckHmsProvider"/>
+        <service android:exported="false" android:name="com.huawei.agconnect.core.ServiceDiscovery"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.huawei.updatesdk.service.otaupdate.AppUpdateActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar"/>
+            <meta-data android:name="hnc-theme" android:value="androidhnext:style/Theme.Magic.Translucent.NoTitleBar"/>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="false" android:name="com.huawei.updatesdk.support.pm.PackageInstallerActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent"/>
+            <meta-data android:name="hnc-theme" android:value="androidhnext:style/Theme.Magic.Translucent"/>
+        </activity>
+        <provider android:authorities="com.truecaller.updateSdk.fileProvider" android:exported="false" android:grantUriPermissions="true" android:name="com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider"/>
+        <meta-data android:name="componentverify_ag_cbg_root" android:value="@string/ag_sdk_cbg_root"/>
+        <activity android:name="com.truecaller.callhero_assistant.onboarding.AssistantOnboardingActivity"/>
+        <activity android:name="com.truecaller.callhero_assistant.deactivate.DeactivateServiceActivity"/>
+        <activity android:name="com.truecaller.callhero_assistant.inbox.settings.CallAssistantSettingsActivity"/>
+        <meta-data android:name="com.android.dynamic.apk.fused.modules" android:value="base,callhero_assistant"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_STANDALONE_APK"/>
+        <meta-data android:name="com.android.vending.splits" android:resource="@2114322432"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
+    </application>
+</manifest>

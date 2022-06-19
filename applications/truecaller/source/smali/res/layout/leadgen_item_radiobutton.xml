@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton android:id="@id/radioButton" android:paddingTop="@dimen/control_extraspace" android:paddingBottom="@dimen/control_extraspace" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Truecaller.RadioButton"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

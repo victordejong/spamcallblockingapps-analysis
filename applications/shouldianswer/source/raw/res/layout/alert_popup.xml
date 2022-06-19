@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="layout/alert_popup_0" android:background="@android:color/transparent" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/llMovable" android:background="@drawable/alert_shadow" android:layout_marginLeft="-12.0dip" android:layout_marginRight="-12.0dip" style="@style/llParentWidth">
+        <LinearLayout android:orientation="vertical" style="@style/llAlertPanel">
+            <LinearLayout style="@style/llAlertRatingPanel">
+                <ImageView android:id="@id/imgRating" android:contentDescription="@string/alert_img_final_rating" style="@style/imgRatingBig" />
+                <LinearLayout android:layout_weight="1.0" style="@style/llParentWidthCenter">
+                    <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:ellipsize="end" android:id="@id/tvTitle" android:layout_height="30.0dip" android:text="@string/category_telemarketer" android:maxLines="1" android:textAllCaps="true" style="@style/tvRating" />
+                    <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:id="@id/tvSubtitle" android:layout_height="20.0dip" android:text="+123456789" android:maxLines="1" style="@style/tvRating" />
+                </LinearLayout>
+                <androidx.appcompat.widget.AppCompatImageButton android:layout_gravity="top" android:id="@id/butClose" android:layout_width="40.0dip" android:layout_height="40.0dip" android:minWidth="40.0dip" android:contentDescription="@string/alert_but_close_description" style="@style/butAlertClose" />
+            </LinearLayout>
+            <View android:padding="0.0dip" android:layout_margin="0.0dip" style="@style/divider" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:minHeight="50.0dip" android:layout_weight="1.0">
+                <org.mistergroup.shouldianswer.components.LimitedScrollView android:id="@id/scrollView" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout style="@style/llParentWidthCenter">
+                        <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvFeaturedInfo" android:padding="@dimen/spaceSmall" android:text="@string/featured_info" style="@style/textViewStyle" />
+                        <LinearLayout android:id="@id/llLocalReviews" style="@style/llSection" />
+                        <LinearLayout android:id="@id/llCommunityReviews" style="@style/llSection" />
+                        <Button android:id="@id/butMoreInfo" android:visibility="gone" android:text="@string/alert_but_more_info" style="@style/buttonBorderless" />
+                        <androidx.appcompat.widget.AppCompatTextView android:id="@id/loadReviewsError" android:padding="@dimen/spaceSmall" android:visibility="gone" android:text="@string/alert_tv_error_download_reviews" style="@style/textViewStyleCenter" />
+                        <ProgressBar android:id="@id/progressBar1" android:padding="@dimen/spaceSmall" android:visibility="gone" style="@style/progressBar" />
+                        <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvDbSensitivityInfo" android:padding="@dimen/spaceSmall" android:visibility="gone" android:text="@string/alert_tv_error_low_rating_count" style="@style/textViewStyle" />
+                        <LinearLayout android:id="@id/llUnknownNumberInfo" android:padding="@dimen/spaceSmall" android:visibility="gone" style="@style/llParentWidthHorizontalCenter">
+                            <androidx.appcompat.widget.AppCompatTextView android:text="@string/alert_tv_unknown_rating_description" style="@style/textViewStyle" />
+                        </LinearLayout>
+                        <LinearLayout android:id="@id/llExpandPanel" android:padding="@dimen/spaceSmall" style="@style/llSection">
+                            <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                                <LinearLayout android:gravity="center_vertical" android:id="@id/llPositiveNegativeCounts" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                                    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvRating1" android:layout_marginRight="@dimen/spaceSmall" android:text="1 x " style="@style/textViewStyle" />
+                                    <ImageView android:id="@id/imgRating1" android:contentDescription="@string/alert_img_rating_positive" style="@style/imgRatingSmall" />
+                                    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvRating2" android:layout_marginLeft="@dimen/spaceBig" android:layout_marginRight="@dimen/spaceSmall" android:text="1 x " style="@style/textViewStyle" />
+                                    <ImageView android:id="@id/imgRating2" android:contentDescription="@string/alert_img_rating_negative" style="@style/imgRatingSmall" />
+                                </LinearLayout>
+                                <LinearLayout style="@style/llMaxWidth" />
+                                <androidx.appcompat.widget.AppCompatButton android:id="@id/butLoadReviewsUp" android:text="@string/alert_but_reviews" style="@style/butAlertReviewsUp" />
+                                <androidx.appcompat.widget.AppCompatButton android:id="@id/butLoadReviews" android:text="@string/alert_but_reviews" style="@style/butAlertReviews" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </org.mistergroup.shouldianswer.components.LimitedScrollView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

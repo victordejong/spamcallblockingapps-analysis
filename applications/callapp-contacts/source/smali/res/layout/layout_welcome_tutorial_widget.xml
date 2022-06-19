@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/store_widget" android:visibility="visible" style="@style/FloatingFabContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/store_widget_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/store_widget_icon_inner" style="@style/WelcomeTutorialWidgetStyle" />
+        <com.skyfishjy.library.RippleBackground android:layout_gravity="center" android:id="@id/icon_ripple" android:layout_width="@dimen/dimen_72_dp" android:layout_height="@dimen/dimen_72_dp" android:layout_marginLeft="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:rb_color="#bfffffff" app:rb_duration="700" app:rb_radius="10.0dip" app:rb_rippleAmount="1" app:rb_scale="4.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>app_update_repeat_interval_hrs</key>
+        <value>24</value>
+    </entry>
+    <entry>
+        <key>AJIS_interval_default_hrs</key>
+        <value>3</value>
+    </entry>
+    <entry>
+        <key>AJIS_interval_short_min</key>
+        <value>90</value>
+    </entry>
+    <entry>
+        <key>AJIS_need_start_now_interval_hrs</key>
+        <value>12</value>
+    </entry>
+    <entry>
+        <key>video_ads_repeat_interval_min</key>
+        <value>6000</value>
+    </entry>
+    <entry>
+        <key>video_ads_show_after_block_calls</key>
+        <value>3000</value>
+    </entry>
+</defaultsMap>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/frameContainer" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.callapp.contacts.widget.horizontalHeader.HorizontalPagerHeader android:id="@id/horizontalHeader" android:layout_width="fill_parent" android:layout_height="@dimen/market_place_horizontal_pager_height" />
+            <include android:id="@id/in_call_theme_covers_area" layout="@layout/include_market_place_skin_area" />
+            <include android:id="@id/in_call_theme_bundle_area" layout="@layout/include_market_bundle_area" />
+            <include android:id="@id/super_skin_area" layout="@layout/include_market_place_skin_area" />
+            <include android:id="@id/covers_area" layout="@layout/include_market_place_skin_area" />
+            <include android:id="@id/themes_area" layout="@layout/include_market_place_skin_area" />
+            <include android:id="@id/keypads_area" layout="@layout/include_market_place_skin_area" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

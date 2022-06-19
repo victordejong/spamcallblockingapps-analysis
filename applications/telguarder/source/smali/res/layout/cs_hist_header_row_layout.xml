@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/cardView" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" card_view:cardElevation="0.0dip" card_view:cardMaxElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/hist_header_layout" android:background="@color/post_call_light_background" android:paddingTop="@dimen/margin_large" android:paddingBottom="@dimen/margin_small" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="10.0sp" android:textStyle="bold" android:textColor="@color/post_call_light_text" android:gravity="center" android:id="@id/hist_header_text" android:background="@color/post_call_light_background" android:paddingTop="@dimen/margin_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/margin_small" android:text="@string/call_hist_header" android:layout_weight="1.0" android:layout_marginStart="@dimen/margin_screen_sides" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

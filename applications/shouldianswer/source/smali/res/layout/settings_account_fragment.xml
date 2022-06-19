@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:tag="layout/settings_account_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/appToolbar" style="@style/appBarToolbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout style="@style/llMainContent">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llInitialSelection" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_info_1" style="@style/textViewStyle" />
+                <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spaceMedium" android:text="@string/account_info_2" style="@style/textViewStyle" />
+                <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spaceMedium" android:text="@string/account_settings_help2" style="@style/textViewStyle" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Button android:layout_gravity="center" android:id="@id/butCreateAccount" android:layout_marginRight="@dimen/spaceBig" android:text="@string/create_account" style="@style/buttonAccent" />
+                    <Button android:layout_gravity="center" android:id="@id/butConnectAccount" android:text="@string/i_have_account" style="@style/buttonAccent" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/llAccountInfo" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/signed_user" style="@style/textViewStyleSectionTitle" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontBig" android:id="@id/tvUserID" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="\ 1231231231231231" android:layout_weight="1.0" style="@style/textViewStyle" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spaceBig">
+                    <Button android:layout_gravity="center" android:id="@id/butDisconnect" android:text="@string/sign_out" style="@style/buttonBorderless" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <Button android:id="@id/butShare" android:text="@string/share" style="@style/buttonAccent" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/llLastSynchronization" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spaceBiggest">
+                    <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/your_data" style="@style/textViewStyleSectionTitle" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/last_synchronization" />
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvLastSynchronization" android:layout_width="wrap_content" android:text="@string/last_synchronization" style="@style/textViewStyle" />
+                    </LinearLayout>
+                    <Button android:layout_gravity="right" android:id="@id/butSynchronize" android:layout_marginTop="@dimen/spaceBig" android:text="@string/synchronize_now" style="@style/buttonBorderless" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llCreateAccount" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/create_account" style="@style/textViewStyleSectionTitle" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <org.mistergroup.shouldianswer.utils.BetterEditText android:enabled="false" android:id="@id/editAccountCreationUserId" android:layout_marginTop="@dimen/spaceMedium" android:layout_weight="1.0" android:inputType="textVisiblePassword" app:met_floatingLabelAlwaysShown="true" app:met_floatingLabelText="@string/user_id" style="@style/betterEditTextStyle" />
+                    <Button android:layout_gravity="center" android:id="@id/butCreateAccountUserIdInfo" android:text="@string/more_info" style="@style/buttonBorderless" />
+                </LinearLayout>
+                <org.mistergroup.shouldianswer.utils.BetterEditText android:id="@id/editAccountCreationPassword" android:hint="@string/enter_your_password_optional" android:inputType="textVisiblePassword" app:met_floatingLabelAlwaysShown="true" app:met_floatingLabelText="@string/user_password" style="@style/betterEditTextStyle" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spaceMedium">
+                    <Button android:layout_gravity="center" android:id="@id/butCreateAccountCancel" android:layout_marginRight="@dimen/spaceMedium" android:text="@string/cancel" style="@style/buttonBorderless" />
+                    <Button android:layout_gravity="center" android:id="@id/butCreateAccountFinal" android:text="@string/create_account" style="@style/buttonAccent" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llConnectAccount" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/signin_to_account" style="@style/textViewStyleSectionTitle" />
+                <org.mistergroup.shouldianswer.utils.BetterEditText android:id="@id/editUserId" android:layout_height="wrap_content" android:hint="@string/enter_your_user_id" app:met_floatingLabelAlwaysShown="true" app:met_floatingLabelText="User Id" style="@style/betterEditTextStyle" />
+                <org.mistergroup.shouldianswer.utils.BetterEditText android:id="@id/editAccountConnectPassword" android:layout_marginTop="@dimen/spaceMedium" android:hint="@string/enter_your_password_optional" android:inputType="textVisiblePassword" app:met_floatingLabelAlwaysShown="true" app:met_floatingLabelText="@string/user_password" style="@style/betterEditTextStyle" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spaceMedium">
+                    <Button android:layout_gravity="center" android:id="@id/butConnectAccountCancel" android:layout_marginRight="@dimen/spaceMedium" android:text="@string/cancel" style="@style/buttonBorderless" />
+                    <Button android:layout_gravity="center" android:id="@id/butConnectAccountFinal" android:text="@string/connect" style="@style/buttonAccent" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

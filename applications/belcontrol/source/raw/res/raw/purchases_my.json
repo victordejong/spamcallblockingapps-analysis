@@ -1,0 +1,33 @@
+{
+		"top" : "Upgrade today and unlock a powerful set of features:",
+
+        "sections" : [
+            {
+                "img" : "shield",
+                "descr" : "Community Block List Protection",
+                "width": "40",
+                "height": "40"
+            },
+            {
+                "img" : "list",
+                "descr" : "Unlimited Block List Entries",
+                "width": "40",
+                "height": "40"
+
+            },
+            {
+                "img" : "cloud",
+                "descr" : "Online Backup",
+                "width": "40",
+                "height": "40"
+            },
+            {
+                "img" : "caller_id",
+                "descr" : "Enhanced Caller ID",
+                "width": "40",
+                "height": "40"
+            }
+        ],
+
+        "bottom" : ""
+}

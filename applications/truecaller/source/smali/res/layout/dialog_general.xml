@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/TCDialog.Rounded">
+    <include layout="@layout/dialog_section_caption" />
+    <include layout="@layout/dialog_section_details" />
+    <include layout="@layout/dialog_section_buttons" />
+</LinearLayout>

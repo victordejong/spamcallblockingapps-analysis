@@ -1,0 +1,52 @@
+.class final Lcom/google/android/play/core/assetpacks/k;
+.super Lcom/google/android/play/core/assetpacks/j;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/android/play/core/assetpacks/j<",
+        "Landroid/os/ParcelFileDescriptor;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method constructor <init>(Lcom/google/android/play/core/assetpacks/o;Lcom/google/android/play/core/tasks/m;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/google/android/play/core/tasks/m<",
+            "Landroid/os/ParcelFileDescriptor;",
+            ">;)V"
+        }
+    .end annotation
+
+    invoke-direct {p0, p1, p2}, Lcom/google/android/play/core/assetpacks/j;-><init>(Lcom/google/android/play/core/assetpacks/o;Lcom/google/android/play/core/tasks/m;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final r5(Landroid/os/Bundle;Landroid/os/Bundle;)V
+    .locals 0
+
+    invoke-super {p0, p1, p2}, Lcom/google/android/play/core/assetpacks/j;->r5(Landroid/os/Bundle;Landroid/os/Bundle;)V
+
+    const-string p2, "chunk_file_descriptor"
+
+    invoke-virtual {p1, p2}, Landroid/os/Bundle;->getParcelable(Ljava/lang/String;)Landroid/os/Parcelable;
+
+    move-result-object p1
+
+    check-cast p1, Landroid/os/ParcelFileDescriptor;
+
+    iget-object p2, p0, Lcom/google/android/play/core/assetpacks/j;->d:Lcom/google/android/play/core/tasks/m;
+
+    invoke-virtual {p2, p1}, Lcom/google/android/play/core/tasks/m;->e(Ljava/lang/Object;)V
+
+    return-void
+.end method

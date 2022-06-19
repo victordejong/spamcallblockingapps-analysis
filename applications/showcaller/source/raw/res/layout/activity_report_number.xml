@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_close" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/touying" />
+    <View android:id="@id/touying" android:background="@drawable/tab_up" android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_above="@id/ll_tag" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_tag" android:background="?color_ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_centerInParent="true">
+                <TextView android:textSize="18.0sp" android:textColor="?color_333333" android:layout_gravity="center_horizontal" android:id="@id/tv_tag_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="" android:textDirection="locale" />
+                <TextView android:textSize="14.0sp" android:textColor="?color_999999" android:layout_gravity="center_horizontal" android:id="@id/tv_tag_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/describe_this_number" />
+            </LinearLayout>
+            <ImageView android:id="@id/lb_tag_close" android:background="?card_foreground" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_tag_close" android:layout_alignParentRight="true" android:contentDescription="@string/close" android:layout_alignParentEnd="true" app:tint="?icon_color_gray" />
+        </RelativeLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="100.0dip">
+            <FrameLayout android:id="@id/btn_scam" android:layout_width="0.0dip" android:layout_height="fill_parent" android:foreground="?card_foreground" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/btn_spam" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_scam" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_scam" app:tint="?icon_color_blue" />
+                    <TextView android:textSize="12.0sp" android:textColor="?color_999999" android:layout_gravity="center_horizontal" android:id="@id/tv_tag_scam" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/scam" />
+                    <TextView android:textSize="10.0sp" android:textColor="?color_FF0000" android:layout_gravity="center_horizontal" android:id="@id/tv_tag_scam_counts" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="" />
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout android:id="@id/btn_spam" android:layout_width="0.0dip" android:layout_height="fill_parent" android:foreground="?card_foreground" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/btn_telemarketing" app:layout_constraintStart_toEndOf="@id/btn_scam" app:layout_constraintTop_toTopOf="parent">
+                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_spam" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_phishing" app:tint="?icon_color_blue" />
+                    <TextView android:textSize="12.0sp" android:textColor="?color_999999" android:layout_gravity="center_horizontal" android:id="@id/tv_tag_spam" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/spam" />
+                    <TextView android:textSize="10.0sp" android:textColor="?color_FF0000" android:layout_gravity="center_horizontal" android:id="@id/tv_tag_spam_counts" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="" />
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout android:id="@id/btn_telemarketing" android:layout_width="0.0dip" android:layout_height="fill_parent" android:foreground="?card_foreground" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/btn_spam" app:layout_constraintTop_toTopOf="parent">
+                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_tele" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sale" app:tint="?icon_color_blue" />
+                    <TextView android:textSize="12.0sp" android:textColor="?color_999999" android:layout_gravity="center_horizontal" android:id="@id/tv_tag_telemarketing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/telemarketing" />
+                    <TextView android:textSize="10.0sp" android:textColor="?color_FF0000" android:layout_gravity="center_horizontal" android:id="@id/tv_tag_telemarketing_counts" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="" />
+                </LinearLayout>
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</RelativeLayout>

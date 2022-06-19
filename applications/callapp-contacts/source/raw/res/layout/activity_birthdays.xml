@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:titleTextColor="@color/white_callapp" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <include android:id="@id/empty" layout="@layout/layout_empty_list" />
+    </FrameLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/floatingActionButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_16_dp" android:src="@drawable/ic_action_birthday" android:tint="@color/white_callapp" app:fabSize="normal" app:layout_anchor="@id/recyclerView" app:layout_anchorGravity="end|bottom|center" app:layout_behavior="com.callapp.contacts.behavior.ScrollAwareFABBehavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

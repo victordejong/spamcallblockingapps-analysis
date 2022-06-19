@@ -1,0 +1,26 @@
+{
+		"top" : "Kaufen Sie mehr Guthaben für Premium-Rückwärtssuchen.",
+
+        "sections" : [
+            {
+                "img" : "glass",
+                "descr" : "Rufen Sie den echten Namen des Anrufers ab",
+                "width": "40",
+                "height": "40"
+            },
+            {
+              "img" : "shield",
+              "descr" : "Identifizieren Sie unbekannte Anrufer sofort",
+              "width": "40",
+              "height": "40"
+            },
+            {
+              "img" : "credits",
+              "descr" : "Das Guthaben verfällt nicht!",
+              "width": "40",
+              "height": "40"
+            }
+        ],
+
+        "bottom" : ""
+}

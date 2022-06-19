@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.SwitchCompat android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:id="@id/switch_additional_presets" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:text="@string/settings_additional_presets" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_margin_top" android:text="@string/settings_additional_presets" />
+    <View android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    <LinearLayout android:id="@id/presetsLL" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/content_presets_items" />
+    </LinearLayout>
+    <Button android:textSize="12.0sp" android:id="@id/presetCreateNewButton" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginRight="5.0dip" android:text="@string/settings_new_preset" android:layout_marginEnd="5.0dip" style="@style/SmallButtonStyle" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/colorDarkGray" android:id="@id/presetsDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_presets_description" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="@color/tcx_backgroundTertiary_light" app:cardCornerRadius="@dimen/vid_dp8" app:cardElevation="@dimen/vid_dp4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="@dimen/vid_recording_popup_width" android:layout_height="@dimen/vid_delete_record_text_height">
+        <TextView android:textColor="@color/tcx_textPrimary_light" android:gravity="center_vertical" android:id="@id/deleteTV" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/vid_delete_record" android:drawablePadding="@dimen/vid_dp21" android:paddingStart="@dimen/vid_dp21" app:drawableStartCompat="@drawable/ic_tcx_action_delete_outline_24dp" app:drawableTint="@color/tcx_alertBackgroundRed_light" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Text.Body.B2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

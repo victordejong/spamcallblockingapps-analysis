@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:drawable="@drawable/ic_settings_ico_on" app:state_on="true" />
+    <item android:drawable="@drawable/ic_settings_ico" app:state_off="true" />
+    <item android:drawable="@drawable/ic_settings_ico_bage" app:state_off_badge="true" />
+    <item android:drawable="@drawable/ic_settings_ico_bage_on" app:state_on_badge="true" />
+</selector>

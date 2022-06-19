@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="1.0dip" android:color="?tcx_textTertiary" android:dashWidth="10.0px" android:dashGap="10.0px" />
+    <corners android:radius="@dimen/attachment_option_preview_radius" />
+</shape>

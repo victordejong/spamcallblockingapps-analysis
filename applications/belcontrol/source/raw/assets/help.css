@@ -1,0 +1,90 @@
+body, html {
+    background: transparent;
+    color: white;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+@media screen and (min-resolution: 0.75dppx) , /* WQVGA */
+@media screen and (-webkit-device-pixel-ratio:0.75) { /* WQVGA */
+    body {
+        font-size: 0.75em;
+    }
+}
+@media screen and (-webkit-device-pixel-ratio:1.0),
+@media screen and (min-resolution: 1.0dppx) { /* WQVGA */
+    body {
+        font-size: 0.95em;
+    }
+}
+@media screen and (-webkit-device-pixel-ratio:1.5),
+@media screen and (min-resolution: 1.5dppx) { /* HDPI */
+    body {
+        font-size: 1.15em;
+    }
+}
+@media screen and (-webkit-device-pixel-ratio:2.0),
+@media screen and (min-resolution: 2.0dppx) { /* XHDPI */
+
+    body {
+        font-size: 1.15em;
+    }
+    img {
+        zoom: 0.5;
+    }
+}
+@media screen and (-webkit-device-pixel-ratio:2.0) and (min-width:1000px),
+@media screen and (min-resolution: 2dppx) and (min-width: 1000px) {
+
+    body {
+        font-size: 1.15em;
+    }
+}
+@media screen and (-webkit-device-pixel-ratio:3.0),
+@media screen and (min-resolution: 3.0dppx) { /* XXHDPI  */
+    body {
+        font-size: 1.15em;
+    }
+    img {
+        zoom: 0.3;
+    }
+}
+@media screen and (-webkit-min-device-pixel-ratio:3.0) { /* XXHDPI  */
+    body {
+        font-size: 1.15em;
+    }
+    img {
+        zoom: 0.3;
+    }
+}
+img {
+    image-rendering: optimizeQuality;
+}
+
+body.welcome div.swipe, body.drawer div.swipe {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+body.drawer div.swipe {
+    text-align: left;
+}
+
+body.welcome div.swipe img {
+    display: inline-block;
+    margin: 3em auto 0 auto;
+    padding-left: 5px;
+}
+
+body.drawer div.swipe img {
+    display: inline-block;
+    margin: 3em 0 0 -0.5em;
+}
+
+ul {
+    text-align: left;
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="20" android:drawable="@drawable/a" />
+    <item android:duration="20" android:drawable="@drawable/b" />
+    <item android:duration="20" android:drawable="@drawable/c" />
+    <item android:duration="20" android:drawable="@drawable/d" />
+    <item android:duration="20" android:drawable="@drawable/e" />
+    <item android:duration="20" android:drawable="@drawable/f" />
+    <item android:duration="20" android:drawable="@drawable/g" />
+    <item android:duration="20" android:drawable="@drawable/h" />
+    <item android:duration="20" android:drawable="@drawable/i" />
+    <item android:duration="20" android:drawable="@drawable/j" />
+    <item android:duration="20" android:drawable="@drawable/k" />
+    <item android:duration="20" android:drawable="@drawable/l" />
+    <item android:duration="20" android:drawable="@drawable/m" />
+    <item android:duration="20" android:drawable="@drawable/n" />
+    <item android:duration="20" android:drawable="@drawable/o" />
+    <item android:duration="20" android:drawable="@drawable/p" />
+    <item android:duration="20" android:drawable="@drawable/q" />
+    <item android:duration="20" android:drawable="@drawable/r" />
+    <item android:duration="20" android:drawable="@drawable/s" />
+    <item android:duration="20" android:drawable="@drawable/t" />
+    <item android:duration="20" android:drawable="@drawable/u" />
+    <item android:duration="20" android:drawable="@drawable/v" />
+    <item android:duration="20" android:drawable="@drawable/w" />
+    <item android:duration="20" android:drawable="@drawable/x" />
+    <item android:duration="20" android:drawable="@drawable/y" />
+    <item android:duration="20" android:drawable="@drawable/z" />
+    <item android:duration="20" android:drawable="@drawable/aa" />
+    <item android:duration="20" android:drawable="@drawable/ab" />
+    <item android:duration="20" android:drawable="@drawable/ac" />
+    <item android:duration="20" android:drawable="@drawable/ad" />
+    <item android:duration="20" android:drawable="@drawable/ae" />
+    <item android:duration="20" android:drawable="@drawable/af" />
+</animation-list>

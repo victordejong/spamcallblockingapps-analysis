@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:padding="@dimen/default_padding" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:id="@id/premium_dialog_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_padding" android:text="@string/premium_warning_title" style="@style/Text.XLarge" />
-    <TextView android:id="@id/premium_dialog_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_padding" android:text="@string/premium_warning_text" android:layout_below="@id/premium_dialog_title" style="@style/Text.Title.DarkGrey" />
-    <Button android:textColor="@color/blue" android:id="@id/premium_call_button" android:layout_marginTop="@dimen/default_padding" android:text="@string/call" android:layout_below="@id/premium_dialog_text" android:layout_alignParentRight="true" android:contentDescription="@string/call" android:textAllCaps="true" style="@style/DialogActionButton" />
-    <Button android:textColor="@color/blue" android:id="@id/premium_cancel_button" android:layout_marginTop="@dimen/default_padding" android:layout_marginRight="8.0dip" android:text="@string/cancel" android:layout_below="@id/premium_dialog_text" android:contentDescription="@string/cancel" android:textAllCaps="true" android:layout_toStartOf="@id/premium_call_button" style="@style/DialogActionButton" />
-</RelativeLayout>

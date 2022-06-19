@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <ImageView android:id="@id/img" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/default_dialer_popup_img" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white_callapp" android:gravity="center" android:id="@id/top_text" android:paddingLeft="48.0dip" android:paddingRight="48.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white_callapp" android:gravity="center" android:id="@id/button_text" android:paddingLeft="48.0dip" android:paddingRight="48.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <TextView android:textSize="16.0dip" android:textColor="@color/sixty_transparent_white" android:gravity="center" android:id="@id/btn_close" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginRight="6.0dip" android:layout_marginEnd="6.0dip" />
+            <Button android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/colorPrimary" android:id="@id/btn_ok" android:background="@drawable/white_and_color_primary_ripple" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginLeft="24.0dip" android:layout_marginStart="24.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

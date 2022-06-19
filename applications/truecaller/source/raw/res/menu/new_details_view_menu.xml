@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/action_favorite_contact" android:visible="false" android:title="@string/details_view_menu_favorite_contact" app:showAsAction="never" />
+    <item android:id="@id/action_unfavorite_contact" android:visible="false" android:title="@string/details_view_menu_unfavorite_contact" app:showAsAction="never" />
+    <item android:id="@id/action_share" android:visible="false" android:title="@string/details_view_menu_share" app:showAsAction="never" />
+    <item android:id="@id/action_edit_contact" android:visible="false" android:title="@string/details_view_menu_edit_contact" app:showAsAction="never" />
+    <item android:id="@id/action_save" android:visible="false" android:title="@string/details_view_save_contact" app:showAsAction="never" />
+    <item android:id="@id/action_copy_name" android:visible="false" android:title="@string/details_view_menu_copy_name" app:showAsAction="never" />
+    <item android:id="@id/action_search_web" android:visible="false" android:title="@string/details_view_menu_search_web" app:showAsAction="never" />
+    <item android:id="@id/action_copy_number" android:visible="false" android:title="@string/details_view_menu_copy_number" app:showAsAction="never" />
+    <item android:id="@id/action_copy_contact" android:visible="false" android:title="@string/details_view_menu_copy_contact" app:showAsAction="never" />
+    <item android:id="@id/action_delete_contact" android:visible="false" android:title="@string/details_view_menu_remove_contact" app:showAsAction="never" />
+    <item android:id="@id/action_delete_identified_contact" android:visible="false" android:title="@string/details_view_menu_remove_identified_contact" app:showAsAction="never" />
+</menu>

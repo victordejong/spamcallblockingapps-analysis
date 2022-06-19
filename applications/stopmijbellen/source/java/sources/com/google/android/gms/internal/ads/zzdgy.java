@@ -1,0 +1,17 @@
+package com.google.android.gms.internal.ads;
+
+import com.google.android.gms.ads.internal.overlay.zzo;
+import java.util.Set;
+/* loaded from: classes-dex2jar.jar:com/google/android/gms/internal/ads/zzdgy.class */
+public final class zzdgy implements zzgpr<zzdgx> {
+    private final zzgqe<Set<zzdlw<zzo>>> zza;
+
+    public zzdgy(zzgqe<Set<zzdlw<zzo>>> zzgqeVar) {
+        this.zza = zzgqeVar;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzgqe
+    public final /* bridge */ /* synthetic */ Object zzb() {
+        return new zzdgx(((zzgqc) this.zza).zzb());
+    }
+}

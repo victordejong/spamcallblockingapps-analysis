@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="bottom" android:id="@id/gradientView" android:layout_width="fill_parent" android:layout_height="208.0dip" android:src="@drawable/background_urgent_message_bubble_dismiss" android:contentDescription="@null" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="bottom|center" android:id="@id/dismissButton" android:background="@drawable/background_urgent_message_bubble_dismiss_button" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/ic_action_close" android:scaleType="center" app:tint="#ff000000" />
+</merge>

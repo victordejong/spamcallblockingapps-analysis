@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/hiddenAvatar" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/ic_wvm_hidden_avatar" android:contentDescription="@null" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textColor="?tcx_textPrimary" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/WhoViwedMeHiddenProfileTitle" android:layout_marginStart="16.0dip" app:layout_constraintStart_toEndOf="@id/hiddenAvatar" app:layout_constraintTop_toTopOf="@id/hiddenAvatar" style="@style/StyleX.Text.Subtitle.S1.Medium" />
+    <TextView android:textColor="?tcx_textSecondary" android:layout_width="226.0dip" android:layout_height="20.0dip" android:layout_marginTop="2.0dip" android:text="@string/WhoViewedMeUpgradeToView" app:layout_constraintStart_toStartOf="@id/title" app:layout_constraintTop_toBottomOf="@id/title" style="@style/StyleX.Text.Subtitle.S2.Normal" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_wvm_lock" android:contentDescription="@null" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

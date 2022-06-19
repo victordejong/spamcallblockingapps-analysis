@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/widgetHeader" style="@style/HistoryWidgetHeader"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/widgetSearch" android:src="@drawable/ic_widget_search_dark" android:layout_centerVertical="true" android:contentDescription="@string/AppName" android:layout_alignParentStart="true" style="@style/HistoryWidgetHeaderIcon" />
+    <LinearLayout android:orientation="vertical" android:id="@id/widgetLogoContainer" android:layout_toStartOf="@id/widgetNotifications" android:layout_toEndOf="@id/widgetSearch" style="@style/HistoryWidgetHeaderLabel">
+        <ImageView android:id="@id/widgetLogo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" android:maxHeight="20.0dip" android:contentDescription="@string/AppName" app:srcCompat="@drawable/ic_truecaller_logo_white" />
+        <TextView android:textSize="10.0sp" android:textColor="@android:color/white" android:id="@id/widgetPoweredBy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/PoweredByTruecaller" />
+    </LinearLayout>
+    <ImageView android:id="@id/widgetNotifications" android:src="@drawable/ic_widget_notification_dark" android:layout_centerVertical="true" android:contentDescription="@string/TabBarMessages" android:layout_alignParentEnd="true" style="@style/HistoryWidgetHeaderIcon" />
+</RelativeLayout>

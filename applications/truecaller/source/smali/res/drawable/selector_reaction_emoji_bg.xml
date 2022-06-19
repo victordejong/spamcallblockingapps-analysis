@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <size android:height="@dimen/reaction_emoji_size" android:width="@dimen/reaction_emoji_size" />
+            <solid android:color="?tcx_reactionPickerItemSelectedColor" />
+            <stroke android:width="1.0dip" android:color="?tcx_reactionPickerItemSelectedBorderColor" />
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape android:shape="oval">
+            <size android:height="@dimen/reaction_emoji_size" android:width="@dimen/reaction_emoji_size" />
+            <solid android:color="?tcx_reactionPickerItemSelectedColor" />
+            <stroke android:width="1.0dip" android:color="?tcx_reactionPickerItemSelectedBorderColor" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/reaction_emoji_size" android:width="@dimen/reaction_emoji_size" />
+            <solid android:color="?tcx_reactionPickerItemBackgroundColor" />
+            <stroke android:width="1.0dip" android:color="?tcx_reactionPickerItemBorderColor" />
+        </shape>
+    </item>
+</selector>

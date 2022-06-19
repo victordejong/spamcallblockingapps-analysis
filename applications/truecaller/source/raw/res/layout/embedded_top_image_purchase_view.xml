@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/background_embedded_top_image_purchase_view" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/promoBannerView" android:visibility="visible" android:clickable="false" android:layout_width="fill_parent" android:layout_height="144.0dip" android:scaleType="fitXY" android:contentDescription="@null" />
+        <com.truecaller.premium.ui.subscription.buttons.SubscriptionButtonView android:id="@id/buyBtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:subscriptionButtonAutoSize="false" app:subscriptionButtonBackground="@drawable/ripple_tcx_subscription_button_highlighted" app:subscriptionButtonLayout="@layout/layout_tcx_embedded_subscription_button_highlighted" app:subscriptionButtonMinHeight="@dimen/premium_features_pricing_button_height_highlighted" />
+    </LinearLayout>
+    <TextView android:textColor="?tcx_textTertiary" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/disclaimerLabel" android:paddingTop="8.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/StyleX.Text.Caption" />
+</LinearLayout>

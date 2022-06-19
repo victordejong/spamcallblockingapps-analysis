@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service android:description="@string/app_accessibility_description" android:summary="" android:settingsActivity="com.allinone.callerid.mvc.controller.recorder.RecordSetting" android:accessibilityEventTypes="typeAllMask" android:packageNames="com.allinone.callerid" android:accessibilityFeedbackType="feedbackGeneric" android:notificationTimeout="100" android:accessibilityFlags="flagReportViewIds" android:canRetrieveWindowContent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

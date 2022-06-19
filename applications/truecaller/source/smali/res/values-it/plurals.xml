@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">Bloccare e segnalare %d numeri come indesiderati?</item>
+        <item quantity="one">Bloccare e segnalare %d numero come indesiderato?</item>
+    </plurals>
+    <plurals name="ConversationCallsHistoryCount">
+        <item quantity="other">%d chiamate</item>
+        <item quantity="one">%d chiamata</item>
+    </plurals>
+    <plurals name="ConversationFlashHistoryCount">
+        <item quantity="other">%d messaggi flash</item>
+        <item quantity="one">%d messaggio flash</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">Messaggi aggiunti a scheda Importante</item>
+        <item quantity="one">Messaggio aggiunto a scheda Importante</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d conversazioni segnate come lette</item>
+        <item quantity="one">%d conversazione segnata come letta</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">%d voci cancellate</item>
+        <item quantity="one">%d voce cancellata</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">Cancella %d voci?</item>
+        <item quantity="one">Cancella voce?</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">Conversazioni bloccate</item>
+        <item quantity="one">Conversazione bloccata</item>
+    </plurals>
+    <plurals name="ConversationReportNotSpamConfirmation">
+        <item quantity="other">%d messaggi segnalati come non indesiderati</item>
+        <item quantity="one">%d messaggio segnalato come non indesiderato</item>
+    </plurals>
+    <plurals name="ConversationReportSpamConfirmation">
+        <item quantity="other">%d messaggi segnalati come indesiderati</item>
+        <item quantity="one">%d messaggio segnalato come indesiderato</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">Salva tutti i contatti</item>
+        <item quantity="one">@string/ConversationSaveContact</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">Conversazioni sbloccate</item>
+        <item quantity="one">Conversazione sbloccata</item>
+    </plurals>
+    <plurals name="DeleteConversationsConfirmation">
+        <item quantity="other">Sono state cancellate %d conversazioni</item>
+        <item quantity="one">È stata cancellata %d conversazione</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">Cancella %d conversazioni?</item>
+        <item quantity="one">Cancella %d conversazione?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">%d numeri identificati</item>
+        <item quantity="one">%d numero identificato</item>
+    </plurals>
+    <plurals name="HistoryActionConfirmDeleteMessage">
+        <item quantity="other">Vuoi eliminare %d elementi?</item>
+        <item quantity="one">Vuoi eliminare %d elemento?</item>
+    </plurals>
+    <plurals name="HistoryActionDeleted">
+        <item quantity="other">%d elementi eliminati</item>
+        <item quantity="one">%d elemento eliminato</item>
+    </plurals>
+    <plurals name="HistoryActionSelected">
+        <item quantity="other">%d elementi selezionati</item>
+        <item quantity="one">%d elemento selezionato</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">Sei sicuro di voler sbloccare %d numeri?</item>
+        <item quantity="one">Sei sicuro di voler sbloccare questo numero?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteCallRecordings">
+        <item quantity="other">Vuoi davvero cancellare %s registrazioni di chiamata?</item>
+        <item quantity="one">Vuoi davvero cancellare %s registrazione di chiamata?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">Vuoi davvero cancellare %s file di lingua?</item>
+        <item quantity="one">Vuoi davvero cancellare %s file di lingua?</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">%d SMS bloccati</item>
+        <item quantity="one">SMS bloccato da Truecaller</item>
+    </plurals>
+    <plurals name="MessageNotificationNewMessages">
+        <item quantity="other">+%1$d nuovi messaggi</item>
+        <item quantity="one">+1 nuovo messaggio</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$s ha chiamato %2$d ore fa. Tocca per vedere in Truecaller</item>
+        <item quantity="one">%1$s ha chiamato %2$d ora fa. Tocca per vedere in Truecaller</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d contatti</item>
+        <item quantity="one">%d contatto</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d allegati</item>
+        <item quantity="one">%1$d allegato</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">%d altri contatti</item>
+        <item quantity="one">%d altro contatto</item>
+    </plurals>
+    <plurals name="NewImGroupMemberCount">
+        <item quantity="other">%d membri</item>
+        <item quantity="one">%d membro</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">"%d numeri aggiunti all'elenco degli indesiderati"</item>
+        <item quantity="one">"Numero aggiunto all'elenco degli indesiderati"</item>
+    </plurals>
+    <plurals name="OSNotificationTextNew">
+        <item quantity="other">Hai %d nuove notifiche</item>
+        <item quantity="one">Hai una nuova notifica</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d chiamate bloccate</item>
+        <item quantity="one">%d chiamata bloccata</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">"Audio disattivato a %d chiamate "</item>
+        <item quantity="one">"Audio disattivato ad %d chiamata "</item>
+    </plurals>
+    <plurals name="PremiumAbbreviatedOfferPriceOverMonth">
+        <item quantity="other">%1$s/mesi</item>
+        <item quantity="one">%1$s/mese</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">Prova gratuita da %1$d giorni solo per nuovi abbonati</item>
+        <item quantity="one">Prova gratuita da %1$d giorno solo per nuovi abbonati</item>
+    </plurals>
+    <plurals name="PremiumFeatureContactRequestLeft">
+        <item quantity="other">%1$d richieste rimaste</item>
+        <item quantity="one">%1$d richiesta rimasta</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">%1$d visualizzazioni nuovo profilo</item>
+        <item quantity="one">1 visualizzazione nuovo profilo</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">%1$d persone hanno visualizzato il tuo profilo di recente</item>
+        <item quantity="one">Qualcuno ha visualizzato il tuo profilo di recente</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d persone (%3$d a %2$s) hanno visualizzato il tuo profilo di recente</item>
+        <item quantity="one">Qualcuno a %2$s ha visualizzato il tuo profilo di recente</item>
+    </plurals>
+    <plurals name="SettingPendingGroupInvitationsMessage">
+        <item quantity="other">Hai %d inviti di gruppo in sospeso. Vuoi accettarli?</item>
+        <item quantity="one">Hai %d invito di gruppo in sospeso. Vuoi accettarlo?</item>
+    </plurals>
+    <plurals name="SpamSmsFound">
+        <item quantity="other">%d messaggi indesiderati trovati</item>
+        <item quantity="one">%d messaggio indesiderato trovato</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByMultiple">
+        <item quantity="other">%1$s e %2$d altri sono stati invitati a entrare a far parte del gruppo da %3$s</item>
+        <item quantity="one">%1$s e %2$d altro sono stati invitati a entrare a far parte del gruppo da %3$s</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByYouMultiple">
+        <item quantity="other">Hai invitato %1$s e %2$d altri a far parte del gruppo</item>
+        <item quantity="one">Hai invitato %1$s e %2$d altro a far parte del gruppo</item>
+    </plurals>
+    <plurals name="StrPhoneNumberAndMore">
+        <item quantity="other">%1$s &lt;b>e altri %2$d&lt;/b></item>
+        <item quantity="one">%1$s &lt;b>e %2$d altro&lt;/b></item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">giorni</item>
+        <item quantity="one">giorno</item>
+    </plurals>
+    <plurals name="StrPluralHour">
+        <item quantity="other">ore</item>
+        <item quantity="one">ora</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">mesi</item>
+        <item quantity="one">mese</item>
+    </plurals>
+    <plurals name="StrPluralWeek">
+        <item quantity="other">settimane</item>
+        <item quantity="one">settimana</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">anni</item>
+        <item quantity="one">anno</item>
+    </plurals>
+    <plurals name="UnreadConversations">
+        <item quantity="other">%d conversazioni non lette</item>
+        <item quantity="one">%d conversazione non letta</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">Hai superato il limite di tentativi di verifica. Riprova tra %dh</item>
+        <item quantity="one">Hai superato il limite di tentativi di verifica. Riprova tra %dh</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d persone hanno visualizzato il tuo profilo</item>
+        <item quantity="one">Qualcuno ha visualizzato il tuo profilo</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d persona (1 in %2$s) ha visualizzato il tuo profilo</item>
+        <item quantity="one">%1$d persona da %2$s ha visualizzato il tuo profilo</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d persone hanno visualizzato il tuo profilo. Scopri di più.</item>
+        <item quantity="one">1 persona ha visualizzato il tuo profilo. Scopri di più.</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d persone (%3$d in %2$s) hanno visualizzato il tuo profilo. Scopri di più.</item>
+        <item quantity="one">1 persona da %2$s hanno visualizzato il tuo profilo. Scopri di più.</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaption">
+        <item quantity="other">%1$d nuove visualizzazioni</item>
+        <item quantity="one">%1$d nuova visualizzazione</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaptionWithLocation">
+        <item quantity="other">%1$d nuove visualizzazioni • %2$d da %3$s</item>
+        <item quantity="one">%1$d nuova visualizzazione • %2$d da %3$s</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">Troppi tentativi di reCaptcha non riusciti. Riprova tra %1$d ore</item>
+        <item quantity="one">Troppi tentativi di reCaptcha non riusciti. Riprova tra %1$d ora</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%s conversazioni archiviate</item>
+        <item quantity="one">%s conversazione archiviata</item>
+    </plurals>
+    <plurals name="biz_govt_contacts_count">
+        <item quantity="other">%1$d contatti</item>
+        <item quantity="one">%1$d contatto</item>
+    </plurals>
+    <plurals name="call_recording_toast_items_deleted">
+        <item quantity="other">%1$d registrazioni cancellate</item>
+        <item quantity="one">%1$d registrazione cancellata</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">Messaggi OTP eliminati</item>
+        <item quantity="one">Messaggio OTP eliminato</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">Messaggi promozionali cancellati</item>
+        <item quantity="one">Messaggio promozionale cancellato</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">Messaggi spam eliminati</item>
+        <item quantity="one">Messaggio spam eliminato</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d messaggi</item>
+        <item quantity="one">%d messaggio</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d OTP</item>
+        <item quantity="one">%d OTP</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_promotional">
+        <item quantity="other">%d messaggi promozionali</item>
+        <item quantity="one">%d messaggi indesiderati</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d messaggi indesiderati</item>
+        <item quantity="one">%d messaggio indesiderato</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d messaggi eliminati</item>
+        <item quantity="one">%d messaggio eliminato</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">Inviti</item>
+        <item quantity="one">Invito</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="other">tra %d giorni</item>
+        <item quantity="one">domani</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="other">tra %d ore</item>
+        <item quantity="one">tra 1 ora</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="other">tra %d min</item>
+        <item quantity="one">tra 1 min</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="other">tra %d sec</item>
+        <item quantity="one">tra 1 sec</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="other">%d giorni fa</item>
+        <item quantity="one">ieri</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="other">%d ore fa</item>
+        <item quantity="one">1 ora fa</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="other">%d min fa</item>
+        <item quantity="one">1 min fa</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="other">%d sec fa</item>
+        <item quantity="one">1 sec fa</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="other">%d ore</item>
+        <item quantity="one">1 ora</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="other">%d minuti</item>
+        <item quantity="one">1 minuto</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="other">%d secondi</item>
+        <item quantity="one">1 secondo</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="other">tra %d giorni</item>
+        <item quantity="one">domani</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="other">tra %d ore</item>
+        <item quantity="one">tra 1 ora</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="other">tra %d minuti</item>
+        <item quantity="one">tra 1 minuto</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="other">tra %d secondi</item>
+        <item quantity="one">tra 1 secondo</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="other">%d giorni fa</item>
+        <item quantity="one">ieri</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="other">%d ore fa</item>
+        <item quantity="one">1 ora fa</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="other">%d minuti fa</item>
+        <item quantity="one">1 minuto fa</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="other">%d secondi fa</item>
+        <item quantity="one">1 secondo fa</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">Stai per eliminare i file selezionati e i %d relativi messaggi</item>
+        <item quantity="one">Stai per eliminare i file selezionati e il relativo messaggio</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">Elimina messaggi?</item>
+        <item quantity="one">Elimina messaggio?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nuove notifiche</item>
+        <item quantity="one">%d nuova notifica</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">amici</item>
+        <item quantity="one">amico</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">giorni</item>
+        <item quantity="one">giorno</item>
+    </plurals>
+    <plurals name="spam_counts">
+        <item quantity="other">%d segnalazioni indesiderati</item>
+        <item quantity="one">%d segnalazione indesiderati</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">"%s conversazioni tolte dall'archivio"</item>
+        <item quantity="one">"%s conversazione tolta dall'archivio"</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">Messaggi ricevuti</item>
+        <item quantity="one">Messaggio ricevuto</item>
+    </plurals>
+    <plurals name="voip_group_launcher_person">
+        <item quantity="other">partecipanti</item>
+        <item quantity="one">partecipante</item>
+    </plurals>
+    <plurals name="voip_notification_missed_grouped_title">
+        <item quantity="other">Chiamate %1$s perse</item>
+        <item quantity="one">Chiamata %1$s persa</item>
+    </plurals>
+    <plurals name="voip_notification_title_other">
+        <item quantity="other">%1$s altri</item>
+        <item quantity="one">%1$s altro</item>
+    </plurals>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/after_call_promotion" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/space" app:cardBackgroundColor="?theme_cardColor" app:cardCornerRadius="@dimen/rounding" app:cardUseCompatPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/promo_icon" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginTop="@dimen/control_triplespace" android:layout_marginBottom="@dimen/control_triplespace" android:layout_alignParentTop="true" android:contentDescription="@null" android:layout_marginStart="@dimen/control_doublespace" android:layout_marginEnd="@dimen/control_doublespace" android:layout_alignParentStart="true" />
+        <com.truecaller.ui.components.AvatarView android:id="@id/avatar_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/promo_icon" android:layout_alignBottom="@id/promo_icon" android:layout_alignStart="@id/promo_icon" android:layout_alignEnd="@id/promo_icon" />
+        <ImageView android:id="@id/badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-4.0dip" android:src="@drawable/ic_promotion_badge" android:layout_alignBottom="@id/avatar_view" android:contentDescription="@null" android:layout_alignEnd="@id/avatar_view" />
+        <LinearLayout android:gravity="start" android:orientation="vertical" android:id="@id/promo_text_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_extraspace" android:layout_marginBottom="@dimen/control_extraspace" android:layout_toEndOf="@id/promo_icon">
+            <TextView android:ellipsize="end" android:id="@id/promo_text1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.Truecaller.ListItem.Primary" />
+            <TextView android:ellipsize="end" android:id="@id/promo_text2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/doubleSpace" style="@style/TextAppearance.Truecaller.ListItem.Secondary" />
+        </LinearLayout>
+        <include android:id="@id/separator" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/promo_text_container" android:layout_marginStart="@dimen/control_octaspace" layout="@layout/hr" />
+        <FrameLayout android:id="@id/promo_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/separator" style="?borderlessButtonStyle">
+            <TextView android:textSize="14.0sp" android:textColor="?theme_accentColor" android:layout_gravity="center_vertical" android:id="@id/promo_button_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAllCaps="true" android:layout_marginStart="@dimen/control_octaspace" android:layout_marginEnd="@dimen/control_doublespace" />
+        </FrameLayout>
+        <ImageView android:id="@id/promo_close" android:padding="@dimen/control_space" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_close" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:background="@drawable/borders_orange_2dps" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/ic_warning_round_orange_48dp" android:scaleType="fitXY" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="#ffcf6200" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/block_phone.allow_extension.top" android:layout_weight="1.0" style="@style/TextAppearance.AppCompat.Body1" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="16.0dip" android:layout_weight="1.0">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <LinearLayout android:orientation="vertical" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip">
+                    <androidx.appcompat.widget.AppCompatImageView android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ic_no_permission_step1" android:scaleType="fitXY" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="17.0sp" android:textColor="@color/primary_dark" android:gravity="center_vertical" android:id="@id/step1TextView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="24.0dip">
+                    <androidx.appcompat.widget.AppCompatImageView android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ic_no_permission_step2" android:scaleType="fitXY" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="17.0sp" android:textColor="@color/primary_dark" android:gravity="center_vertical" android:id="@id/step2TextView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="24.0dip">
+                    <androidx.appcompat.widget.AppCompatImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_no_permission_step3" android:scaleType="fitXY" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="17.0sp" android:textColor="@color/primary_dark" android:gravity="center_vertical" android:id="@id/step3TextView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="24.0dip">
+                    <androidx.appcompat.widget.AppCompatImageView android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/ic_no_permission_step4" android:scaleType="fitXY" />
+                    <androidx.appcompat.widget.AppCompatTextView android:textSize="17.0sp" android:textColor="@color/primary_dark" android:gravity="center_vertical" android:id="@id/step4TextView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0sp" android:textColor="@color/whitish_gray" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/no_permission.custom_view.button_tip" />
+    <androidx.appcompat.widget.AppCompatButton android:textSize="17.0sp" android:textColor="@android:color/white" android:id="@id/enableButton" android:background="@drawable/button_bg_solid_green_20dpc" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:text="@string/no_permission.warning.button" android:textAllCaps="false" />
+</LinearLayout>

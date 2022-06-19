@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<com.callapp.contacts.widget.DualCirclesCheckBox android:layout_gravity="bottom|center|right" android:id="@id/crossImage" android:padding="0.0dip" android:clickable="false" android:layout_width="@dimen/mediumCircleBadge" android:layout_height="@dimen/mediumCircleBadge" android:checked="true" android:src="@drawable/ic_clear" android:tint="@color/white_callapp" android:drawableLeft="@null" android:drawableRight="@null" android:drawablePadding="0.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.telguarder.features.advertisements.AdvertContainer android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ad_card_view" android:background="@color/post_call_divider" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" card_view:cardElevation="0.0dip" card_view:cardMaxElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto" />

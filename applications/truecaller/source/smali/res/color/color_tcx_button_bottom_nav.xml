@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:color="?tcx_brandBackgroundBlue" />
+    <item android:state_selected="false" android:color="?tcx_textSecondary" />
+    <item android:color="?tcx_textSecondary" />
+</selector>

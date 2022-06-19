@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.videocallerid.ui.view.RecordingProgressView android:id="@id/progressBar" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_margin="@dimen/vid_recording_progress_bar_margin" app:layout_constraintBottom_toBottomOf="@id/recordImageView" app:layout_constraintEnd_toEndOf="@id/recordImageView" app:layout_constraintStart_toStartOf="@id/recordImageView" app:layout_constraintTop_toTopOf="@id/recordImageView" />
+    <ImageView android:id="@id/recordImageView" android:padding="24.0dip" android:layout_width="@dimen/vid_progress_button_size" android:layout_height="@dimen/vid_progress_button_size" android:scaleType="centerInside" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/shape_vid_record" />
+    <ImageView android:id="@id/stopIconImageView" android:layout_width="20.0dip" android:layout_height="20.0dip" android:scaleX="0.0" android:scaleY="0.0" app:layout_constraintBottom_toBottomOf="@id/recordImageView" app:layout_constraintEnd_toEndOf="@id/recordImageView" app:layout_constraintStart_toStartOf="@id/recordImageView" app:layout_constraintTop_toTopOf="@id/recordImageView" app:srcCompat="@drawable/shape_vid_stop" style="?android:progressBarStyleHorizontal" />
+</merge>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/adContainer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.common.ui.ShimmerLoadingView android:id="@id/adShimmerLoadingView" android:background="@drawable/background_tcx_rectangle_outline" android:paddingBottom="@dimen/control_double_space" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:shimmerColorEnd="?shimmer_loading_color_end" app:shimmerColorMiddle="?shimmer_loading_color_middle" app:shimmerLayout="@layout/view_ad_placeholder" />
+    <com.truecaller.ads.ui.AdsSwitchView android:id="@id/adSwitchView" android:background="@drawable/background_tcx_rectangle_outline" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/background_tcx_rectangle_outline">
+        <FrameLayout android:id="@id/adsHolderNative" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center" android:id="@id/adsHolderBanner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="center|top" android:id="@id/container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </com.truecaller.ads.ui.AdsSwitchView>
+</FrameLayout>

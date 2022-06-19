@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>OTP</item>
+        <item>עסקה</item>
+        <item>אחר</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>ינואר</item>
+        <item>פברואר</item>
+        <item>מרץ</item>
+        <item>אפריל</item>
+        <item>מאי</item>
+        <item>יוני</item>
+        <item>יולי</item>
+        <item>אוגוסט</item>
+        <item>ספטמבר</item>
+        <item>אוקטובר</item>
+        <item>נובמבר</item>
+        <item>דצמבר</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>כניסה אל %s</item>
+        <item>הרשמה באמצעות %s</item>
+        <item>כניסה אל %s</item>
+        <item>אימות מספר באמצעות %s</item>
+        <item>הרשמה באמצעות %s</item>
+        <item>התחלה עם %s</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>שיחה</item>
+        <item>צפייה בפרופיל</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>זה חשוב</item>
+        <item>מצטער/ת</item>
+        <item>איפה את/ה?</item>
+        <item>יש לי שאלה</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>אחד</item>
+        <item>שתיים</item>
+        <item>שלוש</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>היי 👋, זה דחוף 🚨</item>
+        <item>שלום 👋 ההזמנה שלך מוכנה!</item>
+        <item>פנוי/ה עכשיו? אני למטה!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>מצב שקט</item>
+        <item>רטט בלבד</item>
+        <item>צלילים בלבד</item>
+        <item>צלילים ורטט</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>השתמשו בהודעות פלאש כשאתם רוצים להיות בטוחים שתקבלו תגובה בתוך דקה</item>
+        <item>השתמשו בהודעות פלאש כדי לשתף במהירות את מה שחשוב לכם לומר</item>
+        <item>הידעתם: אפשר לשתף את המיקום שלכם במהירות ובנגיעה אחת במסך</item>
+        <item>"המלצה: שלחו אימוג'י או הקלידו טקסט כדי להביע את עצמכם"</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>מיין לפי שם פרטי</item>
+        <item>מיין לפי שם משפחה</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>נשמר</item>
+        <item>זוהה</item>
+    </string-array>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:scrollbarThumbVertical="@drawable/scrollbar" android:scrollbarStyle="outsideInset" android:id="@id/settingsScrollView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_alignParentTop="true" android:overScrollMode="never" android:layout_alignParentStart="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/card_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" card_view:cardBackgroundColor="@color/cardview_feedback" card_view:cardCornerRadius="5.0dip" card_view:cardElevation="0.0dip" card_view:cardPreventCornerOverlap="false" card_view:cardUseCompatPadding="false" card_view:contentPadding="5.0dip" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="5.0dip">
+                    <androidx.appcompat.widget.SwitchCompat android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:layout_gravity="center" android:id="@id/switch_app_onoff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:checked="true" android:text="@string/settings_incoming_calls" />
+                    <TextView android:textColor="@color/colorPrimary" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_block_method" />
+                    <Spinner android:entries="@array/settings_block_methods_array" android:layout_gravity="center_vertical" android:id="@id/blockMethodSpinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:spinnerMode="dropdown" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/colorPrimary" android:id="@id/defaultPhoneAppDescriptionHeaderTV" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_margin_top" android:text="@string/defaultPhoneAppDescriptionHeader" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/defaultPhoneAppLL" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_settings_black_24dp" android:layout_marginEnd="5.0dip" card_view:tint="@color/colorDarkGray" />
+                        <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_defaultPhoneApp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:text="@string/settings_defaultPhoneApp" />
+                    </LinearLayout>
+                    <TextView android:textSize="12.0sp" android:textColor="@color/colorPrimary" android:id="@id/defaultPhoneAppDescriptionTV" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dialog_default_dialer_text3" />
+                    <TextView android:textSize="12.0sp" android:textColor="@color/colorPrimary" android:linksClickable="false" android:id="@id/silenceRingerRestoreInfoTV" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/settings_silence_ringer_restore_info" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/dndLL" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_margin_top">
+                        <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_social_negative" android:layout_marginEnd="5.0dip" card_view:tint="@color/colorDarkGray" />
+                        <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_silence_DND" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:text="@string/settings_silence_DND" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@id/systemVibrationLL" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_margin_top">
+                        <ImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_lock_silent_mode_vibrate" android:layout_marginEnd="5.0dip" card_view:tint="@color/colorDarkGray" />
+                        <androidx.appcompat.widget.SwitchCompat android:id="@id/switch_system_vibration" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:text="@string/settings_system_vibration" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <include layout="@layout/content_additional_presets" />
+            <include layout="@layout/content_blocking_settings" />
+            <include layout="@layout/content_advanced_settings" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

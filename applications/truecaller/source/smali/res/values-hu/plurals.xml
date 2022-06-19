@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">Letiltasz %d számot és bejelented levélszemétként?</item>
+        <item quantity="one">Letiltasz %d számot és bejelented levélszemétként?</item>
+    </plurals>
+    <plurals name="ConversationCallsHistoryCount">
+        <item quantity="other">%d hívás</item>
+        <item quantity="one">%d hívás</item>
+    </plurals>
+    <plurals name="ConversationFlashHistoryCount">
+        <item quantity="other">%d Flash üzenet</item>
+        <item quantity="one">%d Flash üzenet</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">Az üzenetek a Fontos lapra kerültek</item>
+        <item quantity="one">Az üzenet a Fontos lapra került</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d beszélgetés megjelölve olvasottként</item>
+        <item quantity="one">%d beszélgetés megjelölve olvasottként</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">%d bejegyzés törölve</item>
+        <item quantity="one">%d bejegyzés törölve</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">Törölni %d bejegyzést?</item>
+        <item quantity="one">Törölni a bejegyzést?</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">Beszélgetések kitűzve</item>
+        <item quantity="one">Beszélgetés kitűzve</item>
+    </plurals>
+    <plurals name="ConversationReportNotSpamConfirmation">
+        <item quantity="other">%d üzenet bejelentve mnt nem spam</item>
+        <item quantity="one">%d üzenet bejelentve mnt nem spam</item>
+    </plurals>
+    <plurals name="ConversationReportSpamConfirmation">
+        <item quantity="other">%d üzenet bejelentve mint spam</item>
+        <item quantity="one">%d üzenet bejelentve mint spam</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">Összes kapcsolat mentése</item>
+        <item quantity="one">@string/ConversationSaveContact</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">Beszélgetések levéve</item>
+        <item quantity="one">Beszélgetés levéve</item>
+    </plurals>
+    <plurals name="DeleteConversationsConfirmation">
+        <item quantity="other">%d beszélgetés törölve</item>
+        <item quantity="one">%d beszélgetés törölve</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">Törölni %d beszélgetést?</item>
+        <item quantity="one">Törölni %d beszélgetést?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">%d azonosított szám</item>
+        <item quantity="one">%d azonosított szám</item>
+    </plurals>
+    <plurals name="HistoryActionConfirmDeleteMessage">
+        <item quantity="other">Törölni %d elemet?</item>
+        <item quantity="one">Törölni %d elemet?</item>
+    </plurals>
+    <plurals name="HistoryActionDeleted">
+        <item quantity="other">%d elem törölve</item>
+        <item quantity="one">%d elem törölve</item>
+    </plurals>
+    <plurals name="HistoryActionSelected">
+        <item quantity="other">%d elem kijelölve</item>
+        <item quantity="one">%d elem kijelölve</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">Biztosan fel kívánod oldani ezt a %d számot?</item>
+        <item quantity="one">Biztosan fel kívánod oldani ezt a számot?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteCallRecordings">
+        <item quantity="other">Biztosan törölni szeretnél %s rögzített hívást?</item>
+        <item quantity="one">Biztosan törölni szeretnél %s rögzített hívást?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">Biztosan törölni szeretnél %s nyelvfájlt?</item>
+        <item quantity="one">Biztosan törölni szeretnél %s nyelvfájlt?</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">%d SMS letiltva</item>
+        <item quantity="one">SMS letiltva a Truecaller által</item>
+    </plurals>
+    <plurals name="MessageNotificationNewMessages">
+        <item quantity="other">+%1$d új üzenet</item>
+        <item quantity="one">+1 új üzenet</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$s hívott %2$d órával ezelőtt. Koppintással megjelenítés Truecallerben</item>
+        <item quantity="one">%1$s hívott %2$d órával ezelőtt. Koppintással megjelenítés Truecallerben</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d partner</item>
+        <item quantity="one">%d partner</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d melléklet</item>
+        <item quantity="one">%1$d melléklet</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">%d egyéb kapcsolat</item>
+        <item quantity="one">%d egyéb kapcsolat</item>
+    </plurals>
+    <plurals name="NewImGroupMemberCount">
+        <item quantity="other">%d tag</item>
+        <item quantity="one">%d tag</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">%d szám hozzáadva a letiltottak listájához</item>
+        <item quantity="one">A szám hozzáadva a letiltottak listájához</item>
+    </plurals>
+    <plurals name="OSNotificationTextNew">
+        <item quantity="other">%d új értesítésed van</item>
+        <item quantity="one">Egy új értesítésed van</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d letiltott hívás</item>
+        <item quantity="one">%d letiltott hívás</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d elnémított hívás</item>
+        <item quantity="one">%d elnémított hívás</item>
+    </plurals>
+    <plurals name="PremiumAbbreviatedOfferPriceOverMonth">
+        <item quantity="other">%1$s/hó</item>
+        <item quantity="one">%1$s/hó</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">%1$d napos ingyenes kipróbálás csak új előfizetőknek</item>
+        <item quantity="one">%1$d napos ingyenes kipróbálás csak új előfizetőknek</item>
+    </plurals>
+    <plurals name="PremiumFeatureContactRequestLeft">
+        <item quantity="other">%1$d hátralévő kérelem</item>
+        <item quantity="one">%1$d hátralévő kérelem</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">%1$d új profilmegtekintés</item>
+        <item quantity="one">1 új profilmegtekintés</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">Nemrégiben %1$d személy nézte a profilodat</item>
+        <item quantity="one">Nemrégiben valaki megnézte a profilodat</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d személy (%3$d itt: %2$s) nemrég megnézte a profilodat.</item>
+        <item quantity="one">Valaki innen: %2$s nemrég megnézte a profilodat.</item>
+    </plurals>
+    <plurals name="SettingPendingGroupInvitationsMessage">
+        <item quantity="other">%d függőben lévő csoportmeghívásod van. Elfogadod?</item>
+        <item quantity="one">%d függőben lévő csoportmeghívásod van. Elfogadod?</item>
+    </plurals>
+    <plurals name="SpamSmsFound">
+        <item quantity="other">%d üzenetszemét észlelve</item>
+        <item quantity="one">%d üzenetszemét észlelve</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByMultiple">
+        <item quantity="other">%1$s és további %2$d meghíva a csoportba %3$s által</item>
+        <item quantity="one">%1$s és további %2$d meghíva a csoportba %3$s által</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByYouMultiple">
+        <item quantity="other">Meghívtad %1$s-t és %2$d további személyt a csoportba</item>
+        <item quantity="one">Meghívtad %1$s-t és %2$d további személyt a csoportba</item>
+    </plurals>
+    <plurals name="StrPhoneNumberAndMore">
+        <item quantity="other">%1$s &lt;b>+%2$d további&lt;/b></item>
+        <item quantity="one">%1$s &lt;b>+%2$d további&lt;/b></item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">nap</item>
+        <item quantity="one">nap</item>
+    </plurals>
+    <plurals name="StrPluralHour">
+        <item quantity="other">óra</item>
+        <item quantity="one">óra</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">hónap</item>
+        <item quantity="one">hónap</item>
+    </plurals>
+    <plurals name="StrPluralWeek">
+        <item quantity="other">hét</item>
+        <item quantity="one">hét</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">év</item>
+        <item quantity="one">év</item>
+    </plurals>
+    <plurals name="UnreadConversations">
+        <item quantity="other">%d olvasatlan beszélgetés</item>
+        <item quantity="one">%d olvasatlan beszélgetés</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">Túllépted a hitelesítési kísérletek határát. Próbáld újra %d óra múlva</item>
+        <item quantity="one">Túllépted a hitelesítési kísérletek határát. Próbáld újra %d óra múlva</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d személy nézte a profilodat</item>
+        <item quantity="one">Valaki megnézte a profilodat</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">A profilodat megnézte %1$d személy (1 %2$s városából)</item>
+        <item quantity="one">A profilodat megnézte %1$d személy %2$s városából</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d személy nézte a profilodat. További részletek.</item>
+        <item quantity="one">1 személy nézte a profilodat. További részletek.</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d személy nézte a profilodat (%3$d innen: %2$s). További részletek.</item>
+        <item quantity="one">1 személy nézte a profilodat innen: %2$s. További részletek.</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaption">
+        <item quantity="other">%1$d új megtekintés</item>
+        <item quantity="one">%1$d új megtekintés</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaptionWithLocation">
+        <item quantity="other">%1$d új megtekintés • %2$d tőle: %3$s</item>
+        <item quantity="one">%1$d új megtekintés • %2$d tőle: %3$s</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">A reCaptcha túl sokszor volt sikertelen, próbáld újra %1$d óra múlva</item>
+        <item quantity="one">A reCaptcha túl sokszor volt sikertelen, próbáld újra %1$d óra múlva</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%s beszélgetés archiválva</item>
+        <item quantity="one">%s beszélgetés archiválva</item>
+    </plurals>
+    <plurals name="biz_govt_contacts_count">
+        <item quantity="other">%1$s partner</item>
+        <item quantity="one">%1$s partner</item>
+    </plurals>
+    <plurals name="call_recording_toast_items_deleted">
+        <item quantity="other">%1$d hívás törölve</item>
+        <item quantity="one">%1$d hívás törölve</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">OTP üzenetek törölve</item>
+        <item quantity="one">OTP üzenet törölve</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">Reklámüzenetek törölve</item>
+        <item quantity="one">Reklámüzenet törölve</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">Spam üzenetek törölve</item>
+        <item quantity="one">Spam üzenet törölve</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d üzenet</item>
+        <item quantity="one">%d üzenet</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d OTP</item>
+        <item quantity="one">%d OTP</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_promotional">
+        <item quantity="other">%d reklámüzenet</item>
+        <item quantity="one">%d reklámüzenet</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d spam üzenet</item>
+        <item quantity="one">%d spam üzenet</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d üzenet törölve</item>
+        <item quantity="one">%d üzenet törölve</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">Meghívók</item>
+        <item quantity="one">Meghívó</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="other">%d nap múlva</item>
+        <item quantity="one">holnap</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="other">%d óra múlva</item>
+        <item quantity="one">1 óra múlva</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="other">%d perc múlva</item>
+        <item quantity="one">1 perc múlva</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="other">%d másodperc múlva</item>
+        <item quantity="one">1 másodperc múlva</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="other">%d napja</item>
+        <item quantity="one">tegnap</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="other">%d órája</item>
+        <item quantity="one">1 órája</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="other">%d perce</item>
+        <item quantity="one">1 perce</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="other">%d másodperce</item>
+        <item quantity="one">1 másodperce</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="other">%d óra</item>
+        <item quantity="one">1 óra</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="other">%d perc</item>
+        <item quantity="one">1 perc</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="other">%d másodperc</item>
+        <item quantity="one">1 másodperc</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="other">%d nap múlva</item>
+        <item quantity="one">holnap</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="other">%d óra múlva</item>
+        <item quantity="one">1 óra múlva</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="other">%d perc múlva</item>
+        <item quantity="one">1 perc múlva</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="other">%d másodperc múlva</item>
+        <item quantity="one">1 másodperc múlva</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="other">%d napja</item>
+        <item quantity="one">tegnap</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="other">%d órája</item>
+        <item quantity="one">1 órája</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="other">%d perce</item>
+        <item quantity="one">1 perce</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="other">%d másodperce</item>
+        <item quantity="one">1 másodperce</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">Ezzel törli a kiválasztott fájlokat és %d kapcsolódó üzenetet</item>
+        <item quantity="one">Ezzel törli a kiválasztott fájlokat és egy kapcsolódó üzenetet</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">Törlöd az üzeneteket?</item>
+        <item quantity="one">Törlöd az üzenetet?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d új értesítés</item>
+        <item quantity="one">%d új értesítés</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">ismerős</item>
+        <item quantity="one">ismerős</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">nap</item>
+        <item quantity="one">nap</item>
+    </plurals>
+    <plurals name="spam_counts">
+        <item quantity="other">%d spamjelentés</item>
+        <item quantity="one">%d spamjelentés</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">%s beszélgetés visszaállítva az archívumból</item>
+        <item quantity="one">%s beszélgetés visszaállítva az archívumból</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">Üzenetek érkeztek</item>
+        <item quantity="one">Üzenet érkezett</item>
+    </plurals>
+    <plurals name="voip_group_launcher_person">
+        <item quantity="other">résztvevőt</item>
+        <item quantity="one">résztvevőt</item>
+    </plurals>
+    <plurals name="voip_notification_missed_grouped_title">
+        <item quantity="other">%s nem fogadott hívás</item>
+        <item quantity="one">%s nem fogadott hívás</item>
+    </plurals>
+    <plurals name="voip_notification_title_other">
+        <item quantity="other">%1$s további</item>
+        <item quantity="one">%1$s további</item>
+    </plurals>
+</resources>

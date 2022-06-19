@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/top_nav" />
+    <TextView android:textStyle="bold" android:gravity="center" android:id="@id/about_premium" android:padding="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/height_48dp" android:text="@string/about_cc_premium" />
+    <ScrollView android:id="@id/scroll_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="24.0dip" android:layout_marginBottom="8.0dip" android:layout_above="@id/about_section_footer" android:layout_below="@id/topNav">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/divider" />
+            <include layout="@layout/divider" />
+            <TextView android:textColor="@color/darkgrey_fontcolor" android:gravity="bottom|center|left" android:id="@id/recent_changes_section" android:paddingLeft="16.0dip" android:paddingTop="4.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="8.0dip" android:text="@string/recent_changes_text" />
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:textColor="@color/darkgrey_fontcolor" android:gravity="center" android:id="@id/about_section_footer" android:paddingLeft="16.0dip" android:paddingTop="4.0dip" android:paddingRight="16.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/about_cc" android:layout_above="@id/extra_info" android:layout_alignParentLeft="true" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/extra_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="@dimen/height_44dp" android:text="UA" android:layout_alignParentBottom="true" />
+</RelativeLayout>

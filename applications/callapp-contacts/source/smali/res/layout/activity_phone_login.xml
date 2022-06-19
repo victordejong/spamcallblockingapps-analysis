@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/welcome_scr_img_02" android:padding="@dimen/dimen_22_dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/registration_phone" />
+    <include layout="@layout/activity_phone_code" />
+    <include layout="@layout/layout_flash_call" />
+    <include layout="@layout/registration_loader" />
+</LinearLayout>

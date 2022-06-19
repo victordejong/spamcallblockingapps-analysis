@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/hours_root" android:paddingBottom="@dimen/dimen_12_dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:id="@id/data_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <androidx.fragment.app.FragmentContainerView android:name="com.callapp.contacts.activity.analytics.progressGraph.fragment.CallDayNightTimeGraphFragment" android:orientation="vertical" android:id="@id/callDayNightTimeGraphFragment" android:tag="analytics_graph" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    </FrameLayout>
-    <ImageView android:layout_gravity="center" android:id="@id/empty_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
-</FrameLayout>

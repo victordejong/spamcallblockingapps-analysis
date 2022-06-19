@@ -1,0 +1,27 @@
+{
+		"top" : "Die erweiterte Anruferkennung zeigt Ihnen den Anrufer bei einem unbekannten Anruf, so dass Sie immer wissen, wer Sie anruft.",
+
+        "sections" : [
+            {
+                "img" : "glass",
+                "descr" : "Zeigt den Namen von unbekannten Anrufern",
+                "width": "40",
+                "height": "40"
+            },
+            {
+                "img" : "group",
+                "descr" : "Millionen Privatpersonen und Unternehmen",
+                "width": "40",
+                "height": "40"
+
+            },
+            {
+                "img" : "credits",
+                "descr" : "Erhalten Sie 10 Bonusguthaben für manuelle Suchvorgänge",
+                "width": "40",
+                "height": "40"
+            }
+        ],
+
+        "bottom" : ""
+}

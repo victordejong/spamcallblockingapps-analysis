@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <carbon.widget.ImageView android:padding="@dimen/carbon_padding" android:layout_width="@dimen/carbon_toolbarHeight" android:layout_height="@dimen/carbon_toolbarHeight" android:src="@raw/carbon_search" app:carbon_tint="?carbon_iconColor" />
+        <carbon.widget.AutoCompleteEditText android:textAppearance="?carbon_textAppearanceBody2" android:gravity="start|center" android:id="@id/carbon_autoCompleteSearch" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/carbon_toolbarHeight" android:layout_marginLeft="@dimen/carbon_padding" android:singleLine="true" android:layout_marginStart="@dimen/carbon_padding" app:carbon_tint="#00000000">
+            <requestFocus />
+        </carbon.widget.AutoCompleteEditText>
+    </LinearLayout>
+    <carbon.widget.RecyclerView android:id="@id/carbon_autoCompleteResults" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

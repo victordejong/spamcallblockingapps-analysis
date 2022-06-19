@@ -1,0 +1,41 @@
+.class final Landroidx/work/impl/g$6;
+.super Landroidx/room/a/a;
+.source "WorkDatabaseMigrations.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Landroidx/work/impl/g;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x8
+    name = null
+.end annotation
+
+
+# direct methods
+.method constructor <init>(II)V
+    .locals 0
+
+    .prologue
+    .line 206
+    invoke-direct {p0, p1, p2}, Landroidx/room/a/a;-><init>(II)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Landroidx/i/a/b;)V
+    .locals 1
+
+    .prologue
+    .line 209
+    const-string/jumbo v0, "ALTER TABLE workspec ADD COLUMN `run_in_foreground` INTEGER NOT NULL DEFAULT 0"
+
+    invoke-interface {p1, v0}, Landroidx/i/a/b;->c(Ljava/lang/String;)V
+
+    .line 210
+    return-void
+.end method

@@ -1,0 +1,59 @@
+package com.appsflyer.oaid;
+
+import android.content.Context;
+import android.text.TextUtils;
+import com.appsflyer.oaid.OaidClient;
+import com.bun.miitmdid.core.JLibrary;
+import com.bun.miitmdid.core.MdidSdkHelper;
+import com.bun.supplier.IIdentifierListener;
+import com.bun.supplier.IdSupplier;
+import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.TimeUnit;
+import java.util.logging.Logger;
+/* loaded from: classes-dex2jar.jar:com/appsflyer/oaid/OaidMsaClient.class */
+public class OaidMsaClient {
+    public static OaidClient.Info fetchMsa(Context context, final Logger logger, long j, TimeUnit timeUnit) {
+        String str;
+        try {
+            final LinkedBlockingQueue linkedBlockingQueue = new LinkedBlockingQueue();
+            JLibrary.InitEntry(context);
+            int InitSdk = MdidSdkHelper.InitSdk(context, logger.getLevel() == null, new IIdentifierListener() { // from class: com.appsflyer.oaid.OaidMsaClient.1
+                public void OnSupport(boolean z, IdSupplier idSupplier) {
+                    try {
+                        linkedBlockingQueue.offer(idSupplier == null ? "" : idSupplier.getOAID());
+                    } catch (Throwable th) {
+                        logger.info(th.getMessage());
+                    }
+                }
+            });
+            if (InitSdk != 0) {
+                switch (InitSdk) {
+                    case 1008611:
+                        str = "Unsupported manufacturer";
+                        break;
+                    case 1008612:
+                        str = "Unsupported device";
+                        break;
+                    case 1008613:
+                        str = "Error loading configuration file";
+                        break;
+                    case 1008614:
+                        str = "Callback will be executed in a different thread";
+                        break;
+                    case 1008615:
+                        str = "Reflection call error";
+                        break;
+                    default:
+                        str = String.valueOf(InitSdk);
+                        break;
+                }
+                logger.warning(str);
+            }
+            String str2 = (String) linkedBlockingQueue.poll(j, timeUnit);
+            return TextUtils.isEmpty(str2) ? null : new OaidClient.Info(str2);
+        } catch (Throwable th) {
+            logger.info(th.getMessage());
+            return null;
+        }
+    }
+}

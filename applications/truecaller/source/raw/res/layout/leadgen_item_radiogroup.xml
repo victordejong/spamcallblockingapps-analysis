@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_space" android:layout_marginBottom="@dimen/control_space"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/list_secondary" android:textColor="@color/text_secondary_default" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RadioGroup android:orientation="vertical" android:id="@id/radioGroup" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/list_tertiary" android:textColor="?tcx_alertBackgroundRed" android:id="@id/error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_space" android:layout_marginStart="@dimen/control_space" android:layout_marginEnd="@dimen/control_space" />
+</LinearLayout>

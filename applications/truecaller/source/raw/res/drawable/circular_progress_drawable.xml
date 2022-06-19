@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list>
+    <item>
+        <shape android:shape="ring" android:innerRadiusRatio="2.5" android:useLevel="false" android:thickness="@dimen/thickness_credit_banner_progress"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/progress_gray" />
+        </shape>
+    </item>
+    <item>
+        <rotate android:fromDegrees="270.0" android:toDegrees="270.0"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <shape android:shape="ring" android:innerRadiusRatio="2.5" android:useLevel="true" android:thickness="@dimen/thickness_credit_banner_progress">
+                <solid android:color="@color/aqua_green" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

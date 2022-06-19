@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end|center" android:layout_gravity="end|bottom|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginBottom="@dimen/space"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="end" android:layout_gravity="end|center" android:id="@id/fab_submenu_item_label" android:background="@drawable/fab_menu_tcx_item_background" android:paddingLeft="@dimen/space" android:paddingTop="@dimen/semiSpace" android:paddingRight="@dimen/space" android:paddingBottom="@dimen/semiSpace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="260.0dip" android:layout_marginEnd="@dimen/doubleSpace" android:elevation="1.0dip" style="@style/StyleX.Text.Body.B2" />
+    <ImageView android:id="@id/fab_submenu_item_icon" android:background="@drawable/fab_menu_tcx_circle_background" android:padding="@dimen/control_space" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="center" android:contentDescription="@null" android:elevation="1.0dip" />
+</LinearLayout>

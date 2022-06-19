@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/settingsAppearance" android:visibility="gone" style="@style/Widget.Truecaller.CardView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/Widget.Truecaller.ContainerWrap">
+        <LinearLayout android:id="@id/settingsAppTheme" android:background="?selectableItemBackground" android:paddingBottom="@dimen/control_doublespace" style="@style/Widget.Truecaller.ContainerWrap">
+            <TextView android:text="@string/SettingsAppTheme" style="@style/Widget.Truecaller.TextView.SettingsTitle" />
+            <TextView android:id="@id/settingsCurrentTheme" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/settingsSlimView" android:background="?selectableItemBackground" android:paddingBottom="@dimen/control_doublespace" style="@style/Widget.Truecaller.ContainerWrap">
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/settingsSlimViewSwitch" android:text="@string/SettingsMergeByNumberTitle" style="@style/Widget.Truecaller.Switch" />
+            <TextView android:text="@string/SettingsMergeByNumberText" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/settingsShowFrequentlyCalledContacts" android:background="?selectableItemBackground" android:paddingBottom="@dimen/control_doublespace" style="@style/Widget.Truecaller.ContainerWrap">
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/settingsShowFrequentlyCalledContactsSwitch" android:text="@string/SettingsShowFrequentlyCalledContactsTitle" style="@style/Widget.Truecaller.Switch" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

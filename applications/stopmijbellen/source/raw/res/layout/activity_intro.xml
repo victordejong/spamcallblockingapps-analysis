@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fragmentIntro" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="20.0" />
+    <include android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_weight="1.0" layout="@layout/app_intro_bar" />
+</LinearLayout>

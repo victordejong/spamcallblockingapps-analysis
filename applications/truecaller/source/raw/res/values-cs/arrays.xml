@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>Jednorázové heslo</item>
+        <item>Transakce</item>
+        <item>Jiní</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>led</item>
+        <item>ún</item>
+        <item>bře</item>
+        <item>dub</item>
+        <item>kvě</item>
+        <item>čer</item>
+        <item>červ</item>
+        <item>srp</item>
+        <item>zář</item>
+        <item>říj</item>
+        <item>list</item>
+        <item>pro</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Přihlásit se do %s</item>
+        <item>Zaregistrovat se přes %s</item>
+        <item>Přihlásit se do %s</item>
+        <item>Ověřit číslo přes %s</item>
+        <item>Zaregistrovat se přes %s</item>
+        <item>Začněte s %s</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>Volat</item>
+        <item>Zobrazit profil</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>Je to důležité</item>
+        <item>Omlouvám se</item>
+        <item>Kde jste?</item>
+        <item>Mám otázku</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>jedna</item>
+        <item>dvě</item>
+        <item>tři</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>Dobrý den 👋, Je to naléhavé 🚨</item>
+        <item>Dobrý den 👋 Vaše objednávka je připravena!</item>
+        <item>Máš teď čas? Jsem dole!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Potichu</item>
+        <item>Pouze vibrace</item>
+        <item>Pouze zvuk</item>
+        <item>Zvuk a vibrace</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>Pokud chcete během jedné minuty jistou odpověď, použijte Flash</item>
+        <item>Použijte Flash pro důležité věci, které potřebujete rychle sdělit</item>
+        <item>Věděli jste, že svou polohu můžete rychle sdílet pouhým klepnutím</item>
+        <item>Tip: Pošlete Emoji nebo napište text, abyste se vyjádřili</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>Třídit podle křestníhp jména</item>
+        <item>Třídit podle příjmení</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>Uloženo</item>
+        <item>Identifikovaný</item>
+    </string-array>
+</resources>

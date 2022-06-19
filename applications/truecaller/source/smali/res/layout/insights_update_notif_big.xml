@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/contentContainer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="top" android:id="@id/primaryIcon" android:layout_width="@dimen/smart_notificaiton_icon" android:layout_height="@dimen/smart_notificaiton_icon" android:layout_marginTop="@dimen/dp2" android:src="@drawable/ic_updates_notification" android:scaleType="centerInside" android:layout_marginEnd="@dimen/dp8" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/dp4">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:ellipsize="end" android:id="@id/textSender" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" style="@style/TextAppearance.Material.Notification.Title" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/textCategoryContainer" android:background="@drawable/rounded_update_notification_tag_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip">
+                    <ImageView android:layout_gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/update_tag_icon_notification" />
+                    <TextView android:textSize="@dimen/sp12" android:textStyle="bold" android:id="@id/textCategory" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp1" android:layout_marginBottom="@dimen/dp1" android:maxLines="1" android:layout_marginStart="@dimen/dp4" android:layout_marginEnd="@dimen/dp6" style="@style/TextAppearance.Material.Notification.Subtitle" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/sp12" android:ellipsize="end" android:id="@id/textContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/dp6" style="@style/TextAppearance.Material.Notification.Subtitle" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp12">
+        <TextView android:textColor="@color/notification_brand_blue" android:id="@id/primaryAction" android:layout_alignWithParentIfMissing="true" android:layout_marginEnd="@dimen/dp8" android:layout_toStartOf="@id/secondaryAction" style="@style/Insights.NotificationTextView" />
+        <TextView android:textColor="@color/notification_brand_blue" android:id="@id/secondaryAction" android:layout_marginEnd="@dimen/dp8" android:layout_alignParentEnd="true" style="@style/Insights.NotificationTextView" />
+    </RelativeLayout>
+</LinearLayout>

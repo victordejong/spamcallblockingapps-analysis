@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/tvLocTitle" android:layout_marginTop="@dimen/doubleSpace" android:text="@string/BusinessProfile_Loc_Form_Title" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.Bizmon.Title" />
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/tilPincode" android:layout_marginTop="@dimen/doubleSpace" app:endIconMode="clear_text" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvLocTitle" style="@style/Widget.Bizmon.TextInputLayout">
+            <com.google.android.material.textfield.TextInputEditText android:enabled="false" android:id="@id/etPincode" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/BusinessProfile_Pincode" android:maxLength="6" android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/tilStreet" android:layout_marginTop="@dimen/doubleSpace" app:endIconMode="clear_text" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tilPincode" style="@style/Widget.Bizmon.TextInputLayout">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/etStreet" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/BusinessProfile_StreetAddress" android:maxLength="100" android:inputType="textFilter|textNoSuggestions" android:importantForAutofill="no" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/tilLandmark" android:layout_marginTop="@dimen/doubleSpace" app:endIconMode="clear_text" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tilStreet" style="@style/Widget.Bizmon.TextInputLayout">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/etLandmark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/BusinessProfile_Landmark" android:maxLength="40" android:inputType="textFilter|textNoSuggestions" android:importantForAutofill="no" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/tilCity" android:layout_marginTop="@dimen/doubleSpace" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tilLandmark" style="@style/Widget.Bizmon.TextInputLayout">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/etCity" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/BusinessProfile_City2" android:inputType="textFilter|textNoSuggestions" android:importantForAutofill="no" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/tilState" android:layout_marginTop="@dimen/doubleSpace" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tilCity" style="@style/Widget.Bizmon.TextInputLayout">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/etState" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/BusinessProfile_State" android:inputType="textFilter|textNoSuggestions" android:importantForAutofill="no" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

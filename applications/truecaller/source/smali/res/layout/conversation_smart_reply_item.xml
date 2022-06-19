@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/ripple_tcx_chip" android:layout_width="wrap_content" android:layout_height="@dimen/quadrupleSpace"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="?tcx_brandBackgroundBlue" android:layout_gravity="center" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/extraSpace" android:layout_marginEnd="@dimen/extraSpace" />
+</FrameLayout>

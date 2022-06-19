@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/birthdayScrollView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/picsContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.viewpager.widget.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/greetingsOverlayImageView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        </FrameLayout>
+        <com.callapp.contacts.widget.CirclePaginationContainer android:id="@id/viewPagerIndicator" android:layout_width="fill_parent" android:layout_height="16.0dip" app:pc_item_height="4.0dip" app:pc_item_width="4.0dip" app:pc_margin_between_each_item="4.0dip" />
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/overlaysContainer" android:paddingLeft="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/greetingOverlayThumbnal0" android:src="@drawable/birthday_greeting_overlay_00" style="@style/BirthdayGreetingOverlayThumb" />
+                    <View android:id="@id/indicator0" style="@style/BirthdayGreetingThumbnailChooser" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/greetingOverlayThumbnal1" android:src="@drawable/birthday_greeting_overlay_01" style="@style/BirthdayGreetingOverlayThumb" />
+                    <View android:id="@id/indicator1" style="@style/BirthdayGreetingThumbnailChooser" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/greetingOverlayThumbnal2" android:src="@drawable/birthday_greeting_overlay_02" style="@style/BirthdayGreetingOverlayThumb" />
+                    <View android:id="@id/indicator2" style="@style/BirthdayGreetingThumbnailChooser" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/greetingOverlayThumbnal3" android:src="@drawable/birthday_greeting_overlay_03" style="@style/BirthdayGreetingOverlayThumb" />
+                    <View android:id="@id/indicator3" style="@style/BirthdayGreetingThumbnailChooser" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/greetingOverlayThumbnal4" android:src="@drawable/birthday_greeting_overlay_04" style="@style/BirthdayGreetingOverlayThumb" />
+                    <View android:id="@id/indicator4" style="@style/BirthdayGreetingThumbnailChooser" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/greetingOverlayThumbnal5" android:src="@drawable/birthday_greeting_overlay_05" style="@style/BirthdayGreetingOverlayThumb" />
+                    <View android:id="@id/indicator5" style="@style/BirthdayGreetingThumbnailChooser" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/greetingOverlayThumbnal6" android:src="@drawable/birthday_greeting_overlay_06" style="@style/BirthdayGreetingOverlayThumb" />
+                    <View android:id="@id/indicator6" style="@style/BirthdayGreetingThumbnailChooser" />
+                </FrameLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+        <include layout="@layout/include_divider" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="18.0sp" android:gravity="center_vertical" android:layout_gravity="top" android:id="@id/birthdayNameText" android:paddingLeft="16.0dip" android:layout_width="wrap_content" android:layout_height="48.0dip" />
+            <EditText android:textSize="18.0sp" android:id="@id/birthdayEditText" android:background="@color/transparent" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:layout_weight="1.0" style="@style/BaseEditText" />
+            <ImageView android:id="@id/ideasBtn" android:background="@drawable/ripple_or_holo" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_light_off" />
+        </LinearLayout>
+        <FrameLayout android:background="@drawable/shape_rounded_rect_ad" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip">
+            <include android:id="@id/shareButton" layout="@layout/share_button" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

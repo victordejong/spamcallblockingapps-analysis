@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.exoplayer2.ui.PlayerView android:id="@id/playerView" android:layout_width="0.0dip" android:layout_height="0.0dip" app:keep_content_on_player_reset="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:resize_mode="zoom" app:surface_type="texture_view" app:use_controller="false" />
+    <View android:id="@id/loadingBackground" android:background="@color/vid_dark_background" android:layout_width="0.0dip" android:layout_height="0.0dip" android:alpha="0.7" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ProgressBar android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.Group android:id="@id/loadingGroup" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:constraint_referenced_ids="progressBar,loadingBackground" />
+</androidx.constraintlayout.widget.ConstraintLayout>

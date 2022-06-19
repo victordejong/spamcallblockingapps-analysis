@@ -1,0 +1,105 @@
+.class final Lcom/bytedance/sdk/a/a/a$a;
+.super Ljava/lang/Thread;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/bytedance/sdk/a/a/a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x18
+    name = "a"
+.end annotation
+
+
+# direct methods
+.method constructor <init>()V
+    .locals 1
+
+    const-string v0, "Okio Watchdog"
+
+    .line 328
+    invoke-direct {p0, v0}, Ljava/lang/Thread;-><init>(Ljava/lang/String;)V
+
+    const/4 v0, 0x1
+
+    .line 329
+    invoke-virtual {p0, v0}, Lcom/bytedance/sdk/a/a/a$a;->setDaemon(Z)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 3
+
+    .line 336
+    :catch_0
+    :goto_0
+    :try_start_0
+    const-class v0, Lcom/bytedance/sdk/a/a/a;
+
+    monitor-enter v0
+    :try_end_0
+    .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 337
+    :try_start_1
+    invoke-static {}, Lcom/bytedance/sdk/a/a/a;->d()Lcom/bytedance/sdk/a/a/a;
+
+    move-result-object v1
+
+    if-nez v1, :cond_0
+
+    .line 340
+    monitor-exit v0
+
+    goto :goto_0
+
+    .line 344
+    :cond_0
+    sget-object v2, Lcom/bytedance/sdk/a/a/a;->a:Lcom/bytedance/sdk/a/a/a;
+
+    if-ne v1, v2, :cond_1
+
+    const/4 v1, 0x0
+
+    .line 345
+    sput-object v1, Lcom/bytedance/sdk/a/a/a;->a:Lcom/bytedance/sdk/a/a/a;
+
+    .line 346
+    monitor-exit v0
+
+    return-void
+
+    .line 348
+    :cond_1
+    monitor-exit v0
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    .line 351
+    :try_start_2
+    invoke-virtual {v1}, Lcom/bytedance/sdk/a/a/a;->a_()V
+    :try_end_2
+    .catch Ljava/lang/InterruptedException; {:try_start_2 .. :try_end_2} :catch_0
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception v1
+
+    .line 348
+    :try_start_3
+    monitor-exit v0
+    :try_end_3
+    .catchall {:try_start_3 .. :try_end_3} :catchall_0
+
+    :try_start_4
+    throw v1
+    :try_end_4
+    .catch Ljava/lang/InterruptedException; {:try_start_4 .. :try_end_4} :catch_0
+.end method

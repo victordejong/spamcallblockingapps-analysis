@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textColor="@color/stone_grey" android:gravity="center_vertical" android:id="@id/localSearchState" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/local_search_result_text_row_height" android:text="@string/searching_text" android:maxLines="1" android:paddingStart="30.0dip" android:paddingEnd="30.0dip" style="@style/Text.Title"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

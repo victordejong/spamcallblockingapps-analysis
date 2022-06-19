@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:tag="layout/settings_blocking_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar android:id="@id/appToolbar" style="@style/appBarToolbar" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <LinearLayout style="@style/llMainContent">
+                <LinearLayout android:visibility="visible" style="@style/llSection">
+                    <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                        <androidx.appcompat.widget.AppCompatTextView android:layout_width="0.0dip" android:text="@string/block_spam_reported_by_community" android:layout_weight="1.0" style="@style/textViewStyleSectionTitle" />
+                        <ImageButton android:id="@id/butBlockSpamByCommunityMoreInfo" style="@style/buttonHelp" />
+                    </LinearLayout>
+                    <androidx.appcompat.widget.SwitchCompat android:id="@id/chbBlockIncomingNegativeCommunity" android:text="@string/incoming_call" style="@style/switchParentWidth" />
+                    <androidx.appcompat.widget.SwitchCompat android:id="@id/chbBlockOutgoingNegativeCommunity" android:text="@string/outgoing_call" style="@style/switchParentWidth" />
+                </LinearLayout>
+                <LinearLayout android:visibility="visible" style="@style/llSection">
+                    <androidx.appcompat.widget.AppCompatTextView android:text="@string/activity_settings_blocking_tv_community_db_sensitivity_title" style="@style/textViewStyleSectionTitle" />
+                    <SeekBar android:id="@id/seekBarSensitivity" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spaceBig" android:layout_marginBottom="@dimen/spaceBig" android:max="2" android:progress="1" style="@style/Widget.AppCompat.SeekBar.Discrete" />
+                    <androidx.appcompat.widget.AppCompatTextView android:id="@id/textViewSensitivity" android:text="sensitivity info" style="@style/textViewStyleCenter" />
+                </LinearLayout>
+                <View style="@style/divider" />
+                <LinearLayout android:visibility="visible" style="@style/llSection">
+                    <androidx.appcompat.widget.AppCompatTextView android:layout_marginBottom="@dimen/spaceBig" android:text="@string/other_blocking_rules" style="@style/textViewStyleSectionTitle" />
+                    <androidx.appcompat.widget.AppCompatTextView android:text="@string/block_incoming_call_when_number_is" style="@style/textViewStyleSectionTitle" />
+                    <androidx.appcompat.widget.SwitchCompat android:id="@id/chbBlockIncomingNegativeLocal" android:text="@string/reported_by_you_as_spam" style="@style/switchParentWidth" />
+                    <androidx.appcompat.widget.SwitchCompat android:id="@id/chbBlockIncomingNotInContacts" android:text="@string/not_stored_in_contacts" style="@style/switchParentWidth" />
+                    <androidx.appcompat.widget.SwitchCompat android:id="@id/chbBlockIncomingHidden" android:text="@string/hidden_number" style="@style/switchParentWidth" />
+                    <androidx.appcompat.widget.SwitchCompat android:id="@id/chbBlockIncomingForeign" android:text="@string/foreign_number" style="@style/switchParentWidth" />
+                </LinearLayout>
+                <View style="@style/divider" />
+                <LinearLayout android:visibility="visible" style="@style/llSection">
+                    <androidx.appcompat.widget.AppCompatTextView android:text="@string/block_outgoing_call_when_number_is" style="@style/textViewStyleSectionTitle" />
+                    <androidx.appcompat.widget.SwitchCompat android:id="@id/chbBlockOutgoingNegativeLocal" android:text="@string/reported_by_you_as_spam" style="@style/switchParentWidth" />
+                    <androidx.appcompat.widget.SwitchCompat android:id="@id/chbBlockOutgoingNotStoredInContacts" android:text="@string/not_stored_in_contacts" style="@style/switchParentWidth" />
+                    <androidx.appcompat.widget.SwitchCompat android:id="@id/chbBlockOutgoingPremium" android:text="@string/premium_number" style="@style/switchParentWidth" />
+                    <androidx.appcompat.widget.SwitchCompat android:id="@id/chbBlockOutgoingForeign" android:text="@string/foreign_number" style="@style/switchParentWidth" />
+                </LinearLayout>
+                <View style="@style/divider" />
+                <LinearLayout style="@style/llSection">
+                    <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                        <androidx.appcompat.widget.AppCompatTextView android:text="@string/how_to_block_calls" android:layout_weight="1.0" style="@style/textViewStyleSectionTitle" />
+                        <ImageButton android:id="@id/butHowToBlockCallsMoreInfo" style="@style/buttonHelp" />
+                    </LinearLayout>
+                    <RadioGroup android:id="@id/radioGroupProtection" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <RadioButton android:id="@id/checkDisallowCall" android:text="@string/disallow_call" style="@style/switchParentWidth" />
+                        <RadioButton android:id="@id/checkRejectCall" android:text="@string/reject_call" style="@style/switchParentWidth" />
+                        <RadioButton android:id="@id/checkPickAndHang" android:text="@string/pick_and_hang_up" style="@style/switchParentWidth" />
+                    </RadioGroup>
+                    <androidx.appcompat.widget.AppCompatTextView android:id="@id/checkPickAndHangInfo" android:text="@string/activity_settings_experts_tv_use_pick_and_hang_description" style="@style/textViewStyleSecondary" />
+                    <androidx.appcompat.widget.AppCompatTextView android:id="@id/checkPickAndHangCantUseBecauseDefaultPhoneApp" android:text="@string/this_feature_can_be_used_with_custom_call_screen_only_you_can_set_it_in_the_protection_settings" style="@style/textViewStyleSecondary" />
+                    <androidx.appcompat.widget.SwitchCompat android:id="@id/checkRemoveBlockedCallsFromCallLog" android:text="@string/activity_settings_experts_remove_blocked_calls_from_calllog" style="@style/switchParentWidth" />
+                </LinearLayout>
+                <View style="@style/divider" />
+                <LinearLayout android:focusableInTouchMode="true" style="@style/llSection">
+                    <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                        <androidx.appcompat.widget.AppCompatTextView android:layout_width="0.0dip" android:text="@string/activity_settings_blocking_tv_block_by_contact_groups_title" android:layout_weight="1.0" style="@style/textViewStyleSectionTitle" />
+                        <ImageButton android:id="@id/butBlockContactGroupMoreInfo" style="@style/buttonHelp" />
+                    </LinearLayout>
+                    <LinearLayout style="@style/llParentWidthHorizontal">
+                        <org.mistergroup.shouldianswer.utils.BetterEditText android:id="@id/editContactGroup" android:hint="@string/activity_settings_blocking_edit_block_by_contact_group_hint" android:layout_weight="1.0" app:met_floatingLabelText="@string/activity_settings_blocking_edit_block_by_contact_group_label" style="@style/betterEditTextStyle" />
+                        <Button android:id="@id/butAddGroup" android:text="@string/activity_settings_blocking_but_pick_group" style="@style/button" />
+                    </LinearLayout>
+                </LinearLayout>
+                <View style="@style/divider" />
+                <LinearLayout android:focusableInTouchMode="true" style="@style/llSection">
+                    <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                        <androidx.appcompat.widget.AppCompatTextView android:layout_width="0.0dip" android:text="@string/activity_settings_blocking_tv_block_by_contacts_title" android:layout_weight="1.0" style="@style/textViewStyleSectionTitle" />
+                        <ImageButton android:id="@id/butBlockContactsMoreInfo" style="@style/buttonHelp" />
+                    </LinearLayout>
+                    <LinearLayout style="@style/llParentWidthHorizontal">
+                        <org.mistergroup.shouldianswer.utils.BetterEditText android:id="@id/editContactList" android:hint="@string/activity_settings_blocking_edit_block_by_contacts_hint" android:layout_weight="1.0" app:met_floatingLabelText="@string/activity_settings_blocking_edit_block_by_contacts_label" style="@style/betterEditTextStyle" />
+                        <Button android:id="@id/butAddContact" android:text="@string/activity_settings_blocking_but_pick_contact" style="@style/button" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

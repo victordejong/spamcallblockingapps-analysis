@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/top_nav" />
+    <CheckBox android:id="@id/explicity_allowed" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight" android:layout_marginLeft="16.0dip" android:text="@string/explicity_allowed" style="@style/ListItemTextTitle" />
+    <include layout="@layout/divider" />
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/explicity_groups_sel" android:paddingLeft="16.0dip" android:focusable="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight">
+        <CheckBox android:id="@id/explicity_groups" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="" android:layout_alignParentLeft="true" style="@style/ListItemTextTitle" />
+        <ImageButton android:id="@id/next_view" android:background="@android:color/transparent" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_next" android:layout_alignParentRight="true" android:contentDescription="@string/allow_to_call_options" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center|left" android:id="@id/groups_checkbox_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="64.0dip" android:text="@string/explicity_groups" android:layout_toRightOf="@id/explicity_groups" android:layout_alignBaseline="@id/explicity_groups" android:layout_alignBottom="@id/explicity_groups" style="@style/ListItemTextTitle" />
+    </RelativeLayout>
+</LinearLayout>

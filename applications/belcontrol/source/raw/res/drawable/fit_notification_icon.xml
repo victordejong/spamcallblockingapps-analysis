@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list android:height="32.0dip" android:width="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="32.0dip" android:width="32.0dip">
+        <bitmap android:src="@drawable/ic_notification_grey" android:tileMode="disabled" />
+    </item>
+</layer-list>

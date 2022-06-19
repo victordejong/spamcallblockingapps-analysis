@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">Chặn &amp; báo cáo %d số là spam?</item>
+    </plurals>
+    <plurals name="ConversationCallsHistoryCount">
+        <item quantity="other">%d cuộc gọi</item>
+    </plurals>
+    <plurals name="ConversationFlashHistoryCount">
+        <item quantity="other">%d Tin nhắn tự xóa</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">Tin nhắn đã thêm vào tab quan trọng</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d chuyển đổi được đánh dấu là đã đọc</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">%d tin nhắn đã bị xóa</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">Xóa %d tin nhắn?</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">Các cuộc hội thoại được ghim</item>
+    </plurals>
+    <plurals name="ConversationReportNotSpamConfirmation">
+        <item quantity="other">%d tin nhắn đã được báo cáo là không phải spam</item>
+    </plurals>
+    <plurals name="ConversationReportSpamConfirmation">
+        <item quantity="other">%d tin nhắn báo cáo là spam</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">Lưu toàn bộ danh bạ</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">Các cuộc hội thoại được bỏ ghim</item>
+    </plurals>
+    <plurals name="DeleteConversationsConfirmation">
+        <item quantity="other">Đã xóa %d đoạn hội thoại</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">Xóa %d hội thoại?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">%d số điện thoại được nhận biết</item>
+    </plurals>
+    <plurals name="HistoryActionConfirmDeleteMessage">
+        <item quantity="other">Xoá mục %d không?</item>
+    </plurals>
+    <plurals name="HistoryActionDeleted">
+        <item quantity="other">Mục %d đã được xoá</item>
+    </plurals>
+    <plurals name="HistoryActionSelected">
+        <item quantity="other">Mục %d đã được chọn</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">Bạn có chắc mình muốn bỏ chặn %d số?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteCallRecordings">
+        <item quantity="other">Bạn có chắc là muốn xoá %s bản ghi âm cuộc gọi không?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">Bạn có chắc là muốn xoá %s tệp ngôn ngữ không?</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">%d SMS đã bị chặn</item>
+    </plurals>
+    <plurals name="MessageNotificationNewMessages">
+        <item quantity="other">Thêm %1$d tin nhắn mới</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$s đã gọi từ %2$d giờ trước. Gõ để xem trong Truecaller</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d liên lạc</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d tệp đính kèm</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">%d người liên hệ khác</item>
+    </plurals>
+    <plurals name="NewImGroupMemberCount">
+        <item quantity="other">%d thành viên</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">Đã thêm %d số vào danh sách chặn</item>
+    </plurals>
+    <plurals name="OSNotificationTextNew">
+        <item quantity="other">Bạn có %d thông báo mới</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d cuộc gọi bị chặn</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d cuộc gọi câm</item>
+    </plurals>
+    <plurals name="PremiumAbbreviatedOfferPriceOverMonth">
+        <item quantity="other">%1$s/tháng</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">* %1$d ngày dùng thử miễn phí chỉ dành cho những thuê bao mới</item>
+    </plurals>
+    <plurals name="PremiumFeatureContactRequestLeft">
+        <item quantity="other">còn %1$d yêu cầu</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">%1$d lượt xem hồ sơ mới</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">%1$d người đã xem hồ sơ của bạn gần đây</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d người (%3$d ở %2$s) đã xem hồ sơ của bạn gần đây</item>
+    </plurals>
+    <plurals name="SettingPendingGroupInvitationsMessage">
+        <item quantity="other">Bạn có %d lời mời nhóm đang chờ xử lý. Bạn có muốn chấp nhận tất cả không?</item>
+    </plurals>
+    <plurals name="SpamSmsFound">
+        <item quantity="other">Đã tìm thấy %d tin nhắn spam</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByMultiple">
+        <item quantity="other">%1$s và %2$d người khác đã được mời vào nhóm bởi %3$s</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByYouMultiple">
+        <item quantity="other">Bạn đã mời %1$s và %2$d người khác vào nhóm</item>
+    </plurals>
+    <plurals name="StrPhoneNumberAndMore">
+        <item quantity="other">%1$s &lt;b>+%2$d thêm&lt;/b></item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">ngày</item>
+    </plurals>
+    <plurals name="StrPluralHour">
+        <item quantity="other">giờ</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">tháng</item>
+    </plurals>
+    <plurals name="StrPluralWeek">
+        <item quantity="other">tuần</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">năm</item>
+    </plurals>
+    <plurals name="UndoMarkAsStarredNotification">
+        <item quantity="other">Các tin nhắn được huỷ dấu sao</item>
+    </plurals>
+    <plurals name="UnreadConversations">
+        <item quantity="other">%d hội thoại chưa đọc</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">Bạn đã vượt quá giới hạn lần thử xác thực. Xin hãy thử lại trong %dh</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d người đã xem hồ sơ của bạn</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d người (1 trong %2$s) đã xem hồ sơ của bạn</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d người đã xem hồ sơ của bạn. Hãy tìm hiểu thêm.</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d người (%3$d trong số %2$s) đã xem hồ sơ của bạn. Hãy tìm hiểu thêm.</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaption">
+        <item quantity="other">%1$d lượt xem mới</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaptionWithLocation">
+        <item quantity="other">%1$d lượt xem mới • %2$d từ %3$s</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">reCaptcha đã bị hỏng quá nhiều lần. Vui lòng thử lại trong %1$d giờ</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%s cuộc trò chuyện được lưu trữ</item>
+    </plurals>
+    <plurals name="biz_govt_contacts_count">
+        <item quantity="other">%1$d số liên lạc</item>
+    </plurals>
+    <plurals name="call_recording_toast_items_deleted">
+        <item quantity="other">Đã xóa %1$d ghi âm</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">Tin nhắn OTP đã bị xóa</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">Tin nhắn khuyến mãi đã bị xoá</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">Tin nhắn spam đã bị xóa</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d tin nhắn</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d OTPs</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_promotional">
+        <item quantity="other">%d tin nhắn khuyến mãi</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d tin nhắn spam</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d tin nhắn đã bị xóa</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">Lời mời</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="other">trong %d ngày</item>
+        <item quantity="one">ngày mai</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="other">trong %d giờ</item>
+        <item quantity="one">trong 1 giờ</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="other">trong %d phút</item>
+        <item quantity="one">trong 1 phút</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="other">trong %d giây</item>
+        <item quantity="one">trong 1 giây</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="other">%d ngày trước</item>
+        <item quantity="one">hôm qua</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="other">%d giờ trước</item>
+        <item quantity="one">1 giờ trước</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="other">%d phút trước</item>
+        <item quantity="one">1 phút trước</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="other">%d giây trước</item>
+        <item quantity="one">1 giây trước</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="other">%d giờ</item>
+        <item quantity="one">1 giờ</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="other">%d phút</item>
+        <item quantity="one">1 phút</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="other">%d giây</item>
+        <item quantity="one">1 giây</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="other">trong %d ngày</item>
+        <item quantity="one">ngày mai</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="other">trong %d giờ</item>
+        <item quantity="one">trong 1 giờ</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="other">trong %d phút</item>
+        <item quantity="one">trong 1 phút</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="other">trong %d giây</item>
+        <item quantity="one">trong 1 giây</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="other">%d ngày trước</item>
+        <item quantity="one">hôm qua</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="other">%d giờ trước</item>
+        <item quantity="one">1 giờ trước</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="other">%d phút trước</item>
+        <item quantity="one">1 phút trước</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="other">%d giây trước</item>
+        <item quantity="one">1 giây trước</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">Bạn sắp xóa các tập tin được chọn và %d tin nhắn liên quan</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">Xóa tin nhắn?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d thông báo mới</item>
+        <item quantity="one">%d thông báo mới</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">bạn bè</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">ngày</item>
+    </plurals>
+    <plurals name="spam_counts">
+        <item quantity="other">%d báo cáo spam</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">%s cuộc trò chuyện bỏ lưu trữ</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">Tin nhắn đã gửi</item>
+    </plurals>
+    <plurals name="voip_group_launcher_person">
+        <item quantity="other">người tham gia</item>
+    </plurals>
+    <plurals name="voip_notification_missed_grouped_title">
+        <item quantity="other">Các cuộc gọi %1$s bị lỡ</item>
+    </plurals>
+    <plurals name="voip_notification_title_other">
+        <item quantity="other">%1$s người khác</item>
+    </plurals>
+</resources>

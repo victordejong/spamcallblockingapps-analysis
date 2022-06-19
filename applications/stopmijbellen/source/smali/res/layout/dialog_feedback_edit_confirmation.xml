@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="12.0sp" android:id="@id/dislikeButton" android:layout_width="70.0dip" android:layout_height="36.0dip" android:layout_marginRight="5.0dip" android:text="-15" android:drawableLeft="@drawable/ic_dislike_black" android:drawablePadding="0.0dip" android:drawableStart="@drawable/ic_dislike_black" android:layout_marginEnd="5.0dip" style="@style/Widget.AppCompat.Button.Colored" />
+        <Button android:textSize="12.0sp" android:id="@id/likeButton" android:layout_width="70.0dip" android:layout_height="36.0dip" android:text="55" android:drawableLeft="@drawable/ic_like_black" android:drawableStart="@drawable/ic_like_black" style="@style/Widget.AppCompat.Button.Colored" />
+    </LinearLayout>
+    <TextView android:textSize="16.0sp" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="will be cleared" />
+</LinearLayout>

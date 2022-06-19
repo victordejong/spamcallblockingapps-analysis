@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="@dimen/dp8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dp8" android:paddingEnd="@dimen/dp8"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/rounded_smart_card_background" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <include android:id="@id/smart_card_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/insights_smart_card" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

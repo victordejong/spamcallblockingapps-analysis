@@ -1,0 +1,41 @@
+{
+  "state bank of india": [
+    "sbi", "sbipg", "state bank", "sbh", "oksbi"
+  ],
+  "icici bank": [
+    "ici", "icici", "icicibank", "okicici"
+  ],
+  "hdfc": [
+    "hdf", "hdfcltd", "hdfc", "okhdfc", "hdfcbank"
+  ],
+  "axis bank": [
+    "axmob", "axs", "axis", "okaxis"
+  ],
+  "yes bank": [
+    "ybl", "yesbank", "yes"
+  ],
+  "bank of india": [
+    "boi"
+  ],
+  "paytm": [
+    "ptm", "paytm"
+  ],
+  "idbi": [
+    "idbi", "idb"
+  ],
+  "bank of baroda": [
+    "bob", "baroda"
+  ],
+  "punjab national bank": [
+    "pnb"
+  ],
+  "rbi": [
+    "rbi"
+  ],
+  "idfc":[
+    "idfc"
+  ],
+  "indusind": [
+    "iib"
+  ]
+}

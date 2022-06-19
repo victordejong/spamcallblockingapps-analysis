@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/seperatorHeaderLayout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="left" android:id="@id/listHeaderText" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="@dimen/listHeaderBottomPadding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Body1" />
+    <include android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" layout="@layout/include_divider" />
+    <Space android:layout_width="fill_parent" android:layout_height="@dimen/dimen_4_dp" />
+</LinearLayout>

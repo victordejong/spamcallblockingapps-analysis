@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/ContainerWrapStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView style="@style/Widget.Truecaller.CardView">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/settingsMainTrigger" android:text="@string/SettingsMainGeneral" style="@style/Widget.Truecaller.TextView.SettingsIconItem" />
+            <TextView android:id="@id/settingsRingtoneTrigger" android:text="@string/SettingsRingtone" style="@style/Widget.Truecaller.TextView.SettingsIconItem" />
+            <TextView android:id="@id/settingsLanguageTrigger" android:text="@string/SettingsGeneralLanguage" style="@style/Widget.Truecaller.TextView.SettingsIconItem" />
+            <TextView android:id="@id/settingsCallerIdTrigger" android:text="@string/SettingsMainCallerID" style="@style/Widget.Truecaller.TextView.SettingsIconItem" />
+            <TextView android:id="@id/settingsDataStorageTrigger" android:text="@string/SettingsDataStorageTitle" style="@style/Widget.Truecaller.TextView.SettingsIconItem" />
+            <TextView android:id="@id/settingsMessagingTrigger" android:text="@string/SettingsMessagingTitle" style="@style/Widget.Truecaller.TextView.SettingsIconItem" />
+            <TextView android:id="@id/settingsBlockTrigger" android:text="@string/SettingsBlockTitle" style="@style/Widget.Truecaller.TextView.SettingsIconItem" />
+            <TextView android:id="@id/settingsAppearanceTrigger" android:text="@string/SettingsCallerIDGroupAppearance" style="@style/Widget.Truecaller.TextView.SettingsIconItem" />
+            <TextView android:id="@id/settingsBackupTrigger" android:text="@string/SettingsBackupTitle" style="@style/Widget.Truecaller.TextView.SettingsIconItem" />
+            <TextView android:id="@id/settingsPrivacyTrigger" android:text="@string/SettingsPrivacyTitle" style="@style/Widget.Truecaller.TextView.SettingsIconItem" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView style="@style/Widget.Truecaller.CardView">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/settingsAboutTrigger" android:text="@string/SettingsMainAbout" style="@style/Widget.Truecaller.TextView.SettingsIconItem" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

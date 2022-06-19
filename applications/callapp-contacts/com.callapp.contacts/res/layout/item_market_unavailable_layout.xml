@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/unavailable_item" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:layout_gravity="left" android:id="@id/unavailableTitle" android:background="@color/disabled" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="70.0dip" android:layout_height="12.0dip" android:layout_marginBottom="4.0dip" android:lines="1" />
-    <TextView android:textColor="@color/green" android:layout_gravity="left" android:id="@id/unavailablePrice" android:background="@color/disabled" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="36.0dip" android:layout_height="8.0dip" android:lines="1" />
-</LinearLayout>

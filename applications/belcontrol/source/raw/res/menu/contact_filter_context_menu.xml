@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/bydefault" android:title="@string/bydefault" app:showAsAction="always" />
+    <item android:id="@id/drop" android:title="@string/drop" app:showAsAction="always" />
+    <item android:id="@id/ignore" android:title="@string/ignore" app:showAsAction="always" />
+    <item android:id="@id/sendToVoicemail" android:title="@string/sentToVoicemail" app:showAsAction="always" />
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_array">
+        <item>Privat</item>
+        <item>Cobradors/Bancs</item>
+        <item>Anunci/Brossa</item>
+        <item>Silenciar telefonades</item>
+        <item>Fraus</item>
+        <item>Serveis financers</item>
+        <item>Altres..</item>
+    </string-array>
+    <string-array name="category_feedback_array">
+        <item>Sense categoria</item>
+        <item>Cobradors/Bancs</item>
+        <item>Anunci/Brossa</item>
+        <item>Silenciar telefonades</item>
+        <item>Fraus</item>
+        <item>Serveis financers</item>
+        <item>Altres..</item>
+    </string-array>
+    <string-array name="posneg_array">
+        <item>Negatiu</item>
+        <item>Neutral</item>
+        <item>Positiu</item>
+    </string-array>
+    <string-array name="settings_block_methods_array">
+        <item>Telefonada rebutjada</item>
+        <item>Silenciar el so de telefonada</item>
+    </string-array>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>ワンタイムパスワード</item>
+        <item>取引</item>
+        <item>その他</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>%sにログイン</item>
+        <item>%sでサインアップ</item>
+        <item>%sにサインイン</item>
+        <item>%sで番号を確認する</item>
+        <item>%sで登録する</item>
+        <item>%sで開始する</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>発信</item>
+        <item>プロフィールを見る</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>重要です</item>
+        <item>申し訳ありません</item>
+        <item>今どこですか？</item>
+        <item>質問があります</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>こんにちは 👋、急いでお伝えしたいことがあります 🚨</item>
+        <item>こんにちは 👋 ご注文の準備ができました！</item>
+        <item>今時間ありますか？下にいます！</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>消音</item>
+        <item>バイブレーションのみ</item>
+        <item>サウンドのみ</item>
+        <item>サウンドとバイブレーション</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>1分以内に絶対に応答したい場合にはFlashを使いましょう</item>
+        <item>すぐに返答が必要な大切な事柄にはFlash を使いましょう</item>
+        <item>ご存知でしたか: タップするだけで素早く位置情報を共有できます</item>
+        <item>ヒント: 絵文字を送信するか、またはテキストを入力して気持ちを伝えましょう</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>名で並び替え</item>
+        <item>姓で並び替え</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>保存済み</item>
+        <item>特定済み</item>
+    </string-array>
+</resources>

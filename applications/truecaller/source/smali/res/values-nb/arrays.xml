@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>OTP</item>
+        <item>Transaksjon</item>
+        <item>Annet</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>jan</item>
+        <item>feb</item>
+        <item>mar</item>
+        <item>apr</item>
+        <item>mai</item>
+        <item>jun</item>
+        <item>jul</item>
+        <item>aug</item>
+        <item>sep</item>
+        <item>okt</item>
+        <item>nov</item>
+        <item>des</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Logg på %s</item>
+        <item>Registrer deg med %s</item>
+        <item>Logg inn på %s</item>
+        <item>Bekreft nummer med %s</item>
+        <item>Registrer deg med %s</item>
+        <item>Kom i gang med %s</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>Ring</item>
+        <item>Se profil</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>Det er viktig</item>
+        <item>Beklager</item>
+        <item>Hvor er du?</item>
+        <item>Jeg har et spørsmål</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>en</item>
+        <item>to</item>
+        <item>tre</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>Hei 👋, det haster 🚨</item>
+        <item>Hei 👋, bestillingen er klar!</item>
+        <item>Er du ledig nå? Jeg står nede!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Lydløs</item>
+        <item>Kun vibrering</item>
+        <item>Kun Lyd</item>
+        <item>Lyd og vibrering</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>Sorter etter fornavn</item>
+        <item>Sorter etter etternavn</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>Lagret</item>
+        <item>Identifisert</item>
+    </string-array>
+</resources>

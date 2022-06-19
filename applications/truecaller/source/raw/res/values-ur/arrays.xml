@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>او ٹی پی</item>
+        <item>ٹرانزیکشن</item>
+        <item>دیگر</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>جنوری</item>
+        <item>فروری</item>
+        <item>مارچ</item>
+        <item>اپریل</item>
+        <item>مئی</item>
+        <item>جون</item>
+        <item>جولائی</item>
+        <item>اگست</item>
+        <item>ستمبر</item>
+        <item>اکتوبر</item>
+        <item>نومبر</item>
+        <item>دسمبر</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>آگے بڑھو</item>
+        <item>جاری رہے</item>
+        <item>قبول کریں۔</item>
+        <item>تصدیق کریں۔</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>%s استعمال کریں</item>
+        <item>%s کے ساتھ جاری رکھیں</item>
+        <item>%s کے ساتھ آگے بڑھیں</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>%s میں لاگ ان کریں</item>
+        <item>%s کے ساتھ سائن اپ کریں</item>
+        <item>%s میں سائن ان کریں</item>
+        <item>%s کے ساتھ نمبر کی تصدیق کریں</item>
+        <item>%s کے ساتھ رجسٹر کریں</item>
+        <item>%s کے ساتھ شروعات کریں</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>شروع کرنے کے لیے</item>
+        <item>جاری رکھنے کے لیے</item>
+        <item>آرڈر دینے کے لیے</item>
+        <item>اپنی خریداری مکمل کرنے کے لیے</item>
+        <item>چیک آؤٹ کرنے کے لیے</item>
+        <item>اپنی بکنگ مکمل کرنے کے لیے</item>
+        <item>اپنی بکنگ کے ساتھ آگے بڑھنے کے لیے</item>
+        <item>اپنی بکنگ کے ساتھ آگے بڑھنے کے لیے</item>
+        <item>تفصیلات حاصل کرنے کے لیے</item>
+        <item>مزید دیکھنے کے لیے</item>
+        <item>پڑھنا جاری رکھنے کے لیے</item>
+        <item>آگے بڑھنے کے لیے</item>
+        <item>نئی اپڈیٹس کے لیے</item>
+        <item>نئی اپڈیٹس کے حصول کے لیے</item>
+        <item>سبسکرائب کرنے کے لیے</item>
+        <item>سبسکرائب کرنے اور اپڈیٹس حاصل کرنے کے لیے</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>براہِ کرم اپنے موبائل نمبر کی تصدیق کریں</item>
+        <item>براہِ کرم لاگ ان کریں</item>
+        <item>براہِ کرم سائن اپ کریں</item>
+        <item>براہِ کرم لاگ ان یا سائن اپ کریں</item>
+        <item>براہِ کرم رجسٹر کریں</item>
+        <item>براہِ کرم سائن ان کریں</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>کال</item>
+        <item>پروفائل دیکھیں</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>یہ اہم ہے</item>
+        <item>معذرت</item>
+        <item>آپ کہاں ہیں؟</item>
+        <item>میرے پاس ایک سوال ہے</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>ایک</item>
+        <item>دو</item>
+        <item>تین</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>آداب 👋، یہ اشد ضروری ہے 🚨</item>
+        <item>آداب 👋 آپ کا آرڈر تیار ہے!</item>
+        <item>کیا آپ اب غیر مصروف ہیں؟ میں نیچے ہوں!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>خاموش</item>
+        <item>صرف وائبریٹ</item>
+        <item>صرف آواز</item>
+        <item>آواز اور وائبریٹ</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>جب آپ ایک منٹ کے اندر یقینی جواب چاہتے ہوں تو فلیش استعمال کریں</item>
+        <item>اہم باتیں جو آپ نے جلدی سے کہنا ہوں، ان کے لیے فلیش استعمال کریں</item>
+        <item>کیا آپ کو معلوم تھا: آپ صرف ایک ٹیپ کے ذریعے فوری طور پر اپنے محل وقوع کی حصہ داری کر سکتے ہیں</item>
+        <item>ٹوٹکا: اپنا مدعا بیان کرنے کے لیے ایموجی بھیجیں یا متن ٹائپ کریں</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>سِم 1</item>
+        <item>سِم 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>سِم 1</item>
+        <item>سِم 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>پہلے نام سے ترتیب دیں</item>
+        <item>آخری نام سے ترتیب دیں</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>محفوظ شدہ</item>
+        <item>شناخت کردہ</item>
+    </string-array>
+</resources>

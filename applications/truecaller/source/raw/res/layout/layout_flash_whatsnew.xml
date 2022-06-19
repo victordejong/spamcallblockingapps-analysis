@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/parentLayout" android:background="?theme_reverse_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/flash_toolbar_themed" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/favouriteList" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/flash_actionbar_size" android:overScrollMode="ifContentScrolls" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyle" />
+</FrameLayout>

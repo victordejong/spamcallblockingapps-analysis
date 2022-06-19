@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?tcx_buttonRippleColor"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="#ff000000" />
+            <corners android:radius="@dimen/popup_acs_tag_outline_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <stroke android:width="1.0dip" android:color="@color/tcx_fillPrimaryBackground_dark" />
+            <corners android:radius="@dimen/popup_acs_tag_outline_radius" />
+        </shape>
+    </item>
+</ripple>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" android:layout_marginStart="@dimen/doubleSpace" android:layout_marginEnd="@dimen/doubleSpace">
+        <TextView android:textAppearance="@style/Widget.Truecaller.Title" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space" android:text="@string/BlockAddNumberConfirmationText" />
+        <androidx.appcompat.widget.AppCompatEditText android:id="@id/inputNameForSpammer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space" android:hint="@string/BlockSuggestBetterName" />
+        <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_space" android:checkedButton="@id/business_button">
+            <RadioButton android:id="@id/business_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SuggestNameCompany" android:layout_marginEnd="@dimen/control_doublespace" style="@style/Widget.Truecaller.RadioButton" />
+            <RadioButton android:id="@id/person_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SuggestNamePerson" style="@style/Widget.Truecaller.RadioButton" />
+        </RadioGroup>
+    </LinearLayout>
+</FrameLayout>

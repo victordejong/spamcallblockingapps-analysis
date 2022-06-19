@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?tcx_fillQuarternaryBackground" />
+    <stroke android:width="0.0dip" android:color="?tcx_fillQuarternaryBackground" />
+    <corners android:radius="4.0dip" />
+</shape>

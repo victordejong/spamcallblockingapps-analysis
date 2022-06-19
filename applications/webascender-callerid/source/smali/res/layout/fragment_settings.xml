@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/appBar" layout="@layout/local_app_bar" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/black" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="29.0dip" android:layout_marginTop="32.0dip" android:text="@string/settings_options" android:textAllCaps="true" android:fontFamily="sans-serif" android:letterSpacing="0.04" />
+        <LinearLayout android:orientation="vertical" android:id="@id/recommendedSettingsContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/recommendedSettingsButton" android:background="?selectableItemBackground" android:paddingLeft="@dimen/settings_left" android:paddingTop="@dimen/settings_vertical" android:paddingBottom="@dimen/settings_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_settings_recommended_warning" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_weight="1.0">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_recommended_warning_title" style="@style/Text.Title" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_recommended_warning_body" style="@style/Text.Small.Stonegrey" />
+                </LinearLayout>
+            </LinearLayout>
+            <View style="@style/PartiallyExtendedDivider" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/callSettingsButton" android:background="?selectableItemBackground" android:paddingLeft="@dimen/settings_left" android:paddingTop="@dimen/settings_vertical" android:paddingBottom="@dimen/settings_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_table_settings_call" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_weight="1.0">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_call_settings" style="@style/Text.Title" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_call_settings_dsc" style="@style/Text.Small.Stonegrey" />
+            </LinearLayout>
+        </LinearLayout>
+        <View style="@style/PartiallyExtendedDivider" />
+        <LinearLayout android:orientation="vertical" android:id="@id/callScreenerContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/callScreenerButton" android:background="?selectableItemBackground" android:paddingLeft="@dimen/settings_left" android:paddingTop="@dimen/settings_vertical" android:paddingBottom="@dimen/settings_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_table_settings_screener" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_weight="1.0">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_call_screener" style="@style/Text.Title" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_call_screener_dsc" style="@style/Text.Small.Stonegrey" />
+                </LinearLayout>
+            </LinearLayout>
+            <View style="@style/PartiallyExtendedDivider" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/helpButton" android:background="?selectableItemBackground" android:paddingLeft="@dimen/settings_left" android:paddingTop="@dimen/settings_vertical" android:paddingBottom="@dimen/settings_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_table_settings_help" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_weight="1.0">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_help_support" style="@style/Text.Title" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_help_dsc" style="@style/Text.Small.Stonegrey" />
+            </LinearLayout>
+        </LinearLayout>
+        <View style="@style/PartiallyExtendedDivider" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/aboutButton" android:background="?selectableItemBackground" android:paddingLeft="@dimen/settings_left" android:paddingTop="@dimen/settings_vertical" android:paddingBottom="@dimen/settings_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_table_settings_info" />
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_weight="1.0">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_about" style="@style/Text.Title" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_about_dsc" style="@style/Text.Small.Stonegrey" />
+            </LinearLayout>
+        </LinearLayout>
+        <View style="@style/PartiallyExtendedDivider" />
+    </LinearLayout>
+</ScrollView>

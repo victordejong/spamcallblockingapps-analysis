@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>OTP</item>
+        <item>Transacción</item>
+        <item>Otros</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>ene</item>
+        <item>feb</item>
+        <item>mar</item>
+        <item>abr</item>
+        <item>may</item>
+        <item>jun</item>
+        <item>jul</item>
+        <item>ag</item>
+        <item>sep</item>
+        <item>oct</item>
+        <item>nov</item>
+        <item>dic</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Iniciar sesión en %s</item>
+        <item>Registrarse con %s</item>
+        <item>Iniciar sesión en %s</item>
+        <item>Verificar número con %s</item>
+        <item>Registrarse con %s</item>
+        <item>Empezar con %s</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>Llamar</item>
+        <item>Ver perfil</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>Es importante</item>
+        <item>Lo sentimos</item>
+        <item>¿Dónde estás?</item>
+        <item>Tengo una pregunta</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>uno</item>
+        <item>dos</item>
+        <item>tres</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>Hola 👋, Es urgente 🚨</item>
+        <item>Hola 👋 ¡Tu pedido está listo!</item>
+        <item>¿Estás libre ahora? ¡Estoy abajo!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Silencio</item>
+        <item>Solo vibrador</item>
+        <item>Solo sonido</item>
+        <item>Sonido y vibrador</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>Usa Flash cuando quieras obtener una respuesta segura en un minuto</item>
+        <item>Usa Flash para cosas importantes que tengas que decir rápidamente</item>
+        <item>Sabías que: puedes compartir tu ubicación rápidamente con solo pulsar</item>
+        <item>Consejo: envía un Emoji o escribe el texto para expresarte</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>Clasificar por nombre</item>
+        <item>Clasificar por apellido</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>Guardado</item>
+        <item>Identificado</item>
+    </string-array>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>Tek Seferlik Şifre</item>
+        <item>İşlem</item>
+        <item>Diğer</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>oca</item>
+        <item>şub</item>
+        <item>mar</item>
+        <item>nis</item>
+        <item>may</item>
+        <item>haz</item>
+        <item>eyl</item>
+        <item>ağu</item>
+        <item>tem</item>
+        <item>kas</item>
+        <item>eki</item>
+        <item>ara</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>%s için giriş yapın</item>
+        <item>%s için kaydolun:</item>
+        <item>%s için Giriş Yapın</item>
+        <item>Numarayı %s ile doğrulayın</item>
+        <item>%s için kaydolun</item>
+        <item>%s Kullanmaya Başlayın</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>Çağrı yap</item>
+        <item>Profili görüntüle</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>Önemli</item>
+        <item>Özür</item>
+        <item>Nasılsın?</item>
+        <item>Bir sorum var</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>Birinci</item>
+        <item>İkinci</item>
+        <item>Üçüncü</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>Merhaba 👋, Acil durum 🚨</item>
+        <item>Merhaba 👋 Siparişiniz hazır!</item>
+        <item>Uygun musun? Aşağıdayım!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Sessiz</item>
+        <item>Yalnızca titreşim</item>
+        <item>Yalnızca ses</item>
+        <item>Ses ve Titreşim</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>"Bir dakika içerisinde kesin yanıt almak istiyorsanız Flash'ı kullanın"</item>
+        <item>"Hemen söylemeniz gereken önemli şeyler için Flash'ı kullanın"</item>
+        <item>Biliyor muydunuz? Tek bir dokunuşa konumunuzu hızlıca gönderebilirsiniz</item>
+        <item>İpucu: Emoji göndererek ya da metin girerek kendinizi ifade edin</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>İsme göre sırala</item>
+        <item>Soy ismine göre sırala</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>Kaydedilen</item>
+        <item>Tanımlanan</item>
+    </string-array>
+</resources>

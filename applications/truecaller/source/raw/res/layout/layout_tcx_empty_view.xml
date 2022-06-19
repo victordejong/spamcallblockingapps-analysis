@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="225.0dip" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" />
+    <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" style="@style/StyleX.Text.Headline.H6" />
+    <TextView android:gravity="center" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" style="@style/StyleX.Text.Body.B1" />
+    <Button android:id="@id/action" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" style="@style/StyleX.Button.Small.Action" />
+</merge>

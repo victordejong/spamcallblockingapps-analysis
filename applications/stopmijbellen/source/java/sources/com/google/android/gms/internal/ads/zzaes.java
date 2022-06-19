@@ -1,0 +1,46 @@
+package com.google.android.gms.internal.ads;
+
+import java.util.List;
+/* loaded from: classes-dex2jar.jar:com/google/android/gms/internal/ads/zzaes.class */
+public final class zzaes {
+    private final List<zzab> zza;
+    private final zzxt[] zzb;
+
+    public zzaes(List<zzab> list) {
+        this.zza = list;
+        this.zzb = new zzxt[list.size()];
+    }
+
+    public final void zza(long j, zzfd zzfdVar) {
+        zzwh.zza(j, zzfdVar, this.zzb);
+    }
+
+    public final void zzb(zzws zzwsVar, zzafd zzafdVar) {
+        for (int i = 0; i < this.zzb.length; i++) {
+            zzafdVar.zzc();
+            zzxt zzv = zzwsVar.zzv(zzafdVar.zza(), 3);
+            zzab zzabVar = this.zza.get(i);
+            String str = zzabVar.zzm;
+            boolean z = true;
+            if (!"application/cea-608".equals(str)) {
+                z = "application/cea-708".equals(str);
+            }
+            String valueOf = String.valueOf(str);
+            zzdy.zze(z, valueOf.length() != 0 ? "Invalid closed caption mime type provided: ".concat(valueOf) : new String("Invalid closed caption mime type provided: "));
+            String str2 = zzabVar.zzb;
+            String str3 = str2;
+            if (str2 == null) {
+                str3 = zzafdVar.zzb();
+            }
+            zzz zzzVar = new zzz();
+            zzzVar.zzH(str3);
+            zzzVar.zzS(str);
+            zzzVar.zzU(zzabVar.zze);
+            zzzVar.zzK(zzabVar.zzd);
+            zzzVar.zzu(zzabVar.zzE);
+            zzzVar.zzI(zzabVar.zzo);
+            zzv.zzk(zzzVar.zzY());
+            this.zzb[i] = zzv;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="?bg_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textColor="#ff0084ff" android:layout_gravity="start|center" android:id="@id/tv_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/app_name" android:layout_marginStart="16.0dip" />
+            <ImageView android:layout_gravity="end" android:id="@id/lb_missed_close" android:background="@drawable/card_foreground" android:padding="8.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/ic_tag_close" android:contentDescription="@string/close" android:layout_marginEnd="8.0dip" />
+        </FrameLayout>
+        <TextView android:textSize="18.0sp" android:textColor="#ff333333" android:id="@id/tv_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="16.0dip" android:textDirection="locale" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/fl_details" android:background="@drawable/bg_rect_blocked" android:layout_width="156.0dip" android:layout_height="40.0dip" android:layout_marginTop="52.0dip" android:layout_marginBottom="20.0dip" android:foreground="@drawable/card_foreground_radius">
+            <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/iv_find" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_find_white" />
+                <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/tv_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="33.0dip" android:text="@string/missed_details" android:layout_marginStart="33.0dip" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,26 @@
+{
+		"top" : "Compre más créditos para búsquedas inversas de teléfonos premium.",
+
+        "sections" : [
+            {
+                "img" : "glass",
+                "descr" : "Obtenga el nombre real de quien llama",
+                "width": "40",
+                "height": "40"
+            },
+            {
+              "img" : "shield",
+              "descr" : "Identifique los números desconocidos instantáneamente",
+              "width": "40",
+              "height": "40"
+            },
+            {
+              "img" : "credits",
+              "descr" : "¡Los créditos nunca expiran!",
+              "width": "40",
+              "height": "40"
+            }
+        ],
+
+        "bottom" : ""
+}

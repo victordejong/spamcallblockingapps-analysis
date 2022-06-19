@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="172.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:id="@id/data_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/btn_user_settings" android:background="@drawable/ripple_or_holo" android:padding="@dimen/slide_menu_header_icon_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="@dimen/dimen_4_dp" android:src="@drawable/ic_settings_2" android:scaleType="center" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <TextView android:gravity="center" android:id="@id/btn_english" android:background="@drawable/ripple_or_holo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_6_dp" android:text="@string/english" android:layout_toLeftOf="@id/btn_user_settings" android:layout_alignTop="@id/btn_user_settings" android:layout_alignBottom="@id/btn_user_settings" />
+        <com.callapp.contacts.widget.ProfilePictureView android:id="@id/userProfilePhoto" android:tag="photoPresenter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_22_dp" android:layout_marginTop="@dimen/dimen_22_dp" android:src="@drawable/profile_pic_default" android:scaleType="centerCrop" android:tint="@color/white_callapp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" app:border_color="@color/black" app:border_width="2.0dip" app:presetSize="slide_header" app:profileHasRipple="false" />
+        <FrameLayout android:id="@id/btn_user_edit" android:visibility="visible" android:layout_width="26.0dip" android:layout_height="26.0dip" android:foreground="@drawable/ripple_circular" android:layout_alignRight="@id/userProfilePhoto" android:layout_alignBottom="@id/userProfilePhoto">
+            <ImageView android:id="@id/contactDetails_action_edit_circle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/circle" app:tint="@color/white_callapp" />
+            <ImageView android:id="@id/contactDetails_action_edit_circle_stroke" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/circle_stroke" />
+            <ImageView android:layout_gravity="center" android:id="@id/contactDetails_action_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_c_edit" android:scaleType="center" />
+        </FrameLayout>
+        <ImageView android:id="@id/wizardImageView" android:visibility="gone" android:layout_width="@dimen/super_skin_wizard_size_with_animation" android:layout_height="@dimen/super_skin_wizard_size_with_animation" android:layout_margin="@dimen/dimen_16_dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_22_dp" android:layout_marginTop="@dimen/dimen_8_dp" android:layout_below="@id/userProfilePhoto">
+            <ImageView android:id="@id/userContribution" android:visibility="gone" android:layout_width="@dimen/dimen_28_dp" android:layout_height="@dimen/dimen_28_dp" android:layout_marginRight="@dimen/dimen_8_dp" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:ellipsize="end" android:id="@id/tv_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="end" android:id="@id/tv_user_name_second" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/row_divider" android:background="@color/disabled" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/dimen_12_dp" android:layout_below="@id/data_layout" />
+</RelativeLayout>

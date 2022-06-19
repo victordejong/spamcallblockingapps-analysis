@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/wizard_splash_screen" android:scaleType="centerCrop" />
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/wizardLogo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:contentDescription="@null" app:srcCompat="@drawable/ic_truecaller_logo_white" />
+        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/textWelcomeTitle" android:textColor="@color/wizard_white" android:gravity="start" android:id="@id/title" android:layout_marginLeft="@dimen/tripleSpace" android:layout_marginTop="@dimen/doubleSpace" android:layout_marginRight="@dimen/tripleSpace" android:text="@string/Welcome_title" style="@style/Wizard.TextViewTitle" />
+        <TextView android:textSize="@dimen/textWelcomeSubtitle" android:textColor="@color/wizard_white" android:gravity="start" android:layout_marginLeft="@dimen/tripleSpace" android:layout_marginTop="@dimen/doubleSpace" android:layout_marginRight="@dimen/tripleSpace" android:layout_marginBottom="@dimen/doubleSpace" android:text="@string/Welcome_details" style="@style/Wizard.TextViewDetails" />
+        <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tripleSpace" android:layout_marginTop="@dimen/quadrupleSpace" android:layout_marginRight="@dimen/tripleSpace">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_language_icon" />
+            <TextView android:textSize="@dimen/textLanguageSubtitle" android:textColor="@color/wizard_white" android:textColorLink="?android:textColorSecondary" android:gravity="start|center" android:id="@id/language" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space" android:text="@string/Welcome_language" android:drawablePadding="@dimen/space" android:layout_marginStart="@dimen/space" />
+        </LinearLayout>
+        <Button android:background="@drawable/wizard_bg_button_green_rounded" android:layout_marginLeft="@dimen/tripleSpace" android:layout_marginTop="@dimen/extraSpace" android:layout_marginRight="@dimen/tripleSpace" android:text="@string/StrGetStarted" style="@style/Wizard.ContinueButton" />
+        <TextView android:textSize="9.0sp" android:textColor="@color/wizard_white_translucent" android:textColorLink="@color/wizard_white_translucent" android:gravity="start" android:id="@id/terms" android:paddingBottom="@dimen/space" android:layout_marginLeft="@dimen/tripleSpace" android:layout_marginTop="@dimen/doubleSpace" android:layout_marginRight="@dimen/tripleSpace" android:layout_marginBottom="@dimen/space" android:text="@string/Welcome_terms_r" style="@style/Wizard.TextViewNote" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/incall_notification_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="#ffffffff" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+                <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/ic_call_black_24dp" android:tint="#ff2a56c6" />
+                <TextView android:textSize="12.0dip" android:textColor="#ff2a56c6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notification_incall_main_title" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="•" />
+                <TextView android:textSize="12.0dip" android:textColor="#ff7a7a7a" android:id="@id/tvSubtext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Subtext" />
+                <TextView android:textColor="#ff7a7a7a" android:id="@id/tvChronoDot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="•" />
+                <Chronometer android:textSize="12.0dip" android:textColor="#ff7a7a7a" android:id="@id/tvChrono" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Chrono" />
+            </LinearLayout>
+            <TextView android:textColor="#ff000000" android:id="@id/tvTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="Title" />
+            <TextView android:textColor="#ff757575" android:id="@id/tvText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Text" />
+        </LinearLayout>
+        <ImageView android:id="@id/imgRight" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginLeft="20.0dip" android:src="@drawable/rating_positive_small" />
+    </LinearLayout>
+    <LinearLayout android:background="#20000000" style="@style/llParentWidthHorizontalCenter">
+        <Button android:textSize="14.0dip" android:textColor="#ff96562a" android:id="@id/butReject" android:background="#ffe0e0e0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/notification_incall_but_reject" android:layout_weight="1.0" android:textAllCaps="true" style="@style/buttonBorderlessColorable" />
+        <Button android:textSize="14.0dip" android:textColor="#ff2a962a" android:id="@id/butAccept" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/notification_incall_but_accept" android:layout_weight="1.0" android:textAllCaps="true" style="@style/buttonBorderlessColorable" />
+        <Button android:textSize="14.0dip" android:textColor="#ff2a56c6" android:id="@id/butDisconnect" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/notification_incall_but_disconnect" android:layout_weight="1.0" android:textAllCaps="true" style="@style/buttonBorderlessColorable" />
+    </LinearLayout>
+</LinearLayout>

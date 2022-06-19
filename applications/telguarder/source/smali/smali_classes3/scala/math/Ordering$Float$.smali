@@ -1,0 +1,404 @@
+.class public Lscala/math/Ordering$Float$;
+.super Ljava/lang/Object;
+.source "Ordering.scala"
+
+# interfaces
+.implements Lscala/math/Ordering$FloatOrdering;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lscala/math/Ordering;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "Float$"
+.end annotation
+
+
+# static fields
+.field public static final MODULE$:Lscala/math/Ordering$Float$;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lscala/math/Ordering$Float$;
+
+    invoke-direct {v0}, Lscala/math/Ordering$Float$;-><init>()V
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 292
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    sput-object p0, Lscala/math/Ordering$Float$;->MODULE$:Lscala/math/Ordering$Float$;
+
+    invoke-static {p0}, Lscala/math/PartialOrdering$class;->$init$(Lscala/math/PartialOrdering;)V
+
+    invoke-static {p0}, Lscala/math/Ordering$class;->$init$(Lscala/math/Ordering;)V
+
+    invoke-static {p0}, Lscala/math/Ordering$FloatOrdering$class;->$init$(Lscala/math/Ordering$FloatOrdering;)V
+
+    return-void
+.end method
+
+.method private readResolve()Ljava/lang/Object;
+    .locals 1
+
+    .line 292
+    sget-object v0, Lscala/math/Ordering$Float$;->MODULE$:Lscala/math/Ordering$Float$;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public compare(FF)I
+    .locals 0
+
+    .line 292
+    invoke-static {p0, p1, p2}, Lscala/math/Ordering$FloatOrdering$class;->compare(Lscala/math/Ordering$FloatOrdering;FF)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
+    .locals 0
+
+    .line 292
+    invoke-static {p1}, Lscala/runtime/BoxesRunTime;->unboxToFloat(Ljava/lang/Object;)F
+
+    move-result p1
+
+    invoke-static {p2}, Lscala/runtime/BoxesRunTime;->unboxToFloat(Ljava/lang/Object;)F
+
+    move-result p2
+
+    invoke-virtual {p0, p1, p2}, Lscala/math/Ordering$Float$;->compare(FF)I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public equiv(FF)Z
+    .locals 0
+
+    .line 292
+    invoke-static {p0, p1, p2}, Lscala/math/Ordering$FloatOrdering$class;->equiv(Lscala/math/Ordering$FloatOrdering;FF)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public bridge synthetic equiv(Ljava/lang/Object;Ljava/lang/Object;)Z
+    .locals 0
+
+    .line 292
+    invoke-static {p1}, Lscala/runtime/BoxesRunTime;->unboxToFloat(Ljava/lang/Object;)F
+
+    move-result p1
+
+    invoke-static {p2}, Lscala/runtime/BoxesRunTime;->unboxToFloat(Ljava/lang/Object;)F
+
+    move-result p2
+
+    invoke-virtual {p0, p1, p2}, Lscala/math/Ordering$Float$;->equiv(FF)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public gt(FF)Z
+    .locals 0
+
+    .line 292
+    invoke-static {p0, p1, p2}, Lscala/math/Ordering$FloatOrdering$class;->gt(Lscala/math/Ordering$FloatOrdering;FF)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public bridge synthetic gt(Ljava/lang/Object;Ljava/lang/Object;)Z
+    .locals 0
+
+    .line 292
+    invoke-static {p1}, Lscala/runtime/BoxesRunTime;->unboxToFloat(Ljava/lang/Object;)F
+
+    move-result p1
+
+    invoke-static {p2}, Lscala/runtime/BoxesRunTime;->unboxToFloat(Ljava/lang/Object;)F
+
+    move-result p2
+
+    invoke-virtual {p0, p1, p2}, Lscala/math/Ordering$Float$;->gt(FF)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public gteq(FF)Z
+    .locals 0
+
+    .line 292
+    invoke-static {p0, p1, p2}, Lscala/math/Ordering$FloatOrdering$class;->gteq(Lscala/math/Ordering$FloatOrdering;FF)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public bridge synthetic gteq(Ljava/lang/Object;Ljava/lang/Object;)Z
+    .locals 0
+
+    .line 292
+    invoke-static {p1}, Lscala/runtime/BoxesRunTime;->unboxToFloat(Ljava/lang/Object;)F
+
+    move-result p1
+
+    invoke-static {p2}, Lscala/runtime/BoxesRunTime;->unboxToFloat(Ljava/lang/Object;)F
+
+    move-result p2
+
+    invoke-virtual {p0, p1, p2}, Lscala/math/Ordering$Float$;->gteq(FF)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public lt(FF)Z
+    .locals 0
+
+    .line 292
+    invoke-static {p0, p1, p2}, Lscala/math/Ordering$FloatOrdering$class;->lt(Lscala/math/Ordering$FloatOrdering;FF)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public bridge synthetic lt(Ljava/lang/Object;Ljava/lang/Object;)Z
+    .locals 0
+
+    .line 292
+    invoke-static {p1}, Lscala/runtime/BoxesRunTime;->unboxToFloat(Ljava/lang/Object;)F
+
+    move-result p1
+
+    invoke-static {p2}, Lscala/runtime/BoxesRunTime;->unboxToFloat(Ljava/lang/Object;)F
+
+    move-result p2
+
+    invoke-virtual {p0, p1, p2}, Lscala/math/Ordering$Float$;->lt(FF)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public lteq(FF)Z
+    .locals 0
+
+    .line 292
+    invoke-static {p0, p1, p2}, Lscala/math/Ordering$FloatOrdering$class;->lteq(Lscala/math/Ordering$FloatOrdering;FF)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public bridge synthetic lteq(Ljava/lang/Object;Ljava/lang/Object;)Z
+    .locals 0
+
+    .line 292
+    invoke-static {p1}, Lscala/runtime/BoxesRunTime;->unboxToFloat(Ljava/lang/Object;)F
+
+    move-result p1
+
+    invoke-static {p2}, Lscala/runtime/BoxesRunTime;->unboxToFloat(Ljava/lang/Object;)F
+
+    move-result p2
+
+    invoke-virtual {p0, p1, p2}, Lscala/math/Ordering$Float$;->lteq(FF)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public max(FF)F
+    .locals 0
+
+    .line 292
+    invoke-static {p0, p1, p2}, Lscala/math/Ordering$FloatOrdering$class;->max(Lscala/math/Ordering$FloatOrdering;FF)F
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public bridge synthetic max(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 292
+    invoke-static {p1}, Lscala/runtime/BoxesRunTime;->unboxToFloat(Ljava/lang/Object;)F
+
+    move-result p1
+
+    invoke-static {p2}, Lscala/runtime/BoxesRunTime;->unboxToFloat(Ljava/lang/Object;)F
+
+    move-result p2
+
+    invoke-virtual {p0, p1, p2}, Lscala/math/Ordering$Float$;->max(FF)F
+
+    move-result p1
+
+    invoke-static {p1}, Lscala/runtime/BoxesRunTime;->boxToFloat(F)Ljava/lang/Float;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public min(FF)F
+    .locals 0
+
+    .line 292
+    invoke-static {p0, p1, p2}, Lscala/math/Ordering$FloatOrdering$class;->min(Lscala/math/Ordering$FloatOrdering;FF)F
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public bridge synthetic min(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 292
+    invoke-static {p1}, Lscala/runtime/BoxesRunTime;->unboxToFloat(Ljava/lang/Object;)F
+
+    move-result p1
+
+    invoke-static {p2}, Lscala/runtime/BoxesRunTime;->unboxToFloat(Ljava/lang/Object;)F
+
+    move-result p2
+
+    invoke-virtual {p0, p1, p2}, Lscala/math/Ordering$Float$;->min(FF)F
+
+    move-result p1
+
+    invoke-static {p1}, Lscala/runtime/BoxesRunTime;->boxToFloat(F)Ljava/lang/Float;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public mkOrderingOps(Ljava/lang/Object;)Lscala/math/Ordering$Ops;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            ")",
+            "Lscala/math/Ordering$Ops;"
+        }
+    .end annotation
+
+    .line 292
+    invoke-static {p0, p1}, Lscala/math/Ordering$class;->mkOrderingOps(Lscala/math/Ordering;Ljava/lang/Object;)Lscala/math/Ordering$Ops;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public on(Lscala/Function1;)Lscala/math/Ordering;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<U:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lscala/Function1<",
+            "TU;",
+            "Ljava/lang/Object;",
+            ">;)",
+            "Lscala/math/Ordering<",
+            "TU;>;"
+        }
+    .end annotation
+
+    .line 292
+    invoke-static {p0, p1}, Lscala/math/Ordering$class;->on(Lscala/math/Ordering;Lscala/Function1;)Lscala/math/Ordering;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public reverse()Lscala/math/Ordering;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lscala/math/Ordering<",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+
+    .line 292
+    invoke-static {p0}, Lscala/math/Ordering$FloatOrdering$class;->reverse(Lscala/math/Ordering$FloatOrdering;)Lscala/math/Ordering;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic reverse()Lscala/math/PartialOrdering;
+    .locals 1
+
+    .line 292
+    invoke-virtual {p0}, Lscala/math/Ordering$Float$;->reverse()Lscala/math/Ordering;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic tryCompare(Ljava/lang/Object;Ljava/lang/Object;)Lscala/Option;
+    .locals 0
+
+    .line 292
+    invoke-virtual {p0, p1, p2}, Lscala/math/Ordering$Float$;->tryCompare(Ljava/lang/Object;Ljava/lang/Object;)Lscala/Some;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public tryCompare(Ljava/lang/Object;Ljava/lang/Object;)Lscala/Some;
+    .locals 0
+
+    .line 292
+    invoke-static {p0, p1, p2}, Lscala/math/Ordering$class;->tryCompare(Lscala/math/Ordering;Ljava/lang/Object;Ljava/lang/Object;)Lscala/Some;
+
+    move-result-object p1
+
+    return-object p1
+.end method

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@id/drawer_group_middle" android:checkableBehavior="none">
+        <item android:icon="@drawable/ic_drawer_covid_directory" android:id="@id/drawer_covid_directory" android:title="@string/biz_covid_directory" app:actionViewClass="android.widget.ImageView" />
+        <item android:icon="@drawable/ic_drawer_year_in_review" android:id="@id/year_in_review" android:title="@string/year_in_tc_drawer_menu_title" app:actionViewClass="android.widget.ImageView" />
+        <item android:icon="@drawable/ic_tcx_auto_delete_24dp" android:id="@id/drawer_inbox_cleanup" android:title="@string/inbox_cleanup_title" app:actionViewClass="android.widget.ImageView" />
+        <item android:icon="@drawable/ic_tcx_who_viewed_me_24dp" android:id="@id/drawer_who_viewed_me" android:title="@string/WhoViewedMeTitle" app:actionViewClass="android.widget.ImageView" />
+        <item android:icon="@drawable/ic_tcx_qr_scanner_24dp" android:id="@id/drawer_qr" android:title="@string/MainDrawerScanner" app:actionViewClass="android.widget.ImageView" />
+        <item android:icon="@drawable/ic_tcx_notifications_24dp" android:id="@id/drawer_notifications" android:title="@string/TabBarMessages" app:actionViewClass="android.widget.ImageView" />
+        <item android:icon="@drawable/ic_tcx_blocking_outline_24dp" android:id="@id/drawer_blocking" android:title="@string/BlockedEventsTitle" app:actionViewClass="android.widget.ImageView" />
+        <item android:icon="@drawable/ic_call_record_24dp" android:id="@id/drawer_call_recordings" android:title="@string/call_recording_nav_drawer_title" app:actionViewClass="android.widget.ImageView" />
+        <item android:icon="@drawable/ic_tcx_guardians_24dp" android:id="@id/drawer_personal_safety" android:title="@string/personal_safety" app:actionViewClass="android.widget.ImageView" />
+        <item android:icon="@drawable/ic_tcx_news_24dp" android:id="@id/drawer_truecaller_news" android:title="@string/truecaller_news" app:actionViewClass="android.widget.ImageView" />
+        <item android:icon="@drawable/ic_tcx_share_24dp" android:id="@id/drawer_share" android:title="@string/MePageShareApp" />
+        <item android:icon="@drawable/ic_tcx_reward_16dp" android:id="@id/drawer_refer" android:title="@string/referral_menu_item" />
+    </group>
+    <group android:id="@id/drawer_group_bottom" android:checkableBehavior="none">
+        <item android:id="@id/drawer_change_theme" android:title="@string/MainDrawerChangeTheme" app:actionViewClass="android.widget.ImageView" />
+        <item android:id="@id/drawer_settings" android:title="@string/MainDrawerSettings" />
+        <item android:id="@id/drawer_send_feedback" android:title="@string/SettingsAboutSendFeedback" />
+        <item android:id="@id/drawer_faq" android:title="@string/MainDrawerFaq" />
+        <item android:id="@id/drawer_help" android:title="@string/MainDrawerHelp" />
+    </group>
+</menu>

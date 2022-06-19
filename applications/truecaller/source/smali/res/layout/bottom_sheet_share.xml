@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/bottom_sheet_rounded_corner_background" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:backgroundTint="#ffffffff"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="20.0sp" android:textStyle="normal" android:textColor="#ff000000" android:id="@id/title" android:paddingBottom="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/year_in_review_share_using" android:fontFamily="sans-serif-medium" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:id="@id/instaStory" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/StatsTheme.AddPhotoBottomSheetItemContainer">
+        <ImageView android:src="@drawable/ic_ig_stories" style="@style/StatsTheme.ShareTargetAppIcon" />
+        <TextView android:text="Instagram Stories" style="@style/StatsTheme.ShareTargetTextView" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/whatsapp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/instaStory" style="@style/StatsTheme.AddPhotoBottomSheetItemContainer">
+        <ImageView android:src="@drawable/ic_whatsapp" style="@style/StatsTheme.ShareTargetAppIcon" />
+        <TextView android:text="Whatsapp" style="@style/StatsTheme.ShareTargetTextView" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/fbmessenger" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/whatsapp" style="@style/StatsTheme.AddPhotoBottomSheetItemContainer">
+        <ImageView android:src="@drawable/ic_fb_messenger" style="@style/StatsTheme.ShareTargetAppIcon" />
+        <TextView android:text="Facebook Messenger" style="@style/StatsTheme.ShareTargetTextView" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/twitter" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/fbmessenger" style="@style/StatsTheme.AddPhotoBottomSheetItemContainer">
+        <ImageView app:srcCompat="@drawable/ic_twitter" style="@style/StatsTheme.ShareTargetAppIcon" />
+        <TextView android:text="Twitter" style="@style/StatsTheme.ShareTargetTextView" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/truecaller" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/twitter" style="@style/StatsTheme.AddPhotoBottomSheetItemContainer">
+        <ImageView android:src="@drawable/ic_truecaller" style="@style/StatsTheme.ShareTargetAppIcon" />
+        <TextView android:text="Truecaller" style="@style/StatsTheme.ShareTargetTextView" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/other" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/truecaller" style="@style/StatsTheme.AddPhotoBottomSheetItemContainer">
+        <ImageView app:srcCompat="@drawable/ic_share" app:tint="#c0212b36" style="@style/StatsTheme.ShareTargetAppIcon" />
+        <TextView android:text="@string/year_in_review_other" style="@style/StatsTheme.ShareTargetTextView" />
+    </LinearLayout>
+    <TextView android:textColor="@color/stats_primary_color" android:id="@id/cancelButton" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/year_in_review_cancel" android:layout_marginEnd="16.0dip" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/other" style="@style/StatsTheme.BottomSheetButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

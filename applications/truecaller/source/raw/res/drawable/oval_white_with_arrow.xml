@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/tcx_premium_action_button_oval_bg_margin" android:top="@dimen/tcx_premium_action_button_oval_bg_margin" android:right="@dimen/tcx_premium_action_button_oval_bg_margin" android:bottom="@dimen/tcx_premium_action_button_oval_bg_margin">
+        <shape android:shape="oval">
+            <solid android:color="?tcx_backgroundPrimary" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_arrow_back_grey_24dp" android:left="@dimen/tcx_premium_action_button_margin" android:top="@dimen/tcx_premium_action_button_margin" android:right="@dimen/tcx_premium_action_button_margin" android:bottom="@dimen/tcx_premium_action_button_margin" />
+</layer-list>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>OTP</item>
+        <item>Muamala</item>
+        <item>Wengine</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Machi</item>
+        <item>Aprili</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Julai</item>
+        <item>Agosti</item>
+        <item>septemba</item>
+        <item>Octoba</item>
+        <item>Novemba</item>
+        <item>Decemba</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>Endelea</item>
+        <item>Endelea</item>
+        <item>Kubali</item>
+        <item>Thibitisha</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>Tumia %s</item>
+        <item>Endelea na %s</item>
+        <item>Endelea na %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Ingia kwenye %s</item>
+        <item>Jiandikishe na %s</item>
+        <item>Ingia na %s</item>
+        <item>Hakikisha nambari na %s</item>
+        <item>Jiandikishe na %s</item>
+        <item>Anza na %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>Kuanza</item>
+        <item>Kuendelea</item>
+        <item>Kuweka agizo</item>
+        <item>Kukamilisha manunuzi yako</item>
+        <item>Kutoka</item>
+        <item>Kukamilisha uhudhuriaji wako</item>
+        <item>Kuendelea na uhudhuriaji wako</item>
+        <item>Kuendelea na uhudhuriaji wako</item>
+        <item>Kupata taarifa</item>
+        <item>Kutazama zaidi</item>
+        <item>Kuendelea kusoma</item>
+        <item>Kuendelea</item>
+        <item>Kwa masasisho mapya</item>
+        <item>Kupata masasisho</item>
+        <item>Kujiunga</item>
+        <item>Kujiunga na kupata masasisho</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>Tafadhali hakikisha nambari yako ya simu</item>
+        <item>Tafadhali ingia</item>
+        <item>tafadhali jiandikishe</item>
+        <item>tafadhali ingia/jiandikishe</item>
+        <item>tafadhali jiandikishe</item>
+        <item>tafadhali ingia</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>Piga simu</item>
+        <item>Tazama umbo</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>Ni muhimu</item>
+        <item>Pole</item>
+        <item>Uko wapi?</item>
+        <item>Nina swali</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>moja</item>
+        <item>mbili</item>
+        <item>tatu</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>Habari 👋, Ni haraka &amp;128680</item>
+        <item>Habari 👋 Agizo lako liko tayari!</item>
+        <item>Je, una wakati sasa? Niko hapa chini</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Kimya</item>
+        <item>Kutetemesha pekee</item>
+        <item>Sauti tu</item>
+        <item>Sauti na Kutetemesha</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>Tumia Flash ukitaka majibu ya uhakika ndani ya dakika</item>
+        <item>Tumia Flash kwa vitu muhimu unavyotaka kusema kwa uharaka</item>
+        <item>Je unajua:Unaweza kushiriki eneo uliloko haraka kwa kubonyeza tu</item>
+        <item>Tipu:Tuma Emoji au chapa maandishi ili kujielezea</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>Chagua kwa jina la kwanza</item>
+        <item>Chagua kwa jina la mwisho</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>Imehifadhiwa</item>
+        <item>Imetambuliwa</item>
+    </string-array>
+</resources>

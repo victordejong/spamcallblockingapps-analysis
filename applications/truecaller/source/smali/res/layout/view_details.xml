@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="4.0dip" custom:layout_behavior="com.truecaller.ui.details.DetailsAppBarBehaviour">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:layout_width="fill_parent" android:layout_height="fill_parent" custom:layout_scrollFlags="exitUntilCollapsed|scroll">
+                <com.truecaller.common.ui.ShineView android:id="@id/gold_shine" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <FrameLayout android:id="@id/view_details_header_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <com.truecaller.ui.components.NonClickableToolbar android:id="@id/toolbar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="?actionBarSize" custom:layout_collapseMode="pin">
+                    <com.truecaller.common.ui.textview.GoldShineTextView android:textSize="20.0sp" android:gravity="center" android:id="@id/toolbar_title" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Widget.Truecaller.TextView.DetailsHeader" />
+                </com.truecaller.ui.components.NonClickableToolbar>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <com.truecaller.ui.view.VerticalNestedScrollView android:id="@id/parent_nested_scrollview" android:background="?theme_backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" custom:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <LinearLayout android:gravity="top" android:layout_gravity="top" android:orientation="vertical" android:id="@id/detailsContainer" android:paddingTop="@dimen/detail_view_top_padding_hack_dimen" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_horizontal" android:id="@id/identified_by_truecaller" android:visibility="gone" android:layout_width="fill_parent" android:layout_marginTop="@dimen/control_minispace" android:layout_marginBottom="@dimen/control_minispace" android:alpha="0.5" style="@style/TextStyleCallerDetails" />
+                <ViewStub android:id="@id/premiumButtons" android:layout="@layout/subscription_embedded_buttons_details_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_space" android:layout_marginStart="@dimen/control_semispace" android:layout_marginEnd="@dimen/control_semispace" />
+                <include layout="@layout/view_details_spam_stats" />
+                <androidx.cardview.widget.CardView android:id="@id/businessCardView" android:visibility="gone" android:layout_marginTop="@dimen/control_space" style="@style/Widget.Truecaller.CardView">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/picturesRecyclerView" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/extraSpace" custom:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+                        <View android:id="@id/aboutDivider" android:background="?theme_dividerColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                        <TextView android:id="@id/aboutTextView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extraSpace" android:text="@string/BusinessProfile_AboutDetails" android:layout_marginStart="@dimen/extraSpace" />
+                        <TextView android:textAppearance="@style/TextStyleCallerHeading" android:textSize="15.0sp" android:textColor="?theme_textColorSecondary" android:layout_gravity="center_vertical" android:id="@id/aboutBusinessTextView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/semiSpace" android:layout_marginStart="@dimen/extraSpace" android:layout_marginEnd="@dimen/extraSpace" />
+                        <TextView android:id="@id/contactTextView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extraSpace" android:text="@string/BusinessProfile_Contact" android:layout_marginStart="@dimen/extraSpace" />
+                        <TextView android:textAppearance="@style/TextStyleCallerHeading" android:textSize="15.0sp" android:textColor="?theme_textColorSecondary" android:layout_gravity="center_vertical" android:id="@id/businessContactTextView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/semiSpace" android:layout_marginBottom="@dimen/extraSpace" android:layout_marginStart="@dimen/extraSpace" android:layout_marginEnd="@dimen/extraSpace" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:id="@id/openHoursCardView" android:visibility="gone" android:foreground="?android:selectableItemBackground" style="@style/Widget.Truecaller.CardView">
+                    <RelativeLayout android:paddingTop="@dimen/semiSpace" android:paddingBottom="@dimen/semiSpace" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.truecaller.ui.view.TintedImageView android:id="@id/openHoursImageView" android:contentDescription="@null" custom:imgTint="?theme_textColorSecondary" custom:srcCompat="@drawable/business_profile_ic_business_opening_hours" style="@style/Widget.Truecaller.ImageView.DetailsItem" />
+                        <TextView android:id="@id/isOpenTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space" android:layout_toEndOf="@id/openHoursImageView" style="@style/Widget.Truecaller.Title" />
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/openHoursDivider" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="∙" android:layout_alignTop="@id/isOpenTextView" android:layout_alignBottom="@id/isOpenTextView" android:layout_marginStart="@dimen/space" android:layout_toEndOf="@id/isOpenTextView" style="@style/Widget.Truecaller.Subtitle" />
+                        <TextView android:gravity="start" android:id="@id/statusTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/isOpenTextView" android:layout_marginStart="@dimen/space" android:layout_toStartOf="@id/expandOpenHoursButton" android:layout_toEndOf="@id/openHoursDivider" style="@style/Widget.Truecaller.Title" />
+                        <TextView android:textSize="13.0sp" android:id="@id/openingHoursSubtitleTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/BusinessProfile_LocalOpeningHours" android:layout_below="@id/isOpenTextView" android:layout_toEndOf="@id/openHoursImageView" style="@style/Widget.Truecaller.Subtitle" />
+                        <com.truecaller.ui.view.TintedImageView android:id="@id/expandOpenHoursButton" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_marginTop="@dimen/semiSpace" android:scaleType="centerInside" android:layout_marginEnd="@dimen/semiSpace" android:layout_alignParentEnd="true" custom:imgTint="?theme_textColorSecondary" custom:srcCompat="@drawable/business_profile_ic_expand" />
+                        <RelativeLayout android:orientation="vertical" android:id="@id/openHoursRecyclerViewContainer" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/space" android:layout_below="@id/openingHoursSubtitleTextView" android:layout_alignStart="@id/isOpenTextView">
+                            <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/openHoursRecyclerView" android:layout_width="fill_parent" android:layout_height="wrap_content" custom:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:id="@id/premiumDetailsHidden" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_marginTop="@dimen/control_space" style="@style/Widget.Truecaller.CardView">
+                    <com.truecaller.ui.view.TintedImageView android:id="@id/ic_phone" android:src="@drawable/ic_phone" android:contentDescription="@null" custom:imgTint="?theme_textColorSecondary" style="@style/Widget.Truecaller.ImageView.DetailsItem" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/pro_hidden_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_extraspace" android:layout_marginBottom="@dimen/control_extraspace">
+                        <TextView android:textAppearance="@style/TextStyleCallerDetails" android:textSize="14.0sp" android:id="@id/pro_hidden_first_line" android:text="@string/CallerProfileNumberPlaceHolder" android:maxLines="1" style="@style/Widget.Truecaller.TextView.DetailsItem" />
+                        <TextView android:textAppearance="@style/TextStyleCallerDetails" android:textSize="14.0sp" android:id="@id/pro_hidden_second_line" android:text="@string/CallerProfileHiddenNumber" android:maxLines="1" style="@style/Widget.Truecaller.TextView.DetailsItem" />
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:id="@id/referral_view" android:visibility="gone" style="@style/Widget.Truecaller.CardView">
+                    <ImageView android:src="?referralIcon" style="@style/Widget.Truecaller.ImageView.DetailsItem" />
+                    <TextView android:textAppearance="@style/TextStyleCallerHeading" android:textColor="?theme_textColorSecondary" android:ellipsize="end" android:id="@id/referral_text" android:maxLines="2" style="@style/Widget.Truecaller.TextView.DetailsItem" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:id="@id/callerMainUserInfoOuterContainer" android:visibility="gone" style="@style/Widget.Truecaller.CardView">
+                    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="top" android:orientation="vertical" android:id="@id/callerMainUserInfoContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" custom:divider="?theme_keylinelDivider" custom:showDividers="middle" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:id="@id/callerSwishOuterContainer" android:visibility="gone" android:foreground="?selectableItemBackground" style="@style/Widget.Truecaller.CardView">
+                    <ImageView android:id="@id/swish_icon" android:src="?swishMenuIcon" android:contentDescription="@null" style="@style/Widget.Truecaller.ImageView.DetailsItem" />
+                    <TextView android:textAppearance="@style/TextStyleCallerDetails" android:textSize="14.0sp" android:textColor="?theme_textColorPrimary" android:ellipsize="end" android:text="@string/swish_payment_title" android:maxLines="1" style="@style/Widget.Truecaller.TextView.DetailsItem" />
+                </androidx.cardview.widget.CardView>
+                <com.truecaller.ads.ui.AdsSwitchView android:id="@id/detailsAdOuterContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_extraspace">
+                    <LinearLayout android:orientation="vertical" android:id="@id/adsHolderNative" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <androidx.cardview.widget.CardView android:focusable="true" android:clickable="true" style="@style/Widget.Truecaller.CardView.Ads">
+                            <include android:id="@id/container" layout="@layout/ad_frame_details" />
+                        </androidx.cardview.widget.CardView>
+                        <TextView android:textColor="?afterCallActionButtonContentColor" android:gravity="end" android:id="@id/detailRemoveAds" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_minispace" android:layout_marginBottom="@dimen/control_minispace" android:text="@string/RemoveAdsCloseButton" android:alpha="0.5" android:paddingEnd="@dimen/control_triplespace" style="@style/TextStyleCallerDetails" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/adsHolderBanner" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <androidx.cardview.widget.CardView android:layout_marginBottom="2.0dip" custom:cardUseCompatPadding="false" custom:contentPadding="0.0dip" style="@style/Widget.Truecaller.CardView.Ads">
+                                <FrameLayout android:layout_gravity="center" android:id="@id/container" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/ads_frame_full_padding" android:paddingEnd="@dimen/ads_frame_full_padding" android:elevation="0.5dip" />
+                            </androidx.cardview.widget.CardView>
+                        </FrameLayout>
+                        <TextView android:textColor="?afterCallActionButtonContentColor" android:gravity="end" android:id="@id/detailRemoveAds" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/control_minispace" android:text="@string/RemoveAdsCloseButton" android:alpha="0.5" android:paddingEnd="@dimen/control_triplespace" style="@style/TextStyleCallerDetails" />
+                    </LinearLayout>
+                </com.truecaller.ads.ui.AdsSwitchView>
+                <androidx.cardview.widget.CardView android:id="@id/callerDetailedUserInfoOuterContainer" android:visibility="gone" style="@style/Widget.Truecaller.CardView">
+                    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="top" android:orientation="vertical" android:id="@id/callerDetailedUserInfoContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" custom:divider="?theme_keylinelDivider" custom:showDividers="middle" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:id="@id/callerThirdPartyOuterContainer" android:visibility="gone" style="@style/Widget.Truecaller.CardView">
+                    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="top" android:orientation="vertical" android:id="@id/callerThirdPartyContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" custom:divider="?theme_keylinelDivider" custom:showDividers="middle" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:id="@id/aboutUserContainer" android:visibility="gone" style="@style/Widget.Truecaller.CardView">
+                    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/space" android:paddingBottom="@dimen/space" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:orientation="horizontal" android:id="@id/jobContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <com.truecaller.ui.view.TintedImageView android:src="@drawable/ic_job_title" custom:imgTint="?theme_textColorSecondary" style="@style/Widget.Truecaller.ImageView.DetailsItem" />
+                            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <TextView android:textAppearance="@style/TextStyleCallerHeading" android:textColor="?theme_textColorSecondary" android:id="@id/job" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                                <TextView android:textAppearance="@style/TextStyleCallerDetails" android:id="@id/jobPremiumRequired" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/details_view_premium_required_note" android:drawablePadding="@dimen/control_semispace" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:id="@id/userBioContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <com.truecaller.ui.view.TintedImageView android:src="@drawable/ic_about_info" custom:imgTint="?theme_textColorSecondary" style="@style/Widget.Truecaller.ImageView.DetailsItem" />
+                            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <TextView android:textAppearance="@style/TextStyleCallerHeading" android:textColor="?theme_textColorSecondary" android:id="@id/aboutUser" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                                <TextView android:textAppearance="@style/TextStyleCallerDetails" android:id="@id/aboutPremiumRequired" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/details_view_premium_required_note" android:drawablePadding="@dimen/control_semispace" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:id="@id/noteContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <com.truecaller.ui.view.TintedImageView android:src="@drawable/ic_profile_note" custom:imgTint="?theme_textColorSecondary" style="@style/Widget.Truecaller.ImageView.DetailsItem" />
+                            <TextView android:textAppearance="@style/TextStyleCallerHeading" android:textColor="?theme_textColorSecondary" android:layout_gravity="center_vertical" android:id="@id/note" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView android:id="@id/suggestBusinessNameContainer" android:focusable="true" android:visibility="gone" android:clickable="true" android:foreground="?selectableItemBackground" style="@style/Widget.Truecaller.CardView">
+                    <Button android:textAppearance="@style/TextStyleCallerDetails" android:textSize="16.0sp" android:textColor="?theme_accentColor" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="46.0dip" android:text="@string/BusinessProfile_SuggestBusinessName" android:maxLines="1" android:layout_marginStart="@dimen/tripleSpace" style="@style/Base.Widget.AppCompat.Button.Borderless.Colored" />
+                </androidx.cardview.widget.CardView>
+                <TextView android:textAppearance="@style/TextStyleCallerDetails" android:gravity="center" android:id="@id/moderationNotice" android:layout_width="fill_parent" android:layout_height="48.0dip" android:alpha="0.5" />
+            </LinearLayout>
+        </com.truecaller.ui.view.VerticalNestedScrollView>
+        <com.truecaller.ui.details.DetailsActionBar android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/actionBar" android:background="?detailView_actionBarBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="56.0dip" android:elevation="4.0dip" custom:layout_anchor="@id/app_bar" custom:layout_anchorGravity="bottom" />
+        <View android:id="@id/buttonsSeparator" android:layout_width="fill_parent" android:layout_height="@dimen/control_hairline" android:elevation="4.0dip" custom:layout_anchor="@id/app_bar" custom:layout_anchorGravity="bottom" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

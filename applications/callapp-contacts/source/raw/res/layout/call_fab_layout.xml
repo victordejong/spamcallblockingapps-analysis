@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/fabBgSemiTrans" android:background="@drawable/call_actions_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="180.0dip" android:alpha="0.0" />
+    <FrameLayout android:layout_gravity="bottom|center" android:id="@id/callContainer" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_gravity="bottom|center" android:id="@id/actionsContainer" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/callBtn" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_fab_b_centered" />
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/hand" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginBottom="-25.0dip" android:src="@drawable/ic_pc_hand" android:rotation="-20.0" />
+    </FrameLayout>
+</FrameLayout>

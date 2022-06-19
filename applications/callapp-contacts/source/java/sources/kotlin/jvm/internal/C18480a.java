@@ -1,0 +1,45 @@
+package kotlin.jvm.internal;
+
+import java.util.Iterator;
+import java.util.NoSuchElementException;
+import kotlin.Metadata;
+import kotlin.jvm.internal.p534a.AbstractC18481a;
+@Metadata(m4300bv = {1, 0, 3}, m4299d1 = {"��\"\n\u0002\u0018\u0002\n��\n\u0002\u0010(\n��\n\u0002\u0010\u0011\n\u0002\b\u0005\n\u0002\u0010\b\n��\n\u0002\u0010\u000b\n\u0002\b\u0003\b\u0002\u0018��*\u0004\b��\u0010\u00012\b\u0012\u0004\u0012\u0002H\u00010\u0002B\u0013\u0012\f\u0010\u0003\u001a\b\u0012\u0004\u0012\u00028��0\u0004¢\u0006\u0002\u0010\u0005J\t\u0010\u000b\u001a\u00020\fH\u0096\u0002J\u000e\u0010\r\u001a\u00028��H\u0096\u0002¢\u0006\u0002\u0010\u000eR\u0019\u0010\u0003\u001a\b\u0012\u0004\u0012\u00028��0\u0004¢\u0006\n\n\u0002\u0010\b\u001a\u0004\b\u0006\u0010\u0007R\u000e\u0010\t\u001a\u00020\nX\u0082\u000e¢\u0006\u0002\n��¨\u0006\u000f"}, m4298d2 = {"Lkotlin/jvm/internal/ArrayIterator;", "T", "", "array", "", "([Ljava/lang/Object;)V", "getArray", "()[Ljava/lang/Object;", "[Ljava/lang/Object;", "index", "", "hasNext", "", "next", "()Ljava/lang/Object;", "kotlin-stdlib"}, m4297k = 1, m4296mv = {1, 4, 1})
+/* renamed from: kotlin.jvm.internal.a */
+/* loaded from: classes5-dex2jar.jar:kotlin/jvm/internal/a.class */
+public final class C18480a<T> implements Iterator<T>, AbstractC18481a {
+
+    /* renamed from: a */
+    private int f63583a;
+
+    /* renamed from: b */
+    private final T[] f63584b;
+
+    public C18480a(T[] array) {
+        C18524p.m3840d(array, "array");
+        this.f63584b = array;
+    }
+
+    @Override // java.util.Iterator
+    public final boolean hasNext() {
+        return this.f63583a < this.f63584b.length;
+    }
+
+    @Override // java.util.Iterator
+    public final T next() {
+        try {
+            T[] tArr = this.f63584b;
+            int i = this.f63583a;
+            this.f63583a = i + 1;
+            return tArr[i];
+        } catch (ArrayIndexOutOfBoundsException e) {
+            this.f63583a--;
+            throw new NoSuchElementException(e.getMessage());
+        }
+    }
+
+    @Override // java.util.Iterator
+    public final void remove() {
+        throw new UnsupportedOperationException("Operation is not supported for read-only collection");
+    }
+}

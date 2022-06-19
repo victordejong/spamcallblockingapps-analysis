@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:layout_marginTop="@dimen/space" android:text="@string/wizard_verification_success_title" style="@style/Wizard.TextViewTitle" />
+        <TextView android:layout_marginTop="@dimen/doubleSpace" android:text="@string/Success_details" style="@style/Wizard.TextViewDetails" />
+    </LinearLayout>
+</LinearLayout>

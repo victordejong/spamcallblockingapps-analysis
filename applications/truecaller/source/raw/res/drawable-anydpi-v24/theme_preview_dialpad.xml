@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="245.0dip" android:width="136.0dip" android:viewportWidth="160.0" android:viewportHeight="288.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="Theme-picker" android:translateX="-100.0" android:translateY="-112.0">
+        <group android:name="Group-2" android:translateX="100.0" android:translateY="112.0">
+            <path android:name="phone_dial_pad" android:fillColor="#ff0087ff" android:pathData="M 80 232 C 86.627416998 232 92 237.372583002 92 244 C 92 250.627416998 86.627416998 256 80 256 C 73.372583002 256 68 250.627416998 68 244 C 68 237.372583002 73.372583002 232 80 232 Z" android:strokeWidth="1.0" android:fillType="evenOdd" />
+        </group>
+    </group>
+</vector>

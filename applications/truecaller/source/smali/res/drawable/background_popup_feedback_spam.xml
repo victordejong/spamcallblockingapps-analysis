@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:bottomLeftRadius="@dimen/after_call_tcx_corner_radius" android:bottomRightRadius="@dimen/after_call_tcx_corner_radius" />
+            <solid android:color="@color/tcx_alertBackgroundRed_light" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/after_call_tcx_corner_radius" />
+            <solid android:color="?tcx_backgroundPrimary" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="@dimen/imageListImageHeight" android:layout_height="@dimen/imageListImageHeight" android:layout_marginEnd="@dimen/doubleSpace" app:cardCornerRadius="@dimen/space"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:id="@id/selectionView" android:background="@drawable/biz_brand_image_selected" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.cardview.widget.CardView>

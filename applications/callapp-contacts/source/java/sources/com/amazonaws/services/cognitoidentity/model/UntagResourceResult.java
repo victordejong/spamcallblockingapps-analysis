@@ -1,0 +1,20 @@
+package com.amazonaws.services.cognitoidentity.model;
+
+import java.io.Serializable;
+/* loaded from: classes-dex2jar.jar:com/amazonaws/services/cognitoidentity/model/UntagResourceResult.class */
+public class UntagResourceResult implements Serializable {
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        return obj != null && (obj instanceof UntagResourceResult);
+    }
+
+    public int hashCode() {
+        return 1;
+    }
+
+    public String toString() {
+        return "{}";
+    }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon" android:layout_width="@dimen/free_pro_icon" android:layout_height="@dimen/free_pro_icon" android:contentDescription="@null" app:srcCompat="@drawable/ic_invite_present" />
+    <TextView android:textSize="@dimen/text_size_head5" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_doublespace" android:fontFamily="sans-serif" style="@style/TextAppearance.Truecaller.ListItem.Primary" />
+    <TextView android:gravity="center_horizontal" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_space" android:fontFamily="sans-serif" style="@style/TextAppearance.Truecaller.ListItem.Secondary" />
+</LinearLayout>

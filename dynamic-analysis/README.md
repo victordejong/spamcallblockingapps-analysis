@@ -33,7 +33,18 @@ This guide assumes default MITMproxy and Android emulator settings are used.
 
 ## Break cert pinning
 
-Follow guide at: https://httptoolkit.tech/blog/frida-certificate-pinning/
+Based on the guide at: https://httptoolkit.tech/blog/frida-certificate-pinning/
+
+Instead of downloading frida-server or frida-script.js, you can use the one provided in this repository.
+
+1. Start the emulator as described above.
+2. Download frida and frida-server from here: https://github.com/frida/frida/releases
+3. Run `adb push ./frida-server-$version-android-$arch /data/local/tmp/frida-server`
+4. Enable root: `adb root`
+5. Flag the frida-server binary as executable: `adb shell "chmod 755 /data/local/tmp/frida-server"`
+6. Start frida-server: `adb shell "/data/local/tmp/frida-server &"`
+7. Download frida-script.js from here: https://github.com/httptoolkit/frida-android-unpinning/blob/0973d25a8ac70a477b5e948dd8275b0ec6edb4b2/frida-script.js
+8. Run the script: `frida --no-pause -U -l ./frida-script.js -f $TARGET_PACKAGE_NAME`
 
 ## Test data
 

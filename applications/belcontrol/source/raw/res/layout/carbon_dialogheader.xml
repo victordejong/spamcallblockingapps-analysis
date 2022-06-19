@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <carbon.widget.TextView android:textAppearance="?carbon_textAppearanceTitle" android:id="@id/carbon_windowTitle" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="16.0dip" />
+    <carbon.widget.Divider android:layout_gravity="bottom" android:id="@id/carbon_topDivider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</carbon.widget.FrameLayout>

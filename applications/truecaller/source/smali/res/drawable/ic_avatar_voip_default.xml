@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/voip_avatar_dafault_background_color" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_avatar_voip_face_default" />
+</layer-list>

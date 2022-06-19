@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_icon_bg_image" android:background="@drawable/ripple_or_holo_masked_rect" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:tint="@color/very_transparent_black" />
+    <ImageView android:layout_gravity="center" android:id="@id/item_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_menu_white" />
+    <TextView android:gravity="center" android:layout_gravity="bottom" android:id="@id/item_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" style="@style/Body2.Topbar_subtitle" />
+</FrameLayout>

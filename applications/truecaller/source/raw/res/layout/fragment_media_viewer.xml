@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/background" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.truecaller.messaging.mediaviewer.InteractiveMediaView android:id="@id/mediaView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageButton android:layout_gravity="center" android:id="@id/playbackButton" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/bottomContatiner" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.truecaller.android.truemoji.widget.EmojiTextView android:textColor="@color/tcx_textPrimary_dark" android:ellipsize="end" android:id="@id/messageText" android:background="@color/media_viewer_toolbar_background" android:padding="@dimen/doubleSpace" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" style="@style/StyleX.Text.Body.B1" />
+        <com.google.android.exoplayer2.ui.PlayerControlView android:id="@id/playerControlView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:controller_layout_id="@layout/view_media_viewer_video_controls" app:show_timeout="-1" />
+    </LinearLayout>
+</FrameLayout>

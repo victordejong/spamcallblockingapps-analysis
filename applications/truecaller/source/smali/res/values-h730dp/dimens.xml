@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="acs_action_container_bottom_margin">10.0dip</dimen>
+    <item type="dimen" name="acs_action_container_bottom_margin_ratio">4.0</item>
+    <dimen name="acs_action_container_height">48.0dip</dimen>
+    <dimen name="acs_action_icon_size">24.0dip</dimen>
+    <dimen name="acs_action_icon_top_margin">8.0dip</dimen>
+    <dimen name="acs_action_name_text_size">12.0sp</dimen>
+    <dimen name="acs_action_promo_text_size">8.0sp</dimen>
+    <dimen name="acs_action_promo_text_view_height">16.0dip</dimen>
+    <dimen name="acs_action_promo_text_view_width">28.0dip</dimen>
+    <dimen name="acs_action_promo_top_margin">2.0dip</dimen>
+    <dimen name="fullscreen_acs_alt_name_font_size">14.0sp</dimen>
+    <item type="dimen" name="fullscreen_acs_alt_name_font_size_ratio">1.14</item>
+    <dimen name="fullscreen_acs_caller_label_font_size">12.0sp</dimen>
+    <dimen name="fullscreen_acs_caller_label_height">24.0dip</dimen>
+    <dimen name="fullscreen_acs_caller_label_radius">12.0dip</dimen>
+    <dimen name="fullscreen_acs_close_button_size">32.0dip</dimen>
+    <dimen name="fullscreen_acs_name_font_size">28.0sp</dimen>
+    <item type="dimen" name="fullscreen_acs_name_font_size_ratio">1.14</item>
+    <item type="dimen" name="fullscreen_acs_number_font_size_ratio">1.12</item>
+    <dimen name="fullscreen_acs_profile_image_size">76.0dip</dimen>
+    <item type="dimen" name="fullscreen_acs_profile_image_size_ratio">1.65</item>
+    <item type="dimen" name="fullscreen_acs_profile_image_top_margin_ratio">8.66</item>
+    <dimen name="fullscreen_acs_top_margin">8.0dip</dimen>
+    <dimen name="fullscreen_acs_unknown_name_font_size">24.0sp</dimen>
+    <dimen name="fullscreen_label_font_size">14.0sp</dimen>
+    <dimen name="fullscreen_view_profile_bottom_margin">12.0dip</dimen>
+    <item type="dimen" name="fullscreen_view_profile_bottom_margin_ratio">5.83</item>
+    <dimen name="incallui_minimize_button_top_margin">12.0dip</dimen>
+</resources>

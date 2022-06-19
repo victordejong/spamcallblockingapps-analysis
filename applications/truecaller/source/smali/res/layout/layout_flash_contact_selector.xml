@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?tcx_backgroundPrimary" android:paddingTop="@dimen/control_space" android:paddingBottom="@dimen/control_space" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/flash_reply_button_text" android:gravity="center_vertical" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:text="@string/flash_select_number" android:paddingStart="@dimen/control_doublespace" android:paddingEnd="@dimen/control_doublespace" style="@style/StyleX.Text.Subtitle.S1.Medium" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:padding="8.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

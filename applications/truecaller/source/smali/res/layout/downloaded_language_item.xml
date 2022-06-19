@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:background="@drawable/list_selector_activatable_all_themes" android:padding="@dimen/doubleSpace" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/text" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/size" app:layout_constraintEnd_toStartOf="@id/delete" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Text.Subtitle.S2" />
+    <TextView android:id="@id/size" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/delete" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/text" style="@style/StyleX.Text.Caption" />
+    <ImageView android:id="@id/delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/text" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_tcx_action_delete_outline_24dp" app:tint="?tcx_textSecondary" />
+</androidx.constraintlayout.widget.ConstraintLayout>

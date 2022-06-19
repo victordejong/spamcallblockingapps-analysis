@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/top_hint_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/hintIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_16_dp" android:src="@drawable/callapp_plus_allow_us_hint_cta_img" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/hintCloseButton" android:layout_toRightOf="@id/hintIcon" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/dimen_16_dp" android:textStyle="bold" android:gravity="left" android:id="@id/hintTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/grey" android:ellipsize="end" android:gravity="left" android:id="@id/hintText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_8_dp" android:text="fewfwefwefwef" />
+        <TextView android:textSize="@dimen/dimen_14_dp" android:textStyle="bold" android:textColor="@color/white_callapp" android:gravity="center" android:id="@id/allow_btn" android:paddingLeft="@dimen/dimen_16_dp" android:paddingTop="@dimen/dimen_8_dp" android:paddingRight="@dimen/dimen_16_dp" android:paddingBottom="@dimen/dimen_8_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_8_dp" android:text="cdsjcnsdk" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/hintCloseButton" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/dimen_12_dp" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" app:srcCompat="@drawable/ic_close_grey" />
+</RelativeLayout>

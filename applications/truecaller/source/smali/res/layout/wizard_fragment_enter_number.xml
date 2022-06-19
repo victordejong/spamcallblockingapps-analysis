@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/bottomSection" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:gravity="start" android:id="@id/title" android:layout_marginTop="@dimen/space" android:text="@string/EnterNumber_title" style="@style/Wizard.TextViewTitle" />
+        <TextView android:gravity="start" android:id="@id/details" android:text="@string/EnterNumber_details" style="@style/Wizard.TextViewDetails" />
+        <View android:id="@id/spacer" style="@style/Wizard.VerticalSpacer" />
+        <FrameLayout android:orientation="horizontal" android:layout_marginTop="@dimen/adjustableDoubleSpace" style="@style/Wizard.WidgetWithPageMargins">
+            <ImageView android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wizard_ic_location" />
+            <com.truecaller.wizard.internal.components.EditText android:ellipsize="end" android:id="@id/countrySpinner" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tripleSpace" android:hint="@string/EnterCountry" android:singleLine="true" android:inputType="none" android:layout_marginStart="@dimen/tripleSpace" />
+        </FrameLayout>
+        <FrameLayout android:orientation="horizontal" android:paddingBottom="@dimen/adjustableDoubleSpace" style="@style/Wizard.WidgetWithPageMargins">
+            <ImageView android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wizard_ic_phone" />
+            <com.truecaller.wizard.internal.components.EditText android:ellipsize="end" android:id="@id/numberField" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tripleSpace" android:hint="@string/EnterNumber" android:maxLength="18" android:inputType="phone" android:imeOptions="actionDone" android:layout_marginStart="@dimen/tripleSpace" />
+        </FrameLayout>
+    </LinearLayout>
+    <Button android:background="@drawable/wizard_bg_button_green" style="@style/Wizard.ContinueButton" />
+</LinearLayout>

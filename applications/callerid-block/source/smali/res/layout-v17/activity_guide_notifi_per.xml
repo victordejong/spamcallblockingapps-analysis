@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:material="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="280.0dip" android:layout_height="139.0dip" android:src="@drawable/iv_guide_notifi_per" android:layout_centerHorizontal="true" />
+            <com.callerid.block.customview.LImageButton android:id="@id/iv_close" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_tag_close" android:layout_alignParentRight="true" android:contentDescription="@string/close" android:layout_alignParentEnd="true" material:widget_animColor="@color/colorTabIndicator" />
+        </RelativeLayout>
+        <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:layout_gravity="center_horizontal" android:id="@id/tv_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:text="@string/notifi_per_guide" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff333333" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_tip1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/notifi_per_guide_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <FrameLayout android:id="@id/flayout_btn" android:background="@drawable/bg_ad_bt" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:foreground="@drawable/card_foreground" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/tv_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tip_show2" android:textAllCaps="true" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

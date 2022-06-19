@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" app:cardBackgroundColor="?color_ffffff" app:cardCornerRadius="3.0dip" app:cardElevation="4.0dip" app:cardUseCompatPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/fl_filter_all" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <ImageView android:id="@id/iv_call" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_all_calllog" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" app:tint="?icon_color_gray" />
+                <TextView android:textSize="14.0sp" android:textColor="?color_333333" android:id="@id/tv_filter_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/all" android:layout_toRightOf="@id/iv_call" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:layout_toEndOf="@id/iv_call" />
+            </RelativeLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/fl_filter_incoming" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <ImageView android:id="@id/iv_incoming" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_calllog_incomming_normal" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+                <TextView android:textSize="14.0sp" android:textColor="?color_333333" android:id="@id/tv_filter_incoming" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/incoming_calls" android:layout_toRightOf="@id/iv_incoming" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:layout_toEndOf="@id/iv_incoming" />
+            </RelativeLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/fl_filter_outgoing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <ImageView android:id="@id/iv_outgoing" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_calllog_outgoing_nomal" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+                <TextView android:textSize="14.0sp" android:textColor="?color_333333" android:id="@id/tv_filter_outgoing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/outgoing_calls" android:layout_toRightOf="@id/iv_outgoing" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:layout_toEndOf="@id/iv_outgoing" />
+            </RelativeLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/fl_filter_missed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <ImageView android:id="@id/iv_missed" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/ic_calllog_missed_normal" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+                <TextView android:textSize="14.0sp" android:textColor="?color_333333" android:id="@id/tv_filter_missed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/missed_callss" android:layout_toRightOf="@id/iv_missed" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:layout_toEndOf="@id/iv_missed" />
+            </RelativeLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/fl_filter_delete" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <ImageView android:id="@id/iv_delete_all" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/iv_delete_call" android:layout_centerVertical="true" android:contentDescription="@string/block_delete" android:layout_marginStart="16.0dip" app:tint="?icon_color_gray" />
+                <TextView android:textSize="14.0sp" android:textColor="?color_333333" android:id="@id/tv_filter_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/delete_all_call" android:layout_toRightOf="@id/iv_delete_all" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:layout_toEndOf="@id/iv_delete_all" />
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

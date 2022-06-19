@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.viewpager.widget.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.callapp.contacts.widget.CirclePaginationContainer android:id="@id/paginatedContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:pc_checked_item_color="@color/white_callapp" app:pc_item_height="20.0dip" app:pc_item_width="10.0dip" app:pc_margin_between_each_item="16.0dip" app:pc_unchecked_item_color="@color/semi_transparent_white" xmlns:app="http://schemas.android.com/apk/res-auto" />
+</merge>

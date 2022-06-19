@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:id="@id/container" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:layout_gravity="center_horizontal" android:id="@id/slider" android:background="@drawable/incallui_end_and_report_slider" android:layout_width="150.0dip" android:layout_height="3.0dip" android:layout_marginBottom="24.0dip" />
-    <TextView android:textSize="17.0sp" android:textStyle="normal" android:textColor="#ff000000" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:fontFamily="sans-serif-medium" />
-    <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/endAndReport" android:background="@drawable/incallui_end_and_report_background" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:minHeight="0.0dip" android:text="End &amp; Report Call" android:textAllCaps="false" android:fontFamily="sans-serif" />
-</LinearLayout>

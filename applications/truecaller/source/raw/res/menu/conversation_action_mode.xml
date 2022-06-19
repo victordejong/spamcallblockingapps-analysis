@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_tcx_action_forward_outline_24dp" android:id="@id/actionForward" android:visible="false" android:title="@string/ConversationForward" />
+    <item android:icon="@drawable/ic_tcx_share_24dp" android:id="@id/actionShare" android:visible="false" android:title="@string/ConversationShare" />
+    <item android:icon="@drawable/ic_tcx_select_all_24dp" android:id="@id/actionSelectAllCalls" android:visible="false" android:title="@string/ConversationSelectAllCalls" />
+    <item android:icon="@drawable/ic_tcx_action_edit_24dp" android:id="@id/actionEdit" android:visible="false" android:title="@string/ConversationErrorEdit" />
+    <item android:icon="@drawable/ic_tcx_star_outline_24dp" android:id="@id/actionMarkImportant" android:visible="false" android:title="@string/ConversationMarkImportant" />
+    <item android:icon="@drawable/ic_tcx_star_crossed_outline_24dp" android:id="@id/actionNotImportant" android:visible="false" android:title="@string/ConversationNotImportant" />
+    <item android:icon="@drawable/ic_tcx_action_download_outline_24dp" android:id="@id/actionDownload" android:visible="false" android:title="@string/menu_download" />
+    <item android:icon="@drawable/ic_tcx_action_block_outline_24dp" android:id="@id/actionSpam" android:visible="false" android:title="@string/ConversationReportSpam" />
+    <item android:icon="@drawable/ic_tcx_action_block_outline_24dp" android:id="@id/actionNotSpam" android:visible="false" android:title="@string/ConversationNotSpam" />
+    <item android:icon="@drawable/ic_outline_local_offer_24dp" android:id="@id/actionPromotional" android:visible="false" android:title="@string/ConversationReportPromotional" />
+    <item android:icon="@drawable/ic_outline_no_local_offer_24dp" android:id="@id/actionNotPromotional" android:visible="false" android:title="@string/ConversationReportNotPromotional" />
+    <item android:icon="@drawable/ic_tcx_action_message_outline_24dp" android:id="@id/actionResendSms" android:visible="false" android:title="@string/ConversationErrorResendSms" />
+    <item android:icon="@drawable/ic_tcx_feedback_24dp" android:id="@id/actionFeedback" android:visible="false" android:title="@string/ConversationDetailsActionSendFeedback" />
+    <item android:icon="@drawable/ic_tcx_action_info_24dp" android:id="@id/actionInfo" android:visible="false" android:title="@string/ConversationMoreDetails" />
+    <item android:icon="@drawable/ic_tcx_select_all_24dp" android:id="@id/actionSelectAllMessages" android:visible="false" android:title="@string/ConversationSelectAllMessages" />
+</menu>

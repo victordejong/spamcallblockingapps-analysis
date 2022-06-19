@@ -1,0 +1,90 @@
+.class public final Lcom/hiya/stingray/s/e/d2;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lj/a/a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Ljava/lang/Object<",
+        "Li/c/b0/c/a;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field private final a:Lcom/hiya/stingray/s/e/b2;
+
+
+# direct methods
+.method public constructor <init>(Lcom/hiya/stingray/s/e/b2;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    iput-object p1, p0, Lcom/hiya/stingray/s/e/d2;->a:Lcom/hiya/stingray/s/e/b2;
+
+    return-void
+.end method
+
+.method public static a(Lcom/hiya/stingray/s/e/b2;)Lcom/hiya/stingray/s/e/d2;
+    .locals 1
+
+    .line 1
+    new-instance v0, Lcom/hiya/stingray/s/e/d2;
+
+    invoke-direct {v0, p0}, Lcom/hiya/stingray/s/e/d2;-><init>(Lcom/hiya/stingray/s/e/b2;)V
+
+    return-object v0
+.end method
+
+.method public static c(Lcom/hiya/stingray/s/e/b2;)Li/c/b0/c/a;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/hiya/stingray/s/e/b2;->b()Li/c/b0/c/a;
+
+    move-result-object p0
+
+    const-string v0, "Cannot return null from a non-@Nullable @Provides method"
+
+    .line 2
+    invoke-static {p0, v0}, Lh/b/b;->c(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+
+    check-cast p0, Li/c/b0/c/a;
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public b()Li/c/b0/c/a;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/hiya/stingray/s/e/d2;->a:Lcom/hiya/stingray/s/e/b2;
+
+    invoke-static {v0}, Lcom/hiya/stingray/s/e/d2;->c(Lcom/hiya/stingray/s/e/b2;)Li/c/b0/c/a;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic get()Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lcom/hiya/stingray/s/e/d2;->b()Li/c/b0/c/a;
+
+    move-result-object v0
+
+    return-object v0
+.end method

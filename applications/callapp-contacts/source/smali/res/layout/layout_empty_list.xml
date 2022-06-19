@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="64.0dip">
+        <ImageView android:id="@id/empty_list_img_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/empty_list_img" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <TextView android:id="@id/empty_list_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" style="@style/Title.Dialog_title" />
+    <TextView android:gravity="center_horizontal" android:id="@id/empty_list_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:lineSpacingExtra="2.0dip" style="@style/Body2.Name_text" />
+</LinearLayout>

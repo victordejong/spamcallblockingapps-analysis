@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/top_nav" />
+    <WebView android:id="@id/more_apps_content" android:paddingTop="4.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:gravity="center" android:id="@id/boredo_apps_message" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/loading" android:lines="3" style="@style/ListItemTextTitle" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white_fontcolor" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textStyle="normal" android:id="@id/dialog_msg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" />
+    <CheckBox android:textSize="12.0sp" android:tag="dialog_cb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:text="@string/dont_show_cb_text" android:buttonTint="@color/checkbox_selector" />
+</LinearLayout>

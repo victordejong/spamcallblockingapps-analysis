@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout android:id="@id/drawer_layout" android:tag="layout/home_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.Toolbar android:id="@id/appToolbar" style="@style/appBarToolbar" />
+            </com.google.android.material.appbar.AppBarLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                <com.google.android.material.card.MaterialCardView android:id="@id/cardBanner" android:layout_margin="0.0dip" android:layout_marginBottom="5.0dip" style="@style/basicCard">
+                    <LinearLayout style="@style/llParentWidth">
+                        <LinearLayout style="@style/llParentWidthHorizontal">
+                            <LinearLayout android:background="@color/ratingNegativeColorLight" android:layout_weight="1.0" style="@style/llSimpleHorizontalCenterVertical">
+                                <ImageView android:id="@id/imgWarningFlag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/spaceSmall" android:src="@drawable/ic_action_warning_dark" android:tint="@color/colorTextPrimaryDark" />
+                                <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:textColor="@color/colorTextPrimaryDark" android:id="@id/tvBannerTitle" android:layout_marginRight="@dimen/spaceSmallest" android:text="This is important text" style="@style/textViewStyle" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:padding="@dimen/spaceMedium" style="@style/llParentWidth">
+                            <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:layout_gravity="left" android:id="@id/tvBannerText" android:layout_marginTop="@dimen/spaceMedium" android:text="Positive Telemarketing" style="@style/textViewStyle" />
+                            <LinearLayout android:layout_marginTop="@dimen/spaceMedium" style="@style/llParentWidthHorizontalRight">
+                                <com.google.android.material.button.MaterialButton android:id="@id/butBannerSecondary" android:layout_marginRight="@dimen/spaceMedium" android:text="Secondary" style="@style/buttonBorderless" />
+                                <com.google.android.material.button.MaterialButton android:id="@id/butBannerPrimary" android:layout_marginRight="@dimen/spaceMedium" android:text="Primary" style="@style/buttonBorderless" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+                <androidx.viewpager.widget.ViewPager android:id="@id/viewPager" android:background="?colorBackgroundSecondary" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+            </LinearLayout>
+            <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="bottom|center|right" android:id="@id/fab" android:src="@drawable/ic_dialpad_white_24dp" android:contentDescription="@string/activity_main_but_fab_accessibility" android:backgroundTint="?colorPrimary" style="@style/fab" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <com.google.android.material.bottomnavigation.BottomNavigationView android:layout_gravity="bottom" android:id="@id/bottomNavigation" android:background="?colorBackgroundPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" app:itemIconTint="@drawable/activity_main_bottom_navigation_selector" app:itemTextColor="@drawable/activity_main_bottom_navigation_selector" app:menu="@menu/activity_main_bottom_navigation" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="start" android:id="@id/left_drawer" android:layout_width="240.0dip" android:layout_height="fill_parent" style="@style/llLeftPanel">
+        <LinearLayout android:focusable="true" android:clickable="true" style="@style/llLeftPanelTop">
+            <ImageView android:layout_gravity="center" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_margin="@dimen/spaceBig" android:src="@drawable/logo_big" />
+        </LinearLayout>
+        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout style="@style/llSection">
+                <androidx.appcompat.widget.AppCompatButton android:id="@id/butSettings" android:text="@string/activity_main_side_but_settings" android:drawableStart="?ic_settings_24dp" style="@style/buttonSettings" />
+                <androidx.appcompat.widget.AppCompatButton android:id="@id/butCommunity" android:text="@string/activity_main_side_but_community" android:drawableStart="?ic_share_24dp" style="@style/buttonSettings" />
+                <androidx.appcompat.widget.AppCompatButton android:id="@id/butReportIssue" android:text="@string/activity_main_side_but_report_issue" android:drawableStart="?ic_bug_report_24dp" style="@style/buttonSettings" />
+                <androidx.appcompat.widget.AppCompatButton android:id="@id/butManual" android:text="@string/manual" android:drawableStart="?ic_help_outline_24dp" style="@style/buttonSettings" />
+                <androidx.appcompat.widget.AppCompatButton android:id="@id/butAbout" android:text="@string/activity_main_side_but_about" android:drawableStart="?ic_info_outline_24dp" style="@style/buttonSettings" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

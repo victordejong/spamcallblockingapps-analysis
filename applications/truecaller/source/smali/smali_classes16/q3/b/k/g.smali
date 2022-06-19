@@ -1,0 +1,110 @@
+.class public final Lq3/b/k/g;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lq3/b/b;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lq3/b/b<",
+        "Ljava/lang/Integer;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final a:Lq3/b/i/d;
+
+.field public static final b:Lq3/b/k/g;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 3
+
+    .line 1
+    new-instance v0, Lq3/b/k/g;
+
+    invoke-direct {v0}, Lq3/b/k/g;-><init>()V
+
+    sput-object v0, Lq3/b/k/g;->b:Lq3/b/k/g;
+
+    .line 2
+    new-instance v0, Lq3/b/k/r;
+
+    sget-object v1, Lq3/b/i/c$b;->a:Lq3/b/i/c$b;
+
+    const-string v2, "kotlin.Int"
+
+    invoke-direct {v0, v2, v1}, Lq3/b/k/r;-><init>(Ljava/lang/String;Lq3/b/i/c;)V
+
+    sput-object v0, Lq3/b/k/g;->a:Lq3/b/i/d;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()Lq3/b/i/d;
+    .locals 1
+
+    .line 1
+    sget-object v0, Lq3/b/k/g;->a:Lq3/b/i/d;
+
+    return-object v0
+.end method
+
+.method public b(Lq3/b/j/e;Ljava/lang/Object;)V
+    .locals 1
+
+    .line 1
+    check-cast p2, Ljava/lang/Number;
+
+    invoke-virtual {p2}, Ljava/lang/Number;->intValue()I
+
+    move-result p2
+
+    const-string v0, "encoder"
+
+    .line 2
+    invoke-static {p1, v0}, Ls1/z/c/l;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 3
+    invoke-interface {p1, p2}, Lq3/b/j/e;->i(I)V
+
+    return-void
+.end method
+
+.method public d(Lq3/b/j/d;)Ljava/lang/Object;
+    .locals 1
+
+    const-string v0, "decoder"
+
+    .line 1
+    invoke-static {p1, v0}, Ls1/z/c/l;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 2
+    invoke-interface {p1}, Lq3/b/j/d;->o()I
+
+    move-result p1
+
+    invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object p1
+
+    return-object p1
+.end method

@@ -1,0 +1,234 @@
+{
+  "google": {
+    "tokens": [
+      "google"
+    ],
+    "tags": ["payments","online"]
+  },
+  "dlf": {
+    "tokens": [
+      "dlf"
+    ],
+    "tags": []
+  },
+  "birla": {
+    "tokens": [
+      "birla"
+    ],
+    "tags": []
+  },
+  "tata": {
+    "tokens": [
+      "tata"
+    ],
+    "tags": []
+  },
+  "airtel": {
+    "tokens": [
+      "airtel"
+    ],
+    "tags": ["communication", "network_provider"]
+  },
+  "pantaloons": {
+    "tokens": [
+      "pantaloons"
+    ],
+    "tags": ["fashion"]
+  },
+  "swiggy": {
+    "tokens": [
+      "swiggy"
+    ],
+    "tags": ["food","online"]
+  },
+  "vodafone": {
+    "tokens": [
+      "vodafone"
+    ],
+    "tags": ["communication","online"]
+  },
+  "edunetwork": {
+    "tokens": [
+      "edunetwork"
+    ],
+    "tags": []
+  },
+  "faaso": {
+    "tokens": [
+      "faaso",
+      "ffspl"
+    ],
+    "tags": ["food", "online"]
+  },
+  "mcdonalds": {
+    "tokens": [
+      "mcdonalds"
+    ],
+    "tags": ["food"]
+  },
+  "paypal": {
+    "tokens": [
+      "paypal"
+    ],
+    "tags": ["payments", "online"]
+  },
+  "bookmyshow": {
+    "tokens": [
+      "bookmyshow",
+      "bms"
+    ],
+    "tags": ["entertainment"]
+  },
+  "cleartrip": {
+    "tokens": [
+      "cleartrip"
+    ],
+    "tags": ["travel", "hospitality", "online"]
+  },
+  "goibibo": {
+    "tokens": [
+      "goibibo"
+    ],
+    "tags": ["travel", "online"]
+  },
+  "foodpanda": {
+    "tokens": [
+      "foodpanda"
+    ],
+    "tags": ["food","online"]
+  },
+  "irctc": {
+    "tokens": [
+      "irctc",
+      "rail"
+    ],
+    "tags": ["travel", "railway"]
+  },
+  "zomato": {
+    "tokens": [
+      "zomato"
+    ],
+    "tags": ["food","online"]
+  },
+  "policybazar": {
+    "tokens": [
+      "policybazar",
+      "monetary"
+    ],
+    "tags": ["monetary","online"]
+  },
+  "starbucks": {
+    "tokens": [
+      "starbucks"
+    ],
+    "tags": ["food"]
+  },
+  "dominos": {
+    "tokens": [
+      "dominos"
+    ],
+    "tags": ["food"]
+  },
+  "inox": {
+    "tokens": [
+      "inox"
+    ],
+    "tags": ["entertainment"]
+  },
+  "lifestyle": {
+    "tokens": [
+      "lifestyle"
+    ],
+    "tags": ["fashion"]
+  },
+  "netflix": {
+    "tokens": [
+      "netflix"
+    ],
+    "tags": ["entertainment","online"]
+  },
+  "instamojo": {
+    "tokens": [
+      "instamojo"
+    ],
+    "tags": ["payments","entertainment","online"]
+  },
+  "myntra": {
+    "tokens": [
+      "myntra"
+    ],
+    "tags": ["fashion","online"]
+  },
+  "ola": {
+    "tokens": [
+      "ola"
+    ],
+    "tags": ["travel"]
+  },
+  "uber": {
+    "tokens": [
+      "uber"
+    ],
+    "tags": ["travel"]
+  },
+  "freecharge": {
+    "tokens": [
+      "freecharge"
+    ],
+    "tags": ["payments"]
+  },
+  "instakart": {
+    "tokens": [
+      "instakart"
+    ],
+    "tags": ["payments"]
+  },
+  "makemytrip": {
+    "tokens": [
+      "makemytrip"
+    ],
+    "tags": ["travel", "hospitality", "online"]
+  },
+  "reliance": {
+    "tokens": [
+      "reliance"
+    ],
+    "tags": []
+  },
+  "ccavenue": {
+    "tokens": [
+      "ccavenue"
+    ],
+    "tags": ["payments"]
+  },
+  "mobikwik": {
+    "tokens": [
+      "mobikwik"
+    ],
+    "tags": ["payments"]
+  },
+  "yatra": {
+    "tokens": [
+      "yatra"
+    ],
+    "tags": ["travel","online"]
+  },
+  "spicejet": {
+    "tokens": [
+      "spicejet"
+    ],
+    "tags": ["travel"]
+  },
+  "indigo": {
+    "tokens": [
+      "indigo"
+    ],
+    "tags": ["travel"]
+  },
+  "paytm": {
+    "tokens": [
+      "paytm"
+    ],
+    "tags": ["payments","online"]
+  }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/inner_ad_container" android:background="@drawable/ripple_or_holo_masked_rect" android:layout_width="fill_parent" android:layout_height="@dimen/native_ad_small_media_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/media_container" android:layout_width="@dimen/native_ad_small_media_width" android:layout_height="@dimen/native_ad_small_media_height">
+        <ImageView android:id="@id/native_ad_main_image" android:background="@drawable/ripple_or_holo_masked_rect" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/top_right_container" android:layout_width="fill_parent" android:layout_height="66.0dip" android:layout_toRightOf="@id/media_container" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+        <RelativeLayout android:id="@id/top_ad_section" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginEnd="8.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ad_mark_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+                <TextView android:layout_gravity="center_vertical" android:id="@id/ad_mark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ad" style="@style/NativeAdSmallIconText" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/native_ad_privacy_information_icon_image" android:background="@null" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="4.0dip" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/ad_choices_relative_layout_id" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/native_ad_title_primary" android:background="?selectableItemBackground" android:paddingLeft="@dimen/dimen_4_dp" android:paddingRight="@dimen/dimen_4_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="1" android:layout_toLeftOf="@id/ad_mark_container" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_toStartOf="@id/ad_mark_container" android:layout_alignParentStart="true" style="@style/Body5" />
+        </RelativeLayout>
+        <ImageView android:id="@id/native_ad_icon_image" android:background="@drawable/ripple_or_holo" android:layout_width="@dimen/dimen_24_dp" android:layout_height="@dimen/dimen_24_dp" android:layout_marginLeft="@dimen/dimen_10_dp" android:layout_marginTop="6.0dip" android:layout_marginRight="@dimen/dimen_10_dp" android:layout_below="@id/top_ad_section" android:layout_centerVertical="true" />
+        <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/native_ad_text" android:background="?selectableItemBackground" android:paddingRight="@dimen/dimen_4_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="2" android:maxLength="103" android:layout_toRightOf="@id/native_ad_icon_image" android:layout_below="@id/top_ad_section" style="@style/Caption.Number_text" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/native_ad_cta_text_primary_container" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_toRightOf="@id/media_container" android:layout_alignBottom="@id/media_container">
+        <com.callapp.contacts.widget.GoneWhenEmptyTextView android:textColor="@color/white_callapp" android:id="@id/native_ad_cta_text" android:background="?selectableItemBackground" android:paddingLeft="@dimen/cta_button_padding_sides" android:paddingRight="@dimen/cta_button_padding_sides" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/Body1.Ads_text" />
+    </RelativeLayout>
+</RelativeLayout>

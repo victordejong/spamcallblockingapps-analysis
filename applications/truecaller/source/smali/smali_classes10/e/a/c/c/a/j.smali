@@ -1,0 +1,34 @@
+.class public final Le/a/c/c/a/j;
+.super Ln3/c0/f0/a;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    const/16 v0, 0x12
+
+    const/16 v1, 0x13
+
+    .line 1
+    invoke-direct {p0, v0, v1}, Ln3/c0/f0/a;-><init>(II)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Ln3/e0/a/b;)V
+    .locals 3
+
+    const-string v0, "database"
+
+    const-string v1, "DELETE FROM aggregation_queries"
+
+    const-string v2, "ALTER TABLE aggregation_queries\nADD COLUMN periodicity\nTEXT NOT NULL DEFAULT DAILY"
+
+    invoke-static {p1, v0, v1, v2}, Le/d/c/a/a;->u0(Ln3/e0/a/b;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    return-void
+.end method

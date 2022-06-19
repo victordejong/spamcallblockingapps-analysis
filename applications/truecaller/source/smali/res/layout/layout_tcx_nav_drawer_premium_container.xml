@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.truecaller.premium.ui.PremiumNavDrawerItemView android:id="@id/premiumNavDrawerItemView" android:background="@drawable/ripple_tcx_rectangle_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_triplespace" android:minHeight="64.0dip" android:layout_marginStart="@dimen/control_space" android:layout_marginEnd="@dimen/control_space" />
+</FrameLayout>

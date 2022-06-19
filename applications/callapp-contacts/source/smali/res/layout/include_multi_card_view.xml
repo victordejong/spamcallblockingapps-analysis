@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/multiCardFrame" android:paddingBottom="@dimen/dimen_3_dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card="http://schemas.android.com/apk/res-auto">
+    <com.callapp.contacts.widget.recyclerviewext.CardRecyclerView android:id="@id/cards_recyclerview" android:layout_width="fill_parent" android:layout_height="wrap_content" card:list_card_layout_resourceID="@layout/native_recyclerview_card_layout_callapp" />
+    <LinearLayout android:orientation="vertical" android:id="@id/bottomLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/dividerHeader" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/dimen_1_dp" android:layout_marginRight="@dimen/dimen_1_dp" android:minHeight="1.0dip" />
+        <TextView android:textStyle="normal" android:textColor="@color/colorPrimary" android:gravity="center" android:id="@id/expandToggle" android:background="@drawable/ripple_or_holo_masked_rect" android:paddingTop="@dimen/dimen_3_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/content" android:paddingBottom="24.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/PremiumUserTabCardContent">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="24.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_premium_user_tab_card_gold_caller_id" />
+        <TextView android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="@string/PremiumGoldFeatureGoldCallerId" android:layout_marginEnd="24.0dip" app:layout_constraintEnd_toStartOf="@id/icon" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Text.Headline.H6" />
+        <View android:id="@id/divider" android:background="?tcx_fillQuarternaryBackground" android:layout_width="0.0dip" android:layout_height="0.5dip" android:layout_marginTop="32.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" />
+        <com.truecaller.premium.GoldCallerIdPreviewView android:id="@id/callerIdPreview" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/divider" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.truecaller.premium.premiumusertab.list.LabelView android:id="@id/label" style="@style/PremiumUserTabCardLabel" />
+</FrameLayout>

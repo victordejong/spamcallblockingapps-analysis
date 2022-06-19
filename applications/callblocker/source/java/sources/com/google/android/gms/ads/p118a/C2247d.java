@@ -1,0 +1,137 @@
+package com.google.android.gms.ads.p118a;
+
+import android.content.Context;
+import android.view.View;
+import android.view.ViewGroup;
+import com.google.android.gms.ads.C2249b;
+import com.google.android.gms.ads.C2286e;
+import com.google.android.gms.ads.C2297h;
+import com.google.android.gms.ads.C2386o;
+import com.google.android.gms.ads.C2387p;
+import com.google.android.gms.ads.C2389q;
+import com.google.android.gms.internal.ads.C3645yb;
+import com.google.android.gms.internal.ads.ebk;
+/* renamed from: com.google.android.gms.ads.a.d */
+/* loaded from: classes-dex2jar.jar:com/google/android/gms/ads/a/d.class */
+public final class C2247d extends ViewGroup {
+
+    /* renamed from: a */
+    private final ebk f6536a;
+
+    public final C2249b getAdListener() {
+        return this.f6536a.m8026b();
+    }
+
+    public final C2286e getAdSize() {
+        return this.f6536a.m8024c();
+    }
+
+    public final C2286e[] getAdSizes() {
+        return this.f6536a.m8023d();
+    }
+
+    public final String getAdUnitId() {
+        return this.f6536a.m8022e();
+    }
+
+    public final AbstractC2244a getAppEventListener() {
+        return this.f6536a.m8021f();
+    }
+
+    @Deprecated
+    public final String getMediationAdapterClassName() {
+        return this.f6536a.m8017j();
+    }
+
+    public final AbstractC2246c getOnCustomRenderedAdLoadedListener() {
+        return this.f6536a.m8020g();
+    }
+
+    public final C2386o getResponseInfo() {
+        return this.f6536a.m8016k();
+    }
+
+    public final C2387p getVideoController() {
+        return this.f6536a.m8015l();
+    }
+
+    public final C2389q getVideoOptions() {
+        return this.f6536a.m8013n();
+    }
+
+    @Override // android.view.ViewGroup, android.view.View
+    protected final void onLayout(boolean z, int i, int i2, int i3, int i4) {
+        View childAt = getChildAt(0);
+        if (childAt == null || childAt.getVisibility() == 8) {
+            return;
+        }
+        int measuredWidth = childAt.getMeasuredWidth();
+        int measuredHeight = childAt.getMeasuredHeight();
+        int i5 = ((i3 - i) - measuredWidth) / 2;
+        int i6 = ((i4 - i2) - measuredHeight) / 2;
+        childAt.layout(i5, i6, measuredWidth + i5, measuredHeight + i6);
+    }
+
+    @Override // android.view.View
+    protected final void onMeasure(int i, int i2) {
+        int i3;
+        int i4;
+        View childAt = getChildAt(0);
+        if (childAt == null || childAt.getVisibility() == 8) {
+            C2286e c2286e = null;
+            try {
+                c2286e = getAdSize();
+            } catch (NullPointerException e) {
+                C3645yb.m6748c("Unable to retrieve ad size.", e);
+            }
+            if (c2286e != null) {
+                Context context = getContext();
+                i4 = c2286e.m14826b(context);
+                i3 = c2286e.m14829a(context);
+            } else {
+                i3 = 0;
+                i4 = 0;
+            }
+        } else {
+            measureChild(childAt, i, i2);
+            i4 = childAt.getMeasuredWidth();
+            i3 = childAt.getMeasuredHeight();
+        }
+        setMeasuredDimension(View.resolveSize(Math.max(i4, getSuggestedMinimumWidth()), i), View.resolveSize(Math.max(i3, getSuggestedMinimumHeight()), i2));
+    }
+
+    public final void setAdListener(C2249b c2249b) {
+        this.f6536a.m8035a(c2249b);
+    }
+
+    public final void setAdSizes(C2286e... c2286eArr) {
+        if (c2286eArr == null || c2286eArr.length <= 0) {
+            throw new IllegalArgumentException("The supported ad sizes must contain at least one valid ad size.");
+        }
+        this.f6536a.m8025b(c2286eArr);
+    }
+
+    public final void setAdUnitId(String str) {
+        this.f6536a.m8029a(str);
+    }
+
+    public final void setAppEventListener(AbstractC2244a abstractC2244a) {
+        this.f6536a.m8037a(abstractC2244a);
+    }
+
+    @Deprecated
+    public final void setCorrelator(C2297h c2297h) {
+    }
+
+    public final void setManualImpressionsEnabled(boolean z) {
+        this.f6536a.m8028a(z);
+    }
+
+    public final void setOnCustomRenderedAdLoadedListener(AbstractC2246c abstractC2246c) {
+        this.f6536a.m8036a(abstractC2246c);
+    }
+
+    public final void setVideoOptions(C2389q c2389q) {
+        this.f6536a.m8033a(c2389q);
+    }
+}

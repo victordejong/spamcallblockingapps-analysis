@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/report_issue_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_weight="1.0" style="@style/llParentAll">
+            <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.Toolbar android:id="@id/appToolbar" style="@style/appBarToolbar" />
+                </com.google.android.material.appbar.AppBarLayout>
+                <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                    <LinearLayout android:focusableInTouchMode="true" style="@style/llMainContent">
+                        <LinearLayout android:id="@id/llSelectedIssueType" style="@style/llParentWidthHorizontalCenter">
+                            <LinearLayout android:layout_weight="1.0" style="@style/llParentWidth">
+                                <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:text="@string/selected_issue_type" android:layout_weight="1.0" style="@style/textViewStyleSectionTitle" />
+                                <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvSelectedIssueType" android:layout_width="fill_parent" android:text="Personal" android:layout_weight="1.0" style="@style/textViewStyle" />
+                            </LinearLayout>
+                            <Button android:id="@id/butChangeIssueType" android:text="@string/change" style="@style/buttonBorderless" />
+                        </LinearLayout>
+                        <LinearLayout android:id="@id/llSelectIssueType" android:visibility="gone" style="@style/llSection">
+                            <androidx.appcompat.widget.AppCompatTextView android:layout_height="30.0dip" android:text="@string/select_issue_type" style="@style/textViewStyleAutosizedSingleLineCentered" />
+                            <Button android:id="@id/butIssueBlocking" android:layout_width="fill_parent" android:text="@string/call_blocking" style="@style/buttonBorderless" />
+                            <Button android:id="@id/butIssueInvalidNumberInfo" android:layout_width="fill_parent" android:text="@string/invalid_phone_number_information" style="@style/buttonBorderless" />
+                            <Button android:id="@id/butIssueOther" android:layout_width="fill_parent" android:text="@string/other" style="@style/buttonBorderless" />
+                        </LinearLayout>
+                        <LinearLayout android:id="@id/llIssueDescription" android:layout_marginTop="@dimen/spaceBiggest" style="@style/llSection">
+                            <androidx.appcompat.widget.AppCompatTextView android:layout_height="30.0dip" android:layout_marginBottom="@dimen/spaceMedium" android:text="@string/issue_description" style="@style/textViewStyleAutosizedSingleLineCentered" />
+                            <org.mistergroup.shouldianswer.utils.BetterEditText android:id="@id/editPhoneNumber" android:hint="@string/enter_the_problematic_phone_number" app:met_floatingLabelAlwaysShown="true" app:met_floatingLabelText="@string/phone_number" app:met_minCharacters="3" style="@style/betterEditTextStyle" />
+                            <org.mistergroup.shouldianswer.utils.BetterEditText android:id="@id/editDescription" android:hint="@string/enter_detailed_issue_description" android:inputType="textMultiLine" app:met_floatingLabelAlwaysShown="true" app:met_floatingLabelText="@string/issue_description" app:met_minCharacters="10" style="@style/betterEditTextStyle" />
+                            <org.mistergroup.shouldianswer.utils.BetterEditText android:id="@id/editEmail" android:hint="@string/enter_your_email_for_communication" app:met_floatingLabelAlwaysShown="true" app:met_floatingLabelText="@string/your_email" style="@style/betterEditTextStyle" />
+                            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvIssueMotivation" android:layout_marginBottom="@dimen/spaceMedium" android:text="@string/please_describe_your_issue_precisely_step_by_step_what_happened_and_what_was_your_actions_thank_you" style="@style/textViewStyleSecondary" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.core.widget.NestedScrollView>
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/llConfirmation" android:background="#ffffffff" android:padding="@dimen/spaceSmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="15.0dip">
+            <Button android:layout_gravity="center" android:id="@id/butSend" android:text="@string/send" style="@style/buttonAccent" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="10.0dip" android:id="@id/tvSendInfo" android:layout_marginTop="@dimen/spaceSmall" android:text="@string/device_information_and_app_logs_will_be_send_to_server_to_help_developers_solve_the_issue_phone_numbers_in_logs_are_anonymized" style="@style/textViewStyleSecondary" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:textSize="@dimen/fontBig" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/llProgress" android:background="#60000000" android:padding="@dimen/spaceMedium" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:layout_marginBottom="@dimen/spaceBig" android:text="@string/sending_report" style="@style/textViewStyleInverted" />
+        <ProgressBar android:id="@id/progressBar" android:indeterminateTint="@color/colorTextPrimaryDark" style="@style/progressBar" />
+    </LinearLayout>
+</FrameLayout>

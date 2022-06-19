@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?tcx_backgroundPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.common.ui.NonSwipeableViewPager android:id="@id/view_pager" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/divider" android:layout_alignParentTop="true" />
+    <View android:id="@id/divider" android:background="?tcx_dividerColor" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="@dimen/control_octaspace" android:layout_alignParentBottom="true" />
+    <com.truecaller.ui.view.DotPagerIndicator android:id="@id/page_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:activeColor="?tcx_brandBackgroundBlue" app:dotRadius="4.0dip" app:dotSpacing="@dimen/control_doublespace" app:inactiveColor="?tcx_textTertiary" />
+    <Button android:id="@id/next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/OnboardingNext" android:layout_alignTop="@id/divider" android:layout_alignParentBottom="true" android:layout_alignEnd="@id/page_indicator" android:layout_alignParentEnd="true" style="@style/StyleX.Button.Small.Action" />
+</RelativeLayout>

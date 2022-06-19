@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_array">
+        <item>Súkromný</item>
+        <item>Zberatelia/Banky</item>
+        <item>Reklama/Spam</item>
+        <item>Stíšené hovory</item>
+        <item>Podvody</item>
+        <item>Finančné služby</item>
+        <item>Iné..</item>
+    </string-array>
+    <string-array name="category_feedback_array">
+        <item>Bez kategórie</item>
+        <item>Zberatelia/Banky</item>
+        <item>Reklama/Spam</item>
+        <item>Stíšené hovory</item>
+        <item>Podvody</item>
+        <item>Finančné služby</item>
+        <item>Iné..</item>
+    </string-array>
+    <string-array name="posneg_array">
+        <item>Negatívna</item>
+        <item>Neutrálna</item>
+        <item>Pozitívna</item>
+    </string-array>
+    <string-array name="settings_block_methods_array">
+        <item>Ukončenie hovoru (odmietnutie)</item>
+        <item>Stíšenie zvonenia</item>
+    </string-array>
+</resources>

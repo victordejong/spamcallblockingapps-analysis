@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.LinearLayout android:orientation="horizontal" android:background="?carbon_colorBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:carbon_rippleColor="?carbon_rippleColor"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <carbon.widget.TextView android:textAppearance="?carbon_textAppearanceBody1" android:gravity="center_vertical" android:id="@id/carbon_groupText" android:layout_width="0.0dip" android:layout_height="@dimen/carbon_listItemHeight" android:layout_marginLeft="@dimen/carbon_margin" android:layout_weight="1.0" android:layout_marginStart="@dimen/carbon_margin" />
+    <carbon.widget.ImageView android:layout_gravity="center_vertical" android:id="@id/carbon_groupExpandedIndicator" android:layout_width="@dimen/carbon_iconSize" android:layout_height="@dimen/carbon_iconSize" android:layout_marginRight="@dimen/carbon_margin" android:src="@raw/carbon_arrow_down" android:layout_marginEnd="@dimen/carbon_margin" app:carbon_tint="@color/carbon_defaultIconColor" />
+</carbon.widget.LinearLayout>

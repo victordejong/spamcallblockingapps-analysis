@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/background_tcx_rectangle_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space" android:layout_marginBottom="@dimen/space" android:layout_marginStart="@dimen/doubleSpace" android:layout_marginEnd="@dimen/doubleSpace"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/list_item_notification" />
+    <LinearLayout android:gravity="start" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/control_octa_space" android:layout_marginEnd="@dimen/space">
+        <Button android:id="@id/feedback_button_positive" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/notifications_button_bottom_margin" android:minHeight="0.0dip" style="@style/StyleX.Button.Small.Action" />
+        <Button android:id="@id/feedback_button_negative" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/notifications_button_bottom_margin" android:minHeight="0.0dip" style="@style/StyleX.Button.Small.Action" />
+    </LinearLayout>
+</LinearLayout>

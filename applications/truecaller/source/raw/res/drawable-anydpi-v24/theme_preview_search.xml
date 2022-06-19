@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="245.0dip" android:width="136.0dip" android:viewportWidth="160.0" android:viewportHeight="288.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="Theme-picker" android:translateX="-100.0" android:translateY="-112.0">
+        <group android:name="Group-2" android:translateX="100.0" android:translateY="112.0">
+            <path android:name="phone_search_bar" android:fillColor="#ffffffff" android:pathData="M 18 32 L 142 32 Q 144 32 144 34 L 144 54 Q 144 56 142 56 L 18 56 Q 16 56 16 54 L 16 34 Q 16 32 18 32 Z" android:strokeWidth="1.0" android:fillType="evenOdd" />
+        </group>
+    </group>
+</vector>

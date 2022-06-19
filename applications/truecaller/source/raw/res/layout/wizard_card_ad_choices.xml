@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Wizard.CardView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:padding="@dimen/doubleSpace" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/cardImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:id="@id/cardTitle" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginStart="@dimen/doubleSpace" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="@id/cardImage" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/cardImage" app:layout_constraintTop_toTopOf="@id/cardImage" style="@style/Wizard.TextViewLegalCardTitle" />
+        <androidx.constraintlayout.widget.Barrier android:id="@id/titleBarrier" android:layout_width="0.0dip" android:layout_height="0.0dip" app:barrierDirection="bottom" app:constraint_referenced_ids="cardImage,cardTitle" />
+        <TextView android:gravity="start" android:id="@id/cardText" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" android:layout_marginBottom="@dimen/doubleSpace" app:layout_constraintTop_toBottomOf="@id/titleBarrier" style="@style/Wizard.TextViewLegalCardText" />
+        <TextView android:gravity="start" android:id="@id/cardReadMore" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/doubleSpace" app:layout_constraintTop_toBottomOf="@id/cardText" style="@style/Wizard.TextViewLegalCardText" />
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/choicesGuide" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintGuide_percent="0.5" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/selectionNo" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toStartOf="@id/choicesGuide" app:layout_constraintTop_toBottomOf="@id/cardReadMore">
+            <ImageView android:id="@id/check" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_check_circle" android:contentDescription="@null" app:tint="@color/wizard_blue" />
+            <TextView android:enabled="true" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/StrNo" style="@style/Wizard.TextViewLegalChoice" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/selectionYes" android:background="?selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/cardReadMore">
+            <ImageView android:id="@id/check" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_check_circle" android:contentDescription="@null" app:tint="@color/wizard_blue" />
+            <TextView android:enabled="true" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/StrYes" style="@style/Wizard.TextViewLegalChoice" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

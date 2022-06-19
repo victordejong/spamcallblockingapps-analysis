@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>OTP</item>
+        <item>Transaktion</item>
+        <item>Andre</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>jan</item>
+        <item>feb</item>
+        <item>mar</item>
+        <item>apr</item>
+        <item>maj</item>
+        <item>jun</item>
+        <item>jul</item>
+        <item>aug</item>
+        <item>sep</item>
+        <item>okt</item>
+        <item>nov</item>
+        <item>dec</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Log ind til %s</item>
+        <item>Tilmeld dig med %s</item>
+        <item>Log ind på %s</item>
+        <item>Bekræft nummer med %s</item>
+        <item>Registrer med %s</item>
+        <item>Kom i gang med %s</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>Ring op</item>
+        <item>Se profil</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>Det er vigtigt</item>
+        <item>Beklager</item>
+        <item>Hvor er du?</item>
+        <item>Jeg har et spørgsmål</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>en</item>
+        <item>to</item>
+        <item>tre</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>Hej 👋, Det er vigtigt 🚨</item>
+        <item>Hej 👋 Din bestilling er parat!</item>
+        <item>Er du ledig? Jeg er nedenunder!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Lydløs</item>
+        <item>Kun vibration</item>
+        <item>Kun lyd</item>
+        <item>Lyd og vibration</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>Brug Flash, når du vil være sikker på et svar inden for et minut</item>
+        <item>Brug Flash til vigtige ting, du vil sige hurtigt</item>
+        <item>Vidste du, at du kan dele din placering med et enkelt tryk</item>
+        <item>Tip, send en emoji eller skriv en tekst for at udtrykke dig selv</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>Sorter efter fornavn</item>
+        <item>Sorter efter efternavn</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>Gemt</item>
+        <item>Identificeret</item>
+    </string-array>
+</resources>

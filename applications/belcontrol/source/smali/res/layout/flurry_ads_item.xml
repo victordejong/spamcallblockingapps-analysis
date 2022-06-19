@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/flurryAdsContainerLayout" android:background="@color/global_background_color" android:padding="8.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:gravity="center|left|top" android:id="@id/mainImage" android:background="@null" android:layout_width="60.0dip" android:layout_height="45.0dip" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/darkgrey_fontcolor" android:ellipsize="end" android:gravity="center|left|top" android:id="@id/newsTitle" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="" android:layout_toRightOf="@id/mainImage" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/darkgrey_fontcolor" android:id="@id/newsSummary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="" android:maxLines="3" android:layout_toRightOf="@id/mainImage" android:layout_below="@id/newsTitle" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="12.0sp" android:textColor="@color/darkgrey_fontcolor" android:id="@id/sponsoredPublisher" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-5.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/native_icon_image" android:background="@null" android:layout_width="20.0dip" android:layout_height="20.0dip" android:scaleType="fitCenter" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/native_privacy_information_icon_image" android:background="@null" android:layout_width="20.0dip" android:layout_height="20.0dip" android:scaleType="fitCenter" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="@color/white_fontcolor" android:id="@id/native_cta" android:background="@color/newdesign_green" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+    </RelativeLayout>
+</LinearLayout>

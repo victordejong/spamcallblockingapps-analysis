@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/call_identification_layout" android:background="@color/colorPrimary" android:paddingLeft="@dimen/dimen_16_dp" android:paddingTop="12.0dip" android:paddingRight="@dimen/dimen_16_dp" android:paddingBottom="@dimen/dimen_12_dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_12_dp">
+        <ImageView android:layout_width="@dimen/dimen_32_dp" android:layout_height="@dimen/dimen_32_dp" android:layout_marginRight="@dimen/dimen_8_dp" android:src="@drawable/ic_a_id" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white_callapp" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white_callapp" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_4_dp" android:weightSum="100.0">
+        <RelativeLayout android:id="@id/data_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_16_dp" android:layout_weight="45.0">
+            <RelativeLayout android:id="@id/total_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_callapp" android:id="@id/total_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_callapp" android:id="@id/total_sub_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_2_dp" android:layout_below="@id/total_title" />
+                <View android:id="@id/total_divider" android:background="@color/call_identified" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_1_dp" android:layout_marginBottom="@dimen/dimen_6_dp" android:layout_below="@id/total_sub_title" />
+                <TextView android:textSize="44.0sp" android:textStyle="bold" android:textColor="@color/white_callapp" android:id="@id/total_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/total_divider" android:layout_centerVertical="true" />
+                <RelativeLayout android:gravity="center" android:id="@id/total_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_6_dp" android:layout_toRightOf="@id/total_number" android:layout_below="@id/total_divider" android:layout_alignBottom="@id/total_number">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/data_wrapper_total" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/total_change_percentage_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_2_dp" />
+                        <TextView android:textSize="14.0sp" android:textColor="@color/white_callapp" android:gravity="center" android:id="@id/total_change_percentage" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <ImageView android:id="@id/total_change_percentage_graph" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_4_dp" android:src="@drawable/img_graph_plh_down_01" android:tint="@color/call_identified" android:layout_below="@id/data_wrapper_total" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/contact_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_8_dp" android:layout_below="@id/total_layout">
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_callapp" android:id="@id/contact_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/white_callapp" android:id="@id/contact_sub_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_2_dp" android:layout_below="@id/contact_title" />
+                <View android:id="@id/contact_divider" android:background="@color/call_identified" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_1_dp" android:layout_marginBottom="@dimen/dimen_6_dp" android:layout_below="@id/contact_sub_title" />
+                <TextView android:textSize="44.0sp" android:textStyle="bold" android:textColor="@color/white_callapp" android:id="@id/contact_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/contact_divider" />
+                <RelativeLayout android:gravity="center" android:orientation="horizontal" android:id="@id/contact_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_6_dp" android:layout_toRightOf="@id/contact_number" android:layout_below="@id/contact_divider" android:layout_alignBottom="@id/contact_number">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/data_wrapper_contact" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/contact_change_percentage_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_2_dp" />
+                        <TextView android:textSize="12.0sp" android:textColor="@color/white_callapp" android:gravity="center" android:id="@id/contact_change_percentage" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <ImageView android:id="@id/contact_change_percentage_graph" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_4_dp" android:src="@drawable/img_graph_plh_down_01" android:tint="@color/call_identified" android:layout_below="@id/data_wrapper_contact" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/total_percentage_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="55.0">
+            <TextView android:textSize="12.0sp" android:textColor="@color/white_callapp" android:id="@id/percentage_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/white_callapp" android:id="@id/percentage_sub_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_2_dp" android:layout_below="@id/percentage_title" />
+            <View android:id="@id/percentage_divider" android:background="@color/call_identified" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_1_dp" android:layout_marginBottom="@dimen/dimen_18_dp" android:layout_below="@id/percentage_sub_title" />
+            <androidx.fragment.app.FragmentContainerView android:name="com.callapp.contacts.activity.analytics.circleGraph.fragment.CircleGraphFragment" android:id="@id/graphFragmentCallsIdentified" android:tag="analytics_graph" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/percentage_divider" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

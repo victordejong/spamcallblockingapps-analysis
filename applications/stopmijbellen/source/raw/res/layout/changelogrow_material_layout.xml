@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/chg_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/chglib_material_minHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall">
+        <TextView android:textAppearance="@android:style/TextAppearance.Large" android:textColor="@color/chglib_material_color_text_1" android:gravity="center_vertical" android:id="@id/chg_textbullet" android:paddingLeft="@dimen/chglib_material_keyline1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/changelog_row_bulletpoint" android:fontFamily="@string/font_fontFamily_material_item" />
+        <TextView android:textSize="@dimen/chglib_material_list_fontsize" android:textStyle="@integer/font_textStyle_material_item" android:textColor="@color/chglib_material_color_text_1" android:gravity="center_vertical" android:id="@id/chg_text" android:padding="@dimen/chglib_material_keyline1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:fontFamily="@string/font_fontFamily_material_item" />
+    </LinearLayout>
+</LinearLayout>

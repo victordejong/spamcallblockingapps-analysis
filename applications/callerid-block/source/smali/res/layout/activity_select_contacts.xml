@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:material="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?colorPrimary" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <com.callerid.block.customview.LImageButton android:layout_gravity="center_vertical" android:id="@id/select_left" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ic_back" android:tint="?icon_color_white" android:contentDescription="@string/back" material:widget_animColor="?colorTabIndicator" />
+        <EditText android:textSize="20.0sp" android:textColor="?color_title" android:textColorHint="#b3ffffff" android:id="@id/select_et" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:hint="@string/enter_a_number" android:singleLine="true" android:inputType="number" android:imeOptions="actionDone" />
+    </LinearLayout>
+    <FrameLayout android:background="?color_ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/select_rv" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:background="@drawable/main_shade" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+    </FrameLayout>
+</LinearLayout>

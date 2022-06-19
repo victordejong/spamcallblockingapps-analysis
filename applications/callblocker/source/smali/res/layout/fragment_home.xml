@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ads="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="0.0dip">
+        <LinearLayout android:paddingLeft="12.0dip" android:paddingTop="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_width="36.0dip" android:layout_height="36.0dip" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageView" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:scaleType="fitCenter" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageTextView" android:layout_width="200.0dip" android:layout_height="wrap_content" android:scaleType="fitCenter" />
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatImageButton android:id="@id/settingsButton" android:background="@drawable/sp_circle" android:padding="6.0dip" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/ic_settings_primary_24dp" android:scaleType="centerInside" android:tint="@color/primary" android:contentDescription="@string/setting.page_title" android:backgroundTint="@color/primary_dark" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:id="@id/titleView" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:text="@string/search_phone.title" android:lines="1" style="@style/TextAppearance.AppCompat.Title" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="-13.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="9.0dip">
+            <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" ads:cardCornerRadius="20.0dip">
+                <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="40.0dip">
+                    <androidx.appcompat.widget.AppCompatImageView android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_call_primary_dark_24dp" android:tint="@color/primary_dark" android:tintMode="src_in" />
+                    <androidx.appcompat.widget.AppCompatEditText android:gravity="center" android:id="@id/editText" android:background="@android:color/transparent" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/search_phone.placeholder" android:maxLength="50" android:digits="0123456789+" android:layout_weight="1.0" android:inputType="phone" android:imeOptions="actionSearch" />
+                    <View android:layout_width="40.0dip" android:layout_height="40.0dip" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.appcompat.widget.AppCompatImageButton android:id="@id/searchButton" android:background="@drawable/sp_circle" android:padding="8.0dip" android:layout_width="54.0dip" android:layout_height="54.0dip" android:src="@drawable/ic_search_primary_dark_24dp" android:scaleType="fitCenter" android:tint="@android:color/white" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/copied_phone_number_popup.search_button" android:translationZ="4.0dip" android:backgroundTint="@color/accent_dark" />
+        </RelativeLayout>
+    </LinearLayout>
+    <com.unknownphone.callblocker.custom.ViewSwitchLayout android:gravity="center_vertical" android:id="@id/viewSwitchLayout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:background="#00000000" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:padding="48.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/whitish_gray" android:gravity="center_horizontal" android:id="@id/emptyTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.AppCompat.Body1" />
+            <androidx.appcompat.widget.AppCompatButton android:textSize="14.0sp" android:textColor="@color/whitish_gray" android:gravity="center_horizontal" android:id="@id/readMoreButton" android:background="@android:color/transparent" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:minHeight="0.0dip" android:text="@string/home.sub_text_page_empty" android:textAllCaps="false" style="@style/TextAppearance.AppCompat.Caption" />
+        </LinearLayout>
+        <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_margin="24.0dip" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="24.0dip">
+            <ProgressBar android:id="@id/syncIndicator" android:layout_width="56.0dip" android:layout_height="56.0dip" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="@color/primary_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/home_screen.sync" style="@style/TextAppearance.AppCompat.Body1" />
+        </LinearLayout>
+    </com.unknownphone.callblocker.custom.ViewSwitchLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/permissionsButton" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:paddingLeft="12.0dip" android:paddingTop="10.0dip" android:paddingRight="12.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="31.5dip" android:layout_height="28.0dip" android:src="@drawable/ic_warning_orange_with_red_dot_24dp" android:scaleType="fitXY" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0sp" android:textColor="@color/primary_dark" android:gravity="left" android:id="@id/permissionsTextView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

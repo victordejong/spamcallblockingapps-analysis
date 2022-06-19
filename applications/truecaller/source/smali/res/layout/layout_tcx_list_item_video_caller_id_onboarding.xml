@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:layout_width="@dimen/vid_suggested_contact_item_width" android:layout_height="wrap_content" android:layout_marginStart="@dimen/vid_suggested_item_margin_start"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/container" android:layout_width="@dimen/vid_suggested_contact_avatar_size" android:layout_height="@dimen/vid_suggested_contact_avatar_size" android:innerRadius="0.0dip" app:cardCornerRadius="26.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.exoplayer2.ui.PlayerView android:id="@id/animation" android:layout_width="fill_parent" android:layout_height="fill_parent" app:keep_content_on_player_reset="true" app:resize_mode="zoom" app:surface_type="texture_view" app:use_controller="false" />
+        <ImageView android:id="@id/placeholder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="?vid_favorite_contact_thumbnail" android:adjustViewBounds="true" android:elevation="@dimen/vid_dp4" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.cardview.widget.CardView>
+    <TextView android:textColor="?tcx_textPrimary" android:ellipsize="end" android:gravity="center" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vid_control_extraspace" android:maxLines="2" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/container" style="@style/StyleX.Text.Subtitle.S2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_select_all" android:id="@id/action_select_all" android:title="@string/HistoryActionSelectAll" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_block" android:id="@id/action_block" android:title="@string/CallerFilterAdd" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_tcx_action_delete_outline_24dp" android:id="@id/action_clear" android:title="@string/context_clear_calls" app:showAsAction="ifRoom" />
+</menu>

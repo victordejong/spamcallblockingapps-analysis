@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:padding="@dimen/dimen_10_dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:id="@id/action_bar_custom_layout_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/actionImage" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_add_video_cont" android:layout_alignParentEnd="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/actionTextViewContainer" android:background="@drawable/action_button_video_ringtone" android:paddingLeft="@dimen/dimen_20_dp" android:paddingTop="@dimen/dimen_5_dp" android:paddingRight="@dimen/dimen_20_dp" android:paddingBottom="@dimen/dimen_5_dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+        <TextView android:textSize="@dimen/dimen_14_dp" android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:id="@id/priceText" android:background="@drawable/ripple_or_holo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAllCaps="false" style="@style/Button" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_shield" android:scaleType="fitCenter" app:layout_constraintBottom_toTopOf="@id/button_accept" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.3" />
+    <TextView android:id="@id/textView15" android:layout_marginTop="16.0dip" android:text="@string/PhonePermissionTitle" app:layout_constraintBottom_toTopOf="@id/phone_permission_details" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/imageView3" style="@style/Wizard.TextViewTitle" />
+    <ScrollView android:id="@id/phone_permission_details" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/button_accept" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/textView15">
+        <TextView android:id="@id/phone_permission_details_text" android:text="@string/PhonePermissionDetails" style="@style/Wizard.TextViewDetails" />
+    </ScrollView>
+    <Button android:theme="?actionButtonTheme" android:id="@id/button_accept" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/PhonePermissionLetsGo" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.truecaller.android.truemoji.PlaceholderImageView android:id="@id/imgGif" android:background="?tcx_fillTertiaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?android:selectableItemBackgroundBorderless" android:scaleType="fitXY" app:placeholderImage="@drawable/ic_gif_themed"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

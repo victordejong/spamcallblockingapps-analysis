@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?bg_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/thanks" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/lb_thanks_close" android:background="@drawable/card_foreground" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/nav_close_white" android:layout_alignParentRight="true" android:contentDescription="@string/close" android:layout_alignParentEnd="true" app:tint="?icon_color_white" />
+    </RelativeLayout>
+    <RelativeLayout android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_thanks" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:id="@id/tv_thanks_tip1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thanks_tip1" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="16.0sp" android:textColor="?color_action" android:id="@id/tv_thanks_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" android:text="100" android:layout_centerHorizontal="true" android:layout_marginStart="3.0dip" android:layout_marginEnd="3.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:id="@id/tv_thanks_tip2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thanks_tip2" android:layout_centerHorizontal="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/ll_thanks" android:layout_centerHorizontal="true">
+            <TextView android:textSize="14.0sp" android:textColor="?color_333333" android:id="@id/tv_thanks_tip3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thanks_tip3" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="14.0sp" android:textColor="?color_action" android:id="@id/tv_reported_counts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="3.0dip" android:text="5" android:layout_centerHorizontal="true" android:layout_marginStart="3.0dip" android:layout_marginEnd="3.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="?color_333333" android:id="@id/tv_thanks_tip4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thanks_tip4" android:layout_centerHorizontal="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

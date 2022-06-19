@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="left" android:orientation="horizontal" android:background="@color/transparent" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginBottom="16.0dip"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:layout_gravity="center" android:id="@id/during_call_sim_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sim_1" android:tint="@color/white_callapp" />
-    <TextView android:textColor="@color/white_callapp" android:layout_gravity="center" android:id="@id/during_call_carrier_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_5_dp" />
-</LinearLayout>

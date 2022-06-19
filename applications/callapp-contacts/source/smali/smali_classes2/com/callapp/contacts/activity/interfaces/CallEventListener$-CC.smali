@@ -1,0 +1,22 @@
+.class public final synthetic Lcom/callapp/contacts/activity/interfaces/CallEventListener$-CC;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# direct methods
+.method public static synthetic a(Lcom/callapp/contacts/activity/interfaces/CallEventListener;Lcom/callapp/contacts/event/EventBusManager$CallAppDataType;)V
+    .locals 0
+
+    .line 9
+    invoke-interface {p0}, Lcom/callapp/contacts/activity/interfaces/CallEventListener;->a()V
+
+    return-void
+.end method
+
+.method public static synthetic lambda$DvWDlcjlU8NmVhWmjgpB-8Q8RQA(Lcom/callapp/contacts/activity/interfaces/CallEventListener;Lcom/callapp/contacts/event/EventBusManager$CallAppDataType;)V
+    .locals 0
+
+    invoke-static {p0, p1}, Lcom/callapp/contacts/activity/interfaces/CallEventListener$-CC;->a(Lcom/callapp/contacts/activity/interfaces/CallEventListener;Lcom/callapp/contacts/event/EventBusManager$CallAppDataType;)V
+
+    return-void
+.end method

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_tcx_event_outgoing_call_24dp" android:id="@id/action_outgoing_calls" android:title="@string/HistoryTabOutgoing" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_event_incoming_call_24dp" android:id="@id/action_incoming_calls" android:title="@string/HistoryTabIncoming" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_event_missed_call_24dp" android:id="@id/action_missed_calls" android:title="@string/HistoryTabMissed" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_block_24dp" android:id="@id/action_blocked_calls" android:title="@string/HistoryTabBlocked" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_action_delete_outline_24dp" android:id="@id/action_delete_all_calls" android:title="@string/menu_clear_calllogs" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_paste_outline_24dp" android:id="@id/action_paste" android:title="@string/menu_paste" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_settings" android:id="@id/action_settings" android:title="@string/MainDrawerSettings" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_visibility_outline_24dp" android:id="@id/action_bring_back" android:title="@string/SuggestedClearHidden" app:showAsAction="never" />
+</menu>

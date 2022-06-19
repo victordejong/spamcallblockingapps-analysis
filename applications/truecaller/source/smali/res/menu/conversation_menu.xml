@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_tcx_enable_smart_sms" android:id="@id/action_enable_smart_sms" android:title="@string/enable_smart_sms" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_disable_smart_sms" android:id="@id/action_disable_smart_sms" android:title="@string/disable_smart_sms" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_add_person_24dp" android:id="@id/action_save" android:title="@string/ConversationTopSave" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_how_to_reg_outline_24dp" android:id="@id/action_never_mark_as_spam" android:title="@string/NeverMarkAsSpam" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_outline_no_local_offer_24dp" android:id="@id/action_never_mark_as_promotion" android:title="@string/NeverMarkAsPromotion" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_action_info_24dp" android:id="@id/action_group_info" android:title="@string/ImGroupInfo" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_mark_as_unread" android:id="@id/action_mark_as_unread" android:title="@string/MarkAsUnread" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_photo_library_outline_24dp" android:id="@id/action_view_all_media" android:title="@string/ConversationViewAllMedia" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_notifications_24dp" android:id="@id/action_notifications_and_sounds" android:title="@string/conversation_notification_settings_title" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_mute_notification" android:id="@id/action_mute_notificaitons" android:title="@string/ImGroupMuteNotifications" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_unmute_notification" android:id="@id/action_unmute_notificaitons" android:title="@string/ConversationDetailsActionUnmuteNotifications" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_action_search_24dp" android:id="@id/action_search_conversation" android:title="@string/ConversationDetailsActionSearchConv" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_group_24dp" android:id="@id/action_add_to_chat" android:title="@string/ConversationDetailsActionAddToChat" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_block_24dp" android:id="@id/action_block" android:title="@string/ConversationDetailsActionBlock" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_unblock_24dp" android:id="@id/action_unblock" android:title="@string/ConversationDetailsActionUnblock" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_action_delete_outline_24dp" android:id="@id/action_delete" android:title="@string/ConversationDetailsActionDelete" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_action_exit_24dp" android:id="@id/action_leave_group" android:title="@string/ImGroupLeave" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_action_delete_outline_24dp" android:id="@id/action_delete_history" android:title="@string/ConversationDetailsActionDeleteHistory" app:showAsAction="never" />
+</menu>

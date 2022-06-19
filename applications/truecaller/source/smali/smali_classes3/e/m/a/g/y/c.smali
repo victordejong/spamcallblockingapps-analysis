@@ -1,0 +1,37 @@
+.class public Le/m/a/g/y/c;
+.super Landroid/animation/AnimatorListenerAdapter;
+.source "SourceFile"
+
+
+# instance fields
+.field public final synthetic a:Le/m/a/g/y/a;
+
+
+# direct methods
+.method public constructor <init>(Le/m/a/g/y/a;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Le/m/a/g/y/c;->a:Le/m/a/g/y/a;
+
+    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onAnimationEnd(Landroid/animation/Animator;)V
+    .locals 1
+
+    .line 1
+    iget-object p1, p0, Le/m/a/g/y/c;->a:Le/m/a/g/y/a;
+
+    iget-object p1, p1, Le/m/a/g/y/m;->a:Lcom/google/android/material/textfield/TextInputLayout;
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p1, v0}, Lcom/google/android/material/textfield/TextInputLayout;->setEndIconVisible(Z)V
+
+    return-void
+.end method

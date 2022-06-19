@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:orientation="vertical" android:id="@id/emptyListView_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img" android:layout_width="fill_parent" android:layout_height="150.0dip" android:layout_marginTop="30.0dip" android:src="@drawable/cop_block" android:scaleType="fitCenter" android:layout_alignParentTop="true" />
+    <TextView android:ellipsize="none" android:gravity="top" android:id="@id/empty_contacts_text" android:background="@color/global_background_color" android:paddingLeft="32.0dip" android:paddingTop="24.0dip" android:paddingRight="32.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/contacts_empty_blocked_list" android:layout_alignParentBottom="true" style="@style/ListItemWrapHeight" />
+</RelativeLayout>

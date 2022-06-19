@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:orientation="vertical" android:background="?bg_dialog_share_bottom" android:layout_width="328.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:background="@drawable/bg_dialog_per_top" android:layout_width="fill_parent" android:layout_height="95.0dip">
+            <ImageView android:layout_gravity="bottom|center" android:layout_width="81.0dip" android:layout_height="81.0dip" android:src="@drawable/ic_unknown_number" android:contentDescription="@string/preview" />
+            <ImageView android:layout_gravity="end" android:id="@id/iv_close" android:background="@drawable/card_foreground" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/nav_close_white" android:contentDescription="@string/close" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:textColor="?color_333333" android:id="@id/tv_per_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/callscreen_per_title" />
+            <RelativeLayout android:id="@id/rl_notifi_per" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_toLeftOf="@id/rl_right_notifi" android:layout_marginEnd="16.0dip" android:layout_toStartOf="@id/rl_right_notifi">
+                    <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:id="@id/tv_notifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/notification_per" />
+                    <TextView android:textSize="14.0sp" android:textColor="?color_666666" android:id="@id/tv_notifi_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/notification_per_des" />
+                </LinearLayout>
+                <FrameLayout android:id="@id/rl_right_notifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                    <FrameLayout android:id="@id/fl_set_notifi" android:background="?bg_start" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="36.0dip" android:foreground="@drawable/card_foreground">
+                        <TextView android:textSize="14.0sp" android:textColor="?color_button" android:layout_gravity="center" android:id="@id/tv_set_notifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/set" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+                    </FrameLayout>
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_settinged_notifi" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="18.0dip" android:src="@drawable/settinged" android:contentDescription="@string/enable" android:layout_marginEnd="18.0dip" />
+                </FrameLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rl_sdcard_per" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_toLeftOf="@id/rl_right_sdcard" android:layout_marginEnd="16.0dip" android:layout_toStartOf="@id/rl_right_sdcard">
+                    <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:id="@id/tv_sdcard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sd_card_per" />
+                    <TextView android:textSize="14.0sp" android:textColor="?color_666666" android:id="@id/tv_sdcard_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/sd_card_per_des" />
+                </LinearLayout>
+                <FrameLayout android:id="@id/rl_right_sdcard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                    <FrameLayout android:id="@id/fl_set_sdcard" android:background="?bg_start" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="36.0dip" android:foreground="@drawable/card_foreground">
+                        <TextView android:textSize="14.0sp" android:textColor="?color_button" android:layout_gravity="center" android:id="@id/tv_set_sdcard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/set" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+                    </FrameLayout>
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_settinged_sdcard" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="18.0dip" android:src="@drawable/settinged" android:contentDescription="@string/enable" android:layout_marginEnd="18.0dip" />
+                </FrameLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rl_ringtone_per" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_toLeftOf="@id/rl_right_ringtone" android:layout_marginEnd="16.0dip" android:layout_toStartOf="@id/rl_right_ringtone">
+                    <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:id="@id/tv_ringtone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ringtone_per" />
+                    <TextView android:textSize="14.0sp" android:textColor="?color_666666" android:id="@id/tv_ringtone_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/ringtone_per_des" />
+                </LinearLayout>
+                <FrameLayout android:id="@id/rl_right_ringtone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                    <FrameLayout android:id="@id/fl_set_ringtone" android:background="?bg_start" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="36.0dip" android:foreground="@drawable/card_foreground">
+                        <TextView android:textSize="14.0sp" android:textColor="?color_button" android:layout_gravity="center" android:id="@id/tv_set_ringtone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/set" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+                    </FrameLayout>
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_settinged_ringtone" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="18.0dip" android:src="@drawable/settinged" android:contentDescription="@string/enable" android:layout_marginEnd="18.0dip" />
+                </FrameLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rl_overlay_per" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_toLeftOf="@id/rl_right_overlay" android:layout_marginEnd="16.0dip" android:layout_toStartOf="@id/rl_right_overlay">
+                    <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:id="@id/tv_overlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/overlay_per" />
+                    <TextView android:textSize="14.0sp" android:textColor="?color_666666" android:id="@id/tv_overlay_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/overlay_per_des" />
+                </LinearLayout>
+                <FrameLayout android:id="@id/rl_right_overlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                    <FrameLayout android:id="@id/fl_set_overlay" android:background="?bg_start" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="36.0dip" android:foreground="@drawable/card_foreground">
+                        <TextView android:textSize="14.0sp" android:textColor="?color_button" android:layout_gravity="center" android:id="@id/tv_set_overlay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/set" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+                    </FrameLayout>
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_settinged_overlay" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginRight="18.0dip" android:src="@drawable/settinged" android:contentDescription="@string/enable" android:layout_marginEnd="18.0dip" />
+                </FrameLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

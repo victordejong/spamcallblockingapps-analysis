@@ -1,0 +1,13 @@
+package com.google.android.gms.location;
+
+import android.app.PendingIntent;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.PendingResult;
+import com.google.android.gms.common.api.Status;
+@Deprecated
+/* loaded from: classes2-dex2jar.jar:com/google/android/gms/location/ActivityRecognitionApi.class */
+public interface ActivityRecognitionApi {
+    PendingResult<Status> removeActivityUpdates(GoogleApiClient googleApiClient, PendingIntent pendingIntent);
+
+    PendingResult<Status> requestActivityUpdates(GoogleApiClient googleApiClient, long j, PendingIntent pendingIntent);
+}

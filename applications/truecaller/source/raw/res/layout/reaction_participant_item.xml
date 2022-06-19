@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_common_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.truecaller.common.ui.avatar.AvatarXView android:id="@id/avatar" android:layout_width="@dimen/avatar_common_size" android:layout_height="@dimen/avatar_common_size" android:layout_marginStart="@dimen/doubleSpace" />
+    <TextView android:id="@id/name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:lines="1" android:layout_weight="1.0" android:layout_marginStart="@dimen/doubleSpace" android:layout_marginEnd="@dimen/doubleSpace" style="@style/StyleX.Text.Subtitle.S1.Medium" />
+    <ImageView android:id="@id/emoji" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginEnd="@dimen/doubleSpace" />
+</LinearLayout>

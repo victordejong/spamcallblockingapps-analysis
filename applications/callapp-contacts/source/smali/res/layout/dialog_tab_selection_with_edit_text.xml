@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/tv_header" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_header_height" android:layout_marginLeft="@dimen/dialog_side_margins" android:layout_marginRight="@dimen/dialog_side_margins" layout="@layout/include_dialog_header" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/tabsGroup" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    <com.callapp.contacts.widget.CompoundEditText android:gravity="center" android:id="@id/extraTextField" android:paddingLeft="@dimen/dialog_side_margins" android:paddingRight="@dimen/dialog_side_margins" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="64.0dip" android:inputType="textCapWords" />
+    <include layout="@layout/include_dialog_bottm_bar" />
+</LinearLayout>

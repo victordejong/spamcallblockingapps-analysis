@@ -1,0 +1,67 @@
+package androidx.customview.view;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+/* loaded from: classes-dex2jar.jar:androidx/customview/view/AbsSavedState.class */
+public abstract class AbsSavedState implements Parcelable {
+    private final Parcelable mSuperState;
+    public static final AbsSavedState EMPTY_STATE = new 1();
+    public static final Parcelable.Creator<AbsSavedState> CREATOR = new C0106a();
+
+    /* renamed from: androidx.customview.view.AbsSavedState$a */
+    /* loaded from: classes-dex2jar.jar:androidx/customview/view/AbsSavedState$a.class */
+    public static final class C0106a implements Parcelable.ClassLoaderCreator<AbsSavedState> {
+        /* renamed from: a */
+        public AbsSavedState createFromParcel(Parcel parcel) {
+            return createFromParcel(parcel, null);
+        }
+
+        /* renamed from: b */
+        public AbsSavedState createFromParcel(Parcel parcel, ClassLoader classLoader) {
+            if (parcel.readParcelable(classLoader) == null) {
+                return AbsSavedState.EMPTY_STATE;
+            }
+            throw new IllegalStateException("superState must be null");
+        }
+
+        /* renamed from: c */
+        public AbsSavedState[] newArray(int i) {
+            return new AbsSavedState[i];
+        }
+    }
+
+    private AbsSavedState() {
+        this.mSuperState = null;
+    }
+
+    public AbsSavedState(Parcel parcel) {
+        this(parcel, null);
+    }
+
+    public AbsSavedState(Parcel parcel, ClassLoader classLoader) {
+        AbsSavedState readParcelable = parcel.readParcelable(classLoader);
+        this.mSuperState = readParcelable == null ? EMPTY_STATE : readParcelable;
+    }
+
+    public AbsSavedState(Parcelable parcelable) {
+        if (parcelable != null) {
+            this.mSuperState = parcelable == EMPTY_STATE ? null : parcelable;
+            return;
+        }
+        throw new IllegalArgumentException("superState must not be null");
+    }
+
+    @Override // android.os.Parcelable
+    public int describeContents() {
+        return 0;
+    }
+
+    public final Parcelable getSuperState() {
+        return this.mSuperState;
+    }
+
+    @Override // android.os.Parcelable
+    public void writeToParcel(Parcel parcel, int i) {
+        parcel.writeParcelable(this.mSuperState, i);
+    }
+}

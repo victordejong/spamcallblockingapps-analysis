@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/report_spam_number_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/llRoot" android:layout_weight="1.0" style="@style/llParentAll">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.google.android.material.appbar.AppBarLayout android:background="@color/ratingNegativeColorLight" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.Toolbar android:id="@id/appToolbar" android:background="#00000000" android:layout_marginBottom="30.0dip" style="@style/appBarToolbar" />
+                    <LinearLayout style="@style/llSection">
+                        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/colorTextPrimaryDark" android:layout_height="30.0dip" android:text="@string/spam_number_report" style="@style/textViewStyleAutosizedSingleLineCentered" />
+                        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/colorTextPrimaryDark" android:id="@id/tvPhoneNumber" android:layout_height="40.0dip" android:text="+123456789" style="@style/textViewStyleAutosizedSingleLineCentered" />
+                    </LinearLayout>
+                </FrameLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+            <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                <LinearLayout android:focusableInTouchMode="true" style="@style/llMainContent">
+                    <LinearLayout android:id="@id/llSelectedCategory" style="@style/llParentWidthHorizontalCenter">
+                        <LinearLayout android:layout_weight="1.0" style="@style/llParentWidth">
+                            <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:text="@string/selected_category" android:layout_weight="1.0" style="@style/textViewStyleSectionTitle" />
+                            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvSelectedCategory" android:layout_width="fill_parent" android:text="Telemarketing" android:layout_weight="1.0" style="@style/textViewStyle" />
+                        </LinearLayout>
+                        <Button android:id="@id/butChangeCategory" android:text="@string/change" style="@style/buttonBorderless" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/llSelectCategory" android:visibility="gone" style="@style/llSection">
+                        <androidx.appcompat.widget.AppCompatTextView android:layout_height="30.0dip" android:text="@string/select_category" style="@style/textViewStyleAutosizedSingleLineCentered" />
+                        <Button android:id="@id/butCatTelemarketer" android:layout_width="fill_parent" android:text="@string/telemarketer" style="@style/buttonBorderless" />
+                        <Button android:id="@id/butCatSurvey" android:layout_width="fill_parent" android:text="@string/survey" style="@style/buttonBorderless" />
+                        <Button android:id="@id/butCatUnsolicited" android:layout_width="fill_parent" android:text="@string/unsolicited" style="@style/buttonBorderless" />
+                        <Button android:id="@id/butCatFinancialServices" android:layout_width="fill_parent" android:text="@string/financial_debts" style="@style/buttonBorderless" />
+                        <Button android:id="@id/butCatScam" android:layout_width="fill_parent" android:text="@string/scam_prank" style="@style/buttonBorderless" />
+                        <Button android:id="@id/butCatPolitic" android:layout_width="fill_parent" android:text="@string/politics" style="@style/buttonBorderless" />
+                        <Button android:id="@id/butCatSilent" android:layout_width="fill_parent" android:text="@string/silent" style="@style/buttonBorderless" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/llEnterComment" android:layout_marginTop="@dimen/spaceBiggest" style="@style/llSection">
+                        <androidx.appcompat.widget.AppCompatTextView android:layout_height="30.0dip" android:text="@string/your_comment" style="@style/textViewStyleAutosizedSingleLineCentered" />
+                        <org.mistergroup.shouldianswer.utils.BetterEditText android:id="@id/editComment" android:hint="@string/your_experience_from_the_call_optional" app:met_floatingLabelText="@string/activity_local_review_edit_comment_label" style="@style/betterEditTextStyle" />
+                        <TextView android:layout_marginTop="@dimen/spaceBiggest" android:text="@string/your_information_about_this_phone_number_will_inform_and_protect_other_users_choose_a_rating_select_a_category_and_enter_your_comment_and_at_least_a_few_words_to_explain_thank_you" style="@style/textViewStyleSecondary" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/llConfirmation" android:background="#ffffffff" android:padding="@dimen/spaceSmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="15.0dip">
+        <Button android:layout_gravity="center" android:id="@id/butConfirmChanges" android:text="@string/confirm_changes" style="@style/buttonAccent" />
+    </LinearLayout>
+</LinearLayout>

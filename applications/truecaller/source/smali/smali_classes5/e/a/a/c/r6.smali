@@ -1,0 +1,22 @@
+.class public interface abstract Le/a/a/c/r6;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Le/a/u2/a/e;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Le/a/u2/a/e<",
+        "Le/a/a/c/u6;",
+        ">;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract f0()V
+.end method

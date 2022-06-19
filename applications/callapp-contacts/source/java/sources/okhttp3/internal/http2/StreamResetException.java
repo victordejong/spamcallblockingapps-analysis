@@ -1,0 +1,17 @@
+package okhttp3.internal.http2;
+
+import java.io.IOException;
+import kotlin.Metadata;
+import kotlin.jvm.internal.C18524p;
+@Metadata(m4300bv = {1, 0, 3}, m4299d1 = {"��\u0012\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n��\n\u0002\u0018\u0002\n\u0002\b\u0002\u0018��2\u00020\u0001B\r\u0012\u0006\u0010\u0002\u001a\u00020\u0003¢\u0006\u0002\u0010\u0004R\u0010\u0010\u0002\u001a\u00020\u00038\u0006X\u0087\u0004¢\u0006\u0002\n��¨\u0006\u0005"}, m4298d2 = {"Lokhttp3/internal/http2/StreamResetException;", "Ljava/io/IOException;", "errorCode", "Lokhttp3/internal/http2/ErrorCode;", "(Lokhttp3/internal/http2/ErrorCode;)V", "okhttp"}, m4297k = 1, m4296mv = {1, 4, 0})
+/* loaded from: classes5-dex2jar.jar:okhttp3/internal/http2/StreamResetException.class */
+public final class StreamResetException extends IOException {
+    public final ErrorCode errorCode;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public StreamResetException(ErrorCode errorCode) {
+        super("stream was reset: ".concat(String.valueOf(errorCode)));
+        C18524p.m3840d(errorCode, "errorCode");
+        this.errorCode = errorCode;
+    }
+}

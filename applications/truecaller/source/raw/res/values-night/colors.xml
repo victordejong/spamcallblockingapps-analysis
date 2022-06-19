@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="confidential_otp_background">#2ee6eff7</color>
+    <color name="notification_avatar_background">@color/tcx_avatarBackgroundBlue_dark</color>
+    <color name="notification_brand_blue">@color/tcx_brandBackgroundBlue_dark</color>
+    <color name="update_notification_icon_background_color">@color/tcx_insightUpdatesIconBackgroundColor_dark</color>
+    <color name="update_notification_icon_color">@color/tcx_insightUpdatesIconColor_dark</color>
+    <color name="update_notification_icon_foreground_color">@color/tcx_insightUpdatesIconForegroundColor_dark</color>
+    <color name="update_notification_tag_background_color">@color/tcx_insightUpdatesBackgroundColor_dark</color>
+</resources>

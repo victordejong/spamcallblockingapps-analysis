@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_line" android:showDividers="middle" android:dividerPadding="@dimen/control_space"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/featureNoAds" android:text="@string/referral_premium_feature_no_ads" app:drawableStartCompat="@drawable/ic_refer_feature_no_ads" style="@style/Widget.Truecaller.TextView.PremiumFeature" />
+    <TextView android:id="@id/featureWhoViewedMe" android:text="@string/referral_premium_feature_wvm" app:drawableStartCompat="@drawable/ic_refer_feature_wvm" style="@style/Widget.Truecaller.TextView.PremiumFeature" />
+    <TextView android:id="@id/featurePremiumBadge" android:text="@string/referral_premium_feature_pro_badge" app:drawableStartCompat="@drawable/ic_refer_feature_badge" style="@style/Widget.Truecaller.TextView.PremiumFeature" />
+</LinearLayout>

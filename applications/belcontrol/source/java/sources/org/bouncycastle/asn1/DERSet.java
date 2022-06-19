@@ -1,0 +1,45 @@
+package org.bouncycastle.asn1;
+
+import java.io.ByteArrayOutputStream;
+import java.util.Enumeration;
+/* loaded from: classes3-dex2jar.jar:org/bouncycastle/asn1/DERSet.class */
+public class DERSet extends ASN1Set {
+    public DERSet() {
+    }
+
+    public DERSet(ASN1EncodableVector aSN1EncodableVector) {
+        this(aSN1EncodableVector, true);
+    }
+
+    public DERSet(ASN1EncodableVector aSN1EncodableVector, boolean z) {
+        for (int i = 0; i != aSN1EncodableVector.size(); i++) {
+            addObject(aSN1EncodableVector.get(i));
+        }
+        if (z) {
+            sort();
+        }
+    }
+
+    public DERSet(DEREncodable dEREncodable) {
+        addObject(dEREncodable);
+    }
+
+    public DERSet(ASN1Encodable[] aSN1EncodableArr) {
+        for (int i = 0; i != aSN1EncodableArr.length; i++) {
+            addObject(aSN1EncodableArr[i]);
+        }
+        sort();
+    }
+
+    @Override // org.bouncycastle.asn1.ASN1Set, org.bouncycastle.asn1.ASN1Object, org.bouncycastle.asn1.DERObject
+    public void encode(DEROutputStream dEROutputStream) {
+        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+        DEROutputStream dEROutputStream2 = new DEROutputStream(byteArrayOutputStream);
+        Enumeration objects = getObjects();
+        while (objects.hasMoreElements()) {
+            dEROutputStream2.writeObject(objects.nextElement());
+        }
+        dEROutputStream2.close();
+        dEROutputStream.writeEncoded(49, byteArrayOutputStream.toByteArray());
+    }
+}

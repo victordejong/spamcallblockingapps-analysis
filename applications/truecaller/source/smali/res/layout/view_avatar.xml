@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.truecaller.ui.view.ContactPhoto android:id="@id/avatar_view_img_avatar" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="@dimen/textExtraSmall" android:textColor="?theme_accentColor" android:gravity="center" android:id="@id/txt_add_avatar" android:padding="@dimen/control_semispace" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

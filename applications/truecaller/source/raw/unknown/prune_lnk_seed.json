@@ -1,0 +1,75 @@
+{
+  "GRM_BANK": {
+    "attributes": [
+      [
+        "acc_num"
+      ],
+      [
+        "trx_amt"
+      ],
+      [
+        "trx_type"
+      ],
+      [
+        "ref_id",
+        "vendor"
+      ]
+    ],
+    "delta": "1 days"
+  },
+  "GRM_UPI": {
+    "attributes": [
+      [
+        "trx_amt"
+      ],
+      [
+        "acc_num"
+      ]
+    ],
+    "delta": "2 mins"
+  },
+  "GRM_EVENT": {
+    "attributes":
+      [
+        [
+          "movie"
+        ],
+        [
+          "location"
+        ]
+      ],
+    "delta": "2 weeks"
+  },
+  "GRM_TRAVEL": {
+    "attributes":[
+      [
+        "date",
+        "pnr_id"
+      ],
+      [
+        "to_loc"
+      ],
+      [
+        "from_loc"
+      ],
+      [
+        "boardpnt"
+      ]
+    ],
+    "delta": "3 months"
+  },
+  "GRM_BILL": {
+    "attributes":[
+      [
+        "vendor"
+      ],
+      [
+        "dueins_num"
+      ],
+      [
+        "due_amt"
+      ]
+    ],
+    "delta": "4 weeks"
+  }
+}

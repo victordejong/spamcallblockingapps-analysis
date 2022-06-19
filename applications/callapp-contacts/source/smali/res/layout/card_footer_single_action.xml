@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/footerFrame" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_10_dp" android:layout_marginRight="@dimen/dimen_10_dp" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/footer_single_action" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/card_footer_height">
+        <androidx.legacy.widget.Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <TextView android:gravity="center" android:id="@id/footer_single_action_text" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <androidx.legacy.widget.Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

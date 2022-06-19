@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">Zuia na kuripoti %d Nambari kama taka?</item>
+        <item quantity="one">Zuia na kuripoti %d Nambari kama taka?</item>
+    </plurals>
+    <plurals name="ConversationCallsHistoryCount">
+        <item quantity="other">%d simu</item>
+        <item quantity="one">%d simu</item>
+    </plurals>
+    <plurals name="ConversationFlashHistoryCount">
+        <item quantity="other">%d jumbe za maangalizo</item>
+        <item quantity="one">%d ujumbe ya maangalizo</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">Jumbe imeongezwa kwenye kitufe muhimu</item>
+        <item quantity="one">Ujumbe imeongezwa kwenye kitufe muhimu</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d Mazungumzo yamewekewa alama kuwa yameshasomwa</item>
+        <item quantity="one">%d Mazungumzo imwekewa alama kuwa imeshasomwa</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">Maingizo %d yamefutwa</item>
+        <item quantity="one">%d ingizo limefutwa</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">Futa ingizo %d ?</item>
+        <item quantity="one">Futa ingizo?</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">Mazungumzo yamewekewa pini</item>
+        <item quantity="one">Mazungumzo yamewekewa pini</item>
+    </plurals>
+    <plurals name="ConversationReportNotSpamConfirmation">
+        <item quantity="other">Imeripotiwa kuwa jumbe %d sio taka</item>
+        <item quantity="one">Imeripotiwa kuwa ujumbe %d sio taka</item>
+    </plurals>
+    <plurals name="ConversationReportSpamConfirmation">
+        <item quantity="other">%d jumbe zimetaarifiwa kuwa taka</item>
+        <item quantity="one">%d ujumbe umetaarifiwa kuwa taka</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">Hifadhi wawasiliani wote</item>
+        <item quantity="one">@string/ConversationSaveContact</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">Mazungumzo yametolewa pini</item>
+        <item quantity="one">Mazungumzo yametolewa pini</item>
+    </plurals>
+    <plurals name="DeleteConversationsConfirmation">
+        <item quantity="other">%d mazungumzo yamefutwa</item>
+        <item quantity="one">%d zungumzo limefutwa</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">Futa %d mazungumzo?</item>
+        <item quantity="one">Futa %d mazungumzo?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">Namba %d zimepatikana</item>
+        <item quantity="one">nambari %d imeptikana</item>
+    </plurals>
+    <plurals name="HistoryActionConfirmDeleteMessage">
+        <item quantity="other">Futa vipengee %d?</item>
+        <item quantity="one">Futa kipengee %d?</item>
+    </plurals>
+    <plurals name="HistoryActionDeleted">
+        <item quantity="other">Vipengee %d vimefutwa</item>
+        <item quantity="one">Kipengee %d kimefutwa</item>
+    </plurals>
+    <plurals name="HistoryActionSelected">
+        <item quantity="other">Vipengee %d vimechaguliwa</item>
+        <item quantity="one">Kipengee %d kimechaguliwa</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">Una uhakika unataka kuondoa kizuizi Kwa nambari %d?</item>
+        <item quantity="one">Una uhakika unataka kuondoa kizuizi Kwa hii nambari</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteCallRecordings">
+        <item quantity="other">Je, una hakika unataka kufuta rekodi %s za simu?</item>
+        <item quantity="one">Je, una hakika unataka kufuta rekodi %s ya simu?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">Je, una hakika unataka kufuta faili %s za lugha?</item>
+        <item quantity="one">Je, una hakika unataka kufuta faili %s ya lugha?</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">%d jumbe imezuiliwa</item>
+        <item quantity="one">Jumbe imezuiliwa na Truecaller</item>
+    </plurals>
+    <plurals name="MessageNotificationNewMessages">
+        <item quantity="other">+%1$d jumbe mpya</item>
+        <item quantity="one">+1 Ujumbe mpya moja</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$s alipiga %2$d masaa yaliyopita.Gonga hapa kutazama katika Truecaller</item>
+        <item quantity="one">%1$s alipiga %2$d lisaa lililopita.Gonga hapa kutazama katika Truecaller</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d Wawasiliani</item>
+        <item quantity="one">%d Muwasiliani</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d viambatanishi</item>
+        <item quantity="one">%1$d kiambatanishi</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">%d wawasiliani wengine</item>
+        <item quantity="one">%d muwasiliani mwingine</item>
+    </plurals>
+    <plurals name="NewImGroupMemberCount">
+        <item quantity="other">%d wanachama</item>
+        <item quantity="one">%d mwanachama</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">%d nambari zimeongezwa kwenye orodha ya nambari zilizozuiliwa</item>
+        <item quantity="one">Nambari imeongezwa kwenye orodha ya nambari zilizozuiliwa</item>
+    </plurals>
+    <plurals name="OSNotificationTextNew">
+        <item quantity="other">Una taarifa %d mpya</item>
+        <item quantity="one">Una taarifa moja mpya</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d simu zimezuiwa</item>
+        <item quantity="one">%d simu imezuiwa</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d simu zilizonyamazishwa</item>
+        <item quantity="one">%d simu iliyonyamazishwa</item>
+    </plurals>
+    <plurals name="PremiumAbbreviatedOfferPriceOverMonth">
+        <item quantity="other">%1$s/miz</item>
+        <item quantity="one">%1$s/mwz</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">Siku %1$d la jaribio la bure kwa wanachama wapya tu</item>
+        <item quantity="one">Siku %1$d la jaribio la bure kwa wanachama wapya tu</item>
+    </plurals>
+    <plurals name="PremiumFeatureContactRequestLeft">
+        <item quantity="other">%1$d maombi yameachwa</item>
+        <item quantity="one">%1$d ombi limeachwa</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">Mitazamo %1$d mipya ya kontua</item>
+        <item quantity="one">Mtazamo 1 mpya wa kontua</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">Watu %1$d wametazama umbo lako hivyo karibuni</item>
+        <item quantity="one">Mtu ametazama umbo lako hivi karibuni</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d people (%3$d in %2$s) wametazama wasifa wako hivi karibuni.</item>
+        <item quantity="one">Mtu kutoka %2$s ametazama wasifa wako hivi karibuni.</item>
+    </plurals>
+    <plurals name="SettingPendingGroupInvitationsMessage">
+        <item quantity="other">Una mialiko ya makundi yanayokusubiri %d. Ungependa kukubali yote?</item>
+        <item quantity="one">Una mualiko wa kundi unaokusubiri %d.Ungependa kukubali?</item>
+    </plurals>
+    <plurals name="SpamSmsFound">
+        <item quantity="other">Jumbe taka %d zimepatikana</item>
+        <item quantity="one">Jumbe taka %d zimepatikana</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByMultiple">
+        <item quantity="other">%1$s na %2$d wengine walialikwa kwenye kundi na %3$s</item>
+        <item quantity="one">%1$s na %2$d mwingine alialikwa kwenye kundi na %3$s</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByYouMultiple">
+        <item quantity="other">Ulimualika %1$s na %2$d wengine kwenye kundi</item>
+        <item quantity="one">Ulimualika %1$s na %2$d mwingine kwenye kundi</item>
+    </plurals>
+    <plurals name="StrPhoneNumberAndMore">
+        <item quantity="other">%1$s &lt;b>+%2$d zaidi&lt;/b></item>
+        <item quantity="one">%1$s &lt;b>+%2$d zaidi&lt;/b></item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">siku</item>
+        <item quantity="one">siku</item>
+    </plurals>
+    <plurals name="StrPluralHour">
+        <item quantity="other">masaa</item>
+        <item quantity="one">saa</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">Miezi</item>
+        <item quantity="one">Mwezi</item>
+    </plurals>
+    <plurals name="StrPluralWeek">
+        <item quantity="other">wiki</item>
+        <item quantity="one">wiki</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">miaka</item>
+        <item quantity="one">mwaka</item>
+    </plurals>
+    <plurals name="UnreadConversations">
+        <item quantity="other">%d Mazungumzo yasiyosomwa</item>
+        <item quantity="one">%d Gumzo lisilosomwa</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">Umepitisha kipimo cha majaribio ya uthibitisho.Tafadhali jaribu tena nadni ya %dh</item>
+        <item quantity="one">Umepitisha kipimo cha majaribio ya uthibitisho.Tafadhali jaribu tena nadni ya %dh</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">Watu %1$d wametazama umbo lako</item>
+        <item quantity="one">Mtu ametazama umbo lako</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d watu (1 ndani %2$s ) wametazama umbo lako</item>
+        <item quantity="one">%1$d mtu kutoka %2$s ametazama umbo lako</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">Watu %1$d walitazama maelezo yako mafupi. Fahamu zaidi.</item>
+        <item quantity="one">Mtu 1 alitazama maelezo yako mafupi. Fahamu zaidi.</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">Watu %1$d (%3$d kwa %2$s) walitazama maelezo yako mafupi. Fahamu zaidi.</item>
+        <item quantity="one">Mtu 1 kutoka %2$s alitazama maelezo yako mafupi. Fahamu zaidi.</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaption">
+        <item quantity="other">Mitazamo %1$d mipya</item>
+        <item quantity="one">Mtazamo %1$d mpya</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaptionWithLocation">
+        <item quantity="other">"Mitazamo %1$d mipya • %2$d kutoka kwa %3$s
+
+
+"</item>
+        <item quantity="one">"Mtazamo %1$d mpya • %2$d kutoka kwa %3$s
+
+"</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">reCaptcha meshindwa mara nyingi.tafadhali jaribu tena baadae ndani ya masaa %1$d</item>
+        <item quantity="one">Recaptcha imeshindwa mara nyingi.tafadhali jaribu tena baadae ndani ya saa %1$d</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">mazungumzo %s yamehifadhiwa</item>
+        <item quantity="one">mazungumzo %s yamehifadhiwa</item>
+    </plurals>
+    <plurals name="biz_govt_contacts_count">
+        <item quantity="other">Waasiliani %1$d</item>
+        <item quantity="one">Mwasiliani %1$d</item>
+    </plurals>
+    <plurals name="call_recording_toast_items_deleted">
+        <item quantity="other">Imefuta %1$d rekodi</item>
+        <item quantity="one">Imefuta %1$d rekodi</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">Jumbe za OTP zimefutwa</item>
+        <item quantity="one">Ujumbe wa OTP umefutwa</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">Jumbe za promosheni zimefutwa</item>
+        <item quantity="one">Ujumbe wa promosheni umefutwa</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">Jumbe za taka zimefutwa</item>
+        <item quantity="one">Ujumbe wa taka umefutwa</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d jumbe</item>
+        <item quantity="one">%d ujumbe</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d OTPs</item>
+        <item quantity="one">%d OTP</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_promotional">
+        <item quantity="other">Jumbe za promosheni %d</item>
+        <item quantity="one">Ujumbe wa promosheni %d</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d jumbe taka</item>
+        <item quantity="one">%d ujumbe taka</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d jumbe zimefutwa</item>
+        <item quantity="one">%d ujumbe umefutwa</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">Mialiko</item>
+        <item quantity="one">Mualiko</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="other">kati ya siku %d</item>
+        <item quantity="one">kesho</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="other">katika saa %d</item>
+        <item quantity="one">kati ya saa 1</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="other">kati ya dakika%d</item>
+        <item quantity="one">baada ya dakika 1</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="other">kati ya sekunde %d</item>
+        <item quantity="one">kati ya sekunde 1</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="other">siku %d zilizopita</item>
+        <item quantity="one">jana</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="other">Saa %d zilizopita</item>
+        <item quantity="one">Saa 1 iliyopita</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="other">Dakika %d zilizopita</item>
+        <item quantity="one">Dakika 1 iliyopita</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="other">Sekunde %d zilizopita</item>
+        <item quantity="one">Sekunde 1 iliyopita</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="other">Saa %d</item>
+        <item quantity="one">Saa 1</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="other">Dakika %d</item>
+        <item quantity="one">Dakika 1</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="other">Sekunde %d</item>
+        <item quantity="one">Sekunde 1</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="other">katika siku %d</item>
+        <item quantity="one">kesho</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="other">kati ya saa %d</item>
+        <item quantity="one">kati ya saa 1</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="other">katika dakika %d</item>
+        <item quantity="one">"kati ya dakika  1"</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="other">kati ya sekunde %d</item>
+        <item quantity="one">kati ya sekunde 1</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="other">siku %d zilizopita</item>
+        <item quantity="one">jana</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="other">Saa %d zilizopita</item>
+        <item quantity="one">Saa 1 iliyopita</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="other">Dakika %d zilizopita</item>
+        <item quantity="one">Dakika 1 iliyopita</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="other">sekunde %d zilizopita</item>
+        <item quantity="one">Sekunde 1 iliopita</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">Unaenda kufuta mafaili uliyoyachagua na %d ujumbe zinazohusika</item>
+        <item quantity="one">"Unaenda kufuta mafaili uliyoyachagua na jumbe zinazohusika
+
+"</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">Futa jumbe?</item>
+        <item quantity="one">Futa ujumbe?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">Arifa %d mpya</item>
+        <item quantity="one">Arifa %d mpya</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">Marafiki</item>
+        <item quantity="one">Rafiki</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">siku</item>
+        <item quantity="one">siku moja</item>
+    </plurals>
+    <plurals name="spam_counts">
+        <item quantity="other">%d ripoti za taka</item>
+        <item quantity="one">%d ripoti ya taka</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">mazungumzo %s yamefukuliwa</item>
+        <item quantity="one">mazungumzo %s yamefukuliwa</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">Jumbe zimepokewa</item>
+        <item quantity="one">Ujumbe umepokewa</item>
+    </plurals>
+    <plurals name="voip_group_launcher_person">
+        <item quantity="other">washiriki</item>
+        <item quantity="one">mshiriki</item>
+    </plurals>
+    <plurals name="voip_notification_missed_grouped_title">
+        <item quantity="other">Umekosa simu za %1$s</item>
+        <item quantity="one">Umekosa simu %1$s</item>
+    </plurals>
+    <plurals name="voip_notification_title_other">
+        <item quantity="other">%1$s wengine</item>
+        <item quantity="one">%1$s mwingine</item>
+    </plurals>
+</resources>

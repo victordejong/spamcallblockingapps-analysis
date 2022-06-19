@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/llMain" android:tag="layout/number_detail_call_history_item_0" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_height="65.0dip" style="@style/llListItemSelectable"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/imgCallType" android:layout_width="30.0dip" android:layout_height="30.0dip" style="@style/imgColorable" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="0.0dip" android:layout_marginLeft="@dimen/spaceSmall" android:layout_marginRight="@dimen/spaceSmall" android:layout_weight="1.0" style="@style/llParentWidth">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@id/imgBlockSmall" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/ic_block_white_24dp" android:tint="@color/ratingNegativeColorLight" style="@style/imgRatingSmall" />
+                <ImageView android:layout_gravity="center" android:id="@id/imgAllowSmall" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/ic_done_white_48dp" android:tint="@color/ratingPositiveColorLight" style="@style/imgRatingSmall" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontBig" android:ellipsize="end" android:id="@id/tvCaption" android:layout_width="fill_parent" android:layout_marginLeft="@dimen/spaceSmallest" android:text="Test" android:maxLines="1" android:layout_weight="1.0" style="@style/listItemPrimaryText" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontBig" android:gravity="center" android:id="@id/tvTime" android:text="time" style="@style/listItemPrimaryText" />
+            </LinearLayout>
+            <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:id="@id/tvDescription" android:layout_marginLeft="@dimen/spaceSmallest" android:text="Test" android:maxLines="1" style="@style/listItemSecondaryText" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp80" android:paddingStart="@dimen/dp8" android:paddingEnd="@dimen/dp8"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="?tcx_textSecondary" android:id="@id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp8" android:fontFamily="sans-serif-bold" android:layout_marginStart="@dimen/dp8" android:layout_marginEnd="@dimen/dp8" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Text.Body.B1" />
+    <RatingBar android:id="@id/ratingBar" android:layout_width="wrap_content" android:layout_height="@dimen/dp56" android:max="5" android:stepSize="1.0" android:transformPivotX="0.0dip" android:scaleX="0.65" android:scaleY="0.65" android:layout_marginStart="@dimen/dp6" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header" style="@style/Widget.SurveyRatingBar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

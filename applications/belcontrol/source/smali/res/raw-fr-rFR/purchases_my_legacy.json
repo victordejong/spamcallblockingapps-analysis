@@ -1,0 +1,27 @@
+{
+		"top" : "Enhanced Caller ID vous permet de savoir qui vous appelle lorsque vous recevez un appel masqué, l’époque des appels de mystérieux est bien révolue.",
+
+        "sections" : [
+            {
+                "img" : "glass",
+                "descr" : "Affiche le nom des correspondants masqués",
+                "width": "40",
+                "height": "40"
+            },
+            {
+                "img" : "group",
+                "descr" : "Des millions d\'individus et d\'entreprises",
+                "width": "40",
+                "height": "40"
+
+            },
+            {
+                "img" : "credits",
+                "descr" : "Obtenez 10 crédits de bonus pour les recherches manuelles",
+                "width": "40",
+                "height": "40"
+            }
+        ],
+
+        "bottom" : ""
+}

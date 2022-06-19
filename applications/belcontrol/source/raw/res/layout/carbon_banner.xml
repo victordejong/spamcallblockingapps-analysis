@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.LinearLayout android:orientation="vertical" android:background="?carbon_colorBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <carbon.widget.FlowLayout android:gravity="start" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <carbon.widget.LinearLayout android:id="@id/carbon_banner_content" android:paddingLeft="@dimen/carbon_windowPadding" android:paddingTop="@dimen/carbon_padding" android:paddingRight="@dimen/carbon_windowPadding" android:paddingBottom="@dimen/carbon_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <carbon.widget.ImageView android:id="@id/carbon_bannerIcon" android:layout_width="@dimen/carbon_toolbarHeight" android:layout_height="@dimen/carbon_toolbarHeight" android:layout_marginRight="@dimen/carbon_margin" android:src="@drawable/carbon_iconplaceholder" android:layout_marginEnd="@dimen/carbon_margin" />
+            <carbon.widget.TextView android:id="@id/carbon_bannerText" android:paddingTop="@dimen/carbon_paddingHalf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="You sample started and is doing fine." />
+        </carbon.widget.LinearLayout>
+        <carbon.widget.LinearLayout android:gravity="end" android:layout_gravity="bottom" android:id="@id/carbon_banner_buttons" android:paddingLeft="@dimen/carbon_paddingHalf" android:paddingRight="@dimen/carbon_paddingHalf" android:paddingBottom="@dimen/carbon_paddingHalf" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </carbon.widget.FlowLayout>
+    <carbon.widget.Divider android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</carbon.widget.LinearLayout>

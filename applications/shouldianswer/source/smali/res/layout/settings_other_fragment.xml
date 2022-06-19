@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:tag="layout/settings_other_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/appToolbar" style="@style/appBarToolbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout style="@style/llMainContent">
+            <LinearLayout android:id="@id/llVisualTheme" style="@style/llSection">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:text="@string/visual_theme" style="@style/textViewStyleSectionTitle" />
+                </LinearLayout>
+                <RadioGroup android:id="@id/radioGroupProtection" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                        <RadioButton android:id="@id/checkThemeDefault" android:layout_width="0.0dip" android:text="@string/system_default" android:layout_weight="1.0" style="@style/switchParentWidth" />
+                    </LinearLayout>
+                    <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                        <RadioButton android:id="@id/checkThemeLight" android:layout_width="0.0dip" android:text="@string/light_theme" android:layout_weight="1.0" style="@style/switchParentWidth" />
+                    </LinearLayout>
+                    <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                        <RadioButton android:id="@id/checkThemeDark" android:layout_width="0.0dip" android:text="@string/dark_theme" android:layout_weight="1.0" style="@style/switchParentWidth" />
+                    </LinearLayout>
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout android:id="@id/llUseDarkTheme" style="@style/llParentWidthHorizontalCenterVertical">
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/checkUseDarkTheme" android:layout_width="0.0dip" android:text="@string/use_dark_theme" android:layout_weight="1.0" style="@style/switchParentWidth" />
+                <ImageButton android:visibility="invisible" style="@style/buttonHelp" />
+            </LinearLayout>
+            <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/checkShowSimSelection" android:layout_width="0.0dip" android:text="@string/activity_settings_general_switch_show_sim_selection" android:layout_weight="1.0" style="@style/switchParentWidth" />
+                <ImageButton android:id="@id/butShowSimSelectionMoreInfo" style="@style/buttonHelp" />
+            </LinearLayout>
+            <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/checkIgnoreContactsInvisibleFlag" android:layout_width="0.0dip" android:text="@string/ignore_contacts_invisible_flag" android:layout_weight="1.0" style="@style/switchParentWidth" />
+                <ImageButton android:id="@id/butIgnoreContactsInvisibleFlagMoreInfo" style="@style/buttonHelp" />
+            </LinearLayout>
+            <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/checkDontShowInCallPopup" android:layout_width="0.0dip" android:text="@string/do_not_use_calling_popups" android:layout_weight="1.0" style="@style/switchParentWidth" />
+                <ImageButton android:id="@id/butShowInCallPopupMoreInfo" style="@style/buttonHelp" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

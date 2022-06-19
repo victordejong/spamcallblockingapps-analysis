@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/recordproblem_item_click" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:foreground="?card_foreground" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:id="@id/recordproblem_item_name" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/recordproblem_item_radio_normal" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <RadioButton android:enabled="false" android:textColor="?color_weak" android:id="@id/recordproblem_item_radio_normal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_marginEnd="12.0dip" android:buttonTint="?color_action" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/recordproblem_item_name" app:layout_constraintTop_toTopOf="parent" style="@style/MyRadioButton" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:layout_gravity="bottom" android:background="?color_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</FrameLayout>

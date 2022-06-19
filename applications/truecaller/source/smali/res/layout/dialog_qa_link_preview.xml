@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="280.0dip">
+        <EditText android:id="@id/etInput" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/space" android:hint="Enter text with links" android:inputType="text" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/ivResult" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginTop="@dimen/space" android:scaleType="centerCrop" android:contentDescription="@null" />
+        <TextView android:id="@id/tvResult" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/space" />
+        <Button android:layout_gravity="end" android:id="@id/btnExtract" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/space" android:text="Extract" />
+    </LinearLayout>
+</ScrollView>

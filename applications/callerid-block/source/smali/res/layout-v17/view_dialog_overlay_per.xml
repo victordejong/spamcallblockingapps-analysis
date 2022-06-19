@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?bg_dialog" android:layout_width="280.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="100.0dip" android:layout_height="65.0dip" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:src="@drawable/iv_overlay_per" />
+        <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_horizontal" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="12.0dip" android:text="@string/enable" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="?color_666666" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="24.0dip" android:text="@string/are_your_sure" android:lineSpacingExtra="4.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <FrameLayout android:id="@id/fl_cancel" android:background="?bg_bt_blue_corner2" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:foreground="?card_foreground" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="?color_pdt_bg" android:layout_gravity="center" android:id="@id/tv_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enable" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/fl_skip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="8.0dip" android:foreground="?card_foreground" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="?color_999999" android:layout_gravity="center" android:id="@id/tv_skip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/update_dialog_cancel" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

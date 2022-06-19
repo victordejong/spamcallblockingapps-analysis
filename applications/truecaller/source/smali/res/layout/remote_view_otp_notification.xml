@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/otpContainer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/remote_view_include_otp_message" />
+    <TextView android:textAppearance="@style/TextAppearance.Material.Notification.Subtitle" android:id="@id/labelConfidential" android:background="@drawable/otp_disclaimer_background" android:paddingTop="@dimen/dp2" android:paddingBottom="@dimen/dp2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp10" android:text="@string/otp_notification_confidential_message" android:drawablePadding="@dimen/dp4" android:lineSpacingExtra="@dimen/dp0" android:drawableStart="@drawable/ic_otp_disclaimer" android:paddingStart="@dimen/dp4" android:paddingEnd="@dimen/dp4" android:layout_marginStart="@dimen/dp52" />
+</LinearLayout>

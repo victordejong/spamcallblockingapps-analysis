@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/actionGridViewItemContainer" android:layout_width="@dimen/grid_view_item_column_width" android:layout_height="wrap_content" android:layout_centerHorizontal="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/actionGridViewItemImageView" android:layout_width="48.0dip" android:layout_height="48.0dip" />
-    <TextView android:textSize="@dimen/dimen_14_dp" android:ellipsize="end" android:gravity="center|top" android:id="@id/actionGridViewItemTextView" android:layout_width="@dimen/grid_view_item_column_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_16_dp" android:maxLines="1" style="@style/Body1.Info_text" />
-</LinearLayout>

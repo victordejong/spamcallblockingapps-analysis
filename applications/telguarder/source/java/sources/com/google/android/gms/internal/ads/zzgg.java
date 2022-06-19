@@ -1,0 +1,21 @@
+package com.google.android.gms.internal.ads;
+
+import com.google.android.gms.internal.ads.zzcf;
+import java.lang.reflect.InvocationTargetException;
+/* loaded from: classes2-dex2jar.jar:com/google/android/gms/internal/ads/zzgg.class */
+public final class zzgg extends zzgn {
+    private final boolean zzabh;
+
+    public zzgg(zzfc zzfcVar, String str, String str2, zzcf.zza.zzb zzbVar, int i, int i2) {
+        super(zzfcVar, str, str2, zzbVar, i, 61);
+        this.zzabh = zzfcVar.zzcf();
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzgn
+    protected final void zzcw() throws IllegalAccessException, InvocationTargetException {
+        long longValue = ((Long) this.zzabl.invoke(null, this.zzwc.getContext(), Boolean.valueOf(this.zzabh))).longValue();
+        synchronized (this.zzabb) {
+            this.zzabb.zzbo(longValue);
+        }
+    }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="layout/dialog_processing_0" style="@style/llParentWidthHorizontalCenter"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:padding="@dimen/spaceSmall" style="@style/progressBar" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvInfo" android:text="@string/dialog_processing_tv_please_wait" style="@style/textViewStyle" />
+</LinearLayout>

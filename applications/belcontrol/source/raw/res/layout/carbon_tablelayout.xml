@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <carbon.widget.LinearLayout android:orientation="horizontal" android:id="@id/carbon_tableHeader" android:layout_width="fill_parent" android:layout_height="@dimen/carbon_tableFooterHeight" />
+    <carbon.widget.Divider android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <carbon.widget.TableView android:id="@id/carbon_table" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="?carbon_dividerColor" android:dividerHeight="1.0dip" android:layout_weight="1.0" />
+    <carbon.widget.Divider android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <carbon.widget.LinearLayout android:orientation="horizontal" android:id="@id/carbon_tableFooter" android:layout_width="fill_parent" android:layout_height="@dimen/carbon_tableFooterHeight">
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <carbon.widget.TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/carbon_margin" android:text="@string/carbon_rowsPerPage" />
+        <carbon.widget.DropDown android:layout_gravity="center_vertical" android:id="@id/carbon_tableRowNumber" android:layout_width="wrap_content" android:layout_height="@dimen/carbon_listItemHeight" app:carbon_mode="fit" />
+        <carbon.widget.TextView android:layout_gravity="center_vertical" android:id="@id/carbon_tablePageNumbers" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/carbon_margin" />
+        <carbon.widget.ImageView android:layout_gravity="center_vertical" android:clickable="true" android:layout_width="@dimen/carbon_toolbarItemSize" android:layout_height="@dimen/carbon_toolbarItemSize" android:src="@raw/carbon_prev" android:scaleType="center" app:carbon_rippleColor="?carbon_rippleColor" app:carbon_rippleStyle="borderless" app:carbon_tint="@color/carbon_defaultIconColor" />
+        <carbon.widget.ImageView android:layout_gravity="center_vertical" android:clickable="true" android:layout_width="@dimen/carbon_toolbarItemSize" android:layout_height="@dimen/carbon_toolbarItemSize" android:src="@raw/carbon_next" android:scaleType="center" app:carbon_rippleColor="?carbon_rippleColor" app:carbon_rippleStyle="borderless" app:carbon_tint="@color/carbon_defaultIconColor" />
+    </carbon.widget.LinearLayout>
+</merge>

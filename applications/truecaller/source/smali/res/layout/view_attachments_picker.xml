@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?tcx_conversationInputBarBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/recyclerViewPreview" android:layout_width="fill_parent" android:layout_height="@dimen/recycler_view_preview_height" android:layout_marginTop="@dimen/space" android:layout_marginStart="@dimen/space" android:layout_marginEnd="@dimen/space" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <HorizontalScrollView android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/recycler_view_preview_height">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/pickerButtons" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/buttonFlash" style="@style/Widget.Truecaller.AttachmentOption.Item">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_marginBottom="@dimen/space" android:tint="?tcx_avatarTextBlue" app:backgroundTint="?tcx_avatarBackgroundBlue" app:srcCompat="@drawable/ic_tcx_action_flash_outline_24dp" style="@style/Widget.Truecaller.AttachmentOption.Image" />
+                <TextView android:text="@string/MessageAttachmentOptionFlash" style="@style/Widget.Truecaller.AttachmentOption.Text" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/buttonGallery" style="@style/Widget.Truecaller.AttachmentOption.Item">
+                <com.truecaller.ui.view.TintedImageView android:layout_marginBottom="@dimen/space" android:tint="?tcx_avatarTextYellow" app:backgroundTint="?tcx_avatarBackgroundYellow" app:srcCompat="@drawable/ic_tcx_photo_library_outline_24dp" style="@style/Widget.Truecaller.AttachmentOption.Image" />
+                <TextView android:text="@string/MmsAttachmentOptionGallery" style="@style/Widget.Truecaller.AttachmentOption.Text" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/buttonDocument" style="@style/Widget.Truecaller.AttachmentOption.Item">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_marginBottom="@dimen/space" android:tint="?tcx_avatarTextBlue" app:backgroundTint="?tcx_avatarBackgroundBlue" app:srcCompat="@drawable/ic_tcx_doc_24dp" style="@style/Widget.Truecaller.AttachmentOption.Image" />
+                <TextView android:text="@string/MmsAttachmentOptionDoc" style="@style/Widget.Truecaller.AttachmentOption.Text" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/buttonVideo" style="@style/Widget.Truecaller.AttachmentOption.Item">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_marginBottom="@dimen/space" android:tint="?tcx_avatarTextAqua" app:backgroundTint="?tcx_avatarBackgroundAqua" app:srcCompat="@drawable/ic_tcx_videocam_24dp" style="@style/Widget.Truecaller.AttachmentOption.Image" />
+                <TextView android:text="@string/MmsAttachmentOptionVideo" style="@style/Widget.Truecaller.AttachmentOption.Text" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/buttonContact" style="@style/Widget.Truecaller.AttachmentOption.Item">
+                <com.truecaller.ui.view.TintedImageView android:layout_marginBottom="@dimen/space" android:tint="?tcx_avatarTextViolet" app:backgroundTint="?tcx_avatarBackgroundViolet" app:srcCompat="@drawable/ic_tcx_person_24dp" style="@style/Widget.Truecaller.AttachmentOption.Image" />
+                <TextView android:text="@string/MmsAttachmentOptionContact" style="@style/Widget.Truecaller.AttachmentOption.Text" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/buttonLocation" style="@style/Widget.Truecaller.AttachmentOption.Item">
+                <com.truecaller.ui.view.TintedImageView android:layout_marginBottom="@dimen/space" android:tint="?tcx_avatarTextRed" app:backgroundTint="?tcx_avatarBackgroundRed" app:srcCompat="@drawable/ic_tcx_location_24dp" style="@style/Widget.Truecaller.AttachmentOption.Image" />
+                <TextView android:text="@string/MmsAttachmentOptionLocation" style="@style/Widget.Truecaller.AttachmentOption.Text" />
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <View android:id="@id/disableViewlayout" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

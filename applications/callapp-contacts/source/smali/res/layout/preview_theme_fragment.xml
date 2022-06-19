@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rootView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/innerStatusBarLayout" android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_above="@id/innerTopBarLayout" android:layout_alignLeft="@id/imageDialpadDigits" android:layout_alignRight="@id/imageDialpadDigits" />
+    <ImageView android:id="@id/innerTopBarLayout" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="28.0dip" android:src="@drawable/ic_themes_preview_search_bar" android:layout_above="@id/contactsContainer" android:layout_alignLeft="@id/imageDialpadDigits" android:layout_alignRight="@id/imageDialpadDigits" />
+    <LinearLayout android:orientation="vertical" android:id="@id/contactsContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-8.0dip" android:layout_above="@id/imageDialpadDigits" android:layout_alignLeft="@id/imageDialpadDigits" android:layout_alignRight="@id/imageDialpadDigits" android:layout_centerHorizontal="true">
+        <RelativeLayout android:id="@id/contactLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.callapp.contacts.widget.DualCirclesCheckBox android:id="@id/contactIcon1" android:padding="0.0dip" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:checked="true" android:button="@drawable/ic_theme_preview_contact_pic" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:dc_circles_radius_diff="0.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/contactIcon1" android:layout_centerVertical="true" android:layout_toEndOf="@id/contactIcon1">
+                <View android:id="@id/text1" android:background="@color/black" android:layout_width="76.0dip" android:layout_height="8.0dip" android:layout_marginBottom="1.0dip" />
+                <View android:id="@id/subtext1" android:background="@color/black" android:layout_width="36.0dip" android:layout_height="6.0dip" />
+            </LinearLayout>
+            <ImageView android:id="@id/imageCall1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_theme_preview_call" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/contactLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.callapp.contacts.widget.DualCirclesCheckBox android:id="@id/contactIcon2" android:padding="0.0dip" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:checked="true" android:button="@drawable/ic_theme_preview_contact_pic" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:dc_circles_radius_diff="0.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/contactIcon2" android:layout_centerVertical="true" android:layout_toEndOf="@id/contactIcon2">
+                <View android:id="@id/text2" android:background="@color/black" android:layout_width="54.0dip" android:layout_height="8.0dip" android:layout_marginBottom="1.0dip" />
+                <View android:id="@id/subtext2" android:background="@color/black" android:layout_width="48.0dip" android:layout_height="6.0dip" />
+            </LinearLayout>
+            <ImageView android:id="@id/imageCall2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_theme_preview_call" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/contactLayout3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.callapp.contacts.widget.DualCirclesCheckBox android:id="@id/contactIcon3" android:padding="0.0dip" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:checked="true" android:button="@drawable/ic_theme_preview_contact_pic" android:layout_alignParentLeft="true" android:layout_centerVertical="true" app:dc_circles_radius_diff="0.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/contactIcon3" android:layout_centerVertical="true" android:layout_toEndOf="@id/contactIcon3">
+                <View android:id="@id/text3" android:background="@color/black" android:layout_width="80.0dip" android:layout_height="8.0dip" android:layout_marginBottom="1.0dip" />
+                <View android:id="@id/subtext3" android:background="@color/black" android:layout_width="44.0dip" android:layout_height="6.0dip" />
+            </LinearLayout>
+            <ImageView android:id="@id/imageCall3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_theme_preview_call" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_themes_preview_phone" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/imageDialpadDigits" android:background="@color/white_callapp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_themes_preview_dailpad_numbers" android:tint="@color/grey" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/imageDialpadSigns" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_themes_preview_dailpad_signs" android:tint="@color/green" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <View android:id="@id/shadow_top" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_above="@id/imageDialpadDigits" android:layout_alignLeft="@id/imageDialpadDigits" android:layout_alignRight="@id/imageDialpadDigits" android:layout_centerHorizontal="true" />
+    <View android:id="@id/bottomContainerShadow" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_above="@id/bottomContainer" android:layout_centerHorizontal="true" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/imageDialBtn" android:background="@drawable/ic_themes_dail_btn_shadow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_themes_dail_btn" />
+        <ImageView android:id="@id/imageDialBtnIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_themes_dail_btn_icon" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bottomContainer" android:background="@color/white_callapp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true">
+        <LinearLayout android:gravity="center|top" android:orientation="horizontal" android:id="@id/themeTypeLayout" android:layout_width="fill_parent" android:layout_height="@dimen/themeBtnsPanelHieght">
+            <TextView android:layout_gravity="center_vertical" android:id="@id/tv_light" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Body2.List_button" />
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/themeSwitch2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip" android:thumb="@drawable/ic_themes_toggle_btn_shadow" app:track="@drawable/ic_themes_toggle_bg" />
+            <TextView android:layout_gravity="center_vertical" android:id="@id/tv_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Body2.List_button" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?tcx_backgroundPrimary" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.common.ui.banner.BannerViewX android:id="@id/hard_upgrade_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/doubleSpace" app:bannerViewImage="?conversation_imHardUpgradePromo" app:bannerViewSecondaryButton="@string/messaging_hard_upgrade_prompt_btn" app:bannerViewSubtitle="@string/messaging_hard_upgrade_prompt_message" app:bannerViewTitle="@string/messaging_hard_upgrade_prompt_title" />
+</FrameLayout>

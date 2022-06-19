@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/item_home_click" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:foreground="@drawable/card_foreground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="277.0dip">
+        <ImageView android:id="@id/item_home_image" android:layout_width="fill_parent" android:layout_height="277.0dip" android:src="@drawable/diy_bg" android:scaleType="centerCrop" android:contentDescription="@string/default_pos" />
+        <ImageView android:id="@id/iv_diy" android:layout_width="59.0dip" android:layout_height="55.0dip" android:layout_marginTop="77.0dip" android:src="@drawable/diy" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="14.0sp" android:textColor="?color_title" android:id="@id/tv_diy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/diy" android:layout_below="@id/iv_diy" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/iv_selected" android:visibility="gone" android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_40" android:src="@drawable/ic_callscreen_select" android:layout_alignParentRight="true" android:contentDescription="@string/default_pos" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</FrameLayout>

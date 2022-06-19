@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:ellipsize="end" android:background="@drawable/context_call_chip_background" android:paddingTop="@dimen/context_call_chip_vertical_padding" android:paddingBottom="@dimen/context_call_chip_vertical_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:maxLength="@integer/context_call_custom_message_max_length" android:textDirection="anyRtl" android:paddingStart="@dimen/context_call_chip_horizontal_padding" android:paddingEnd="@dimen/context_call_chip_horizontal_padding" style="@style/StyleX.Text.Caption.Medium.ContextCallChip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

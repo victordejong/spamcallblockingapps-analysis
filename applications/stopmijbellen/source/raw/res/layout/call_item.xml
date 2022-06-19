@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/mainLL" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/contact_icon_layout" android:visibility="visible" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:layout_marginEnd="5.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:id="@id/imageViewContact" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@android:drawable/ic_menu_help" android:scaleType="fitCenter" android:contentDescription="" />
+            <RelativeLayout android:id="@id/dndLayout" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_alignParentTop="true" android:layout_alignParentEnd="true">
+                <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/round_basecolor" android:scaleType="fitXY" />
+                <ImageView android:layout_gravity="center" android:id="@id/imageViewDND" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="1.0dip" android:src="@android:drawable/ic_lock_silent_mode" android:scaleType="fitCenter" android:maxWidth="12.0dip" android:maxHeight="12.0dip" app:tint="@color/colorWhite" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/presetLayout" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+                <ImageView android:id="@id/presetImageView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/round_basecolor" android:scaleType="fitXY" />
+                <TextView android:textSize="8.0sp" android:textStyle="bold" android:textColor="@color/colorWhite" android:gravity="center" android:id="@id/presetTextView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="2" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/imageViewCall" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/ic_sym_call_blocked_2" android:scaleType="fitCenter" android:maxWidth="26.0dip" android:maxHeight="26.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0sp" android:layout_gravity="center_horizontal" android:id="@id/tvDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/namePhoneSimTimeLL" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginStart="5.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/nameAndPhoneLL" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="18.0sp" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tvPhone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Phonenumber longlonglong" android:maxLines="1" />
+            <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tvPhoneDetails" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="phone details" android:layout_weight="0.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="end|center" android:orientation="vertical" android:id="@id/simAndTimeLL" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="3.0dip" android:layout_marginBottom="3.0dip" android:layout_weight="0.0" android:layout_marginStart="5.0dip">
+            <LinearLayout android:gravity="end|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/imageViewSim" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_sim1" android:scaleType="fitCenter" />
+            </LinearLayout>
+            <TextView android:textSize="12.0sp" android:gravity="end|center" android:layout_gravity="end|center" android:id="@id/tvCallTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="12:22" android:maxLength="15" />
+        </LinearLayout>
+        <LinearLayout android:gravity="end|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0" android:layout_marginStart="5.0dip">
+            <CheckBox android:id="@id/checkbox" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

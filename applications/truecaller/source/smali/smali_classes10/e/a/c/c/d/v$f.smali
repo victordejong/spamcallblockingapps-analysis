@@ -1,0 +1,122 @@
+.class public Le/a/c/c/d/v$f;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/util/concurrent/Callable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Le/a/c/c/d/v;->e(Le/a/c/r/f/a;Ls1/w/d;)Ljava/lang/Object;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Ljava/util/concurrent/Callable<",
+        "Ljava/lang/Long;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Le/a/c/r/f/a;
+
+.field public final synthetic b:Le/a/c/c/d/v;
+
+
+# direct methods
+.method public constructor <init>(Le/a/c/c/d/v;Le/a/c/r/f/a;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Le/a/c/c/d/v$f;->b:Le/a/c/c/d/v;
+
+    iput-object p2, p0, Le/a/c/c/d/v$f;->a:Le/a/c/r/f/a;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public call()Ljava/lang/Object;
+    .locals 3
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Le/a/c/c/d/v$f;->b:Le/a/c/c/d/v;
+
+    .line 2
+    iget-object v0, v0, Le/a/c/c/d/v;->a:Ln3/c0/q;
+
+    .line 3
+    invoke-virtual {v0}, Ln3/c0/q;->beginTransaction()V
+
+    .line 4
+    :try_start_0
+    iget-object v0, p0, Le/a/c/c/d/v$f;->b:Le/a/c/c/d/v;
+
+    .line 5
+    iget-object v0, v0, Le/a/c/c/d/v;->b:Ln3/c0/k;
+
+    .line 6
+    iget-object v1, p0, Le/a/c/c/d/v$f;->a:Le/a/c/r/f/a;
+
+    invoke-virtual {v0, v1}, Ln3/c0/k;->insertAndReturnId(Ljava/lang/Object;)J
+
+    move-result-wide v0
+
+    .line 7
+    iget-object v2, p0, Le/a/c/c/d/v$f;->b:Le/a/c/c/d/v;
+
+    .line 8
+    iget-object v2, v2, Le/a/c/c/d/v;->a:Ln3/c0/q;
+
+    .line 9
+    invoke-virtual {v2}, Ln3/c0/q;->setTransactionSuccessful()V
+
+    .line 10
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object v0
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 11
+    iget-object v1, p0, Le/a/c/c/d/v$f;->b:Le/a/c/c/d/v;
+
+    .line 12
+    iget-object v1, v1, Le/a/c/c/d/v;->a:Ln3/c0/q;
+
+    .line 13
+    invoke-virtual {v1}, Ln3/c0/q;->endTransaction()V
+
+    return-object v0
+
+    :catchall_0
+    move-exception v0
+
+    iget-object v1, p0, Le/a/c/c/d/v$f;->b:Le/a/c/c/d/v;
+
+    .line 14
+    iget-object v1, v1, Le/a/c/c/d/v;->a:Ln3/c0/q;
+
+    .line 15
+    invoke-virtual {v1}, Ln3/c0/q;->endTransaction()V
+
+    .line 16
+    throw v0
+.end method

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/tags_level_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/control_space" android:paddingEnd="@dimen/control_space">
+        <TextView android:textColor="?tcx_textSecondary" android:gravity="center_vertical" android:id="@id/titleFirstLine" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_doublespace" android:text="@string/TagsChooserTitleFirstLine" android:maxLines="2" android:layout_marginStart="@dimen/control_space" android:layout_marginEnd="@dimen/control_hexaspace" style="@style/StyleX.Text.Subtitle.S1.Medium" />
+        <TextView android:textColor="?tcx_textSecondary" android:gravity="center_vertical" android:id="@id/titleSecondLine" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/control_doublespace" android:text="@string/TagsChooserTitleSecondLine" android:maxLines="2" android:layout_marginStart="@dimen/control_space" android:layout_marginEnd="@dimen/control_hexaspace" style="@style/StyleX.Text.Body.B2" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <com.truecaller.common.ui.FlowLayout android:orientation="vertical" android:id="@id/tag_container_level_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/control_space" />
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/tags_level_2" android:paddingTop="@dimen/control_space" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_alignTop="@id/tags_level_1" android:layout_alignBottom="@id/tags_level_1" android:paddingStart="@dimen/control_space" android:paddingEnd="@dimen/control_space">
+        <com.truecaller.common.tag.TagView android:textSize="@dimen/tagTextSize" android:id="@id/tag_selected_root" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/control_hexaspace" app:closeButtonVisible="true" style="@style/Widget.Truecaller.Tag" />
+        <TextView android:textAppearance="@style/TextAppearance.Truecaller.ListItem.Primary" android:textSize="16.0sp" android:gravity="center_vertical" android:id="@id/tag_level_2_title_text" android:layout_width="fill_parent" android:layout_height="56.0dip" android:maxLines="1" android:layout_marginEnd="@dimen/control_hexaspace" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.truecaller.common.ui.FlowLayout android:orientation="vertical" android:id="@id/tag_container_level_2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </ScrollView>
+    </LinearLayout>
+    <ImageView android:id="@id/close_button" android:background="?selectableItemBackgroundBorderless" android:layout_width="@dimen/action_item_height" android:layout_height="@dimen/action_item_height" android:layout_marginTop="4.0dip" android:scaleType="center" android:layout_alignParentTop="true" android:contentDescription="@string/StrClose" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_action_close" app:tint="?theme_textColorSecondary" />
+</RelativeLayout>

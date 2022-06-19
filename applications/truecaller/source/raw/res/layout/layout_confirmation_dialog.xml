@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="?tcx_backgroundPrimary" app:cardPreventCornerOverlap="false" style="@style/StyleX.CardView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/StyleX.Text.Headline.H6" />
+            <TextView android:textColor="?tcx_textSecondary" android:gravity="center" android:id="@id/subtitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/StyleX.Text.Body.B2" />
+            <CheckBox android:textSize="16.0sp" android:id="@id/checkbox" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="4.0dip" android:checked="true" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" android:paddingHorizontal="16.0dip" />
+            <View android:id="@id/negativeButtonDividerTop" android:background="?tcx_fillQuarternaryBackground" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="12.0dip" />
+            <Button android:textSize="14.0sp" android:textColor="?tcx_textSecondary" android:id="@id/negativeButton" android:layout_width="fill_parent" android:layout_height="@dimen/startup_dialog_tcx_button_height" style="@style/StyleX.Button.Small.Action" />
+            <View android:id="@id/negativeButtonDividerBottom" android:background="?tcx_fillQuarternaryBackground" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <Button android:textSize="14.0sp" android:id="@id/positiveButton" android:layout_width="fill_parent" android:layout_height="@dimen/startup_dialog_tcx_button_height" style="@style/StyleX.Button.Small.Action" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.cardview.widget.CardView>

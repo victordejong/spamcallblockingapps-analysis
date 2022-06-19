@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="bold" android:textColor="?tcx_textPrimary" android:ellipsize="end" android:gravity="center" android:id="@id/titleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="StyleX.Text.Subtitle.S2.Normal" />
+    <TextView android:textColor="?tcx_textSecondary" android:ellipsize="end" android:id="@id/subtitleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="StyleX.Text.Caption" />
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip">
+        <com.rengwuxian.materialedittext.MaterialEditText android:gravity="center_horizontal" android:id="@id/pinEdit1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Enter secret code" android:maxLines="1" android:password="true" android:maxLength="10" android:digits="\ 0123456789" android:inputType="phone|textPassword" app:met_errorColor="@color/red_btn_bg_pressed_color" app:met_floatingLabel="highlight" app:met_primaryColor="@color/colorPrimary" />
+    </LinearLayout>
+</LinearLayout>

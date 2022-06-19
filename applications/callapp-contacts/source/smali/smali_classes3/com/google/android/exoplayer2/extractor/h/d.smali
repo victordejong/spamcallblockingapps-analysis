@@ -1,0 +1,592 @@
+.class public final Lcom/google/android/exoplayer2/extractor/h/d;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/google/android/exoplayer2/extractor/h/j;
+
+
+# instance fields
+.field a:J
+
+.field private final b:Lcom/google/android/exoplayer2/util/t;
+
+.field private final c:Lcom/google/android/exoplayer2/util/u;
+
+.field private final d:Ljava/lang/String;
+
+.field private e:Ljava/lang/String;
+
+.field private f:Lcom/google/android/exoplayer2/extractor/x;
+
+.field private g:I
+
+.field private h:I
+
+.field private i:Z
+
+.field private j:Z
+
+.field private k:J
+
+.field private l:Lcom/google/android/exoplayer2/Format;
+
+.field private m:I
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    .line 75
+    invoke-direct {p0, v0}, Lcom/google/android/exoplayer2/extractor/h/d;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 2
+
+    .line 83
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 84
+    new-instance v0, Lcom/google/android/exoplayer2/util/t;
+
+    const/16 v1, 0x10
+
+    new-array v1, v1, [B
+
+    invoke-direct {v0, v1}, Lcom/google/android/exoplayer2/util/t;-><init>([B)V
+
+    iput-object v0, p0, Lcom/google/android/exoplayer2/extractor/h/d;->b:Lcom/google/android/exoplayer2/util/t;
+
+    .line 85
+    new-instance v1, Lcom/google/android/exoplayer2/util/u;
+
+    iget-object v0, v0, Lcom/google/android/exoplayer2/util/t;->a:[B
+
+    invoke-direct {v1, v0}, Lcom/google/android/exoplayer2/util/u;-><init>([B)V
+
+    iput-object v1, p0, Lcom/google/android/exoplayer2/extractor/h/d;->c:Lcom/google/android/exoplayer2/util/u;
+
+    const/4 v0, 0x0
+
+    .line 86
+    iput v0, p0, Lcom/google/android/exoplayer2/extractor/h/d;->g:I
+
+    .line 87
+    iput v0, p0, Lcom/google/android/exoplayer2/extractor/h/d;->h:I
+
+    .line 88
+    iput-boolean v0, p0, Lcom/google/android/exoplayer2/extractor/h/d;->i:Z
+
+    .line 89
+    iput-boolean v0, p0, Lcom/google/android/exoplayer2/extractor/h/d;->j:Z
+
+    .line 90
+    iput-object p1, p0, Lcom/google/android/exoplayer2/extractor/h/d;->d:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method private a(Lcom/google/android/exoplayer2/util/u;[B)Z
+    .locals 3
+
+    .line 165
+    invoke-virtual {p1}, Lcom/google/android/exoplayer2/util/u;->a()I
+
+    move-result v0
+
+    iget v1, p0, Lcom/google/android/exoplayer2/extractor/h/d;->h:I
+
+    const/16 v2, 0x10
+
+    rsub-int/lit8 v1, v1, 0x10
+
+    invoke-static {v0, v1}, Ljava/lang/Math;->min(II)I
+
+    move-result v0
+
+    .line 166
+    iget v1, p0, Lcom/google/android/exoplayer2/extractor/h/d;->h:I
+
+    invoke-virtual {p1, p2, v1, v0}, Lcom/google/android/exoplayer2/util/u;->a([BII)V
+
+    .line 167
+    iget p1, p0, Lcom/google/android/exoplayer2/extractor/h/d;->h:I
+
+    add-int/2addr p1, v0
+
+    iput p1, p0, Lcom/google/android/exoplayer2/extractor/h/d;->h:I
+
+    if-ne p1, v2, :cond_0
+
+    const/4 p1, 0x1
+
+    return p1
+
+    :cond_0
+    const/4 p1, 0x0
+
+    return p1
+.end method
+
+.method private b(Lcom/google/android/exoplayer2/util/u;)Z
+    .locals 5
+
+    .line 179
+    :cond_0
+    :goto_0
+    invoke-virtual {p1}, Lcom/google/android/exoplayer2/util/u;->a()I
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    if-lez v0, :cond_6
+
+    .line 180
+    iget-boolean v0, p0, Lcom/google/android/exoplayer2/extractor/h/d;->i:Z
+
+    const/16 v2, 0xac
+
+    const/4 v3, 0x1
+
+    if-nez v0, :cond_2
+
+    .line 181
+    invoke-virtual {p1}, Lcom/google/android/exoplayer2/util/u;->c()I
+
+    move-result v0
+
+    if-ne v0, v2, :cond_1
+
+    const/4 v1, 0x1
+
+    :cond_1
+    iput-boolean v1, p0, Lcom/google/android/exoplayer2/extractor/h/d;->i:Z
+
+    goto :goto_0
+
+    .line 184
+    :cond_2
+    invoke-virtual {p1}, Lcom/google/android/exoplayer2/util/u;->c()I
+
+    move-result v0
+
+    if-ne v0, v2, :cond_3
+
+    const/4 v2, 0x1
+
+    goto :goto_1
+
+    :cond_3
+    const/4 v2, 0x0
+
+    .line 185
+    :goto_1
+    iput-boolean v2, p0, Lcom/google/android/exoplayer2/extractor/h/d;->i:Z
+
+    const/16 v2, 0x40
+
+    const/16 v4, 0x41
+
+    if-eq v0, v2, :cond_4
+
+    if-ne v0, v4, :cond_0
+
+    :cond_4
+    if-ne v0, v4, :cond_5
+
+    const/4 v1, 0x1
+
+    .line 187
+    :cond_5
+    iput-boolean v1, p0, Lcom/google/android/exoplayer2/extractor/h/d;->j:Z
+
+    return v3
+
+    :cond_6
+    return v1
+.end method
+
+.method private c()V
+    .locals 5
+    .annotation runtime Lorg/checkerframework/checker/nullness/qual/RequiresNonNull;
+        value = {
+            "output"
+        }
+    .end annotation
+
+    .line 197
+    iget-object v0, p0, Lcom/google/android/exoplayer2/extractor/h/d;->b:Lcom/google/android/exoplayer2/util/t;
+
+    const/4 v1, 0x0
+
+    invoke-virtual {v0, v1}, Lcom/google/android/exoplayer2/util/t;->a(I)V
+
+    .line 198
+    iget-object v0, p0, Lcom/google/android/exoplayer2/extractor/h/d;->b:Lcom/google/android/exoplayer2/util/t;
+
+    invoke-static {v0}, Lcom/google/android/exoplayer2/audio/c;->a(Lcom/google/android/exoplayer2/util/t;)Lcom/google/android/exoplayer2/audio/c$a;
+
+    move-result-object v0
+
+    .line 199
+    iget-object v1, p0, Lcom/google/android/exoplayer2/extractor/h/d;->l:Lcom/google/android/exoplayer2/Format;
+
+    const-string v2, "audio/ac4"
+
+    if-eqz v1, :cond_0
+
+    iget v1, v0, Lcom/google/android/exoplayer2/audio/c$a;->c:I
+
+    iget-object v3, p0, Lcom/google/android/exoplayer2/extractor/h/d;->l:Lcom/google/android/exoplayer2/Format;
+
+    iget v3, v3, Lcom/google/android/exoplayer2/Format;->channelCount:I
+
+    if-ne v1, v3, :cond_0
+
+    iget v1, v0, Lcom/google/android/exoplayer2/audio/c$a;->b:I
+
+    iget-object v3, p0, Lcom/google/android/exoplayer2/extractor/h/d;->l:Lcom/google/android/exoplayer2/Format;
+
+    iget v3, v3, Lcom/google/android/exoplayer2/Format;->sampleRate:I
+
+    if-ne v1, v3, :cond_0
+
+    iget-object v1, p0, Lcom/google/android/exoplayer2/extractor/h/d;->l:Lcom/google/android/exoplayer2/Format;
+
+    iget-object v1, v1, Lcom/google/android/exoplayer2/Format;->sampleMimeType:Ljava/lang/String;
+
+    .line 202
+    invoke-virtual {v2, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-nez v1, :cond_1
+
+    .line 203
+    :cond_0
+    new-instance v1, Lcom/google/android/exoplayer2/Format$a;
+
+    invoke-direct {v1}, Lcom/google/android/exoplayer2/Format$a;-><init>()V
+
+    iget-object v3, p0, Lcom/google/android/exoplayer2/extractor/h/d;->e:Ljava/lang/String;
+
+    .line 3244
+    iput-object v3, v1, Lcom/google/android/exoplayer2/Format$a;->a:Ljava/lang/String;
+
+    .line 3370
+    iput-object v2, v1, Lcom/google/android/exoplayer2/Format$a;->k:Ljava/lang/String;
+
+    .line 206
+    iget v2, v0, Lcom/google/android/exoplayer2/audio/c$a;->c:I
+
+    .line 3517
+    iput v2, v1, Lcom/google/android/exoplayer2/Format$a;->x:I
+
+    .line 207
+    iget v2, v0, Lcom/google/android/exoplayer2/audio/c$a;->b:I
+
+    .line 3528
+    iput v2, v1, Lcom/google/android/exoplayer2/Format$a;->y:I
+
+    .line 208
+    iget-object v2, p0, Lcom/google/android/exoplayer2/extractor/h/d;->d:Ljava/lang/String;
+
+    .line 4278
+    iput-object v2, v1, Lcom/google/android/exoplayer2/Format$a;->c:Ljava/lang/String;
+
+    .line 210
+    invoke-virtual {v1}, Lcom/google/android/exoplayer2/Format$a;->a()Lcom/google/android/exoplayer2/Format;
+
+    move-result-object v1
+
+    iput-object v1, p0, Lcom/google/android/exoplayer2/extractor/h/d;->l:Lcom/google/android/exoplayer2/Format;
+
+    .line 211
+    iget-object v2, p0, Lcom/google/android/exoplayer2/extractor/h/d;->f:Lcom/google/android/exoplayer2/extractor/x;
+
+    invoke-interface {v2, v1}, Lcom/google/android/exoplayer2/extractor/x;->a(Lcom/google/android/exoplayer2/Format;)V
+
+    .line 213
+    :cond_1
+    iget v1, v0, Lcom/google/android/exoplayer2/audio/c$a;->d:I
+
+    iput v1, p0, Lcom/google/android/exoplayer2/extractor/h/d;->m:I
+
+    const-wide/32 v1, 0xf4240
+
+    .line 216
+    iget v0, v0, Lcom/google/android/exoplayer2/audio/c$a;->e:I
+
+    int-to-long v3, v0
+
+    mul-long v3, v3, v1
+
+    iget-object v0, p0, Lcom/google/android/exoplayer2/extractor/h/d;->l:Lcom/google/android/exoplayer2/Format;
+
+    iget v0, v0, Lcom/google/android/exoplayer2/Format;->sampleRate:I
+
+    int-to-long v0, v0
+
+    div-long/2addr v3, v0
+
+    iput-wide v3, p0, Lcom/google/android/exoplayer2/extractor/h/d;->k:J
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    .line 95
+    iput v0, p0, Lcom/google/android/exoplayer2/extractor/h/d;->g:I
+
+    .line 96
+    iput v0, p0, Lcom/google/android/exoplayer2/extractor/h/d;->h:I
+
+    .line 97
+    iput-boolean v0, p0, Lcom/google/android/exoplayer2/extractor/h/d;->i:Z
+
+    .line 98
+    iput-boolean v0, p0, Lcom/google/android/exoplayer2/extractor/h/d;->j:Z
+
+    return-void
+.end method
+
+.method public final a(JI)V
+    .locals 0
+
+    .line 110
+    iput-wide p1, p0, Lcom/google/android/exoplayer2/extractor/h/d;->a:J
+
+    return-void
+.end method
+
+.method public final a(Lcom/google/android/exoplayer2/extractor/j;Lcom/google/android/exoplayer2/extractor/h/ad$d;)V
+    .locals 1
+
+    .line 103
+    invoke-virtual {p2}, Lcom/google/android/exoplayer2/extractor/h/ad$d;->a()V
+
+    .line 104
+    invoke-virtual {p2}, Lcom/google/android/exoplayer2/extractor/h/ad$d;->c()Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/google/android/exoplayer2/extractor/h/d;->e:Ljava/lang/String;
+
+    .line 105
+    invoke-virtual {p2}, Lcom/google/android/exoplayer2/extractor/h/ad$d;->b()I
+
+    move-result p2
+
+    const/4 v0, 0x1
+
+    invoke-interface {p1, p2, v0}, Lcom/google/android/exoplayer2/extractor/j;->a(II)Lcom/google/android/exoplayer2/extractor/x;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lcom/google/android/exoplayer2/extractor/h/d;->f:Lcom/google/android/exoplayer2/extractor/x;
+
+    return-void
+.end method
+
+.method public final a(Lcom/google/android/exoplayer2/util/u;)V
+    .locals 10
+
+    .line 115
+    iget-object v0, p0, Lcom/google/android/exoplayer2/extractor/h/d;->f:Lcom/google/android/exoplayer2/extractor/x;
+
+    invoke-static {v0}, Lcom/google/android/exoplayer2/util/a;->a(Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 116
+    :cond_0
+    :goto_0
+    invoke-virtual {p1}, Lcom/google/android/exoplayer2/util/u;->a()I
+
+    move-result v0
+
+    if-lez v0, :cond_5
+
+    .line 117
+    iget v0, p0, Lcom/google/android/exoplayer2/extractor/h/d;->g:I
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x2
+
+    const/4 v3, 0x1
+
+    if-eqz v0, :cond_3
+
+    if-eq v0, v3, :cond_2
+
+    if-eq v0, v2, :cond_1
+
+    goto :goto_0
+
+    .line 135
+    :cond_1
+    invoke-virtual {p1}, Lcom/google/android/exoplayer2/util/u;->a()I
+
+    move-result v0
+
+    iget v2, p0, Lcom/google/android/exoplayer2/extractor/h/d;->m:I
+
+    iget v3, p0, Lcom/google/android/exoplayer2/extractor/h/d;->h:I
+
+    sub-int/2addr v2, v3
+
+    invoke-static {v0, v2}, Ljava/lang/Math;->min(II)I
+
+    move-result v0
+
+    .line 136
+    iget-object v2, p0, Lcom/google/android/exoplayer2/extractor/h/d;->f:Lcom/google/android/exoplayer2/extractor/x;
+
+    invoke-interface {v2, p1, v0}, Lcom/google/android/exoplayer2/extractor/x;->b(Lcom/google/android/exoplayer2/util/u;I)V
+
+    .line 137
+    iget v2, p0, Lcom/google/android/exoplayer2/extractor/h/d;->h:I
+
+    add-int/2addr v2, v0
+
+    iput v2, p0, Lcom/google/android/exoplayer2/extractor/h/d;->h:I
+
+    .line 138
+    iget v7, p0, Lcom/google/android/exoplayer2/extractor/h/d;->m:I
+
+    if-ne v2, v7, :cond_0
+
+    .line 139
+    iget-object v3, p0, Lcom/google/android/exoplayer2/extractor/h/d;->f:Lcom/google/android/exoplayer2/extractor/x;
+
+    iget-wide v4, p0, Lcom/google/android/exoplayer2/extractor/h/d;->a:J
+
+    const/4 v6, 0x1
+
+    const/4 v8, 0x0
+
+    const/4 v9, 0x0
+
+    invoke-interface/range {v3 .. v9}, Lcom/google/android/exoplayer2/extractor/x;->a(JIIILcom/google/android/exoplayer2/extractor/x$a;)V
+
+    .line 140
+    iget-wide v2, p0, Lcom/google/android/exoplayer2/extractor/h/d;->a:J
+
+    iget-wide v4, p0, Lcom/google/android/exoplayer2/extractor/h/d;->k:J
+
+    add-long/2addr v2, v4
+
+    iput-wide v2, p0, Lcom/google/android/exoplayer2/extractor/h/d;->a:J
+
+    .line 141
+    iput v1, p0, Lcom/google/android/exoplayer2/extractor/h/d;->g:I
+
+    goto :goto_0
+
+    .line 127
+    :cond_2
+    iget-object v0, p0, Lcom/google/android/exoplayer2/extractor/h/d;->c:Lcom/google/android/exoplayer2/util/u;
+
+    .line 3169
+    iget-object v0, v0, Lcom/google/android/exoplayer2/util/u;->a:[B
+
+    .line 127
+    invoke-direct {p0, p1, v0}, Lcom/google/android/exoplayer2/extractor/h/d;->a(Lcom/google/android/exoplayer2/util/u;[B)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 128
+    invoke-direct {p0}, Lcom/google/android/exoplayer2/extractor/h/d;->c()V
+
+    .line 129
+    iget-object v0, p0, Lcom/google/android/exoplayer2/extractor/h/d;->c:Lcom/google/android/exoplayer2/util/u;
+
+    invoke-virtual {v0, v1}, Lcom/google/android/exoplayer2/util/u;->d(I)V
+
+    .line 130
+    iget-object v0, p0, Lcom/google/android/exoplayer2/extractor/h/d;->f:Lcom/google/android/exoplayer2/extractor/x;
+
+    iget-object v1, p0, Lcom/google/android/exoplayer2/extractor/h/d;->c:Lcom/google/android/exoplayer2/util/u;
+
+    const/16 v3, 0x10
+
+    invoke-interface {v0, v1, v3}, Lcom/google/android/exoplayer2/extractor/x;->b(Lcom/google/android/exoplayer2/util/u;I)V
+
+    .line 131
+    iput v2, p0, Lcom/google/android/exoplayer2/extractor/h/d;->g:I
+
+    goto :goto_0
+
+    .line 119
+    :cond_3
+    invoke-direct {p0, p1}, Lcom/google/android/exoplayer2/extractor/h/d;->b(Lcom/google/android/exoplayer2/util/u;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 120
+    iput v3, p0, Lcom/google/android/exoplayer2/extractor/h/d;->g:I
+
+    .line 121
+    iget-object v0, p0, Lcom/google/android/exoplayer2/extractor/h/d;->c:Lcom/google/android/exoplayer2/util/u;
+
+    .line 1169
+    iget-object v0, v0, Lcom/google/android/exoplayer2/util/u;->a:[B
+
+    const/16 v4, -0x54
+
+    .line 121
+    aput-byte v4, v0, v1
+
+    .line 122
+    iget-object v0, p0, Lcom/google/android/exoplayer2/extractor/h/d;->c:Lcom/google/android/exoplayer2/util/u;
+
+    .line 2169
+    iget-object v0, v0, Lcom/google/android/exoplayer2/util/u;->a:[B
+
+    .line 122
+    iget-boolean v1, p0, Lcom/google/android/exoplayer2/extractor/h/d;->j:Z
+
+    if-eqz v1, :cond_4
+
+    const/16 v1, 0x41
+
+    goto :goto_1
+
+    :cond_4
+    const/16 v1, 0x40
+
+    :goto_1
+    int-to-byte v1, v1
+
+    aput-byte v1, v0, v3
+
+    .line 123
+    iput v2, p0, Lcom/google/android/exoplayer2/extractor/h/d;->h:I
+
+    goto/16 :goto_0
+
+    :cond_5
+    return-void
+.end method
+
+.method public final b()V
+    .locals 0
+
+    return-void
+.end method

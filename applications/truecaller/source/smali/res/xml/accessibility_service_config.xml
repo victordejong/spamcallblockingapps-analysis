@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service android:description="@string/call_recording_accessibility_service_description" android:accessibilityEventTypes="typeAllMask" android:accessibilityFeedbackType="feedbackGeneric" android:notificationTimeout="1000" android:accessibilityFlags="" android:canRetrieveWindowContent="false" android:canRequestTouchExplorationMode="false" android:canPerformGestures="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

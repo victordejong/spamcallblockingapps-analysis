@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <carbon.widget.ImageView android:id="@id/carbon_chipIcon" android:layout_width="@dimen/carbon_chipHeight" android:layout_height="fill_parent" android:layout_marginRight="@dimen/carbon_marginHalf" app:carbon_cornerRadius="@dimen/carbon_margin" />
+    <carbon.widget.TextView android:gravity="center_vertical" android:id="@id/carbon_chipText" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <carbon.widget.ImageView android:id="@id/carbon_chipClose" android:layout_width="@dimen/carbon_chipHeight" android:layout_height="fill_parent" android:src="@raw/carbon_remove" android:scaleType="center" app:carbon_cornerRadius="@dimen/carbon_margin" app:carbon_rippleColor="?carbon_rippleColor" app:carbon_rippleStyle="borderless" app:carbon_tint="@color/carbon_defaultIconColor" />
+</merge>

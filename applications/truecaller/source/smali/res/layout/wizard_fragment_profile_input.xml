@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/wizard_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@id/photo" android:background="@drawable/wizard_btn_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="72.0dip" android:contentDescription="@string/Profile_AddPhoto" />
+                    <ImageButton android:id="@id/closeButton" android:background="?selectableItemBackgroundBorderless" android:visibility="visible" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_marginTop="@dimen/semiSpace" android:layout_marginStart="@dimen/semiSpace" app:srcCompat="@drawable/wizard_ic_close" style="@style/Base.Widget.AppCompat.Button.Borderless" />
+                </FrameLayout>
+                <FrameLayout android:paddingLeft="@dimen/doubleSpace" android:paddingRight="@dimen/doubleSpace" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tripleSpace">
+                    <ImageView android:layout_gravity="start|bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/doubleSpace" android:src="@drawable/wizard_ic_man" />
+                    <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/Profile_FirstName" android:layout_marginStart="@dimen/quadrupleSpace" app:hintTextAppearance="@style/Wizard.TextAppearance.FloatingHint">
+                        <com.truecaller.wizard.internal.components.EditText android:id="@id/firstName" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapWords" android:imeOptions="actionNext" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </FrameLayout>
+                <FrameLayout android:paddingLeft="@dimen/doubleSpace" android:paddingRight="@dimen/doubleSpace" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/semiSpace">
+                    <ImageView android:layout_gravity="start|bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/doubleSpace" android:src="@drawable/wizard_ic_man" />
+                    <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/Profile_LastName" android:layout_marginStart="@dimen/quadrupleSpace" app:hintTextAppearance="@style/Wizard.TextAppearance.FloatingHint">
+                        <com.truecaller.wizard.internal.components.EditText android:id="@id/lastName" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapWords" android:imeOptions="actionNext" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </FrameLayout>
+                <FrameLayout android:paddingLeft="@dimen/doubleSpace" android:paddingRight="@dimen/doubleSpace" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/semiSpace">
+                    <ImageView android:layout_gravity="start|bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/doubleSpace" android:src="@drawable/wizard_ic_mail" />
+                    <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/Profile_Email" android:layout_marginStart="@dimen/quadrupleSpace" app:hintTextAppearance="@style/Wizard.TextAppearance.FloatingHint">
+                        <com.truecaller.wizard.internal.components.EditText android:id="@id/email" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress" android:imeOptions="actionDone" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </ScrollView>
+        <Button style="@style/Wizard.ContinueButton" />
+    </LinearLayout>
+</FrameLayout>

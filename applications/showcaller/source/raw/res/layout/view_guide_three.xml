@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/guide_use_three_bg" android:layout_width="280.0dip" android:layout_height="194.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="bottom|center" android:id="@id/iv_bg" android:layout_width="179.0dip" android:layout_height="183.0dip" android:src="@drawable/guide_use_three" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/buttonPlay" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_video_play_icon" />
+    <androidx.cardview.widget.CardView android:id="@id/container_video_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardCornerRadius="8.0dip" app:cardElevation="0.0dip">
+        <com.truecaller.videocallerid.ui.videoplayer.FullScreenVideoPlayerView android:layout_gravity="center" android:id="@id/fullscreen_video_player" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.cardview.widget.CardView>
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end|bottom|center" android:id="@id/mute_button" android:background="@drawable/background_vid_recording_button" android:visibility="gone" android:layout_width="@dimen/vid_dp27" android:layout_height="@dimen/vid_dp27" android:layout_margin="@dimen/vid_dp8" app:srcCompat="@drawable/ic_vid_muted_audio" />
+</merge>

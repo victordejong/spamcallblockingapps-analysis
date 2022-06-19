@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/include_caller_id_card" />
+    <com.truecaller.bizmon.callReason.ModularCallReasonView android:id="@id/modularCallReason" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-8.0dip" />
+    <include layout="@layout/view_callerid_ad" />
+    <include layout="@layout/view_callerid_partner" />
+    <com.truecaller.videocallerid.ui.utils.ToastWithActionView android:id="@id/toastWithActionView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" />
+    <com.truecaller.contextcall.utils.view.ondemandreasonpicker.OnDemandCallReasonPickerView android:id="@id/onDemandCallReasonPicker" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" app:theme_config="POPUP_CALLER_ID" />
+    <include android:layout_gravity="center_horizontal" android:id="@id/stubCallerIdSwipeHint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_mini_space" android:layout_marginStart="@dimen/control_space" android:layout_marginEnd="@dimen/control_space" layout="@layout/view_callerid_swipe_hint" />
+</LinearLayout>

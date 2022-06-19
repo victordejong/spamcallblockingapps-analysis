@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="auto_carousel_padding_vertical">16.0dip</dimen>
+    <dimen name="five_cta_icon_margin">8.0dip</dimen>
+    <dimen name="flipper_height">180.0dip</dimen>
+    <dimen name="large_icon">48.0dip</dimen>
+    <dimen name="manual_carousel_arrow">48.0dip</dimen>
+    <dimen name="metadata_font_size">12.0dip</dimen>
+    <dimen name="metadata_margin_x">8.0dip</dimen>
+    <dimen name="metadata_title_margin_vertical">8.0dip</dimen>
+    <dimen name="msg_font_size">14.0sp</dimen>
+    <dimen name="padding_vertical">16.0dip</dimen>
+    <dimen name="rating_big_img">120.0dip</dimen>
+    <dimen name="rating_star">24.0dip</dimen>
+    <dimen name="title_font_size">14.0sp</dimen>
+</resources>

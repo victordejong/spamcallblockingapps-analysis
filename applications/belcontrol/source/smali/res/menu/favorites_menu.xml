@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/to_blacklist" android:orderInCategory="100" android:title="@string/menu_item_to_blacklist" />
+    <item android:id="@id/to_allowedlist" android:orderInCategory="100" android:title="@string/menu_item_to_allowedlist" />
+    <item android:id="@id/lookup_favorite" android:orderInCategory="100" android:title="@string/menu_item_lookup" />
+    <item android:id="@id/saveList" android:orderInCategory="100" android:title="@string/menu_item_saveList" />
+    <item android:id="@id/help" android:orderInCategory="100" android:title="@string/menu_item_help" />
+</menu>

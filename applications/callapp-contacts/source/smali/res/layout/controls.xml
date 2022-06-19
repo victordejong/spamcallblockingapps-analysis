@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/videoPlayerLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextureView android:id="@id/textureView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <net.pubnative.lite.sdk.vpaid.widget.CountDownView android:layout_gravity="start|bottom|center" android:id="@id/count_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" />
+        <ImageView android:id="@id/muteView" android:layout_width="@dimen/mute_view_size" android:layout_height="@dimen/mute_view_size" android:src="@drawable/unmute" android:scaleType="center" />
+        <ImageView android:layout_gravity="end" android:id="@id/skipView" android:visibility="gone" android:layout_width="@dimen/skip_view_size" android:layout_height="@dimen/skip_view_size" android:src="@drawable/skip" android:scaleType="center" />
+    </FrameLayout>
+    <include layout="@layout/end_card" />
+</FrameLayout>

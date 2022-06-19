@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:tag="layout/settings_notifications_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/appToolbar" style="@style/appBarToolbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout style="@style/llMainContent">
+            <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/checkShowAfterCall" android:layout_width="0.0dip" android:text="@string/activity_settings_notifications_switch_show_after_call_number_info" android:layout_weight="1.0" style="@style/switchParentWidth" />
+                <ImageButton android:id="@id/butShowAfterCallMoreInfo" style="@style/buttonHelp" />
+            </LinearLayout>
+            <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/checkBlockNotify" android:layout_width="0.0dip" android:text="@string/activity_settings_notifications_switch_show_blocked_call_notification" android:layout_weight="1.0" style="@style/switchParentWidth" />
+                <ImageButton android:id="@id/butBlockNotifyMoreInfo" style="@style/buttonHelp" />
+            </LinearLayout>
+            <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/checkShowAlertsForUnknownRated" android:layout_width="0.0dip" android:text="@string/activity_settings_notifications_switch_show_alert_for_unknown_ratings" android:layout_weight="1.0" style="@style/switchParentWidth" />
+                <ImageButton android:visibility="invisible" style="@style/buttonHelp" />
+            </LinearLayout>
+            <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/checkPromoNotify" android:layout_width="0.0dip" android:text="@string/activity_settings_notifications_switch_show_statistics_notification" android:layout_weight="1.0" style="@style/switchParentWidth" />
+                <ImageButton android:visibility="invisible" style="@style/buttonHelp" />
+            </LinearLayout>
+            <View style="@style/divider" />
+            <LinearLayout android:visibility="visible" style="@style/llSection">
+                <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                    <androidx.appcompat.widget.SwitchCompat android:id="@id/checkTTSAlert" android:layout_width="0.0dip" android:text="@string/activity_settings_notifications_switch_tts_alert" android:layout_weight="1.0" style="@style/switchParentWidth" />
+                    <ImageButton android:visibility="invisible" style="@style/buttonHelp" />
+                </LinearLayout>
+                <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                    <androidx.appcompat.widget.SwitchCompat android:id="@id/checkTTSIncomingCall" android:layout_width="0.0dip" android:text="@string/activity_settings_notifications_switch_tts_incoming" android:layout_weight="1.0" style="@style/switchParentWidth" />
+                    <ImageButton android:visibility="invisible" style="@style/buttonHelp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>> </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

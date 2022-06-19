@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/custon_item_fl" android:background="?color_ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/card_foreground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/custon_item_ll" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/custon_item_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/ic_photo_normal" android:scaleType="fitXY" android:layout_marginEnd="16.0dip" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/custon_item_icon_select" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/select" android:layout_marginEnd="16.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:id="@id/custon_item_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:textDirection="locale" />
+            <TextView android:textSize="14.0sp" android:textColor="?color_666666" android:id="@id/custon_item_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="000000" android:textDirection="locale" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

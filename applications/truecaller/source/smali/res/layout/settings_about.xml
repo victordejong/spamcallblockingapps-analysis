@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/settingsAbout" style="@style/Widget.Truecaller.ContainerWrap"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView style="@style/Widget.Truecaller.CardView">
+        <LinearLayout style="@style/Widget.Truecaller.ContainerWrap">
+            <com.truecaller.ui.components.ComboBase android:id="@id/settingsVersion" android:text="@string/SettingsAboutVersion" style="@style/TCComboBox" />
+            <LinearLayout android:orientation="vertical" android:id="@id/settingsRegisterIDContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:layout_width="wrap_content" android:layout_height="1.0px" android:layout_marginStart="@dimen/control_doublespace" layout="@layout/hr" />
+                <com.truecaller.ui.components.ComboBase android:id="@id/settingsRegisterID" android:text="@string/SettingsAboutUserId" style="@style/TCComboBox" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView style="@style/Widget.Truecaller.CardView">
+        <com.truecaller.ui.components.ComboBase android:id="@id/settingsDebugID" android:text="@string/SettingsAboutDebugId" style="@style/TCComboBox" />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/rateAndSendFeedbackContainer" style="@style/Widget.Truecaller.CardView">
+        <LinearLayout style="@style/Widget.Truecaller.ContainerWrap">
+            <TextView android:id="@id/settingsRateInPlay" android:background="?selectableItemBackground" android:text="@string/SettingsAboutRateInPlay" style="@style/Widget.Truecaller.TextView.SettingsTitle" />
+            <include android:layout_width="wrap_content" android:layout_height="1.0px" android:layout_marginStart="@dimen/control_doublespace" layout="@layout/hr" />
+            <TextView android:id="@id/settingsSendFeedback" android:background="?selectableItemBackground" android:text="@string/SettingsAboutSendFeedback" style="@style/Widget.Truecaller.TextView.SettingsTitle" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView style="@style/Widget.Truecaller.CardView">
+        <LinearLayout style="@style/Widget.Truecaller.ContainerWrap">
+            <TextView android:id="@id/settingsBlogTrigger" android:background="?selectableItemBackground" android:text="@string/SettingsAboutBlog" style="@style/Widget.Truecaller.TextView.SettingsTitle" />
+            <include android:layout_width="wrap_content" android:layout_height="1.0px" android:layout_marginStart="@dimen/control_doublespace" layout="@layout/hr" />
+            <TextView android:id="@id/settingsTCNewsTrigger" android:background="?selectableItemBackground" android:text="@string/truecaller_news" style="@style/Widget.Truecaller.TextView.SettingsTitle" />
+            <include android:layout_width="wrap_content" android:layout_height="1.0px" android:layout_marginStart="@dimen/control_doublespace" layout="@layout/hr" />
+            <TextView android:id="@id/settingsTermsOfServiceTrigger" android:background="?selectableItemBackground" android:text="@string/SettingsAboutTerms" style="@style/Widget.Truecaller.TextView.SettingsTitle" />
+            <include android:layout_width="wrap_content" android:layout_height="1.0px" android:layout_marginStart="@dimen/control_doublespace" layout="@layout/hr" />
+            <TextView android:id="@id/settings3rdPartyLibrariesTrigger" android:background="?selectableItemBackground" android:text="@string/about_external_libraries" style="@style/Widget.Truecaller.TextView.SettingsTitle" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <TextView android:textAppearance="@style/TextStyleCallerDetails" android:paddingTop="@dimen/control_extraspace" android:paddingBottom="@dimen/control_extraspace" android:text="@string/SettingsAboutText" android:alpha="0.5" android:paddingStart="@dimen/control_doublespace" android:paddingEnd="@dimen/control_doublespace" style="@style/Widget.Truecaller.TextView.SettingsDescription" />
+</LinearLayout>

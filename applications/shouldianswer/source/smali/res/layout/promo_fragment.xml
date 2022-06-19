@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/promo_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar android:id="@id/appToolbar" style="@style/appBarToolbar" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <LinearLayout style="@style/llMainContent">
+                <LinearLayout style="@style/llSectionHorizontal">
+                    <ImageView android:layout_width="60.0dip" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/logo_big" android:adjustViewBounds="true" />
+                    <LinearLayout style="@style/llParentWidth">
+                        <androidx.appcompat.widget.AppCompatTextView android:layout_height="30.0dip" android:text="@string/activity_promo_tv_main_title" style="@style/textViewStyleAutosizedSingleLine" />
+                        <androidx.appcompat.widget.AppCompatTextView android:layout_height="20.0dip" android:text="@string/activity_promo_tv_main_description" style="@style/textViewStyleAutosizedSingleLine" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout style="@style/llSection">
+                    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:text="@string/activity_promo_tv_make_donation_title" android:layout_weight="1.0" style="@style/textViewStyleSectionTitle" />
+                        <ImageButton android:id="@id/butMakeDonationMoreInfo" style="@style/buttonHelp" />
+                    </LinearLayout>
+                    <androidx.appcompat.widget.AppCompatTextView android:layout_marginBottom="@dimen/spaceMedium" android:text="@string/buy_subscription_motivation_text" style="@style/textViewStyle" />
+                    <LinearLayout style="@style/llParentWidthHorizontalCenter">
+                        <LinearLayout android:layout_weight="1.0" style="@style/llParentWidthCenter">
+                            <ImageView android:layout_width="60.0dip" android:layout_height="wrap_content" android:src="@drawable/medal_bronze" />
+                            <androidx.appcompat.widget.AppCompatTextView android:layout_gravity="center" android:text="@string/tier_1" style="@style/textViewStyle" />
+                            <Button android:textSize="@dimen/fontSmall" android:id="@id/buttonDonationBronze" android:text="@string/subscribe" style="@style/button" />
+                        </LinearLayout>
+                        <LinearLayout android:layout_weight="1.0" style="@style/llParentWidthCenter">
+                            <ImageView android:layout_width="60.0dip" android:layout_height="wrap_content" android:src="@drawable/medal_silver" />
+                            <androidx.appcompat.widget.AppCompatTextView android:layout_gravity="center" android:text="@string/tier_2" style="@style/textViewStyle" />
+                            <Button android:textSize="@dimen/fontSmall" android:id="@id/buttonDonationSilver" android:text="@string/subscribe" style="@style/button" />
+                        </LinearLayout>
+                        <LinearLayout android:layout_weight="1.0" style="@style/llParentWidthCenter">
+                            <ImageView android:layout_width="60.0dip" android:layout_height="wrap_content" android:src="@drawable/medal_gold" />
+                            <androidx.appcompat.widget.AppCompatTextView android:layout_gravity="center" android:text="@string/tier_3" style="@style/textViewStyle" />
+                            <Button android:textSize="@dimen/fontSmall" android:id="@id/buttonDonationGold" android:text="@string/subscribe" style="@style/button" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <View style="@style/divider" />
+                <LinearLayout style="@style/llSection">
+                    <androidx.appcompat.widget.AppCompatTextView android:text="@string/activity_promo_tv_write_app_review_title" style="@style/textViewStyleSectionTitle" />
+                    <androidx.appcompat.widget.AppCompatTextView android:text="@string/activity_promo_tv_write_app_review_description" style="@style/textViewStyle" />
+                    <Button android:layout_gravity="right" android:id="@id/buttonWriteReview" android:text="@string/activity_promo_but_write_app_review" style="@style/button" />
+                </LinearLayout>
+                <View style="@style/divider" />
+                <LinearLayout style="@style/llSection">
+                    <androidx.appcompat.widget.AppCompatTextView android:text="@string/activity_promo_tv_recommend_app_title" style="@style/textViewStyleSectionTitle" />
+                    <androidx.appcompat.widget.AppCompatTextView android:text="@string/activity_promo_tv_recommend_app_description" style="@style/textViewStyle" />
+                    <Button android:layout_gravity="right" android:id="@id/buttonShareApp" android:text="@string/activity_promo_but_share_app" style="@style/button" />
+                </LinearLayout>
+                <View style="@style/divider" />
+                <LinearLayout style="@style/llSection">
+                    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:text="@string/activity_promo_tv_write_number_review" android:layout_weight="1.0" style="@style/textViewStyleSectionTitle" />
+                        <ImageButton android:id="@id/butWriteReviewMoreInfo" style="@style/buttonHelp" />
+                    </LinearLayout>
+                    <androidx.appcompat.widget.AppCompatTextView android:text="@string/activity_promo_tv_write_number_review_description" style="@style/textViewStyle" />
+                </LinearLayout>
+                <View android:id="@id/dividerAfter4" style="@style/divider" />
+                <LinearLayout style="@style/llSection">
+                    <androidx.appcompat.widget.AppCompatTextView android:text="@string/activity_promo_tv_follow_facebook_title" style="@style/textViewStyleSectionTitle" />
+                    <androidx.appcompat.widget.AppCompatTextView android:text="@string/activity_promo_tv_follow_facebook_description" style="@style/textViewStyle" />
+                    <Button android:layout_gravity="right" android:id="@id/butFollowFacebook" android:text="@string/activity_promo_but_follow_facebook" style="@style/button" />
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <LinearLayout android:id="@id/llPanel" style="@style/llFooterPanel">
+        <Button android:id="@id/butDontShowAgain" android:layout_width="0.0dip" android:text="@string/don_t_show_again" android:layout_weight="1.0" style="@style/button" />
+        <Button android:id="@id/buttonClose" android:layout_width="0.0dip" android:text="@string/close" android:layout_weight="1.0" style="@style/button" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/store_widget" android:visibility="visible" style="@style/FloatingFabContainer"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <androidx.appcompat.widget.AppCompatImageView android:id="@id/store_widget_icon" style="@style/StoreFloatingWidgetStyle" />
-</androidx.constraintlayout.widget.ConstraintLayout>

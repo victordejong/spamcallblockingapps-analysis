@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/voip_bottom_sheet_background_color" />
+    <corners android:topLeftRadius="@dimen/voip_single_spacing" android:topRightRadius="@dimen/voip_single_spacing" />
+</shape>

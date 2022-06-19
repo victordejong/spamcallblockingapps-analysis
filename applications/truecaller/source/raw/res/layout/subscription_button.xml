@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.common.ui.ShineView android:id="@id/goldShine" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:shineCornerRadius="@dimen/caller_id_tcx_corner_radius" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textColor="@color/tcx_subscriptionButtonTextHighlighted" android:gravity="center" android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" style="@style/StyleX.Text.Subtitle.S2" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip">
+            <TextView android:textColor="@color/tcx_subscriptionButtonTextHighlighted" android:gravity="center" android:id="@id/subTitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/tcx_subscription_button_second_row_fixed_height" style="@style/StyleX.Text.Caption.Medium" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="10.0sp" android:textColor="@color/tcx_subscriptionButtonTextHighlighted" android:gravity="center" android:id="@id/profit" android:background="@drawable/shape_tcx_subscription_button_profit_highlighted" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_width="@dimen/tcx_subscription_button_profit_fixed_width" android:layout_height="@dimen/tcx_subscription_button_second_row_fixed_height" android:textAllCaps="true" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" android:layout_marginStart="2.0dip" app:autoSizeMaxTextSize="10.0sp" app:autoSizeMinTextSize="5.0sp" app:autoSizeTextType="uniform" style="@style/StyleX.Text.Caption.Medium" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

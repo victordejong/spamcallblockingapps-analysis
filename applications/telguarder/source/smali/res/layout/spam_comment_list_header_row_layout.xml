@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:background="@color/transparent" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" card_view:cardElevation="0.0dip" card_view:cardMaxElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:textColor="@color/spam_warning_call_background" android:id="@id/textViewCommentListTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/spam_warning_comment_list_title" android:textAllCaps="true" android:layout_marginStart="@dimen/margin_large" android:layout_marginEnd="@dimen/margin_large" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

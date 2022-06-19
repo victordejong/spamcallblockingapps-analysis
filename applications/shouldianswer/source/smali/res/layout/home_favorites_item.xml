@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/llItem" android:tag="layout/home_favorites_item_0" android:background="@color/colorBackgroundPrimaryLight" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imgPhoto" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:id="@id/llGroupWithShadow" android:background="@drawable/contact_black_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvImageText" android:padding="30.0dip" android:text="M" style="@style/textViewStyleInicials2" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/colorTextPrimaryDark" android:gravity="center" android:layout_gravity="bottom" android:id="@id/tvTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spaceSmall" android:text="Test" android:lines="1" android:shadowColor="@color/colorTextPrimaryLight" android:shadowRadius="5.0" style="@style/textViewStyle" />
+    <ImageButton android:layout_gravity="center|right|top" android:id="@id/ibMenu" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/ic_vert_white_24dp" style="@style/buttonBorderless" />
+    <ImageButton android:layout_gravity="center|left|top" android:id="@id/ibStar" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/ic_star_white_24dp" style="@style/buttonBorderless" />
+</FrameLayout>

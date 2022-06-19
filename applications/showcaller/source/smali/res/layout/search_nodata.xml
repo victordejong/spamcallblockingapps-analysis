@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="?color_weak" android:layout_gravity="center_horizontal" android:id="@id/tv_notdata" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="288.0dip" android:layout_height="167.0dip" android:src="@drawable/search_nodatas" />
+</LinearLayout>

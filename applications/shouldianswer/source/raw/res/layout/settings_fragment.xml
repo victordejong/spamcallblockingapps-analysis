@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:tag="layout/settings_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/appToolbar" style="@style/appBarToolbar" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout style="@style/llMainContent">
+            <LinearLayout style="@style/llSection">
+                <androidx.appcompat.widget.AppCompatButton android:id="@id/butProtectionSettings" android:text="@string/protection_settings" style="@style/buttonSettings" />
+                <androidx.appcompat.widget.AppCompatButton android:id="@id/butAdvancedBlocking" android:text="@string/settings_blocking" style="@style/buttonSettings" />
+                <androidx.appcompat.widget.AppCompatButton android:id="@id/butNotifications" android:text="@string/notifications" style="@style/buttonSettings" />
+                <androidx.appcompat.widget.AppCompatButton android:id="@id/butAccountSettings" android:text="@string/account_settings" style="@style/buttonSettings" />
+                <androidx.appcompat.widget.AppCompatButton android:id="@id/butOtherSettings" android:text="@string/other_settings" style="@style/buttonSettings" />
+                <View android:layout_marginTop="@dimen/spaceBig" style="@style/dividerTop" />
+                <androidx.appcompat.widget.AppCompatButton android:id="@id/butReportedNumbers" android:text="@string/reported_numbers" style="@style/buttonSettings" />
+                <androidx.appcompat.widget.AppCompatButton android:id="@id/butBlockedNumbers" android:text="@string/blocked_numbers" style="@style/buttonSettings" />
+                <androidx.appcompat.widget.AppCompatButton android:id="@id/butAllowedNumbers" android:text="@string/allowed_numbers" style="@style/buttonSettings" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

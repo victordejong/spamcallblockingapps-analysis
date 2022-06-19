@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:gravity="center_vertical" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/incoming_numbers" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/filterImageView" android:clickable="true" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/ic_eye_all" android:scaleType="fitXY" android:baselineAlignBottom="false" android:layout_marginStart="5.0dip" />
+        <TextView android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/clearStatIV" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_eraser" android:scaleType="fitCenter" android:maxWidth="24.0dip" android:maxHeight="24.0dip" android:baselineAlignBottom="false" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:gravity="end|center" android:layout_gravity="end|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/today_total" />
+    </LinearLayout>
+    <View android:background="@color/colorPrimary" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/tv_stat_checked" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/checked" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/imageViewEye" android:visibility="gone" android:clickable="true" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="5.0dip" android:src="@android:drawable/ic_menu_view" android:scaleType="fitXY" android:baselineAlignBottom="false" android:layout_marginStart="5.0dip" />
+        <TextView android:textSize="14.0sp" android:gravity="end|center" android:id="@id/tv_checked" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="0 / 0" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/blockedTextView" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/blocked" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/imageViewEye2" android:visibility="gone" android:clickable="true" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="5.0dip" android:src="@android:drawable/ic_menu_view" android:scaleType="fitXY" android:baselineAlignBottom="false" android:layout_marginStart="5.0dip" />
+        <TextView android:textSize="14.0sp" android:gravity="end|center" android:id="@id/tv_blocked" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="0 / 0" />
+    </LinearLayout>
+</LinearLayout>

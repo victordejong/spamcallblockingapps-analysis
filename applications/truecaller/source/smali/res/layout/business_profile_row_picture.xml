@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/rootView" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extraSpace" android:layout_marginBottom="@dimen/space" android:foreground="?selectableItemBackgroundBorderless" android:layout_marginStart="@dimen/extraSpace" app:cardBackgroundColor="?theme_cardColor" app:cardCornerRadius="@dimen/semiSpace"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/pictureImageView" android:layout_width="100.0dip" android:layout_height="100.0dip" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@null" app:srcCompat="@drawable/business_profile_ic_add_picture_gray" />
+</androidx.cardview.widget.CardView>

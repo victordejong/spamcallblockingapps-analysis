@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="?tcx_textTertiary" android:id="@id/title" android:paddingTop="@dimen/dp16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp4" android:paddingStart="@dimen/dp16" android:paddingEnd="@dimen/dp16" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/StyleX.Text.Caption" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carbon.widget.LinearLayout android:id="@id/carbon_menuContainer" android:padding="@dimen/carbon_padding" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:carbon_inAnimation="fade" app:carbon_outAnimation="fade"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <carbon.widget.LinearLayout android:orientation="horizontal" android:id="@id/carbon_menuContent" android:background="?carbon_colorBackground" android:paddingLeft="@dimen/carbon_paddingHalf" android:paddingRight="@dimen/carbon_paddingHalf" android:layout_width="wrap_content" android:layout_height="@dimen/carbon_menuHeight" app:carbon_elevation="@dimen/carbon_elevationFAB">
+        <carbon.widget.Button android:id="@id/carbon_cut" android:paddingLeft="@dimen/carbon_padding" android:paddingRight="@dimen/carbon_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="0.0dip" android:text="cut" style="@style/carbon_Button.Flat" />
+        <carbon.widget.Button android:id="@id/carbon_copy" android:paddingLeft="@dimen/carbon_padding" android:paddingRight="@dimen/carbon_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="0.0dip" android:text="copy" style="@style/carbon_Button.Flat" />
+        <carbon.widget.Button android:id="@id/carbon_paste" android:paddingLeft="@dimen/carbon_padding" android:paddingRight="@dimen/carbon_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="0.0dip" android:text="paste" style="@style/carbon_Button.Flat" />
+        <carbon.widget.Button android:id="@id/carbon_selectAll" android:paddingLeft="@dimen/carbon_padding" android:paddingRight="@dimen/carbon_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="0.0dip" android:text="select all" style="@style/carbon_Button.Flat" />
+    </carbon.widget.LinearLayout>
+</carbon.widget.LinearLayout>

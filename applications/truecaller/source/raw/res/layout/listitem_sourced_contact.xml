@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/list_item_common_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.truecaller.ui.components.AvatarView android:id="@id/avatar" android:layout_width="@dimen/list_item_common_image_frame_size" android:layout_height="@dimen/list_item_common_image_frame_size" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_marginEnd="@dimen/doubleSpace" android:layout_alignParentStart="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/avatar">
+        <TextView android:id="@id/contactName" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance.Truecaller.ListItem.Primary.Ellipsize" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/appIcon" android:layout_width="@dimen/doubleSpace" android:layout_height="@dimen/doubleSpace" android:contentDescription="@null" android:layout_marginEnd="@dimen/space" />
+            <TextView android:id="@id/appAndSearchTerm" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.Truecaller.ListItem.Secondary" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

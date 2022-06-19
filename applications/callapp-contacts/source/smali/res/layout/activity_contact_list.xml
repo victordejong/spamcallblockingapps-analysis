@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout android:id="@id/drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/root_view" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/app_bar_main" />
+        <FrameLayout android:id="@id/keypadMainContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <FrameLayout android:layout_gravity="left" android:id="@id/slide_menu_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</androidx.drawerlayout.widget.DrawerLayout>

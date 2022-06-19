@@ -1,0 +1,26 @@
+{
+		"top" : "Achetez plus de crédits pour disposer de l\'option Premium de recherche inversée de numéros.",
+
+        "sections" : [
+            {
+                "img" : "glass",
+                "descr" : "Obtenez le vrai nom du correspondant",
+                "width": "40",
+                "height": "40"
+            },
+            {
+              "img" : "shield",
+              "descr" : "Identifiez les correspondants masqués instantanément",
+              "width": "40",
+              "height": "40"
+            },
+            {
+              "img" : "credits",
+              "descr" : "Les crédits n’expirent jamais!",
+              "width": "40",
+              "height": "40"
+            }
+        ],
+
+        "bottom" : ""
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/callStatusNotification" android:background="@color/half_transparent_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/contact_details_header_fully_closed_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/callStatusIcon" android:layout_width="@dimen/dimen_24_dp" android:layout_height="@dimen/dimen_24_dp" android:layout_marginLeft="16.0dip" android:layout_centerVertical="true" app:srcCompat="@drawable/ic_on_hold" />
+    <TextView android:textColor="@color/white_callapp" android:id="@id/callerName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_toRightOf="@id/callStatusIcon" android:layout_centerVertical="true" />
+    <TextView android:textColor="@color/white_callapp" android:id="@id/callState" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

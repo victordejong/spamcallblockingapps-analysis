@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/bottomContainer" android:paddingLeft="@dimen/dimen_8_dp" android:paddingTop="@dimen/dimen_14_dp" android:paddingRight="@dimen/dimen_8_dp" android:paddingBottom="@dimen/dimen_14_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/sku1ContainerHorizontalWrapper" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_16_dp" android:minHeight="90.0dip" android:layout_weight="1.0">
+        <RelativeLayout android:id="@id/sku1ContainerHorizontal" android:background="@drawable/purchase_box_premium_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="55.0dip">
+            <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/white_callapp" android:gravity="center" android:id="@id/sku1TextHorizontal" android:background="@drawable/ripple_or_holo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/sku1CancelAnyTimeHorizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/sku2ContainerHorizontalWrapper" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="90.0dip" android:layout_weight="1.0">
+        <RelativeLayout android:layout_gravity="center" android:id="@id/sku2ContainerHorizontal" android:background="@drawable/purchase_box_premium_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="55.0dip">
+            <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/white_callapp" android:gravity="center" android:id="@id/sku2TextHorizontal" android:background="@drawable/ripple_or_holo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_centerVertical="false" />
+        </RelativeLayout>
+        <TextView android:layout_gravity="center" android:id="@id/sku2CancelAnyTimeHorizontal" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

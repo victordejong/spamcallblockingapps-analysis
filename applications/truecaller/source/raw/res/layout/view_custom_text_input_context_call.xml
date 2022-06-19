@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:theme="@style/CustomMessageTextField" android:id="@id/et_custom_msg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/reason" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.textfield.TextInputEditText android:textAppearance="@style/StyleX.Text.Subtitle.S1" android:textColor="?tcx_textPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" android:maxLength="@integer/context_call_custom_message_max_length" android:inputType="textMultiLine" android:imeOptions="actionDone" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView android:textColor="?tcx_textTertiary" android:id="@id/txt_counter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/context_call_one_spacing" app:layout_constraintStart_toStartOf="@id/et_custom_msg" app:layout_constraintTop_toBottomOf="@id/et_custom_msg" style="@style/StyleX.Text.Subtitle.S1" />
+</merge>

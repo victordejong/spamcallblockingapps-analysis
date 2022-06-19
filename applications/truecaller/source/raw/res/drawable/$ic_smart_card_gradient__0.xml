@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gradient android:angle="0.0" android:type="linear" android:startX="240.111" android:startY="8.89512" android:endX="216.897" android:endY="97.1525"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:color="?tcx_what_is_smart_sms_gradient1" android:offset="0.0" />
+    <item android:color="?tcx_what_is_smart_sms_gradient2" android:offset="1.0" />
+</gradient>

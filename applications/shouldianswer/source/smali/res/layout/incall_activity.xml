@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/llMainFrame" android:tag="layout/incall_activity_0" android:background="@drawable/call_in_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/incall_bg" />
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/imgChangeTheme" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="@dimen/spaceBiggest" android:layout_marginRight="@dimen/spaceSmall" android:src="@drawable/ic_lightbulb_outline_white_24dp" />
+    <LinearLayout android:id="@id/llOffHookActions" android:layout_height="fill_parent" style="@style/llSection">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout style="@style/llParentWidthHorizontalCenter">
+                <ToggleButton android:id="@id/butMicrophone" android:checked="true" android:textOn="@string/unmute" android:textOff="@string/mute" android:drawableTop="@drawable/ic_mic_off_white_24dp" style="@style/buttonCallInToggle" />
+                <Button android:id="@id/butDialpad" android:text="@string/dialpad" android:drawableTop="@drawable/ic_dialpad_white_24dp" style="@style/buttonCallInToggle" />
+                <ToggleButton android:id="@id/butReprodutor" android:textOn="@string/turn_off" android:textOff="@string/turn_on" android:drawableTop="@drawable/ic_volume_up_white_24dp" style="@style/buttonCallInToggle" />
+            </LinearLayout>
+            <LinearLayout style="@style/llParentWidthHorizontalCenter">
+                <Button android:id="@id/butAddCall" android:text="@string/add_call" android:drawableTop="@drawable/ic_phone_forwarded_white_24dp" style="@style/buttonCallInToggle" />
+                <ToggleButton android:id="@id/butPause" android:textOn="@string/unhold" android:textOff="@string/hold" android:drawableTop="@drawable/ic_pause_white_24dp" style="@style/buttonCallInToggle" />
+                <ToggleButton android:id="@id/butBluetooth" android:textOn="@string/turn_off" android:textOff="@string/turn_on" android:drawableTop="@drawable/ic_bluetooth_white_24dp" style="@style/buttonCallInToggle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <fragment android:name="org.mistergroup.shouldianswer.ui.incall.InCallDialpadFragment" android:layout_gravity="bottom" android:id="@id/fragmentDialpad" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="bottom|center" android:id="@id/fabDisconnect" android:visibility="gone" android:src="@drawable/ic_call_end_white_24dp" android:contentDescription="@string/activity_incall_but_disconnect_accessibility" app:backgroundTint="#ffff0000" style="@style/fab" />
+    <LinearLayout android:gravity="center_horizontal" android:id="@id/llContent" android:layout_height="fill_parent" android:layout_marginTop="30.0dip" style="@style/llMainContent">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:id="@id/tvCallType" android:layout_height="20.0dip" android:text="CALLTYPE" style="@style/textViewStyle" />
+        <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+            <FrameLayout android:layout_width="50.0dip" android:layout_height="50.0dip">
+                <FrameLayout android:id="@id/frameContactPhotoInTitle" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.makeramen.roundedimageview.RoundedImageView android:id="@id/imgContactPhoto" android:contentDescription="@string/activity_number_detail_img_contact_photo" app:riv_border_color="#a0ffffff" style="@style/imgContactPhoto2" />
+                    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvContactPhoto" android:padding="8.0dip" android:text="MT" style="@style/textViewStyleInicials" />
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/imgMainRatingInTitle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/alert_img_final_rating" style="@style/imgRatingBig" />
+                </FrameLayout>
+            </FrameLayout>
+            <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:id="@id/tvTitle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="TITLE" android:maxLines="1" android:layout_weight="1.0" style="@style/textViewStyleAutosizedSingleLineCentered" />
+            <LinearLayout android:orientation="vertical" android:layout_width="50.0dip" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/llSubtitle" style="@style/llParentWidthHorizontalCenter">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/imgMainRatingInSubtitle" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="@dimen/spaceSmall" android:contentDescription="@string/alert_img_final_rating" style="@style/imgRatingSmall" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="20.0sp" android:ellipsize="end" android:gravity="center" android:id="@id/tvSubtitle" android:layout_width="wrap_content" android:text="SUBTITLE" android:maxLines="1" style="@style/textViewStyle" />
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="15.0sp" android:id="@id/tvDuration" android:layout_marginTop="@dimen/spaceSmall" android:text="DURATION" style="@style/textViewStyle" />
+        <FrameLayout android:id="@id/frameContactPhotoBig" android:layout_width="160.0dip" android:layout_height="160.0dip" android:layout_marginTop="@dimen/spaceBig">
+            <com.makeramen.roundedimageview.RoundedImageView android:id="@id/imgContactPhotoBig" android:contentDescription="@string/activity_number_detail_img_contact_photo" app:riv_border_color="#a0ffffff" app:riv_border_width="2.0dip" style="@style/imgContactPhoto2" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvContactPhotoBig" android:padding="8.0dip" android:text="MT" style="@style/textViewStyleInicials" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <org.mistergroup.shouldianswer.components.LimitedScrollView android:id="@id/scrollView" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout style="@style/llParentWidthCenter">
+                    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvFeaturedInfo" android:padding="@dimen/spaceSmall" android:text="Featured Info" style="@style/textViewStyle" />
+                    <LinearLayout android:id="@id/llLocalReviews" style="@style/llSection" />
+                    <LinearLayout android:id="@id/llCommunityReviews" style="@style/llSection" />
+                    <Button android:id="@id/butMoreInfo" android:visibility="gone" android:text="@string/alert_but_more_info" style="@style/buttonAccent" />
+                    <androidx.appcompat.widget.AppCompatTextView android:id="@id/loadReviewsError" android:padding="@dimen/spaceSmall" android:visibility="gone" android:text="@string/alert_tv_error_download_reviews" style="@style/textViewStyleCenter" />
+                    <ProgressBar android:id="@id/progressBar1" android:padding="@dimen/spaceSmall" android:visibility="gone" style="@style/progressBar" />
+                    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvDbSensitivityInfo" android:padding="@dimen/spaceSmall" android:visibility="gone" android:text="@string/alert_tv_error_low_rating_count" style="@style/textViewStyle" />
+                    <LinearLayout android:id="@id/llUnknownNumberInfo" android:padding="@dimen/spaceSmall" android:visibility="gone" style="@style/llParentWidthHorizontalCenter">
+                        <androidx.appcompat.widget.AppCompatTextView android:text="@string/alert_tv_unknown_rating_description" style="@style/textViewStyle" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/llExpandPanel" android:padding="@dimen/spaceSmall" style="@style/llSection">
+                        <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                            <LinearLayout android:gravity="center_vertical" android:id="@id/llPositiveNegativeCounts" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                                <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvRating1" android:layout_marginRight="@dimen/spaceSmall" android:text="1 x " style="@style/textViewStyle" />
+                                <ImageView android:id="@id/imgRating1" android:contentDescription="@string/alert_img_rating_positive" style="@style/imgRatingSmall" />
+                                <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvRating2" android:layout_marginLeft="@dimen/spaceBig" android:layout_marginRight="@dimen/spaceSmall" android:text="1 x " style="@style/textViewStyle" />
+                                <ImageView android:id="@id/imgRating2" android:contentDescription="@string/alert_img_rating_negative" style="@style/imgRatingSmall" />
+                            </LinearLayout>
+                            <LinearLayout style="@style/llMaxWidth" />
+                            <Button android:textColor="@color/colorTextPrimaryDark" android:id="@id/butLoadReviews" android:text="@string/alert_but_reviews" android:drawableBottom="@drawable/ic_keyboard_arrow_down_white_24dp" android:drawableTint="@color/colorTextPrimaryDark" style="@style/buttonBorderless" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </org.mistergroup.shouldianswer.components.LimitedScrollView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/llFadingOut" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="bottom|center" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/llRingingActions" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="300.0dip" android:layout_marginLeft="@dimen/spaceBig" android:layout_marginRight="@dimen/spaceBig">
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvSwipeUp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/swipe_up_to_accept_call" />
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/imgAccept" android:background="@drawable/call_in_accept_background" android:padding="15.0dip" android:src="@drawable/ic_call_white_24dp" android:tint="?colorAccent" style="@style/fab" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvSwipeDown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/swipe_down_to_reject_call" />
+    </LinearLayout>
+</FrameLayout>

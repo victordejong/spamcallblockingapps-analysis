@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MediaControlView_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="cch_no_devices_info_list">
+        <item>Automatically blocks all unwanted calls</item>
+        <item>Easy setup &amp; no programming required</item>
+        <item>Works with any phone provider</item>
+        <item>Manage with your call control mobile app</item>
+        <item>Free warranty &amp; guaranteed satisfaction</item>
+    </string-array>
+    <string-array name="cch_wizard_tips">
+        <item>Visit &lt;a href=\"https://www.callcontrol.com/goto?section=cch-android&amp;item=welcome\">Call Control Website&lt;/a> to learn more about what Call Control Home can do.</item>
+        <item>Simply press and hold the top shield button to block the previous caller.</item>
+        <item>Call Control Home works independent of your smart phone and automatically syncs periodically.</item>
+        <item>All of your Blocking settings, including your Block and Allow lists, are synced automatically with Call Control Home.</item>
+    </string-array>
+    <string-array name="comm_iq_arr">
+        <item>Auto block top spammers</item>
+        <item>"Updated hourly to block newest
+spammers"</item>
+        <item>AI detection of possible spammers</item>
+        <item>Auto lookup phone numbers</item>
+    </string-array>
+    <string-array name="dialog_promo_popup_list">
+        <item>CommunityIQ™ Protection</item>
+        <item>Unlimited Personal Blacklist</item>
+        <item>Enhanced Caller ID</item>
+        <item>Premium Reverse Lookups</item>
+        <item>Priority Support</item>
+        <item>Completely Ad Free</item>
+    </string-array>
+    <string-array name="msg_dnd">
+        <item>Do Not Disturb mode when enabled will block all calls according to your default blocking mode which is configured in General Settings. You can set up schedules for each day of the week or enable DND mode 24/7.</item>
+        <item>Tap on the sandwich icon in the top left corner or swipe from the left edge of your screen to reveal the Settings Drawer. Then tap on Do Not Disturb.</item>
+        <item>is comprised of three main elements:&lt;br> 1. The Scheduler – this is where you setup your schedules when DND mode is to be enabled.&lt;br> 2. DND Exceptions – tap to configure exceptions to the DND mode who will be allowed even when DND is enabled.&lt;br> 3. Enable DND 24/7 – tap to enable DND mode all day, every day.</item>
+        <item>To set up specific days and times you want to block calls, start by tapping the day of the week you want to schedule. Tapping once puts the scheduler in day mode, tapping twice puts the scheduler in night mode.</item>
+        <item>The green arrow indicates when DND mode will START, the red arrow indicates when DND mode will END. Tap and hold the arrows and drag them up and down to change times. The times along the top indicate the start time, the times along the bottom indicate the end time. The RED line in between indicates that calls will be blocked during that timeframe.</item>
+        <item>Tapping the day of the week twice changes DND into night mode. The green arrow indicates when DND mode will START, the red arrow indicates when DND mode will END. Tap and hold the arrows and drag them up and down to change times. The times along the top indicate the start time, the times along the bottom indicate the end time.</item>
+        <item>This is where you can configure exceptions who will be allowed to call you even when DND Mode is enabled. You can add your Allowed List, Contacts or a subset of your contacts by tapping the arrow to the right of the Contacts label.&lt;br> For example, a common configuration is to enable DND mode 24/7 but always allow calls from contacts.</item>
+        <item>Enabling this setting will enable DND mode all day, everyday and will block all incoming calls and text messages according to the default blocking mode you have configured in General Settings.</item>
+        <item>Tap the DND 24/7 checkbox, then tap Exceptions and choose the Contacts checkbox.</item>
+    </string-array>
+    <string-array name="msg_general_settings">
+        <item>a general setting to completely enable or disable Call Control’s functions.</item>
+        <item>restores the version 1.0 user interface.</item>
+        <item>this option switches Call Control to be your Phone app. You can continue to use the Favorites, Recents and Contacts of your phone.</item>
+        <item>call screen of Call Control will show integrated information about the caller. You can choose to use the custom call screen of Call Control and all the blocking modes will be supported.</item>
+        <item>enables text message blocking within Call Control. By tapping this option you can also integrate Call Control with QKSMS text messaging app.</item>
+        <item>enables or disables automatic blocking of spam and nuisance callers on our community blacklist. Tapping the arrow on the right expands the community blocking options, allows you to customize the categories of callers that are blocked on the community blacklist.</item>
+        <item>a feature which identifies unknown callers, businesses and individuals by displaying a banner with information about the caller provided by Call Control when the call comes in to your phone.</item>
+        <item>a setting that adjusts the settings for overlaying the Enhanced Caller ID information about your incoming calls.</item>
+        <item>enabling this checkbox, displays the incoming call information as a small popup instead of the default full screen overlay.</item>
+        <item>choose in what way you want blocked call to be handled by default.</item>
+        <item>this mode briefly answers the incoming blocked call and immediately hangs up (pickup and hangup), which ensures the blocked caller is not able to leave a voicemail message.</item>
+        <item>this mode mutes the ringer on incoming blocked calls and texts.</item>
+        <item>this mode sends the incoming blocked call directly to voicemail, without ringing your phone.</item>
+        <item>choose how you want to block calls while you’re on the phone.</item>
+        <item>in the event that you create conflicting rules in your Blocked and Allowed lists, this setting establishes a priority of which list will take precedence in the event of a conflict.</item>
+        <item>you can adjust various call blocking options for handling specific call types listed below.</item>
+        <item>incoming calls with “Private” listed as their caller ID will be blocked when this setting is enabled.</item>
+        <item>incoming calls with “Unknown” listed as their caller ID will be blocked when this setting is enabled.</item>
+        <item>if Call Control detects that the incoming caller ID is not valid or spoofed, Call Control will block these calls automatically when this setting is enabled.</item>
+        <item>Call Control will block calls and text messages in which the phone number contains non-numeric information such as letters or special characters.</item>
+        <item>Call Control will block text messages that is emailed to you when this setting is enabled.</item>
+        <item>Call Control will block incoming calls from toll free numbers when this setting is enabled.</item>
+        <item>Call Control will block incoming calls from the numbers similar to yours in the first 6 digits.</item>
+        <item>Call Control is localized in many different languages and will automatically select a language based upon your location. Available localizations include English, Russian, Spanish, Portuguese, German and French.</item>
+    </string-array>
+    <string-array name="premium_lookup_arr">
+        <item>10 premium credits each month</item>
+        <item>Lookup real name of the caller</item>
+        <item>Lookup real location of the caller</item>
+        <item>Enhanced caller ID</item>
+    </string-array>
+    <string-array name="short_month_name">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <integer-array name="speed_multiplied_by_100">
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>125</item>
+        <item>150</item>
+        <item>200</item>
+    </integer-array>
+    <string-array name="support_titles">
+        <item>General Settings Overview</item>
+        <item>How to use Do Not Disturb mode</item>
+        <item>How to add an area code or a wild card to the Block list</item>
+        <item>"How do I block and report a Robocaller that wasn't blocked by Call Control?"</item>
+        <item>How to check if Premium status is activated in Call Control</item>
+        <item>Watch how to videos</item>
+        <item>Read more FAQs on callcontrol.com</item>
+    </string-array>
+    <string-array name="t9lookup">
+        <item>[0]</item>
+        <item>[1]</item>
+        <item>[abcàáâãäåæçABCÀÁÂÃÄÅÆÇ]</item>
+        <item>[defèéêëDEFÈÉÊËÐ]</item>
+        <item>[ghiìíîïGHIÌÍÎÏ]</item>
+        <item>[jklJKL]</item>
+        <item>[mnoñòóôõöøMNOÑÒÓÔÕÖØ]</item>
+        <item>[pqrsPQRS]</item>
+        <item>[tuvùúûüTUVÙÚÛÜ]</item>
+        <item>[wxyzýÿWXYZÝ]</item>
+    </string-array>
+    <string-array name="title_dnd">
+        <item></item>
+        <item>How to Get Started</item>
+        <item>Do Not Disturb screen</item>
+        <item>The Scheduler</item>
+        <item>Day Mode</item>
+        <item>Night Mode</item>
+        <item>DND Exceptions</item>
+        <item>Enable DND Mode 24/7</item>
+        <item>How to block all calls except contacts</item>
+    </string-array>
+    <string-array name="title_general_settings">
+        <item>Enable Call Control</item>
+        <item>Enable Dialer Interface (Legacy Mode)</item>
+        <item>Default Phone App</item>
+        <item>Custom Call Screen</item>
+        <item>Enable Messages Blocking</item>
+        <item>CommunityIQ</item>
+        <item>Enhanced Caller ID</item>
+        <item>Overlay Settings</item>
+        <item>Show Enhanced Caller ID as a popup</item>
+        <item>Default Call Blocking Mode</item>
+        <item>Disconnect</item>
+        <item>Ignore</item>
+        <item>Send to Voicemail</item>
+        <item>Call Waiting Blocking Mode</item>
+        <item>Blocking priority</item>
+        <item>Call Blocking</item>
+        <item>Private Calls</item>
+        <item>Unknown Calls</item>
+        <item>Fake Caller ID</item>
+        <item>Non-Numeric Sender ID</item>
+        <item>Emailed Text Message</item>
+        <item>Toll-Free Numbers</item>
+        <item>Block Spoofed Similar Numbers</item>
+        <item>Language</item>
+    </string-array>
+    <string-array name="unlimited_arr">
+        <item>No limits on block list</item>
+        <item>Add any number to your list</item>
+        <item>Instantly transfer your block list to new phones</item>
+    </string-array>
+    <string-array name="weekdays">
+        <item>MO</item>
+        <item>TU</item>
+        <item>WE</item>
+        <item>TH</item>
+        <item>FR</item>
+        <item>SA</item>
+        <item>SU</item>
+    </string-array>
+</resources>

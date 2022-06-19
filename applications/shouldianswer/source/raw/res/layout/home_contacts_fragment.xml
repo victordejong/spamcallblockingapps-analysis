@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/home_contacts_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/listView" android:scrollbars="vertical" style="@style/listView" />
+        <LinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/llFastSearch" android:layout_width="200.0dip" android:layout_height="fill_parent" android:layout_marginBottom="70.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvA" android:text="A" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvB" android:text="B" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvC" android:text="C" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvD" android:text="D" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvE" android:text="E" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvF" android:text="F" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvG" android:text="G" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvH" android:text="H" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvI" android:text="I" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvJ" android:text="J" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvK" android:text="K" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvL" android:text="L" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvM" android:text="M" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvN" android:text="N" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvO" android:text="O" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvP" android:text="P" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvQ" android:text="Q" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvR" android:text="R" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvS" android:text="S" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvT" android:text="T" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvU" android:text="U" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvV" android:text="V" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvW" android:text="W" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvX" android:text="X" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvY" android:text="Y" style="@style/textViewStyleFastSearch" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvZ" android:text="Z" style="@style/textViewStyleFastSearch" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llLoadingData" android:padding="@dimen/mainContentPadding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontBiggest2" android:text="@string/reading_data" style="@style/textViewStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llNoItems" android:padding="@dimen/mainContentPadding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontBig" android:layout_marginBottom="@dimen/spaceBiggest" android:text="@string/opps_we_have_nothing_to_show_yet" style="@style/textViewStyle" />
+        <LinearLayout android:id="@id/llNoPermissions" style="@style/llParentWidthCenter">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontBig" android:gravity="center_horizontal" android:text="@string/system_permissions_are_required_nto_show_your_contacts" style="@style/textViewStyle" />
+            <Button android:id="@id/butAllowPermissions" android:layout_marginTop="@dimen/spaceBig" android:text="@string/allow_permissions" style="@style/button" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

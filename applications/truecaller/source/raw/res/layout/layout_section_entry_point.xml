@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="?selectableItemBackgroundBorderless" android:paddingTop="@dimen/dp16" android:paddingBottom="@dimen/dp16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/dp8" android:paddingEnd="@dimen/dp8"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.ui.view.TintedImageView android:id="@id/typeRes" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textColor="?tcx_textPrimary" android:gravity="center" android:id="@id/type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp8" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/typeRes" style="@style/StyleX.Text.Caption" />
+</androidx.constraintlayout.widget.ConstraintLayout>

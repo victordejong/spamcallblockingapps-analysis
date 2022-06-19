@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="language">
+        <item>スペイン語</item>
+        <item>英語</item>
+        <item>ドイツ語</item>
+        <item>イタリア語</item>
+        <item>フランス語</item>
+        <item>ロシア語</item>
+        <item>スウェーデン語</item>
+        <item>ポーランド語</item>
+        <item>ポルトガル語</item>
+        <item>オランダ語</item>
+        <item>ノルウェー語</item>
+        <item>チェコ語</item>
+        <item>インドネシア語</item>
+        <item>中国語</item>
+        <item>日本語</item>
+        <item>ヘブライ語</item>
+        <item>トルコ語</item>
+        <item>ハンガリー語</item>
+        <item>フィンランド語</item>
+        <item>デンマーク語</item>
+        <item>タイ語</item>
+        <item>ギリシャ語</item>
+        <item>スロバキア語</item>
+        <item>ルーマニア語</item>
+    </string-array>
+</resources>

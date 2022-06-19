@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/number_reports_app_promo_item_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="190.0dip" android:src="@drawable/wizard_bg_3" android:scaleType="centerCrop" android:alpha="0.3" />
+    <LinearLayout android:layout_gravity="center" style="@style/llParentWidth">
+        <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:id="@id/tvComment" android:layout_width="fill_parent" android:text="@string/number_reports_promo_item_description" style="@style/textViewStyle" />
+        <Button android:layout_gravity="center" android:id="@id/butCommunity" android:layout_margin="@dimen/spaceSmall" android:text="@string/show_more_info" style="@style/button" />
+    </LinearLayout>
+</FrameLayout>

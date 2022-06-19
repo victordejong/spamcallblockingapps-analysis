@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.truecaller.ads.ui.AdsSwitchView android:id="@id/container_frame" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:id="@id/adsHolderNative" android:background="@drawable/background_facs_ads_border" android:padding="@dimen/control_micro_space" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.card.MaterialCardView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/control_mini_space" app:cardPreventCornerOverlap="true" app:cardUseCompatPadding="false">
+            <include android:id="@id/outer_container" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_acs_ads_frame" />
+        </com.google.android.material.card.MaterialCardView>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/adsHolderBanner" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_gravity="center" android:id="@id/container" android:background="@drawable/background_facs_ads_border" android:padding="@dimen/control_micro_space" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="@dimen/control_mini_space" />
+    </FrameLayout>
+</com.truecaller.ads.ui.AdsSwitchView>

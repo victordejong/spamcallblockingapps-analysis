@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/recyclerView" android:paddingTop="@dimen/control_space" android:paddingBottom="@dimen/control_space" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/controls_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <com.truecaller.ui.view.TintedImageView android:id="@id/listEmptyImage" android:visibility="gone" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginTop="@dimen/control_enneaspace" android:layout_centerHorizontal="true" android:contentDescription="@string/AppName" app:imgTint="?tcx_textSecondary" app:srcCompat="@drawable/ic_unknown_number" />
+        <TextView android:textColor="?tcx_textSecondary" android:id="@id/listEmptyText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_triplespace" android:layout_below="@id/listEmptyImage" android:layout_centerHorizontal="true" style="@style/StyleX.Text.Subtitle.S1" />
+        <TextView android:textColor="?tcx_textSecondary" android:id="@id/listEmptySubText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/listEmptyText" android:layout_centerHorizontal="true" style="@style/StyleX.Text.Subtitle.S1" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/loading_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

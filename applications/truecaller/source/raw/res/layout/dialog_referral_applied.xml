@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="@dimen/control_triplespace" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/control_triplespace" android:paddingEnd="@dimen/control_triplespace"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/refer_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/referral_invite" />
+    <TextView android:textSize="@dimen/textMedium" android:textColor="?theme_textColorPrimary" android:gravity="center_horizontal" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" />
+    <TextView android:textSize="@dimen/textSmall" android:textColor="?theme_textColorSecondary" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" android:text="@string/referral_promo" />
+</LinearLayout>

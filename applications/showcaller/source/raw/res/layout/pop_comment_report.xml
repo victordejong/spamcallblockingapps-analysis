@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="?color_ffffff" app:cardCornerRadius="3.0dip" app:cardElevation="4.0dip" app:cardUseCompatPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_btn" android:background="?card_foreground" android:layout_width="wrap_content" android:layout_height="48.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="?color_666666" android:gravity="center_vertical" android:id="@id/tv_comment_report" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/report" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    </FrameLayout>
+</androidx.cardview.widget.CardView>

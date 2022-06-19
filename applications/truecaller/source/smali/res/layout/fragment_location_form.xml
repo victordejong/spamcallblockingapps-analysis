@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tvLocTitle" android:layout_marginTop="@dimen/doubleSpace" android:text="@string/BusinessProfile_Loc_Pincode_Title" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.Bizmon.Title" />
+    <TextView android:textColor="?tcx_textTertiary" android:id="@id/tvResolvedPincode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" android:layout_marginStart="@dimen/tripleSpace" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tilPincode" style="@style/Widget.Bizmon.Medium" />
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/tilPincode" android:layout_marginTop="@dimen/doubleSpace" app:endIconMode="clear_text" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvLocTitle" style="@style/Widget.Bizmon.TextInputLayout">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/etPincode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/BusinessProfile_Pincode" android:maxLength="6" android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="country_iso">
+        <item>GB</item>
+        <item>US</item>
+        <item>CA</item>
+        <item>IN</item>
+        <item>ES</item>
+        <item>FR</item>
+        <item>DE</item>
+        <item>IT</item>
+        <item>PT</item>
+        <item>JP</item>
+        <item>NO</item>
+        <item>TH</item>
+    </string-array>
+    <string-array name="currency_position">
+        <item>L</item>
+        <item>R</item>
+        <item>R</item>
+        <item>L</item>
+        <item>R</item>
+        <item>R</item>
+        <item>R</item>
+        <item>R</item>
+        <item>R</item>
+        <item>R</item>
+        <item>R</item>
+        <item>R</item>
+    </string-array>
+    <string-array name="currency_symbol">
+        <item>£</item>
+        <item>$</item>
+        <item>$</item>
+        <item>₹</item>
+        <item>€</item>
+        <item>€</item>
+        <item>€</item>
+        <item>€</item>
+        <item>€</item>
+        <item>¥</item>
+        <item>kr</item>
+        <item>฿</item>
+    </string-array>
+    <string-array name="language">
+        <item>Español</item>
+        <item>English</item>
+        <item>Deutsch</item>
+        <item>Italiano</item>
+        <item>Français</item>
+        <item>ру́сский</item>
+        <item>Svenska</item>
+        <item>Polski</item>
+        <item>Português</item>
+        <item>Nederlands</item>
+        <item>Norsk</item>
+        <item>Čeština</item>
+        <item>Indonesia</item>
+        <item>国语</item>
+        <item>日本語</item>
+        <item>עִבְרִית</item>
+        <item>Türkçe</item>
+        <item>Magyar</item>
+        <item>Suomi</item>
+        <item>Dansk</item>
+        <item>ภาษาไทย</item>
+        <item>ελληνικά</item>
+        <item>Slovenčina</item>
+        <item>Românește</item>
+    </string-array>
+    <string-array name="price_one_month">
+        <item>1.99</item>
+        <item>2.49</item>
+        <item>3.19</item>
+        <item>160.00</item>
+        <item>2.59</item>
+        <item>2.59</item>
+        <item>2.59</item>
+        <item>2.59</item>
+        <item>2.59</item>
+        <item>280</item>
+        <item>25</item>
+        <item>85</item>
+    </string-array>
+    <string-array name="price_three_months">
+        <item>4.99</item>
+        <item>6.49</item>
+        <item>7.99</item>
+        <item>410.00</item>
+        <item>6.49</item>
+        <item>6.49</item>
+        <item>6.49</item>
+        <item>6.49</item>
+        <item>6.49</item>
+        <item>700</item>
+        <item>65</item>
+        <item>225</item>
+    </string-array>
+</resources>

@@ -1,0 +1,10 @@
+package com.google.android.gms.internal.clearcut;
+
+import com.google.android.gms.internal.clearcut.zzge;
+/* loaded from: classes2-dex2jar.jar:com/google/android/gms/internal/clearcut/zzgh.class */
+public final class zzgh implements zzck<zzge.zzg.zzb> {
+    @Override // com.google.android.gms.internal.clearcut.zzck
+    public final /* synthetic */ zzge.zzg.zzb zzb(int i) {
+        return zzge.zzg.zzb.zzas(i);
+    }
+}

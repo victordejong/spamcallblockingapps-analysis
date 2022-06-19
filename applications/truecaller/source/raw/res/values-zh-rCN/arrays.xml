@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>OTP</item>
+        <item>转账</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>登入 %s</item>
+        <item>注册通过 %s</item>
+        <item>登录 %s</item>
+        <item>验证电话号码使用 %s</item>
+        <item>注册使用 %s</item>
+        <item>开始使用 %s</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>拨打</item>
+        <item>查看档案</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>很重要</item>
+        <item>对不起</item>
+        <item>你在哪里？</item>
+        <item>我有问题</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>你好，👋，有急事 🚨</item>
+        <item>你好，👋，你的订单已就绪！</item>
+        <item>现在空吗？我到楼下了！</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>静音</item>
+        <item>只有振动</item>
+        <item>只有声音</item>
+        <item>声音并振动</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>如果你想确保在一分钟内得到回复，不妨使用Flash</item>
+        <item>如果你有必须赶紧说出来的重要事情，不妨使用Flash</item>
+        <item>你知道吗：只需点击一下，就能快速分享位置</item>
+        <item>小贴士：发送表情或输入文字来表达自我</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM卡1</item>
+        <item>SIM卡2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM卡1</item>
+        <item>SIM卡 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>按名字排序</item>
+        <item>按姓氏排序</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>已保存</item>
+        <item>已识别</item>
+    </string-array>
+</resources>

@@ -1,0 +1,87 @@
+.class public final Lscala/collection/immutable/TrieIterator$$anonfun$iteratorWithSize$1;
+.super Lscala/runtime/AbstractFunction1;
+.source "TrieIterator.scala"
+
+# interfaces
+.implements Lscala/Serializable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lscala/collection/immutable/TrieIterator;->iteratorWithSize([Lscala/collection/immutable/Iterable;)Lscala/Tuple2;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x11
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lscala/runtime/AbstractFunction1<",
+        "Lscala/collection/immutable/Iterable<",
+        "TT;>;",
+        "Ljava/lang/Object;",
+        ">;",
+        "Lscala/Serializable;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final serialVersionUID:J
+
+
+# direct methods
+.method public constructor <init>(Lscala/collection/immutable/TrieIterator;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lscala/collection/immutable/TrieIterator<",
+            "TT;>;)V"
+        }
+    .end annotation
+
+    .line 79
+    invoke-direct {p0}, Lscala/runtime/AbstractFunction1;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final apply(Lscala/collection/immutable/Iterable;)I
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lscala/collection/immutable/Iterable<",
+            "TT;>;)I"
+        }
+    .end annotation
+
+    .line 79
+    invoke-interface {p1}, Lscala/collection/immutable/Iterable;->size()I
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public final bridge synthetic apply(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 79
+    check-cast p1, Lscala/collection/immutable/Iterable;
+
+    invoke-virtual {p0, p1}, Lscala/collection/immutable/TrieIterator$$anonfun$iteratorWithSize$1;->apply(Lscala/collection/immutable/Iterable;)I
+
+    move-result p1
+
+    invoke-static {p1}, Lscala/runtime/BoxesRunTime;->boxToInteger(I)Ljava/lang/Integer;
+
+    move-result-object p1
+
+    return-object p1
+.end method

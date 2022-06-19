@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_array">
+        <item>Частный</item>
+        <item>Коллекторы/Банки</item>
+        <item>Реклама/Спам</item>
+        <item>Молчаливый звонок</item>
+        <item>Мошенники</item>
+        <item>Финансовые услуги</item>
+        <item>Другое..</item>
+    </string-array>
+    <string-array name="category_feedback_array">
+        <item>Без категории</item>
+        <item>Коллекторы/Банки</item>
+        <item>Реклама/Спам</item>
+        <item>Молчаливый звонок</item>
+        <item>Мошенники</item>
+        <item>Финансовые услуги</item>
+        <item>Другое..</item>
+    </string-array>
+    <string-array name="posneg_array">
+        <item>Отрицательный</item>
+        <item>Нейтральный</item>
+        <item>Положительный</item>
+    </string-array>
+    <string-array name="settings_block_methods_array">
+        <item>Сброс звонка</item>
+        <item>Отключить звук</item>
+    </string-array>
+</resources>

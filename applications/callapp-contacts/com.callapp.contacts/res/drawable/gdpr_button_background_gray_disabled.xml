@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/grey_semi_light" />
-    <stroke android:width="2.0dip" android:color="@color/callapp_gdpr_border_green" />
-    <corners android:radius="@dimen/gdpr_button_radius" />
-    <padding android:left="0.0dip" android:top="0.0dip" android:right="0.0dip" android:bottom="0.0dip" />
-</shape>

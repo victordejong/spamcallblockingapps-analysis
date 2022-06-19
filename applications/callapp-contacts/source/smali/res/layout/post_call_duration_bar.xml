@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.callapp.contacts.widget.RetractableLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/post_call_duration_bar" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/post_call_duration_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/post_call_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_call_incoming_holo_dark" />
+    <TextView android:id="@id/post_call_duration_description_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Caption.Number_text" />
+    <TextView android:id="@id/post_call_duration_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" style="@style/Caption.Number_text" />
+</com.callapp.contacts.widget.RetractableLinearLayout>

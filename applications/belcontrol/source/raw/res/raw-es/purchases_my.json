@@ -1,0 +1,33 @@
+{
+		"top" : "Mejore hoy y desbloquee un poderoso conjunto de características:",
+
+        "sections" : [
+            {
+                "img" : "shield",
+                "descr" : "Community Block List",
+                "width": "40",
+                "height": "40"
+            },
+            {
+                "img" : "list",
+                "descr" : "Registros ilimitados en la lista de bloqueo",
+                "width": "40",
+                "height": "40"
+
+            },
+            {
+                "img" : "cloud",
+                "descr" : "Copia de seguridad en línea",
+                "width": "40",
+                "height": "40"
+            },
+            {
+                "img" : "caller_id",
+                "descr" : "Identificador de llamada mejorado",
+                "width": "40",
+                "height": "40"
+            }
+        ],
+
+        "bottom" : ""
+}

@@ -1,0 +1,52 @@
+.class public final Lcom/google/android/gms/internal/ads/zzcai;
+.super Lcom/google/android/gms/internal/ads/zzcae;
+.source "SourceFile"
+
+
+# instance fields
+.field public final synthetic zza:Lcom/google/android/gms/ads/query/UpdateImpressionUrlsCallback;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/android/gms/internal/ads/zzcal;Lcom/google/android/gms/ads/query/UpdateImpressionUrlsCallback;)V
+    .locals 0
+
+    .line 1
+    iput-object p2, p0, Lcom/google/android/gms/internal/ads/zzcai;->zza:Lcom/google/android/gms/ads/query/UpdateImpressionUrlsCallback;
+
+    invoke-direct {p0}, Lcom/google/android/gms/internal/ads/zzcae;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final zze(Ljava/util/List;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/List<",
+            "Landroid/net/Uri;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzcai;->zza:Lcom/google/android/gms/ads/query/UpdateImpressionUrlsCallback;
+
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/ads/query/UpdateImpressionUrlsCallback;->onSuccess(Ljava/util/List;)V
+
+    return-void
+.end method
+
+.method public final zzf(Ljava/lang/String;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzcai;->zza:Lcom/google/android/gms/ads/query/UpdateImpressionUrlsCallback;
+
+    invoke-virtual {v0, p1}, Lcom/google/android/gms/ads/query/UpdateImpressionUrlsCallback;->onFailure(Ljava/lang/String;)V
+
+    return-void
+.end method

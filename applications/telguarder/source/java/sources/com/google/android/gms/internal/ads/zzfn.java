@@ -1,0 +1,23 @@
+package com.google.android.gms.internal.ads;
+
+import android.provider.Settings;
+import com.google.android.gms.internal.ads.zzcf;
+import java.lang.reflect.InvocationTargetException;
+/* loaded from: classes2-dex2jar.jar:com/google/android/gms/internal/ads/zzfn.class */
+public final class zzfn extends zzgn {
+    public zzfn(zzfc zzfcVar, String str, String str2, zzcf.zza.zzb zzbVar, int i, int i2) {
+        super(zzfcVar, str, str2, zzbVar, i, 49);
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzgn
+    protected final void zzcw() throws IllegalAccessException, InvocationTargetException {
+        this.zzabb.zzg(zzcq.ENUM_FAILURE);
+        try {
+            this.zzabb.zzg(((Boolean) this.zzabl.invoke(null, this.zzwc.getContext())).booleanValue() ? zzcq.ENUM_TRUE : zzcq.ENUM_FALSE);
+        } catch (InvocationTargetException e) {
+            if (!(e.getTargetException() instanceof Settings.SettingNotFoundException)) {
+                throw e;
+            }
+        }
+    }
+}

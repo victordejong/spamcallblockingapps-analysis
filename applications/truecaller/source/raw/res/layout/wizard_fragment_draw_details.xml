@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wizard_anim_callerid_background" />
+        <ImageView android:layout_gravity="bottom|center" android:id="@id/animated" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="120.0dip" android:src="@drawable/wizard_anim_callerid" android:layout_marginEnd="20.0dip" />
+    </FrameLayout>
+    <TextView android:gravity="start" android:id="@id/details" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="0.0dip" android:text="@string/Draw_details2" android:layout_weight="1.0" style="@style/Wizard.TextViewDetails" />
+    <Button android:id="@id/later" android:text="@string/Draw_Later" style="@style/Wizard.SkipButton" />
+    <Button android:text="@string/Draw_GoToSettings" style="@style/Wizard.ContinueButton" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/popup_container" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.callapp.contacts.widget.PagingTogglableViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header_scroll_container" />
+    <HorizontalScrollView android:id="@id/header_scroll_container" android:focusable="false" android:focusableInTouchMode="false" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:layout_centerHorizontal="true" android:overScrollMode="never">
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="16.0dip">
+            <LinearLayout android:orientation="horizontal" android:id="@id/popup_header_container" android:background="@color/white_callapp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.callapp.contacts.widget.CallAppAnimatedViewPagerIndicator android:id="@id/indicator_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_below="@id/popup_header_container" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="@id/popup_header_container" app:layout_constraintRight_toRightOf="@id/popup_header_container" app:layout_constraintTop_toBottomOf="@id/popup_header_container" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </HorizontalScrollView>
+    <ImageView android:id="@id/btn_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

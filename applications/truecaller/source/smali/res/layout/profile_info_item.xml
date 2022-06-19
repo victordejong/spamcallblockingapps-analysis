@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/info_padding_start" android:paddingTop="@dimen/info_padding_top" android:paddingRight="@dimen/info_padding_end" android:layout_width="fill_parent" android:layout_height="@dimen/info_item_height" android:layoutDirection="locale" android:paddingStart="@dimen/info_padding_start" android:paddingEnd="@dimen/info_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageLeft" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/info_padding_start" android:scaleType="center" android:tint="?tcx_textSecondary" android:textDirection="ltr" android:layout_marginEnd="@dimen/info_padding_start" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/info_text_size" android:textColor="?tcx_textSecondary" android:id="@id/textMain" android:textDirection="ltr" android:textAlignment="viewStart" style="@style/TextStyle.Main" />
+</LinearLayout>

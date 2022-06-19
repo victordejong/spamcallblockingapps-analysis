@@ -1,0 +1,56 @@
+.class Landroidx/i/a/a/e;
+.super Landroidx/i/a/a/d;
+.source "FrameworkSQLiteStatement.java"
+
+# interfaces
+.implements Landroidx/i/a/f;
+
+
+# instance fields
+.field private final a:Landroid/database/sqlite/SQLiteStatement;
+
+
+# direct methods
+.method constructor <init>(Landroid/database/sqlite/SQLiteStatement;)V
+    .locals 0
+
+    .prologue
+    .line 35
+    invoke-direct {p0, p1}, Landroidx/i/a/a/d;-><init>(Landroid/database/sqlite/SQLiteProgram;)V
+
+    .line 36
+    iput-object p1, p0, Landroidx/i/a/a/e;->a:Landroid/database/sqlite/SQLiteStatement;
+
+    .line 37
+    return-void
+.end method
+
+
+# virtual methods
+.method public a()I
+    .locals 1
+
+    .prologue
+    .line 46
+    iget-object v0, p0, Landroidx/i/a/a/e;->a:Landroid/database/sqlite/SQLiteStatement;
+
+    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteStatement;->executeUpdateDelete()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public b()J
+    .locals 2
+
+    .prologue
+    .line 51
+    iget-object v0, p0, Landroidx/i/a/a/e;->a:Landroid/database/sqlite/SQLiteStatement;
+
+    invoke-virtual {v0}, Landroid/database/sqlite/SQLiteStatement;->executeInsert()J
+
+    move-result-wide v0
+
+    return-wide v0
+.end method

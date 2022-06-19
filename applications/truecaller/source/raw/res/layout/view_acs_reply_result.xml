@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:padding="@dimen/space" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/acs_reply_result" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Text.Subtitle.S2" />
+    <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:id="@id/acs_reply_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_marginEnd="@dimen/space" app:layout_constrainedWidth="true" app:layout_constraintEnd_toStartOf="@id/acs_reply_btn" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/acs_reply_result" style="@style/StyleX.Text.Caption" />
+    <Button android:id="@id/acs_reply_btn" android:background="@drawable/background_popup_view_details" android:layout_width="wrap_content" android:layout_height="32.0dip" android:text="@string/acs_reply_view" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Button.Small.Primary" />
+</androidx.constraintlayout.widget.ConstraintLayout>

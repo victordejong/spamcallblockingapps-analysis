@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>আগবাঢ়ক</item>
+        <item>অব্যাহত ৰাখক</item>
+        <item>গ্ৰহণ কৰক</item>
+        <item>নিশ্চিত কৰক</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>%s ব্যবহাৰ</item>
+        <item>%s ৰ সৈতে কন্টিনিউ কৰক</item>
+        <item>%s ৰ সৈতে প্রসাইড কৰক</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>%s ত লগ ইন কৰক</item>
+        <item>%s ত চাইন আপ কৰক</item>
+        <item>%s ত ছাইন ইন কৰক</item>
+        <item>%s ৰ সৈতে নম্বৰ ভেৰিফাই কৰক</item>
+        <item>%s ৰ সৈতে ৰেজিস্ত্ৰেশ্বন কৰক</item>
+        <item>%s ৰ পৰা আৰম্ভ কৰক</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>আৰম্ভ কৰিবলৈ</item>
+        <item>অব্যাহত ৰাখিবলৈ</item>
+        <item>অর্ডাৰ দিবলৈ</item>
+        <item>আপুনাৰ ক্রয় সম্পূর্ণ কৰিবলৈ</item>
+        <item>চেক আউট কৰিবলৈ</item>
+        <item>আপুনাৰ বুকিং সম্পূর্ণ কৰিবলৈ</item>
+        <item>আপুনাৰ বুকিং ত আগবাৰহীবলৈ</item>
+        <item>আপুনাৰ বুকিং অব্যাহত ৰাখিবলৈ</item>
+        <item>তথ্য পাবলৈ</item>
+        <item>আৰু চাবলৈ</item>
+        <item>আৰু পঢ়িবলৈ</item>
+        <item>আগবাৰহীবলৈ</item>
+        <item>নতুন আপডেট ৰ বাবে</item>
+        <item>আপডেট পাবলৈ</item>
+        <item>সাবস্ক্রাইব কৰিবলৈ</item>
+        <item>সাবস্ক্রাইব &amp; আপডেট পাবলৈ</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>অনুগ্ৰহ কৰি মোবাইল নম্বৰ তু ভেৰিফাই কৰক</item>
+        <item>অনুগ্ৰহ কৰি লগ ইন কৰক</item>
+        <item>অনুগ্ৰহ কৰি চাইন আপ কৰক</item>
+        <item>অনুগ্ৰহ কৰি লগ ইন/ চাইন আপ কৰক</item>
+        <item>অনুগ্ৰহ কৰি ৰেজিস্ত্ৰেশ্বন কৰক</item>
+        <item>অনুগ্ৰহ কৰি ছাইন ইন কৰক</item>
+    </string-array>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dimen_16_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="100.0">
+        <include android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="60.0" layout="@layout/graphs_header_layout" />
+        <RelativeLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_12_dp" android:layout_weight="40.0">
+            <TextView android:textSize="28.0sp" android:textStyle="bold" android:ellipsize="end" android:id="@id/numberOfViews" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_8_dp" android:maxLines="1" android:includeFontPadding="false" android:layout_toStartOf="@id/changeLayout" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/changeLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen_4_dp" android:layout_alignBottom="@id/numberOfViews" android:layout_alignParentRight="true">
+                <ImageView android:layout_gravity="center" android:id="@id/changeImg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen_4_dp" android:src="@drawable/ic_arrow_up" />
+                <TextView android:ellipsize="end" android:id="@id/change" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLength="10" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <com.jjoe64.graphview.GraphView android:layout_gravity="center" android:id="@id/graph" android:layout_width="wrap_content" android:layout_height="260.0dip" android:layout_margin="@dimen/dimen_8_dp" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/white_callapp" android:gravity="center" android:layout_gravity="center" android:id="@id/button" android:paddingLeft="30.0dip" android:paddingTop="@dimen/dimen_10_dp" android:paddingRight="30.0dip" android:paddingBottom="@dimen/dimen_10_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_14_dp" android:textAllCaps="true" />
+</LinearLayout>

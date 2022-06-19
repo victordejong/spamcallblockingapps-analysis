@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/home_logs_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/listCallHistory" android:visibility="visible" android:layout_height="fill_parent" style="@style/listView" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llLoadingData" android:padding="@dimen/mainContentPadding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontBiggest2" android:text="@string/reading_data" style="@style/textViewStyle" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/llNoItems" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spaceBig" android:src="@drawable/bg_blanklist" android:scaleType="fitXY" android:foregroundGravity="bottom" android:alpha="0.3" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontBig" android:textColor="#ffe84158" android:gravity="center" android:id="@id/tvEmptyListInfo" android:layout_width="fill_parent" android:layout_marginBottom="@dimen/spaceBiggest" android:text="@string/opps_we_have_nothing_to_show_yet" style="@style/textViewStyleSectionTitle" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontMedium" android:textColor="#ffe84158" android:gravity="center" android:id="@id/tvEmptyBlockListInfo" android:padding="@dimen/spaceSmall" android:layout_width="fill_parent" android:layout_marginBottom="@dimen/spaceBiggest" android:text="@string/empty_block_list_info" style="@style/textViewStyleSectionTitle" />
+            <LinearLayout android:id="@id/llNoDefaultPhoneApp" android:padding="@dimen/spaceMedium" style="@style/llParentWidthCenter">
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontMedium" android:gravity="center" android:text="@string/according_to_google_policy_our_app_can_access_your_call_log_only_if_it_s_set_as_default_phone_app_until_then_we_will_show_list_of_checked_calls_here_if_you_want_to_see_your_calllog_switch_protection_to_active" style="@style/textViewStyle" />
+                <Button android:id="@id/butSetConfigureProtection" android:layout_marginTop="@dimen/spaceBig" android:text="@string/protection_settings" style="@style/button" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/llNoPermissions" android:padding="@dimen/spaceMedium" style="@style/llParentWidthCenter">
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontMedium" android:gravity="center_horizontal" android:text="@string/system_permissions_are_required_nto_displaying_call_log" style="@style/textViewStyle" />
+                <Button android:id="@id/butAllowPermissions" android:layout_marginTop="@dimen/spaceBig" android:text="@string/allow_permissions" style="@style/button" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

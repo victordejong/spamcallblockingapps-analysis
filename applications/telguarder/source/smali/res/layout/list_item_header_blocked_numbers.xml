@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:background="@color/colorPrimaryDark" android:paddingTop="@dimen/margin_small" android:paddingBottom="@dimen/margin_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/margin_large" android:paddingEnd="@dimen/margin_large" android:layout_marginStart="@dimen/margin_large" android:layout_marginEnd="@dimen/margin_large">
+        <TextView android:textSize="@dimen/text_medium" android:textColor="@color/textColorDark" android:id="@id/tv_blocked_number_header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="end|center" android:layout_gravity="end|center" android:orientation="horizontal" android:id="@id/header_switch_layout" android:background="@color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:foregroundGravity="center|right">
+            <TextView android:textSize="11.0sp" android:textColor="@color/textColorDark" android:gravity="end|center" android:layout_gravity="end|center" android:id="@id/header_switch_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:lines="1" />
+            <androidx.appcompat.widget.SwitchCompat android:textAppearance="@style/Theme.telGuarder.TextAppearance.Switch" android:textColor="@color/colorPrimary" android:id="@id/header_switcher" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:alpha="0.65" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

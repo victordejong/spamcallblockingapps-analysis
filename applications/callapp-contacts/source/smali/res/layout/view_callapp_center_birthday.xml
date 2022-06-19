@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/contactName" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Body2.Name_text.ContactListTextName" />
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/secondRowContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_4_dp" android:layout_below="@id/contactName">
+        <ImageView android:gravity="center_vertical" android:id="@id/birthdayCakeIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_birthday_white" />
+        <TextView android:gravity="center_vertical" android:id="@id/dateText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_8_dp" android:layout_marginStart="@dimen/dimen_8_dp" style="@style/Caption.Number_text" />
+    </LinearLayout>
+</RelativeLayout>

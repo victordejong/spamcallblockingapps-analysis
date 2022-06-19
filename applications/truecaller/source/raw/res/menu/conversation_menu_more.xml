@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_tcx_action_call_outline_24dp" android:id="@id/action_call" android:visible="false" android:title="@string/call_reason" app:iconTint="?tcx_textSecondary" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_tcx_more_vert_24dp" android:id="@id/menu" android:title="@string/ConversationMore" app:actionLayout="@layout/layout_menu_item" app:showAsAction="always" />
+</menu>

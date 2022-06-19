@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.ui.view.TintedImageView android:layout_width="60.0dip" android:layout_height="72.0dip" app:imgTint="?tcx_textTertiary" app:srcCompat="@drawable/ic_tcx_spam_outline_24dp" />
+    <TextView android:textColor="?tcx_textTertiary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_extraspace" android:layout_marginBottom="@dimen/control_extraspace" android:text="@string/BlockListEmpty" style="@style/StyleX.Text.Body.B2" />
+</LinearLayout>

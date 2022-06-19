@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?bg_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/restore_backup" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff333333" android:layout_gravity="center_horizontal" android:id="@id/tv_last_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="12.0dip" android:text="@string/last_backup" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff666666" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="24.0dip" android:text="@string/you_can_restore" android:lineSpacingExtra="4.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        <FrameLayout android:id="@id/fl_restore" android:background="?bg_start" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:foreground="@drawable/card_foreground" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/tv_restore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/backup_restore" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/fl_skip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="8.0dip" android:foreground="@drawable/card_foreground" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="#ff999999" android:layout_gravity="center" android:id="@id/tv_skip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/restore_skip" />
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="end" android:id="@id/iv_close" android:background="@drawable/card_foreground" android:padding="12.0dip" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_tag_close" android:contentDescription="@string/close" />
+</FrameLayout>

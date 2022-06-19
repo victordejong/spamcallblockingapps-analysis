@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clip android:gravity="center" android:drawable="@drawable/wizard_ic_edittext_clear" android:clipOrientation="horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

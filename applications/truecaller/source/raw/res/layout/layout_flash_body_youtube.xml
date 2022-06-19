@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:id="@id/flashYoutubeContainer" android:paddingLeft="@dimen/flash_image_padding" android:paddingRight="@dimen/flash_image_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/flash_image_padding" android:paddingEnd="@dimen/flash_image_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText android:textSize="@dimen/location_text_fixed" android:textColor="?theme_primary_text" android:textColorHint="?theme_text_hint" android:gravity="center" android:id="@id/videoText" android:background="@color/transparent" android:paddingTop="@dimen/flash_common_padding_half" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/flash_image_content_height" android:maxLength="80" android:inputType="text" />
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="@dimen/flash_image_content_height" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="@dimen/flash_map_radious" app:cardPreventCornerOverlap="true">
+        <FrameLayout android:id="@id/youtubeFragment" android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

@@ -1,0 +1,27 @@
+.class public interface abstract Lscala/collection/IterableView;
+.super Ljava/lang/Object;
+.source "IterableView.scala"
+
+# interfaces
+.implements Lscala/collection/IterableViewLike;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<A:",
+        "Ljava/lang/Object;",
+        "Coll:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lscala/collection/IterableViewLike<",
+        "TA;TColl;",
+        "Lscala/collection/IterableView<",
+        "TA;TColl;>;>;"
+    }
+.end annotation
+
+.annotation runtime Lscala/reflect/ScalaSignature;
+    bytes = "\u0006\u0001I3q!\u0001\u0002\u0011\u0002G\u0005qA\u0001\u0007Ji\u0016\u0014\u0018M\u00197f-&,wO\u0003\u0002\u0004\t\u0005Q1m\u001c7mK\u000e$\u0018n\u001c8\u000b\u0003\u0015\tQa]2bY\u0006\u001c\u0001!F\u0002\t\'u\u00192\u0001A\u0005\u000e!\tQ1\"D\u0001\u0005\u0013\taAA\u0001\u0004B]f\u0014VM\u001a\t\u0006\u001d=\tBdH\u0007\u0002\u0005%\u0011\u0001C\u0001\u0002\u0011\u0013R,\'/\u00192mKZKWm\u001e\'jW\u0016\u0004\"AE\n\r\u0001\u00111A\u0003\u0001CC\u0002U\u0011\u0011!Q\t\u0003-e\u0001\"AC\u000c\n\u0005a!!a\u0002(pi\"Lgn\u001a\t\u0003\u0015iI!a\u0007\u0003\u0003\u0007\u0005s\u0017\u0010\u0005\u0002\u0013;\u00111a\u0004\u0001CC\u0002U\u0011AaQ8mYB!a\u0002A\t\u001d\u000f\u0015\t#\u0001#\u0001#\u00031IE/\u001a:bE2,g+[3x!\tq1EB\u0003\u0002\u0005!\u0005Ae\u0005\u0002$\u0013!)ae\tC\u0001O\u00051A(\u001b8jiz\"\u0012AI\u0003\u0005=\r\u0002\u0011\u0006M\u0002+c9\u0002BAD\u0016.a%\u0011AF\u0001\u0002\u0010)J\u000cg/\u001a:tC\ndWMV5foB\u0011!C\u000c\u0003\n_!\n\t\u0011!A\u0003\u0002U\u00111a\u0018\u00132!\t\u0011\u0012\u0007B\u00053Q\u0005\u0005\t\u0011!B\u0001g\t\t1)\u0005\u0002\u0017iA\u0012Q\'\u000f\t\u0004\u001dYB\u0014BA\u001c\u0003\u0005-!&/\u0019<feN\u000c\'\r\\3\u0011\u0005IID!\u0003\u001e<\u0003\u0003\u0005\tQ!\u0001\u0016\u0005\ryFE\r\u0003\ne!\n\t\u0011!A\u0003\u0002MBQ!P\u0012\u0005\u0004y\nAbY1o\u0005VLG\u000e\u001a$s_6,\"aP%\u0016\u0003\u0001\u0003R!\u0011#G\u0011*k\u0011A\u0011\u0006\u0003\u0007\n\tqaZ3oKJL7-\u0003\u0002F\u0005\na1)\u00198Ck&dGM\u0012:p[B\u0011q\tK\u0007\u0002GA\u0011!#\u0013\u0003\u0006)q\u0012\r!\u0006\t\u0005\u001d\u0001A5\n\r\u0002M!B\u0019a\"T(\n\u00059\u0013!\u0001C%uKJ\u000c\'\r\\3\u0011\u0005I\u0001F!C)=\u0003\u0003\u0005\tQ!\u0001\u0016\u0005\ryFe\r"
+.end annotation

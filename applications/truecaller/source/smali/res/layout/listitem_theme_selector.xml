@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.truecaller.ui.view.ThemeSelectorView android:gravity="center" android:id="@id/selector_view" android:layout_width="fill_parent" android:layout_height="@dimen/control_enneaspace" />
+    <TextView android:layout_gravity="center" android:id="@id/text_view" android:paddingLeft="@dimen/space" android:paddingTop="@dimen/control_minispace" android:paddingRight="@dimen/space" android:paddingBottom="@dimen/control_minispace" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

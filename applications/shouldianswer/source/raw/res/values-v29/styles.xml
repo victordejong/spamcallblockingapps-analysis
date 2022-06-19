@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SIATheme" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:colorForeground">?colorTextPrimary</item>
+        <item name="android:colorBackground">?colorBackgroundSecondary</item>
+        <item name="android:textAppearance">@style/textAppearanceMontserrat</item>
+        <item name="android:textColorPrimary">?colorTextPrimary</item>
+        <item name="android:windowBackground">?colorBackgroundSecondary</item>
+        <item name="android:dropDownListViewStyle">@style/autoCompleteStyle</item>
+        <item name="android:textViewStyle">@style/textViewStyle</item>
+        <item name="android:itemBackground">@color/colorBackgroundPrimaryLight</item>
+        <item name="android:popupBackground">@color/colorBackgroundPrimaryLight</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="actionBarBackgroundColor">@color/colorPrimaryLight</item>
+        <item name="buttonAccentTextColor">@color/buttonAccentTextColorLight</item>
+        <item name="colorAccent">@color/colorAccentLight</item>
+        <item name="colorBackgroundLogsMenu">@color/colorBackgroundLogsMenuLight</item>
+        <item name="colorBackgroundPrimary">@color/colorBackgroundPrimaryLight</item>
+        <item name="colorBackgroundSecondary">@color/colorBackgroundSecondaryLight</item>
+        <item name="colorBackgroundStickyHeader">@color/colorBackgroundStickyHeaderLight</item>
+        <item name="colorCardBackground">@color/colorCardBackgroundLight</item>
+        <item name="colorPrimary">?actionBarBackgroundColor</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkLight</item>
+        <item name="colorTextLinkInverted">@color/colorTextLinkInvertedLight</item>
+        <item name="colorTextPrimary">@color/colorTextPrimaryLight</item>
+        <item name="colorTextPrimaryInverted">@color/colorTextPrimaryDark</item>
+        <item name="colorTextSecondary">@color/colorTextSecondaryLight</item>
+        <item name="colorTextSecondaryInverted">@color/colorTextSecondaryDark</item>
+        <item name="dividerBasic">@style/divider</item>
+        <item name="dividerColor">@color/dividerColorLight</item>
+        <item name="footerBackgroundColor">?actionBarBackgroundColor</item>
+        <item name="ic_bug_report_24dp">@drawable/ic_bug_report_black_24dp</item>
+        <item name="ic_close_24dp">@drawable/ic_close_black_24dp</item>
+        <item name="ic_edit_24dp">@drawable/ic_edit_black_24dp</item>
+        <item name="ic_help_outline_24dp">@drawable/ic_help_outline_black_24dp</item>
+        <item name="ic_info_outline_24dp">@drawable/ic_info_outline_black_24dp</item>
+        <item name="ic_keyboard_arrow_down_24dp">@drawable/ic_keyboard_arrow_down_black_24dp</item>
+        <item name="ic_keyboard_arrow_right_48dp">@drawable/ic_keyboard_arrow_right_black_48dp</item>
+        <item name="ic_keyboard_arrow_up_24dp">@drawable/ic_keyboard_arrow_up_black_24dp</item>
+        <item name="ic_rate_review_24dp">@drawable/ic_rate_review_black_24dp</item>
+        <item name="ic_settings_24dp">@drawable/ic_settings_black_24dp</item>
+        <item name="ic_share_24dp">@drawable/ic_share_black_24dp</item>
+        <item name="listItemBackgroundColor">@color/colorBackgroundSecondaryLight</item>
+        <item name="listItemBackgroundHoverColor">@color/listItemBackgroundHoverColorLight</item>
+        <item name="logs_menu_selector_middle">@drawable/logs_menu_selector_middle_light</item>
+        <item name="ratingNegativeColor">@color/ratingNegativeColorLight</item>
+        <item name="ratingNeutralColor">@color/ratingNeutralColorLight</item>
+        <item name="ratingPositiveColor">@color/ratingPositiveColorLight</item>
+        <item name="ratingUnknownColor">@color/ratingUnknownColorLight</item>
+        <item name="ratingUnselectedColor">@color/ratingUnselectedColorLight</item>
+    </style>
+</resources>

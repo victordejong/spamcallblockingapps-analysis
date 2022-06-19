@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="14.0sp" android:textColor="?tcx_brandBackgroundBlue" android:ellipsize="end" android:gravity="start|center" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/control_hexaspace" android:text="@string/global_search_view_more" android:maxLines="1" android:textAllCaps="true" android:layout_marginStart="@dimen/control_enneaspace" style="@style/StyleX.Text.Subtitle.S2"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

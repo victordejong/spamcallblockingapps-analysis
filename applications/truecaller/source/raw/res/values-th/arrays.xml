@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>OTP</item>
+        <item>ธุรกรรม</item>
+        <item>อื่นๆ</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>ม.ก.</item>
+        <item>ก.พ.</item>
+        <item>มี.ค.</item>
+        <item>เม.ย.</item>
+        <item>พ.ค.</item>
+        <item>มิ.ย.</item>
+        <item>ก.ค.</item>
+        <item>ส.ค.</item>
+        <item>ก.ย.</item>
+        <item>ต.ค.</item>
+        <item>พ.ย.</item>
+        <item>ธ.ค.</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>เข้าสู่ระบบไปที่ %s</item>
+        <item>ลงทะเบียนด้วย %s</item>
+        <item>ลงชื่อเข้าใช้งานไปที่ %s</item>
+        <item>ยืนยันหมายเลขด้วย %s</item>
+        <item>ลงทะเบียนด้วย %s</item>
+        <item>เริ่มต้นด้วย %s</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>โทร</item>
+        <item>ดูโปรไฟล์</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>สำคัญ</item>
+        <item>ขออภัย</item>
+        <item>คุณอยู่ที่ไหน?</item>
+        <item>ฉันมีคำถาม</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>หนึ่ง</item>
+        <item>สอง</item>
+        <item>สาม</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>สวัสดี 👋 มีเรื่องด่วน 🚨</item>
+        <item>สวัสดี 👋 คำสั่งซื้อของคุณพร้อมแล้ว!</item>
+        <item>คุณว่างไหม ฉันอยู่ข้างล่าง!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>เงียบ</item>
+        <item>สั่นเท่านั้น</item>
+        <item>เสียงเท่านั้น</item>
+        <item>เสียงและสั้น</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>ใช้ Flash เมื่อคุณต้องการการตอบกลับภายในไม่กี่นาที</item>
+        <item>ใช้ Flash สำหรับเรื่องสำคัญที่คุณต้องการพูดอย่างรวดเร็ว</item>
+        <item>คุณรู้หรือไม่: คุณสามารถแชร์ตำแหน่งของคุณได้อย่างรวดเร็วเพียงแค่แตะ</item>
+        <item>เคล็ดลับ: ส่งอีโมจิหรือพิมพ์ข้อความเพื่อสื่อความเป็นตัวตนออกมา</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>ซิม 1</item>
+        <item>ซิม 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>ซิม 1</item>
+        <item>ซิม 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>เรียงตามชื่อจริง</item>
+        <item>เรียงตามนามสกุล</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>บันทึกแล้ว</item>
+        <item>ระบุแล้ว</item>
+    </string-array>
+</resources>

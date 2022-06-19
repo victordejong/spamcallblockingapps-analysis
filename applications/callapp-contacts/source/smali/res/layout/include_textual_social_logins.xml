@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/facebookConnectContainer" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:gravity="center_vertical" android:id="@id/facebookConnectText" android:background="@drawable/ripple_or_holo" android:paddingRight="24.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/facebookConnect" android:layout_centerVertical="true" android:onClick="onTextNextToSwitchClicked" style="@style/profileSocialNetworkText" />
+        <Switch android:id="@id/facebookConnect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <View android:id="@id/facebookDivider" android:layout_alignParentBottom="true" style="@style/TextualSocialDivider" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/gmailConnectContainer" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:gravity="center_vertical" android:id="@id/gmailConnectText" android:background="@drawable/ripple_or_holo" android:paddingRight="24.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/gmailConnect" android:layout_centerVertical="true" android:onClick="onTextNextToSwitchClicked" style="@style/profileSocialNetworkText" />
+        <Switch android:id="@id/gmailConnect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <View android:id="@id/gmailConnectDivider" style="@style/TextualSocialDivider" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/twitterConnectContainer" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:gravity="center_vertical" android:id="@id/twitterConnectText" android:background="@drawable/ripple_or_holo" android:paddingRight="24.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/twitterConnect" android:layout_centerVertical="true" android:onClick="onTextNextToSwitchClicked" style="@style/profileSocialNetworkText" />
+        <Switch android:id="@id/twitterConnect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <View android:id="@id/twitterConnectDivider" android:layout_alignParentBottom="true" style="@style/TextualSocialDivider" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/vkConnectContainer" android:background="?Background" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:gravity="center_vertical" android:id="@id/vkConnectText" android:background="@drawable/ripple_or_holo" android:paddingRight="24.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/vk" android:layout_toLeftOf="@id/vkConnect" android:layout_centerVertical="true" android:onClick="onTextNextToSwitchClicked" style="@style/profileSocialNetworkText" />
+        <Switch android:id="@id/vkConnect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <View android:id="@id/vkConnectDivider" style="@style/TextualSocialDivider" />
+    </RelativeLayout>
+</LinearLayout>

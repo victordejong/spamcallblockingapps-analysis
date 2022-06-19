@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/call_history_view" android:background="@drawable/ripple_tcx_chip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/message_spacing" android:layout_marginBottom="@dimen/message_spacing" android:minHeight="24.0dip" android:paddingStart="@dimen/space" android:paddingEnd="@dimen/space"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_call_history_16dp" app:tint="?tcx_textSecondary" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="?tcx_textSecondary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ConversationCallHistory" android:lines="1" android:layout_marginStart="@dimen/space" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="?tcx_brandBackgroundBlue" android:id="@id/call_history_show_hide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:drawablePadding="@dimen/space" android:drawableStart="@drawable/history_item_dot" android:layout_marginStart="@dimen/space" android:layout_marginEnd="@dimen/space" app:drawableTint="?tcx_textSecondary" />
+</LinearLayout>

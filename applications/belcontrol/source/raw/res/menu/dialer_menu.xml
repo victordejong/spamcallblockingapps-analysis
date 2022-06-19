@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/to_blacklist" android:orderInCategory="100" android:title="@string/menu_item_to_blocklist" />
+    <item android:id="@id/to_allowedlist" android:orderInCategory="100" android:title="@string/menu_item_to_allowlist" />
+    <item android:id="@id/lookup" android:orderInCategory="100" android:title="@string/menu_item_lookup" />
+    <item android:id="@id/contact" android:orderInCategory="100" android:title="@string/menu_item_add_contact" />
+    <item android:id="@id/settings" android:orderInCategory="100" android:title="@string/menu_item_settings" />
+    <item android:id="@id/help" android:orderInCategory="100" android:title="@string/menu_item_help" />
+</menu>

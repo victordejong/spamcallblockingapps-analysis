@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/historyIcon" android:paddingTop="24.0dip" android:paddingBottom="24.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_tcx_call_history" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="?tcx_textSecondary" />
+    <TextView android:textColor="?tcx_textPrimary" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/details_view_title_call_history" android:lines="1" app:layout_constraintBottom_toTopOf="@id/lastCallDuration" app:layout_constraintStart_toEndOf="@id/historyIcon" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" style="@style/StyleX.Text.Subtitle.S1.Medium" />
+    <TextView android:textColor="?tcx_textSecondary" android:id="@id/lastCallDuration" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="@id/title" app:layout_constraintTop_toBottomOf="@id/title" style="@style/StyleX.Text.Caption" />
+</merge>

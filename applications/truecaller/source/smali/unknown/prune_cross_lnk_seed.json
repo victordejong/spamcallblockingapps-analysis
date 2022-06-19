@@ -1,0 +1,31 @@
+{
+  "normalisations": {
+    "GRM_BANK": {
+      "attributes": {
+        "x_amt": "trx_amt"
+      }
+    },
+    "GRM_BILL": {
+      "attributes": {
+        "x_amt": "due_amt"
+      }
+    },
+    "GRM_OTP": {
+      "attributes": {
+        "x_amt": "trx_amt"
+      }
+    }
+  },
+  "rules": {
+    "GRM_BILL_BANK_OTP": {
+      "rule": {
+        "attributes": [
+          [
+            "x_amt"
+          ]
+        ],
+        "delta": "5 mins"
+      }
+    }
+  }
+}

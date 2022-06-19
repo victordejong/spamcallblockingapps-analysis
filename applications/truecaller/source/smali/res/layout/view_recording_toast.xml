@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@drawable/record_voice_note_toast_bg" android:paddingTop="@dimen/semiSpace" android:paddingBottom="@dimen/semiSpace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.7" android:paddingStart="@dimen/extraSpace" android:paddingEnd="@dimen/extraSpace"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/recordDot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/circle_red_small" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/semiSpace" />
+    <TextView android:textColor="@color/white" android:id="@id/tvRecordTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/recordDot" />
+    <Chronometer android:textColor="@color/white" android:gravity="center" android:id="@id/chronometerCounter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/space" android:layout_toEndOf="@id/tvRecordTip" />
+</merge>

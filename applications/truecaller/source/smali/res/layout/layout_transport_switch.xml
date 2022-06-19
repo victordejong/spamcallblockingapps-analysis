@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.messaging.views.TransportSwitchView android:id="@id/chatSwitch" android:layout_marginStart="@dimen/space" app:layout_constraintStart_toStartOf="parent" app:srcCompat="@drawable/selector_transport_chat" app:text="@string/TransportSwitchChat" app:textColorSelected="?tcx_transportSwitchImSelectedTextColor" style="@style/TransportSwitchesTheme" />
+    <com.truecaller.messaging.views.TransportSwitchView android:id="@id/smsSwitch" app:layout_constraintStart_toEndOf="@id/chatSwitch" app:srcCompat="@drawable/selector_transport_sms" app:text="@string/TransportSwitchSms" app:textColorSelected="?tcx_transportSwitchSmsSelectedTextColor" style="@style/TransportSwitchesTheme" />
+    <com.truecaller.messaging.views.TransportSwitchView android:id="@id/urgentMessageSwitch" android:visibility="gone" android:layout_marginEnd="@dimen/space" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/smsSwitch" app:srcCompat="@drawable/selector_transport_urgent_message" style="@style/TransportSwitchesTheme" />
+    <View android:id="@id/urgentMessageBadge" android:background="@drawable/um_circle_red" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginTop="@dimen/semiSpace" android:layout_marginStart="@dimen/tripleSpace" app:layout_constraintStart_toStartOf="@id/urgentMessageSwitch" app:layout_constraintTop_toTopOf="@id/urgentMessageSwitch" />
+</merge>

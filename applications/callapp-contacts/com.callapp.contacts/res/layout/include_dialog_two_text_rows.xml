@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dimen_16_dp" android:paddingRight="@dimen/dimen_16_dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/first_row" layout="@layout/include_icon_with_text_title" />
-    <androidx.legacy.widget.Space android:layout_width="fill_parent" android:layout_height="@dimen/dimen_8_dp" />
-</LinearLayout>

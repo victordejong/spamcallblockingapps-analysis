@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/wizard_white" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/headerBackgroundImageView" android:layout_width="96.0dip" android:layout_height="96.0dip" android:layout_marginTop="@dimen/quadrupleSpace" android:src="@drawable/wizard_anim_circular_background" android:layout_centerHorizontal="true" />
+        <ImageView android:layout_gravity="center" android:id="@id/photo" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/wizard_ic_profile" android:layout_alignTop="@id/headerBackgroundImageView" android:layout_alignBottom="@id/headerBackgroundImageView" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/headerBackgroundImageView">
+            <TextView android:textSize="24.0sp" android:id="@id/headerTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space" android:text="@string/Profile_CreateProfile" android:layout_centerHorizontal="true" />
+            <LinearLayout android:orientation="vertical" android:id="@id/socialContent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space" android:layout_below="@id/headerTextView">
+                <include android:id="@id/wizard_social2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" android:layout_marginBottom="2.0dip" android:layout_marginStart="@dimen/doubleSpace" android:layout_marginEnd="@dimen/doubleSpace" layout="@layout/wizard_include_new_social_button" />
+                <include android:id="@id/wizard_social1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" android:layout_marginBottom="2.0dip" android:layout_marginStart="@dimen/doubleSpace" android:layout_marginEnd="@dimen/doubleSpace" layout="@layout/wizard_include_new_social_button" />
+            </LinearLayout>
+            <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" android:layout_marginBottom="2.0dip" android:layout_below="@id/socialContent" android:layout_marginStart="@dimen/doubleSpace" android:layout_marginEnd="@dimen/doubleSpace">
+                <Button android:textColor="#ff657c8a" android:id="@id/manualInputButton" android:background="@drawable/wizard_bg_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/Profile_ManualInput" android:drawableStart="@drawable/wizard_ic_manual_input" android:paddingStart="13.0dip" android:paddingEnd="26.0dip" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@id/businessProfileContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/doubleSpace" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/doubleSpace" android:layout_marginEnd="@dimen/doubleSpace">
+                <FrameLayout android:id="@id/businessProfileButton" android:background="@drawable/wizard_bg_white" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@null" android:layout_marginStart="@dimen/doubleSpace" app:srcCompat="@drawable/wizard_ic_business_profile" />
+                    <TextView android:textSize="15.0sp" android:textColor="#ff657c8a" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space" android:text="@string/Profile_CreateBusinessProfileSubtitle" />
+                    <TextView android:layout_gravity="center_horizontal" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" android:text="@string/Profile_CreateBusinessProfile" style="@style/Base.Widget.AppCompat.Button.Borderless.Colored" />
+                </FrameLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+        <FrameLayout android:id="@id/profileInputPlaceholder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="2.0dip" />
+        <ScrollView android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_horizontal" android:background="@drawable/wizard_btn_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" android:contentDescription="@string/Profile_AddPhoto" />
+                </FrameLayout>
+                <FrameLayout android:paddingLeft="@dimen/doubleSpace" android:paddingRight="@dimen/doubleSpace" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace">
+                    <ImageView android:layout_gravity="start|bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/doubleSpace" android:src="@drawable/wizard_ic_man" />
+                    <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/Profile_FirstName" android:layout_marginStart="@dimen/quadrupleSpace" app:hintTextAppearance="@style/Wizard.TextAppearance.FloatingHint">
+                        <com.truecaller.wizard.internal.components.EditText android:id="@id/firstName" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapWords" android:imeOptions="actionNext" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </FrameLayout>
+                <FrameLayout android:paddingLeft="@dimen/doubleSpace" android:paddingRight="@dimen/doubleSpace" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/semiSpace">
+                    <ImageView android:layout_gravity="start|bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/doubleSpace" android:src="@drawable/wizard_ic_man" />
+                    <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/Profile_LastName" android:layout_marginStart="@dimen/quadrupleSpace" app:hintTextAppearance="@style/Wizard.TextAppearance.FloatingHint">
+                        <com.truecaller.wizard.internal.components.EditText android:id="@id/lastName" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textCapWords" android:imeOptions="actionNext" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </FrameLayout>
+                <FrameLayout android:paddingLeft="@dimen/doubleSpace" android:paddingRight="@dimen/doubleSpace" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/semiSpace">
+                    <ImageView android:layout_gravity="start|bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/doubleSpace" android:src="@drawable/wizard_ic_mail" />
+                    <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/Profile_Email" android:layout_marginStart="@dimen/quadrupleSpace" app:hintTextAppearance="@style/Wizard.TextAppearance.FloatingHint">
+                        <com.truecaller.wizard.internal.components.EditText android:id="@id/email" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress" android:imeOptions="actionDone" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </ScrollView>
+        <Button android:visibility="gone" style="@style/Wizard.ContinueButton" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="bottom|center" android:id="@id/animated" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wizard_anim_circular_background" />
+        </FrameLayout>
+        <View style="@style/Wizard.VerticalSpacer" />
+    </LinearLayout>
+</FrameLayout>

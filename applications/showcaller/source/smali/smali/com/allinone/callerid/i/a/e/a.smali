@@ -1,0 +1,111 @@
+.class public Lcom/allinone/callerid/i/a/e/a;
+.super Ljava/lang/Object;
+.source "AdManager.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/allinone/callerid/i/a/e/a$b;,
+        Lcom/allinone/callerid/i/a/e/a$c;,
+        Lcom/allinone/callerid/i/a/e/a$a;
+    }
+.end annotation
+
+
+# direct methods
+.method public static a(Lcom/allinone/callerid/i/a/e/b;)V
+    .locals 2
+
+    .line 1
+    :try_start_0
+    new-instance v0, Lcom/allinone/callerid/i/a/e/a$a;
+
+    invoke-direct {v0, p0}, Lcom/allinone/callerid/i/a/e/a$a;-><init>(Lcom/allinone/callerid/i/a/e/b;)V
+
+    .line 2
+    sget-object p0, Landroid/os/AsyncTask;->THREAD_POOL_EXECUTOR:Ljava/util/concurrent/Executor;
+
+    const/4 v1, 0x0
+
+    new-array v1, v1, [Ljava/lang/String;
+
+    invoke-virtual {v0, p0, v1}, Landroid/os/AsyncTask;->executeOnExecutor(Ljava/util/concurrent/Executor;[Ljava/lang/Object;)Landroid/os/AsyncTask;
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception p0
+
+    .line 3
+    invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
+
+    :goto_0
+    return-void
+.end method
+
+.method public static b(Lcom/allinone/callerid/i/a/e/c;)V
+    .locals 2
+
+    .line 1
+    :try_start_0
+    new-instance v0, Lcom/allinone/callerid/i/a/e/a$b;
+
+    invoke-direct {v0, p0}, Lcom/allinone/callerid/i/a/e/a$b;-><init>(Lcom/allinone/callerid/i/a/e/c;)V
+
+    .line 2
+    sget-object p0, Landroid/os/AsyncTask;->THREAD_POOL_EXECUTOR:Ljava/util/concurrent/Executor;
+
+    const/4 v1, 0x0
+
+    new-array v1, v1, [Ljava/lang/String;
+
+    invoke-virtual {v0, p0, v1}, Landroid/os/AsyncTask;->executeOnExecutor(Ljava/util/concurrent/Executor;[Ljava/lang/Object;)Landroid/os/AsyncTask;
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception p0
+
+    .line 3
+    invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
+
+    :goto_0
+    return-void
+.end method
+
+.method public static c()V
+    .locals 3
+
+    .line 1
+    :try_start_0
+    new-instance v0, Lcom/allinone/callerid/i/a/e/a$c;
+
+    invoke-direct {v0}, Lcom/allinone/callerid/i/a/e/a$c;-><init>()V
+
+    .line 2
+    sget-object v1, Landroid/os/AsyncTask;->THREAD_POOL_EXECUTOR:Ljava/util/concurrent/Executor;
+
+    const/4 v2, 0x0
+
+    new-array v2, v2, [Ljava/lang/String;
+
+    invoke-virtual {v0, v1, v2}, Landroid/os/AsyncTask;->executeOnExecutor(Ljava/util/concurrent/Executor;[Ljava/lang/Object;)Landroid/os/AsyncTask;
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception v0
+
+    .line 3
+    invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
+
+    :goto_0
+    return-void
+.end method

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip">
+        <TextView android:textSize="24.0sp" android:id="@id/dynamicFeaturePanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/dynamic_feature_panel" />
+        <TextView android:textSize="18.0sp" android:id="@id/availableModuleListTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/available_modules" />
+        <TextView android:gravity="center" android:id="@id/availableModuleHint" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_available_module_hint" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/availableModuleRcv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <TextView android:textSize="18.0sp" android:id="@id/installedModuleListTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="8.0dip" android:text="@string/installed_module_list" />
+        <TextView android:gravity="center" android:id="@id/installedModuleHint" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_installed_module_hint" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/installedModuleRcv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

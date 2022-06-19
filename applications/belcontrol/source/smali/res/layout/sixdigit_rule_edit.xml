@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:theme="@style/EditTextTheme" android:gravity="center" android:id="@id/phone_field" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_marginBottom="5.0dip" android:hint="@string/six_digit_block_settingOverlay_edittext_hint" android:singleLine="true">
+        <requestFocus />
+    </EditText>
+    <TextView android:id="@id/editText_descr" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:longClickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/six_digit_block_settingOverlay_edittext_description" style="@style/ListItemTextSecondLineNoEllipsize" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/darkgrey_fontcolor" android:ellipsize="none" android:gravity="center" android:id="@id/dialog_warning" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dlg_reset_rule_mask" />
+    <TextView android:textColor="@color/dark_red" android:ellipsize="none" android:gravity="center" android:id="@id/dialog_error_msg" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextTitleNoEllipsize" />
+</LinearLayout>

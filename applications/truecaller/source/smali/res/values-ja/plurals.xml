@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">%dの番号をブロックしてスパムとして報告しますか？</item>
+    </plurals>
+    <plurals name="ConversationCallsHistoryCount">
+        <item quantity="other">%d件の着発信</item>
+    </plurals>
+    <plurals name="ConversationFlashHistoryCount">
+        <item quantity="other">%d件のFlashメッセージ</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">メッセージが「重要」タブに追加されました</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d件の会話を既読にしました</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">%d個のエンティティが削除されました</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">%d個のエンティティを削除しますか？</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">ピン付けした会話</item>
+    </plurals>
+    <plurals name="ConversationReportNotSpamConfirmation">
+        <item quantity="other">%d件のメッセージが非スパムとして報告されました</item>
+    </plurals>
+    <plurals name="ConversationReportSpamConfirmation">
+        <item quantity="other">%d件のメッセージがスパムとして報告されました</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">全てのコンテンツを保存</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">ピン付けを解除した会話</item>
+    </plurals>
+    <plurals name="DeleteConversationsConfirmation">
+        <item quantity="other">%d件の会話が削除されました</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">%d件の会話を削除しますか？</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">%d件の番号が検知されました</item>
+    </plurals>
+    <plurals name="HistoryActionConfirmDeleteMessage">
+        <item quantity="other">%d件削除しますか?</item>
+    </plurals>
+    <plurals name="HistoryActionDeleted">
+        <item quantity="other">%d件削除されました</item>
+    </plurals>
+    <plurals name="HistoryActionSelected">
+        <item quantity="other">%d件が選択されています</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">%d件の番号をブロック解除して本当によろしいですか？</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteCallRecordings">
+        <item quantity="other">%s件の通話録音を削除して本当によろしいですか？</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">%sの言語ファイルを削除して本当によろしいですか？</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">%d件のSMSがブロックされました</item>
+    </plurals>
+    <plurals name="MessageNotificationNewMessages">
+        <item quantity="other">さらに+%1$d件の新規メッセージ</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$sさんからの不在着信が%2$d時間前にありました。タップしてTruecallerで表示します</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d件の連絡先</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d個の添付</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">その他%d件の連絡先</item>
+    </plurals>
+    <plurals name="NewImGroupMemberCount">
+        <item quantity="other">メンバー%d人</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">%d個の番号がブロックリストに追加されました</item>
+    </plurals>
+    <plurals name="OSNotificationTextNew">
+        <item quantity="other">%d件の新しい通知があります</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%dブロックされた着信</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d無音にされた着信</item>
+    </plurals>
+    <plurals name="PremiumAbbreviatedOfferPriceOverMonth">
+        <item quantity="other">%1$s/月</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">%1$d日間無料トライアルはサブスクリプションの新規購入者限定です</item>
+    </plurals>
+    <plurals name="PremiumFeatureContactRequestLeft">
+        <item quantity="other">残りのリクエスト回数はあと%1$d回です</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">新規のプロフィール閲覧%1$d件</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">%1$d人が最近、あなたのプロフィールを閲覧しました</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d人が (%3$dで%2$s) 最近あなたのプロフィールを閲覧しました</item>
+    </plurals>
+    <plurals name="SettingPendingGroupInvitationsMessage">
+        <item quantity="other">%d件の保留中のグループ招待があります。すべて承認しますか？</item>
+    </plurals>
+    <plurals name="SpamSmsFound">
+        <item quantity="other">%d件のスパムメッセージが見つかりました</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByMultiple">
+        <item quantity="other">%1$sさんとその他%2$d人が%3$sさんによってグループに招待されました</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByYouMultiple">
+        <item quantity="other">%1$sさんとその他%2$d人をグループに招待しました</item>
+    </plurals>
+    <plurals name="StrPhoneNumberAndMore">
+        <item quantity="other">%1$s &lt;b>+%2$d など&lt;/b></item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">日</item>
+    </plurals>
+    <plurals name="StrPluralHour">
+        <item quantity="other">時間</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">ヶ月</item>
+    </plurals>
+    <plurals name="StrPluralWeek">
+        <item quantity="other">週</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">年</item>
+    </plurals>
+    <plurals name="UndoMarkAsStarredNotification">
+        <item quantity="other">メッセージからスターを外しました</item>
+    </plurals>
+    <plurals name="UnreadConversations">
+        <item quantity="other">%d件の未読の会話</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">確認の試行回数が上限を超えました。%d時間後に再度お試しください。</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d人があなたのプロフィールを閲覧しました</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d人(%2$sには１人) があなたのプロフィールを閲覧しました</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d人があなたのプロフィールを閲覧しました。詳細を確認しましょう。</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d人(%2$sから%3$d人)があなたのプロフィールを閲覧しました。詳細を確認しましょう。</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaption">
+        <item quantity="other">%1$d件の新規閲覧</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaptionWithLocation">
+        <item quantity="other">%1$d件の新規閲覧 • %3$sから%2$d件</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">再キャプチャに失敗した試行回数が多すぎます。%1$d時間後に再度お試しください</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%s件の会話がアーカイブされました</item>
+    </plurals>
+    <plurals name="biz_govt_contacts_count">
+        <item quantity="other">%1$d件の連絡先</item>
+    </plurals>
+    <plurals name="call_recording_toast_items_deleted">
+        <item quantity="other">%1$d件の録音を削除しました</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">ワンタイムパスワードメッセージが削除されました</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">お得情報のメッセージが削除されました</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">スパムメッセージが削除されました</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d件のメッセージ</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d個のワンタイムパスワード</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_promotional">
+        <item quantity="other">%dのお得情報のメッセージ</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d件のスパムメッセージ</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d件のメッセージが削除されました</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">招待</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="other">%d日後</item>
+        <item quantity="one">明日</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="other">%d時間後</item>
+        <item quantity="one">1時間後</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="other">%d分後</item>
+        <item quantity="one">1分後</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="other">%d秒後</item>
+        <item quantity="one">1秒後</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="other">%d日前</item>
+        <item quantity="one">昨日</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="other">%d時間前</item>
+        <item quantity="one">1時間前</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="other">%d分前</item>
+        <item quantity="one">1分前</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="other">%d秒前</item>
+        <item quantity="one">1秒前</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="other">%d時間</item>
+        <item quantity="one">1時間</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="other">%d分</item>
+        <item quantity="one">1分</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="other">%d秒</item>
+        <item quantity="one">1秒</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="other">%d日後</item>
+        <item quantity="one">明日</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="other">%d時間後</item>
+        <item quantity="one">1時間後</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="other">%d分後</item>
+        <item quantity="one">1分後</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="other">%d秒後</item>
+        <item quantity="one">1秒後</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="other">%d日前</item>
+        <item quantity="one">昨日</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="other">%d時間前</item>
+        <item quantity="one">1時間前</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="other">%d分前</item>
+        <item quantity="one">1分前</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="other">%d秒前</item>
+        <item quantity="one">1秒前</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">選択したファイルと%d件の関連するメッセージを削除しようとしています</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">メッセージを削除しますか？</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 件の新しい通知</item>
+        <item quantity="one">%d 件の新しい通知</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">友達</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">日</item>
+    </plurals>
+    <plurals name="spam_counts">
+        <item quantity="other">%d件のスパム報告</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">%s件の会話のアーカイブを取り消しました</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">メッセージを受信しました</item>
+    </plurals>
+    <plurals name="voip_group_launcher_person">
+        <item quantity="other">人の参加者</item>
+    </plurals>
+    <plurals name="voip_notification_missed_grouped_title">
+        <item quantity="other">%1$sの不在着信があります</item>
+    </plurals>
+    <plurals name="voip_notification_title_other">
+        <item quantity="other">%1$s その他</item>
+    </plurals>
+</resources>

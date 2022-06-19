@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:padding="@dimen/control_semispace" android:minWidth="400.0dip" style="@style/ContainerFillStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_margin="@dimen/control_extraspace" android:paddingStart="@dimen/rounding" android:paddingEnd="@dimen/rounding" style="@style/TCDialog.Rounded">
+            <WebView android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:id="@id/webLoading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <include layout="@layout/animated_loading" />
+            </LinearLayout>
+        </RelativeLayout>
+        <ImageView android:id="@id/dialogClose" android:background="@drawable/card_img_people" android:padding="@dimen/control_semispace" android:layout_margin="0.0dip" android:src="@drawable/btn_close" android:contentDescription="@string/AppName" android:layout_alignParentStart="true" style="@style/Widget.Truecaller.ListItemIcon" />
+    </RelativeLayout>
+</LinearLayout>

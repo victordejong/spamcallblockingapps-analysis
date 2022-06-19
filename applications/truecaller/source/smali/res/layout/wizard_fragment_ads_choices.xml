@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/wizard_graywhite" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/space" android:layout_marginRight="@dimen/space">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/backButton" android:padding="@dimen/doubleSpace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wizard_ic_arrow_back" android:contentDescription="@string/StrClose" android:paddingStart="@dimen/space" android:paddingEnd="@dimen/doubleSpace" app:tint="@color/wizard_gray_medium" />
+                <ImageView android:layout_gravity="center" android:paddingTop="@dimen/tripleSpace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ads_img" android:contentDescription="@null" />
+            </FrameLayout>
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/doubleSpace" android:text="@string/AdsChoices_Title" style="@style/Wizard.TextViewLegalTitle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <Button android:id="@id/nextButton" android:text="@string/StrContinue" style="@style/Wizard.ContinueButton" />
+</LinearLayout>

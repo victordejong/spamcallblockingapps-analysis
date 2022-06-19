@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.Toolbar android:paddingLeft="@dimen/dp16" android:paddingRight="@dimen/dp16" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="Pdo Viewer" app:titleTextColor="?tcx_textPrimary" />
+        <TextView android:textColor="?tcx_textSecondary" android:id="@id/result" android:padding="@dimen/dp16" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/StyleX.Text.Body.B1" />
+        <Button android:id="@id/copy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp16" android:text="Copy" style="@style/StyleX.Button" />
+        <TextView android:id="@id/applyFilter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="applyFilterOnPdo: " style="@style/StyleX.Text.Body.B1" />
+        <Button android:id="@id/openAddressFilter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp16" android:text="Open address Filter" style="@style/StyleX.Button" />
+    </LinearLayout>
+</ScrollView>

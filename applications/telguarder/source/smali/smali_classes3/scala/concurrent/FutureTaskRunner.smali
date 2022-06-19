@@ -1,0 +1,44 @@
+.class public interface abstract Lscala/concurrent/FutureTaskRunner;
+.super Ljava/lang/Object;
+.source "FutureTaskRunner.scala"
+
+# interfaces
+.implements Lscala/concurrent/TaskRunner;
+
+
+# annotations
+.annotation runtime Lscala/reflect/ScalaSignature;
+    bytes = "\u0006\u000153\u0001\"\u0001\u0002\u0011\u0002G\u0005AA\u0002\u0002\u0011\rV$XO]3UCN\\\'+\u001e8oKJT!a\u0001\u0003\u0002\u0015\r|gnY;se\u0016tGOC\u0001\u0006\u0003\u0015\u00198-\u00197b\'\r\u0001qa\u0003\t\u0003\u0011%i\u0011\u0001B\u0005\u0003\u0015\u0011\u0011a!\u00118z%\u00164\u0007C\u0001\u0007\u000e\u001b\u0005\u0011\u0011B\u0001\u0008\u0003\u0005)!\u0016m]6Sk:tWM\u001d\u0003\u0006!\u0001\u0011\tA\u0005\u0002\u0007\rV$XO]3\u0004\u0001U\u00111CG\t\u0003)]\u0001\"\u0001C\u000b\n\u0005Y!!a\u0002(pi\"Lgn\u001a\t\u0003\u0011aI!!\u0007\u0003\u0003\u0007\u0005s\u0017\u0010B\u0003\u001c\u001f\t\u00071CA\u0001U\u0011\u0015i\u0002Ab\u0001\u001f\u0003A1W\u000f^;sK\u0006\u001bh)\u001e8di&|g.\u0006\u0002 KQ\u0011\u0001e\n\t\u0004\u0011\u0005\u001a\u0013B\u0001\u0012\u0005\u0005%1UO\\2uS>t\u0007\u0007\u0005\u0002%K1\u0001A!\u0002\u0014\u001d\u0005\u0004\u0019\"!A*\t\u000b!b\u0002\u0019A\u0015\u0002\u0003a\u00042AK\u0008$\u001b\u0005\u0001\u0001\"\u0002\u0017\u0001\r\u0003i\u0013AB:vE6LG/\u0006\u0002/cQ\u0011qF\r\t\u0004U=\u0001\u0004C\u0001\u00132\t\u001513F1\u0001\u0014\u0011\u0015\u00194\u00061\u00015\u0003\u0011!\u0018m]6\u0011\u0007)*\u0004\'\u0003\u00027\u001b\t!A+Y:l\u0011\u0015A\u0004A\"\u0001:\u00031i\u0017M\\1hK\u0012\u0014En\\2l)\tQT\u0008\u0005\u0002\tw%\u0011A\u0008\u0002\u0002\u0005+:LG\u000fC\u0003?o\u0001\u0007q(A\u0004cY>\u001c7.\u001a:\u0011\u00051\u0001\u0015BA!\u0003\u00059i\u0015M\\1hK\u0012\u0014En\\2lKJDCaN\"G\u0011B\u0011\u0001\u0002R\u0005\u0003\u000b\u0012\u0011!\u0002Z3qe\u0016\u001c\u0017\r^3eC\u00059\u0015aF+tK\u0002\u0002\'\r\\8dW&tw\r\u0019\u0011j]N$X-\u00193/C\u0005I\u0015A\u0002\u001a/cAr\u0003\u0007\u000b\u0003\u0001\u0007.C\u0015%\u0001\'\u0002?U\u001bX\r\t1Fq\u0016\u001cW\u000f^5p]\u000e{g\u000e^3yi\u0002\u0004\u0013N\\:uK\u0006$g\u0006"
+.end annotation
+
+
+# virtual methods
+.method public abstract futureAsFunction(Ljava/lang/Object;)Lscala/Function0;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<S:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/lang/Object;",
+            ")",
+            "Lscala/Function0<",
+            "TS;>;"
+        }
+    .end annotation
+.end method
+
+.method public abstract managedBlock(Lscala/concurrent/ManagedBlocker;)V
+.end method
+
+.method public abstract submit(Ljava/lang/Object;)Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<S:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/lang/Object;",
+            ")",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+.end method

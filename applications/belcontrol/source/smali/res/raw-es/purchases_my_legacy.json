@@ -1,0 +1,27 @@
+{
+		"top" : "El identificador de llamada mejorado muestra quién llama cuando entra una llamada desconocida para que siempre sepa quién llama.",
+
+        "sections" : [
+            {
+                "img" : "glass",
+                "descr" : "Muestra el nombre de los números desconocidos",
+                "width": "40",
+                "height": "40"
+            },
+            {
+                "img" : "group",
+                "descr" : "Millones de individuos y empresas",
+                "width": "40",
+                "height": "40"
+
+            },
+            {
+                "img" : "credits",
+                "descr" : "Obtenga 10 créditos de bono para búsquedas manuales",
+                "width": "40",
+                "height": "40"
+            }
+        ],
+
+        "bottom" : ""
+}

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">%d نمبروں کو بلاک اور بطور سپیم رپورٹ کریں؟</item>
+        <item quantity="one">%d نمبروں کو بلاک اور بطور سپیم رپورٹ کریں؟</item>
+    </plurals>
+    <plurals name="ConversationCallsHistoryCount">
+        <item quantity="other">%d کالز</item>
+        <item quantity="one">%d کال</item>
+    </plurals>
+    <plurals name="ConversationFlashHistoryCount">
+        <item quantity="other">%d فلیش پیغامات</item>
+        <item quantity="one">%d فلیش پیغام</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">پیغامات اہم کے ٹیب میں شامل کر دیے گئے</item>
+        <item quantity="one">پیغام اہم کے ٹیب میں شامل کر دیا گیا</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d گفتگوئیں بطور پڑھی ہوئی نشان زد ہو گئیں</item>
+        <item quantity="one">%d گفتگو بطور پڑھی ہوئی نشان زد ہو گئی</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">%d اندراجات حذف ہو گئے</item>
+        <item quantity="one">%d اندراج حذف ہو گیا</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">%d اندراجات حذف کریں؟</item>
+        <item quantity="one">اندراج حذف کریں؟</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">گفتگوئیں پِن ہو گئیں</item>
+        <item quantity="one">گفتگو پِن ہو گئی</item>
+    </plurals>
+    <plurals name="ConversationReportNotSpamConfirmation">
+        <item quantity="other">%d میسجز جو سپیم نہیں کے طور پر رپورٹ کیے گئے</item>
+        <item quantity="one">%d میسج</item>
+    </plurals>
+    <plurals name="ConversationReportSpamConfirmation">
+        <item quantity="other">%d پیغامات بطور سپیم رپورٹ کیے گئے</item>
+        <item quantity="one">%d پیغام بطور سپیم رپورٹ کیا گیا</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">تمام رابطے محفوظ کریں</item>
+        <item quantity="one">@string/ConversationSaveContact</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">گفتگوئیں ان پِن ہو گئیں</item>
+        <item quantity="one">گفتگو ان پِن ہو گئی</item>
+    </plurals>
+    <plurals name="DeleteConversationsConfirmation">
+        <item quantity="other">%d گفتگوئیں حذف ہو گئیں</item>
+        <item quantity="one">%d گفتگو حذف ہو گئی</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">%d گفتگوئیں حذف کریں؟</item>
+        <item quantity="one">%d گفتگو حذف کریں؟</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">%d نمبر شناخت ہوئے</item>
+        <item quantity="one">%d نمبر شناخت ہوا</item>
+    </plurals>
+    <plurals name="HistoryActionConfirmDeleteMessage">
+        <item quantity="other">%d آئٹمز ختم کرنی ہیں؟</item>
+        <item quantity="one">%d آئٹم ختم کرنی ہے؟</item>
+    </plurals>
+    <plurals name="HistoryActionDeleted">
+        <item quantity="other">%d آئٹمز ختم کر دی گئیں</item>
+        <item quantity="one">%d آئٹم ختم کر دی گئی</item>
+    </plurals>
+    <plurals name="HistoryActionSelected">
+        <item quantity="other">%d آئٹمز سِیلیکٹ کی گئیں</item>
+        <item quantity="one">%d آئٹم سِیلیکٹ کی گئی</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">کیا آپ واقعی %d نمبروں کو ان بلاک کرنا چاہتے ہیں؟</item>
+        <item quantity="one">کیا آپ واقعی اس نمبر کو ان بلاک کرنا چاہتے ہیں؟</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteCallRecordings">
+        <item quantity="other">کیا آپ واقعی %s کال ریکارڈنگز کو حذف کرنا چاہتے ہیں؟</item>
+        <item quantity="one">کیا آپ واقعی %s کال ریکارڈنگ کو حذف کرنا چاہتے ہیں؟</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">کیا آپ واقعی %s زبان کی فائلوں کو حذف کرنا چاہتے ہیں؟</item>
+        <item quantity="one">کیا آپ واقعی %s زبان کی فائل کو حذف کرنا چاہتے ہیں؟</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">%d ایس ایم ایس بلاک کردہ</item>
+        <item quantity="one">ٹروکالر نے ایس ایم ایس بلاک کیا</item>
+    </plurals>
+    <plurals name="MessageNotificationNewMessages">
+        <item quantity="other">+%1$d مزید نئے پیغامات</item>
+        <item quantity="one">%1 مزید نیا پیغام</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$s نے %2$d گھنٹے قبل کال کی۔ ٹرو کالر میں دیکھنے کے لیے ٹیپ کریں</item>
+        <item quantity="one">%1$s نے %2$d گھنٹہ قبل کال کی۔ ٹرو کالر میں دیکھنے کے لیے ٹیپ کریں</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d رابطے</item>
+        <item quantity="one">%d رابطہ</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d منسلکات</item>
+        <item quantity="one">%1$d منسلکہ</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">%d دیگر رابطے</item>
+        <item quantity="one">%d دیگر رابطہ</item>
+    </plurals>
+    <plurals name="NewImGroupMemberCount">
+        <item quantity="other">%d ارکان</item>
+        <item quantity="one">%d رکن</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">%d نمبر بلاک لِسٹ میں شامل ہو گئے</item>
+        <item quantity="one">نمبر بلاک لِسٹ میں شامل ہو گیا</item>
+    </plurals>
+    <plurals name="OSNotificationTextNew">
+        <item quantity="other">آپ کے لیے %d نئے نوٹیفیکیشن ہیں</item>
+        <item quantity="one">آپ کے لیے نیا نوٹیفیکیشن ہے</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d بلاک شدہ کالیں</item>
+        <item quantity="one">%d بلاک شدہ کال</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d خاموش کردہ کالیں</item>
+        <item quantity="one">%d خاموش کردہ کال</item>
+    </plurals>
+    <plurals name="PremiumAbbreviatedOfferPriceOverMonth">
+        <item quantity="other">%1$s/ مہینے</item>
+        <item quantity="one">%1$s/ مہینہ</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">%1$d دن کی مفت آزمائش صرف نئے سبسکرائبرز کے لیے</item>
+        <item quantity="one">%1$d دن کی مفت آزمائش صرف نئے سبسکرائبرز کے لیے</item>
+    </plurals>
+    <plurals name="PremiumFeatureContactRequestLeft">
+        <item quantity="other">%1$d درخواستیں باقی</item>
+        <item quantity="one">%1$d درخواست باقی</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">%1$d نئے پروفائل مناظر</item>
+        <item quantity="one">1 نیا پروفائل منظر</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">%1$d لوگوں نے حال ہی میں آپ کی پروفائل دیکھی</item>
+        <item quantity="one">کسی نے حال ہی میں آپ کی پروفائل دیکھی</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d لوگوں (%3$d در %2$s) نے حال ہی میں آپ کی پروفائل دیکھی</item>
+        <item quantity="one">%2$s سے کسی نے حال ہی میں آپ کی پروفائل دیکھی</item>
+    </plurals>
+    <plurals name="SettingPendingGroupInvitationsMessage">
+        <item quantity="other">آپ کے پاس %d بقایا گروپ دعوت نامے ہیں۔ کیا آپ تمام قبول کرنا چاہیں گے؟</item>
+        <item quantity="one">آپ کے پاس %d بقایا گروپ دعوت نامہ ہے۔ کیا آپ اسے قبول کرنا چاہیں گے؟</item>
+    </plurals>
+    <plurals name="SpamSmsFound">
+        <item quantity="other">%d سپیم مَیسجز ملے</item>
+        <item quantity="one">%d سپیم مَیسجز ملے</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByMultiple">
+        <item quantity="other">%1$s اور %1$s دیگر کو %3$s نے گروپ میں مدعو کیا</item>
+        <item quantity="one">%1$s اور %1$s دیگر کو %3$s نے گروپ میں مدعو کیا</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByYouMultiple">
+        <item quantity="other">آپ نے %1$s اور %2$d دیگر کو گروپ میں مدعو کیا</item>
+        <item quantity="one">آپ نے %1$s اور %2$d دیگر کو گروپ میں مدعو کیا</item>
+    </plurals>
+    <plurals name="StrPhoneNumberAndMore">
+        <item quantity="other">%1$s &lt;b>+%2$d مزید&lt;/b></item>
+        <item quantity="one">%1$s &lt;b>+%2$d مزید&lt;/b></item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">دن</item>
+        <item quantity="one">دن</item>
+    </plurals>
+    <plurals name="StrPluralHour">
+        <item quantity="other">گھنٹے</item>
+        <item quantity="one">گھنٹہ</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">ماہ</item>
+        <item quantity="one">ماہ</item>
+    </plurals>
+    <plurals name="StrPluralWeek">
+        <item quantity="other">ہفتے</item>
+        <item quantity="one">ہفتہ</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">سال</item>
+        <item quantity="one">سال</item>
+    </plurals>
+    <plurals name="UnreadConversations">
+        <item quantity="other">%d ان پڑھی گفتگوئیں</item>
+        <item quantity="one">%d ان پڑھی گفتگو</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">آپ تصدیقی کوششوں کی مقررہ تعداد سے متجاوز ہو گئے ہیں۔ براہ کرم %d گھنٹے میں دوبارہ کوشش کریں۔</item>
+        <item quantity="one">آپ تصدیقی کوششوں کی مقررہ تعداد سے متجاوز ہو گئے ہیں۔ براہ کرم %d گھنٹے میں دوبارہ کوشش کریں۔</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d لوگوں نے آپ کی پروفائل دیکھی</item>
+        <item quantity="one">کسی نے آپ کی پروفائل دیکھی</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d لوگوں (%2$s میں سے 1) نے آپ کی پروفائل دیکھی</item>
+        <item quantity="one">%1$d شخص نے %2$s سے آپ کی پروفائل دیکھی</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d شخص نے آپ کی پروفائل دیکھی۔ مزید تلاش کریں۔</item>
+        <item quantity="one">1 شخص نے آپ کی پروفائل دیکھی۔ مزید تلاش کریں۔</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d شخص نے (%2$s میں %3$d) نے آپ کی پروفائل دیکھی۔ مزید تلاش کریں۔</item>
+        <item quantity="one">%2$s میں سے 1شخص نے آپ کی پروفائل دیکھی۔ مزید تلاش کریں۔</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaption">
+        <item quantity="other">%1$d نئے منظر</item>
+        <item quantity="one">%1$d نیا منظر</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaptionWithLocation">
+        <item quantity="other">%1$d نئے منظر • %3$s سے %2$d</item>
+        <item quantity="one">%1$d نیا منظر • %3$s سے %2$d</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">ری کیپچا (reCaptcha) بہت زیادہ مرتبہ ناکام رہا۔ براِہ کرم %1$d گھنٹے میں دوبارہ کوشش کریں</item>
+        <item quantity="one">ری کیپچا (reCaptcha) بہت زیادہ مرتبہ ناکام رہا۔ براِہ کرم %1$d گھنٹے میں دوبارہ کوشش کریں</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%s گفتگوئیں آرکائیو کر دی گئیں</item>
+        <item quantity="one">%s گفتگو آرکائیو کر دی گئی</item>
+    </plurals>
+    <plurals name="biz_govt_contacts_count">
+        <item quantity="other">%1$dرابطہ</item>
+        <item quantity="one">%1$dرابطہ</item>
+    </plurals>
+    <plurals name="call_recording_toast_items_deleted">
+        <item quantity="other">%1$d ریکارڈنگز حذف شدہ</item>
+        <item quantity="one">%1$d ریکارڈنگ حذف شدہ</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">او ٹی پی پیغامات حذف ہوئے</item>
+        <item quantity="one">او ٹی پیغام حذف ہوا</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">اشتہاری پیغامات حذف ہو گئے</item>
+        <item quantity="one">اشتہاری پیغام حذف ہو گیا</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">اسپام پیغامات حذف کیے گئے</item>
+        <item quantity="one">اسپام پیغام حذف ہوا</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d پیغامات</item>
+        <item quantity="one">%d پیغام</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d او ٹی پیز</item>
+        <item quantity="one">%d او ٹی پی</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_promotional">
+        <item quantity="other">%d اشتہاری پیغامات</item>
+        <item quantity="one">%d اشتہاری پیغام</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d اسپام پیغامات</item>
+        <item quantity="one">%d اسپام پیغام</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d پیغامات حذف ہوئے</item>
+        <item quantity="one">%d پیغام حذف ہوا</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">دعوتیں</item>
+        <item quantity="one">دعوت</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">آپ منتخب فائلوں اور٪ d سے متعلق پیغامات کو حذف کرنے والے ہیں</item>
+        <item quantity="one">آپ منتخب فائلوں اور متعلقہ پیغام کو حذف کرنے والے ہیں</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">پیغامات حذف کریں؟</item>
+        <item quantity="one">پیغام حذف کریں؟</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d نئی اطلاعات</item>
+        <item quantity="one">%d نئی اطلاع</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">دوست</item>
+        <item quantity="one">دوست</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">دن</item>
+        <item quantity="one">دن</item>
+    </plurals>
+    <plurals name="spam_counts">
+        <item quantity="other">%d سپیم رپورٹس</item>
+        <item quantity="one">%d سپیم رپورٹ</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">%s گفتگوئیں آرکائیو سے نکال دی گئیں</item>
+        <item quantity="one">%s گفتگو آرکائیو سے نکال دی گئی</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">پیغامات موصول ہوئے</item>
+        <item quantity="one">پیغام موصول ہوا</item>
+    </plurals>
+    <plurals name="voip_group_launcher_person">
+        <item quantity="other">شرکاء</item>
+        <item quantity="one">شریک</item>
+    </plurals>
+    <plurals name="voip_notification_missed_grouped_title">
+        <item quantity="other">مِسڈ %1$s کالز</item>
+        <item quantity="one">مِسڈ %1$s کال</item>
+    </plurals>
+    <plurals name="voip_notification_title_other">
+        <item quantity="other">%1$s others</item>
+        <item quantity="one">%1$s other</item>
+    </plurals>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_alert_dialog_button_bar_height">54.0dip</dimen>
+    <dimen name="context_call_notification_message_margin_top">4.0dip</dimen>
+    <dimen name="context_call_notification_subtitle_margin_top">2.0dip</dimen>
+    <dimen name="incallui_action_button_text_margin_top">6.0dip</dimen>
+    <dimen name="incallui_caller_label_height">24.0dip</dimen>
+    <dimen name="incallui_caller_label_radius">12.0dip</dimen>
+    <dimen name="incallui_incoming_primary_fab_bottom_margin">28.0dip</dimen>
+    <dimen name="incallui_layout_top_margin">28.0dip</dimen>
+    <dimen name="incallui_minimize_button_top_margin">28.0dip</dimen>
+    <dimen name="incallui_ongoing_action_button_first_row_top_margin">28.0dip</dimen>
+    <dimen name="incallui_ongoing_action_button_second_row_top_margin">28.0dip</dimen>
+    <dimen name="incallui_ongoing_action_button_size">72.0dip</dimen>
+    <dimen name="incallui_ongoing_chip_top_margin">16.0dip</dimen>
+    <dimen name="incallui_ongoing_profile_image_size">98.0dip</dimen>
+    <dimen name="incallui_primary_fab_bottom_margin">28.0dip</dimen>
+    <dimen name="incallui_primary_fab_size">72.0dip</dimen>
+    <dimen name="incallui_secondary_fab_bottom_margin">34.0dip</dimen>
+    <dimen name="incallui_truecaller_logo_width">70.0dip</dimen>
+    <dimen name="incallui_unknown_name_font_size">24.0sp</dimen>
+    <dimen name="voip_contact_incoming_tile_loader_name_width_big">85.0sp</dimen>
+    <dimen name="voip_contact_incoming_tile_loader_name_width_small">56.0sp</dimen>
+    <dimen name="voip_contact_incoming_tile_profile_size_big">90.0dip</dimen>
+    <dimen name="voip_contact_incoming_tile_profile_size_small">58.0dip</dimen>
+    <dimen name="voip_contact_incoming_tile_size_big">176.0dip</dimen>
+    <dimen name="voip_contact_incoming_tile_size_small">118.0dip</dimen>
+    <dimen name="voip_contact_incoming_tile_text_size_big">23.0sp</dimen>
+    <dimen name="voip_contact_incoming_tile_text_size_small">16.0sp</dimen>
+    <dimen name="voip_contact_tile_size_big">176.0dip</dimen>
+    <dimen name="voip_contact_tile_size_small">118.0dip</dimen>
+    <dimen name="voip_main_fab_bottom_margin">32.0dip</dimen>
+    <dimen name="voip_top_buttons_margin_top">32.0dip</dimen>
+</resources>

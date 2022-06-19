@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_array">
+        <item>Privat nummer</item>
+        <item>Samler/Bank</item>
+        <item>Reklamer/Spam</item>
+        <item>Lydløse opkald</item>
+        <item>Svindel</item>
+        <item>Finansiel service</item>
+        <item>Andet..</item>
+    </string-array>
+    <string-array name="category_feedback_array">
+        <item>Ingen kategori</item>
+        <item>Samler/Bank</item>
+        <item>Reklamer/Spam</item>
+        <item>Lydløse opkald</item>
+        <item>Svindel</item>
+        <item>Finansiel service</item>
+        <item>Andet..</item>
+    </string-array>
+    <string-array name="posneg_array">
+        <item>Negativ</item>
+        <item>Neutral</item>
+        <item>Positiv</item>
+    </string-array>
+    <string-array name="settings_block_methods_array">
+        <item>Afslut opkald (afvise)</item>
+        <item>Lydløs ring</item>
+    </string-array>
+</resources>

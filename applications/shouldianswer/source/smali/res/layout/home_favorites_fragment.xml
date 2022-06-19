@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/home_favorites_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/listView" android:layout_height="fill_parent" style="@style/listView" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llLoadingData" android:padding="@dimen/mainContentPadding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontBiggest2" android:text="@string/reading_data" style="@style/textViewStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/llNoItems" android:padding="@dimen/mainContentPadding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontBig" android:layout_marginBottom="@dimen/spaceBiggest" android:text="@string/opps_we_have_nothing_to_show_yet" style="@style/textViewStyle" />
+        <LinearLayout android:id="@id/llNoPermissions" style="@style/llParentWidthCenter">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontBig" android:gravity="center_horizontal" android:text="@string/system_permissions_are_required_nto_show_your_contacts" style="@style/textViewStyle" />
+            <Button android:id="@id/butAllowPermissions" android:layout_marginTop="@dimen/spaceBig" android:text="@string/allow_permissions" style="@style/button" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

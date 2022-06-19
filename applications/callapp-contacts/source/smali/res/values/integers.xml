@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="app_bar_elevation_anim_duration">150</integer>
+    <item type="integer" name="aws_session_credentials_cache_ttl_minutes">@integer/day_in_minutes</item>
+    <integer name="bottom_sheet_slide_duration">150</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <item type="integer" name="ch_local_scraped_data_cache_minutes">@integer/four_months_in_minutes</item>
+    <integer name="com_vk_sdk_AppId">4115987</integer>
+    <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="day_in_minutes">1440</integer>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <item type="integer" name="default_save_cache_minutes">@integer/year_in_minutes</item>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <integer name="design_snackbar_text_max_lines">2</integer>
+    <integer name="design_tab_indicator_anim_duration_ms">300</integer>
+    <integer name="dialpad_slide_in_duration">300</integer>
+    <integer name="dialpad_slide_out_duration">400</integer>
+    <integer name="exo_media_button_opacity_percentage_disabled">33</integer>
+    <integer name="exo_media_button_opacity_percentage_enabled">100</integer>
+    <item type="integer" name="facebook_friends_cache_refresh_minutes">@integer/day_in_minutes</item>
+    <item type="integer" name="facebook_friends_cache_ttl_minutes">@integer/year_in_minutes</item>
+    <item type="integer" name="facebook_likes_cache_ttl_minutes">@integer/week_in_minutes</item>
+    <item type="integer" name="facebook_search_cache_ttl_minutes">@integer/week_in_minutes</item>
+    <integer name="facebook_search_period_in_minutes">10</integer>
+    <integer name="facebook_search_period_request_limit">500</integer>
+    <item type="integer" name="facebook_status_cache_ttl_minutes">@integer/hour_in_minutes</item>
+    <item type="integer" name="facebook_user_cache_ttl_minutes">@integer/week_in_minutes</item>
+    <integer name="five_hours_in_minutes">300</integer>
+    <integer name="four_months_in_minutes">161280</integer>
+    <item type="integer" name="gmail_mail_data_cache_minutes">@integer/three_hours_in_minutes</item>
+    <item type="integer" name="gms_version">@integer/google_play_services_version</item>
+    <integer name="google_play_services_version">12451000</integer>
+    <item type="integer" name="gravatar_data_cache_minutes">@integer/month_in_minutes</item>
+    <integer name="hide_password_duration">320</integer>
+    <integer name="hour_in_minutes">60</integer>
+    <item type="integer" name="huawei_place_data_cache_minutes">@integer/six_months_in_minutes</item>
+    <item type="integer" name="image_cache_ttl_minutes">@integer/month_in_minutes</item>
+    <item type="integer" name="instagram_user_cache_ttl_minutes">@integer/week_in_minutes</item>
+    <item type="integer" name="instagram_user_refresh_minutes">@integer/day_in_minutes</item>
+    <integer name="list_card_swipe_distance_divisor">2</integer>
+    <integer name="list_card_undobar_hide_delay">5000</integer>
+    <integer name="month_in_minutes">40320</integer>
+    <integer name="mtrl_badge_max_character_count">4</integer>
+    <integer name="mtrl_btn_anim_delay_ms">100</integer>
+    <integer name="mtrl_btn_anim_duration_ms">100</integer>
+    <integer name="mtrl_calendar_header_orientation">1</integer>
+    <integer name="mtrl_calendar_selection_text_lines">1</integer>
+    <integer name="mtrl_calendar_year_selector_span">3</integer>
+    <integer name="mtrl_card_anim_delay_ms">75</integer>
+    <integer name="mtrl_card_anim_duration_ms">120</integer>
+    <integer name="mtrl_chip_anim_duration">100</integer>
+    <integer name="mtrl_tab_indicator_anim_duration_ms">250</integer>
+    <integer name="one_minute">1</integer>
+    <item type="integer" name="person_lookup_scraped_data_cache_minutes">@integer/four_months_in_minutes</item>
+    <item type="integer" name="server_json_contact_cache_ttl_minutes">@integer/week_in_minutes</item>
+    <integer name="seven_days_in_minutes">10080</integer>
+    <integer name="show_password_duration">200</integer>
+    <integer name="six_months_in_minutes">241920</integer>
+    <item type="integer" name="social_search_cache_minutes">@integer/six_months_in_minutes</item>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <integer name="thirty_days_in_minutes">43200</integer>
+    <integer name="three_hours_in_minutes">180</integer>
+    <item type="integer" name="thumbnails_cache_ttl_minutes">@integer/year_in_minutes</item>
+    <integer name="tt_video_progress_max">100</integer>
+    <item type="integer" name="twitter_friends_refresh_minutes">@integer/day_in_minutes</item>
+    <item type="integer" name="twitter_friends_ttl_minutes">@integer/year_in_minutes</item>
+    <item type="integer" name="twitter_last_tweet_ttl_minutes">@integer/hour_in_minutes</item>
+    <item type="integer" name="twitter_mutual_friends_cache_ttl_minutes">@integer/month_in_minutes</item>
+    <item type="integer" name="twitter_profile_image_url_ttl_minutes">@integer/month_in_minutes</item>
+    <integer name="twitter_search_period_in_minutes">15</integer>
+    <integer name="twitter_search_period_request_limit">800</integer>
+    <item type="integer" name="twitter_search_ttl_minutes">@integer/month_in_minutes</item>
+    <integer name="twitter_show_period_in_minutes">15</integer>
+    <integer name="twitter_show_period_request_limit">800</integer>
+    <integer name="twitter_tweet_period_in_minutes">15</integer>
+    <integer name="twitter_tweet_period_request_limit">800</integer>
+    <item type="integer" name="twitter_user_cache_ttl_minutes">@integer/week_in_minutes</item>
+    <integer name="two_months_in_minutes">80640</integer>
+    <item type="integer" name="vk_friends_cache_refresh_minutes">@integer/day_in_minutes</item>
+    <item type="integer" name="vk_friends_cache_ttl_minutes">@integer/year_in_minutes</item>
+    <item type="integer" name="vk_mutual_friends_cache_ttl_minutes">@integer/month_in_minutes</item>
+    <item type="integer" name="vk_user_cache_ttl_minutes">@integer/week_in_minutes</item>
+    <item type="integer" name="vk_user_search_url_ttl_minutes">@integer/month_in_minutes</item>
+    <integer name="week_in_minutes">10080</integer>
+    <item type="integer" name="wp_scraped_data_cache_minutes">@integer/four_months_in_minutes</item>
+    <integer name="year_in_minutes">525600</integer>
+    <item type="integer" name="youtube_videoid_result_cache_minutes">@integer/week_in_minutes</item>
+</resources>

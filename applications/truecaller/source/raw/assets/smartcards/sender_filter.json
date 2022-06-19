@@ -1,0 +1,303 @@
+[
+  {
+    "senderIds": [
+      "DISHTV",
+      "AIRBIL"
+    ],
+    "baseFilterName": "GRM_BILL",
+    "overrideFilter": {
+      "requiredValues": [
+        {
+          "columnName": "k",
+          "columnValues": [
+            "bill_status",
+            "payment_due",
+            "payment_notif"
+          ]
+        }
+      ],
+      "requiredColumns": [
+        "val3"
+      ]
+    }
+  },
+  {
+    "senderIds": [
+      "BESCOM",
+      "BILINF",
+      "BSESRP",
+      "BSESYP",
+      "DHBVNL",
+      "MSEDCL",
+      "SNDLTD",
+      "TPDDLD",
+      "UHBVNL",
+      "ACTGRP",
+      "HATHWY",
+      "SPCTRA",
+      "BSNLCF",
+      "SPETRA",
+      "MYTSKY",
+      "CESCLM",
+      "CSPDCL",
+      "JHBVNL",
+      "IGLDEL",
+      "MNGLPU",
+      "TIKONA",
+      "AIRDTH",
+      "JIOPAY",
+      "GUJGAS",
+      "VFCARE",
+      "VICARE",
+      "MGLLTD",
+      "HMWSSB",
+      "JIOINF",
+      "JIONET",
+      "620016",
+      "AIRTEL",
+      "650001",
+      "650002",
+      "650003",
+      "650004",
+      "650005",
+      "650006",
+      "650007",
+      "650009",
+      "650012",
+      "650013",
+      "650014",
+      "650015",
+      "650016",
+      "650018",
+      "650019",
+      "121",
+      "VDFONE",
+      "VODAFONE",
+      "DAFONE",
+      "CTOPUP"
+    ],
+    "baseFilterName": "GRM_BILL"
+  },
+  {
+    "senderIds": [
+      "SBIUPI",
+      "SBIPSG",
+      "ATMSBI",
+      "SBICRD",
+      "SBIINB",
+      "HDFCBK",
+      "ICICIB",
+      "AXISBK",
+      "CITIBK",
+      "BOBTXN",
+      "BOBCRD",
+      "BOBSMS",
+      "BOIIND",
+      "BOITXN",
+      "CANBNK",
+      "CENTBK",
+      "PNBSMS",
+      "PNBCCD",
+      "PNBCRC",
+      "UNIONB",
+      "IPAYTM",
+      "YESBNK",
+      "KOTAKB",
+      "SODEXO",
+      "CBSSBI",
+      "DBSBNK",
+      "INDUSB",
+      "MYAMEX",
+      "SBIBNK",
+      "SBMSMS",
+      "IOBCHN",
+      "INDBNK",
+      "MAHABK",
+      "UCOBNK",
+      "JKBANK",
+      "PAYTMB",
+      "AIRBNK",
+      "IDBIBK",
+      "BDNSMS",
+      "KBLBNK",
+      "INBUPI",
+      "FEDBNK",
+      "DOPBNK",
+      "111000",
+      "NMPKSB",
+      "GSBANK",
+      "FFCCSL",
+      "UDYBNK",
+      "BILBNK",
+      "ZETAMB",
+      "KDPCCB",
+      "CITIBA",
+      "CITIBN",
+      "CREDIN",
+      "TJUPIS",
+      "LVBANK",
+      "TGBEBK",
+      "TMBANK",
+      "CUBLTD",
+      "FAMPAY",
+      "CUBANK",
+      "DOMBNK",
+      "KVBUPI",
+      "SCBANK",
+      "COSMOS",
+      "KVBANK",
+      "ACBLBK",
+      "APGBBK",
+      "BCBANK",
+      "DHANBK",
+      "SARBNK",
+      "SVCBNK",
+      "NSDLTN",
+      "TJSBSB",
+      "BCCBNK",
+      "PAYZAP",
+      "NKGSBK",
+      "KVGBBK",
+      "BRKGBX",
+      "HDBFSL",
+      "OBCBNK",
+      "VVSBNK",
+      "JJSBNK",
+      "VIJBNK",
+      "ESAFSF",
+      "SPCBBK",
+      "ALBANK",
+      "JSBLPN",
+      "BHRTPE",
+      "DBALRT",
+      "UJJIVN",
+      "SIBSMS",
+      "MPESA",
+      "KCB",
+      "DTB",
+      "OPBANK",
+      "A_BANK",
+      "SA_BANK",
+      "Y_BANK",
+      "LYBANK",
+      "NBK",
+      "DMBANK",
+      "PAYLTD",
+      "M-KOPA",
+      "SHWARI",
+      "TANBIC",
+      "LMONEY",
+      "BALOOP",
+      "STBANK",
+      "LFBANK",
+      "MEBANK",
+      "SSBANK",
+      "ANBANK"
+    ],
+    "baseFilterName": "GRM_BANK"
+  },
+  {
+    "senderIds": [
+      "*"
+    ],
+    "baseFilterName": "GRM_OTP"
+  },
+  {
+    "senderIds": [
+      "REDBUS",
+      "KSRTCC",
+      "MKSRTC",
+      "IRCTCA",
+      "IRCTCB",
+      "IRCTCC",
+      "IRCTCE",
+      "IRCTCF",
+      "IRCTCI",
+      "IRCTCK",
+      "IRCTCL",
+      "IRCTCM",
+      "IRCTCO",
+      "IRCTCS",
+      "IRCTCT",
+      "INDIGO",
+      "ARASIA",
+      "VISTAR",
+      "GOAIRL",
+      "SPICEJ",
+      "YATRAA",
+      "IPAYTM",
+      "MIXIGO",
+      "GOIBIB",
+      "MMTRIP"
+    ],
+    "baseFilterName": "GRM_TRAVEL"
+  },
+  {
+    "senderIds": [
+      "SBIUPI",
+      "SBIPSG",
+      "CBSSBI",
+      "SCISMS",
+      "ATMSBI",
+      "SBICRD",
+      "SBIINB",
+      "HDFCBK",
+      "ICICIB",
+      "AXISBK",
+      "CITIBK",
+      "BOBTXN",
+      "BOBCRD",
+      "BOBSMS",
+      "BOIIND",
+      "BOITXN",
+      "CANBNK",
+      "CENTBK",
+      "PNBSMS",
+      "PNBCCD",
+      "PNBCRC",
+      "UNIONB",
+      "MYAMEX",
+      "CITIBA",
+      "OLAMNY",
+      "OLACAB"
+    ],
+    "baseFilterName": "GRM_BILL",
+    "overrideFilter": {
+      "requiredValues": [
+        {
+          "columnName": "k",
+          "columnValues": [
+            "payment_due",
+            "payment_notif"
+          ]
+        },
+        {
+          "columnName": "o",
+          "columnValues": [
+            "creditcard"
+          ]
+        }
+      ],
+      "requiredColumns": [
+        "val1",
+        "val3"
+      ]
+    }
+  },
+  {
+    "senderIds": [
+      "AMAZON",
+      "MYNTRA",
+      "FLPKRT",
+      "EKARTL"
+    ],
+    "baseFilterName": "GRM_DELIVERY"
+  },
+  {
+    "senderIds": [
+      "NHPSMS",
+      "GOVRAS"
+    ],
+    "baseFilterName": "GRM_EVENT"
+  }
+]

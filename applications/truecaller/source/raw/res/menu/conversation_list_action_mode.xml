@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_tcx_mark_as_read" android:id="@id/action_mark_as_read" android:title="@string/MarkAsRead" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_tcx_mark_as_unread" android:id="@id/action_mark_as_unread" android:title="@string/MarkAsUnread" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_tcx_pin_outline_24dp" android:id="@id/action_pin" android:title="@string/ConversationActionModePin" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_tcx_unpin_outline_24dp" android:id="@id/action_unpin" android:title="@string/ConversationActionModeUnpin" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_tcx_action_archive_outline_24dp" android:id="@id/action_archive" android:title="@string/ConversationActionModeArchive" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_tcx_action_delete_outline_24dp" android:id="@id/action_delete" android:title="@string/HistoryActionDelete" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_tcx_how_to_reg_outline_24dp" android:id="@id/action_never_mark_as_spam" android:title="@string/NeverMarkAsSpam" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_outline_no_local_offer_24dp" android:id="@id/action_never_mark_as_promotion" android:title="@string/NeverMarkAsPromotion" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_select_all" android:id="@id/action_select_all" android:title="@string/HistoryActionSelectAll" app:iconTint="?tcx_textSecondary" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_block" android:id="@id/action_block" android:title="@string/ConversationActionBlock" app:iconTint="?tcx_alertBackgroundRed" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_unblock_24dp" android:id="@id/action_unblock" android:title="@string/ConversationActionUnBlock" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_mute_notification" android:id="@id/action_mute_notificaitons" android:title="@string/ImGroupMuteNotifications" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_unmute_notification" android:id="@id/action_unmute_notificaitons" android:title="@string/ConversationDetailsActionUnmuteNotifications" app:showAsAction="never" />
+</menu>

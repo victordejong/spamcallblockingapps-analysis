@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/control_triplespace" android:paddingTop="@dimen/control_triplespace" android:paddingRight="@dimen/control_triplespace" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/sp18" android:textStyle="bold" android:textColor="?theme_textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/DialogReportNotSpamTitle" />
+    <TextView android:textSize="@dimen/sp16" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_space" android:text="@string/DialogReportNotSpamSubTitle" />
+</LinearLayout>

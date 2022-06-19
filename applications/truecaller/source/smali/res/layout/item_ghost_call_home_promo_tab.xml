@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.truecaller.common.ui.banner.BannerViewX android:id="@id/bannerView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/doubleSpace" app:bannerViewImage="?tcx_ghostCallDetailsIcon" app:bannerViewSecondaryButton="@string/NewFeaturePromoBannerDismissCta" app:bannerViewTitle="@string/PretendCallPromoBannerTitle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

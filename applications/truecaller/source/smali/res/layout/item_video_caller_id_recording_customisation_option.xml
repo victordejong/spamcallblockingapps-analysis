@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/newBadge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:adjustViewBounds="true" android:elevation="@dimen/vid_dp8" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_vid_new_badge" />
+    <com.google.android.material.card.MaterialCardView android:layout_width="34.0dip" android:layout_height="56.0dip" android:layout_marginTop="8.0dip" app:cardCornerRadius="@dimen/vid_recording_item_rounding" app:cardElevation="0.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:strokeColor="@color/selector_vid_customisation_option" app:strokeWidth="2.0dip">
+        <ImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:adjustViewBounds="true" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:background="#66000000" android:padding="@dimen/vid_dp8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:indeterminate="true" android:indeterminateTint="@color/white" />
+        <ImageView android:layout_gravity="center" android:id="@id/progress_failure" android:background="#66000000" android:padding="@dimen/vid_dp8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_vid_error_outline_white_24dp" />
+    </com.google.android.material.card.MaterialCardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

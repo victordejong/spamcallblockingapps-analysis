@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/iconSilent" android:background="@drawable/background_tcx_availability_silent" android:padding="2.0dip" android:layout_width="@dimen/availability_tcx_icon_size" android:layout_height="@dimen/availability_tcx_icon_size" android:tint="?tcx_availabilitySilentIconColor" android:layout_marginStart="2.0dip" android:layout_marginEnd="1.0dip" android:tintMode="src_in" app:srcCompat="@drawable/ic_tcx_stat_silent_12dp" />
+        <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:layout_gravity="center" android:id="@id/textAvailability" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:paddingStart="@dimen/availability_tcx_text_padding" android:paddingEnd="@dimen/availability_tcx_text_padding" style="@style/StyleX.Text.Availability" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/iconOnCall" android:layout_width="@dimen/availability_tcx_icon_size" android:layout_height="@dimen/availability_tcx_icon_size" android:tint="?tcx_availabilityOnCallIconColor" android:tintMode="src_in" app:srcCompat="@drawable/ic_tcx_stat_on_call_16dp" />
+</merge>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?bg_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/rl_block_edit" android:layout_width="fill_parent" android:layout_height="48.0dip" android:foreground="@drawable/card_foreground">
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/block_edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/block_edit" android:layout_toRightOf="@id/iv_edit" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/iv_edit" />
+            <ImageView android:id="@id/iv_edit" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/icon_edit_gray" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/rl_block_delete" android:layout_width="fill_parent" android:layout_height="48.0dip" android:foreground="@drawable/card_foreground">
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/block_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/block_delete" android:layout_toRightOf="@id/iv_delete" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/iv_delete" />
+            <ImageView android:id="@id/iv_delete" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/iv_delete_call" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

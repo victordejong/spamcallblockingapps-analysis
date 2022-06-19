@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.cardview.CircularRevealCardView android:background="@drawable/shape_tcx_bottom_sheet_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp72" app:cardBackgroundColor="?tcx_backgroundSecondary" app:cardCornerRadius="@dimen/dp0" app:cardElevation="@dimen/dp8" style="@style/StyleX.BottomSheetDialogTheme"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.button.MaterialButton android:id="@id/applyFilters" android:layout_width="fill_parent" android:layout_height="@dimen/dp40" android:layout_marginTop="@dimen/dp16" android:text="@string/apply_filters" android:layout_marginStart="@dimen/dp16" android:layout_marginEnd="@dimen/dp16" style="@style/StyleX.Button.Dismissable" />
+    <View android:layout_width="0.0dip" android:layout_height="16.0dip" android:layout_marginTop="@dimen/dp56" />
+</com.google.android.material.circularreveal.cardview.CircularRevealCardView>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_array">
+        <item>prive nummer</item>
+        <item>Verzamelaars/banken</item>
+        <item>Advertenties/Spam</item>
+        <item>Stille oproepen</item>
+        <item>Fraude</item>
+        <item>financiele sevices</item>
+        <item>andere</item>
+    </string-array>
+    <string-array name="category_feedback_array">
+        <item>Geen catagorie</item>
+        <item>Verzamelaars/Banken</item>
+        <item>Advertenties/Spam</item>
+        <item>Stille oproepen</item>
+        <item>Fraude</item>
+        <item>Financiele sevices</item>
+        <item>andere</item>
+    </string-array>
+    <string-array name="posneg_array">
+        <item>Negatief</item>
+        <item>Neutraal</item>
+        <item>Positief</item>
+    </string-array>
+    <string-array name="settings_block_methods_array">
+        <item>gesprekken beëindigen</item>
+        <item>geen geluid</item>
+    </string-array>
+</resources>

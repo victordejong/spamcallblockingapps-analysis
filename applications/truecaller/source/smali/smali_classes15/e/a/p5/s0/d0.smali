@@ -1,0 +1,39 @@
+.class public final Le/a/p5/s0/d0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnFocusChangeListener;
+
+
+# instance fields
+.field public final synthetic a:Ls1/z/b/l;
+
+
+# direct methods
+.method public constructor <init>(Ls1/z/b/l;)V
+    .locals 0
+
+    iput-object p1, p0, Le/a/p5/s0/d0;->a:Ls1/z/b/l;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onFocusChange(Landroid/view/View;Z)V
+    .locals 0
+
+    .line 1
+    iget-object p1, p0, Le/a/p5/s0/d0;->a:Ls1/z/b/l;
+
+    invoke-static {p2}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object p2
+
+    invoke-interface {p1, p2}, Ls1/z/b/l;->d(Ljava/lang/Object;)Ljava/lang/Object;
+
+    return-void
+.end method

@@ -1,0 +1,109 @@
+.class public final Le/a/o/a/c/a$a;
+.super Ls1/z/c/m;
+.source "kotlin-style lambda group"
+
+# interfaces
+.implements Ls1/z/b/a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Le/a/o/a/c/a;->Jj(Ljava/util/List;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ls1/z/c/m;",
+        "Ls1/z/b/a<",
+        "Ls1/s;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic b:I
+
+.field public final synthetic c:Ljava/lang/Object;
+
+.field public final synthetic d:Ljava/lang/Object;
+
+
+# direct methods
+.method public constructor <init>(ILjava/lang/Object;Ljava/lang/Object;)V
+    .locals 0
+
+    iput p1, p0, Le/a/o/a/c/a$a;->b:I
+
+    iput-object p2, p0, Le/a/o/a/c/a$a;->c:Ljava/lang/Object;
+
+    iput-object p3, p0, Le/a/o/a/c/a$a;->d:Ljava/lang/Object;
+
+    const/4 p1, 0x0
+
+    invoke-direct {p0, p1}, Ls1/z/c/m;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 3
+
+    sget-object v0, Ls1/s;->a:Ls1/s;
+
+    iget v1, p0, Le/a/o/a/c/a$a;->b:I
+
+    if-eqz v1, :cond_1
+
+    const/4 v2, 0x1
+
+    if-ne v1, v2, :cond_0
+
+    .line 1
+    iget-object v1, p0, Le/a/o/a/c/a$a;->d:Ljava/lang/Object;
+
+    check-cast v1, Le/a/o/a/c/a;
+
+    invoke-virtual {v1}, Le/a/o/a/c/a;->RA()Le/a/o/a/c/k;
+
+    move-result-object v1
+
+    iget-object v2, p0, Le/a/o/a/c/a$a;->c:Ljava/lang/Object;
+
+    check-cast v2, Le/a/o/a/c/g;
+
+    invoke-interface {v1, v2}, Le/a/o/a/c/k;->ue(Le/a/o/a/c/g;)V
+
+    return-object v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    .line 2
+    throw v0
+
+    .line 3
+    :cond_1
+    iget-object v1, p0, Le/a/o/a/c/a$a;->d:Ljava/lang/Object;
+
+    check-cast v1, Le/a/o/a/c/a;
+
+    invoke-virtual {v1}, Le/a/o/a/c/a;->RA()Le/a/o/a/c/k;
+
+    move-result-object v1
+
+    iget-object v2, p0, Le/a/o/a/c/a$a;->c:Ljava/lang/Object;
+
+    check-cast v2, Le/a/o/a/c/g;
+
+    invoke-interface {v1, v2}, Le/a/o/a/c/k;->g2(Le/a/o/a/c/g;)V
+
+    return-object v0
+.end method

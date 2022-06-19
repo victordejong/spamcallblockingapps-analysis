@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/bottom_action_container" android:background="@drawable/ripple_or_holo" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/bottom_action_bar_icon_container" android:layout_width="@dimen/dimen_64_dp" android:layout_height="@dimen/dimen_52_dp">
+        <ImageView android:id="@id/bottom_action_expanded_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/dimen_10_dp" android:textColor="@color/grey_dark" android:id="@id/bottom_action_expanded_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/bottom_action_expanded_icon" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/bottom_action_collapsed_icon" android:layout_width="@dimen/contact_details_bottom_action_bar_small_icons_sizes" android:layout_height="@dimen/contact_details_bottom_action_bar_small_icons_sizes" android:src="@drawable/shape_oval" />
+</FrameLayout>

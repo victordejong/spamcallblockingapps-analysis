@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?tcx_backgroundPrimary" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="320.0dip" android:windowSoftInputMode="adjustPan"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?tcx_textSecondary" android:id="@id/textView8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="Change Country Code" android:textAlignment="center" android:paddingStart="@dimen/dp32" android:paddingEnd="@dimen/dp32" style="@style/StyleX.Text.Headline.H6" />
+    <Spinner android:id="@id/countryDropdown" android:background="@android:drawable/btn_dropdown" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp16" android:spinnerMode="dropdown" />
+    <TextView android:textSize="@dimen/sp14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp16" android:text="NOTE: Once changed, You will have to reset this manually from here" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    <com.google.android.material.button.MaterialButton android:layout_gravity="center" android:id="@id/setCountryButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dp32" android:text="Update Country" android:textAlignment="center" style="@style/StyleX.Button.Primary" />
+</LinearLayout>

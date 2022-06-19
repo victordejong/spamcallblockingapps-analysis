@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/item_home_click" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:foreground="@drawable/card_foreground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="277.0dip">
+        <ImageView android:id="@id/item_home_image" android:layout_width="fill_parent" android:layout_height="277.0dip" android:src="?image_default" android:scaleType="centerCrop" android:contentDescription="@string/default_pos" />
+        <ImageView android:id="@id/iv_selected" android:visibility="gone" android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_40" android:src="@drawable/ic_callscreen_select" android:layout_alignParentRight="true" android:contentDescription="@string/default_pos" android:layout_alignParentEnd="true" />
+        <FrameLayout android:background="@drawable/bg_shade_bottom_radius" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/iv_fav" android:layout_width="@dimen/dp_16" android:layout_height="@dimen/dp_16" android:layout_marginLeft="8.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/ic_favorite_outline_16dp" android:layout_alignParentBottom="true" android:contentDescription="@string/favorite" android:layout_marginStart="8.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/tv_fav_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginBottom="8.0dip" android:text="12.3W" android:layout_toRightOf="@id/iv_fav" android:layout_alignBaseline="@id/iv_fav" android:layout_alignParentBottom="true" android:layout_marginStart="4.0dip" android:layout_toEndOf="@id/iv_fav" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/tv_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginBottom="8.0dip" android:text="CAT" android:layout_above="@id/iv_fav" android:layout_marginStart="8.0dip" />
+        <ImageView android:id="@id/iv_lock" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/ic_lock" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</FrameLayout>

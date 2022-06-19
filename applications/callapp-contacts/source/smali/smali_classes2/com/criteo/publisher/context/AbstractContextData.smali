@@ -1,0 +1,256 @@
+.class public abstract Lcom/criteo/publisher/context/AbstractContextData;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Lcom/criteo/publisher/context/AbstractContextData<",
+        "TT;>;>",
+        "Ljava/lang/Object;"
+    }
+.end annotation
+
+
+# instance fields
+.field private final data:Ljava/util/Map;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final myself:Lcom/criteo/publisher/context/AbstractContextData;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "TT;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 29
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 31
+    iput-object p0, p0, Lcom/criteo/publisher/context/AbstractContextData;->myself:Lcom/criteo/publisher/context/AbstractContextData;
+
+    .line 34
+    new-instance v0, Ljava/util/LinkedHashMap;
+
+    invoke-direct {v0}, Ljava/util/LinkedHashMap;-><init>()V
+
+    iput-object v0, p0, Lcom/criteo/publisher/context/AbstractContextData;->data:Ljava/util/Map;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public equals(Ljava/lang/Object;)Z
+    .locals 1
+
+    if-ne p0, p1, :cond_0
+
+    const/4 p1, 0x1
+
+    return p1
+
+    .line 104
+    :cond_0
+    instance-of v0, p1, Lcom/criteo/publisher/context/AbstractContextData;
+
+    if-nez v0, :cond_1
+
+    const/4 p1, 0x0
+
+    return p1
+
+    .line 107
+    :cond_1
+    check-cast p1, Lcom/criteo/publisher/context/ContextData;
+
+    .line 108
+    iget-object v0, p0, Lcom/criteo/publisher/context/AbstractContextData;->data:Ljava/util/Map;
+
+    iget-object p1, p1, Lcom/criteo/publisher/context/AbstractContextData;->data:Ljava/util/Map;
+
+    invoke-interface {v0, p1}, Ljava/util/Map;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method getData()Ljava/util/Map;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+
+    .line 96
+    iget-object v0, p0, Lcom/criteo/publisher/context/AbstractContextData;->data:Ljava/util/Map;
+
+    invoke-static {v0}, Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public hashCode()I
+    .locals 1
+
+    .line 113
+    iget-object v0, p0, Lcom/criteo/publisher/context/AbstractContextData;->data:Ljava/util/Map;
+
+    invoke-interface {v0}, Ljava/util/Map;->hashCode()I
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public set(Ljava/lang/String;D)Lcom/criteo/publisher/context/AbstractContextData;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "D)TT;"
+        }
+    .end annotation
+
+    .line 91
+    iget-object v0, p0, Lcom/criteo/publisher/context/AbstractContextData;->data:Ljava/util/Map;
+
+    invoke-static {p2, p3}, Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+
+    move-result-object p2
+
+    invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 92
+    iget-object p1, p0, Lcom/criteo/publisher/context/AbstractContextData;->myself:Lcom/criteo/publisher/context/AbstractContextData;
+
+    return-object p1
+.end method
+
+.method public set(Ljava/lang/String;J)Lcom/criteo/publisher/context/AbstractContextData;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "J)TT;"
+        }
+    .end annotation
+
+    .line 78
+    iget-object v0, p0, Lcom/criteo/publisher/context/AbstractContextData;->data:Ljava/util/Map;
+
+    invoke-static {p2, p3}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+
+    move-result-object p2
+
+    invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 79
+    iget-object p1, p0, Lcom/criteo/publisher/context/AbstractContextData;->myself:Lcom/criteo/publisher/context/AbstractContextData;
+
+    return-object p1
+.end method
+
+.method public set(Ljava/lang/String;Ljava/lang/Iterable;)Lcom/criteo/publisher/context/AbstractContextData;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/lang/Iterable<",
+            "Ljava/lang/String;",
+            ">;)TT;"
+        }
+    .end annotation
+
+    .line 60
+    new-instance v0, Ljava/util/ArrayList;
+
+    invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
+
+    .line 61
+    invoke-interface {p2}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    move-result-object p2
+
+    :goto_0
+    invoke-interface {p2}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-interface {p2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/lang/String;
+
+    .line 62
+    invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    goto :goto_0
+
+    .line 65
+    :cond_0
+    iget-object p2, p0, Lcom/criteo/publisher/context/AbstractContextData;->data:Ljava/util/Map;
+
+    invoke-static {v0}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
+
+    move-result-object v0
+
+    invoke-interface {p2, p1, v0}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 66
+    iget-object p1, p0, Lcom/criteo/publisher/context/AbstractContextData;->myself:Lcom/criteo/publisher/context/AbstractContextData;
+
+    return-object p1
+.end method
+
+.method public set(Ljava/lang/String;Ljava/lang/String;)Lcom/criteo/publisher/context/AbstractContextData;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/String;",
+            "Ljava/lang/String;",
+            ")TT;"
+        }
+    .end annotation
+
+    .line 46
+    iget-object v0, p0, Lcom/criteo/publisher/context/AbstractContextData;->data:Ljava/util/Map;
+
+    invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    .line 47
+    iget-object p1, p0, Lcom/criteo/publisher/context/AbstractContextData;->myself:Lcom/criteo/publisher/context/AbstractContextData;
+
+    return-object p1
+.end method

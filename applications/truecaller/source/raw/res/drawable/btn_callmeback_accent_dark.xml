@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="3.0dip" />
+    <solid android:color="@color/bg_btn_callmeback_dark" />
+    <padding android:left="@dimen/control_semispace" android:top="@dimen/control_semispace" android:right="@dimen/control_semispace" android:bottom="@dimen/control_semispace" />
+</shape>

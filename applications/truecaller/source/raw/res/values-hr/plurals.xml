@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">Blokiraj i prijavi %d broja kao spam?</item>
+        <item quantity="one">Blokiraj i prijavi %d broj kao spam?</item>
+        <item quantity="few">Blokiraj i prijavi %d brojeva kao spam?</item>
+    </plurals>
+    <plurals name="ConversationCallsHistoryCount">
+        <item quantity="other">%d poziva</item>
+        <item quantity="one">%d poziv</item>
+        <item quantity="few">%d poziva</item>
+    </plurals>
+    <plurals name="ConversationFlashHistoryCount">
+        <item quantity="other">%d flash poruka</item>
+        <item quantity="one">%d flash poruka</item>
+        <item quantity="few">%d flash poruke</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">Poruka dodano na karticu Važno</item>
+        <item quantity="one">Poruka dodana na karticu Važno</item>
+        <item quantity="few">Poruke dodane na karticu Važno</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d razgovora označeno kao pročitano</item>
+        <item quantity="one">%d razgovor označen kao pročitan</item>
+        <item quantity="few">%d razgovora označena kao pročitana</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">%d unosa je izbrisano</item>
+        <item quantity="one">%d unos je izbrisan</item>
+        <item quantity="few">%d unosa je izbrisano</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">Izbrisati %d unosa?</item>
+        <item quantity="one">Izbrisati unos?</item>
+        <item quantity="few">Izbrisati %d unosa?</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">Razgovora je prikvačeno</item>
+        <item quantity="one">Razgovor je prikvačen</item>
+        <item quantity="few">Razgovora su prikvačena</item>
+    </plurals>
+    <plurals name="ConversationReportNotSpamConfirmation">
+        <item quantity="other">za %d poruka je navedeno kako nisu spam</item>
+        <item quantity="one">za %d poruku je navedeno kako nije spam</item>
+        <item quantity="few">za %d poruke je navedeno kako nisu spam</item>
+    </plurals>
+    <plurals name="ConversationReportSpamConfirmation">
+        <item quantity="other">%d poruka prijavljena kao spam</item>
+        <item quantity="one">%d poruka prijavljena kao spam</item>
+        <item quantity="few">%d poruke prijavljeno kao spam</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">Spremite sve kontakte</item>
+        <item quantity="one">@string/ConversationSaveContact</item>
+        <item quantity="few">Spremite sve kontakte</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">Razgovora je otkvačeno</item>
+        <item quantity="one">Razgovor je otkvačen</item>
+        <item quantity="few">Razgovora su otkvačena</item>
+    </plurals>
+    <plurals name="DeleteConversationsConfirmation">
+        <item quantity="other">%d razgovora izbrisano</item>
+        <item quantity="one">%d razgovor izbrisan</item>
+        <item quantity="few">%d razgovora izbrisana</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">Izbrisati %d razgovora?</item>
+        <item quantity="one">Izbrisati %d razgovor?</item>
+        <item quantity="few">Izbrisati %d razgovora?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">%d brojeva identificirano</item>
+        <item quantity="one">%d broj identificiran</item>
+    </plurals>
+    <plurals name="HistoryActionConfirmDeleteMessage">
+        <item quantity="other">Obrišite %d predmet?</item>
+        <item quantity="one">Obrišite %d predmet?</item>
+        <item quantity="few">Obrišite %d predmeta?</item>
+    </plurals>
+    <plurals name="HistoryActionDeleted">
+        <item quantity="other">%d predmet obrisan</item>
+        <item quantity="one">%d predmet obrisan</item>
+        <item quantity="few">%d predmeta obrisano</item>
+    </plurals>
+    <plurals name="HistoryActionSelected">
+        <item quantity="other">%d predmet odabran</item>
+        <item quantity="one">%d predmet odabran</item>
+        <item quantity="few">%d predmeta odabrano</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">Želite li zaista odblokirati %d brojeva?</item>
+        <item quantity="one">Želite li zaista odblokirati ovaj broj?</item>
+        <item quantity="few">Želite li zaista odblokirati %d broja?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteCallRecordings">
+        <item quantity="other">Želite li zaista izbrisati %s snimki poziva?</item>
+        <item quantity="one">Želite li zaista izbrisati %s snimku poziva?</item>
+        <item quantity="few">Želite li zaista izbrisati %s snimke poziva?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">Želite li zaista izbrisati %s jezičnih datoteka?</item>
+        <item quantity="one">Želite li zaista izbrisati %s jezičnu datoteku?</item>
+        <item quantity="few">Želite li zaista izbrisati %s jezične datoteke?</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">%d SMS-ova blokirano</item>
+        <item quantity="one">SMS blokirao Truecaller</item>
+        <item quantity="few">%d SMS-a blokirana</item>
+    </plurals>
+    <plurals name="MessageNotificationNewMessages">
+        <item quantity="other">Još %1$d novih poruka</item>
+        <item quantity="one">Još 1 nova poruka</item>
+        <item quantity="few">Još %1$d nove poruke</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$s te nazvao prije %2$d sati. Dodirni za pregled u Truecaller</item>
+        <item quantity="one">%1$s te nazvao prije %2$d sat. Dodirni za pregled u Truecaller</item>
+        <item quantity="few">%1$s te nazvao prije %2$d sata. Dodirni za pregled u Truecaller</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d kontakta</item>
+        <item quantity="one">%d kontakt</item>
+        <item quantity="few">%d kontakata</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d privitaka</item>
+        <item quantity="one">%1$d privitak</item>
+        <item quantity="few">%1$d privitka</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">Još %d kontakata</item>
+        <item quantity="one">Još %d kontakt</item>
+        <item quantity="few">Još %d kontakta</item>
+    </plurals>
+    <plurals name="NewImGroupMemberCount">
+        <item quantity="other">%d članova</item>
+        <item quantity="one">%d član</item>
+        <item quantity="few">%d člana</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">%d brojeva dodano na popis blokiranih</item>
+        <item quantity="one">Broj dodan na popis blokiranih</item>
+        <item quantity="few">%d broja dodana na popis blokiranih</item>
+    </plurals>
+    <plurals name="OSNotificationTextNew">
+        <item quantity="other">Imate %d novih obavijesti</item>
+        <item quantity="one">Imate jednu novu obavijest</item>
+        <item quantity="few">Imate %d nove obavijesti</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">Blokiranih poziva: %d</item>
+        <item quantity="one">%d blokiran poziv</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">Utišanih poziva: %d</item>
+        <item quantity="one">%d utišan poziv</item>
+    </plurals>
+    <plurals name="PremiumAbbreviatedOfferPriceOverMonth">
+        <item quantity="other">%1$s/mj.</item>
+        <item quantity="one">%1$s/mj.</item>
+        <item quantity="few">%1$s/mj.</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">%1$d-dnevna besplatna proba samo za nove pretplatnike</item>
+        <item quantity="one">%1$d-dnevna besplatna proba samo za nove pretplatnike</item>
+        <item quantity="few">%1$d-dnevna besplatna proba samo za nove pretplatnike</item>
+    </plurals>
+    <plurals name="PremiumFeatureContactRequestLeft">
+        <item quantity="other">Još %1$d zahtjeva</item>
+        <item quantity="one">Još %1$d zahtjev</item>
+        <item quantity="few">Još %1$d zahtjeva</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">%1$d novih pregleda profila</item>
+        <item quantity="one">1 novi pregled profila</item>
+        <item quantity="few">%1$d nova pregleda profila</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">%1$d ljudi je nedavno pregledalo vaš profil</item>
+        <item quantity="one">Netko je nedavno pregledao vaš profil</item>
+        <item quantity="few">%1$d osoba je nedavno pregledalo vaš profil</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d ljudi (%3$d iz %2$s) nedavno je pregledalo vaš profil</item>
+        <item quantity="one">Netko iz %2$s nedavno je pregledao vaš profil</item>
+        <item quantity="few">%1$d osoba (%3$d iz %2$s) nedavno je pregledalo vaš profil</item>
+    </plurals>
+    <plurals name="SettingPendingGroupInvitationsMessage">
+        <item quantity="other">Imate %d pozivnica u grupe na čekanju. Želite li prihvatiti?</item>
+        <item quantity="one">Imate %d pozivnicu u grupu na čekanju. Želite li prihvatiti?</item>
+        <item quantity="few">Imate %d pozivnice u grupe na čekanju. Želite li prihvatiti?</item>
+    </plurals>
+    <plurals name="SpamSmsFound">
+        <item quantity="other">Pronađeno %d spam poruka</item>
+        <item quantity="one">Pronađena %d spam poruka</item>
+        <item quantity="few">Pronađene %d spam poruka</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByMultiple">
+        <item quantity="other">%3$s je pozvao/la u grupu %1$s i još %2$d osoba</item>
+        <item quantity="one">%3$s je pozvao/la u grupu %1$s i još %2$d osobu</item>
+        <item quantity="few">%3$s je pozvao/la u grupu %1$s i još %2$d osobe</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByYouMultiple">
+        <item quantity="other">Pozvali ste %1$s i još %2$d osoba u grupu</item>
+        <item quantity="one">Pozvali ste %1$s i još %2$d osobu u grupu</item>
+        <item quantity="few">Pozvali ste %1$s i još %2$d osobe u grupu</item>
+    </plurals>
+    <plurals name="StrPhoneNumberAndMore">
+        <item quantity="other">%1$s &lt;b>+ još %2$d&lt;/b></item>
+        <item quantity="one">%1$s &lt;b>+ još %2$d&lt;/b></item>
+        <item quantity="few">%1$s &lt;b>+ još %2$d&lt;/b></item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">dana</item>
+        <item quantity="one">dan</item>
+        <item quantity="few">dana</item>
+    </plurals>
+    <plurals name="StrPluralHour">
+        <item quantity="other">sati</item>
+        <item quantity="one">sat</item>
+        <item quantity="few">sata</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">mjeseci</item>
+        <item quantity="one">mjesec</item>
+        <item quantity="few">mjeseca</item>
+    </plurals>
+    <plurals name="StrPluralWeek">
+        <item quantity="other">tjedana</item>
+        <item quantity="one">tjedan</item>
+        <item quantity="few">tjedna</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">godina</item>
+        <item quantity="one">godina</item>
+        <item quantity="few">godine</item>
+    </plurals>
+    <plurals name="UnreadConversations">
+        <item quantity="other">%d nepročitanih razgovora</item>
+        <item quantity="one">%d nepročitan razgovor</item>
+        <item quantity="few">%d nepročitana razgovora</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">Premašili ste dopušteni broj pokušaja verifikacije. Pokušajte ponovno za %dh</item>
+        <item quantity="one">Premašili ste dopušteni broj pokušaja verifikacije. Pokušajte ponovno za %dh</item>
+        <item quantity="few">Premašili ste dopušteni broj pokušaja verifikacije. Pokušajte ponovno za %dh</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d ljudi je pregledalo vaš profil</item>
+        <item quantity="one">Netko je pregledao vaš profil</item>
+        <item quantity="few">%1$d osobe su pregledale vaš profil</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d ljudi (1 iz %2$s) je pregledalo vaš profil</item>
+        <item quantity="one">Osoba iz %2$s je pregledala vaš profil</item>
+        <item quantity="few">%1$d osoba (1 iz %2$s je pregledalo vaš profil</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d ljudi nedavno je pregledalo vaš profil. Saznajte više.</item>
+        <item quantity="one">1 osoba nedavno je pregledala vaš profil. Saznajte više.</item>
+        <item quantity="few">%1$d osoba/a nedavno je pregledalo vaš profil. Saznajte više.</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d ljudi (%3$d iz %2$s) pregledalo je vaš profil. Saznajte više.</item>
+        <item quantity="one">1 osoba iz %2$s pregledala je vaš profil. Saznajte više.</item>
+        <item quantity="few">%1$d osobe/a (%3$d iz %2$s) pregledalo je vaš profil. Saznajte više.</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaption">
+        <item quantity="other">%1$d novih pregleda</item>
+        <item quantity="one">%1$d novi pregled</item>
+        <item quantity="few">%1$d novih pregleda</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaptionWithLocation">
+        <item quantity="other">%1$d novih pregleda • %2$d iz %3$s</item>
+        <item quantity="one">%1$d novi pregled • %2$d iz %3$s</item>
+        <item quantity="few">%1$d novih pregleda • %2$d iz %3$s</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">reCaptcha nije uspio previše puta. Pokušajte ponovno za %1$d sati</item>
+        <item quantity="one">reCaptcha nije uspio previše puta. Pokušajte ponovno za %1$d sat</item>
+        <item quantity="few">reCaptcha nije uspio previše puta. Pokušajte ponovno za %1$d sata.</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%s razgovora arhivirano</item>
+        <item quantity="one">%s razgovor arhiviran</item>
+        <item quantity="few">%s razgovora arhivirana</item>
+    </plurals>
+    <plurals name="biz_govt_contacts_count">
+        <item quantity="other">%1$d kontakata</item>
+        <item quantity="one">%1$d kontakt</item>
+        <item quantity="few">%1$d kontakta</item>
+    </plurals>
+    <plurals name="call_recording_toast_items_deleted">
+        <item quantity="other">Izbrisano %1$d snimaka</item>
+        <item quantity="one">Izbrisana %1$d snimka</item>
+        <item quantity="few">Izbrisano %1$d snimke</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">OTP poruka izbrisano je</item>
+        <item quantity="one">OTP poruka izbrisana je</item>
+        <item quantity="few">OTP poruke izbrisane su</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">Reklamnih poruka izbrisano</item>
+        <item quantity="one">Reklamna poruka izbrisana</item>
+        <item quantity="few">Reklamne poruke izbrisane</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">Spam poruka izbrisano je</item>
+        <item quantity="one">Spam poruka izbrisana je</item>
+        <item quantity="few">Spam poruke izbrisane su</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d poruka</item>
+        <item quantity="one">%d poruka</item>
+        <item quantity="few">%d poruke</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d OTP-a</item>
+        <item quantity="one">%d OTP</item>
+        <item quantity="few">%d OTP-a</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_promotional">
+        <item quantity="other">%d reklamnih poruka</item>
+        <item quantity="one">%d reklamna poruka</item>
+        <item quantity="few">%d reklamne poruke</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d spam poruka</item>
+        <item quantity="one">%d spam poruka</item>
+        <item quantity="few">%d spam poruke</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d je poruka izbrisano</item>
+        <item quantity="one">%d je poruka izbrisana</item>
+        <item quantity="few">%d su poruke izbrisane</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">Pozivnica</item>
+        <item quantity="one">Pozivnica</item>
+        <item quantity="few">Pozivnice</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="other">za sljedeći broj dana: %d</item>
+        <item quantity="one">sutra</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="other">za sljedeći broj sati: %d</item>
+        <item quantity="one">za 1 sat</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="other">za %d min</item>
+        <item quantity="one">za 1 min</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="other">za %d s</item>
+        <item quantity="one">za 1 s</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="other">Prije %d dana</item>
+        <item quantity="one">jučer</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="other">Prije %d h</item>
+        <item quantity="one">Prije 1 sat</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="other">Prije %d min</item>
+        <item quantity="one">Prije 1 min</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="other">Prije %d s</item>
+        <item quantity="one">Prije 1 s</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">1 sat</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">1 min</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="other">%d s</item>
+        <item quantity="one">1 s</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="other">za sljedeći broj dana: %d</item>
+        <item quantity="one">sutra</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="other">za %d h</item>
+        <item quantity="one">za 1 sat</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="other">za sljedeći broj minuta: %d</item>
+        <item quantity="one">za 1 minutu</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="other">za %d s</item>
+        <item quantity="one">za 1 sekundu</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="other">Prije %d dana</item>
+        <item quantity="one">jučer</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="other">Prije %d h</item>
+        <item quantity="one">Prije 1 sata</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="other">Prije %d min</item>
+        <item quantity="one">prije 1 minutu</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="other">prije %d s</item>
+        <item quantity="one">Prije 1 sekundu</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">Izbrisat ćete odabrane datoteke i %d povezanih poruka</item>
+        <item quantity="one">Izbrisat ćete odabrane datoteke i povezanu poruku</item>
+        <item quantity="few">Izbrisat ćete odabrane datoteke i %d povezane poruke</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">Izbrisati poruke?</item>
+        <item quantity="one">Izbrisati poruku?</item>
+        <item quantity="few">Izbrisati poruke?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d novih obavijesti</item>
+        <item quantity="one">%d nova obavijest</item>
+        <item quantity="few">%d nove obavijesti</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">dana</item>
+        <item quantity="one">dan</item>
+        <item quantity="few">dana</item>
+    </plurals>
+    <plurals name="spam_counts">
+        <item quantity="other">%d prijava o spamu</item>
+        <item quantity="one">%d prijava o spamu</item>
+        <item quantity="few">%d prijave o spamu</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">poništi arhiviranje %s razgovora</item>
+        <item quantity="one">poništi arhiviranje %s razgovora</item>
+        <item quantity="few">poništi arhiviranje %s razgovora</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">Poruka primljeno</item>
+        <item quantity="one">Poruka primljena</item>
+        <item quantity="few">Poruke primljene</item>
+    </plurals>
+    <plurals name="voip_group_launcher_person">
+        <item quantity="other">sudionika</item>
+        <item quantity="one">sudionika</item>
+        <item quantity="few">sudionika</item>
+    </plurals>
+    <plurals name="voip_notification_missed_grouped_title">
+        <item quantity="other">%1$s propuštenih poziva</item>
+        <item quantity="one">%1$s propušteni poziv</item>
+        <item quantity="few">%1$s propuštena poziva</item>
+    </plurals>
+    <plurals name="voip_notification_title_other">
+        <item quantity="other">još %1$s</item>
+        <item quantity="one">još %1$s</item>
+        <item quantity="few">još %1$s</item>
+    </plurals>
+</resources>

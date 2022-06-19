@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/protection_wizard_passive_setup_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_2" android:scaleType="fitXY" android:foregroundGravity="bottom" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/fg_2" android:scaleType="center" android:foregroundGravity="bottom" />
+    <com.google.android.material.appbar.AppBarLayout android:background="#00ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+        <androidx.appcompat.widget.Toolbar android:id="@id/appToolbar" style="@style/WizardActionBar" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/textAppearanceSpartan" android:textSize="@dimen/fontBiggest2" android:textStyle="bold" android:textColor="@color/colorAccentLight" android:layout_width="fill_parent" android:text="@string/almost_done" style="@style/textViewStyleCenter" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontBig" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_marginLeft="@dimen/spaceBiggest" android:layout_marginRight="@dimen/spaceBiggest" android:text="@string/there_is_one_last_thing_the_app_needs_to_activate_your_protection" style="@style/textViewStyleCenter" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:id="@id/llMain" style="@style/llMainContent">
+        <LinearLayout style="@style/llSection">
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvRequiredActions" android:text="@string/required_actions" style="@style/textViewStyleSectionTitle" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llActionSystemPermissions" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:text="@string/allow_system_permissions_to_read_call_information" android:layout_weight="1.0" style="@style/textViewStyle" />
+                <Button android:id="@id/butActionSystemPermissions" android:text="@string/allow" style="@style/buttonAccent" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llActionOverlay" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:text="@string/allow_draw_over_other_apps" android:layout_weight="1.0" style="@style/textViewStyle" />
+                <Button android:id="@id/butActionOverlaySkip" android:layout_marginRight="@dimen/spaceMedium" android:text="@string/skip" style="@style/buttonBorderless" />
+                <Button android:id="@id/butActionOverlayAllow" android:text="@string/allow" style="@style/buttonAccent" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Debug subscriptions are always used for debug builds. The switch affects only release builds.             \nIf 0 set for period, it will be nullified             \nTo set introductory prices correctly - all fields should be filled.             \nIntroductory Period Cycles - the number of introductory price periods" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+        <Button android:id="@id/resetButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Reset" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+        <Button android:id="@id/saveButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Save subscriptions" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/enableSwitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Use debug subscriptions" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+        <com.truecaller.premium.util.DebugSubscriptionEditView android:id="@id/monthlyEditView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+        <com.truecaller.premium.util.DebugSubscriptionEditView android:id="@id/quarterlyEditView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+        <com.truecaller.premium.util.DebugSubscriptionEditView android:id="@id/halfYearlyEditView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+        <com.truecaller.premium.util.DebugSubscriptionEditView android:id="@id/yearlyEditView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+        <com.truecaller.premium.util.DebugSubscriptionEditView android:id="@id/welcomeEditView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+        <com.truecaller.premium.util.DebugSubscriptionEditView android:id="@id/goldEditView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+        <com.truecaller.premium.util.DebugSubscriptionEditView android:id="@id/consumableYearlyEditView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+        <com.truecaller.premium.util.DebugSubscriptionEditView android:id="@id/consumableHalfYearlyEditView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+        <com.truecaller.premium.util.DebugSubscriptionEditView android:id="@id/consumableQuarterlyEditView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+        <com.truecaller.premium.util.DebugSubscriptionEditView android:id="@id/consumableMonthlyEditView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+        <com.truecaller.premium.util.DebugSubscriptionEditView android:id="@id/consumableGoldEditView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" />
+    </LinearLayout>
+</ScrollView>

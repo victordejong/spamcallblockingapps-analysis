@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:material="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@id/appbarlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" material:elevation="3.0dip">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:background="?color_pdt_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" material:layout_scrollFlags="exitUntilCollapsed|scroll">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:orientation="vertical" android:id="@id/rl_bg" android:background="?colorPrimary" android:paddingBottom="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/ll_title" android:layout_width="fill_parent" android:layout_height="56.0dip">
+                        <com.callerid.block.customview.LImageButton android:layout_gravity="center_vertical" android:id="@id/lb_contact_back" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_back" android:tint="?icon_color_white" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" material:widget_animColor="?colorTabIndicator" />
+                        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                        <com.callerid.block.customview.LImageButton android:layout_gravity="center_vertical" android:id="@id/lb_contact_edit" android:padding="12.0dip" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="1.0dip" android:src="@drawable/add_block_number" android:tint="?icon_color_white" android:layout_marginEnd="1.0dip" material:widget_animColor="?colorTabIndicator" />
+                        <com.callerid.block.customview.LImageButton android:layout_gravity="center_vertical" android:id="@id/lb_contact_more" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ic_more" android:tint="?icon_color_white" android:layout_marginEnd="4.0dip" material:widget_animColor="?colorTabIndicator" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/ll_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_below="@id/ll_title">
+                        <ImageView android:layout_gravity="center_horizontal" android:id="@id/ic_contact_icon" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/avatar_float" android:scaleType="fitXY" />
+                        <TextView android:textSize="24.0sp" android:textColor="?color_title" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_name_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:text="" android:textIsSelectable="true" android:textDirection="ltr" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+                        <TextView android:textSize="12.0sp" android:textColor="?color_location" android:layout_gravity="center_horizontal" android:id="@id/tv_contact_location" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="16.0dip" android:text="" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+                        <TextView android:textSize="12.0sp" android:textColor="?color_location" android:layout_gravity="center_horizontal" android:id="@id/tv_contact_last_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="16.0dip" android:text="Spam" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/ll_contact_make" android:background="@drawable/kapianshi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="-40.0dip" android:layout_marginRight="8.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" android:backgroundTint="?color_ffffff">
+                    <FrameLayout android:id="@id/btn_call_number" android:layout_width="0.0dip" android:layout_height="wrap_content" android:foreground="?card_foreground" android:layout_weight="1.0">
+                        <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip">
+                            <ImageView android:id="@id/im_call" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/misscall_call_blue_24dp" android:layout_centerHorizontal="true" material:tint="?icon_color_blue" />
+                            <TextView android:textSize="14.0sp" android:textColor="?color_333333" android:id="@id/tv_call" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/dial" android:layout_below="@id/im_call" android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </FrameLayout>
+                    <FrameLayout android:id="@id/btn_sms" android:layout_width="0.0dip" android:layout_height="wrap_content" android:foreground="?card_foreground" android:layout_weight="1.0">
+                        <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip">
+                            <ImageView android:id="@id/im_sms" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_sms" android:layout_centerHorizontal="true" material:tint="?icon_color_blue" />
+                            <TextView android:textSize="14.0sp" android:textColor="?color_333333" android:id="@id/tv_sms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/message" android:layout_below="@id/im_sms" android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </FrameLayout>
+                    <FrameLayout android:id="@id/fl_whatsapp" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:foreground="?card_foreground" android:layout_weight="1.0">
+                        <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip">
+                            <ImageView android:id="@id/im_whatsapp" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/whatapplogo" android:layout_centerHorizontal="true" />
+                            <TextView android:textSize="14.0sp" android:textColor="?color_333333" android:id="@id/tv_whatsapp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="WhatsApp" android:layout_below="@id/im_whatsapp" android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </FrameLayout>
+                    <FrameLayout android:id="@id/btn_save" android:layout_width="0.0dip" android:layout_height="wrap_content" android:foreground="?card_foreground" android:layout_weight="1.0">
+                        <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip">
+                            <ImageView android:id="@id/im_save" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/misscall_save_blue_24dp" android:layout_centerHorizontal="true" material:tint="?icon_color_blue" />
+                            <TextView android:textSize="14.0sp" android:textColor="?color_333333" android:id="@id/tv_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/save_small" android:layout_below="@id/im_save" android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </FrameLayout>
+                    <FrameLayout android:id="@id/btn_block" android:layout_width="0.0dip" android:layout_height="wrap_content" android:foreground="?card_foreground" android:layout_weight="1.0">
+                        <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip">
+                            <ImageView android:id="@id/im_block" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/block_blue" android:layout_centerHorizontal="true" material:tint="?icon_color_blue" />
+                            <TextView android:textSize="14.0sp" android:textColor="?color_333333" android:id="@id/tv_block" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/block" android:layout_below="@id/im_block" android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:background="?color_pdt_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" material:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/kapianshi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:backgroundTint="?color_ffffff">
+                <FrameLayout android:id="@id/btn_call" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="16.0dip">
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/btn_call_blue" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/ic_missed_call" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" material:tint="?icon_color_blue" />
+                        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                            <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:id="@id/tv_contact_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:textDirection="ltr" />
+                            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                                <TextView android:textSize="14.0sp" android:textColor="?color_666666" android:id="@id/tv_contact_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                                <TextView android:textSize="14.0sp" android:textColor="?color_666666" android:id="@id/tv_dian" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" · " />
+                                <TextView android:textSize="14.0sp" android:textColor="?spam_text" android:id="@id/tv_is_block" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/blocked" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <com.callerid.block.customview.LImageButton android:layout_gravity="center_vertical" android:id="@id/btn_contact_sms" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_sms" android:tint="?icon_color_blue" material:widget_animColor="?colorTabIndicator" />
+                        <com.callerid.block.customview.LImageButton android:layout_gravity="center_vertical" android:id="@id/btn_whatsapp" android:padding="12.0dip" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/whatapplogo" material:widget_animColor="?colorTabIndicator" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <include android:id="@id/rl_call_announcer" android:visibility="gone" layout="@layout/call_announcer_layout" />
+            <FrameLayout android:id="@id/see_history" android:background="@drawable/kapianshi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:foreground="?card_foreground" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" android:backgroundTint="?color_ffffff">
+                <LinearLayout android:orientation="horizontal" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="16.0dip">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/btn_history_icon" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/calllog" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" material:tint="?icon_color_blue" />
+                    <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/btn_see_history" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/call_history" />
+                </LinearLayout>
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/invis1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+                <FrameLayout android:id="@id/flayout_detail_ad" android:background="@drawable/kapianshi" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

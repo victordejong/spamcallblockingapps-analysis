@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>OTP</item>
+        <item>Tranzakció</item>
+        <item>Egyéb</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>jan</item>
+        <item>feb</item>
+        <item>már</item>
+        <item>ápr</item>
+        <item>máj</item>
+        <item>jún</item>
+        <item>júl</item>
+        <item>aug</item>
+        <item>szep</item>
+        <item>okt</item>
+        <item>nov</item>
+        <item>dec</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>%s bejelentkezés</item>
+        <item>Regisztráció %s útján</item>
+        <item>%s bejelentkezés</item>
+        <item>Szám hitelesítése %s útján</item>
+        <item>Regisztráció %s útján</item>
+        <item>Kezdőlépések %s segítségével</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>Hívás</item>
+        <item>Profil megtekintése</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>Fontos</item>
+        <item>Sajnáljuk</item>
+        <item>Hol vagy?</item>
+        <item>Van egy kérdésem</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>egy</item>
+        <item>kettő</item>
+        <item>három</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>Üdv, 👋, sürgős 🚨</item>
+        <item>Üdv 👋 rendelése készen áll!</item>
+        <item>Szabad vagy éppen? Lent vagyok!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Csendes</item>
+        <item>Csak rezgés</item>
+        <item>Csak hang</item>
+        <item>Hang és rezgés</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>Használd a Flash-t, ha biztos választ vársz egy percen belül</item>
+        <item>Használd a Flash-t, ha fontos dolgot kívánsz közölni gyorsan</item>
+        <item>Tudtad? Helymeghatározási adataidat gyorsan, egy kattintással elküldheted</item>
+        <item>Tipp: Küldj emojit, vagy fejezd ki mondandódat szöveg beírásával</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>Rendezés személynév szerint</item>
+        <item>Rendezés vezetéknév szerint</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>Elmentve</item>
+        <item>Azonosítva</item>
+    </string-array>
+</resources>

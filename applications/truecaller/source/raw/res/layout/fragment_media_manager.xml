@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar" android:background="?tcx_backgroundPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/toolbar_elevation" />
+    <com.truecaller.common.ui.tablayout.TabLayoutX android:id="@id/tabsLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/toolbar_elevation" style="@style/StyleX.Tab" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

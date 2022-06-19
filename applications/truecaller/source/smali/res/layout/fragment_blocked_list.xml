@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_tcx_toolbar" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:background="?tcx_backgroundPrimary" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <ViewStub android:id="@id/empty_view" android:layout="@layout/view_empty_block_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="50.0dip" />
+    <com.truecaller.common.ui.fab.FloatingActionButton android:id="@id/floating_action_button_block_base" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="8.0dip" android:outlineProvider="background" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

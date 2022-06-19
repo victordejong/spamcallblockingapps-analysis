@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/mainContainer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageView" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@null" app:layout_constraintDimensionRatio="191:100" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/textView" android:layout_width="wrap_content" android:layout_marginBottom="@dimen/control_double_space" app:layout_constraintBottom_toBottomOf="@id/imageView" app:layout_constraintStart_toStartOf="parent" style="@style/Ads.Article.TextView.Sponsored" />
+</androidx.constraintlayout.widget.ConstraintLayout>

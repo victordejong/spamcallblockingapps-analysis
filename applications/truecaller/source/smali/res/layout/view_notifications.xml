@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.truecaller.ui.view.TintedImageView android:id="@id/listEmptyImage" android:visibility="gone" android:layout_marginTop="@dimen/control_quadspace" android:layout_centerHorizontal="true" android:contentDescription="@string/AppName" style="@style/Widget.Truecaller.ListEmptyImage" />
+    <TextView android:id="@id/listEmptyText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/listEmptyImage" android:layout_centerHorizontal="true" style="@style/StyleX.Text.Body.B1" />
+    <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/recyclerView" android:paddingTop="@dimen/control_extraspace" android:paddingBottom="@dimen/control_space" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/loading_indicator" android:padding="@dimen/control_space" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:layout_alignParentTop="true" android:layout_centerInParent="true" style="?android:progressBarStyleSmall" />
+</RelativeLayout>

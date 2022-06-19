@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.Truecaller.ListItem.Secondary.Ellipsize" android:textSize="24.0sp" android:gravity="center_vertical" android:id="@id/header_text" android:paddingLeft="@dimen/control_triplespace" android:paddingRight="@dimen/control_triplespace" android:layout_width="fill_parent" android:layout_height="@dimen/list_header_height" android:drawablePadding="@dimen/control_mini_space" />
+</FrameLayout>

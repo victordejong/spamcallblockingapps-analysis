@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="16.0dip" android:width="16.0dip" android:viewportWidth="16.0" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="?tcx_removeGroupBackgroundColor" android:pathData="M8,8m-7.5,0a7.5,7.5 0,1 1,15 0a7.5,7.5 0,1 1,-15 0" android:strokeColor="?tcx_backgroundPrimary" android:strokeWidth="1.0" />
+    <path android:fillColor="?tcx_backgroundPrimary" android:pathData="M11.1113,5.5155L10.4846,4.8888L8.0001,7.3732L5.5157,4.8888L4.889,5.5155L7.3735,7.9999L4.889,10.4843L5.5157,11.111L8.0001,8.6266L10.4846,11.111L11.1113,10.4843L8.6268,7.9999L11.1113,5.5155Z" />
+</vector>

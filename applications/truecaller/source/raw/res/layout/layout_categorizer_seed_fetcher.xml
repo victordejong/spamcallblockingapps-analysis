@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textColor="?tcx_textPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="App version" />
+        <EditText android:id="@id/appVersion" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp4" android:text="11.54.3" android:inputType="text" android:autofillHints="app version" style="@android:style/Widget.EditText" />
+        <TextView android:textColor="?tcx_textPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Country Code" />
+        <EditText android:id="@id/countryCode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp4" android:text="IN" android:inputType="text" android:autofillHints="Country Code" style="@android:style/Widget.EditText" />
+        <TextView android:textColor="?tcx_textPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Offset Version (Model version)" />
+        <EditText android:id="@id/offsetVersion" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp4" android:inputType="text" android:autofillHints="Offset version" style="@android:style/Widget.EditText" />
+        <Button android:id="@id/submitButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="submit" />
+        <TextView android:textColor="?tcx_textPrimary" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Fetch Result" />
+        <TextView android:id="@id/fetchResult" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dp4" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

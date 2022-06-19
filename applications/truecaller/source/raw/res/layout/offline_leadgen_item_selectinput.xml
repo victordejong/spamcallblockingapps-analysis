@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout android:id="@id/textInputLayout" style="@style/Ads.LeadGen.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatAutoCompleteTextView android:ellipsize="end" android:id="@id/autoCompleteTextView" android:focusable="false" android:focusableInTouchMode="false" android:cursorVisible="false" android:inputType="none" style="@style/Ads.LeadGen.TextInputLayout.TextInputEditText.AutoComplete" />
+</com.google.android.material.textfield.TextInputLayout>

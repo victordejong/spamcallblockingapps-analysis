@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/actions_layout" android:background="@drawable/background_tcx_rectangle_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space" android:layout_marginStart="@dimen/doubleSpace" android:layout_marginEnd="@dimen/doubleSpace" app:cardBackgroundColor="?tcx_backgroundPrimary" app:cardCornerRadius="2.0dip" app:cardElevation="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/actions_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/action_save" style="@style/Widget.Truecaller.ConversationAction.Item">
+            <com.truecaller.ui.view.TintedImageView android:src="@drawable/ic_save" style="@style/Widget.Truecaller.ConversationAction.Icon" />
+            <TextView android:id="@id/action_save_title" android:text="@string/ConversationTopSave" style="@style/Widget.Truecaller.ConversationAction.Text" />
+            <View style="@style/Widget.Truecaller.ConversationAction.Divider" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/action_block" style="@style/Widget.Truecaller.ConversationAction.Item">
+            <com.truecaller.ui.view.TintedImageView android:src="@drawable/ic_block" style="@style/Widget.Truecaller.ConversationAction.Icon" />
+            <TextView android:id="@id/action_block_title" android:text="@string/ConversationDetailsActionBlock" style="@style/Widget.Truecaller.ConversationAction.Text" />
+            <View style="@style/Widget.Truecaller.ConversationAction.Divider" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/action_unblock" style="@style/Widget.Truecaller.ConversationAction.Item">
+            <com.truecaller.ui.view.TintedImageView android:src="@drawable/ic_block" app:imgTint="?theme_spamColor" style="@style/Widget.Truecaller.ConversationAction.Icon" />
+            <TextView android:id="@id/action_unblock_title" android:text="@string/ConversationDetailsActionUnblock" style="@style/Widget.Truecaller.ConversationAction.Text" />
+            <View style="@style/Widget.Truecaller.ConversationAction.Divider" />
+        </FrameLayout>
+    </LinearLayout>
+    <com.truecaller.ui.view.TintedImageView android:layout_gravity="end|center|top" android:id="@id/button_close" android:background="?selectableItemBackground" android:paddingLeft="@dimen/semiSpace" android:paddingTop="@dimen/semiSpace" android:paddingRight="@dimen/semiSpace" android:paddingBottom="@dimen/semiSpace" android:layout_width="28.0dip" android:layout_height="28.0dip" app:imgTint="?tcx_textSecondary" app:srcCompat="@drawable/ic_close" />
+</FrameLayout>

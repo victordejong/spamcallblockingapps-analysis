@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>OTP</item>
+        <item>Transaktion</item>
+        <item>Andra</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>jan</item>
+        <item>feb</item>
+        <item>mar</item>
+        <item>apr</item>
+        <item>maj</item>
+        <item>jun</item>
+        <item>jul</item>
+        <item>aug</item>
+        <item>sep</item>
+        <item>okt</item>
+        <item>nov</item>
+        <item>dec</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Logga in på %s</item>
+        <item>Registrera dig med %s</item>
+        <item>Logga in på %s</item>
+        <item>Verifiera numret med %s</item>
+        <item>Registrera dig med %s</item>
+        <item>Kom igång med %s</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>Ring</item>
+        <item>Visa profil</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>Det är viktigt</item>
+        <item>Vi beklagar</item>
+        <item>Var är du?</item>
+        <item>Jag har en fråga</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>en</item>
+        <item>två</item>
+        <item>tre</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>Hej 👋, Det är viktigt 🚨</item>
+        <item>Hej 👋 Din beställning är redo!</item>
+        <item>Är du redo? Jag är där nere!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Ljudlös</item>
+        <item>Vibrera endast</item>
+        <item>Endast ljud</item>
+        <item>Ljud och vibration</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>Använd Flash när du vill vara säker på att få svar inom en minut</item>
+        <item>Använd Flash för viktiga saker du behöver säga snabbt</item>
+        <item>Visste du: du kan dela din platsinformation med ett enda klick</item>
+        <item>Tips: Skicka en emoji eller skriv in text för att uttrycka dig</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>Sortera efter förnamn</item>
+        <item>Sortera efter efternamn</item>
+    </string-array>
+    <string-array name="swish_flash_buttons">
+        <item>Tack</item>
+        <item>Toppen!</item>
+        <item>Coolt</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>Sparade</item>
+        <item>Identifierad</item>
+    </string-array>
+</resources>

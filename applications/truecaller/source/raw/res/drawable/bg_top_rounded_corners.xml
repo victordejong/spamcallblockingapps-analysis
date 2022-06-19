@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?tcx_backgroundPrimary" />
+    <stroke android:width="@dimen/dimen_one_dp" android:color="?tcx_backgroundPrimary" />
+    <corners android:radius="@dimen/dimen_one_dp" android:topLeftRadius="@dimen/normal_margin_spacing" android:topRightRadius="@dimen/normal_margin_spacing" android:bottomLeftRadius="@dimen/dimen_zero_dp" android:bottomRightRadius="@dimen/dimen_zero_dp" />
+</shape>

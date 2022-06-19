@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center|left" android:orientation="horizontal" android:id="@id/item" android:paddingLeft="16.0dip" android:paddingTop="4.0dip" android:paddingRight="16.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/next_arrow" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_next" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/detail" />
+    <TextView android:ellipsize="end" android:id="@id/group_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/textstub" android:lines="1" android:singleLine="true" android:layout_toLeftOf="@id/next_arrow" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/ListItemTextTitle" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+.class public final Lg/g/c/a/a/a/i$f;
+.super Lg/g/c/a/a/a/f;
+.source "SourceFile"
+
+# interfaces
+.implements Lg/g/c/a/a/a/i;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lg/g/c/a/a/a/i;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "f"
+.end annotation

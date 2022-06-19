@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.truecaller.common.ui.textview.GoldShineTextView android:textSize="12.0sp" android:textColor="?detailView_actionButtonColor" android:ellipsize="end" android:gravity="center" android:background="?selectableItemBackground" android:paddingLeft="@dimen/control_minispace" android:paddingTop="@dimen/control_space" android:paddingRight="@dimen/control_minispace" android:focusable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="1" android:drawablePadding="-8.0dip" android:layout_weight="1.0" android:textAllCaps="true" android:fontFamily="sans-serif-medium"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

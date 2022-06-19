@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@color/voip_in_app_notification_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/text_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sans-serif-medium" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="@id/guide_bottom" app:layout_constraintEnd_toStartOf="@id/chronometer" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <Chronometer android:textSize="14.0sp" android:textColor="@android:color/white" android:id="@id/chronometer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="@id/guide_bottom" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guide_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="32.0dip" />
+</merge>

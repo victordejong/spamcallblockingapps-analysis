@@ -1,0 +1,37 @@
+.class public final Le/a/f/z/a$d;
+.super Le/a/f/z/a;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Le/a/f/z/a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "d"
+.end annotation
+
+
+# instance fields
+.field public final d:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;II)V
+    .locals 1
+
+    const-string v0, "label"
+
+    invoke-static {p1, v0}, Ls1/z/c/l;->e(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 v0, 0x0
+
+    .line 1
+    invoke-direct {p0, p1, p3, p4, v0}, Le/a/f/z/a;-><init>(Ljava/lang/String;IILs1/z/c/f;)V
+
+    iput-object p2, p0, Le/a/f/z/a$d;->d:Ljava/lang/String;
+
+    return-void
+.end method

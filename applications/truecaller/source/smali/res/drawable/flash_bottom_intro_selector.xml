@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="2000" android:drawable="@drawable/flash_ic_incoming_flash" />
+    <item android:duration="2000" android:drawable="@drawable/flash_ic_flash_received" />
+    <item android:duration="4000" android:drawable="@drawable/flash_ic_reply_location" />
+</animation-list>

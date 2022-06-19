@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinatorLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbarLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_fix_behavior">
+        <com.callapp.contacts.widget.SearchAnimationToolbar android:id="@id/searchAnimationToolBar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="enterAlways|scroll" app:titleTextColor="@color/white_callapp" />
+        <com.google.android.material.tabs.TabLayout android:id="@id/tabLayout" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_48_dp" app:tabGravity="fill" app:tabIndicatorColor="@color/white_callapp" app:tabMode="fixed" app:tabTextAppearance="@style/TabsTextAppearance" app:tabTextColor="@color/grey_light" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.callapp.contacts.widget.PagingTogglableViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <FrameLayout android:id="@id/searchContainer" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <com.callapp.contacts.widget.sticky.SimpleStickyView android:layout_gravity="bottom" android:id="@id/sticky_recorder_test" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen_10_dp" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

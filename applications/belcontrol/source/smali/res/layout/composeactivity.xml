@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main_compose_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/top_nav" />
+    <LinearLayout android:orientation="vertical" android:id="@id/compose_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/changing_fontsize_layout" android:background="@color/panelColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/height_48dp">
+            <TextView android:gravity="center" android:id="@id/small_preview_label" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="A" android:layout_alignParentLeft="true" style="@style/composer_text" />
+            <TextView android:textSize="24.0sp" android:gravity="center" android:id="@id/big_preview_label" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="A" android:layout_alignParentRight="true" style="@style/composer_text" />
+            <SeekBar android:id="@id/seekBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="10" android:layout_toLeftOf="@id/big_preview_label" android:layout_toRightOf="@id/small_preview_label" android:layout_centerVertical="true" style="@style/colored_seekbar" />
+        </RelativeLayout>
+        <com.kedlin.cca.ui.ChipsAutocompleteTextView android:gravity="bottom|center|left" android:id="@id/participants" android:paddingLeft="16.0dip" android:paddingRight="8.0dip" android:focusableInTouchMode="true" android:visibility="visible" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:hint="@string/text_message_to" android:imeOptions="flagNoExtractUi" style="@style/composer_text" />
+        <RelativeLayout android:orientation="vertical" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:gravity="bottom" android:id="@id/send_frm" android:background="@color/panelColor" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/height_48dp" android:layout_alignParentBottom="true">
+                <ImageButton android:id="@id/send_btn" android:background="@android:color/transparent" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="wrap_content" android:layout_height="@dimen/height_48dp" android:src="@drawable/ic_action_send_now" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <EditText android:theme="@style/EditTextTheme" android:gravity="center|left" android:id="@id/message_text" android:focusableInTouchMode="true" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/height_48dp" android:hint="@string/compose_edittext_hint" android:maxLines="3" android:layout_toLeftOf="@id/send_btn" android:layout_centerInParent="true" android:inputType="textCapSentences|textMultiLine|textShortMessage" style="@style/composer_text" />
+            </RelativeLayout>
+            <ListView android:id="@android:id/list" android:paddingLeft="8.0dip" android:paddingTop="4.0dip" android:paddingRight="8.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stackFromBottom="true" android:divider="@android:color/transparent" android:layout_above="@id/send_frm" android:layout_alignParentTop="true" />
+            <HorizontalScrollView android:id="@id/part_container_scroll" android:background="@color/panelColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_above="@id/send_frm">
+                <LinearLayout android:orientation="horizontal" android:id="@id/part_container" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            </HorizontalScrollView>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center" android:id="@id/ask_for_permission_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/allow_sms_permission_title" style="@style/permissions_title" />
+        <TextView android:ellipsize="none" android:gravity="center" android:id="@id/empty" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/msg_listEmpty" style="@style/standard_color_and_text_size" />
+        <Button android:textSize="18.0sp" android:layout_gravity="center" android:id="@id/ask_for_permission_btn" android:paddingLeft="32.0dip" android:paddingRight="32.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_cc_allow_sms_permission" android:layout_centerHorizontal="true" style="@style/BlueBorderBtn" />
+    </LinearLayout>
+</LinearLayout>

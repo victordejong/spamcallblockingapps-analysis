@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/protection_wizard_active_setup_done_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bg_1" android:scaleType="fitXY" android:foregroundGravity="bottom" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/spaceBiggest" android:src="@drawable/fg_check" android:scaleType="center" android:foregroundGravity="bottom" />
+        <androidx.appcompat.widget.AppCompatTextView android:textAppearance="@style/textAppearanceSpartan" android:textSize="@dimen/fontBiggest2" android:textStyle="bold" android:textColor="@color/colorAccentLight" android:layout_width="fill_parent" android:text="@string/all_set" style="@style/textViewStyleCenter" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontBig" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_marginLeft="@dimen/spaceBiggest" android:layout_marginRight="@dimen/spaceBiggest" android:text="@string/that_s_it_now_you_can_block_spam_calls_or_allow_the_app_to_block_them_for_you_you_ll_find_your_blocking_options_in_app_s_settings" style="@style/textViewStyleCenter" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:id="@id/llMain" style="@style/llMainContent">
+        <Button android:layout_gravity="center" android:id="@id/butActionDefaultPhoneApp" android:text="@string/to_the_app" style="@style/buttonAccent" />
+    </LinearLayout>
+</FrameLayout>

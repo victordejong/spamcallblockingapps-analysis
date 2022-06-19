@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="245.0dip" android:width="136.0dip" android:viewportWidth="160.0" android:viewportHeight="288.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="Theme-picker" android:translateX="-100.0" android:translateY="-112.0">
+        <group android:name="Group-2" android:translateX="100.0" android:translateY="112.0">
+            <path android:name="Oval-1" android:fillColor="#ff90a4ad" android:pathData="M 28 64 C 34.627416998 64 40 69.372583002 40 76 C 40 82.627416998 34.627416998 88 28 88 C 21.372583002 88 16 82.627416998 16 76 C 16 69.372583002 21.372583002 64 28 64 Z" android:strokeWidth="1.0" android:fillType="evenOdd" />
+            <path android:name="Oval-2" android:fillColor="#ff90a4ad" android:pathData="M 28 104 C 34.627416998 104 40 109.372583002 40 116 C 40 122.627416998 34.627416998 128 28 128 C 21.372583002 128 16 122.627416998 16 116 C 16 109.372583002 21.372583002 104 28 104 Z" android:strokeWidth="1.0" android:fillType="evenOdd" />
+            <path android:name="phone_line_1" android:fillColor="#ff90a4ad" android:pathData="M 50 68 L 134 68 Q 136 68 136 70 L 136 70 Q 136 72 134 72 L 50 72 Q 48 72 48 70 L 48 70 Q 48 68 50 68 Z" android:strokeWidth="1.0" android:fillType="evenOdd" />
+            <path android:name="phone_line_2" android:fillColor="#ff90a4ad" android:pathData="M 50 80 L 94 80 Q 96 80 96 82 L 96 82 Q 96 84 94 84 L 50 84 Q 48 84 48 82 L 48 82 Q 48 80 50 80 Z" android:strokeWidth="1.0" android:fillType="evenOdd" />
+            <path android:name="phone_line_3" android:fillColor="#ff90a4ad" android:pathData="M 50 108 L 134 108 Q 136 108 136 110 L 136 110 Q 136 112 134 112 L 50 112 Q 48 112 48 110 L 48 110 Q 48 108 50 108 Z" android:strokeWidth="1.0" android:fillType="evenOdd" />
+            <path android:name="phone_line_4" android:fillColor="#ff90a4ad" android:pathData="M 50 120 L 94 120 Q 96 120 96 122 L 96 122 Q 96 124 94 124 L 50 124 Q 48 124 48 122 L 48 122 Q 48 120 50 120 Z" android:strokeWidth="1.0" android:fillType="evenOdd" />
+        </group>
+    </group>
+</vector>

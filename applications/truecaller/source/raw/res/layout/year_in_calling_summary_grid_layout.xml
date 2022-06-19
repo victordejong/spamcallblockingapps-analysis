@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:orientation="horizontal" android:background="#ffa6d5ff" android:layout_width="660.0dip" android:layout_height="660.0dip" android:rowCount="8" android:columnCount="2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/img_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_columnSpan="2" app:srcCompat="@drawable/img_sharable" />
+    <include android:id="@id/statItem1" android:layout_width="290.0dip" android:layout_height="88.0dip" android:layout_marginStart="30.0dip" layout="@layout/year_in_calling_grid_item" />
+    <include android:id="@id/statItem2" android:layout_width="290.0dip" android:layout_height="88.0dip" layout="@layout/year_in_calling_grid_item" />
+    <View android:layout_width="fill_parent" android:layout_height="6.0dip" android:layout_columnSpan="2" />
+    <include android:id="@id/statItem3" android:layout_width="290.0dip" android:layout_height="88.0dip" android:layout_marginStart="30.0dip" layout="@layout/year_in_calling_grid_item" />
+    <include android:id="@id/statItem4" android:layout_width="290.0dip" android:layout_height="88.0dip" layout="@layout/year_in_calling_grid_item" />
+    <View android:layout_width="fill_parent" android:layout_height="6.0dip" android:layout_columnSpan="2" />
+    <include android:id="@id/statItem5" android:layout_width="290.0dip" android:layout_height="88.0dip" android:layout_marginStart="30.0dip" layout="@layout/year_in_calling_grid_item" />
+    <include android:id="@id/statItem6" android:layout_width="290.0dip" android:layout_height="88.0dip" layout="@layout/year_in_calling_grid_item" />
+    <View android:layout_width="fill_parent" android:layout_height="6.0dip" android:layout_columnSpan="2" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="35.0dip" android:layout_columnSpan="2" android:layout_marginStart="58.0dip" android:layout_marginEnd="58.0dip">
+        <TextView android:textSize="24.0sp" android:textStyle="normal" android:textColor="#ff003f79" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/summary_conclusion_bold" android:layout_width="0.0dip" android:layout_height="18.0dip" android:text="@string/year_in_tc_square_summary_conclusion" android:maxLines="2" android:includeFontPadding="false" android:fontFamily="@font/montserrat_semibold" android:autoSizeTextType="uniform" app:autoSizeTextType="uniform" app:layout_constrainedHeight="true" app:layout_constrainedWidth="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/tc_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="31.0dip" android:tint="@color/stats_primary_color" android:minWidth="107.0dip" android:minHeight="20.0dip" app:layout_constrainedHeight="true" app:layout_constrainedWidth="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/summary_conclusion_bold" app:srcCompat="@drawable/ic_truecaller_logo_white" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</GridLayout>

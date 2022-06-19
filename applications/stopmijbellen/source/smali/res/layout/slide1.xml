@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom|center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/headerLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <ImageView android:layout_width="fill_parent" android:layout_height="50.0dip" android:src="@mipmap/ic_launcher" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/app_name" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/colorPrimary" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/versionName" />
+    </LinearLayout>
+    <ScrollView android:scrollbarThumbVertical="@drawable/scrollbar" android:scrollbarStyle="outsideInset" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/headerLayout">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/slide1_welcome" />
+            <TextView android:textSize="14.0sp" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/slide1_dontkillmyapp" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/colorPrimary" android:gravity="center_horizontal" android:id="@id/email_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/slide1_dontkillmyapp_url" />
+            <TextView android:layout_width="fill_parent" android:layout_height="14.0sp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

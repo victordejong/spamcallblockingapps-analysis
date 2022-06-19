@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/llMain" android:tag="layout/home_logs_number_item_0" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_height="65.0dip" style="@style/llListItemSelectable"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+        <FrameLayout android:id="@id/frameContactPhoto" android:layout_width="45.0dip" android:layout_height="45.0dip" android:contentDescription="@string/contact_details">
+            <com.makeramen.roundedimageview.RoundedImageView android:id="@id/imgContactPhoto" style="@style/imgContactPhoto2" />
+            <androidx.appcompat.widget.AppCompatTextView android:layout_gravity="center_vertical" android:id="@id/tvContactPhoto" android:padding="8.0dip" android:text="M" style="@style/textViewStyleInicials" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/imgRatingBig" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/imgRatingBig" />
+        </FrameLayout>
+        <LinearLayout android:layout_width="0.0dip" android:layout_marginLeft="@dimen/spaceSmall" android:layout_marginRight="@dimen/spaceSmall" android:layout_weight="1.0" style="@style/llParentWidth">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@id/imgRatingSmall" android:layout_width="15.0dip" android:layout_height="15.0dip" style="@style/imgRatingSmall" />
+                <ImageView android:layout_gravity="center" android:id="@id/imgBlockSmall" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/ic_block_white_24dp" android:tint="@color/ratingNegativeColorLight" style="@style/imgRatingSmall" />
+                <ImageView android:layout_gravity="center" android:id="@id/imgAllowSmall" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:src="@drawable/ic_done_white_48dp" android:tint="@color/ratingPositiveColorLight" style="@style/imgRatingSmall" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontBig" android:ellipsize="end" android:id="@id/tvCaption" android:layout_width="fill_parent" android:layout_marginLeft="@dimen/spaceSmallest" android:text="Test" android:maxLines="1" android:layout_weight="1.0" style="@style/listItemPrimaryText" />
+            </LinearLayout>
+            <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                <LinearLayout style="@style/llSimpleHorizontalCenterVertical">
+                    <ImageView android:id="@id/imgCallType" android:layout_width="16.0dip" android:layout_height="16.0dip" style="@style/imgColorable" />
+                    <ImageView android:id="@id/imgCallHistory1" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" style="@style/imgColorable" />
+                    <ImageView android:id="@id/imgCallHistory2" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" style="@style/imgColorable" />
+                </LinearLayout>
+                <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:id="@id/tvDescription" android:layout_marginLeft="@dimen/spaceSmallest" android:text="Test" android:maxLines="1" style="@style/listItemSecondaryText" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@id/flCall" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/butCall" android:background="@android:color/transparent" android:paddingTop="18.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/phone" android:scaleType="centerCrop" android:minWidth="0.0dip" android:minHeight="0.0dip" android:alpha="0.4" style="@style/buttonBorderlessColorable" />
+            <androidx.appcompat.widget.AppCompatTextView android:gravity="center" android:layout_gravity="center|top" android:id="@id/tvTime" android:text="time" style="@style/listItemSecondaryText" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

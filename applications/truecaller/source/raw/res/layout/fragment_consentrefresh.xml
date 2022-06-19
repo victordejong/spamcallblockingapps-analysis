@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/wizard_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tripleSpace" android:src="@drawable/ic_privacy_img" android:contentDescription="@null" />
+            <TextView android:gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" android:text="@string/Privacy_title" style="@style/Wizard.TextViewLegalTitle" />
+            <TextView android:gravity="start" android:id="@id/reminderText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space" style="@style/Wizard.TextViewLegal" />
+            <TextView android:gravity="start" android:id="@id/dateProcessedTitleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" android:text="@string/Privacy_data_title" style="@style/Wizard.TextViewLegalSubtitle" />
+            <TextView android:gravity="start" android:id="@id/dateProcessedText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Privacy_data_text" style="@style/Wizard.TextViewLegal" />
+            <TextView android:gravity="start" android:id="@id/dataUsedTitleText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" android:text="@string/Privacy_usage_title" style="@style/Wizard.TextViewLegalSubtitle" />
+            <TextView android:gravity="start" android:id="@id/dataUsedText" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Wizard.TextViewLegal" />
+        </LinearLayout>
+    </ScrollView>
+    <View android:background="@drawable/wizard_shadow_top" android:layout_width="fill_parent" android:layout_height="6.0dip" android:layout_marginTop="-6.0dip" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/legalFooterText" android:padding="@dimen/space" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Wizard.TextViewLegalSmall" />
+    <Button android:id="@id/moreInfoButton" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/ConsentRefreshMoreInfo" android:textAllCaps="false" style="@style/Wizard.Button.Borderless" />
+    <Button android:id="@id/agreeButton" android:text="@string/Privacy_agree_continue_button" style="@style/Wizard.ContinueButton" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <rotate android:drawable="@drawable/welcome_button" android:fromDegrees="180.0" android:toDegrees="0.0" />
+    </item>
+    <item android:drawable="@drawable/welcome_button" />
+</selector>

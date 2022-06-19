@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="57.0dip" android:layout_alignParentBottom="true">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="220.0dip">
+            <ImageView android:id="@id/iv_phone" android:layout_width="143.0dip" android:layout_height="220.0dip" android:src="@drawable/guide_phone1" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/iv_card" android:layout_width="213.0dip" android:layout_height="99.0dip" android:layout_marginTop="83.0dip" android:src="@drawable/card1" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="51.0dip" android:layout_marginRight="8.0dip" android:layout_centerHorizontal="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+            <TextView android:textSize="24.0sp" android:textColor="#de000000" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/guide_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/guide_tip1" android:lineSpacingExtra="2.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="#b3000000" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/guide_tips_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/guide_tip1_content" android:lineSpacingExtra="2.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

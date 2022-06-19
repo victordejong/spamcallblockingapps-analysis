@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?tcx_textTertiary" android:layout_gravity="center" android:id="@id/header" android:background="@drawable/bg_smart_feed_section_header" android:paddingTop="@dimen/dp4" android:paddingBottom="@dimen/dp4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:paddingStart="@dimen/dp8" android:paddingEnd="@dimen/dp8" style="@style/StyleX.Text.Caption.SectionHeader" />
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_dialog" android:background="?bg_dialog_rate_new" android:visibility="visible" android:layout_width="328.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="101.0dip">
+            <ImageView android:id="@id/iv_spam_icon" android:layout_width="94.0dip" android:layout_height="72.0dip" android:layout_marginTop="39.0dip" android:src="@drawable/pro_pic" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@id/iv_close" android:background="@drawable/card_foreground" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_tag_close" android:layout_alignParentLeft="true" android:contentDescription="@string/close" android:layout_alignParentStart="true" app:tint="?icon_color_gray" />
+            <ImageView android:id="@id/setwallpaper" android:background="?card_foreground" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_more" android:layout_alignParentRight="true" android:contentDescription="@string/more" android:layout_alignParentEnd="true" app:tint="?icon_color_gray" />
+        </RelativeLayout>
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="48.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="?color_333333" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:text="@string/upgrade_to_premium" android:layout_marginStart="14.0dip" />
+                <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:id="@id/tv_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="8.0dip" android:text="@string/here_what_you_get" android:layout_marginStart="14.0dip" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="16.0dip" android:layout_marginStart="14.0dip">
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/iv_all_basic" />
+                    <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tv_all_basic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/all_basic_features" android:layout_marginStart="8.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="16.0dip" android:layout_marginStart="14.0dip">
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/iv_auto_block" />
+                    <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tv_auto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/automatic_spam_blocking" android:layout_marginStart="8.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="16.0dip" android:layout_marginStart="14.0dip">
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/iv_no_ads" />
+                    <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tv_no_ads" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/no_ads" android:layout_marginStart="8.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="48.0dip" android:layout_marginStart="14.0dip">
+                    <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ringtone_24dp" />
+                    <TextView android:textSize="16.0sp" android:textColor="?color_333333" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tv_no_limit_video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/no_limit_video" android:layout_marginStart="8.0dip" />
+                </LinearLayout>
+                <FrameLayout android:id="@id/rl_month" android:layout_width="fill_parent" android:layout_height="56.0dip" android:foreground="@drawable/card_foreground">
+                    <RelativeLayout android:background="@drawable/bg_month_sub" android:layout_width="fill_parent" android:layout_height="56.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="#ff0084ff" android:id="@id/tv_one_month" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/monthly" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+                        <TextView android:textSize="16.0sp" android:textColor="#ff0084ff" android:id="@id/tv_month" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="@string/tv_ad_price_month" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+                        <TextView android:textSize="14.0sp" android:textColor="@color/colorPrimary" android:id="@id/tv_month_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$1.99" android:layout_toLeftOf="@id/tv_month" android:layout_centerVertical="true" android:layout_toStartOf="@id/tv_month" />
+                    </RelativeLayout>
+                </FrameLayout>
+                <RelativeLayout android:id="@id/rl_year_layout" android:layout_width="fill_parent" android:layout_height="73.0dip" android:layout_marginTop="8.0dip">
+                    <FrameLayout android:id="@id/rl_year" android:layout_width="fill_parent" android:layout_height="73.0dip" android:foreground="@drawable/card_foreground" android:layout_alignParentBottom="true">
+                        <RelativeLayout android:background="@drawable/bg_year_sub" android:layout_width="fill_parent" android:layout_height="73.0dip">
+                            <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/tv_one_year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/sub_yearly" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+                            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true">
+                                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/tv_year_price_one" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:text="$9.99" android:layout_marginEnd="2.0dip" />
+                                    <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/tv_year_one" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tv_ad_price" />
+                                </LinearLayout>
+                                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/tv_year_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:text="$1.08" android:layout_marginEnd="2.0dip" />
+                                    <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/tv_year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tv_ad_price_month" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </RelativeLayout>
+                    </FrameLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_half_off" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="20.0dip" android:paddingStart="8.0dip" android:paddingEnd="8.0dip">
+                        <TextView android:textSize="12.0sp" android:textColor="#ff333333" android:layout_gravity="center_vertical" android:id="@id/tv_half_off" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:text="@string/fifty_percent" android:layout_marginEnd="4.0dip" />
+                        <TextView android:textSize="10.0sp" android:textColor="#ff333333" android:layout_gravity="center_vertical" android:id="@id/tv_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sub_save" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <TextView android:textSize="14.0sp" android:textColor="#99666666" android:layout_gravity="center_horizontal" android:id="@id/tv_learn_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/tv_ad_notice" />
+                <TextView android:textSize="14.0sp" android:textColor="#99666666" android:layout_gravity="center_horizontal" android:id="@id/tv_restore" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/restore" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

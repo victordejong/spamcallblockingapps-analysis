@@ -1,0 +1,259 @@
+.class public Lcom/liulishuo/filedownloader/services/FileDownloadService;
+.super Landroid/app/Service;
+.source ""
+
+
+# annotations
+.annotation build Landroid/annotation/SuppressLint;
+    value = {
+        "Registered"
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/liulishuo/filedownloader/services/FileDownloadService$SeparateProcessService;,
+        Lcom/liulishuo/filedownloader/services/FileDownloadService$SharedMainProcessService;
+    }
+.end annotation
+
+
+# instance fields
+.field private b:Lcom/liulishuo/filedownloader/services/j;
+
+.field private c:Le/e/a/a0;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Landroid/app/Service;-><init>()V
+
+    return-void
+.end method
+
+.method private a(Landroid/content/Intent;)V
+    .locals 5
+
+    if-nez p1, :cond_0
+
+    return-void
+
+    :cond_0
+    const-string v0, "is_foreground"
+
+    const/4 v1, 0x0
+
+    invoke-virtual {p1, v0, v1}, Landroid/content/Intent;->getBooleanExtra(Ljava/lang/String;Z)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_3
+
+    invoke-static {}, Lcom/liulishuo/filedownloader/download/c;->j()Lcom/liulishuo/filedownloader/download/c;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lcom/liulishuo/filedownloader/download/c;->h()Lcom/liulishuo/filedownloader/services/i;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Lcom/liulishuo/filedownloader/services/i;->f()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
+
+    const/16 v2, 0x1a
+
+    if-lt v0, v2, :cond_2
+
+    new-instance v0, Landroid/app/NotificationChannel;
+
+    invoke-virtual {p1}, Lcom/liulishuo/filedownloader/services/i;->c()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-virtual {p1}, Lcom/liulishuo/filedownloader/services/i;->d()Ljava/lang/String;
+
+    move-result-object v3
+
+    const/4 v4, 0x2
+
+    invoke-direct {v0, v2, v3, v4}, Landroid/app/NotificationChannel;-><init>(Ljava/lang/String;Ljava/lang/CharSequence;I)V
+
+    const-string v2, "notification"
+
+    invoke-virtual {p0, v2}, Landroid/app/Service;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Landroid/app/NotificationManager;
+
+    if-nez v2, :cond_1
+
+    return-void
+
+    :cond_1
+    invoke-virtual {v2, v0}, Landroid/app/NotificationManager;->createNotificationChannel(Landroid/app/NotificationChannel;)V
+
+    :cond_2
+    invoke-virtual {p1}, Lcom/liulishuo/filedownloader/services/i;->e()I
+
+    move-result v0
+
+    invoke-virtual {p1, p0}, Lcom/liulishuo/filedownloader/services/i;->b(Landroid/content/Context;)Landroid/app/Notification;
+
+    move-result-object v2
+
+    invoke-virtual {p0, v0, v2}, Landroid/app/Service;->startForeground(ILandroid/app/Notification;)V
+
+    sget-boolean v0, Le/e/a/h0/d;->a:Z
+
+    if-eqz v0, :cond_3
+
+    const/4 v0, 0x1
+
+    new-array v0, v0, [Ljava/lang/Object;
+
+    aput-object p1, v0, v1
+
+    const-string p1, "run service foreground with config: %s"
+
+    invoke-static {p0, p1, v0}, Le/e/a/h0/d;->a(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;)V
+
+    :cond_3
+    return-void
+.end method
+
+
+# virtual methods
+.method public onBind(Landroid/content/Intent;)Landroid/os/IBinder;
+    .locals 1
+
+    iget-object v0, p0, Lcom/liulishuo/filedownloader/services/FileDownloadService;->b:Lcom/liulishuo/filedownloader/services/j;
+
+    invoke-interface {v0, p1}, Lcom/liulishuo/filedownloader/services/j;->h0(Landroid/content/Intent;)Landroid/os/IBinder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public onCreate()V
+    .locals 3
+
+    invoke-super {p0}, Landroid/app/Service;->onCreate()V
+
+    invoke-static {p0}, Le/e/a/h0/c;->b(Landroid/content/Context;)V
+
+    :try_start_0
+    invoke-static {}, Le/e/a/h0/e;->a()Le/e/a/h0/e;
+
+    move-result-object v0
+
+    iget v0, v0, Le/e/a/h0/e;->a:I
+
+    invoke-static {v0}, Le/e/a/h0/f;->T(I)V
+
+    invoke-static {}, Le/e/a/h0/e;->a()Le/e/a/h0/e;
+
+    move-result-object v0
+
+    iget-wide v0, v0, Le/e/a/h0/e;->b:J
+
+    invoke-static {v0, v1}, Le/e/a/h0/f;->U(J)V
+    :try_end_0
+    .catch Ljava/lang/IllegalAccessException; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :catch_0
+    move-exception v0
+
+    invoke-virtual {v0}, Ljava/lang/IllegalAccessException;->printStackTrace()V
+
+    :goto_0
+    new-instance v0, Lcom/liulishuo/filedownloader/services/g;
+
+    invoke-direct {v0}, Lcom/liulishuo/filedownloader/services/g;-><init>()V
+
+    invoke-static {}, Le/e/a/h0/e;->a()Le/e/a/h0/e;
+
+    move-result-object v1
+
+    iget-boolean v1, v1, Le/e/a/h0/e;->d:Z
+
+    if-eqz v1, :cond_0
+
+    new-instance v1, Lcom/liulishuo/filedownloader/services/e;
+
+    new-instance v2, Ljava/lang/ref/WeakReference;
+
+    invoke-direct {v2, p0}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+
+    invoke-direct {v1, v2, v0}, Lcom/liulishuo/filedownloader/services/e;-><init>(Ljava/lang/ref/WeakReference;Lcom/liulishuo/filedownloader/services/g;)V
+
+    goto :goto_1
+
+    :cond_0
+    new-instance v1, Lcom/liulishuo/filedownloader/services/d;
+
+    new-instance v2, Ljava/lang/ref/WeakReference;
+
+    invoke-direct {v2, p0}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+
+    invoke-direct {v1, v2, v0}, Lcom/liulishuo/filedownloader/services/d;-><init>(Ljava/lang/ref/WeakReference;Lcom/liulishuo/filedownloader/services/g;)V
+
+    :goto_1
+    iput-object v1, p0, Lcom/liulishuo/filedownloader/services/FileDownloadService;->b:Lcom/liulishuo/filedownloader/services/j;
+
+    invoke-static {}, Le/e/a/a0;->a()V
+
+    new-instance v0, Le/e/a/a0;
+
+    iget-object v1, p0, Lcom/liulishuo/filedownloader/services/FileDownloadService;->b:Lcom/liulishuo/filedownloader/services/j;
+
+    check-cast v1, Le/e/a/f0/b;
+
+    invoke-direct {v0, v1}, Le/e/a/a0;-><init>(Le/e/a/f0/b;)V
+
+    iput-object v0, p0, Lcom/liulishuo/filedownloader/services/FileDownloadService;->c:Le/e/a/a0;
+
+    invoke-virtual {v0}, Le/e/a/a0;->d()V
+
+    return-void
+.end method
+
+.method public onDestroy()V
+    .locals 1
+
+    iget-object v0, p0, Lcom/liulishuo/filedownloader/services/FileDownloadService;->c:Le/e/a/a0;
+
+    invoke-virtual {v0}, Le/e/a/a0;->e()V
+
+    const/4 v0, 0x1
+
+    invoke-virtual {p0, v0}, Landroid/app/Service;->stopForeground(Z)V
+
+    invoke-super {p0}, Landroid/app/Service;->onDestroy()V
+
+    return-void
+.end method
+
+.method public onStartCommand(Landroid/content/Intent;II)I
+    .locals 1
+
+    iget-object v0, p0, Lcom/liulishuo/filedownloader/services/FileDownloadService;->b:Lcom/liulishuo/filedownloader/services/j;
+
+    invoke-interface {v0, p1, p2, p3}, Lcom/liulishuo/filedownloader/services/j;->M1(Landroid/content/Intent;II)V
+
+    invoke-direct {p0, p1}, Lcom/liulishuo/filedownloader/services/FileDownloadService;->a(Landroid/content/Intent;)V
+
+    const/4 p1, 0x1
+
+    return p1
+.end method

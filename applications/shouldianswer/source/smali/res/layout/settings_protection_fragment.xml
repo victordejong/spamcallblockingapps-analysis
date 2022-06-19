@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/settings_protection_fragment_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.Toolbar android:id="@id/appToolbar" style="@style/appBarToolbar" />
+            </com.google.android.material.appbar.AppBarLayout>
+            <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                <LinearLayout style="@style/llMainContent">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" style="@style/llSection">
+                        <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:text="@string/please_choose_level_of_protection_and_type_of_alerts_then_follow_instructions_described_in_required_actions" android:layout_weight="1.0" style="@style/textViewStyle" />
+                        <ImageButton android:id="@id/butProtectionMoreInfo" style="@style/buttonHelp" />
+                    </LinearLayout>
+                    <LinearLayout style="@style/llSection">
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:text="@string/protection_type" style="@style/textViewStyleSectionTitle" />
+                            <ImageButton android:id="@id/butProtectionTypeInfo" style="@style/buttonHelp" />
+                            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                            <Button android:id="@id/butChangeProtectionType" android:text="@string/change" style="@style/buttonBorderless" />
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvSelectedProtectionType" android:paddingLeft="@dimen/spaceBiggest" android:layout_width="fill_parent" android:text="selected protection level" style="@style/textViewStyle" />
+                        <RadioGroup android:id="@id/radioGroupProtection" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                                <RadioButton android:id="@id/checkActiveProtection" android:layout_width="0.0dip" android:text="@string/active_protection" android:layout_weight="1.0" style="@style/switchParentWidth" />
+                                <ImageButton android:id="@id/butActiveProtectionMoreInfo" style="@style/buttonHelp" />
+                            </LinearLayout>
+                            <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                                <RadioButton android:id="@id/checkPasiveProtection" android:layout_width="0.0dip" android:text="@string/passive_protection" android:layout_weight="1.0" style="@style/switchParentWidth" />
+                                <ImageButton android:id="@id/butPassiveProtectionMoreInfo" style="@style/buttonHelp" />
+                            </LinearLayout>
+                            <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+                                <RadioButton android:id="@id/checkNoProtection" android:layout_width="0.0dip" android:text="@string/no_protection" android:layout_weight="1.0" style="@style/switchParentWidth" />
+                                <ImageButton android:id="@id/butNoProtectionMoreInfo" style="@style/buttonHelp" />
+                            </LinearLayout>
+                        </RadioGroup>
+                    </LinearLayout>
+                    <LinearLayout style="@style/llSection">
+                        <LinearLayout android:orientation="horizontal" android:id="@id/llAlertsTypeTitle" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:text="@string/alerts_type" style="@style/textViewStyleSectionTitle" />
+                            <ImageButton android:id="@id/butAlertsTypeInfo" style="@style/buttonHelp" />
+                            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                            <Button android:id="@id/butChangeAlertsType" android:text="@string/change" style="@style/buttonBorderless" />
+                        </LinearLayout>
+                        <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvSelectedAlertsType" android:paddingLeft="@dimen/spaceBiggest" android:layout_width="fill_parent" android:text="selected alerts type" style="@style/textViewStyle" />
+                        <RadioGroup android:id="@id/radioGroupAlerts" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout android:id="@id/llInCallScreen" style="@style/llParentWidthHorizontal">
+                                <RadioButton android:id="@id/checkIncallScreen" android:layout_width="0.0dip" android:text="@string/custom_call_screen" android:layout_weight="1.0" style="@style/switchParentWidth" />
+                                <ImageButton android:id="@id/butInCallScreenMoreInfo" style="@style/buttonHelp" />
+                            </LinearLayout>
+                            <LinearLayout style="@style/llParentWidthHorizontal">
+                                <RadioButton android:id="@id/checkPopup" android:layout_width="0.0dip" android:text="@string/popup_in_front_of_system_call_screen" android:layout_weight="1.0" style="@style/switchParentWidth" />
+                                <ImageButton android:id="@id/butPopupMoreInfo" style="@style/buttonHelp" />
+                            </LinearLayout>
+                            <androidx.appcompat.widget.AppCompatTextView android:textColor="#ffcccccc" android:id="@id/tvPopupNotSupported" android:paddingLeft="@dimen/spaceBiggest" android:layout_width="fill_parent" android:text="@string/this_feature_is_not_available_on_android_6_devices" style="@style/textViewStyleSecondary" />
+                            <LinearLayout style="@style/llParentWidthHorizontal">
+                                <RadioButton android:id="@id/checkNotification" android:layout_width="0.0dip" android:text="@string/system_notification" android:layout_weight="1.0" style="@style/switchParentWidth" />
+                                <ImageButton android:id="@id/butSystemNotificationMoreInfo" style="@style/buttonHelp" />
+                            </LinearLayout>
+                            <androidx.appcompat.widget.AppCompatTextView android:textColor="#ffcccccc" android:id="@id/tvNotificationNotSupported" android:paddingLeft="@dimen/spaceBiggest" android:layout_width="fill_parent" android:text="@string/this_feature_is_not_available_on_android_6_devices" style="@style/textViewStyleSecondary" />
+                        </RadioGroup>
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/llRequiredActions" style="@style/llSection">
+                        <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvRequiredActions" android:text="@string/required_actions" style="@style/textViewStyleSectionTitle" />
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llActionCallScreening" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:text="@string/set_application_for_call_screening" android:layout_weight="1.0" style="@style/textViewStyle" />
+                            <Button android:id="@id/butActionCallScreening" android:text="@string/set" style="@style/buttonAccent" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llActionDefaultPhoneApp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:text="@string/set_application_as_default_phone_app" android:layout_weight="1.0" style="@style/textViewStyle" />
+                            <Button android:id="@id/butActionDefaultPhoneApp" android:text="@string/set" style="@style/buttonAccent" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llActionSystemPermissions" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:text="@string/allow_system_permissions_to_read_call_information" android:layout_weight="1.0" style="@style/textViewStyle" />
+                            <ImageButton android:id="@id/butActionPermissionsMoreInfo" style="@style/buttonHelp" />
+                            <Button android:id="@id/butActionSystemPermissions" android:layout_marginLeft="@dimen/spaceMedium" android:text="@string/allow" style="@style/buttonAccent" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llActionOverlay" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:text="@string/allow_draw_over_other_apps" android:layout_weight="1.0" style="@style/textViewStyle" />
+                            <Button android:id="@id/butActionOverlay" android:text="@string/allow" style="@style/buttonAccent" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/llConfirmation" android:background="?colorCardBackground" android:padding="@dimen/spaceSmall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="15.0dip">
+        <Button android:layout_gravity="center" android:id="@id/butConfirmChanges" android:text="@string/confirm_changes" style="@style/buttonAccent" />
+    </LinearLayout>
+</LinearLayout>

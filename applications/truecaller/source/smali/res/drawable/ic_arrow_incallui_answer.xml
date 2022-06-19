@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/incallui_arrow_drawable_height" android:width="@dimen/incallui_arrow_drawable_width" android:drawable="@drawable/ic_tcx_arrow" />
+    <item android:height="@dimen/incallui_arrow_drawable_height" android:width="@dimen/incallui_arrow_drawable_width" android:drawable="@drawable/ic_tcx_arrow" android:top="@dimen/incallui_arrow_drawable_top_margin_1" />
+    <item android:height="@dimen/incallui_arrow_drawable_height" android:width="@dimen/incallui_arrow_drawable_width" android:drawable="@drawable/ic_tcx_arrow" android:top="@dimen/incallui_arrow_drawable_top_margin_2" />
+</layer-list>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content_view_big" android:background="@android:color/white" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewFlipper android:id="@id/carousel_image" android:layout_width="fill_parent" android:layout_height="140.0dip" android:inAnimation="@anim/fade_in" android:outAnimation="@anim/fade_out" android:layout_weight="4.5" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/buy_price" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="4.0dip" android:layout_weight="3.0">
+            <TextView android:textAppearance="@style/PushTitle" android:gravity="center" android:id="@id/product_name" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="\ 1234567890123456" android:layout_weight="2.0" />
+            <Button android:textAppearance="@style/PushMessage" android:textColor="@android:color/white" android:id="@id/product_action" android:background="@android:color/holo_red_dark" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Buy Now" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_weight="3.0">
+            <ImageView android:id="@id/small_image1" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_weight="1.0" android:layout_marginStart="-5.0dip" android:layout_marginEnd="2.0dip" />
+            <ImageView android:id="@id/small_image2" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_weight="1.0" />
+            <ImageView android:id="@id/small_image3" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_weight="1.0" android:layout_marginEnd="-4.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

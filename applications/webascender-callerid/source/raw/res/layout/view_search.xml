@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:id="@id/toolBar" android:layout_width="fill_parent" android:layout_height="@dimen/local_toolbar_height" app:contentInsetStart="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SearchView android:id="@id/searchView" android:background="@drawable/white_rounded_corners" android:focusable="false" android:layout_width="fill_parent" android:layout_height="@dimen/search_view_height" android:layout_marginRight="10.0dip" android:layout_centerHorizontal="true" android:iconifiedByDefault="false" android:queryHint="@string/search_bar_hint" android:elevation="@dimen/default_elevation" android:queryBackground="@android:color/transparent"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</androidx.appcompat.widget.Toolbar>

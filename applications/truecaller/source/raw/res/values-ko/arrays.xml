@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DialogReportNotSpamOptions">
+        <item>OTP</item>
+        <item>거래</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>1월</item>
+        <item>2월</item>
+        <item>3월</item>
+        <item>4월</item>
+        <item>5월</item>
+        <item>6월</item>
+        <item>7월</item>
+        <item>8월</item>
+        <item>9월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>%s에 로그인</item>
+        <item>%s(으)로 가입</item>
+        <item>%s에 로그인</item>
+        <item>%s(으)로 번호 인증</item>
+        <item>%s(으)로 등록</item>
+        <item>%s(으)로 시작하기</item>
+    </string-array>
+    <string-array name="SettingsTapInCallBehaviorVariants">
+        <item>통화</item>
+        <item>프로필 보기</item>
+    </string-array>
+    <string-array name="context_call_picker_reasons_ondemand">
+        <item>중요합니다</item>
+        <item>죄송합니다</item>
+        <item>어디에 있나요?</item>
+        <item>질문이 있습니다</item>
+    </string-array>
+    <string-array name="context_call_reason_placeholder_positions">
+        <item>하나</item>
+        <item>둘</item>
+        <item>셋</item>
+    </string-array>
+    <string-array name="context_call_reason_tips">
+        <item>안녕하세요 👋 님, 급한 🚨입니다</item>
+        <item>안녕하세요 👋 님, 주문이 준비되었습니다!</item>
+        <item>지금 시간이 있으세요? 내려가고 있습니다!</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>무음</item>
+        <item>진동만</item>
+        <item>소리만</item>
+        <item>소리 및 진동</item>
+    </string-array>
+    <string-array name="flash_tips">
+        <item>바로 응답을 원할 때는 Flash를 사용하세요.</item>
+        <item>중요한 것을 빠르게 말하려면 Flash를 사용하세요.</item>
+        <item>아시나요? 탭 한 번으로 귀하의 위치를 빠르게 공유할 수 있어요.</item>
+        <item>팁: 이모티콘을 보내거나 텍스트를 입력해서 자신을 표현하세요.</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="sorting_modes">
+        <item>이름으로 정렬</item>
+        <item>성으로 정렬</item>
+    </string-array>
+    <string-array name="tab_titles">
+        <item>저장됨</item>
+        <item>식별됨</item>
+    </string-array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:tag="layout/settings_reported_numbers_item_0" style="@style/llListItemSelectable"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/llParentWidthHorizontalCenterVertical">
+        <ImageView android:layout_gravity="top" android:id="@id/imgRating" android:padding="@dimen/spaceSmallest" style="@style/imgRatingSmall" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontBig" android:textStyle="bold" android:id="@id/tvNumber" android:text="Numer" style="@style/listItemPrimaryText" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontBig" android:id="@id/tvCategory" android:text="Category" style="@style/listItemPrimaryText" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/fontMedium" android:id="@id/tvComment" android:text="Comment" style="@style/listItemPrimaryText" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

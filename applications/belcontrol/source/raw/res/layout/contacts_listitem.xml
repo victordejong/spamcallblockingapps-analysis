@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/item" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/section_placeholder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/front" android:layout_width="wrap_content" android:layout_height="?android:listPreferredItemHeight" android:layout_marginRight="-96.0dip">
+        <RelativeLayout android:layout_gravity="top" android:id="@id/cell" android:background="@color/global_background_color" android:paddingLeft="16.0dip" android:paddingTop="4.0dip" android:paddingRight="16.0dip" android:paddingBottom="4.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="96.0dip">
+            <ImageView android:id="@id/contact_image" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_contact_placeholder" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/contactImagePlaceholder" />
+            <ImageView android:id="@id/blocked_mask" android:visibility="invisible" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/contact_blocked_mask" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/contactImagePlaceholder" />
+            <ImageView android:id="@id/contact_mask" android:visibility="visible" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_contact_mask" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/contactImagePlaceholder" />
+            <LinearLayout android:orientation="vertical" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_toRightOf="@id/contact_image" android:layout_centerVertical="true">
+                <TextView android:ellipsize="end" android:gravity="left" android:id="@id/contact_name" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/textstub" android:singleLine="true" style="@style/ListItemTextTitle" />
+                <TextView android:ellipsize="end" android:gravity="left" android:id="@id/phone" android:paddingLeft="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/textstub" android:singleLine="true" style="@style/ListItemTextSecondLine" />
+            </LinearLayout>
+            <ImageView android:gravity="center" android:id="@id/next_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_next" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/detail" />
+        </RelativeLayout>
+        <TextView android:id="@id/delete" android:layout_width="96.0dip" android:layout_height="fill_parent" android:layout_marginLeft="-96.0dip" android:text="@string/menu_item_delete" style="@style/DeleteBtn" />
+    </LinearLayout>
+</LinearLayout>

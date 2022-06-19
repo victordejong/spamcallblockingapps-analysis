@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">บล็อกและรายงาน %d หมายเลขเป็นสแปมหรือไม่?</item>
+    </plurals>
+    <plurals name="ConversationCallsHistoryCount">
+        <item quantity="other">%d สาย</item>
+    </plurals>
+    <plurals name="ConversationFlashHistoryCount">
+        <item quantity="other">ข้อความ Flash %d</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">ข้อความถูกเพิ่มไปที่แท็บสำคัญแล้ว</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d การสนทนา ถูกทำเครื่องหมายว่าอ่านแล้ว</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">%d รายการ ถูกลบแล้ว</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">ลบ %d รายการ?</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">ปักหมุดการสนทนาแล้ว</item>
+    </plurals>
+    <plurals name="ConversationReportNotSpamConfirmation">
+        <item quantity="other">%d ข้อความ ได้รับการรายงานว่าไม่ใช่สแปม</item>
+    </plurals>
+    <plurals name="ConversationReportSpamConfirmation">
+        <item quantity="other">%d ข้อความ ถูกรายงานว่าเป็นสแปม</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">บันทึกรายชื่อผู้ติดต่อทั้งหมด</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">เลิกปักหมุดการสนทนาแล้ว</item>
+    </plurals>
+    <plurals name="DeleteConversationsConfirmation">
+        <item quantity="other">%d การสนทนาถูกลบแล้ว</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">ลบ %d การสนทนาหรือไม่?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">%d หมายเลขถูกระบุ</item>
+    </plurals>
+    <plurals name="HistoryActionConfirmDeleteMessage">
+        <item quantity="other">ลบ %d รายการใช่หรือไม่?</item>
+    </plurals>
+    <plurals name="HistoryActionDeleted">
+        <item quantity="other">%d รายการ ถูกลบแล้ว</item>
+    </plurals>
+    <plurals name="HistoryActionSelected">
+        <item quantity="other">%d รายการถูกเลือกแล้ว</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">คุณแน่ใจแล้วหรือที่จะเลิกบล็อก %d หมายเลข?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteCallRecordings">
+        <item quantity="other">คุณแน่ใจหรือว่าต้องการลบบันทึกสายสนทนา %s สาย?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">คุณแน่ใจหรือว่าต้องการลบไฟล์ภาษา %s?</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">ข้อความ SMS %d ข้อความถูกบล็อก</item>
+    </plurals>
+    <plurals name="MessageNotificationNewMessages">
+        <item quantity="other">อีก +%1$d ข้อความใหม่</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$s โทรเมื่อ %2$d ชั่วโมงที่แล้ว แตะเพื่อดูใน Truecaller</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d รายชื่อผู้ติดต่อ</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d ไฟล์แนบ</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">รายชื่อผูัติดต่ออีก %d รายชื่อ</item>
+    </plurals>
+    <plurals name="NewImGroupMemberCount">
+        <item quantity="other">สมาชิก %d คน</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">เพิ่ม %d หมายเลขไปยังรายการบล็อกแล้ว</item>
+    </plurals>
+    <plurals name="OSNotificationTextNew">
+        <item quantity="other">คุณมีการแจ้งเตือนใหม่ %d อัน</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d สายที่บล็อก</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d สายที่ปิดเสียง</item>
+    </plurals>
+    <plurals name="PremiumAbbreviatedOfferPriceOverMonth">
+        <item quantity="other">%1$s/เดือน</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">* ทดลองใช้งานฟรี %1$d วัน สำหรับสมาชิกใหม่เท่านั้น</item>
+    </plurals>
+    <plurals name="PremiumFeatureContactRequestLeft">
+        <item quantity="other">เหลือคำขออีก %1$d ครั้ง</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">ดูโปรไฟล์ใหม่ %1$d ครั้ง</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">%1$d คน ดูประวัติของคุณเมื่อเร็วๆ นี้</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d people (%3$d in %2$s) ได้ดูโปรไฟล์ของคุณเมื่อเร็วๆ นี้</item>
+    </plurals>
+    <plurals name="SettingPendingGroupInvitationsMessage">
+        <item quantity="other">คุณมีคำเชิญกลุ่มที่กำลังรออนุมัติ %d อัน คุณต้องการตอบรับทั้งหมดหรือไม่?</item>
+    </plurals>
+    <plurals name="SpamSmsFound">
+        <item quantity="other">พบข้อความสแปม %d อัน</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByMultiple">
+        <item quantity="other">%1$s และอีก %2$d คน ถูกเพิ่มไปที่กลุ่มโดย %3$s</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByYouMultiple">
+        <item quantity="other">คุณเพิ่ม %1$s และอีก %2$d คน ไปที่กลุ่ม</item>
+    </plurals>
+    <plurals name="StrPhoneNumberAndMore">
+        <item quantity="other">%1$s &lt;b>+ อื่นๆอีก %2$d&lt;/b></item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">วัน</item>
+    </plurals>
+    <plurals name="StrPluralHour">
+        <item quantity="other">ชั่วโมง</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">เดือน</item>
+    </plurals>
+    <plurals name="StrPluralWeek">
+        <item quantity="other">สัปดาห์</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">ปี</item>
+    </plurals>
+    <plurals name="UndoMarkAsStarredNotification">
+        <item quantity="other">ข้อความไม่ติดดาว</item>
+    </plurals>
+    <plurals name="UnreadConversations">
+        <item quantity="other">%d การสนทนาที่ไม่ได้อ่าน</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">คุณได้ลองยืนยันจนครบจำนวนครั้งที่กำหนดแล้ว กรุณาลองอีกครั้งใน %dh</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d คน ดูประวัติของคุณ</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d คน (1 อยู่ใน %2$s) ดูโปรไฟล์ของคุณ</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d คน ดูประวัติของคุณเมื่อเร็วๆ นี้ ดูเพิ่มเติม</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d คน (%3$d in %2$s) ดูประวัติของคุณเมื่อเร็วๆ นี้ ดูเพิ่มเติม</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaption">
+        <item quantity="other">การดูใหม่ %1$d ครั้ง</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaptionWithLocation">
+        <item quantity="other">การดูใหม่ %1$d ครั้ง • %2$d จาก %3$s</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">reCaptcha ล้มเหลวหลายครั้งมากเกินไป โปรดลองอีกครั้งในอีก %1$d ชั่วโมง</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%s บทสนทนาถูกจัดเก็บ</item>
+    </plurals>
+    <plurals name="biz_govt_contacts_count">
+        <item quantity="other">รายชื่อผู้ติดต่อ %1$d</item>
+    </plurals>
+    <plurals name="call_recording_toast_items_deleted">
+        <item quantity="other">ลบ %1$d บันทึก</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">ข้อความ OTP ถูกลบ</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">ข้อความโปรโมชั่นถูกลบแล้ว</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">ข้อความสแปมถูกลบ</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d ข้อความ</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d OTP</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_promotional">
+        <item quantity="other">%d ข้อความโปรโมชั่น</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d ข้อความสแปม</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d ข้อความถูกลบ</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">การเชิญชวน</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="other">ใน %d วัน</item>
+        <item quantity="one">พรุ่งนี้</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="other">ใน %d ชั่วโมง</item>
+        <item quantity="one">ใน 1 ชั่วโมง</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="other">ใน %d นาที</item>
+        <item quantity="one">ใน 1 นาที</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="other">ใน %d วินาที</item>
+        <item quantity="one">ใน 1 วินาที</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="other">%d วันที่ผ่านมา</item>
+        <item quantity="one">เมื่อวาน</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="other">%d ชั่วโมงที่ผ่านมา</item>
+        <item quantity="one">1 ชั่วโมงที่ผ่านมา</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="other">%d นาทีที่ผ่านมา</item>
+        <item quantity="one">1 นาทีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="other">%d วินาทีที่ผ่านมา</item>
+        <item quantity="one">1 วินาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="other">%d ชั่วโมง</item>
+        <item quantity="one">1 ชั่วโมง</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="other">%d นาที</item>
+        <item quantity="one">1 นาที</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="other">%d วินาที</item>
+        <item quantity="one">1 วินาที</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="other">ใน %d วัน</item>
+        <item quantity="one">พรุ่งนี้</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="other">ใน %d ชั่วโมง</item>
+        <item quantity="one">ใน 1 ชั่วโมง</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="other">ใน %d นาที</item>
+        <item quantity="one">ใน 1 นาที</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="other">ใน %d วินาที</item>
+        <item quantity="one">ใน 1 วินาที</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="other">%d วันที่ผ่านมา</item>
+        <item quantity="one">เมื่อวาน</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="other">%d ชั่วโมงที่ผ่านมา</item>
+        <item quantity="one">1 ชั่วโมงที่ผ่านมา</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="other">%d นาทีที่ผ่านมา</item>
+        <item quantity="one">1 นาทีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="other">%d วินาทีที่แล้ว</item>
+        <item quantity="one">1 วินาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">คุณกำลังจะลบไฟล์ที่เลือกและ %d ข้อความที่เกี่ยวข้อง</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">ลบข้อความหรือไม่?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
+        <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">เพื่อน</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">วัน</item>
+    </plurals>
+    <plurals name="spam_counts">
+        <item quantity="other">รายงานสแปม %d อัน</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">%s บทสนทนาถูกยกเลิกการจัดเก็บ</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">ได้รับข้อความแล้ว</item>
+    </plurals>
+    <plurals name="voip_group_launcher_person">
+        <item quantity="other">ผู้เข้าร่วม</item>
+    </plurals>
+    <plurals name="voip_notification_missed_grouped_title">
+        <item quantity="other">สายที่ไม่ได้รับ %1$s สาย</item>
+    </plurals>
+    <plurals name="voip_notification_title_other">
+        <item quantity="other">%1$s คน</item>
+    </plurals>
+</resources>

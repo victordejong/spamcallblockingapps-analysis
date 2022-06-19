@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>%sରେ ଲଗ୍‌ଇନ୍‍ କରନ୍ତୁ</item>
+        <item>%s ସହ ସାଇନ୍‍ ଅପ୍‍ କରନ୍ତୁ</item>
+        <item>%sରେ ସାଇନ୍‌ ଇନ୍‍ କରନ୍ତୁ</item>
+        <item>%s ସହିତ ସଂଖ୍ୟା ଯାଂଚ୍‍ କରନ୍ତୁ</item>
+        <item>%s ସହିତ ପଂଞ୍ଜିକରଣ କରନ୍ତୁ</item>
+        <item>%s ସହିତ ଆରମ୍ଭ କରନ୍ତୁ</item>
+    </string-array>
+</resources>

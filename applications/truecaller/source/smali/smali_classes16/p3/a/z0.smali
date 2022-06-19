@@ -1,0 +1,178 @@
+.class public final Lp3/a/z0;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lp3/a/a1;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<K:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lp3/a/a1<",
+        "TK;TV;>;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final a:Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "TK;"
+        }
+    .end annotation
+.end field
+
+.field public final b:Ljava/lang/Object;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "TV;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/Object;Ljava/lang/Object;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TK;TV;)V"
+        }
+    .end annotation
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    iput-object p1, p0, Lp3/a/z0;->a:Ljava/lang/Object;
+
+    .line 3
+    iput-object p2, p0, Lp3/a/z0;->b:Ljava/lang/Object;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Ljava/lang/Object;II)Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TK;II)TV;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object p2, p0, Lp3/a/z0;->a:Ljava/lang/Object;
+
+    if-ne p2, p1, :cond_0
+
+    .line 2
+    iget-object p1, p0, Lp3/a/z0;->b:Ljava/lang/Object;
+
+    return-object p1
+
+    :cond_0
+    const/4 p1, 0x0
+
+    return-object p1
+.end method
+
+.method public b(Ljava/lang/Object;Ljava/lang/Object;II)Lp3/a/a1;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TK;TV;II)",
+            "Lp3/a/a1<",
+            "TK;TV;>;"
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lp3/a/z0;->a:Ljava/lang/Object;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+
+    move-result v0
+
+    if-eq v0, p3, :cond_0
+
+    .line 2
+    new-instance v1, Lp3/a/z0;
+
+    invoke-direct {v1, p1, p2}, Lp3/a/z0;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    invoke-static {v1, p3, p0, v0, p4}, Lp3/a/y0;->c(Lp3/a/a1;ILp3/a/a1;II)Lp3/a/a1;
+
+    move-result-object p1
+
+    return-object p1
+
+    .line 3
+    :cond_0
+    iget-object p3, p0, Lp3/a/z0;->a:Ljava/lang/Object;
+
+    if-ne p3, p1, :cond_1
+
+    .line 4
+    new-instance p3, Lp3/a/z0;
+
+    invoke-direct {p3, p1, p2}, Lp3/a/z0;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    return-object p3
+
+    .line 5
+    :cond_1
+    new-instance p4, Lp3/a/x0;
+
+    iget-object v0, p0, Lp3/a/z0;->b:Ljava/lang/Object;
+
+    invoke-direct {p4, p3, v0, p1, p2}, Lp3/a/x0;-><init>(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
+
+    return-object p4
+.end method
+
+.method public size()I
+    .locals 1
+
+    const/4 v0, 0x1
+
+    return v0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 3
+
+    const/4 v0, 0x2
+
+    new-array v0, v0, [Ljava/lang/Object;
+
+    .line 1
+    iget-object v1, p0, Lp3/a/z0;->a:Ljava/lang/Object;
+
+    const/4 v2, 0x0
+
+    aput-object v1, v0, v2
+
+    iget-object v1, p0, Lp3/a/z0;->b:Ljava/lang/Object;
+
+    const/4 v2, 0x1
+
+    aput-object v1, v0, v2
+
+    const-string v1, "Leaf(key=%s value=%s)"
+
+    invoke-static {v1, v0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

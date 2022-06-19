@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="?tcx_theme" android:gravity="center_vertical" android:orientation="horizontal" android:background="?selectableItemBackground" android:paddingLeft="@dimen/control_doublespace" android:paddingRight="@dimen/control_doublespace" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:ellipsize="start" android:id="@id/text1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/StyleX.Text.Body.B2" />
+    <com.truecaller.flashsdk.ui.FlashButton android:layout_gravity="center_vertical" android:id="@id/flash_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/swipe_arrow_size" android:layout_marginStart="@dimen/common_padding" android:layout_marginEnd="@dimen/common_padding" app:normalColor="?tcx_textSecondary" />
+</LinearLayout>

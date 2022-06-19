@@ -1,0 +1,3304 @@
+{
+  "ABIP": {
+    "category": "bank",
+    "icon": "http://assets.tcpay.in/images/bank-logos/square/abip.png",
+    "name": "Aditya Birla Idea Payments Bank",
+    "sender_ids": [
+    	"ABBANK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "ABHY": {
+    "category": "bank",
+    "icon": "",
+    "name": "Abhyudaya Co-op Bank",
+    "sender_ids": [
+    	"ACBLBK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "ACBL": {
+    "category": "bank",
+    "icon": "",
+    "name": "Adarsh Co-op Bank",
+    "sender_ids": [
+    	"ADARSH"
+    ],
+    "tc-pay-enabled": true
+  },
+  "ADCB": {
+    "category": "bank",
+    "icon": "",
+    "name": "The Ahmedabad District Co-op Bank",
+    "sender_ids": [
+    	"ADCBBK"],
+    "tc-pay-enabled": true
+  },
+  "AGVB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/agvb.png",
+    "name": "Assam Gramin Vikash Bank",
+    "sender_ids": [
+    	"AGVBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "AIRP": {
+    "category": "bank",
+    "icon": "",
+    "name": "Airtel Payments Bank",
+    "sender_ids": [
+      "AIRBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "ALLA": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/alla.png",
+    "name": "Allahabad Bank",
+    "sender_ids": [
+      "ALBDBK",
+      "ALBANK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "AMCB": {
+    "category": "bank",
+    "icon": "",
+    "name": "The Ahmedabad Mercantile Co-op Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "ANDB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/andb.png",
+    "name": "Andhra Bank",
+    "sender_ids": [
+      "ANDBNK",
+      "ANDHRA",
+      "ANDHBK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "APBL": {
+    "category": "bank",
+    "icon": "",
+    "name": "The Andhra Pradesh State Co-op Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "APGB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/apgb.png",
+    "name": "Andhra Pragathi Grameena Bank",
+    "sender_ids": [
+      "APGBBK",
+      "APGBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "APGV": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/apgv.png",
+    "name": "Andhra Pradesh Grameena Vikas Bank",
+    "sender_ids": [
+      "APGVBK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "APMC": {
+    "category": "bank",
+    "icon": "",
+    "name": "A P Mahesh Bank",
+    "sender_ids": [
+      "APGVBK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "ASBL": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/asbl.png",
+    "name": "Apna Sahakari Bank",
+    "sender_ids": [
+      "APNABK",
+      "ASBLHO",
+      "ASBLTD"
+    ],
+    "tc-pay-enabled": true
+  },
+  "AUGB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/augb.png",
+    "name": "Allahabad UP Gramin Bank",
+    "sender_ids": [
+    	"AUGBMO"
+    ],
+    "tc-pay-enabled": true
+  },
+  "BACB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/bacb.png",
+    "name": "Bassein Catholic Co-op Bank",
+    "sender_ids": [
+    	"BCCBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "BARB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/barb.png",
+    "name": "Bank Of Baroda",
+    "creditcard_bank_url": "https://www.bobcards.in/online-payment.htm",
+    "sender_ids": [
+      "BOBTXN",
+      "BARODA",
+      "BOBADC",
+      "BOBATM",
+      "BOBBNK",
+      "BOBCRD",
+      "BOBSMS"
+    ],
+    "tc-pay-enabled": true
+  },
+  "BARB0BGGBXX": {
+    "category": "bank",
+    "icon": "",
+    "name": "Baroda Gujarat Gramin Bank",
+    "sender_ids": [
+    	"BGGBXX"
+    ],
+    "tc-pay-enabled": true
+  },
+  "BARB0BRGBXX": {
+    "category": "bank",
+    "icon": "",
+    "name": "Baroda Rajasthan Kshetriya Gramin Bank",
+    "sender_ids": [
+    	"BRKGBX"
+    ],
+    "tc-pay-enabled": true
+  },
+  "BARB0BUPGBX": {
+    "category": "bank",
+    "icon": "",
+    "name": "Baroda UP Gramin Bank",
+    "sender_ids": [
+    	"BUPGBX"
+    ],
+    "tc-pay-enabled": true
+  },
+  "BCCB": {
+    "category": "bank",
+    "icon": "",
+    "name": "The Baroda Central Co-op Bank Ltd",
+    "sender_ids": [
+    	"BCCBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "BKDN": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/bkdn.png",
+    "name": "Dena Bank",
+    "sender_ids": [
+      "DENABK",
+      "DENAPG",
+      "DENAST"
+    ],
+    "tc-pay-enabled": true
+  },
+  "BKID": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/bkid.png",
+    "name": "Bank Of India",
+    "creditcard_bank_url": "https://www.bankofindia.co.in/CreditcardPayment",
+    "sender_ids": [
+      "BOIIND",
+      "BOIADC",
+      "BOIATM",
+      "BOITXN"
+    ],
+    "tc-pay-enabled": true
+  },
+  "BNDB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/bndb.png",
+    "name": "Bandhan Bank",
+    "sender_ids": [
+      "BNDNBK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "CBIN": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/cbin.png",
+    "name": "Central Bank Of India",
+    "creditcard_bank_url": "https://www.centralbankofindia.co.in/English/Card-Bill-Payment.aspx",
+    "sender_ids": [
+      "CENTBK",
+      "CBIOTP"
+    ],
+    "tc-pay-enabled": true
+  },
+  "CGGB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/cggb.png",
+    "name": "Chaitanya Godavari Grameena Bank",
+    "sender_ids": [
+    	"CGGBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "CITI": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/citi.png",
+    "name": "Citibank",
+    "creditcard_bank_url": "https://www.online.citibank.co.in/products-services/online-services/epay.htm?",
+    "sender_ids": [
+      "CITIBK",
+      "CITIBA",
+      "CITISG",
+      "CITIBN"
+    ],
+    "tc-pay-enabled": true
+  },
+  "CIUB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/ciub.png",
+    "name": "City Union Bank",
+    "sender_ids": [
+      "CUBANK",
+      "CUBCHK",
+      "CUBLTD",
+      "CUBSMS"
+    ],
+    "tc-pay-enabled": true
+  },
+  "CLAB": {
+    "category": "bank",
+    "icon": "",
+    "name": "Coastal Local Area Bank Ltd",
+    "sender_ids": [
+    	"COSTAL"
+    ],
+    "tc-pay-enabled": true
+  },
+  "CNRB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/cnrb.png",
+    "name": "Canara Bank",
+    "creditcard_bank_url": "https://ccapp.canarabank.in/Portal/unauth/index.html",
+    "sender_ids": [
+      "CANBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "CORP": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/corp.png",
+    "name": "Corporation Bank",
+    "sender_ids": [
+      "CORPBK",
+      "CORPRW"
+    ],
+    "tc-pay-enabled": true
+  },
+  "COSB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/cosb.png",
+    "name": "Cosmos Bank",
+    "sender_ids": [
+      "COSMOS"
+    ],
+    "tc-pay-enabled": true
+  },
+  "CRGB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/crgb.png",
+    "name": "Chhattisgarh Rajya Gramin Bank",
+    "sender_ids": [
+    	"CHGBBK",
+    	"CGBBBK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "CSBK": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/csbk.png",
+    "name": "Catholic Syrian Bank",
+    "sender_ids": [
+      "CSBLTD",
+      "CSBCRM",
+      "CSBBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "DBSS": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/dbss.png",
+    "name": "DBS Bank",
+    "sender_ids": [
+      "DIGIBK",
+      "DBSMOB",
+      "DIGIKI"
+    ],
+    "tc-pay-enabled": true
+  },
+  "DCBL": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/dcbl.png",
+    "name": "DCB Bank",
+    "sender_ids": [
+      "DCBANK",
+      "DCBBNK",
+      "DCBBLY"
+    ],
+    "tc-pay-enabled": true
+  },
+  "DEUT": {
+    "category": "bank",
+    "icon": "",
+    "name": "Deutsche Bank",
+    "sender_ids": [
+    	"DBALRT"
+    ],
+    "tc-pay-enabled": true
+  },
+  "DGGB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/dggb.png",
+    "name": "Dena Gujarat Gramin Bank",
+    "sender_ids": [
+    	"DGGBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "DLXB": {
+    "category": "bank",
+    "icon": "",
+    "name": "Dhanlaxmi Bank Ltd",
+    "sender_ids": [
+    	"DHANBK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "DNSB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/dnsb.png",
+    "name": "Dombivali Nagri Sahakari Bank",
+    "sender_ids": [
+    	"DNSBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "ESFB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/esfb.png",
+    "name": "Equitas Bank",
+    "sender_ids": [
+      "EQBANK",
+      "EQULTD"
+    ],
+    "tc-pay-enabled": true
+  },
+  "ESMB": {
+    "category": "bank",
+    "icon": "",
+    "name": "ESAF Small Finance Bank",
+    "sender_ids": [
+    	"ESAFSF"
+    ],
+    "tc-pay-enabled": true
+  },
+  "FDRL": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/fdrl.png",
+    "name": "Federal Bank",
+    "sender_ids": [
+      "FEDBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "FINO": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/fino.png",
+    "name": "Fino Payments Bank",
+    "sender_ids": [
+      "FINOBK",
+      "FINOIN"
+    ],
+    "tc-pay-enabled": true
+  },
+  "GSCB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/gscb.png",
+    "name": "The Gujarat State Co-op Bank",
+    "sender_ids": [
+    	"GSCBBK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "HCBL": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/hcbl.png",
+    "name": "The Hasti Co-op Bank",
+    "sender_ids": [
+    	"HASTIB"
+    ],
+    "tc-pay-enabled": true
+  },
+  "HDFC": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/hdfc.png",
+    "name": "HDFC Bank",
+    "creditcard_bank_url" :"https://www.hdfcbank.com/personal/pay/bill-payments/hdfc-bank-credit-card-bill-payment",
+    "sender_ids": [
+      "HDFCBK",
+      "HDFCBN"
+    ],
+    "tc-pay-enabled": true
+  },
+  "HDFC0CBHLUB": {
+    "category": "bank",
+    "icon": "",
+    "name": "Bhilwara Urban Co-op Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "HDFC0CMUSLM": {
+    "category": "bank",
+    "icon": "",
+    "name": "The Muslim Co-op Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "HDFC0CSUCOB": {
+    "category": "bank",
+    "icon": "",
+    "name": "Suco Souharda Sahakari Bank",
+    "sender_ids": [
+    	"SUCOBK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "HDFC0CSUVRN": {
+    "category": "bank",
+    "icon": "",
+    "name": "Suvarnayug Sahakari Bank",
+    "sender_ids": [
+    	"SUYGSB"
+    ],
+    "tc-pay-enabled": true
+  },
+  "HDFC0CTVCBL": {
+    "category": "bank",
+    "icon": "",
+    "name": "The Vijay Co-op Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "HPGB": {
+    "category": "bank",
+    "icon": "",
+    "name": "Himachal Pradesh Gramin Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "HSBC": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/hsbc.png",
+    "name": "HSBC",
+    "sender_ids": [
+      "HSBCIN",
+      "HSBCBK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "HSBL": {
+    "category": "bank",
+    "icon": "",
+    "name": "Hutatma Sahakari Bank",
+    "sender_ids": [
+    	"HSBLBK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "IBKL": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/idbi.png",
+    "name": "IDBI Bank",
+    "sender_ids": [
+      "IDBIBK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "IBKL0101MCB": {
+    "category": "bank",
+    "icon": "",
+    "name": "Maratha Cooperative Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "ICIC": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/icic.png",
+    "name": "ICICI Bank",
+    "creditcard_bank_url": "https://www.icicibank.com/online-services/clicktopay/index.page?#toptitle",
+    "sender_ids": [
+      "ICICIB",
+      "ICICBK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "ICICI00UMUCB": {
+    "category": "bank",
+    "icon": "",
+    "name": "The Udaipur Mahila Urban Co-op Bank Ltd",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "IDFB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/idfb.png",
+    "name": "IDFC Bank",
+    "sender_ids": [
+      "IDFCBK",
+      "IDFCTS"
+    ],
+    "tc-pay-enabled": true
+  },
+  "IDIB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/idib.png",
+    "name": "Indian Bank",
+    "sender_ids": [
+      "INDBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "INDB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/indb.png",
+    "name": "IndusInd Bank",
+    "sender_ids": [
+      "INDUSB"
+    ],
+    "tc-pay-enabled": true
+  },
+  "IPOS": {
+    "category": "bank",
+    "icon": "",
+    "name": "India Post Payment Bank",
+    "sender_ids": [
+    	"IPPBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "IOBA": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/ioba.png",
+    "name": "Indian Overseas Bank",
+    "sender_ids": [
+      "IOBCHN",
+      "IOBBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "JAKA": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/jaka.png",
+    "name": "Jammu & Kashmir Bank",
+    "sender_ids": [
+    	"JKBANK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "JIOP": {
+    "category": "bank",
+    "icon": "",
+    "name": "Jio Payments Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "JJSB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/jjsb.png",
+    "name": "Jalgaon Janata Sahkari Bank",
+    "sender_ids": [
+    	"JJSBJL",
+    	"JJSBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "JKGB": {
+    "category": "bank",
+    "icon": "",
+    "name": "Jammu and Kashmir Grameen Bank",
+    "sender_ids": [
+    	"GRAMEN"
+    ],
+    "tc-pay-enabled": true
+  },
+  "JSBP": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/jsbp.png",
+    "name": "Janata Sahakari Bank - Pune",
+    "sender_ids": [
+    	"JSBLPN"
+    ],
+    "tc-pay-enabled": true
+  },
+  "JSFB": {
+    "category": "bank",
+    "icon": "",
+    "name": "Jana Small Finance Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "KAIJ": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/kaij.png",
+    "name": "KAIJSB - Ichalkaranji",
+    "sender_ids": [
+      "KAIJSB"
+    ],
+    "tc-pay-enabled": true
+  },
+  "KARB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/karb.png",
+    "name": "Karnataka Bank",
+    "sender_ids": [
+      "KTKBNK",
+      "KTKMOB"
+    ],
+    "tc-pay-enabled": true
+  },
+  "KGSB": {
+    "category": "bank",
+    "icon": "",
+    "name": "Kashi Gomati Samyut Grameen Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "KJSB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/kjsb.png",
+    "name": "The Kalyan Janata Sahakari Bank",
+    "sender_ids": [
+    	"KJSBIT"
+    ],
+    "tc-pay-enabled": true
+  },
+  "KKBK": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/kkbk.png",
+    "name": "Kotak Mahindra Bank",
+    "sender_ids": [
+      "KOTAKB"
+    ],
+    "tc-pay-enabled": true
+  },
+  "KKBK0UCB501": {
+    "category": "bank",
+    "icon": "",
+    "name": "The Urban Co-op Bank - Dharangaon",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "KLGB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/klgb.png",
+    "name": "Kerala Gramin Bank",
+    "sender_ids": [
+    	"KGBANK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "KNSB": {
+    "category": "bank",
+    "icon": "",
+    "name": "Shree Kadi Nagarik Sahakari Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "KVBL": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/kvbl.png",
+    "name": "Karur Vysya Bank",
+    "sender_ids": [
+      "KVBANK",
+      "KVBMPY",
+      "KVBUPI"
+    ],
+    "tc-pay-enabled": true
+  },
+  "KVGB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/kvgb.png",
+    "name": "Karnataka Vikas Grameena Bank",
+    "sender_ids": [
+      "KVGBBK",
+      "KVGECM"
+    ],
+    "tc-pay-enabled": true
+  },
+  "KVRB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/kvrb.png",
+    "name": "Kaveri Grameena Bank",
+    "sender_ids": [
+    	"KGBBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "LAVB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/lavb.png",
+    "name": "Lakshmi Vilas Bank",
+    "sender_ids": [
+      "LVBANK",
+      "LVBBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "LDRB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/ldrb.png",
+    "name": "Langpi Dehangi Rural Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "MAHB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/bomahr.png",
+    "name": "Bank Of Maharashtra",
+    "sender_ids": [
+      "MAHABK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "MAHG": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/mahg.png",
+    "name": "Maharashtra Gramin Bank",
+    "sender_ids": [
+    	"MGBBNK",
+    	"MGBMGB"
+    ],
+    "tc-pay-enabled": true
+  },
+  "MARB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/marb.png",
+    "name": "Manipur Rural Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "MBGB": {
+    "category": "bank",
+    "icon": "",
+    "name": "Madhya Bihar Gramin Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "MCBL": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/mcbl.png",
+    "name": "The Mahanagar Co-op Bank",
+    "sender_ids": [
+    	"MCBLHO"
+    ],
+    "tc-pay-enabled": true
+  },
+  "MGRB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/mgrb.png",
+    "name": "Meghalaya Rural Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "MLGB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/mlgb.png",
+    "name": "Malwa Gramin Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "MSCI": {
+    "category": "bank",
+    "icon": "",
+    "name": "Maharashtra State Co-op Bank Ltd",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "MSNU": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/msnu.png",
+    "name": "Mehsana Urban Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "MZRB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/mzrb.png",
+    "name": "Mizoram Rural Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "NBLT": {
+    "category": "bank",
+    "icon": "",
+    "name": "Nainital Bank",
+    "sender_ids": [
+    	"NTLBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "NKGS": {
+    "category": "bank",
+    "icon": "",
+    "name": "NKGSB Bank",
+    "sender_ids": [
+    	"NKGSBK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "ORBC": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/orbc.png",
+    "name": "Oriental Bank Of Commerce",
+    "sender_ids": [
+      "OBCBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "PGBL": {
+    "category": "bank",
+    "icon": "",
+    "name": "Punjab Gramin Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "PJSB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/pjsb.png",
+    "name": "GP Parsik Bank",
+    "sender_ids": [
+    	"GPPJSB"
+    ],
+    "tc-pay-enabled": true
+  },
+  "PKGB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/pkgb.png",
+    "name": "Pragathi Krishna Gramin Bank",
+    "sender_ids": [
+      "PKGBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "PMCB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/pmcb.png",
+    "name": "Punjab & Maharashtra Co-op Bank",
+    "sender_ids": [
+      "PMCBNK",
+      "PMCBSU"
+    ],
+    "tc-pay-enabled": true
+  },
+  "PRTH": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/prth.png",
+    "name": "Prathama Bank",
+    "sender_ids": [
+      "PTGBBK",
+      "PTGECM"
+    ],
+    "tc-pay-enabled": true
+  },
+  "PSIB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/psib.png",
+    "name": "Punjab & Sind Bank",
+    "sender_ids": [
+    	"PSBANK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "PUNB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/punb.png",
+    "name": "Punjab National Bank",
+    "creditcard_bank_url": "https://pnbcard.in/",
+    "sender_ids": [
+      "PNBSMS",
+      "PNBDBD",
+      "NETPNB",
+      "PNBANK",
+      "PNBBOK",
+      "PNBCCD"
+    ],
+    "tc-pay-enabled": true
+  },
+  "PUNB0HGB001": {
+    "category": "bank",
+    "icon": "",
+    "name": "Sarva Haryana Gramin Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "PUNB0SUPGB5": {
+    "category": "bank",
+    "icon": "",
+    "name": "Sarva UP Gramin Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "PURB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/purb.png",
+    "name": "Purvanchal Bank",
+    "sender_ids": [
+    	"PUGBBK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "PYTM": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/paytm.png",
+    "name": "Paytm Payments Bank",
+    "sender_ids": [
+      "PAYTMB"
+    ],
+    "tc-pay-enabled": true
+  },
+  "RATN": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/ratn.png",
+    "name": "RBL Bank",
+    "sender_ids": [
+      "RBLBNK",
+      "RBLSMS"
+    ],
+    "tc-pay-enabled": true
+  },
+  "RMGB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/rmgb.png",
+    "name": "Rajasthan Marudhara Gramin Bank",
+    "sender_ids": [
+    	"RMGBBK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "RNSB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/rnsb.png",
+    "name": "Rajkot Nagrik Sahakari Bank",
+    "sender_ids": [
+    	"RNSBLD"
+    ],
+    "tc-pay-enabled": true
+  },
+  "SAUB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/saub.png",
+    "name": "Saurashtra Gramin Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "SBIN": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/sbin.png",
+    "name": "State Bank Of India",
+    "creditcard_bank_url":"https://www.sbicard.com/en/personal/pay.page",
+    "sender_ids": [
+      "CBSSBI",
+      "SBIPSG",
+      "SBIINB",
+      "SCISMS",
+      "SBGMBS",
+      "SBICRD",
+      "SBIBIL",
+      "SBIUPI",
+      "ATMSBI",
+      "SBGMBS"
+    ],
+    "tc-pay-enabled": true
+  },
+  "SCBL": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/scbl.png",
+    "name": "Standard Chartered",
+    "sender_ids": [
+      "STANCC",
+      "STANCV",
+      "SCBANK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "SCBN": {
+    "category": "bank",
+    "icon": "",
+    "name": "Samruddhi Co-op Bank Ltd",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "SIBL": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/sibl.png",
+    "name": "South Indian BanK",
+    "sender_ids": [
+      "SIBCNP",
+      "SIBLTD"
+    ],
+    "tc-pay-enabled": true
+  },
+  "SPCB": {
+    "category": "bank",
+    "icon": "",
+    "name": "Surat People Cooperative Bank",
+    "sender_ids": [
+    	"SPCBBK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "SRCB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/srcb.png",
+    "name": "Saraswat Bank",
+    "sender_ids": [
+      "SARBNK",
+      "SRCBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "SSFB": {
+    "category": "bank",
+    "icon": "",
+    "name": "Suryoday Small Finance Bank",
+    "sender_ids": [
+    	"SSFBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "SUTB": {
+    "category": "bank",
+    "icon": "",
+    "name": "The Sutex Co-op Bank",
+    "sender_ids": [
+    	"SUTEXB"
+    ],
+    "tc-pay-enabled": true
+  },
+  "SVCB": {
+    "category": "bank",
+    "icon": "",
+    "name": "SVC Co-op Bank",
+    "sender_ids": [
+    	"SVCBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "SYNB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/synb.png",
+    "name": "Syndicate Bank",
+    "sender_ids": [
+      "SYNDBK",
+      "SYNBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "TBSB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/tbsb.png",
+    "name": "Thane Bharat Sahakari Bank",
+    "sender_ids": [
+      "TSBBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "TGGB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/tggb.png",
+    "name": "Telangana Grameena Bank",
+    "sender_ids": [
+    	"TGBEBK",
+    	"TGBANK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "TJSB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/tjsb.png",
+    "name": "TJSB Bank",
+    "sender_ids": [
+      "TJSBIB",
+      "TJSBNK",
+      "TJSBPC"
+    ],
+    "tc-pay-enabled": true
+  },
+  "TMCB": {
+    "category": "bank",
+    "icon": "",
+    "name": "The Municipal Co-op Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "TMSB": {
+    "category": "bank",
+    "icon": "",
+    "name": "The Malad Sahakari Bank",
+    "sender_ids": [
+    	"MLDBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "TNMB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/tnmb.png",
+    "name": "Tamilnad Mercantile Bank",
+    "sender_ids": [
+    	"TMBANK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "TRGB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/trgb.png",
+    "name": "Tripura Gramin Bank",
+    "sender_ids": [
+    	"TGBOTP"
+    ],
+    "tc-pay-enabled": true
+  },
+  "TSAB": {
+    "category": "bank",
+    "icon": "",
+    "name": "Telangana State Co Op Apex Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "TVSB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/tvsb.png",
+    "name": "The Vishweshwar Sahakari Bank Ltd., Pune",
+    "sender_ids": [
+    	"VSBLPN"
+    ],
+    "tc-pay-enabled": true
+  },
+  "UBIN": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/ubin.png",
+    "name": "Union Bank Of India",
+    "creditcard_bank_url": "https://iweb.in.worldline.com/ubicreditcardsplus/login.aspx",
+    "sender_ids": [
+      "UNIONB"
+    ],
+    "tc-pay-enabled": true
+  },
+  "UBIN0RRBKGS": {
+    "category": "bank",
+    "icon": "",
+    "name": "Kashi Gomati Samyut Grameen Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "UCBA": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/ucba.png",
+    "name": "UCO Bank",
+    "sender_ids": [
+      "UCOBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "UCBA0RRBBKG": {
+    "category": "bank",
+    "icon": "",
+    "name": "Bihar Gramin Bank",
+    "sender_ids": [
+    	"BIGBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "UCBA0RRBPBG": {
+    "category": "bank",
+    "icon": "",
+    "name": "Paschim Banga Gramin Bank",
+    "sender_ids": [
+    	"PBGBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "UJVN": {
+    "category": "bank",
+    "icon": "",
+    "name": "Ujjivan Small Finance Bank",
+    "sender_ids": [
+    	"UJJIVN"
+    ],
+    "tc-pay-enabled": true
+  },
+  "UKGB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/ukgb.png",
+    "name": "Uttarakhand Gramin Bank",
+    "sender_ids": [
+    	"UGBBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "UTBI": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/utbi.png",
+    "name": "United Bank Of India",
+    "sender_ids": [
+      "UNBMPY",
+      "UBIBNK",
+      "UNBMPY"
+    ],
+    "tc-pay-enabled": true
+  },
+  "UTIB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/utib.png",
+    "name": "Axis Bank",
+    "creditcard_bank_url": "https://www.axisbank.com/make-payments/credit-card-bill-payments/pay-your-credit-card-bills",
+    "sender_ids": [
+      "AXISBK",
+      "AXISMB"
+    ],
+    "tc-pay-enabled": true
+  },
+  "VARA": {
+    "category": "bank",
+    "icon": "",
+    "name": "The Varachha Co-Op Bank",
+    "sender_ids": [
+    	"VARABK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "VIJB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/vijb.png",
+    "name": "Vijaya Bank",
+    "sender_ids": [
+      "VIJBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "VNGB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/vngb.png",
+    "name": "Vananchal Gramin Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "VVSB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/vvsb.png",
+    "name": "Vasai Vikas Sahakari Bank",
+    "sender_ids": [
+    	"VVSBNK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "YESB": {
+    "category": "bank",
+    "icon": "http://assets.api.tcpay.in/images/bank-logos/square/yesb.png",
+    "name": "Yes Bank",
+    "sender_ids": [
+      "YESBNK",
+      "YESBBK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "YESB0MSB002": {
+    "category": "bank",
+    "icon": "",
+    "name": "The Udaipur Mahila Samridhi Urban Co-op Bank",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "aadhaar": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/aadhaar.png",
+    "name": "Aadhaar",
+    "sender_ids": [
+      "ADHAAR"
+    ],
+    "tc-pay-enabled": false
+  },
+  "abhi_bus": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/abhibus.png",
+    "name": "Abhi Bus",
+    "sender_ids": [
+      "ABIBUS"
+    ],
+    "tc-pay-enabled": false
+  },
+  "actfiber_bb": {
+    "category": "broadband",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/act_broadband.png",
+    "name": "ACT Fibernet",
+    "sender_ids": [
+      "ACTGRP",
+      "ACTTEL"
+    ],
+    "tc-pay-enabled": true
+  },
+  "adani_gas": {
+    "category": "gas",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/gas/icons/adani_gas.png",
+    "name": "Adani Gas",
+    "sender_ids": [
+      "AGLGAS"
+    ],
+    "tc-pay-enabled": false
+  },
+  "adidas": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/adidas.png",
+    "name": "Adidas",
+    "sender_ids": [
+      "ADIDAS"
+    ],
+    "tc-pay-enabled": false
+  },
+  "airasia": {
+    "category": "flight",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/air_asia.png",
+    "name": "Air Asia",
+    "sender_ids": [
+      "ARASIA"
+    ],
+    "tc-pay-enabled": false
+  },
+  "aircel_pre": {
+    "category": "prepaid",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/prepaid/icons/aircel_pre.png",
+    "name": "Aircel",
+    "sender_ids": [
+      "AIRCEL"
+    ],
+    "tc-pay-enabled": false
+  },
+  "airtel_bb": {
+    "category": "broadband",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/broadband/icons/airtel_bb.png",
+    "name": "Airtel Broadband",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "airtel_dcard": {
+    "category": "datacard",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/datacard/icons/airtel_dcard.png",
+    "name": "Airtel",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "airtel_dth": {
+    "category": "dth",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/dth/icons/airtel_dth.png",
+    "name": "Airtel DTH",
+    "sender_ids": [
+      "ANDRTV",
+      "AIRDTH"
+    ],
+    "tc-pay-enabled": true
+  },
+  "airtel_ll": {
+    "category": "landline",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/landline/icons/airtel_ll.png",
+    "name": "Airtel Landline",
+    "sender_ids": [
+    	"AIRCCF"
+    ],
+    "tc-pay-enabled": true
+  },
+  "airtel_post_bbps": {
+    "category": "postpaid",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/postpaid/icons/airtel_post.png",
+    "name": "Airtel",
+    "sender_ids": [
+      "AIRBIL"
+    ],
+    "tc-pay-enabled": true
+  },
+  "airtel_pre": {
+    "category": "prepaid",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/prepaid/icons/airtel_pre.png",
+    "name": "Airtel",
+    "sender_ids": [
+      "ARWSVC",
+      "AIRCCM",
+      "AIRCLB",
+      "ARWINF",
+      "AIRSEC",
+	  "AIRTEL", "650001", "650002", "650003", "650004", "650005", "650006", "650007", "650009", "650012", "650013", "650014", "650015", "650016", "650018", "650019", "121", "CHARGE", "ERECHARGE"
+    ],
+    "tc-pay-enabled": true
+  },
+  "akbar_travels": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/akbar_travels.png",
+    "name": "Akbar Travels",
+    "sender_ids": [
+      "AKBARS"
+    ],
+    "tc-pay-enabled": false
+  },
+  "amazon": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/amazon.png",
+    "name": "Amazon",
+    "sender_ids": [
+      "AMAZON"
+    ],
+    "tc-pay-enabled": false
+  },
+  "american_express": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/american_express.png",
+    "name": "American Express",
+    "sender_ids": [
+      "MYAMEX",
+      "XXAMEX"
+    ],
+    "tc-pay-enabled": false,
+    "creditcard_bank_url" : "https://www.americanexpress.com/in/campaigns/pay_your_bill/payNow.html"
+  },
+  "apdcl_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "Assam Power Distribution Company Ltd (RAPDR)",
+	"ui_name": "Assam Power",
+    "sender_ids": [
+      "DAPDCL"
+    ],
+    "tc-pay-enabled": true
+  },
+  "apdcl_non_rapdr_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "Assam Power Distribution Company Ltd (NON-RAPDR)",
+	"ui_name": "Assam Power",
+    "sender_ids": [
+      "DAPDCL"
+    ],
+    "tc-pay-enabled": true
+  },
+  "apepdcl_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "APEPDCL-Eastern Power Distribution CO AP Ltd",
+	"ui_name": "APEPDCL",
+    "sender_ids": [
+      "APEPDC"
+    ],
+    "tc-pay-enabled": true
+  },
+  "apspdcl_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "APSPDCL-Southern Power Distribution CO AP Ltd",
+	"ui_name": "APSPDCL",
+    "sender_ids": [
+      "APSPSC"
+    ],
+    "tc-pay-enabled": true
+  },
+  "apollo_pharma": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/apollo.png",
+    "name": "Apollo Pharmacy",
+    "sender_ids": [
+      "APOLLO"
+    ],
+    "tc-pay-enabled": false
+  },
+  "asiabb_bb": {
+    "category": "broadband",
+    "icon": "",
+    "name": "Asianet Broadband",
+    "sender_ids": [
+    	"ASIANT"
+    ],
+    "tc-pay-enabled": true
+  },
+
+  "bajaj_finserv": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/bajaj.png",
+    "name": "Bajaj Finserv",
+    "sender_ids": [
+      "BFLSMS"
+    ],
+    "tc-pay-enabled": false
+  },
+  "bank_bazaar": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/bankbazaar.png",
+    "name": "Bank Bazaar",
+    "sender_ids": [
+      "CREDIT"
+    ],
+    "tc-pay-enabled": false
+  },
+  "benetton": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/benetton.png",
+    "name": "Benetton",
+    "sender_ids": [
+      "BENTTN"
+    ],
+    "tc-pay-enabled": false
+  },
+  "bescom_ec": {
+    "category": "electricity",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/electricity/icons/besc_ele.png",
+    "name": "Bangalore Electricity Supply Co. Ltd (BESCOM)",
+	"ui_name": "BESCOM",
+    "sender_ids": [
+      "BESCOM"
+    ],
+    "tc-pay-enabled": true
+  },
+  "besl_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "Bharatpur Electricity Services Ltd. (BESL)",
+	"ui_name": "BESL",
+    "sender_ids": [
+      "BESLLM"
+    ],
+    "tc-pay-enabled": true
+  },
+  "bigbasket": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/bigbasket.png",
+    "name": "Big Basket",
+    "sender_ids": [
+      "BIGBKT"
+    ],
+    "tc-pay-enabled": false
+  },
+  "bigtv_dth": {
+    "category": "dth",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/dth/icons/bigtv_dth.png",
+    "name": "Reliance Digital TV",
+    "sender_ids": [
+      "BIGTV",
+      "BIGTVS"
+    ],
+    "tc-pay-enabled": false
+  },
+	"bkesl_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "Bikaner Electricity Supply Limited (BkESL)",
+	"ui_name": "BkESL",
+    "sender_ids": [
+      "BKESLM"
+    ],
+    "tc-pay-enabled": true
+  },
+  "body_shop": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/body_shop.png",
+    "name": "Body Shop",
+    "sender_ids": [
+      "BDYSHP"
+    ],
+    "tc-pay-enabled": false
+  },
+  "bookmyshow": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/bookmyshow.png",
+    "name": "BookMyShow",
+    "sender_ids": [
+      "BMSHOW"
+    ],
+    "tc-pay-enabled": false
+  },
+  "box8": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/box8.png",
+    "name": "Box8",
+    "sender_ids": [
+      "BOXEHT"
+    ],
+    "tc-pay-enabled": false
+  },
+  "bses_rajdhani_ec": {
+    "category": "electricity",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/electricity/icons/bses_rajdhani_ec.png",
+    "name": "BSES Rajdhani",
+    "sender_ids": [
+      "BSESRP"
+    ],
+    "tc-pay-enabled": true
+  },
+  "bses_yamuna_ec": {
+    "category": "electricity",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/electricity/icons/bses_yamuna_ec.png",
+    "name": "BSES Yamuna",
+    "sender_ids": [
+      "BSESYP"
+    ],
+    "tc-pay-enabled": true
+  },
+  "bsnl_dcard": {
+    "category": "datacard",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/datacard/icons/bsnl_dcard.png",
+    "name": "BSNL",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "bsnl_post": {
+    "category": "postpaid",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/postpaid/icons/bsnl_post.png",
+    "name": "BSNL",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "bsnl_pre": {
+    "category": "prepaid",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/prepaid/icons/bsnl_pre.png",
+    "name": "BSNL",
+    "sender_ids": [
+      "BSNLIN",
+      "BSNL",
+      "CTOPUP"
+    ],
+    "tc-pay-enabled": true
+  },
+  "bsnl_lli_ll": {
+    "category": "landline",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/prepaid/icons/bsnl_pre.png",
+    "name": "BSNL Landline",
+    "sender_ids": [
+      "BSNLIN",
+      "BSNL",
+      "BSNLCF"
+    ],
+    "tc-pay-enabled": true
+  },
+  "bsnlrob_ll": {
+    "category": "landline",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/prepaid/icons/bsnl_pre.png",
+    "name": "BSNL Landline",
+    "sender_ids": [
+      "BSNLIN",
+      "BSNL"
+    ],
+    "tc-pay-enabled": true
+  },
+  "bsnl_llc_ll": {
+    "category": "landline",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/prepaid/icons/bsnl_pre.png",
+    "name": "BSNL Landline - Corporate",
+    "sender_ids": [
+      "BSNLIN",
+      "BSNL"
+    ],
+    "tc-pay-enabled": true
+  },
+  "bsnlcob_ll": {
+    "category": "landline",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/prepaid/icons/bsnl_pre.png",
+    "name": "BSNL Landline - Corporate",
+    "sender_ids": [
+      "BSNLIN",
+      "BSNL"
+    ],
+    "tc-pay-enabled": true
+  },
+  "burger_king": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/burger_king.png",
+    "name": "Burger King",
+    "sender_ids": [
+      "BRGKNG"
+    ],
+    "tc-pay-enabled": false
+  },
+  "byjus": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/byjus.png",
+    "name": "Byjus",
+    "sender_ids": [
+      "BYJUSC"
+    ],
+    "tc-pay-enabled": false
+  },
+  "cams_online": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/cams_online.png",
+    "name": "CAMS Online",
+    "sender_ids": [
+      "CAMSFA"
+    ],
+    "tc-pay-enabled": false
+  },
+  "cesc_ec": {
+    "category": "electricity",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/electricity/icons/cesl_ele.png",
+    "name": "Calcutta Electricity Supply Corporation",
+	"ui_name": "CESC",
+    "sender_ids": [
+      "CESCLM"
+    ],
+    "tc-pay-enabled": true
+  },
+  "chai_point": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/chai_point.png",
+    "name": "Chai Point",
+    "sender_ids": [
+      "CHAIPT"
+    ],
+    "tc-pay-enabled": false
+  },
+  "chilis": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/chillis.png",
+    "name": "Chilis",
+    "sender_ids": [
+      "CHILIS"
+    ],
+    "tc-pay-enabled": false
+  },
+  "citrus_money": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/citrus_money.png",
+    "name": "Citrus Money",
+    "sender_ids": [
+      "CITRUS"
+    ],
+    "tc-pay-enabled": false
+  },
+  "cleartrip": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/cleartrip.png",
+    "name": "Cleartrip",
+    "sender_ids": [
+      "CLRTRP"
+    ],
+    "tc-pay-enabled": false
+  },
+  "connect_bb": {
+    "category": "broadband",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/broadband/logos/connect_bb.png",
+    "name": "Connect Broadband",
+    "sender_ids": [
+      "CLOGIN",
+      "CONNCT"
+    ],
+    "tc-pay-enabled": true
+  },
+  "crossword": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/crossword.png",
+    "name": "Crossword",
+    "sender_ids": [
+      "CRSWRD"
+    ],
+    "tc-pay-enabled": false
+  },
+  "crownit": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/crownit.png",
+    "name": "Crown It",
+    "sender_ids": [
+      "CRWNIT"
+    ],
+    "tc-pay-enabled": false
+  },
+  "cspdcl_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "Chhattisgarh State Power Distribution Co. Ltd",
+	"ui_name": "CSPDCL",
+    "sender_ids": [
+      "CSPDCL"
+    ],
+    "tc-pay-enabled": true
+  },
+  "cure_fit": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/curefit.png",
+    "name": "Cure Fit",
+    "sender_ids": [
+      "CUREFT"
+    ],
+    "tc-pay-enabled": false
+  },
+  "delhivery": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/delhivery.png",
+    "name": "Delhivery",
+    "sender_ids": [
+      "DELVRY"
+    ],
+    "tc-pay-enabled": false
+  },
+  "dgvcl_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "Dakshin Gujarat Vij Company Limited (DGVCL)",
+	"ui_name": "DGVCL",
+    "sender_ids": [
+      "DGVCLG"
+    ],
+    "tc-pay-enabled": true
+  },
+  "dhbvn_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "Dakshin Haryana Bijli Vitran Nigam (DHBVN)",
+	"ui_name": "DHBVN",
+    "sender_ids": [
+      "DHBVNL"
+    ],
+    "tc-pay-enabled": true
+  },
+  "dishtv_dth_bbps": {
+    "category": "dth",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/dth/icons/dishtv_dth.png",
+    "name": "Dish TV",
+    "sender_ids": [
+      "DISHTV"
+    ],
+    "tc-pay-enabled": true
+  },
+  "docomo_bb": {
+    "category": "broadband",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/broadband/icons/docomo_bb.png",
+    "name": "Tata Docomo Broadband",
+    "sender_ids": [
+    	"DOCOMO"
+    ],
+    "tc-pay-enabled": true
+  },
+  "docomo_ll": {
+    "category": "landline",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/landline/icons/docomo_ll.png",
+    "name": "Tata Docomo Landline ",
+    "sender_ids": [
+      "DOCOMO"
+    ],
+    "tc-pay-enabled": false
+  },
+  "docomo_pre": {
+    "category": "prepaid",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/prepaid/icons/docomo_pre.png",
+    "name": "Tata Docomo Prepaid",
+    "sender_ids": [
+      "DOCOMO"
+    ],
+    "tc-pay-enabled": true
+  },
+  "dominos_pizza": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/dominos.png",
+    "name": "Dominos Pizza",
+    "sender_ids": [
+      "DOMINO"
+    ],
+    "tc-pay-enabled": false
+  },
+  "driveu": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/driveu.png",
+    "name": "DriveU",
+    "sender_ids": [
+      "DRIVEU"
+    ],
+    "tc-pay-enabled": false
+  },
+  "dsp_blackrock": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/dsp_blackrock.png",
+    "name": "DSP Blackrock",
+    "sender_ids": [
+      "DSPBLK"
+    ],
+    "tc-pay-enabled": false
+  },
+  "dunkin_donuts": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/dunkin_donuts.png",
+    "name": "Dunkin Donuts",
+    "sender_ids": [
+      "DUNKIN"
+    ],
+    "tc-pay-enabled": false
+  },
+  "dunzo": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/dunzo.png",
+    "name": "Dunzo",
+    "sender_ids": [
+      "DUNZOD"
+    ],
+    "tc-pay-enabled": false
+  },
+  "easemytrip": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/easemytrip.png",
+    "name": "EaseMyTrip",
+    "sender_ids": [
+      "EASEMY",
+      "FLIGHT"
+    ],
+    "tc-pay-enabled": false
+  },
+  "ecom_express": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/ecom_express.png",
+    "name": "eCom Express",
+    "sender_ids": [
+      "ECOMEX"
+    ],
+    "tc-pay-enabled": false
+  },
+  "ekart": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/ekart.png",
+    "name": "eKart",
+    "sender_ids": [
+      "EKARTL"
+    ],
+    "tc-pay-enabled": false
+  },
+  "et_money": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/et_money.png",
+    "name": "ET Money",
+    "sender_ids": [
+      "ETMONY"
+    ],
+    "tc-pay-enabled": false
+  },
+  "faasos": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/faasos.png",
+    "name": "Faasos",
+    "sender_ids": [
+      "FAASOS"
+    ],
+    "tc-pay-enabled": false
+  },
+  "fisdom": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/fisdom.png",
+    "name": "Fisdom",
+    "sender_ids": [
+      "FISDOM"
+    ],
+    "tc-pay-enabled": false
+  },
+  "flipkart": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/flipkart.png",
+    "name": "Flipkart",
+    "sender_ids": [
+      "FLPKTM"
+    ],
+    "tc-pay-enabled": false
+  },
+  "foodpanda": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/foodpanda.png",
+    "name": "Foodpanda",
+    "sender_ids": [
+      "FPANDA"
+    ],
+    "tc-pay-enabled": false
+  },
+  "freecharge": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/freecharge.png",
+    "name": "Freecharge",
+    "sender_ids": [
+      "FCHRGE"
+    ],
+    "tc-pay-enabled": false
+  },
+  "funds_india": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/fundsindia.png",
+    "name": "Funds India",
+    "sender_ids": [
+      "FNDIND"
+    ],
+    "tc-pay-enabled": false
+  },
+  "fusnbb_bb": {
+    "category": "broadband",
+    "icon": "",
+    "name": "Fusionnet Web Services Private Limited",
+	"ui_name": "Fusionnet Web",
+    "sender_ids": [
+      "FUSION"
+    ],
+    "tc-pay-enabled": true
+  },
+  "gescom_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "Gulbarga Electricity Supply Company Limited",
+	"ui_name": "GESCOM",
+    "sender_ids": [
+      "GESCOM"
+    ],
+    "tc-pay-enabled": false
+  },
+  "gspc_gas": {
+    "category": "gas",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/gas/icons/ggcl_gas.png",
+    "name": "Gujarat Gas Limited",
+    "sender_ids": [
+      "GUJGAS"
+    ],
+    "tc-pay-enabled": true
+  },
+  "go_zefo": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/go_zefo.png",
+    "name": "Go Zefo",
+    "sender_ids": [
+      "GOZEFO"
+    ],
+    "tc-pay-enabled": false
+  },
+  "goair": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/go_air.png",
+    "name": "Go Air",
+    "sender_ids": [
+      "GOAIRL"
+    ],
+    "tc-pay-enabled": false
+  },
+  "goibibo": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/goibibo.png",
+    "name": "Goibibo",
+    "sender_ids": [
+      "GOIBIB"
+    ],
+    "tc-pay-enabled": false
+  },
+  "grofers": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/grofers.png",
+    "name": "Grofers",
+    "sender_ids": [
+      "GROFRS"
+    ],
+    "tc-pay-enabled": false
+  },
+  "groww": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/groww.png",
+    "name": "Groww",
+    "sender_ids": [
+      "GROWWZ",
+      "GROWWI"
+    ],
+    "tc-pay-enabled": false
+  },
+  "haptik": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/haptik.png",
+    "name": "Haptik",
+    "sender_ids": [
+      "HAPTIK"
+    ],
+    "tc-pay-enabled": false
+  },
+  "hathway_bb": {
+    "category": "broadband",
+    "icon": "",
+    "name": "Hathway Broadband",
+    "sender_ids": [
+      "HATHWY"
+    ],
+    "tc-pay-enabled": true
+  },
+  "hescom_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "Hubli Electricity Supply Company Ltd (HESCOM)",
+	"ui_name": "HESCOM",
+    "sender_ids": [
+      "HESCOM"
+    ],
+    "tc-pay-enabled": true
+  },
+  "hmwssb_water": {
+    "category": "water",
+    "icon": "",
+    "name": "Hyderabad Metropolitan Water Supply and Sewerage Board",
+	"ui_name": "HMWSSB",
+    "sender_ids": [
+      "HMWSSB"
+    ],
+    "tc-pay-enabled": true
+  },
+  "hpseb_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "Himachal Pradesh State Electricity Board",
+	"ui_name": "HPSEB",
+    "sender_ids": [
+      "HPSEBL"
+    ],
+    "tc-pay-enabled": true
+  },
+  "hike": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/hike.png",
+    "name": "Hike",
+    "sender_ids": [
+      "GOHIKE"
+    ],
+    "tc-pay-enabled": false
+  },
+  "housejoy": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/housejoy.png",
+    "name": "Housejoy",
+    "sender_ids": [
+      "HSJJOY"
+    ],
+    "tc-pay-enabled": false
+  },
+  "hypercity": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/hypercity.png",
+    "name": "HyperCity",
+    "sender_ids": [
+      "HYPCTY"
+    ],
+    "tc-pay-enabled": false
+  },
+  "idea_dcard": {
+    "category": "datacard",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/datacard/icons/idea_dcard.png",
+    "name": "Idea",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "idea_post_bbps": {
+    "category": "postpaid",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/postpaid/icons/idea_post.png",
+    "name": "Idea",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "idea_pre": {
+    "category": "prepaid",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/prepaid/icons/idea_pre.png",
+    "name": "Idea",
+    "sender_ids": [
+      "IDIDEA"
+    ],
+    "tc-pay-enabled": true
+  },
+  "indigo": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/indigo.png",
+    "name": "IndiGo",
+    "sender_ids": [
+      "INDIGO"
+    ],
+    "tc-pay-enabled": false
+  },
+  "indraprastha_gas": {
+    "category": "gas",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/gas/icons/indraprastha_gas.png",
+    "name": "Indraprastha Gas",
+    "sender_ids": [
+      "IGLDEL"
+    ],
+    "tc-pay-enabled": true
+  },
+  "instamojo": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/instamojo.png",
+    "name": "Instamojo",
+    "sender_ids": [
+      "INMOJO"
+    ],
+    "tc-pay-enabled": false
+  },
+  "irctc": {
+    "category": "brand",
+    "icon": "",
+    "name": "IRCTC",
+    "sender_ids": [
+      "IRCTCA",
+      "IRCTCB",
+      "IRCTCC",
+      "IRCTCE",
+      "IRCTCF",
+      "IRCTCI",
+      "IRCTCK",
+      "IRCTCL",
+      "IRCTCM",
+      "IRCTCO",
+      "IRCTCS",
+      "IRCTCT"
+    ],
+    "tc-pay-enabled": false
+  },
+  "ixigo": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/ixigo.png",
+    "name": "Ixigo",
+    "sender_ids": [
+      "MIXIGO"
+    ],
+    "tc-pay-enabled": false
+  },
+  "jabong": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/jabong.png",
+    "name": "Jabong",
+    "sender_ids": [
+      "JABONG"
+    ],
+    "tc-pay-enabled": false
+  },
+   "jdvvnl_ec": {
+    "category": "electricity",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/electricity/icons/bses_rajdhani_ec.png",
+    "name": "Jodhpur Vidyut Vitran Nigam Limited",
+	"ui_name": "BSES Rajdhani",
+    "sender_ids": [
+      "RAJSMS"
+    ],
+    "tc-pay-enabled": true
+  },
+  "jet_airways": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/jet_airways.png",
+    "name": "Jet Airways",
+    "sender_ids": [
+      "JETAIR"
+    ],
+    "tc-pay-enabled": false
+  },
+  "jet_privilege": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/jetprivilege.png",
+    "name": "Jet Privilege",
+    "sender_ids": [
+      "JETPRV"
+    ],
+    "tc-pay-enabled": false
+  },
+  "jio_dcard": {
+    "category": "datacard",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/datacard/icons/jio_dcard.png",
+    "name": "Jio",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "jio_post": {
+    "category": "postpaid",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/prepaid/icons/jio_pre.png",
+    "name": "Jio Postpaid",
+    "sender_ids": [
+      "JIOPAY",
+      "JIOSVC",
+      "JIOINF",
+      "JIONET"
+    ],
+    "tc-pay-enabled": true
+  },
+  "jio_post_bbps_v2": {
+    "category": "postpaid",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/prepaid/icons/jio_pre.png",
+    "name": "Jio Postpaid",
+    "sender_ids": [
+      "JIOPAY",
+      "JIOSVC",
+      "JIOINF",
+      "JIONET"
+    ],
+    "tc-pay-enabled": true
+  },
+  "jio_pre": {
+    "category": "prepaid",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/prepaid/icons/jio_pre.png",
+    "name": "Jio",
+    "sender_ids": [
+      "JIOPAY",
+      "JIOSVC",
+      "JIOINF",
+      "JIONET",
+	  "620016"
+    ],
+    "tc-pay-enabled": true
+  },
+  "kedl_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "Kota Electricity Distribution Limited (KEDL)",
+    "sender_ids": [
+      "KEDLLM"
+    ],
+    "tc-pay-enabled": true
+  },
+  "kfc": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/kfc.png",
+    "name": "KFC",
+    "sender_ids": [
+      "KFCRES"
+    ],
+    "tc-pay-enabled": false
+  },
+  "kiehls": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/kiehls.png",
+    "name": "Kiehl's",
+    "sender_ids": [
+      "KIEHLS"
+    ],
+    "tc-pay-enabled": false
+  },
+  "ksebl_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "Kerala State Electricity Board Ltd. (KSEBL)",
+    "sender_ids": [
+      "KSEBIT"
+    ],
+    "tc-pay-enabled": true
+  },
+  "lakme": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/lakme.png",
+    "name": "Lakme",
+    "sender_ids": [
+      "ILAKME"
+    ],
+    "tc-pay-enabled": false
+  },
+  "lazypay": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/lazypay.png",
+    "name": "LazyPay",
+    "sender_ids": [
+      "LZYPAY"
+    ],
+    "tc-pay-enabled": false
+  },
+  "lenskart": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/lenskart.png",
+    "name": "Lenskart",
+    "sender_ids": [
+      "LENSKT"
+    ],
+    "tc-pay-enabled": false
+  },
+  "levis": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/levis.png",
+    "name": "Levis",
+    "sender_ids": [
+      "LEVISL"
+    ],
+    "tc-pay-enabled": false
+  },
+  "lifestyle": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/lifestyle.png",
+    "name": "Lifestyle",
+    "sender_ids": [
+      "LIFSTL"
+    ],
+    "tc-pay-enabled": false
+  },
+  "makemytrip": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/makemytrip.png",
+    "name": "Makemytrip",
+    "sender_ids": [
+      "MMTRIP"
+    ],
+    "tc-pay-enabled": false
+  },
+  "mcdonalds": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/mcd.png",
+    "name": "McDonalds",
+    "sender_ids": [
+      "MCDLVY"
+    ],
+    "tc-pay-enabled": false
+  },
+  "mescom_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "Mangalore Electricity Supply Co. Ltd (MESCOM)",
+	"ui_name": "MESCOM",
+    "sender_ids": [
+      "MESCOM"
+    ],
+    "tc-pay-enabled": true
+  },
+  "mgl_gas": {
+    "category": "gas",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/gas/icons/mgl_gas.png",
+    "name": "Mahanagar Gas",
+    "sender_ids": [
+      "MGLLTD"
+    ],
+    "tc-pay-enabled": false
+  },
+  "mgvcl_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "Madhya Gujarat Vij Company Limited (MGVCL)",
+	"ui_name": "MGVCL",
+    "sender_ids": [
+      "MGVCLG"
+    ],
+    "tc-pay-enabled": true
+  },
+  "mngl_gas": {
+    "category": "gas",
+    "icon": "",
+    "name": "Maharashtra Natural Gas Limited (MNGL)",
+	"ui_name": "MNGL",
+    "sender_ids": [
+      "MNGLPU"
+    ],
+    "tc-pay-enabled": true
+  },
+  "mobikwik": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/mobikwik.png",
+    "name": "MobiKwik",
+    "sender_ids": [
+      "MOBIKW"
+    ],
+    "tc-pay-enabled": false
+  },
+  "mojo_pizza": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/mojopizza.png",
+    "name": "Mojo Pizza",
+    "sender_ids": [
+      "MOJOPZ",
+      "INMOJO",
+      "MOJOTR"
+    ],
+    "tc-pay-enabled": false
+  },
+  "msedcl_ec": {
+    "category": "electricity",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/electricity/logos/msedc_limited_ele.png",
+    "name": "Maharashtra State Electricity Distbn Co",
+	"ui_name": "MSEDCL",
+    "sender_ids": [
+      "MSEDCL",
+	  "BILINF"
+    ],
+    "tc-pay-enabled": true
+  },
+  "mtnl_delhi_bb": {
+    "category": "broadband",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/broadband/icons/mtnl_delhi_bb.png",
+    "name": "MTNL Delhi",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "mtnl_delhi_ll": {
+    "category": "landline",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/landline/icons/mtnl_delhi_ll.png",
+    "name": "MTNL Delhi",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "mtnl_delhi_pre": {
+    "category": "prepaid",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/prepaid/icons/mtnl_delhi_pre.png",
+    "name": "MTNL Delhi",
+    "sender_ids": [
+      "MTNLDL"
+    ],
+    "tc-pay-enabled": true
+  },
+  "mtnl_mumbai_pre": {
+    "category": "prepaid",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/prepaid/icons/mtnl_mumbai_pre.png",
+    "name": "MTNL Mumbai",
+    "sender_ids": [
+      "MTNGSM",
+      "MTNLAO",
+      "MTNLBA",
+      "MTNLBL",
+      "MTNLCB",
+      "MTNLCC",
+      "MTNLET",
+      "MTNLGA",
+      "MTNLHN",
+      "MTNLIN",
+      "MTNLLL",
+      "MTNLMB",
+      "MTNLOT",
+      "MTNLPR",
+      "MTNLWM",
+      "MTNMUM"
+    ],
+    "tc-pay-enabled": true
+  },
+  "mtnl_ll": {
+    "category": "landline",
+    "icon": "",
+    "name": "MTNL Mumbai",
+    "sender_ids": [
+      "MTNLLL"
+    ],
+    "tc-pay-enabled": true
+  },
+  "mts_dcard": {
+    "category": "datacard",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/`/icons/mts_dcard.png",
+    "name": "MTS",
+    "sender_ids": [
+      "MTSSER",
+      "MTSBILL",
+      "MTSYOU"
+    ],
+    "tc-pay-enabled": false
+  },
+  "myntra": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/myntra.png",
+    "name": "Myntra",
+    "sender_ids": [
+      "MYNTRA"
+    ],
+    "tc-pay-enabled": false
+  },
+  "natures_basket": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/natures_basket.png",
+    "name": "Nature's basket",
+    "sender_ids": [
+      "NABSKT"
+    ],
+    "tc-pay-enabled": false
+  },
+  "nbu_ec": {
+    "category": "electricity",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/electricity/icons/nbu_ec.png",
+    "name": "North Bihar Urban",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "ndpl_ec": {
+    "category": "electricity",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/electricity/logos/ndpl_ec.png",
+    "name": "North Delhi Power Limited",
+    "sender_ids": [
+      "TPDDLD",
+      "TPDDLP"
+    ],
+    "tc-pay-enabled": true
+  },
+  "nesco_ec": {
+    "category": "electricity",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/electricity/icons/nesco_ec.png",
+    "name": "NESCO",
+    "sender_ids": [
+    	"NESCOU"
+    ],
+    "tc-pay-enabled": true
+  },
+  "nestaway": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/nestaway.png",
+    "name": "Nestaway",
+    "sender_ids": [
+      "NSTAWY"
+    ],
+    "tc-pay-enabled": false
+  },
+  "nextra_bb": {
+    "category": "broadband",
+    "icon": "",
+    "name": "Nextra Broadband",
+    "sender_ids": [
+      "NEXTRA"
+    ],
+    "tc-pay-enabled": true
+  },
+  "noida_power_ec": {
+    "category": "electricity",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/electricity/icons/noida_power_ec.png",
+    "name": "Noida Power",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "npci": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/npci.png",
+    "name": "NPCI",
+    "sender_ids": [
+      "NPCIBH"
+    ],
+    "tc-pay-enabled": false
+  },
+  "nykaa": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/nykaa.png",
+    "name": "Nykaa",
+    "sender_ids": [
+      "INYKAA",
+      "NYKAAX"
+    ],
+    "tc-pay-enabled": false
+  },
+  "ola": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/ola.png",
+    "name": "Ola Cabs",
+    "sender_ids": [
+      "OLACBS",
+      "OLACAB"
+    ],
+    "tc-pay-enabled": false
+  },
+  "oyo": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/oyo.png",
+    "name": "Oyo Rooms",
+    "sender_ids": [
+      "OYORMS"
+    ],
+    "tc-pay-enabled": false
+  },
+  "paisabazaar": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/paisa_bazaar.png",
+    "name": "Paisabazaar",
+    "sender_ids": [
+      "PASBAZ",
+      "CRDSCR"
+    ],
+    "tc-pay-enabled": false
+  },
+  "paytm": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/paytm.png",
+    "name": "PayTM",
+    "sender_ids": [
+      "IPAYTM"
+    ],
+    "tc-pay-enabled": false
+  },
+  "pgvcl_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "Paschim Gujarat Vij Company Limited (PGVCL)",
+	"ui_name": "PGVCL",
+    "sender_ids": [
+      "PGVCLG"
+    ],
+    "tc-pay-enabled": true
+  },
+  "pharmeasy": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/pharmeasy.png",
+    "name": "Pharmeasy",
+    "sender_ids": [
+      "PHEASY"
+    ],
+    "tc-pay-enabled": false
+  },
+  "phonepe": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/phonepe.png",
+    "name": "PhonePe",
+    "sender_ids": [
+      "PHONPE"
+    ],
+    "tc-pay-enabled": false
+  },
+  "pizza_hut": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/pizza_hut.png",
+    "name": "Pizza Hut",
+    "sender_ids": [
+      "PZAHUT"
+    ],
+    "tc-pay-enabled": false
+  },
+  "playo": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/playo.png",
+    "name": "Playo",
+    "sender_ids": [
+      "PLAYOO"
+    ],
+    "tc-pay-enabled": false
+  },
+  "pmc_water": {
+    "category": "water",
+    "icon": "",
+    "name": "Pune Municipal Corp - Water",
+    "sender_ids": [
+      "PMCCTZ"
+    ],
+    "tc-pay-enabled": true
+  },
+  "policy_bazaar": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/policy_bazaar.png",
+    "name": "Policy Bazaar",
+    "sender_ids": [
+      "POLBAZ"
+    ],
+    "tc-pay-enabled": false
+  },
+  "practo": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/practo.png",
+    "name": "Practo",
+    "sender_ids": [
+      "PRACTO"
+    ],
+    "tc-pay-enabled": false
+  },
+  "redbus": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/redbus.png",
+    "name": "Red Bus",
+    "sender_ids": [
+      "REDBUS"
+    ],
+    "tc-pay-enabled": false
+  },
+  "reliance_energy_ele": {
+    "category": "electricity",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/electricity/logos/reliance_energy_ele.png",
+    "name": "Reliance Energy",
+    "sender_ids": [
+      "RINFRA"
+    ],
+    "tc-pay-enabled": false
+  },
+  "reliance_mutual": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/reliance_mutual_fund.png",
+    "name": "Reliance Mutual Fund",
+    "sender_ids": [
+      "RMFUND"
+    ],
+    "tc-pay-enabled": false
+  },
+  "rentomojo": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/rentomojo.png",
+    "name": "Rentomojo",
+    "sender_ids": [
+      "RNTMJO"
+    ],
+    "tc-pay-enabled": false
+  },
+  "samsung": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/samsung.png",
+    "name": "Samsung",
+    "sender_ids": [
+      "SAMSNG"
+    ],
+    "tc-pay-enabled": false
+  },
+  "sanwariya_gas": {
+    "category": "gas",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/gas/icons/sanwariya_gas.png",
+    "name": "Sanwariya Gas",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "sbpdcl_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "South Bihar Power Distribution Company Ltd",
+	"ui_name": "SBPDC",
+    "sender_ids": [
+    	"SBPDCL"
+    ],
+    "tc-pay-enabled": true
+  },
+  "scripbox": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/scripbox.png",
+    "name": "Scripbox",
+    "sender_ids": [
+      "SCRPBX"
+    ],
+    "tc-pay-enabled": false
+  },
+  "servify": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/servify.png",
+    "name": "Servify",
+    "sender_ids": [
+      "SRVIFY"
+    ],
+    "tc-pay-enabled": false
+  },
+  "sgl_gas": {
+    "category": "gas",
+    "icon": "",
+    "name": "Sabarmati Gas Limited (SGL)",
+	"ui_name": "SGL",
+    "sender_ids": [
+      "SABGAS"
+    ],
+    "tc-pay-enabled": false
+  },
+  "shopclues": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/shopclues.png",
+    "name": "Shopclues",
+    "sender_ids": [
+      "SHOPCL"
+    ],
+    "tc-pay-enabled": false
+  },
+  "shoppers_stop": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/shoppers_stop.png",
+    "name": "First Citizen (Shopper's Stop)",
+    "sender_ids": [
+      "FCTZEN"
+    ],
+    "tc-pay-enabled": false
+  },
+  "smytten": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/smytten.png",
+    "name": "Smytten",
+    "sender_ids": [
+      "SMYTTN"
+    ],
+    "tc-pay-enabled": false
+  },
+  "snapdeal": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/snapdeal.png",
+    "name": "Snapdeal ",
+    "sender_ids": [
+      "SNAPDL"
+    ],
+    "tc-pay-enabled": false
+  },
+  "social": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/social.png",
+    "name": "Social",
+    "sender_ids": [
+      "SOCIAL"
+    ],
+    "tc-pay-enabled": false
+  },
+  "southco_ec": {
+    "category": "electricity",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/electricity/icons/southco_ec.png",
+    "name": "The Southern Electricity Supply Company Of Odisha Limited (SOUTHCO)",
+	"ui_name": "SOUTHCO",
+    "sender_ids": [
+    	"SOUTCO"
+    ],
+    "tc-pay-enabled": true
+  },
+  "sndl_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "SNDL Nagpur",
+    "sender_ids": [
+    	"SNDLTD"
+    ],
+    "tc-pay-enabled": true
+  },
+  "spectranet_bb": {
+    "category": "broadband",
+    "icon": "",
+    "name": "Spectranet Broadband",
+    "sender_ids": [
+    	"SPCTRA"
+    ],
+    "tc-pay-enabled": true
+  },
+  "spicejet": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/spicejet.png",
+    "name": "Spicejet",
+    "sender_ids": [
+      "SPCJET"
+    ],
+    "tc-pay-enabled": false
+  },
+  "suntv_dth_bbps": {
+    "category": "dth",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/dth/icons/suntv_dth.png",
+    "name": "Sun TV",
+    "sender_ids": [
+      "SUNDTH"
+    ],
+    "tc-pay-enabled": true
+  },
+  "swiggy": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/swiggy.png",
+    "name": "Swiggy",
+    "sender_ids": [
+      "SWIGGY"
+    ],
+    "tc-pay-enabled": false
+  },
+  "tatadgsm_post": {
+    "category": "postpaid",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/prepaid/icons/docomo_pre.png",
+    "name": "Tata Docomo Postpaid",
+    "sender_ids": [
+      "DOCOMO"
+    ],
+    "tc-pay-enabled": true
+  },
+  "tata_power_mum_ele": {
+    "category": "electricity",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/electricity/logos/tata_power_mumbai_ele.png",
+    "name": "Tata Power Mumbai",
+    "sender_ids": [
+      "TATAPW"
+    ],
+    "tc-pay-enabled": false
+  },
+  "tata_sky_dth_bbps": {
+    "category": "dth",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/dth/icons/tata_sky_dth.png",
+    "name": "Tata Sky",
+    "sender_ids": [
+      "MYTSKY"
+    ],
+    "tc-pay-enabled": true
+  },
+  "ticket_new": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/ticket_new.png",
+    "name": "Ticket New",
+    "sender_ids": [
+      "TKTNEW"
+    ],
+    "tc-pay-enabled": false
+  },
+  "tikona_bb": {
+    "category": "broadband",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/broadband/icons/tikona_bb.png",
+    "name": "Tikona Broadband",
+    "sender_ids": [
+      "TIKONA",
+      "TIKBRO",
+      "TIKSOL"
+    ],
+    "tc-pay-enabled": true
+  },
+  "tneb_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "Tamil Nadu Electricity Board (TNEB)",
+	"ui_name": "TNEB",
+    "sender_ids": [
+      "TANGED"
+    ],
+    "tc-pay-enabled": true
+  },
+  "tsecl_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "Tripura Electricity Corp",
+    "sender_ids": [
+      "TSECLI"
+    ],
+    "tc-pay-enabled": false
+  },
+  "ttn_bb": {
+    "category": "broadband",
+    "icon": "",
+    "name": "TTN BroadBand",
+    "sender_ids": [
+      "TTNNET"
+    ],
+    "tc-pay-enabled": true
+  },
+  "uber": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/uber.png",
+    "name": "Uber",
+    "sender_ids": [
+      "UBERIN"
+    ],
+    "tc-pay-enabled": false
+  },
+  "uber_eats": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/ubereats.png",
+    "name": "UberEATS",
+    "sender_ids": [
+      "UBRIDA",
+      "UBERSS",
+      "UBERCF"
+    ],
+    "tc-pay-enabled": false
+  },
+  "ucpgpl_gas": {
+    "category": "gas",
+    "icon": "",
+    "name": "Unique Central Piped Gases Pvt Ltd (UCPGPL)",
+	"ui_name": "UCPGPL",
+    "sender_ids": [
+      "UCPGPL"
+    ],
+    "tc-pay-enabled": true
+  },
+  "uhbvn_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "Uttar Haryana Bijli Vitran Nigam (UHBVN)",
+	"ui_name": "UHBVN",
+    "sender_ids": [
+      "UHBVNL"
+    ],
+   "tc-pay-enabled": true
+  },
+  "uit_bhiwadi_water": {
+    "category": "water",
+    "icon": "",
+    "name": "Urban Improvement Trust (UIT) - Bhiwadi",
+	"ui_name": "UIT - Bhiwadi",
+    "sender_ids": [
+      "UITBWD"
+    ],
+    "tc-pay-enabled": true
+  },
+  "ugvcl_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "Uttar Gujarat Vij Company Limited (UGVCL)",
+	"ui_name": "UGVCL",
+    "sender_ids": [
+      "UGVCLG"
+    ],
+    "tc-pay-enabled": true
+  },
+  "upcl_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "Uttarakhand Power Corporation Limited",
+	"ui_name": "UPCL",
+    "sender_ids": [
+      "UPCLUK"
+    ],
+    "tc-pay-enabled": true
+  },
+  "uppcl_urban_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "Uttar Pradesh Power Corp Ltd (UPPCL) - URBAN",
+	"ui_name": "UPPCL",
+    "sender_ids": [
+      "UPPCLT"
+    ],
+    "tc-pay-enabled": true
+  },
+  "urbanclap": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/urbanclap.png",
+    "name": "Urbanclap",
+    "sender_ids": [
+      "UBCLAP"
+    ],
+    "tc-pay-enabled": false
+  },
+  "videocon_dth_bbps": {
+    "category": "dth",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/dth/icons/videocon_dth.png",
+    "name": "Videocon DTH",
+    "sender_ids": [
+      "DTHVID",
+      "VIDDTH"
+    ],
+    "tc-pay-enabled": true
+  },
+  "vistara": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/vistara.png",
+    "name": "Vistara",
+    "sender_ids": [
+      "VISTAR"
+    ],
+    "tc-pay-enabled": false
+  },
+  "vlcc": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/vlcc.png",
+    "name": "Vlcc",
+    "sender_ids": [
+      "VLCCPC"
+    ],
+    "tc-pay-enabled": false
+  },
+  "vodafone_dcard": {
+    "category": "datacard",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/datacard/icons/vodafone_dcard.png",
+    "name": "Vodafone",
+    "sender_ids": [],
+    "tc-pay-enabled": true
+  },
+  "vodafone_post_bbps": {
+    "category": "postpaid",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/postpaid/icons/vodafone_post.png",
+    "name": "Vodafone",
+    "sender_ids": [
+    	"VFCARE",
+		"VICARE"
+    ],
+    "tc-pay-enabled": true
+  },
+  "vodafone_post_bbps_v2": {
+    "category": "postpaid",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/postpaid/icons/vodafone_post.png",
+    "name": "Vodafone",
+    "sender_ids": [
+    	"VFCARE",
+		"VICARE"
+    ],
+    "tc-pay-enabled": true
+  },
+  "vodafone_pre": {
+    "category": "prepaid",
+    "icon": "http://assets.api.tcpay.in/images/apps/utilities/operators/prepaid/icons/vodafone_pre.png",
+    "name": "Vodafone",
+    "sender_ids": [
+      "VDFONE",
+      "VFCARE",
+	  "VICARE",
+	  "DAFONE",
+	  "VODAFONE"
+    ],
+    "tc-pay-enabled": true
+  },
+  "volkswagen": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/volkwagen.png",
+    "name": "Volkswagen",
+    "sender_ids": [
+      "VWSEWR"
+    ],
+    "tc-pay-enabled": false
+  },
+  "walnut": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/walnut.png",
+    "name": "Walnut",
+    "sender_ids": [
+      "WNUTAP",
+      "WALNUT"
+    ],
+    "tc-pay-enabled": false
+  },
+  "westside": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/westside.png",
+    "name": "Westside",
+    "sender_ids": [
+      "WSTSID"
+    ],
+    "tc-pay-enabled": false
+  },
+  "westco_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "Wesco Odisha",
+    "sender_ids": [
+      "WESCOO"
+    ],
+    "tc-pay-enabled": false
+  },
+  "wbsedcl_ec": {
+    "category": "electricity",
+    "icon": "",
+    "name": "West Bengal State Electricity Distribution Co. Ltd (WBSEDCL)",
+	"ui_name": "WBSEDCL",
+    "sender_ids": [
+      "WBSEDC"
+    ],
+    "tc-pay-enabled": true
+  },
+  "xpressbees": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/xpressbees.png",
+    "name": "XpressBees",
+    "sender_ids": [
+      "XPBEES"
+    ],
+    "tc-pay-enabled": false
+  },
+  "zivame": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/zivame.png",
+    "name": "Zivame",
+    "sender_ids": [
+      "ZIVAME"
+    ],
+    "tc-pay-enabled": false
+  },
+  "zomato": {
+    "category": "brand",
+    "icon": "http://assets.api.tcpay.in/images/apps/brands/icons/square/zomato.png",
+    "name": "Zomato",
+    "sender_ids": [
+      "ZOMATO"
+    ],
+    "tc-pay-enabled": false
+  },
+  "bus": {
+    "category": "bus",
+    "icon": "",
+    "name": "Bus",
+    "sender_ids": [
+      "REDBUS",
+      "YURBUS",
+      "BUSTKT",
+      "ORANGE",
+      "ORGTRV",
+      "KERALT",
+      "AEONTR",
+      "SRSTRV",
+      "ABIBUS"
+    ],
+    "tc-pay-enabled": true
+  }
+}

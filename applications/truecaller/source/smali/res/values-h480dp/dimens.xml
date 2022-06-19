@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="adjustableDoubleSpace">@dimen/doubleSpace</item>
+    <dimen name="vid_acs_popup_width">175.0dip</dimen>
+    <dimen name="vid_recording_popup_width">153.0dip</dimen>
+    <dimen name="voip_avatar_size">100.0dip</dimen>
+    <dimen name="voip_avatar_top_margin">20.0dip</dimen>
+    <dimen name="voip_call_state_avatar_ring_dot_radius">4.0dip</dimen>
+    <dimen name="voip_call_state_ring_size">150.0dip</dimen>
+    <dimen name="voip_double_space">14.0dip</dimen>
+    <dimen name="voip_main_fab_bottom_margin">8.0dip</dimen>
+    <dimen name="voip_main_fab_image_max_size">28.0dip</dimen>
+    <dimen name="voip_main_fab_max_size">68.0dip</dimen>
+    <dimen name="voip_ongoing_secondary_fab_size">50.0dip</dimen>
+    <dimen name="voip_secondary_button_horizontal_margin">28.0dip</dimen>
+    <dimen name="voip_single_spacing">4.0dip</dimen>
+    <dimen name="voip_tripple_space">20.0dip</dimen>
+</resources>

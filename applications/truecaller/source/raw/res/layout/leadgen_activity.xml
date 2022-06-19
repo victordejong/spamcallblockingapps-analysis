@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:id="@id/frame" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/header" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/header_include" layout="@layout/leadgen_header" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.core.widget.NestedScrollView android:id="@id/scrollContainer" android:paddingBottom="@dimen/control_doublespace" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:id="@id/bodyContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="2.0dip">
+                    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="32.0dip" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/itemContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header" />
+                <TextView android:textSize="12.0sp" android:textColor="#ffb0bec5" android:textColorLink="#ff003900" android:id="@id/legal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="8.0dip" android:layout_marginStart="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/itemContainer" />
+                <com.truecaller.ads.ui.CtaButton android:gravity="center" android:id="@id/actionButton" android:layout_width="fill_parent" android:layout_height="@dimen/control_quintspace" android:layout_margin="@dimen/control_doublespace" style="@style/Widget.Truecaller.Button.Ad.Lead" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <FrameLayout android:id="@id/loadingOverlay" android:background="#55000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/topLayout" android:paddingLeft="@dimen/dimen_12_dp" android:paddingRight="@dimen/dimen_12_dp" android:layout_width="fill_parent" android:layout_height="140.0dip">
+        <ImageView android:id="@id/topLayoutPlaceHolder" android:paddingTop="@dimen/dimen_4_dp" android:paddingBottom="@dimen/dimen_4_dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="140.0dip" android:src="@drawable/ic_ph02_plh02" />
+        <androidx.fragment.app.FragmentContainerView android:name="com.callapp.contacts.activity.analytics.progressGraph.fragment.CallDayNightTimeGraphFragment" android:id="@id/callDayNightTimeGraphFragment" android:tag="analytics_graph" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:orientation="vertical" android:id="@id/bottomLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="140.0dip">
+        <include android:id="@id/bottomLayoutPlaceholder" layout="@layout/cd_analytics_bottom_placholder" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bottomData" android:padding="@dimen/dimen_8_dp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="5.0">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dimen_16_dp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0">
+                <TextView android:textSize="14.0sp" android:id="@id/timeSlotTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="28.0sp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:id="@id/timeSlotText" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/photoWrapper" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+                <ImageView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="86.0dip" android:src="@drawable/ic_ph02_bg" />
+                <com.callapp.contacts.widget.ProfilePictureView android:layout_gravity="center" android:id="@id/userProfilePhoto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/profile_pic_default" app:presetSize="small" />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

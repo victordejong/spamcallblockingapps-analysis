@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/undobar" style="@style/list_card_UndoBar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/undobar_message" style="@style/list_card_UndoBarMessage" />
+    <Button android:id="@id/undobar_button" style="@style/list_card_UndoBarButton" />
+</LinearLayout>

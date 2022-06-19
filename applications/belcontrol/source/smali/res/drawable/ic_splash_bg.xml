@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_wizard_bg" />
+    <item android:gravity="center" android:drawable="@drawable/ic_wizard_shield" android:top="-50.0dip" />
+</layer-list>

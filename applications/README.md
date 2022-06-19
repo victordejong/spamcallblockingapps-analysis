@@ -17,18 +17,15 @@ dynamic:
 ### Decompiling steps:
 
 1. Create parent directory with the APK file in it.
-2. Run `apktool d --no-src <apk name>`.
+2. Run `apktool d --no-src <apk name>`
 3. Run `dex2jar [APK DIRECTORY]/classes*.dex`
 4. Run `jadx --deobf -d decompiled-source classes*.jar`
 
 This results in decompiled and readable Java code, but it is lossy and cannot be recompiled into an installable APK. To preserve everything we can decompile into Smali code, which is a human-readable representation of the byte-code run on the Android Runtime. This can be done with `apktool d <apk name>`.
 
-## TODO
+### Decompile to Smali
 
-Decompilation failed for:
-
-- mrnumber
-- webascender
+Only Apktool is needed, simply run `apktool d <apk name>`
 
 ## Sources
 

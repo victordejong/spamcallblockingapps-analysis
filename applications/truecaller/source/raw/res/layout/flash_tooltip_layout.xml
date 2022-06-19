@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?theme_contrast_text" android:gravity="center" android:layout_gravity="end" android:id="@id/text" android:background="@drawable/ic_flash_tooltip" android:paddingTop="@dimen/control_triplespace" android:paddingBottom="@dimen/control_extraspace" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/flash_tooltip_text" android:paddingStart="@dimen/control_doublespace" android:paddingEnd="@dimen/control_doublespace" android:layout_marginStart="@dimen/control_quadspace" android:layout_marginEnd="@dimen/control_quadspace" />
+</FrameLayout>

@@ -1,0 +1,101 @@
+.class public final Lscala/collection/parallel/mutable/ParHashMapCombiner$$anonfun$result$1;
+.super Lscala/runtime/AbstractFunction1;
+.source "ParHashMap.scala"
+
+# interfaces
+.implements Lscala/Serializable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lscala/collection/parallel/mutable/ParHashMapCombiner;->result()Lscala/collection/parallel/mutable/ParHashMap;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x11
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lscala/runtime/AbstractFunction1<",
+        "Lscala/collection/mutable/DefaultEntry<",
+        "TK;TV;>;",
+        "Lscala/runtime/BoxedUnit;",
+        ">;",
+        "Lscala/Serializable;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final serialVersionUID:J
+
+
+# instance fields
+.field private final synthetic $outer:Lscala/collection/parallel/mutable/ParHashMapCombiner;
+
+.field private final table$module$1:Lscala/runtime/VolatileObjectRef;
+
+
+# direct methods
+.method public constructor <init>(Lscala/collection/parallel/mutable/ParHashMapCombiner;Lscala/runtime/VolatileObjectRef;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lscala/collection/parallel/mutable/ParHashMapCombiner<",
+            "TK;TV;>;)V"
+        }
+    .end annotation
+
+    .line 200
+    invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
+
+    iput-object p1, p0, Lscala/collection/parallel/mutable/ParHashMapCombiner$$anonfun$result$1;->$outer:Lscala/collection/parallel/mutable/ParHashMapCombiner;
+
+    iput-object p2, p0, Lscala/collection/parallel/mutable/ParHashMapCombiner$$anonfun$result$1;->table$module$1:Lscala/runtime/VolatileObjectRef;
+
+    invoke-direct {p0}, Lscala/runtime/AbstractFunction1;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic apply(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    .line 200
+    check-cast p1, Lscala/collection/mutable/DefaultEntry;
+
+    invoke-virtual {p0, p1}, Lscala/collection/parallel/mutable/ParHashMapCombiner$$anonfun$result$1;->apply(Lscala/collection/mutable/DefaultEntry;)V
+
+    sget-object p1, Lscala/runtime/BoxedUnit;->UNIT:Lscala/runtime/BoxedUnit;
+
+    return-object p1
+.end method
+
+.method public final apply(Lscala/collection/mutable/DefaultEntry;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lscala/collection/mutable/DefaultEntry<",
+            "TK;TV;>;)V"
+        }
+    .end annotation
+
+    .line 200
+    iget-object v0, p0, Lscala/collection/parallel/mutable/ParHashMapCombiner$$anonfun$result$1;->$outer:Lscala/collection/parallel/mutable/ParHashMapCombiner;
+
+    iget-object v1, p0, Lscala/collection/parallel/mutable/ParHashMapCombiner$$anonfun$result$1;->table$module$1:Lscala/runtime/VolatileObjectRef;
+
+    invoke-virtual {v0, v1}, Lscala/collection/parallel/mutable/ParHashMapCombiner;->scala$collection$parallel$mutable$ParHashMapCombiner$$table$1(Lscala/runtime/VolatileObjectRef;)Lscala/collection/parallel/mutable/ParHashMapCombiner$table$2$;
+
+    move-result-object v0
+
+    invoke-virtual {v0, p1}, Lscala/collection/parallel/mutable/ParHashMapCombiner$table$2$;->insertEntry(Lscala/collection/mutable/DefaultEntry;)V
+
+    return-void
+.end method

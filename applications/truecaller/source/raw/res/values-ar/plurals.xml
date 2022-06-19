@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">حظر و تبليغ عن %d رقم كمتطفل؟</item>
+        <item quantity="one">حظر و تبليغ عن الرقم كمتطفل؟</item>
+        <item quantity="two">حظر و تبليغ عن الرقمين كمتطفلين؟</item>
+        <item quantity="few">حظر و تبليغ عن %d أرقام كمتطفلين؟</item>
+        <item quantity="many">حظر و تبليغ عن %d رقم كمتطفل؟</item>
+    </plurals>
+    <plurals name="ConversationCallsHistoryCount">
+        <item quantity="other">%d مكالمات</item>
+        <item quantity="zero">%d مكالمات</item>
+        <item quantity="one">%d مكالمة</item>
+        <item quantity="two">%d مكالمات</item>
+        <item quantity="few">%d مكالمة</item>
+        <item quantity="many">%d مكالمات</item>
+    </plurals>
+    <plurals name="ConversationFlashHistoryCount">
+        <item quantity="other">رسائل فلاش</item>
+        <item quantity="zero">%d رسائل فلاش</item>
+        <item quantity="one">%d رسالة فلاش</item>
+        <item quantity="two">رسائل فلاش</item>
+        <item quantity="few">رسائل فلاش</item>
+        <item quantity="many">رسالة فلاش</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">رسائل أضيفت إلى علامة التبويب الهامة</item>
+        <item quantity="zero">رسائل أضيفت إلى علامة التبويب الهامة</item>
+        <item quantity="one">رسالة أضيفت إلى علامة التبويب الهامة</item>
+        <item quantity="two">رسائل أضيفت إلى علامة التبويب الهامة</item>
+        <item quantity="few">رسائل أضيفت إلى علامة التبويب الهامة</item>
+        <item quantity="many">رسالة أضيفت إلى علامة التبويب الهامة</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d محادثات محددة كمقرؤة</item>
+        <item quantity="zero">%d محادثات محددة كمقرؤة</item>
+        <item quantity="one">%d محادثة محددة كمقرؤة</item>
+        <item quantity="two">%d محادثات محددة كمقرؤة</item>
+        <item quantity="few">%d محادثات محددة كمقرؤة</item>
+        <item quantity="many">%d محادثة محددة كمقرؤة</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">تم حذف %d إدخالات</item>
+        <item quantity="zero">تم حذف %d إدخالات</item>
+        <item quantity="one">تم حذف %d إدخال</item>
+        <item quantity="two">تم حذف %d إدخالات</item>
+        <item quantity="few">تم حذف %d إدخال</item>
+        <item quantity="many">تم حذف %d إدخالات</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">حذف %d إدخالات؟</item>
+        <item quantity="zero">حذف %d إدخالات؟</item>
+        <item quantity="one">حذف %d إدخال؟</item>
+        <item quantity="two">حذف %d إدخالات؟</item>
+        <item quantity="few">حذف %d إدخال؟</item>
+        <item quantity="many">حذف %d إدخالات؟</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">المحادثات مُثبّتة</item>
+        <item quantity="zero">المحادثات مُثبّتة</item>
+        <item quantity="one">المحادثة مُثبّتة</item>
+        <item quantity="two">المحادثات مُثبّتة</item>
+        <item quantity="few">المحادثات مُثبّتة</item>
+        <item quantity="many">المحادثات مُثبّتة</item>
+    </plurals>
+    <plurals name="ConversationReportNotSpamConfirmation">
+        <item quantity="other">%d رسائل أُبلغ عنها أنها ليست متطفلة</item>
+        <item quantity="zero">%d رسائل أُبلغ عنها أنها ليست متطفلة</item>
+        <item quantity="one">%d رسالة أُبلغ عنها أنها ليست متطفلة</item>
+        <item quantity="two">%d رسائل أُبلغ عنها أنها ليست متطفلة</item>
+        <item quantity="few">%d رسالة أُبلغ عنها أنها ليست متطفلة</item>
+        <item quantity="many">%d رسائل أُبلغ عنها أنها ليست متطفلة</item>
+    </plurals>
+    <plurals name="ConversationReportSpamConfirmation">
+        <item quantity="other">%d رسائل قد تم الإبلاغ عنها كمتطفلة</item>
+        <item quantity="zero">%d رسائل قد تم الإبلاغ عنها كمتطفلة</item>
+        <item quantity="one">%d رسالة قد تم الإبلاغ عنها كمتطفلة</item>
+        <item quantity="two">%d رسائل قد تم الإبلاغ عنها كمتطفلة</item>
+        <item quantity="few">%d رسالة قد تم الإبلاغ عنها كمتطفلة</item>
+        <item quantity="many">%d رسائل قد تم الإبلاغ عنها كمتطفلة</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">حفظ جميع جهات الاتصال</item>
+        <item quantity="zero">حفظ جميع جهات الاتصال</item>
+        <item quantity="one">@string/ConversationSaveContact</item>
+        <item quantity="two">حفظ جميع جهات الاتصال</item>
+        <item quantity="few">حفظ جميع جهات الاتصال</item>
+        <item quantity="many">حفظ جميع جهات الاتصال</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">المحادثات غير مُثبّتة</item>
+        <item quantity="zero">المحادثات غير مُثبّتة</item>
+        <item quantity="one">المحادثة غير مُثبّتة</item>
+        <item quantity="two">المحادثات غير مُثبّتة</item>
+        <item quantity="few">المحادثات غير مُثبّتة</item>
+        <item quantity="many">المحادثات غير مُثبّتة</item>
+    </plurals>
+    <plurals name="DeleteConversationsConfirmation">
+        <item quantity="other">تم حذف %d محادثة</item>
+        <item quantity="zero">تم حذف %d محادثة</item>
+        <item quantity="one">تم حذف محادثة %d</item>
+        <item quantity="two">تم حذف محادثتين</item>
+        <item quantity="few">تم حذف %d محادثات</item>
+        <item quantity="many">تم حذف %d محادثة</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">حذف %d محادثة؟</item>
+        <item quantity="one">حذف محادثة %d؟</item>
+        <item quantity="two">حذف محادثتين؟</item>
+        <item quantity="few">حذف %d محادثات؟</item>
+        <item quantity="many">حذف %d محادثة؟</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">تم تحديد %d رقم</item>
+        <item quantity="zero">لم يتم تحديد أي رقم</item>
+        <item quantity="one">تم تحديد رقم %d</item>
+        <item quantity="two">تم تحديد رقمين</item>
+        <item quantity="few">تم تحديد %d أرقام</item>
+        <item quantity="many">تم تحديد %d رقم</item>
+    </plurals>
+    <plurals name="HistoryActionConfirmDeleteMessage">
+        <item quantity="other">حذف %d بنود؟</item>
+        <item quantity="one">حذف بند %d؟</item>
+        <item quantity="two">حذف بندين؟</item>
+        <item quantity="few">حذف عدة بنود؟</item>
+    </plurals>
+    <plurals name="HistoryActionDeleted">
+        <item quantity="other">إنحذفت %d بنود</item>
+        <item quantity="one">تم حذف بند %d</item>
+        <item quantity="two">تم حذف بندين</item>
+        <item quantity="few">تم حذف عدة بنود</item>
+    </plurals>
+    <plurals name="HistoryActionSelected">
+        <item quantity="other">تم إختيار %d بنود</item>
+        <item quantity="one">تم إختيار بند %d</item>
+        <item quantity="two">تم إختيار بندين</item>
+        <item quantity="few">تم إختيار عدة بنود</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">هل تريد بالتأكيد إلغاء حظر %d أرقام؟</item>
+        <item quantity="zero">هل تريد بالتأكيد إلغاء حظر %d أرقام؟</item>
+        <item quantity="one">هل تريد بالتأكيد إلغاء حظر %d رقم؟</item>
+        <item quantity="two">هل تريد بالتأكيد إلغاء حظر %d أرقام؟</item>
+        <item quantity="few">هل تريد بالتأكيد إلغاء حظر %d رقم؟</item>
+        <item quantity="many">هل تريد بالتأكيد إلغاء حظر %d أرقام؟</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteCallRecordings">
+        <item quantity="other">هل أنت متأكد من أنك تريد حذف تسجيلات %s مكالمات؟</item>
+        <item quantity="zero">هل أنت متأكد من أنك تريد حذف تسجيلات %s مكالمات؟</item>
+        <item quantity="one">هل أنت متأكد من أنك تريد حذف تسجيلات %s مكالمة؟</item>
+        <item quantity="two">هل أنت متأكد من أنك تريد حذف تسجيلات %s مكالمات؟</item>
+        <item quantity="few">هل أنت متأكد من أنك تريد حذف تسجيلات %s مكالمات؟</item>
+        <item quantity="many">هل أنت متأكد من أنك تريد حذف تسجيلات %s مكالمة؟</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">هل أنت متأكد من أنك تريد حذف %s ملفات لغة؟</item>
+        <item quantity="zero">هل أنت متأكد من أنك تريد حذف %s ملفات لغة؟</item>
+        <item quantity="one">هل أنت متأكد من أنك تريد حذف %s ملف لغة؟</item>
+        <item quantity="two">هل أنت متأكد من أنك تريد حذف %s ملفات لغة؟</item>
+        <item quantity="few">هل أنت متأكد من أنك تريد حذف %s ملفات لغة؟</item>
+        <item quantity="many">هل أنت متأكد من أنك تريد حذف %s ملف لغة؟</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">تم حظر %d رسالة</item>
+        <item quantity="zero">%d رسالة قصيرة تم حظرها</item>
+        <item quantity="one">تم حظر رسالة من قبل تروكولر</item>
+        <item quantity="two">تم حظر رسالتين من قبل تروكولر</item>
+        <item quantity="few">تم حظر %d رسائل</item>
+        <item quantity="many">تم حظر %d رسالة</item>
+    </plurals>
+    <plurals name="MessageNotificationNewMessages">
+        <item quantity="other">+%1$d رسائل جديدة إضافية</item>
+        <item quantity="zero">+%1$d رسائل جديدة إضافية</item>
+        <item quantity="one">+%1$d رسالة جديدة إضافية</item>
+        <item quantity="two">+%1$d رسالة جديدة إضافية</item>
+        <item quantity="few">+%1$d رسائل جديدة إضافية</item>
+        <item quantity="many">+%1$d رسائل جديدة إضافية</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">اتصل %1$s منذ %2$d ساعة. إضغط للعرض في تروكولر</item>
+        <item quantity="zero">%1$s اتصل منذ %2$d ساعة. أنقر للمشاهدة في تروكولر</item>
+        <item quantity="one">اتصل %1$s منذ ساعة %2$d. إضغط للعرض في تروكولر</item>
+        <item quantity="two">اتصل %1$s منذ ساعتين. إضغط للعرض في تروكولر</item>
+        <item quantity="few">اتصل %1$s منذ %2$d ساعات. إضغط للعرض في تروكولر</item>
+        <item quantity="many">اتصل %1$s منذ %2$d ساعة. إضغط للعرض في تروكولر</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d جهة اتصال</item>
+        <item quantity="zero">%d جهة اتصال</item>
+        <item quantity="one">جهة اتصال</item>
+        <item quantity="two">جهتي اتصال</item>
+        <item quantity="few">%d جهات اتصال</item>
+        <item quantity="many">%d جهة اتصال</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d مرفق</item>
+        <item quantity="zero">%1$d مرفقات</item>
+        <item quantity="one">مرفق %1$d</item>
+        <item quantity="two">مرفقين</item>
+        <item quantity="few">%1$d مرفقات</item>
+        <item quantity="many">%1$d مرفق</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">%d جهات اتصال أخرى</item>
+        <item quantity="zero">%d جهات اتصال أخرى</item>
+        <item quantity="one">%d جهة اتصال أخرى</item>
+        <item quantity="two">%d جهات اتصال أخرى</item>
+        <item quantity="few">%d جهات اتصال أخرى</item>
+        <item quantity="many">%d جهة اتصال أخرى</item>
+    </plurals>
+    <plurals name="NewImGroupMemberCount">
+        <item quantity="other">%d أعضاء</item>
+        <item quantity="zero">%d أعضاء</item>
+        <item quantity="one">%d عضو</item>
+        <item quantity="two">%d أعضاء</item>
+        <item quantity="few">%d عضو</item>
+        <item quantity="many">%d أعضاء</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">تم إضافة %d رقم إلى قائمة المحظورين</item>
+        <item quantity="zero">تم إضافة %d رقم إلى قائمة المحظورين</item>
+        <item quantity="one">تم إضافة الرقم إلى قائمة المحظورين</item>
+        <item quantity="two">تم إضافة رقمين إلى قائمة المحظورين</item>
+        <item quantity="few">تم إضافة %d أرقام إلى قائمة المحظورين</item>
+        <item quantity="many">تم إضافة %d رقم إلى قائمة المحظورين</item>
+    </plurals>
+    <plurals name="OSNotificationTextNew">
+        <item quantity="other">لديك %d إشعارات جديدة</item>
+        <item quantity="zero">لديك %d إشعار جديد</item>
+        <item quantity="one">لديك %d إشعار جديد</item>
+        <item quantity="two">لديك %d إشعارات جديدة</item>
+        <item quantity="few">لديك %d إشعارات جديدة</item>
+        <item quantity="many">لديك %d إشعار جديد</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d مكالمات محظورة</item>
+        <item quantity="zero">%d مكالمة محظورة</item>
+        <item quantity="one">%d مكالمة محظورة</item>
+        <item quantity="two">%d مكالمتان محظورتان</item>
+        <item quantity="few">%d مكالمات محظورة</item>
+        <item quantity="many">%d مكالمة محظورة</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d مكالمات صامتة</item>
+        <item quantity="zero">%d مكالمة صامتة</item>
+        <item quantity="one">%d مكالمة صامتة</item>
+        <item quantity="two">%d مكالمتان صامتتان</item>
+        <item quantity="few">%d مكالمات صامتة</item>
+        <item quantity="many">%d مكالمة صامتة</item>
+    </plurals>
+    <plurals name="PremiumAbbreviatedOfferPriceOverMonth">
+        <item quantity="other">%1$s في شهر</item>
+        <item quantity="zero">%1$s/شهور</item>
+        <item quantity="one">%1$s/شهر</item>
+        <item quantity="two">%1$s/شهرين</item>
+        <item quantity="few">%1$s/شهور</item>
+        <item quantity="many">%1$s/شهر</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">%1$d أيام تجريبية مجانية للمشتركين الجدد فقط</item>
+        <item quantity="zero">%1$d أيام تجريبية مجانية للمشتركين الجدد فقط</item>
+        <item quantity="one">%1$d يوم تجريبي مجاني للمشتركين الجدد فقط</item>
+        <item quantity="two">%1$d أيام تجريبية مجانية للمشتركين الجدد فقط</item>
+        <item quantity="few">%1$d يوم تجريبي مجاني للمشتركين الجدد فقط</item>
+        <item quantity="many">%1$d أيام تجريبية مجانية للمشتركين الجدد فقط</item>
+    </plurals>
+    <plurals name="PremiumFeatureContactRequestLeft">
+        <item quantity="other">%1$d طلبات باقية</item>
+        <item quantity="zero">%1$d طلبات باقية</item>
+        <item quantity="one">%1$d طلب باقي</item>
+        <item quantity="two">%1$d طلبات باقية</item>
+        <item quantity="few">%1$d طلبات باقية</item>
+        <item quantity="many">%1$d طلب باقي</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">%1$d مشاهدة جديدة للملف</item>
+        <item quantity="zero">%1$d مشاهدات جديدة للملف</item>
+        <item quantity="one">1 مشاهدة جديدة للملف</item>
+        <item quantity="two">%1$d مشاهدات جديدة للملف</item>
+        <item quantity="few">%1$d مشاهدات جديدة للملف</item>
+        <item quantity="many">%1$d مشاهدة جديدة للملف</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">%1$d أفراد شاهدوا ملفك الشخصي مؤخراً</item>
+        <item quantity="zero">%1$d أفراد شاهدوا ملفك الشخصي مؤخراً</item>
+        <item quantity="one">أحدهم شاهد ملفك الشخصي مؤخراً</item>
+        <item quantity="two">%1$d أفراد شاهدوا ملفك الشخصي مؤخراً</item>
+        <item quantity="few">%1$d أفراد شاهدوا ملفك الشخصي مؤخراً</item>
+        <item quantity="many">%1$d فرد شاهدوا ملفك الشخصي مؤخراً</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d شخص (%3$d في %2$s) عرض ملفك الشخصي مؤخرًا</item>
+        <item quantity="zero">%1$d شخص (%3$d في %2$s) عرض ملفك الشخصي مؤخرًا</item>
+        <item quantity="one">شخص واحد (%3$d في %2$s) عرض ملفك الشخصي مؤخرًا</item>
+        <item quantity="two">شخصان (%3$d في %2$s) عرضا ملفك الشخصي مؤخرًا</item>
+        <item quantity="few">%1$d أشخاص (%3$d في %2$s) عرضوا ملفك الشخصي مؤخرًا</item>
+        <item quantity="many">%1$d شخص (%3$d في %2$s) عرض ملفك الشخصي مؤخرًا</item>
+    </plurals>
+    <plurals name="SettingPendingGroupInvitationsMessage">
+        <item quantity="other">لديك %d من دعوات المجموعات المعلقة. هل ترغب في قبولها كلها؟</item>
+        <item quantity="zero">لديك %d من دعوات المجموعات المعلقة. هل ترغب في قبولها كلها؟</item>
+        <item quantity="one">لديك %d دعوة مجموعات معلقة. هل ترغب في قبولها؟</item>
+        <item quantity="two">لديك %d من دعوات المجموعات المعلقة. هل ترغب في قبولها كلها؟</item>
+        <item quantity="few">لديك %d من دعوات المجموعات المعلقة. هل ترغب في قبولها كلها؟</item>
+        <item quantity="many">لديك %d من دعوات المجموعات المعلقة. هل ترغب في قبولها كلها؟</item>
+    </plurals>
+    <plurals name="SpamSmsFound">
+        <item quantity="other">تم العثور على %d رسائل متطفلة</item>
+        <item quantity="zero">تم العثور على %d رسائل متطفلة</item>
+        <item quantity="one">تم العثور على %d رسالة متطفلة</item>
+        <item quantity="two">تم العثور على %d رسائل متطفلة</item>
+        <item quantity="few">تم العثور على %d رسائل متطفلة</item>
+        <item quantity="many">تم العثور على %d رسالة متطفلة</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByMultiple">
+        <item quantity="other">%1$s و%2$d آخرون تمت دعوتهم إلى المجموعة بواسطة %3$s</item>
+        <item quantity="zero">%1$s و%2$d آخرون تمت دعوتهم إلى المجموعة بواسطة %3$s</item>
+        <item quantity="one">%1$s و%2$d آخرون تمت دعوتهم إلى المجموعة بواسطة %3$s</item>
+        <item quantity="two">%1$s و%2$d آخرون تمت دعوتهم إلى المجموعة بواسطة %3$s</item>
+        <item quantity="few">%1$s و%2$d آخرون تمت دعوتهم إلى المجموعة بواسطة %3$s</item>
+        <item quantity="many">%1$s و%2$d آخرون تمت دعوتهم إلى المجموعة بواسطة %3$s</item>
+    </plurals>
+    <plurals name="StatusMessageInvitedByYouMultiple">
+        <item quantity="other">لقد دعيت %1$s و%2$d آخرين إلى المجموعة</item>
+        <item quantity="zero">لقد دعيت %1$s و%2$d آخرين إلى المجموعة</item>
+        <item quantity="one">لقد دعيت %1$s و%2$d آخرين إلى المجموعة</item>
+        <item quantity="two">لقد دعيت %1$s و%2$d آخرين إلى المجموعة</item>
+        <item quantity="few">لقد دعيت %1$s و%2$d آخرين إلى المجموعة</item>
+        <item quantity="many">لقد دعيت %1$s و%2$d آخرين إلى المجموعة</item>
+    </plurals>
+    <plurals name="StrPhoneNumberAndMore">
+        <item quantity="other">%1$s &lt;b>+%2$d المزيد&lt;/b></item>
+        <item quantity="one">%1$s &lt;b>+%2$d المزيد&lt;/b></item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">أيام</item>
+        <item quantity="zero">أيام</item>
+        <item quantity="one">يوم</item>
+        <item quantity="two">أيام</item>
+        <item quantity="few">يوم</item>
+        <item quantity="many">أيام</item>
+    </plurals>
+    <plurals name="StrPluralHour">
+        <item quantity="other">ساعات</item>
+        <item quantity="zero">ساعات</item>
+        <item quantity="one">ساعة</item>
+        <item quantity="two">ساعات</item>
+        <item quantity="few">ساعات</item>
+        <item quantity="many">ساعة</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">شهور</item>
+        <item quantity="zero">شهور</item>
+        <item quantity="one">شهر</item>
+        <item quantity="two">شهور</item>
+        <item quantity="few">شهر</item>
+        <item quantity="many">شهور</item>
+    </plurals>
+    <plurals name="StrPluralWeek">
+        <item quantity="other">أسابيع</item>
+        <item quantity="zero">أسابيع</item>
+        <item quantity="one">أسبوع</item>
+        <item quantity="two">أسابيع</item>
+        <item quantity="few">أسبوع</item>
+        <item quantity="many">أسابيع</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">سنين</item>
+        <item quantity="zero">سنين</item>
+        <item quantity="one">سنة</item>
+        <item quantity="two">سنين</item>
+        <item quantity="few">سنة</item>
+        <item quantity="many">سنين</item>
+    </plurals>
+    <plurals name="UndoMarkAsStarredNotification">
+        <item quantity="other">تم إلغاء تمييز الرسالة بنجمة</item>
+        <item quantity="zero">تم إلغاء تمييز الرسائل بنجمة</item>
+        <item quantity="one">تم إلغاء تمييز الرسالة بنجمة</item>
+        <item quantity="two">تم إلغاء تمييز الرسالتين بنجمة</item>
+        <item quantity="few">تم إلغاء تمييز الرسائل بنجمة</item>
+        <item quantity="many">تم إلغاء تمييز الرسالة بنجمة</item>
+    </plurals>
+    <plurals name="UnreadConversations">
+        <item quantity="other">%d رسائل غير مقروءة</item>
+        <item quantity="zero">%d رسائل غير مقروءة</item>
+        <item quantity="one">%d رسالة غير مقروءة</item>
+        <item quantity="two">%d رسائل غير مقروءة</item>
+        <item quantity="few">%d رسائل غير مقروءة</item>
+        <item quantity="many">%d رسالة غير مقروءة</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">لقد تجاوزت الحد المسموح به لمحاولات التحقق. يرجى المحاولة مرة أخرى بعد %d ساعات</item>
+        <item quantity="zero">لقد تجاوزت الحد المسموح به لمحاولات التحقق. يرجى المحاولة مرة أخرى بعد %d ساعة</item>
+        <item quantity="one">لقد تجاوزت الحد المسموح به لمحاولات التحقق. يرجى المحاولة مرة أخرى بعد %d ساعة</item>
+        <item quantity="two">لقد تجاوزت الحد المسموح به لمحاولات التحقق. يرجى المحاولة مرة أخرى بعد %d ساعات</item>
+        <item quantity="few">لقد تجاوزت الحد المسموح به لمحاولات التحقق. يرجى المحاولة مرة أخرى بعد %d ساعات</item>
+        <item quantity="many">لقد تجاوزت الحد المسموح به لمحاولات التحقق. يرجى المحاولة مرة أخرى بعد %d ساعة</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d أفراد شاهدوا ملفك الشخصي</item>
+        <item quantity="zero">%1$d أفراد شاهدوا ملفك الشخصي</item>
+        <item quantity="one">%1$d فرد شاهد ملفك الشخصي</item>
+        <item quantity="two">%1$d أفراد شاهدوا ملفك الشخصي</item>
+        <item quantity="few">%1$d أفراد شاهدوا ملفك الشخصي</item>
+        <item quantity="many">%1$d فرد شاهدوا ملفك الشخصي</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d أشخاص (1 في %2$s) شاهدوا ملفك</item>
+        <item quantity="zero">%1$d أشخاص (1 في %2$s) شاهدوا ملفك</item>
+        <item quantity="one">%1$d شخص (1 في %2$s) شاهدوا ملفك</item>
+        <item quantity="two">%1$d أشحاص (1 في %2$s) شاهدوا ملفك</item>
+        <item quantity="few">%1$d شخص (1 في %2$s) شاهدوا ملفك</item>
+        <item quantity="many">%1$d أشخاص (1 في %2$s) شاهدوا ملفك</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d أشخاص قد شاهدوا ملفك الشخصي. اعرف المزيد.</item>
+        <item quantity="zero">%1$d شخص قد شاهد ملفك الشخصي. اعرف المزيد.</item>
+        <item quantity="one">%1$d شخص قد شاهد ملفك الشخصي. اعرف المزيد.</item>
+        <item quantity="two">%1$d أشخاص قد شاهدوا ملفك الشخصي. اعرف المزيد.</item>
+        <item quantity="few">%1$d أشخاص قد شاهدوا ملفك الشخصي. اعرف المزيد.</item>
+        <item quantity="many">%1$d شخص قد شاهدوا ملفك الشخصي. اعرف المزيد.</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d أشخاص (%3$d في %2$s) %1$d قد شاهدوا ملفك الشخصي. اعرف المزيد.</item>
+        <item quantity="zero">%1$d شخص (%3$d في %2$s) %1$d قد شاهد ملفك الشخصي. اعرف المزيد.</item>
+        <item quantity="one">%1$d شخص (%3$d في %2$s) %1$d قد شاهد ملفك الشخصي. اعرف المزيد.</item>
+        <item quantity="two">%1$d أشخاص (%3$d في %2$s) %1$d قد شاهدوا ملفك الشخصي. اعرف المزيد.</item>
+        <item quantity="few">%1$d أشخاص (%3$d في %2$s) %1$d قد شاهدوا ملفك الشخصي. اعرف المزيد.</item>
+        <item quantity="many">%1$d شخص (%3$d في %2$s) %1$d قد شاهدوا ملفك الشخصي. اعرف المزيد.</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaption">
+        <item quantity="other">%1$d مشاهدات جديدة</item>
+        <item quantity="zero">%1$d مشاهدات جديدة</item>
+        <item quantity="one">%1$d مشاهدة جديدة</item>
+        <item quantity="two">%1$d مشاهدات جديدة</item>
+        <item quantity="few">%1$d مشاهدات جديدة</item>
+        <item quantity="many">%1$d مشاهدة جديدة</item>
+    </plurals>
+    <plurals name="WhoViewedMeRevealedToolbarCaptionWithLocation">
+        <item quantity="other">%1$d مشاهدات جديدة • %2$d من %3$s</item>
+        <item quantity="zero">%1$d مشاهدات جديدة • %2$d من %3$s</item>
+        <item quantity="one">%1$d مشاهدة جديدة • %2$d من %3$s</item>
+        <item quantity="two">%1$d مشاهدات جديدة • %2$d من %3$s</item>
+        <item quantity="few">%1$d مشاهدات جديدة • %2$d من %3$s</item>
+        <item quantity="many">%1$d مشاهدة جديدة • %2$d من %3$s</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">فشل كتابة الرمز عدة مرات. يرجى المحاولة مرة أخرى %1$d ساعات</item>
+        <item quantity="zero">فشل كتابة الرمز عدة مرات. يرجى المحاولة مرة أخرى %1$d ساعات</item>
+        <item quantity="one">فشل كتابة الرمز عدة مرات. يرجى المحاولة مرة أخرى %1$d ساعة</item>
+        <item quantity="two">فشل كتابة الرمز عدة مرات. يرجى المحاولة مرة أخرى %1$d ساعات</item>
+        <item quantity="few">فشل كتابة الرمز عدة مرات. يرجى المحاولة مرة أخرى %1$d ساعة</item>
+        <item quantity="many">فشل كتابة الرمز عدة مرات. يرجى المحاولة مرة أخرى %1$d ساعات</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%s محادثة مؤرشفة</item>
+        <item quantity="zero">%s محادثات مؤرشفة</item>
+        <item quantity="one">%s محادثة مؤرشفة</item>
+        <item quantity="two">%s محادثات مؤرشفة</item>
+        <item quantity="few">%s محادثات مؤرشفة</item>
+        <item quantity="many">%s محادثة مؤرشفة</item>
+    </plurals>
+    <plurals name="biz_govt_contacts_count">
+        <item quantity="other">%1$d جهة اتصال</item>
+        <item quantity="zero">%1$d جهة اتصال</item>
+        <item quantity="one">%1$d جهة اتصال</item>
+        <item quantity="two">%1$d جهة اتصال</item>
+        <item quantity="few">%1$d جهة اتصال</item>
+        <item quantity="many">%1$d جهة اتصال</item>
+    </plurals>
+    <plurals name="call_recording_toast_items_deleted">
+        <item quantity="other">تم حذف %1$d تسجيلات</item>
+        <item quantity="zero">تم حذف %1$d تسجيلات</item>
+        <item quantity="one">تم حذف %1$d تسجيل</item>
+        <item quantity="two">تم حذف %1$d تسجيل</item>
+        <item quantity="few">تم حذف %1$d تسجيل</item>
+        <item quantity="many">تم حذف %1$d تسجيلات</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">تم حذف رسائل كلمة السر التي تُستخدم مرة واحدة</item>
+        <item quantity="zero">تم حذف رسائل كلمة السر التي تُستخدم مرة واحدة</item>
+        <item quantity="one">تم حذف رسالة كلمة السر التي تُستخدم مرة واحدة</item>
+        <item quantity="two">تم حذف رسائل كلمة السر التي تُستخدم مرة واحدة</item>
+        <item quantity="few">تم حذف رسائل كلمة السر التي تُستخدم مرة واحدة</item>
+        <item quantity="many">تم حذف رسالة كلمة السر التي تُستخدم مرة واحدة</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">رسائل ترويجية محذوفة</item>
+        <item quantity="zero">رسائل ترويجية محذوفة</item>
+        <item quantity="one">رسالة ترويجية محذوفة</item>
+        <item quantity="two">رسائل ترويجية محذوفة</item>
+        <item quantity="few">رسائل ترويجية محذوفة</item>
+        <item quantity="many">رسالة ترويجية محذوفة</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">تم حذف الرسائل المتطفلة</item>
+        <item quantity="zero">تم حذف الرسائل المتطفلة</item>
+        <item quantity="one">تم حذف الرسالة المتطفلة</item>
+        <item quantity="two">تم حذف الرسائل المتطفلة</item>
+        <item quantity="few">تم حذف الرسائل المتطفلة</item>
+        <item quantity="many">تم حذف الرسائل المتطفلة</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d رسالة</item>
+        <item quantity="zero">%d رسالة</item>
+        <item quantity="one">%d رسالة</item>
+        <item quantity="two">%d رسالة</item>
+        <item quantity="few">%d رسالة</item>
+        <item quantity="many">%d رسالة</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d كلمات سر تُستخدم مرة واحدة</item>
+        <item quantity="zero">%d كلمات سر تُستخدم مرة واحدة</item>
+        <item quantity="one">%d كلمة سر تُستخدم مرة واحدة</item>
+        <item quantity="two">%d كلمات سر تُستخدم مرة واحدة</item>
+        <item quantity="few">%d كلمات سر تُستخدم مرة واحدة</item>
+        <item quantity="many">%d كلمة سر تُستخدم مرة واحدة</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_promotional">
+        <item quantity="other">%d رسائل ترويجية</item>
+        <item quantity="zero">%d رسائل ترويجية</item>
+        <item quantity="one">%d رسالة ترويجية</item>
+        <item quantity="two">%d رسائل ترويجية</item>
+        <item quantity="few">%d رسائل ترويجية</item>
+        <item quantity="many">%d رسالة ترويجية</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d رسائل متطفلة</item>
+        <item quantity="zero">%d رسائل متطفلة</item>
+        <item quantity="one">%d رسالة متطفلة</item>
+        <item quantity="two">%d رسائل متطفلة</item>
+        <item quantity="few">%d رسائل متطفلة</item>
+        <item quantity="many">%d رسالة متطفلة</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d رسائل محذوفة</item>
+        <item quantity="zero">%d رسائل محذوفة</item>
+        <item quantity="one">%d رسالة محذوفة</item>
+        <item quantity="two">%d رسائل محذوفة</item>
+        <item quantity="few">%d رسائل محذوفة</item>
+        <item quantity="many">%d رسالة محذوفة</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">دعوة</item>
+        <item quantity="zero">دعوة</item>
+        <item quantity="one">دعوة</item>
+        <item quantity="two">دعوتان</item>
+        <item quantity="few">دعوات</item>
+        <item quantity="many">دعوة</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="other">في %d يوم</item>
+        <item quantity="one">غدًا</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="other">في %d ساعة</item>
+        <item quantity="one">في ساعة واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="other">في %d دقيقة</item>
+        <item quantity="one">في دقيقة واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="other">في %d ثانية</item>
+        <item quantity="one">في ثانية واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="other">قبل %d يوم</item>
+        <item quantity="one">أمس</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="other">قبل %d ساعة</item>
+        <item quantity="one">قبل ساعة واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="other">قبل %d دقيقة</item>
+        <item quantity="one">قبل دقيقة واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="other">قبل %d ثانية</item>
+        <item quantity="one">قبل ثانية واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="other">%d من الساعات</item>
+        <item quantity="one">ساعة واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="other">%d من الدقائق</item>
+        <item quantity="one">دقيقة واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="other">%d من الثواني</item>
+        <item quantity="one">ثانية واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="other">في %d يوم</item>
+        <item quantity="one">غدًا</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="other">في %d ساعة</item>
+        <item quantity="one">في ساعة واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="other">في %d دقيقة</item>
+        <item quantity="one">في دقيقة واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="other">في %d ثانية</item>
+        <item quantity="one">في ثانية واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="other">قبل %d يوم</item>
+        <item quantity="one">أمس</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="other">قبل %d ساعة</item>
+        <item quantity="one">قبل ساعة واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="other">قبل %d دقيقة</item>
+        <item quantity="one">قبل دقيقة واحدة</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="other">قبل %d ثانية</item>
+        <item quantity="one">قبل ثانية واحدة</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">أنت على وشك حذف الملفات المحددة و %d من الرسائل المتعلقة بها</item>
+        <item quantity="zero">أنت على وشك حذف الملفات المحددة و %d من الرسائل المتعلقة بها</item>
+        <item quantity="one">أنت على وشك حذف الملفات المحددة و %d من الرسائل المتعلقة بها</item>
+        <item quantity="two">أنت على وشك حذف الملفات المحددة و %d من الرسائل المتعلقة بها</item>
+        <item quantity="few">أنت على وشك حذف الملفات المحددة و %d من الرسائل المتعلقة بها</item>
+        <item quantity="many">أنت على وشك حذف الملفات المحددة و %d من الرسائل المتعلقة بها</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">حذف الرسائل؟</item>
+        <item quantity="zero">حذف الرسائل؟</item>
+        <item quantity="one">حذف الرسالة؟</item>
+        <item quantity="two">حذف الرسالتين؟</item>
+        <item quantity="few">حذف الرسائل؟</item>
+        <item quantity="many">حذف الرسائل؟</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d إشعار جديد</item>
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">أيام</item>
+        <item quantity="zero">أيام</item>
+        <item quantity="one">يوم</item>
+        <item quantity="two">يومان</item>
+        <item quantity="few">أيام</item>
+        <item quantity="many">يوم</item>
+    </plurals>
+    <plurals name="spam_counts">
+        <item quantity="other">%d تقارير متطفلين</item>
+        <item quantity="zero">%d تقارير متطفلين</item>
+        <item quantity="one">%d تقرير متطفلين</item>
+        <item quantity="two">%d تقارير متطفلين</item>
+        <item quantity="few">%d تقارير متطفلين</item>
+        <item quantity="many">%d تقرير متطفلين</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">%s محادثة غير مؤرشفة</item>
+        <item quantity="zero">%s محادثات غير مؤرشفة</item>
+        <item quantity="one">%s محادثة غير مؤرشفة</item>
+        <item quantity="two">%s محادثات غير مؤرشفة</item>
+        <item quantity="few">%s محادثات غير مؤرشفة</item>
+        <item quantity="many">%s محادثة غير مؤرشفة</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">رسائل مستلمة</item>
+        <item quantity="zero">رسائل مستلمة</item>
+        <item quantity="one">رسالة مستلمة</item>
+        <item quantity="two">رسائل مستلمة</item>
+        <item quantity="few">رسائل مستلمة</item>
+        <item quantity="many">رسالة مستلمة</item>
+    </plurals>
+    <plurals name="voip_group_launcher_person">
+        <item quantity="other">مشتركين</item>
+        <item quantity="zero">مشتركين</item>
+        <item quantity="one">مشترك</item>
+        <item quantity="two">مشتركين</item>
+        <item quantity="few">مشتركين</item>
+        <item quantity="many">مشترك</item>
+    </plurals>
+    <plurals name="voip_notification_missed_grouped_title">
+        <item quantity="other">مكالمات %1$s فائتة</item>
+        <item quantity="zero">مكالمات %1$s فائتة</item>
+        <item quantity="one">مكالمة %1$s فائتة</item>
+        <item quantity="two">مكالمات %1$s فائتة</item>
+        <item quantity="few">مكالمات %1$s فائتة</item>
+        <item quantity="many">مكالمات %1$s فائتة</item>
+    </plurals>
+    <plurals name="voip_notification_title_other">
+        <item quantity="other">%1$s آخرون</item>
+        <item quantity="zero">%1$s آخرين</item>
+        <item quantity="one">%1$s آخرين</item>
+        <item quantity="two">%1$s آخرين</item>
+        <item quantity="few">%1$s آخرين</item>
+        <item quantity="many">%1$s آخرون</item>
+    </plurals>
+</resources>

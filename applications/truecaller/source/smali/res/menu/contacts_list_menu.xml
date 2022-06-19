@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_tcx_sort_24dp" android:id="@id/sorting_mode" android:title="@string/menu_sorting_mode" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_settings" android:id="@id/action_settings" android:title="@string/MainDrawerSettings" app:showAsAction="never" />
+</menu>

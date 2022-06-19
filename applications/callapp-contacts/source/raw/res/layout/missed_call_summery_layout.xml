@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/summery_root" android:background="@color/intro_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/visible_area_container" android:background="@drawable/top_rounded_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/data_layout" android:background="@drawable/top_rounded_grey_lightest" android:paddingLeft="@dimen/dimen_16_dp" android:paddingTop="@dimen/dimen_12_dp" android:paddingRight="@dimen/dimen_16_dp" android:paddingBottom="@dimen/dimen_12_dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0dip" android:textColor="@color/grey_semi_dark" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+                <TextView android:textSize="14.0dip" android:textColor="@color/alert" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/title" />
+                <ImageView android:layout_gravity="right" android:id="@id/close_all" android:layout_width="@dimen/dimen_32_dp" android:layout_height="@dimen/dimen_32_dp" android:src="@drawable/ic_close_grey" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/missed_call_items" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_10_dp" />
+        </LinearLayout>
+        <View android:background="@color/grey_lightest" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_actions" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:orientation="horizontal" android:paddingLeft="@dimen/dimen_16_dp" android:paddingTop="@dimen/dimen_5_dp" android:paddingRight="@dimen/dimen_16_dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/dimen_14_dp" android:textStyle="bold" android:id="@id/overlay_what_to_do" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_4_dp" android:layout_alignParentLeft="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_callapp_blue" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <LinearLayout android:paddingLeft="@dimen/dimen_16_dp" android:paddingTop="@dimen/dimen_14_dp" android:paddingRight="@dimen/dimen_16_dp" android:paddingBottom="@dimen/dimen_14_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="4.0">
+                <ImageView android:id="@id/overlay_btn_close" android:layout_width="@dimen/dimen_44_dp" android:layout_height="@dimen/dimen_44_dp" android:src="@drawable/ic_over_close" android:layout_weight="1.0" />
+                <ImageView android:id="@id/overlay_btn_call" android:layout_width="@dimen/dimen_44_dp" android:layout_height="@dimen/dimen_44_dp" android:src="@drawable/ic_over_call" android:layout_weight="1.0" />
+                <ImageView android:id="@id/overlay_btn_sms" android:layout_width="@dimen/dimen_44_dp" android:layout_height="@dimen/dimen_44_dp" android:src="@drawable/ic_over_sms" android:layout_weight="1.0" />
+                <ImageView android:id="@id/overlay_btn_reminder" android:layout_width="@dimen/dimen_44_dp" android:layout_height="@dimen/dimen_44_dp" android:src="@drawable/ic_over_remi" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.viewpagerindicator.CirclePageIndicator android:id="@id/indicator" android:paddingTop="@dimen/dimen_4_dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="16.0dip" app:centered="true" app:radius="4.0dip" app:strokeColor="@android:color/transparent" />
+        <View android:background="@color/grey_lighter" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <View android:background="@color/grey_lightest" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+        <FrameLayout android:id="@id/adPlaceHolder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

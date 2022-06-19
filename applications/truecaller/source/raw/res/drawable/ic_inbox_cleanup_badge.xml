@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_inbox_cleanup" />
+    <item android:left="@dimen/badge_small_height" android:bottom="@dimen/badge_small_height">
+        <shape android:shape="oval">
+            <size android:height="14.0dip" android:width="14.0dip" />
+            <solid android:color="?tcx_brandBackgroundBlue" />
+            <stroke android:width="1.0dip" android:color="?tcx_backgroundTertiary" />
+        </shape>
+    </item>
+</layer-list>

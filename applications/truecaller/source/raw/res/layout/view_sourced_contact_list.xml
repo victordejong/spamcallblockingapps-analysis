@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Truecaller.CardView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/doubleSpace" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/EnhancedNotificationSourcedContactTitle" android:layout_weight="1.0" android:layout_marginEnd="@dimen/semiSpace" style="@style/TextAppearance.Truecaller.ListItem.Primary" />
+            <com.truecaller.ui.view.TintedImageView android:id="@id/close" android:layout_width="wrap_content" android:layout_height="wrap_content" app:imgTint="?theme_textColorSecondary" app:srcCompat="@drawable/ic_action_close" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rvSourcedContact" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" style="@style/Widget.Truecaller.ListView" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

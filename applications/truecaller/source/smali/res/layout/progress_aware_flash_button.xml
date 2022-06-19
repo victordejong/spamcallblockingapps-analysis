@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/flash_button_image" android:padding="@dimen/control_mini_space" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_flash_bolt" android:scaleType="fitCenter" />
+    <ProgressBar android:id="@id/progress_bar" android:background="@drawable/circular_shape" android:layout_width="fill_parent" android:layout_height="fill_parent" android:indeterminate="false" android:progressDrawable="@drawable/circular_progressdrawable" android:scaleX="-1.0" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+</merge>

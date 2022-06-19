@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_tcx_auto_delete_24dp" android:id="@id/action_cleanup_inbox" android:title="@string/inbox_cleanup_title" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_star_outline_24dp" android:id="@id/action_starred_messages" android:title="@string/starred_messages" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_sms_24dp" android:id="@id/action_set_default_sms_app" android:title="@string/messaging_set_default_sms_app_option" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_mark_as_read" android:id="@id/action_mark_all_as_read" android:title="@string/NotificationsMarkAllRead" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_auto_hide_transactions" android:id="@id/action_auto_hide_transactions" android:title="@string/MainDrawerAutoHideTransactions" app:actionViewClass="androidx.appcompat.widget.SwitchCompat" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_tcx_action_archive_outline_24dp" android:id="@id/action_archived_conversations" android:title="@string/MainDrawerArchivedConversations" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_settings" android:id="@id/action_messaging_settings" android:title="@string/MainDrawerSettings" app:showAsAction="never" />
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/onboarding_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/core_permission_image" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="28.0dip" android:src="@drawable/need_permission_header" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0">
+            <TextView android:textSize="32.0sp" android:textColor="@color/white_callapp" android:id="@id/core_permission_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginStart="24.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="#ffc0fffc" android:id="@id/core_permission_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="24.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/core_permission_btn_container" android:background="@drawable/login_button_corners_digits_32dp" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_48_dp" android:layout_marginLeft="32.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="32.0dip" android:layout_marginBottom="32.0dip">
+        <Button android:textColor="@color/white_callapp" android:id="@id/core_permission_btn" android:background="@drawable/ripple_or_holo" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Button" />
+    </FrameLayout>
+</FrameLayout>

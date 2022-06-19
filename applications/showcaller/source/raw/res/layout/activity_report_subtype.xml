@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_close" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/touying" />
+    <View android:id="@id/touying" android:background="@drawable/tab_up" android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_above="@id/ll_tag" />
+    <TextView android:textSize="16.0sp" android:textColor="?color_title" android:id="@id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginBottom="4.0dip" android:text="@string/app_name" android:layout_above="@id/ll_tag" android:layout_marginStart="16.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_tag" android:background="?color_ffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="25.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+                    <TextView android:textSize="20.0sp" android:textColor="?color_333333" android:id="@id/tv_tag_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                    <TextView android:textSize="16.0sp" android:textColor="?color_666666" android:id="@id/tv_tag_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/describe_this_number" />
+                </LinearLayout>
+                <ImageView android:id="@id/lb_tag_close" android:background="?card_foreground" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_tag_close" android:layout_alignParentRight="true" android:contentDescription="@string/close" android:layout_alignParentEnd="true" app:tint="?icon_color_gray" />
+            </RelativeLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="17.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+                <FrameLayout android:id="@id/ll_newtype" android:background="?bg_subtype_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?card_foreground">
+                    <LinearLayout android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                        <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/iv_subtype_new" app:tint="?icon_color_gray" />
+                        <TextView android:textSize="14.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_addnewtype" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/AddnewType" android:layout_marginStart="8.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <FrameLayout android:id="@id/ll_save_or_nosmap" android:background="?bg_subtype_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:foreground="?card_foreground" android:layout_marginStart="8.0dip">
+                    <LinearLayout android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_subtype_right" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/iv_subtype_add" app:tint="?icon_color_gray" />
+                        <TextView android:textSize="14.0sp" android:textColor="?color_333333" android:layout_gravity="center_vertical" android:id="@id/tv_subtype_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/save_small" android:layout_marginStart="8.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_addnew_type" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="end" android:id="@id/lb_tag_close_two" android:background="@drawable/card_foreground" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_tag_close" android:contentDescription="@string/close" app:tint="?icon_color_gray" />
+            <TextView android:textSize="20.0sp" android:textColor="?color_333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/AddnewType" android:layout_marginStart="16.0dip" />
+            <com.allinone.callerid.customview.BaseEditText android:textSize="16.0sp" android:textColor="?color_333333" android:textColorHint="?color_999999" android:id="@id/editText" android:background="@null" android:paddingLeft="16.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="29.0dip" android:layout_marginRight="16.0dip" android:text="" android:hint="@string/Pleaseenter" android:singleLine="true" android:drawableBottom="?shape_edit_bg" android:paddingStart="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <FrameLayout android:layout_gravity="end" android:id="@id/fl_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip" android:foreground="?card_foreground" android:layout_marginEnd="16.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="?color_action" android:gravity="center" android:id="@id/save" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="32.0dip" android:text="@string/save_small" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/main_dnd" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/top_nav" />
+    <ScrollView android:id="@id/scroll_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center_vertical" android:id="@id/allow_to_call_sel" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/height_48dp">
+                <TextView android:gravity="center_vertical" android:id="@id/allow_to_call_txt" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/allowToCallTxt" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ListItemTextTitle" />
+                <ImageButton android:id="@id/next_view" android:background="@android:color/transparent" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="-8.0dip" android:src="@drawable/ic_next" android:contentDescription="@string/allow_to_call_options" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                <TextView android:gravity="center_vertical" android:id="@id/selected_txt" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="-8.0dip" android:text="@string/textstub" app:layout_constraintRight_toLeftOf="@id/next_view" app:layout_constraintTop_toTopOf="parent" style="@style/ListItemTextSecondLine" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <include layout="@layout/divider" />
+            <include layout="@layout/compound_button_repeated_calls_allowed" />
+            <include layout="@layout/divider" />
+            <include layout="@layout/compound_button_allday" />
+            <include layout="@layout/divider" />
+            <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/dnd_intro_txt" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/dnd_intro_text" android:lines="3" style="@style/ListItemTextSecondLine" />
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/weekday_settings" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

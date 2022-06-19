@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/colorRootView" android:background="@drawable/biz_brand_color_selector" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extraSpace" android:layout_marginEnd="@dimen/space"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/colorCardView" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_margin="@dimen/semiSpace" app:cardCornerRadius="20.0dip" />
+</FrameLayout>

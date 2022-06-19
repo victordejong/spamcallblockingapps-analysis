@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/quadrupleSpace" android:paddingBottom="@dimen/quadrupleSpace" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/tripleSpace" android:paddingEnd="@dimen/tripleSpace"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/lottieView" android:layout_width="96.0dip" android:layout_height="96.0dip" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="?tcx_inboxCleanerAnimProgress" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" android:text="@string/inbox_cleanup_anim_title" style="@style/StyleX.Text.Subtitle.S2" />
+    <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space" android:text="@string/inbox_cleanup_anim_subtitle" style="@style/StyleX.Text.Caption" />
+    <Button android:textSize="@dimen/list_secondary" android:id="@id/btnRunInBg" android:layout_width="wrap_content" android:layout_height="@dimen/button_height" android:layout_marginTop="@dimen/doubleSpace" android:text="@string/inbox_cleanup_anim_action" style="@style/StyleX.Button.Small.Action" />
+</LinearLayout>

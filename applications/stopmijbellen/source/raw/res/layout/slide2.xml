@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/headerLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip">
+        <ImageView android:layout_width="fill_parent" android:layout_height="40.0dip" android:src="@drawable/ic_sym_call_incoming_2" />
+        <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/colorPrimary" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/slide2_main" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/colorPrimary" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/slide2_text" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:layout_below="@id/headerLayout">
+        <TextView android:textSize="16.0sp" android:gravity="center_horizontal" android:id="@id/why_need_textView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/slide2_additional" />
+        <TextView android:layout_width="fill_parent" android:layout_height="14.0sp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.github.jdsjlzx.recyclerview.LRecyclerView android:id="@id/lrecyeleview" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/progress_data" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="280.0dip" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/ll_no_net_collect" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+        <TextView android:textSize="@dimen/sp_14" android:textColor="@color/normal" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_no_net" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connect_internet" />
+        <TextView android:textSize="@dimen/sp_14" android:textColor="@color/normal" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv_no_net_dec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/you_offline" />
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/flayout_retry" android:background="?bg_start" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginTop="8.0dip" android:foreground="@drawable/card_foreground">
+            <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:layout_gravity="center" android:id="@id/tv_retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/retry" android:textAllCaps="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

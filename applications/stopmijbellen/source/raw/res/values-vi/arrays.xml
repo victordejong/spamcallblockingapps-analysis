@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_array">
+        <item>Riêng tư</item>
+        <item>Người sưu tàm/Ngân hàng</item>
+        <item>Quảng cáo/Spam</item>
+        <item>Cuộc gọi im lặng</item>
+        <item>Gian lận</item>
+        <item>Các dịch vụ tài chính</item>
+        <item>Khác..</item>
+    </string-array>
+    <string-array name="category_feedback_array">
+        <item>Không có thể loại</item>
+        <item>Người thu gom/Ngân hàng</item>
+        <item>Quảng cáo/Spam</item>
+        <item>Cuộc gọi im lặng</item>
+        <item>Gian lận</item>
+        <item>Các dịch vụ tài chính</item>
+        <item>Khác..</item>
+    </string-array>
+    <string-array name="posneg_array">
+        <item>Tiêu cực</item>
+        <item>Trung bình</item>
+        <item>Tích cực</item>
+    </string-array>
+    <string-array name="settings_block_methods_array">
+        <item>Kết thúc cuộc gọi (từ chối)</item>
+        <item>Tắt đổ chuông</item>
+    </string-array>
+</resources>

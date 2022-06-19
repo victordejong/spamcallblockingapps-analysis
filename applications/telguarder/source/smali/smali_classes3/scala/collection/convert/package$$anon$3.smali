@@ -1,0 +1,336 @@
+.class public final Lscala/collection/convert/package$$anon$3;
+.super Ljava/lang/Object;
+.source "package.scala"
+
+# interfaces
+.implements Lscala/collection/convert/DecorateAsJava;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lscala/collection/convert/package$;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x11
+    name = null
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 13
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    invoke-static {p0}, Lscala/collection/convert/DecorateAsJava$class;->$init$(Lscala/collection/convert/DecorateAsJava;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public asJavaCollectionConverter(Lscala/collection/Iterable;)Lscala/collection/convert/Decorators$AsJavaCollection;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<A:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lscala/collection/Iterable<",
+            "TA;>;)",
+            "Lscala/collection/convert/Decorators$AsJavaCollection<",
+            "TA;>;"
+        }
+    .end annotation
+
+    .line 13
+    invoke-static {p0, p1}, Lscala/collection/convert/DecorateAsJava$class;->asJavaCollectionConverter(Lscala/collection/convert/DecorateAsJava;Lscala/collection/Iterable;)Lscala/collection/convert/Decorators$AsJavaCollection;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public asJavaDictionaryConverter(Lscala/collection/mutable/Map;)Lscala/collection/convert/Decorators$AsJavaDictionary;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<A:",
+            "Ljava/lang/Object;",
+            "B:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lscala/collection/mutable/Map<",
+            "TA;TB;>;)",
+            "Lscala/collection/convert/Decorators$AsJavaDictionary<",
+            "TA;TB;>;"
+        }
+    .end annotation
+
+    .line 13
+    invoke-static {p0, p1}, Lscala/collection/convert/DecorateAsJava$class;->asJavaDictionaryConverter(Lscala/collection/convert/DecorateAsJava;Lscala/collection/mutable/Map;)Lscala/collection/convert/Decorators$AsJavaDictionary;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public asJavaEnumerationConverter(Lscala/collection/Iterator;)Lscala/collection/convert/Decorators$AsJavaEnumeration;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<A:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lscala/collection/Iterator<",
+            "TA;>;)",
+            "Lscala/collection/convert/Decorators$AsJavaEnumeration<",
+            "TA;>;"
+        }
+    .end annotation
+
+    .line 13
+    invoke-static {p0, p1}, Lscala/collection/convert/DecorateAsJava$class;->asJavaEnumerationConverter(Lscala/collection/convert/DecorateAsJava;Lscala/collection/Iterator;)Lscala/collection/convert/Decorators$AsJavaEnumeration;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public asJavaIterableConverter(Lscala/collection/Iterable;)Lscala/collection/convert/Decorators$AsJava;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<A:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lscala/collection/Iterable<",
+            "TA;>;)",
+            "Lscala/collection/convert/Decorators$AsJava<",
+            "Ljava/lang/Iterable<",
+            "TA;>;>;"
+        }
+    .end annotation
+
+    .line 13
+    invoke-static {p0, p1}, Lscala/collection/convert/DecorateAsJava$class;->asJavaIterableConverter(Lscala/collection/convert/DecorateAsJava;Lscala/collection/Iterable;)Lscala/collection/convert/Decorators$AsJava;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public asJavaIteratorConverter(Lscala/collection/Iterator;)Lscala/collection/convert/Decorators$AsJava;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<A:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lscala/collection/Iterator<",
+            "TA;>;)",
+            "Lscala/collection/convert/Decorators$AsJava<",
+            "Ljava/util/Iterator<",
+            "TA;>;>;"
+        }
+    .end annotation
+
+    .line 13
+    invoke-static {p0, p1}, Lscala/collection/convert/DecorateAsJava$class;->asJavaIteratorConverter(Lscala/collection/convert/DecorateAsJava;Lscala/collection/Iterator;)Lscala/collection/convert/Decorators$AsJava;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bufferAsJavaListConverter(Lscala/collection/mutable/Buffer;)Lscala/collection/convert/Decorators$AsJava;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<A:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lscala/collection/mutable/Buffer<",
+            "TA;>;)",
+            "Lscala/collection/convert/Decorators$AsJava<",
+            "Ljava/util/List<",
+            "TA;>;>;"
+        }
+    .end annotation
+
+    .line 13
+    invoke-static {p0, p1}, Lscala/collection/convert/DecorateAsJava$class;->bufferAsJavaListConverter(Lscala/collection/convert/DecorateAsJava;Lscala/collection/mutable/Buffer;)Lscala/collection/convert/Decorators$AsJava;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public mapAsJavaConcurrentMapConverter(Lscala/collection/concurrent/Map;)Lscala/collection/convert/Decorators$AsJava;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<A:",
+            "Ljava/lang/Object;",
+            "B:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lscala/collection/concurrent/Map<",
+            "TA;TB;>;)",
+            "Lscala/collection/convert/Decorators$AsJava<",
+            "Ljava/util/concurrent/ConcurrentMap<",
+            "TA;TB;>;>;"
+        }
+    .end annotation
+
+    .line 13
+    invoke-static {p0, p1}, Lscala/collection/convert/DecorateAsJava$class;->mapAsJavaConcurrentMapConverter(Lscala/collection/convert/DecorateAsJava;Lscala/collection/concurrent/Map;)Lscala/collection/convert/Decorators$AsJava;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public mapAsJavaMapConverter(Lscala/collection/Map;)Lscala/collection/convert/Decorators$AsJava;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<A:",
+            "Ljava/lang/Object;",
+            "B:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lscala/collection/Map<",
+            "TA;TB;>;)",
+            "Lscala/collection/convert/Decorators$AsJava<",
+            "Ljava/util/Map<",
+            "TA;TB;>;>;"
+        }
+    .end annotation
+
+    .line 13
+    invoke-static {p0, p1}, Lscala/collection/convert/DecorateAsJava$class;->mapAsJavaMapConverter(Lscala/collection/convert/DecorateAsJava;Lscala/collection/Map;)Lscala/collection/convert/Decorators$AsJava;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public mutableMapAsJavaMapConverter(Lscala/collection/mutable/Map;)Lscala/collection/convert/Decorators$AsJava;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<A:",
+            "Ljava/lang/Object;",
+            "B:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lscala/collection/mutable/Map<",
+            "TA;TB;>;)",
+            "Lscala/collection/convert/Decorators$AsJava<",
+            "Ljava/util/Map<",
+            "TA;TB;>;>;"
+        }
+    .end annotation
+
+    .line 13
+    invoke-static {p0, p1}, Lscala/collection/convert/DecorateAsJava$class;->mutableMapAsJavaMapConverter(Lscala/collection/convert/DecorateAsJava;Lscala/collection/mutable/Map;)Lscala/collection/convert/Decorators$AsJava;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public mutableSeqAsJavaListConverter(Lscala/collection/mutable/Seq;)Lscala/collection/convert/Decorators$AsJava;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<A:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lscala/collection/mutable/Seq<",
+            "TA;>;)",
+            "Lscala/collection/convert/Decorators$AsJava<",
+            "Ljava/util/List<",
+            "TA;>;>;"
+        }
+    .end annotation
+
+    .line 13
+    invoke-static {p0, p1}, Lscala/collection/convert/DecorateAsJava$class;->mutableSeqAsJavaListConverter(Lscala/collection/convert/DecorateAsJava;Lscala/collection/mutable/Seq;)Lscala/collection/convert/Decorators$AsJava;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public mutableSetAsJavaSetConverter(Lscala/collection/mutable/Set;)Lscala/collection/convert/Decorators$AsJava;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<A:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lscala/collection/mutable/Set<",
+            "TA;>;)",
+            "Lscala/collection/convert/Decorators$AsJava<",
+            "Ljava/util/Set<",
+            "TA;>;>;"
+        }
+    .end annotation
+
+    .line 13
+    invoke-static {p0, p1}, Lscala/collection/convert/DecorateAsJava$class;->mutableSetAsJavaSetConverter(Lscala/collection/convert/DecorateAsJava;Lscala/collection/mutable/Set;)Lscala/collection/convert/Decorators$AsJava;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public seqAsJavaListConverter(Lscala/collection/Seq;)Lscala/collection/convert/Decorators$AsJava;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<A:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lscala/collection/Seq<",
+            "TA;>;)",
+            "Lscala/collection/convert/Decorators$AsJava<",
+            "Ljava/util/List<",
+            "TA;>;>;"
+        }
+    .end annotation
+
+    .line 13
+    invoke-static {p0, p1}, Lscala/collection/convert/DecorateAsJava$class;->seqAsJavaListConverter(Lscala/collection/convert/DecorateAsJava;Lscala/collection/Seq;)Lscala/collection/convert/Decorators$AsJava;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public setAsJavaSetConverter(Lscala/collection/Set;)Lscala/collection/convert/Decorators$AsJava;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<A:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Lscala/collection/Set<",
+            "TA;>;)",
+            "Lscala/collection/convert/Decorators$AsJava<",
+            "Ljava/util/Set<",
+            "TA;>;>;"
+        }
+    .end annotation
+
+    .line 13
+    invoke-static {p0, p1}, Lscala/collection/convert/DecorateAsJava$class;->setAsJavaSetConverter(Lscala/collection/convert/DecorateAsJava;Lscala/collection/Set;)Lscala/collection/convert/Decorators$AsJava;
+
+    move-result-object p1
+
+    return-object p1
+.end method

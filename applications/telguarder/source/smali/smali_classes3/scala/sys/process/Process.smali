@@ -1,0 +1,17 @@
+.class public interface abstract Lscala/sys/process/Process;
+.super Ljava/lang/Object;
+.source "Process.scala"
+
+
+# annotations
+.annotation runtime Lscala/reflect/ScalaSignature;
+    bytes = "\u0006\u0001%2q!\u0001\u0002\u0011\u0002G\u0005\u0011BA\u0004Qe>\u001cWm]:\u000b\u0005\r!\u0011a\u00029s_\u000e,7o\u001d\u0006\u0003\u000b\u0019\t1a]=t\u0015\u00059\u0011!B:dC2\u000c7\u0001A\n\u0003\u0001)\u0001\"a\u0003\u0007\u000e\u0003\u0019I!!\u0004\u0004\u0003\r\u0005s\u0017PU3g\u0011\u0015y\u0001A\"\u0001\u0011\u0003%)\u00070\u001b;WC2,X\rF\u0001\u0012!\tY!#\u0003\u0002\u0014\r\t\u0019\u0011J\u001c;\t\u000bU\u0001a\u0011\u0001\u000c\u0002\u000f\u0011,7\u000f\u001e:psR\tq\u0003\u0005\u0002\u000c1%\u0011\u0011D\u0002\u0002\u0005+:LGoB\u0003\u001c\u0005!\u0005A$A\u0004Qe>\u001cWm]:\u0011\u0005uqR\"\u0001\u0002\u0007\u000b\u0005\u0011\u0001\u0012A\u0010\u0014\tyQ\u0001e\t\t\u0003;\u0005J!A\t\u0002\u0003\u0017A\u0013xnY3tg&k\u0007\u000f\u001c\t\u0003;\u0011J!!\n\u0002\u0003\u001fA\u0013xnY3tg\u000e\u0013X-\u0019;j_:DQa\n\u0010\u0005\u0002!\na\u0001P5oSRtD#\u0001\u000f"
+.end annotation
+
+
+# virtual methods
+.method public abstract destroy()V
+.end method
+
+.method public abstract exitValue()I
+.end method

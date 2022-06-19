@@ -1,0 +1,7 @@
+package com.google.android.gms.internal.measurement;
+/* renamed from: com.google.android.gms.internal.measurement.mm */
+/* loaded from: classes2-dex2jar.jar:com/google/android/gms/internal/measurement/mm.class */
+public interface AbstractC13689mm {
+    /* renamed from: a */
+    boolean mo12305a();
+}

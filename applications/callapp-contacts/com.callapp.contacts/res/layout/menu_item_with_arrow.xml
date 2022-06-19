@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:id="@id/menuItem" android:background="@color/white_callapp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/contextMenuWidth"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content">
-        <TextView android:ellipsize="end" android:layout_gravity="center|left" android:id="@id/text" android:background="@drawable/ripple_or_holo" android:paddingLeft="@dimen/dimen_16_dp" android:paddingTop="@dimen/dimen_8_dp" android:paddingRight="40.0dip" android:paddingBottom="@dimen/dimen_8_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" style="@style/Caption.Number_text" />
-        <ImageView android:layout_gravity="center|right" android:id="@id/arrow_icon" android:padding="@dimen/dimen_6_dp" android:layout_width="@dimen/dimen_24_dp" android:layout_height="@dimen/dimen_24_dp" android:layout_marginRight="@dimen/dimen_4_dp" android:src="@drawable/ic_next_arrow" />
-    </FrameLayout>
-</FrameLayout>

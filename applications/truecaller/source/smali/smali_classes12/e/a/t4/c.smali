@@ -1,0 +1,27 @@
+.class public interface abstract Le/a/t4/c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract a()Le/a/r2/x;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Le/a/r2/x<",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract d()Le/a/r2/x;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Le/a/r2/x<",
+            "Ljava/lang/Boolean;",
+            ">;"
+        }
+    .end annotation
+.end method

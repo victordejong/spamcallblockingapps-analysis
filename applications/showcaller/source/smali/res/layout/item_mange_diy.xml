@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/item_home_click" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:foreground="@drawable/card_foreground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="277.0dip">
+        <ImageView android:id="@id/item_home_image" android:layout_width="fill_parent" android:layout_height="277.0dip" android:src="@drawable/image_loading" android:scaleType="centerCrop" android:contentDescription="@string/default_pos" />
+        <ImageView android:id="@id/iv_selected" android:visibility="visible" android:layout_width="@dimen/dp_40" android:layout_height="@dimen/dp_40" android:src="@drawable/ic_callscreen_select" android:layout_alignParentRight="true" android:contentDescription="@string/default_pos" android:layout_alignParentEnd="true" />
+        <CheckBox android:id="@id/checkbox" android:padding="10.0dip" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:drawableLeft="@drawable/bg_checkbox_one" android:layout_alignParentRight="true" android:drawableStart="@drawable/bg_checkbox_one" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</FrameLayout>

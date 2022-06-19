@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.truecaller.ui.components.ScrimInsetsFrameLayout android:orientation="vertical" android:id="@id/capture_insets_frame_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:insetForeground="@color/translucent_statusbar_background"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/settings_toolbar" layout="@layout/toolbar_tcx" />
+    <ScrollView android:id="@id/settings_scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize" style="@style/ScrollableStyle">
+        <FrameLayout android:id="@id/settings_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+</com.truecaller.ui.components.ScrimInsetsFrameLayout>

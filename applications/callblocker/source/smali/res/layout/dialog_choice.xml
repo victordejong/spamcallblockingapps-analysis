@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="256.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:gravity="center_horizontal" android:id="@id/textView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" style="@style/TextAppearance.AppCompat.Body1" />
+    <View android:background="@color/divider_dark" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="16.0dip" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <androidx.appcompat.widget.AppCompatButton android:textColor="@color/primary_dark" android:id="@id/negativeButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="?android:borderlessButtonStyle" />
+        <View android:background="@color/divider_dark" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <androidx.appcompat.widget.AppCompatButton android:textColor="@color/primary_dark" android:id="@id/positiveButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="?android:borderlessButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

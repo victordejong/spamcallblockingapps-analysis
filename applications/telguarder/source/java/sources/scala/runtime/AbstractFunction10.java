@@ -1,0 +1,28 @@
+package scala.runtime;
+
+import scala.Function1;
+import scala.Function10;
+import scala.Tuple10;
+import scala.reflect.ScalaSignature;
+@ScalaSignature(bytes = "\u0006\u0001y2Q!\u0001\u0002\u0002\u0002\u001d\u0011!#\u00112tiJ\f7\r\u001e$v]\u000e$\u0018n\u001c82a)\u00111\u0001B\u0001\beVtG/[7f\u0015\u0005)\u0011!B:dC2\f7\u0001A\u000b\r\u0011IarDI\u0013)W9\nDgN\n\u0004\u0001%i\u0001C\u0001\u0006\f\u001b\u0005!\u0011B\u0001\u0007\u0005\u0005\u0019\te.\u001f*fMBi!B\u0004\t\u001c=\u0005\"sEK\u00171gYJ!a\u0004\u0003\u0003\u0015\u0019+hn\u0019;j_:\f\u0004\u0007\u0005\u0002\u0012%1\u0001AAB\n\u0001\u0011\u000b\u0007AC\u0001\u0002UcE\u0011Q\u0003\u0007\t\u0003\u0015YI!a\u0006\u0003\u0003\u000f9{G\u000f[5oOB\u0011!\"G\u0005\u00035\u0011\u00111!\u00118z!\t\tB\u0004\u0002\u0004\u001e\u0001!\u0015\r\u0001\u0006\u0002\u0003)J\u0002\"!E\u0010\u0005\r\u0001\u0002\u0001R1\u0001\u0015\u0005\t!6\u0007\u0005\u0002\u0012E\u001111\u0005\u0001EC\u0002Q\u0011!\u0001\u0016\u001b\u0011\u0005E)CA\u0002\u0014\u0001\u0011\u000b\u0007AC\u0001\u0002UkA\u0011\u0011\u0003\u000b\u0003\u0007S\u0001A)\u0019\u0001\u000b\u0003\u0005Q3\u0004CA\t,\t\u0019a\u0003\u0001#b\u0001)\t\u0011Ak\u000e\t\u0003#9\"aa\f\u0001\t\u0006\u0004!\"A\u0001+9!\t\t\u0012\u0007\u0002\u00043\u0001!\u0015\r\u0001\u0006\u0002\u0003)f\u0002\"!\u0005\u001b\u0005\rU\u0002\u0001R1\u0001\u0015\u0005\r!\u0016\u0007\r\t\u0003#]\"a\u0001\u000f\u0001\u0005\u0006\u0004!\"!\u0001*\t\u000bi\u0002A\u0011A\u001e\u0002\rqJg.\u001b;?)\u0005a\u0004#D\u001f\u0001!mq\u0012\u0005J\u0014+[A\u001ad'D\u0001\u0003\u0001")
+/* loaded from: classes3-dex2jar.jar:scala/runtime/AbstractFunction10.class */
+public abstract class AbstractFunction10<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, R> implements Function10<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, R> {
+    public AbstractFunction10() {
+        Function10.Cclass.$init$(this);
+    }
+
+    @Override // scala.Function10
+    public Function1<T1, Function1<T2, Function1<T3, Function1<T4, Function1<T5, Function1<T6, Function1<T7, Function1<T8, Function1<T9, Function1<T10, R>>>>>>>>>> curried() {
+        return Function10.Cclass.curried(this);
+    }
+
+    @Override // scala.Function10
+    public String toString() {
+        return Function10.Cclass.toString(this);
+    }
+
+    @Override // scala.Function10
+    public Function1<Tuple10<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>, R> tupled() {
+        return Function10.Cclass.tupled(this);
+    }
+}

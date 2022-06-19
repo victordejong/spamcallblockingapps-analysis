@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center|top" android:orientation="vertical" android:background="@color/colorAccent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include app:layout_constraintTop_toTopOf="parent" layout="@layout/top_nav" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="32.0dip" app:layout_constraintTop_toBottomOf="@id/topNav">
+        <Switch android:textSize="16.0sp" android:textColor="@color/colorDefaultBlack" android:gravity="center_vertical" android:id="@id/third_party_switch_data_share_access" android:paddingTop="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:thumb="@drawable/ic_thumb" android:text="@string/third_party_switch_data_share_access" android:drawablePadding="8.0dip" android:track="@drawable/switch_btn" android:fontFamily="sans-serif-medium" android:layout_marginEnd="24.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/colorDefaultBlackTransparent50" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/third_party_switch_data_share_access_desc" android:layout_marginEnd="24.0dip" />
+        <View android:background="@color/colorDefaultBlack" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="24.0dip" />
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/third_party_app_open_direct" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginEnd="16.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="@color/colorDefaultBlack" android:gravity="center" android:id="@id/third_party_app_open_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/third_party_app_open_direct" android:layout_centerVertical="true" android:fontFamily="sans-serif-medium" android:layout_marginStart="0.0dip" style="@style/ListItemTextTitle" />
+            <ImageView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_chevron_right_dark" android:layout_centerInParent="true" android:contentDescription="@string/detail" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

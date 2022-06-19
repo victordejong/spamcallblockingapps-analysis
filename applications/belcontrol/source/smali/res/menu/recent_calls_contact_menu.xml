@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/details" android:orderInCategory="100" android:title="@string/menu_item_call_details" />
+    <item android:id="@id/add_contact" android:orderInCategory="100" android:title="@string/menu_item_add_to_contacts" />
+</menu>

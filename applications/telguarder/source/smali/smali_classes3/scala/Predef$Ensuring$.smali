@@ -1,0 +1,312 @@
+.class public Lscala/Predef$Ensuring$;
+.super Ljava/lang/Object;
+.source "Predef.scala"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lscala/Predef;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "Ensuring$"
+.end annotation
+
+
+# static fields
+.field public static final MODULE$:Lscala/Predef$Ensuring$;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lscala/Predef$Ensuring$;
+
+    invoke-direct {v0}, Lscala/Predef$Ensuring$;-><init>()V
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 252
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    sput-object p0, Lscala/Predef$Ensuring$;->MODULE$:Lscala/Predef$Ensuring$;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final ensuring$extension0(Ljava/lang/Object;Z)Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<A:",
+            "Ljava/lang/Object;",
+            ">(TA;Z)TA;"
+        }
+    .end annotation
+
+    .line 253
+    sget-object v0, Lscala/Predef$;->MODULE$:Lscala/Predef$;
+
+    invoke-virtual {v0, p2}, Lscala/Predef$;->assert(Z)V
+
+    return-object p1
+.end method
+
+.method public final ensuring$extension1(Ljava/lang/Object;ZLscala/Function0;)Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<A:",
+            "Ljava/lang/Object;",
+            ">(TA;Z",
+            "Lscala/Function0<",
+            "Ljava/lang/Object;",
+            ">;)TA;"
+        }
+    .end annotation
+
+    .line 254
+    sget-object v0, Lscala/Predef$;->MODULE$:Lscala/Predef$;
+
+    if-eqz p2, :cond_0
+
+    return-object p1
+
+    :cond_0
+    new-instance p1, Ljava/lang/AssertionError;
+
+    new-instance p2, Lscala/collection/mutable/StringBuilder;
+
+    invoke-direct {p2}, Lscala/collection/mutable/StringBuilder;-><init>()V
+
+    const-string v0, "assertion failed: "
+
+    invoke-virtual {p2, v0}, Lscala/collection/mutable/StringBuilder;->append(Ljava/lang/Object;)Lscala/collection/mutable/StringBuilder;
+
+    move-result-object p2
+
+    invoke-interface {p3}, Lscala/Function0;->apply()Ljava/lang/Object;
+
+    move-result-object p3
+
+    invoke-virtual {p2, p3}, Lscala/collection/mutable/StringBuilder;->append(Ljava/lang/Object;)Lscala/collection/mutable/StringBuilder;
+
+    move-result-object p2
+
+    invoke-virtual {p2}, Lscala/collection/mutable/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p2
+
+    invoke-direct {p1, p2}, Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
+
+    throw p1
+.end method
+
+.method public final ensuring$extension2(Ljava/lang/Object;Lscala/Function1;)Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<A:",
+            "Ljava/lang/Object;",
+            ">(TA;",
+            "Lscala/Function1<",
+            "TA;",
+            "Ljava/lang/Object;",
+            ">;)TA;"
+        }
+    .end annotation
+
+    .line 255
+    sget-object v0, Lscala/Predef$;->MODULE$:Lscala/Predef$;
+
+    invoke-interface {p2, p1}, Lscala/Function1;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p2
+
+    invoke-static {p2}, Lscala/runtime/BoxesRunTime;->unboxToBoolean(Ljava/lang/Object;)Z
+
+    move-result p2
+
+    invoke-virtual {v0, p2}, Lscala/Predef$;->assert(Z)V
+
+    return-object p1
+.end method
+
+.method public final ensuring$extension3(Ljava/lang/Object;Lscala/Function1;Lscala/Function0;)Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<A:",
+            "Ljava/lang/Object;",
+            ">(TA;",
+            "Lscala/Function1<",
+            "TA;",
+            "Ljava/lang/Object;",
+            ">;",
+            "Lscala/Function0<",
+            "Ljava/lang/Object;",
+            ">;)TA;"
+        }
+    .end annotation
+
+    .line 256
+    sget-object v0, Lscala/Predef$;->MODULE$:Lscala/Predef$;
+
+    invoke-interface {p2, p1}, Lscala/Function1;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p2
+
+    invoke-static {p2}, Lscala/runtime/BoxesRunTime;->unboxToBoolean(Ljava/lang/Object;)Z
+
+    move-result p2
+
+    if-eqz p2, :cond_0
+
+    return-object p1
+
+    :cond_0
+    new-instance p1, Ljava/lang/AssertionError;
+
+    new-instance p2, Lscala/collection/mutable/StringBuilder;
+
+    invoke-direct {p2}, Lscala/collection/mutable/StringBuilder;-><init>()V
+
+    const-string v0, "assertion failed: "
+
+    invoke-virtual {p2, v0}, Lscala/collection/mutable/StringBuilder;->append(Ljava/lang/Object;)Lscala/collection/mutable/StringBuilder;
+
+    move-result-object p2
+
+    invoke-interface {p3}, Lscala/Function0;->apply()Ljava/lang/Object;
+
+    move-result-object p3
+
+    invoke-virtual {p2, p3}, Lscala/collection/mutable/StringBuilder;->append(Ljava/lang/Object;)Lscala/collection/mutable/StringBuilder;
+
+    move-result-object p2
+
+    invoke-virtual {p2}, Lscala/collection/mutable/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p2
+
+    invoke-direct {p1, p2}, Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
+
+    throw p1
+.end method
+
+.method public final equals$extension(Ljava/lang/Object;Ljava/lang/Object;)Z
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<A:",
+            "Ljava/lang/Object;",
+            ">(TA;",
+            "Ljava/lang/Object;",
+            ")Z"
+        }
+    .end annotation
+
+    .line 252
+    instance-of v0, p2, Lscala/Predef$Ensuring;
+
+    const/4 v1, 0x1
+
+    const/4 v2, 0x0
+
+    if-eqz v0, :cond_5
+
+    if-nez p2, :cond_0
+
+    const/4 p2, 0x0
+
+    goto :goto_0
+
+    :cond_0
+    check-cast p2, Lscala/Predef$Ensuring;
+
+    invoke-virtual {p2}, Lscala/Predef$Ensuring;->scala$Predef$Ensuring$$self()Ljava/lang/Object;
+
+    move-result-object p2
+
+    :goto_0
+    if-ne p1, p2, :cond_1
+
+    const/4 p1, 0x1
+
+    goto :goto_1
+
+    :cond_1
+    if-nez p1, :cond_2
+
+    const/4 p1, 0x0
+
+    goto :goto_1
+
+    :cond_2
+    instance-of v0, p1, Ljava/lang/Number;
+
+    if-eqz v0, :cond_3
+
+    check-cast p1, Ljava/lang/Number;
+
+    invoke-static {p1, p2}, Lscala/runtime/BoxesRunTime;->equalsNumObject(Ljava/lang/Number;Ljava/lang/Object;)Z
+
+    move-result p1
+
+    goto :goto_1
+
+    :cond_3
+    instance-of v0, p1, Ljava/lang/Character;
+
+    if-eqz v0, :cond_4
+
+    check-cast p1, Ljava/lang/Character;
+
+    invoke-static {p1, p2}, Lscala/runtime/BoxesRunTime;->equalsCharObject(Ljava/lang/Character;Ljava/lang/Object;)Z
+
+    move-result p1
+
+    goto :goto_1
+
+    :cond_4
+    invoke-virtual {p1, p2}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    :goto_1
+    if-eqz p1, :cond_5
+
+    goto :goto_2
+
+    :cond_5
+    const/4 v1, 0x0
+
+    :goto_2
+    return v1
+.end method
+
+.method public final hashCode$extension(Ljava/lang/Object;)I
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<A:",
+            "Ljava/lang/Object;",
+            ">(TA;)I"
+        }
+    .end annotation
+
+    .line 252
+    invoke-virtual {p1}, Ljava/lang/Object;->hashCode()I
+
+    move-result p1
+
+    return p1
+.end method

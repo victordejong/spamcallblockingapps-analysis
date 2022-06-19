@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/flashTextContainer" android:background="@color/white" android:padding="@dimen/flash_common_padding_half" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textStyle="bold" android:textColor="@color/primary_text" android:gravity="center" android:id="@id/bottomSheetTitle" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/flash_share_image_title" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/flash_imageShare_button_container" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/bottomSheetTitle">
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/imageShareViaFlash" android:background="@drawable/dark_round_button_default" android:padding="@dimen/flash_common_padding" android:layout_width="@dimen/flash_share_image_icon" android:layout_height="@dimen/flash_share_image_icon" android:src="@drawable/ic_flash_bolt" />
+            <TextView android:textColor="@color/primary_text" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/flash_share_image_text_margin" android:text="@string/flash_image_share_via_flash" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/imageShare" android:background="@drawable/dark_round_button_default" android:padding="@dimen/flash_common_padding" android:layout_width="@dimen/flash_share_image_icon" android:layout_height="@dimen/flash_share_image_icon" android:src="@drawable/flash_icon_share" />
+            <TextView android:textColor="@color/primary_text" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/flash_share_image_text_margin" android:text="@string/flash_share_image_other_apps" />
+        </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

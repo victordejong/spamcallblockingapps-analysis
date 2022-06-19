@@ -1,0 +1,96 @@
+package com.google.android.gms.ads.internal.util;
+
+import android.annotation.TargetApi;
+import android.media.MediaCodecInfo;
+import android.media.MediaCodecList;
+import android.os.Build;
+import android.util.Range;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+/* renamed from: com.google.android.gms.ads.internal.util.l1 */
+/* loaded from: classes-dex2jar.jar:com/google/android/gms/ads/internal/util/l1.class */
+public final class C5713l1 {
+
+    /* renamed from: b */
+    private static List<MediaCodecInfo> f18506b;
+
+    /* renamed from: a */
+    private static final Map<String, List<Map<String, Object>>> f18505a = new HashMap();
+
+    /* renamed from: c */
+    private static final Object f18507c = new Object();
+
+    @TargetApi(16)
+    /* renamed from: a */
+    public static List<Map<String, Object>> m18001a(String str) {
+        ArrayList arrayList;
+        MediaCodecInfo.CodecProfileLevel[] codecProfileLevelArr;
+        Object obj = f18507c;
+        synchronized (obj) {
+            Map<String, List<Map<String, Object>>> map = f18505a;
+            if (map.containsKey(str)) {
+                return map.get(str);
+            }
+            try {
+                synchronized (obj) {
+                    if (f18506b == null) {
+                        if (Build.VERSION.SDK_INT >= 21) {
+                            f18506b = Arrays.asList(new MediaCodecList(0).getCodecInfos());
+                        } else {
+                            int codecCount = MediaCodecList.getCodecCount();
+                            f18506b = new ArrayList(codecCount);
+                            for (int i = 0; i < codecCount; i++) {
+                                f18506b.add(MediaCodecList.getCodecInfoAt(i));
+                            }
+                        }
+                    }
+                    arrayList = new ArrayList();
+                    for (MediaCodecInfo mediaCodecInfo : f18506b) {
+                        if (!mediaCodecInfo.isEncoder() && Arrays.asList(mediaCodecInfo.getSupportedTypes()).contains(str)) {
+                            HashMap hashMap = new HashMap();
+                            hashMap.put("codecName", mediaCodecInfo.getName());
+                            MediaCodecInfo.CodecCapabilities capabilitiesForType = mediaCodecInfo.getCapabilitiesForType(str);
+                            ArrayList arrayList2 = new ArrayList();
+                            for (MediaCodecInfo.CodecProfileLevel codecProfileLevel : capabilitiesForType.profileLevels) {
+                                arrayList2.add(new Integer[]{Integer.valueOf(codecProfileLevel.profile), Integer.valueOf(codecProfileLevel.level)});
+                            }
+                            hashMap.put("profileLevels", arrayList2);
+                            int i2 = Build.VERSION.SDK_INT;
+                            if (i2 >= 21) {
+                                MediaCodecInfo.VideoCapabilities videoCapabilities = capabilitiesForType.getVideoCapabilities();
+                                hashMap.put("bitRatesBps", m18000b(videoCapabilities.getBitrateRange()));
+                                hashMap.put("widthAlignment", Integer.valueOf(videoCapabilities.getWidthAlignment()));
+                                hashMap.put("heightAlignment", Integer.valueOf(videoCapabilities.getHeightAlignment()));
+                                hashMap.put("frameRates", m18000b(videoCapabilities.getSupportedFrameRates()));
+                                hashMap.put("widths", m18000b(videoCapabilities.getSupportedWidths()));
+                                hashMap.put("heights", m18000b(videoCapabilities.getSupportedHeights()));
+                            }
+                            if (i2 >= 23) {
+                                hashMap.put("instancesLimit", Integer.valueOf(capabilitiesForType.getMaxSupportedInstances()));
+                            }
+                            arrayList.add(hashMap);
+                        }
+                    }
+                    f18505a.put(str, arrayList);
+                }
+                return arrayList;
+            } catch (LinkageError | RuntimeException e) {
+                HashMap hashMap2 = new HashMap();
+                hashMap2.put("error", e.getClass().getSimpleName());
+                ArrayList arrayList3 = new ArrayList();
+                arrayList3.add(hashMap2);
+                f18505a.put(str, arrayList3);
+                return arrayList3;
+            }
+        }
+    }
+
+    @TargetApi(21)
+    /* renamed from: b */
+    private static Integer[] m18000b(Range<Integer> range) {
+        return new Integer[]{range.getLower(), range.getUpper()};
+    }
+}

@@ -1,0 +1,16 @@
+.class public interface abstract Le/a/h/r0/b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract a()Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Le/a/h/e/l;",
+            ">;"
+        }
+    .end annotation
+.end method

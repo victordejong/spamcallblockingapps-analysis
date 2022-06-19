@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/settings_call_hd_caller_id" app:layout="@layout/settings_title_header">
+        <CheckBoxPreference android:title="@string/settings_call_callerid_id_incoming" android:key="@string/settings_call_key_incoming" android:widgetLayout="@layout/custom_checkbox" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/settings_call_callerid_id_outgoing" android:key="@string/settings_call_key_outgoing" android:widgetLayout="@layout/custom_checkbox" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/settings_call_callerid_unknown_only" android:key="@string/settings_call_key_unknown" android:summary="@string/settings_call_callerid_unknown_only_desc" android:widgetLayout="@layout/custom_checkbox" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/settings_call_callerid_after" android:key="@string/settings_call_key_after_call" android:summary="@string/settings_call_callerid_after_desc" android:widgetLayout="@layout/custom_checkbox" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/settings_call_messages_title" android:key="@string/settings_call_key_text_message" android:summary="@string/settings_call_messages_desc" android:widgetLayout="@layout/custom_checkbox" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_call_hd_fraud_scam" app:layout="@layout/settings_title_header">
+        <ListPreference android:entries="@array/settings_options_key" android:title="@string/settings_call_hd_fraud_scam" android:key="@string/settings_call_key_fraud_scam_call" android:defaultValue="0" android:entryValues="@array/settings_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_call_hd_spam" app:layout="@layout/settings_title_header">
+        <ListPreference android:entries="@array/settings_options_key" android:title="@string/settings_call_hd_spam" android:key="@string/settings_call_key_spam_call" android:defaultValue="1" android:entryValues="@array/settings_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_call_hd_private_numbers" app:layout="@layout/settings_title_header">
+        <ListPreference android:entries="@array/settings_options_private_key" android:title="@string/settings_call_private_num_title" android:key="@string/settings_call_key_private_message" android:defaultValue="0" android:entryValues="@array/settings_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_call_call_screener" app:layout="@layout/settings_title_header">
+        <ListPreference android:entries="@array/settings_options_call_screener_entries" android:title="@string/settings_call_call_screener_title" android:key="@string/settings_call_key_call_screener" android:defaultValue="0" android:entryValues="@array/settings_values" />
+    </PreferenceCategory>
+    <PreferenceCategory app:layout="@layout/settings_clear_log_header">
+        <Preference android:title="@string/settings_menu_clear_history" android:key="@string/settings_key_clear_history" />
+    </PreferenceCategory>
+    <PreferenceCategory app:layout="@layout/settings_footer" />
+</PreferenceScreen>

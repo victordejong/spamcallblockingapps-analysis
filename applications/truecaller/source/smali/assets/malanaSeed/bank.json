@@ -1,0 +1,129 @@
+{
+  "ICICI Bank": [
+    "ICICIB"
+  ],
+  "HDFC Bank": [
+    "HDFCBK"
+  ],
+  "State Bank of India": [
+    "ATMSBT",
+    "CBSSBT",
+    "SBTINB",
+    "SBTNET",
+    "ATMSBI",
+    "SBIINB",
+    "SBINET",
+    "CBSSBI",
+    "SBICRD",
+    "SBIPSG",
+    "SBIACS",
+    "SBIOTP"
+  ],
+  "Axis Bank": [
+    "AXISBK"
+  ],
+  "Citi Bank": [
+    "CITIBK",
+    "CITIAT"
+  ],
+  "Canara Bank": [
+    "CANBNK",
+    "CANCRD"
+  ],
+  "Federal Bank": [
+    "FEDBNK"
+  ],
+  "IDBI Bank": [
+    "IDBIBK"
+  ],
+  "Kotak Bank": [
+    "KOTAKB",
+    "KTKBNK"
+  ],
+  "Punjab National Bank": [
+    "PNBSMS",
+    "PNBRWD",
+    "PNBHFL",
+    "PNBCCD",
+    "PNBCRC"
+  ],
+  "Indus Bank": [
+    "INDUSB"
+  ],
+  "Indian Bank": [
+    "INDBNK",
+    "INDBCC"
+  ],
+  "Union Bank": [
+    "UNIONB",
+    "IPRSMS"
+  ],
+  "Yes Bank": [
+    "YESBNK"
+  ],
+  "Dhanalakshmi Bank": [
+    "DHANBK"
+  ],
+  "American Express": [
+    "MYAMEX",
+    "AMEXEP",
+    "XXAMEX"
+  ],
+  "Andhra Bank": [
+    "ANDBNK",
+    "ANDHBK"
+  ],
+  "Bank of Baroda": [
+    "BOBTXN",
+    "BOBCRD",
+    "BOBADC",
+    "BOBSMS"
+  ],
+  "Bank of India": [
+    "BOIIND",
+    "STARBI",
+    "BOITXN"
+  ],
+  "Bank of Maharashtra": [
+    "MAHABK"
+  ],
+  "Corporate Bank": [
+    "CORPBK"
+  ],
+  "Catholic Syrian Bank": [
+    "CSBBNK"
+  ],
+  "Deutsche Bank": [
+    "DBALRT"
+  ],
+  "HSBC Bank": [
+    "HSBCIN",
+    "HSBCBK"
+  ],
+  "Syndicate Bank": [
+    "SYNDBK",
+    "SYBANK",
+    "SYNBNK"
+  ],
+  "Indian Overseas Bank": [
+    "IOBCHN"
+  ],
+  "KV Bank": [
+    "KVBANK"
+  ],
+  "South Indian Bank": [
+    "SIBSMS"
+  ],
+  "SVC Bank": [
+    "SVCBNK"
+  ],
+  "Standard Chartered Bank": [
+    "FROMSC"
+  ],
+  "Allahabad Bank": [
+    "ALBANK"
+  ],
+  "Paytm Wallet": [
+    "IPAYTM"
+  ]
+}

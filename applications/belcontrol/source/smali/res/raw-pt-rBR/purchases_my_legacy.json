@@ -1,0 +1,27 @@
+{
+		"top" : "A função ID Caller aprimorada mostra quem está ligando ao receber uma chamada desconhecida, assim você sempre saberá quem está ligando.",
+
+        "sections" : [
+            {
+                "img" : "glass",
+                "descr" : "Exibe o nome de callers desconhecidos",
+                "width": "40",
+                "height": "40"
+            },
+            {
+                "img" : "group",
+                "descr" : "Milhões de indivíduos e empresas",
+                "width": "40",
+                "height": "40"
+
+            },
+            {
+                "img" : "credits",
+                "descr" : "Recebe 10 créditos bônus por buscas manuais",
+                "width": "40",
+                "height": "40"
+            }
+        ],
+
+        "bottom" : ""
+}

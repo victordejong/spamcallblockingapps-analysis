@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/dismiss_filter_background" android:layout_width="wrap_content" android:layout_height="@dimen/dp32"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="?tcx_brandBackgroundBlue" android:id="@id/filterName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAllCaps="true" android:layout_marginStart="@dimen/dp12" style="@style/StyleX.Text.Body.B2" />
+    <com.truecaller.ui.view.TintedImageView android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?tcx_brandBackgroundBlue" android:layout_marginStart="@dimen/dp12" android:layout_marginEnd="@dimen/dp12" app:srcCompat="@drawable/ic_close_black_24dp" />
+</LinearLayout>

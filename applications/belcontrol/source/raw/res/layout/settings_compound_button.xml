@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/settings_BlockIncomingCalls" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:checked="true" android:text="@string/settings_EnableCallControl" style="@style/ListItemTextTitle" />
+        <include layout="@layout/ic_divider_settings" />
+        <CheckBox android:id="@id/settings_LegacyMode" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:checked="true" android:text="@string/settings_DialerInterface" style="@style/ListItemTextTitle" />
+        <LinearLayout android:orientation="vertical" android:id="@id/settings_DefaultDialerSection" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/ic_divider_settings" />
+            <CheckBox android:id="@id/settings_IsDefaultApp" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:checked="true" android:text="@string/settings_DefaultDialer" style="@style/ListItemTextTitle" />
+            <TextView android:id="@id/settings_IsDefaultApp_hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="4.0dip" android:text="@string/settings_DefaultDialer_hint" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/settings_CustomInCallUISection" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/ic_divider_settings" />
+            <CheckBox android:id="@id/settings_customInCallUI" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:checked="true" android:text="@string/settings_customInCallUI" style="@style/ListItemTextTitle" />
+            <TextView android:id="@id/settings_customInCallUI_hint" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="4.0dip" android:text="@string/settings_customInCallUI_hint" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/settings_BlockMessagesSection" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/ic_divider_settings" />
+            <CheckBox android:id="@id/settings_BlockMessages" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:checked="false" android:text="@string/settings_BlockMessages" android:lines="2" style="@style/ListItemTextTitle" />
+        </LinearLayout>
+        <include layout="@layout/ic_divider_settings" />
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/settings_third_party_app_section" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip">
+            <ImageView android:id="@id/msg_icon" android:layout_width="wrap_content" android:layout_height="18.0dip" android:src="@drawable/ic_messages_off" android:layout_centerVertical="true" android:layout_marginStart="2.0dip" android:layout_alignParentStart="true" />
+            <TextView android:textColor="@color/darkdarkgrey_fontcolor" android:gravity="center" android:id="@id/settings_third_party_app" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_third_app_msg" android:layout_centerVertical="true" android:layout_marginStart="0.0dip" android:layout_toEndOf="@id/msg_icon" style="@style/ListItemTextTitle" />
+            <ImageView android:gravity="center_vertical" android:id="@id/settings_third_party_app_more_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_next" android:layout_centerInParent="true" android:contentDescription="@string/detail" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <include layout="@layout/ic_divider_settings" />
+        <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/community_block" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <CheckBox android:id="@id/settings_UseCommunityBlacklist" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:checked="false" android:text="" android:layout_alignParentLeft="true" style="@style/ListItemTextTitle" />
+            <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_UseCommunityBlacklist" android:layout_toRightOf="@id/settings_UseCommunityBlacklist" android:layout_centerInParent="true" style="@style/ListItemTextTitle" />
+            <ImageView android:gravity="center_vertical" android:id="@id/community_more_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:src="@drawable/ic_next" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:contentDescription="@string/detail" />
+            <TextView android:gravity="center_vertical" android:id="@id/types" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_toLeftOf="@id/next_arrow" android:layout_centerInParent="true" />
+            <include layout="@layout/divider" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/enhanced_caller_id_block" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/ic_divider_settings" />
+            <CheckBox android:id="@id/settings_UseCallerIDOverlay" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:checked="false" android:text="" android:layout_alignParentLeft="true" style="@style/ListItemTextTitle" />
+            <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_UseCallerIDOverlay" android:layout_toRightOf="@id/settings_UseCallerIDOverlay" android:layout_centerInParent="true" style="@style/ListItemTextTitle" />
+            <ImageView android:gravity="center_vertical" android:id="@id/enhanced_caller_id_more_arrow" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_next" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:contentDescription="@string/detail" />
+        </RelativeLayout>
+        <include layout="@layout/ic_divider_settings" />
+        <RelativeLayout android:id="@id/overlay_settings_block" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip">
+            <ImageView android:id="@id/overlay_settings_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:src="@drawable/ic_action_overlay_settings" android:layout_alignParentLeft="true" />
+            <TextView android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_UseOverlay" android:layout_toRightOf="@id/overlay_settings_icon" android:layout_centerInParent="true" style="@style/ListItemTextTitle" />
+            <ImageView android:gravity="center_vertical" android:id="@id/overlay_more_arrow" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_next" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:contentDescription="@string/detail" />
+        </RelativeLayout>
+        <include layout="@layout/ic_divider_settings" />
+        <LinearLayout android:orientation="vertical" android:id="@id/default_blocking_mode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="8.0dip" android:weightSum="1.0">
+            <TextView android:gravity="center_vertical" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_PreferabledCallBlockingMode" android:lines="2" android:layout_weight="0.55" style="@style/ListItemTextTitle" />
+            <Spinner android:layout_gravity="center" android:id="@id/settings_PreferabledCallBlockingMode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.45" style="@style/spinner" />
+        </LinearLayout>
+        <include layout="@layout/ic_divider_settings" />
+        <LinearLayout android:orientation="vertical" android:id="@id/default_blocking_mode_line2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="8.0dip" android:weightSum="1.0">
+            <TextView android:gravity="center_vertical" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_PreferabledCallBlockingModeSecondLine" android:lines="2" android:layout_weight="0.55" style="@style/ListItemTextTitle" />
+            <Spinner android:layout_gravity="center" android:id="@id/settings_PreferabledCallBlockingModeSecondLine" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.45" style="@style/spinner" />
+        </LinearLayout>
+        <include layout="@layout/ic_divider_settings" />
+        <LinearLayout android:orientation="vertical" android:id="@id/blocking_priority" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="8.0dip" android:weightSum="1.0">
+            <TextView android:gravity="center_vertical" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_blocking_priority" android:lines="2" android:layout_weight="0.55" style="@style/ListItemTextTitle" />
+            <Spinner android:layout_gravity="center" android:id="@id/settings_BlockingPriority" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.45" style="@style/spinner" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

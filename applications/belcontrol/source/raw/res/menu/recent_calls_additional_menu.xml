@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_toblock" android:id="@id/block_it" android:orderInCategory="100" android:title="@string/recentcall_additional_menu_item_block" />
+    <item android:icon="@drawable/ic_search_blue" android:id="@id/lookup" android:orderInCategory="100" android:title="@string/recentcall_additional_menu_item_lookup" />
+    <item android:icon="@drawable/ic_allowed" android:id="@id/allow_it" android:orderInCategory="100" android:title="@string/recentcall_additional_menu_item_allow" />
+    <item android:icon="@drawable/ic_call_device" android:id="@id/call" android:orderInCategory="100" android:title="@string/recentcall_additional_menu_item_call" />
+    <item android:icon="@drawable/ic_message_list" android:id="@id/message" android:orderInCategory="100" android:title="@string/recentcall_additional_menu_item_message" />
+    <item android:icon="@drawable/ic_action_plus" android:id="@id/add_contact" android:orderInCategory="100" android:title="@string/recentcall_additional_menu_item_add_contact" />
+    <item android:icon="@drawable/ic_action_content_remove_new" android:id="@id/remove" android:orderInCategory="100" android:title="@string/recentcall_additional_menu_item_remove" />
+    <item android:icon="@drawable/ic_contact" android:id="@id/details" android:orderInCategory="100" android:title="@string/recentcall_additional_menu_item_details" />
+</menu>

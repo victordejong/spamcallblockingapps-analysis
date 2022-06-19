@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <TextView android:id="@id/title_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/SuggestNameTitle" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/control_doublespace" android:layout_toStartOf="@id/close_button" style="@style/StyleX.Text.Subtitle.S1" />
+        <ImageView android:id="@id/close_button" android:background="?selectableItemBackgroundBorderless" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="center" android:layout_centerVertical="true" android:contentDescription="@string/StrClose" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_action_close" app:tint="?tcx_textSecondary" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <EditText android:id="@id/name_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textPersonName|textCapWords" android:imeOptions="actionDone" style="@style/SuggestNameEditText" />
+        <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/radio_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkedButton="@id/business_button" android:layout_below="@id/name_text" android:layout_alignTop="@id/save_button" android:layout_alignBottom="@id/save_button" android:layout_toStartOf="@id/save_button" android:layout_alignParentStart="true">
+            <RadioButton android:id="@id/business_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SuggestNameCompany" android:layout_marginEnd="16.0dip" style="@style/StyleX.RadioButton" />
+            <RadioButton android:id="@id/person_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/SuggestNamePerson" style="@style/StyleX.RadioButton" />
+        </RadioGroup>
+        <Button android:id="@id/save_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/StrSave" android:layout_below="@id/name_text" android:layout_alignParentEnd="true" style="@style/StyleX.Button.Small.Action" />
+    </RelativeLayout>
+</LinearLayout>

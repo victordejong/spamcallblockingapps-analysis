@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="?bg_list_card" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="101.69998dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="6.0dip" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="3.2999878dip" android:src="@drawable/iv_report" android:scaleType="fitXY" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" />
+        <TextView android:textSize="16.0sp" android:textColor="#fffefefe" android:id="@id/tv_report_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/report_main" android:layout_alignParentBottom="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

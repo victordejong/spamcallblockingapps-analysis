@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?android:windowBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:background="?theme_cardColor" android:layout_width="fill_parent" android:layout_height="56.0dip" app:contentInsetLeft="0.0dip" app:contentInsetStart="0.0dip">
+        <ImageButton android:id="@id/cancelButton" android:background="?selectableItemBackgroundBorderless" android:layout_width="46.0dip" android:layout_height="wrap_content" android:contentDescription="@null" android:layout_marginStart="@dimen/space" app:srcCompat="@drawable/business_profile_ic_cancel_gray" style="@style/Widget.AppCompat.Button.Borderless" />
+        <ImageButton android:layout_gravity="end" android:id="@id/submitButton" android:background="?selectableItemBackgroundBorderless" android:layout_width="46.0dip" android:layout_height="wrap_content" android:contentDescription="@null" android:layout_marginEnd="@dimen/space" android:layout_alignParentEnd="true" app:srcCompat="@drawable/business_profile_ic_create_gray" style="@style/Widget.AppCompat.Button.Borderless" />
+    </androidx.appcompat.widget.Toolbar>
+    <fragment android:name="com.google.android.gms.maps.SupportMapFragment" android:id="@id/mapView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="56.0dip" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="56.0dip" android:layout_marginBottom="32.0dip" android:scaleType="centerInside" android:contentDescription="@null" app:srcCompat="@drawable/business_profile_ic_map_marker" />
+    <TextView android:gravity="center" android:id="@id/addressTextView" android:background="?theme_cardColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="56.0dip" android:minHeight="36.0dip" />
+    <FrameLayout android:background="@drawable/shadow_elevation" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_marginTop="56.0dip" />
+    <FrameLayout android:id="@id/loadingProgressBar" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginTop="56.0dip">
+        <ProgressBar android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="16.0dip" android:indeterminate="true" style="?android:progressBarStyleHorizontal" />
+    </FrameLayout>
+</RelativeLayout>

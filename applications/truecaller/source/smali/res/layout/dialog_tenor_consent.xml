@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/spacing_large" android:paddingBottom="@dimen/emoji_tab_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/emoji_tab_margin" android:paddingEnd="@dimen/emoji_tab_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_large" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/TenorConsentTitle" style="@style/StyleX.Text.Headline.H6" />
+    <TextView android:textColor="?tcx_textSecondary" android:textColorLink="?tcx_brandBackgroundBlue" android:id="@id/body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/emoji_tab_margin" android:text="@string/TenorConsentBody" style="@style/StyleX.Text.Caption" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/spacing_large">
+        <com.google.android.material.button.MaterialButton android:id="@id/btnCancel" android:layout_width="0.0dip" android:layout_height="@dimen/button_height" android:text="@string/actionCancel" android:layout_weight="1.0" android:layout_marginEnd="@dimen/spacing_small" style="@style/StyleX.Button.Secondary" />
+        <com.google.android.material.button.MaterialButton android:id="@id/btnContinue" android:layout_width="0.0dip" android:layout_height="@dimen/button_height" android:text="@string/actionContinue" android:layout_weight="1.0" android:layout_marginStart="8.0dip" style="@style/StyleX.Button.Primary" />
+    </LinearLayout>
+</LinearLayout>
