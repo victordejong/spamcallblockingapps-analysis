@@ -1,3 +1,4 @@
+*.apk filter=lfs diff=lfs merge=lfs -text
 /applications/asus-callblock/com.asus.contacts.apk filter=lfs diff=lfs merge=lfs -text
 /applications/callapp-contacts/com.callapp.contacts.apk filter=lfs diff=lfs merge=lfs -text
 /applications/gogolook-callgogolook2/classes-dex2jar.jar filter=lfs diff=lfs merge=lfs -text
